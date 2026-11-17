@@ -1,0 +1,15 @@
+book_id: "1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l"
+chapter: M03
+chapter_title: "变速器"
+actual_toc_observed: true
+source_pdf_toc_pages: [7]
+source_body_used_for_claims: false
+rights: NOT_VERIFIED
+coverage_status: IN_PROGRESS
+verification_status: MODEL_GENERATED_UNVERIFIED
+records_persisted_in_this_version: 12
+relationships_persisted_in_this_version: 12
+covered_sections: ["3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.10", "3.11"]
+remaining_sections: ["3.9 序列式变速器", "3.1-3.11 细分问题和反例补充"]
+next_cursor: "M03/3.9 序列式变速器及剩余细分主题；然后M04传动系统"
+book_status: IN_PROGRESS
