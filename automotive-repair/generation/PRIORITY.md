@@ -15,7 +15,7 @@
 
 | Dispatch | Task | 唯一 Output .md | 调度理由（非故障频率） | F | 状态 |
 |---|---|---|---|---|---|
-| 1 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | 基础 ICE 系统，后续功能/润滑失效前置；R2 现提交 `69f7584` | UNKNOWN | GENERATED_REVIEW_PENDING |
+| 1 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | [独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6956153492)，P2×1 ISO 来源时效 | UNKNOWN | ACCEPT_SCOPED_GENERATION_ONLY |
 | 2 | `STR-BRK` | `topics/braking/structure.md` | [独立内容质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)；安全架构 | UNKNOWN | ACCEPT_SCOPED_GENERATION_ONLY |
 | 3 | `STR-HV` | `topics/electrified/high-voltage/structure.md` | [独立内容质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；非操作性 | UNKNOWN | ACCEPT_SCOPED_GENERATION_ONLY |
 | 4 | `STR-AT` | `topics/transmission/automatic/structure.md` | 传统液力行星 AT；[独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955520356) | UNKNOWN | ACCEPT_SCOPED_GENERATION_ONLY |
@@ -24,11 +24,21 @@
 
 ## 3. 已释放的下游独立知识任务
 
-`FUN-ENG-LUBE`：直接前置 `STR-ENG-LUBE` 已有 R2 Markdown Commit `69f7584ff242eb452d77ceacd70d08863f7d8579`、Blob `ff103f4cfd948534be5ca2b9413128aee502987f`；内容质量审核仍 PENDING，因此后续 Writer 应保留 `MODEL_GENERATED_UNVERIFIED` 并在上游 REWORK 时标记影响范围 `STALE`。下游可由其它对话按独占写集认领，不能把结构稿称为专业 OEM 已核实输入。
+`FUN-ENG-LUBE`：直接前置 `STR-ENG-LUBE` 已有 R2 Markdown Commit `69f7584ff242eb452d77ceacd70d08863f7d8579`、Blob `ff103f4cfd948534be5ca2b9413128aee502987f`；内容质量已限定 ACCEPT（P2 来源时效待后续维护），后续 Writer 仍应保留 `MODEL_GENERATED_UNVERIFIED` 并在上游 REWORK 时标记影响范围 `STALE`。下游可由其它对话按独占写集认领，不能把结构稿称为专业 OEM 已核实输入。
 
 **此外**：`FUN-BRK` 与 `FUN-HV` 也各自具备独立质量接受的结构前置。 `FUN-AT-PATH` 与 `FUN-AT-HYD` 可并行研究（上游 `STR-AT@ed2b997c...` 已获限定内容质量 ACCEPT）；`FUN-BRK` 上游 `STR-BRK@e231eda...`；`FUN-HV` 上游 `STR-HV@472127e...`。任何上游独审若 REWORK，需把受影响下游标为 STALE 并重算前置。
 
-优先先让 4 篇结构稿分别接受其它对话独立质量审查，以避免并行传播未识别的 P1；如使用未审上游先推进下一阶段，必须明确其 `MODEL_GENERATED_UNVERIFIED` 与后续可回滚性。
+四篇结构稿已获不同对话的限定内容质量 ACCEPT，可以各自启动 FUN；仍需各自保留 `MODEL_GENERATED_UNVERIFIED`、按真实来源进行车型适用性判断和未来有证据反例时局部回滚。
+
+## 缅甸在用车型系列双轴调度（R2）
+
+- [SERIES R2 独立审核 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6959482030)、[SER-DISPATCH admitted](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6960479119)；批准的候选是 **Toyota Probox/Succeed 对照**与 **Honda Fit**，旧外部新车试点不恢复。
+- `SER-DISC-PROBOX` 已真实交付 [Markdown](./series/myanmar/toyota/probox/discovery.md) · Commit `a248b9ae9cf2d8ee6d89be52435e153e3784c2aa` · Blob `c8f011229a4e6fa6c66ae092a6f19a21142b4f19`；`GENERATED_REVIEW_PENDING`。
+- `SER-DISC-FIT` 已真实交付 [Markdown](./series/myanmar/honda/fit/discovery.md) · Commit `fc9308d352b0dd8273549bd86ef260e90ec5cc4e` · Blob `2c8ab39f67c076352586eed2a2f2187147fa909a`；`GENERATED_REVIEW_PENDING`。
+- 两篇均落实源资料与当地挂牌分账：CarMM 个别 listing URL/2026-11-18；缅甸市场报道是 2022 历史交易；RTAD 行政样本不是 stock census；实际缅甸保有量、故障率、具体 VIN 配置均 UNKNOWN。
+- **优先下轮任务（需要不同非 Writer 对话）：** 两篇 SERIES_DISC_CONTENT_REVIEW 可完全并行。只在质量审核通过且已有可证实的构型差异时，可按 PLAN 与 Claim 启动 `SER-DELTA-PROBOX-TRANS` / `SER-DELTA-FIT-TRANS` 两个候选；润滑和制动差量当前仍 `CONDITIONAL/SOURCE_GAP`，不灌水。
+- **防饥饿**：仍保留 `STR-LOWV`/转向/热管理的广度 Writer 和 `FUN-AT-PATH`/`FUN-AT-HYD`/`FUN-BRK` 等通用深度 Writer 并行，不能因为新 series 就暂停旧主 DAG。
+- **硬条件/可选对照 P2**：对 CVT/MT/DCT 的新子图不应把传统 AT STR 作强制先决；现行被独审接受的 R2 表不擅自改 Blob，下一次 C-REPLAN 必须按需要移除虚假 hard edge，并完整验证新图与增量审核。
 
 ## 4. 当前最高优先但延期的广度分支
 
