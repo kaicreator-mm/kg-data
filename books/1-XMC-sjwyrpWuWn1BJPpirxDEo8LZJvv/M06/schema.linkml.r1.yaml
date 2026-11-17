@@ -1,0 +1,63 @@
+{
+  "id": "https://example.org/parts/kg/m06",
+  "name": "parts_book_m06",
+  "prefixes": {
+    "linkml": "https://w3id.org/linkml/",
+    "parts": "https://example.org/parts/kg/"
+  },
+  "default_prefix": "parts",
+  "imports": [
+    "linkml:types"
+  ],
+  "classes": {
+    "KnowledgeRecord": {
+      "attributes": {
+        "id": {
+          "identifier": true,
+          "range": "string",
+          "required": true
+        },
+        "title": {
+          "range": "string",
+          "required": true
+        },
+        "kind": {
+          "range": "string"
+        },
+        "statement": {
+          "range": "string",
+          "required": true
+        },
+        "technical_explanation": {
+          "range": "string"
+        },
+        "assumptions_and_scope": {
+          "range": "string"
+        },
+        "counterexample": {
+          "range": "string"
+        },
+        "toc_anchor": {
+          "range": "string"
+        },
+        "source_scope": {
+          "range": "string",
+          "required": true
+        },
+        "source_input_scope": {
+          "range": "string"
+        },
+        "verification_status": {
+          "range": "string",
+          "required": true
+        },
+        "generation_provenance": {
+          "range": "string"
+        },
+        "review_status": {
+          "range": "string"
+        }
+      }
+    }
+  }
+}
