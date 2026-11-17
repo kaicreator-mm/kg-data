@@ -33,10 +33,13 @@
 ## 缅甸在用车型系列双轴调度（R2）
 
 - [SERIES R2 独立审核 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6959482030)、[SER-DISPATCH admitted](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6960479119)；批准的候选是 **Toyota Probox/Succeed 对照**与 **Honda Fit**，旧外部新车试点不恢复。
-- `SER-DISC-PROBOX` 已真实交付 [Markdown](./series/myanmar/toyota/probox/discovery.md) · Commit `a248b9ae9cf2d8ee6d89be52435e153e3784c2aa` · Blob `c8f011229a4e6fa6c66ae092a6f19a21142b4f19`；`GENERATED_REVIEW_PENDING`。
-- `SER-DISC-FIT` 已真实交付 [Markdown](./series/myanmar/honda/fit/discovery.md) · Commit `fc9308d352b0dd8273549bd86ef260e90ec5cc4e` · Blob `2c8ab39f67c076352586eed2a2f2187147fa909a`；`GENERATED_REVIEW_PENDING`。
+- `SER-DISC-PROBOX` 已交付 [Markdown](./series/myanmar/toyota/probox/discovery.md) · Blob `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [独立内容质量 ACCEPT（P2×2）](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777)。
+- `SER-DISC-FIT` 已交付 [Markdown](./series/myanmar/honda/fit/discovery.md) · Blob `2c8ab39f67c076352586eed2a2f2187147fa909a` · [独立内容质量 ACCEPT（P2×3）](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386)。
 - 两篇均落实源资料与当地挂牌分账：CarMM 个别 listing URL/2026-11-18；缅甸市场报道是 2022 历史交易；RTAD 行政样本不是 stock census；实际缅甸保有量、故障率、具体 VIN 配置均 UNKNOWN。
-- **优先下轮任务（需要不同非 Writer 对话）：** 两篇 SERIES_DISC_CONTENT_REVIEW 可完全并行。只在质量审核通过且已有可证实的构型差异时，可按 PLAN 与 Claim 启动 `SER-DELTA-PROBOX-TRANS` / `SER-DELTA-FIT-TRANS` 两个候选；润滑和制动差量当前仍 `CONDITIONAL/SOURCE_GAP`，不灌水。
+- **本轮真实新产出**：Probox TRANS [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) · Commit `b44c8fcd857df3a315322679734779b2f61a4a26` · Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`；Fit TRANS [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) · Commit `80786eb8b1795751dc6295e77ab986a3e51d9a63` · Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`。两个 Writer 均已 RELEASE，**仅 GENERATED_REVIEW_PENDING**；待另外两个对话独立审核，不能将其认定为车型维修标准。
+- **事件触发完成**：`SER-VARIANT-CHECK` [实际生成](./series/myanmar/series-variant-gaps.md) · Commit `b6ba674221c791c7223a54d9911060e1aca64466` · Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`；发现共用 CVT 和 HEV 家族知识候选。由于上游 delta 仍待独审，此 gap 也是 `GENERATED_REVIEW_PENDING`，上游若 REWORK 必须 STALE 传播。
+- **不应启动**：`SER-DELTA-PROBOX-LUBE`、`SER-DELTA-FIT-BRK` 仍缺真正源码/适用版本，`SER-REPLAN` 也未执行；新的 `STR-CVT-FAMILY`、`STR-HEV-FAMILY` 只是建议，必须走全图变更审核后再准入，不能当 READY。
+- **下一轮优先**：两个 TRANS delta 独立内容质量审核可完全并发；`SER-VARIANT-CHECK` 在其依赖审核通过后增量复核；原通用广度与功能任务继续不受影响。
 - **防饥饿**：仍保留 `STR-LOWV`/转向/热管理的广度 Writer 和 `FUN-AT-PATH`/`FUN-AT-HYD`/`FUN-BRK` 等通用深度 Writer 并行，不能因为新 series 就暂停旧主 DAG。
 - **硬条件/可选对照 P2**：对 CVT/MT/DCT 的新子图不应把传统 AT STR 作强制先决；现行被独审接受的 R2 表不擅自改 Blob，下一次 C-REPLAN 必须按需要移除虚假 hard edge，并完整验证新图与增量审核。
 
