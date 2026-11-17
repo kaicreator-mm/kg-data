@@ -1,0 +1,18 @@
+id: https://example.org/parts/book-title-candidates
+name: body_electronics_candidate
+prefixes:
+  linkml: https://w3id.org/linkml/
+  ex: https://example.org/kg/
+default_prefix: ex
+imports:
+  - linkml:types
+classes:
+  KnowledgeCandidate:
+    attributes:
+      id: {range: string, required: true, identifier: true}
+      title: {range: string, required: true}
+      mechanism: {range: string, required: true}
+      explanation: {range: string, required: true}
+      applicability: {range: string, required: true}
+      counterexample: {range: string, required: true}
+      verification_status: {range: string, required: true}
