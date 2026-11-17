@@ -1,0 +1,16 @@
+book_file_id: "1MoqLenqKgXd7m0-s6GkpK3qlJnyf63t8"
+module: M04
+chapter_topic: "第二篇 第四章 怠速振动"
+observed_toc_topics:
+  - "怠速时车身振动"
+  - "空档加速时车身振动"
+  - "怠速品质"
+chapter_status: SELF_QA
+knowledge_records: 12
+relations: 24
+qualified_records: 0
+verification_status: MODEL_GENERATED_UNVERIFIED
+source_scope: TOC_THEME_ONLY
+book_status: IN_PROGRESS
+next_cursor: "第二篇 第五章 怠速噪声；回补M01第一章剩余主题并检查M02/M03章节覆盖"
+other_chapters: NOT_STARTED_OR_PARTIAL
