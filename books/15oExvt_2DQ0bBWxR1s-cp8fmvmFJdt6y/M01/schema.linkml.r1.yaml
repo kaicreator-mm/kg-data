@@ -1,0 +1,24 @@
+id: https://example.org/kg/lane4/m01
+name: Lane4BookKnowledge
+prefixes:
+  linkml: https://w3id.org/linkml/
+  kg: https://example.org/kg/
+default_prefix: kg
+imports:
+  - linkml:types
+classes:
+  KnowledgeRecord:
+    attributes:
+      id: {range: string, required: true, identifier: true}
+      title: {range: string, required: true}
+      kind: {range: string}
+      mechanism: {range: string, required: true}
+      applicability: {range: string, required: true}
+      counterexample: {range: string, required: true}
+      limitations: {range: string}
+      assumptions: {range: string}
+      source_scope: {range: string}
+      toc_anchor: {range: string}
+      generated_by: {range: string}
+      verification_status: {range: string, required: true}
+      related_ids: {range: string, multivalued: true}
