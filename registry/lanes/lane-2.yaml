@@ -20,18 +20,19 @@ active_book:
     M04: 10
     M05: 10
     M06: 12
-  total_persisted_candidates: 66
-  latest_run_added: 12
-  latest_run_edges_added: 12
-  latest_run_modules: [M06]
-  latest_run_files_verified: 8
-  latest_run_files_expected: 8
-  latest_run_final_commit: def8dc8787fe92f5c631dcf4bb5821752dcec5b0
+    M07: 10
+  total_persisted_candidates: 76
+  latest_run_added: 22
+  latest_run_edges_added: 22
+  latest_run_modules: [M06, M07]
+  latest_run_files_verified: 16
+  latest_run_files_expected: 16
+  latest_run_final_commit: 67311d1730269454a29b2d00770bbf6da9842073
   whole_book_complete: false
-  next_cursor: M06_SUBTOPIC_DEEPENING_THEN_M07; M01-M05_PARTIAL; M07-M11_NOT_STARTED
+  next_cursor: M07_REMAINING_VALVE_TYPES_AND_DEEPENING_THEN_M08; M01-M06_PARTIAL; M08-M11_NOT_STARTED
   source_scope: TOC_THEME_ONLY
   verification_status: MODEL_GENERATED_UNVERIFIED
   independent_review: NOT_RUN
 books_touched_this_run: 1
 books_completed_this_run: 0
-next_action: Continue remaining M06 actual TOC subtopics, then M07 valve body; preserve existing M01-M05 and source PDF.
+next_action: Continue M07 missing valve subtopics and deepen M06; then M08 oil and cooling; preserve M01-M05 and source PDF.
