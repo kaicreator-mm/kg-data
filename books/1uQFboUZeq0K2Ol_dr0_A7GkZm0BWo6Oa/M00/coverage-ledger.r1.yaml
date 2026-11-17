@@ -1,0 +1,14 @@
+book_id: "1uQFboUZeq0K2Ol_dr0_A7GkZm0BWo6Oa"
+source_file_name: "汽车车身电控系统维修入门_于建国，付百学编著.pdf"
+source_size_bytes: 11237903
+source_modified_time: "2026-11-17T07:29:43.180Z"
+lane: 4
+status: IN_PROGRESS
+chapter_cursor: M00_TITLE_TOPIC_PROVISIONAL
+actual_toc_extracted: false
+actual_toc_coverage: UNKNOWN
+knowledge_records_persisted_in_this_chunk: 3
+relationship_count: 6
+verification_status: MODEL_GENERATED_UNVERIFIED
+source_rights: NOT_VERIFIED_PRIVATE_INPUT
+next: EXTRACT_ACTUAL_TOC_THEN_MAP_AND_REVIEW_PROVISIONAL_CANDIDATES
