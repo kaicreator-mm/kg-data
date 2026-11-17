@@ -1,0 +1,94 @@
+{
+  "book_id": "1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X",
+  "module": "M03",
+  "source_scope": "TOC_THEME_ONLY",
+  "module_status": "IN_PROGRESS",
+  "subtopics": [
+    {
+      "topic": "3.2",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K001"
+      ]
+    },
+    {
+      "topic": "3.3",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K002"
+      ]
+    },
+    {
+      "topic": "3.4",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K003"
+      ]
+    },
+    {
+      "topic": "3.5",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K004"
+      ]
+    },
+    {
+      "topic": "3.6",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K005"
+      ]
+    },
+    {
+      "topic": "3.7.1",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K006"
+      ]
+    },
+    {
+      "topic": "3.7.2",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K007"
+      ]
+    },
+    {
+      "topic": "3.8.1",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K008"
+      ]
+    },
+    {
+      "topic": "3.8.2",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K009"
+      ]
+    },
+    {
+      "topic": "3.8.3",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M03-K010"
+      ]
+    }
+  ],
+  "knowledge_records": 10,
+  "relationships": 20,
+  "qualified_records": 0,
+  "remaining_scope": "Additional topic-level deepening and source-first verification pending",
+  "next_cursor": "M03 3.8.1/3.8.2/3.8.3 专题深化；M04 离散动态执行器",
+  "whole_book_status": "IN_PROGRESS",
+  "other_modules_pending": [
+    "M01",
+    "M02",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "APPENDIX_A",
+    "APPENDIX_B"
+  ]
+}
