@@ -1,0 +1,11 @@
+id,title,kind,source_scope,verification_status
+"M05-K001","行星齿轮运动约束","formula","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K002","行星排自由度与制动约束","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K003","湿式多片离合器的扭矩容量边界","formula","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K004","离合器滑差能量与热负荷","formula","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K005","单向离合器的方向性约束","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K006","离心平衡式离合器的压力补偿假设","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K007","换挡元件交接与约束冲突","failure_mode","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K008","车型行星排名称与拓扑证据","constraint","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K009","普通平行轴齿轮机构的路径差异","comparison","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M05-K010","齿轮机构诊断的多因竞争","diagnostic","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
