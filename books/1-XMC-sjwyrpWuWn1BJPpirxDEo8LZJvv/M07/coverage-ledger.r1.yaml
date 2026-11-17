@@ -1,0 +1,41 @@
+{
+  "book_id": "1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv",
+  "module": "M07",
+  "status": "IN_PROGRESS",
+  "topic_coverage": [
+    {
+      "topic": "课题一 控制阀结构及原理",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M07-K001",
+        "M07-K002",
+        "M07-K003",
+        "M07-K004",
+        "M07-K005",
+        "M07-K006"
+      ]
+    },
+    {
+      "topic": "课题二 污染物和高温环境",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M07-K007",
+        "M07-K008",
+        "M07-K009"
+      ]
+    },
+    {
+      "topic": "课题三 阀体检修",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M07-K010"
+      ]
+    }
+  ],
+  "records": 10,
+  "edges": 10,
+  "full_book_complete": false,
+  "next_cursor": "M07_REMAINING_VALVE_TYPES_AND_DEEPENING_THEN_M08; M01-M06_PARTIAL; M08-M11_NOT_STARTED",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "independent_review": "NOT_RUN"
+}
