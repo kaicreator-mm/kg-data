@@ -1,0 +1,181 @@
+{
+  "book_id": "1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X",
+  "module": "M05",
+  "module_topic": "纵向车轮滑移率估计",
+  "source_scope": "TOC_THEME_ONLY",
+  "source_drive_modified_time": "2026-11-17T08:24:56.947Z",
+  "rights": "COPYRIGHTED_PRIVATE_SOURCE_NOT_RELICENSED",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "records": [
+    {
+      "id": "AB-M05-K001",
+      "title": "制动滑移率估计的速度基准不可观测性",
+      "toc_anchor": "第5章/5.1",
+      "mechanism": "制动滑移率通常依赖车辆纵向速度与轮周速度之差的归一化；仅有轮速而所有车轮同步滑移时，车辆真实速度与各轮滑移率一般不能被唯一分离。",
+      "applicability_assumptions": "车轮有效半径与轮速时间戳可信，纵向运动占主导",
+      "counterexample": "四轮同时强制制动时以最大轮速作为真实车速可能持续低估车辆速度",
+      "limitations": "低速分母、横摆与轮径误差会破坏简单公式",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K002",
+        "AB-M05-K003"
+      ]
+    },
+    {
+      "id": "AB-M05-K002",
+      "title": "最大轮速代理的偏差边界",
+      "toc_anchor": "第5章/5.2",
+      "mechanism": "以最快车轮的轮周速度近似车辆速度是一种依赖至少一轮低滑移的启发式估计；制动期间若所有轮都显著滑移，代理会出现系统性负偏差并使闭环滑移误差被低估。",
+      "applicability_assumptions": "有一轮近似自由滚动，轮径已校准",
+      "counterexample": "四轮低附着共同抱死时最快轮仍远低于真实车速",
+      "limitations": "不能将代理视为直接测量或在全滑移条件下保证一致",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K003",
+        "AB-M05-K004"
+      ]
+    },
+    {
+      "id": "AB-M05-K003",
+      "title": "纵向速度预测与减速度物理约束",
+      "toc_anchor": "第5章/5.2",
+      "mechanism": "可利用惯性纵向加速度在有限时窗预测车速，再通过轮速观测进行约束更新；加速度零偏积分累积，坡度重力分量与姿态误差需要分离。",
+      "applicability_assumptions": "传感器轴向、时间同步、坡度估计和偏置模型已知",
+      "counterexample": "坡道制动时把重力分量当作车辆制动减速度导致预测速度漂移",
+      "limitations": "单凭积分无法消除长期漂移；约束需考虑附着条件",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K004",
+        "AB-M05-K005"
+      ]
+    },
+    {
+      "id": "AB-M05-K004",
+      "title": "低速滑移估计的正则化与无效域",
+      "toc_anchor": "第5章/5.1",
+      "mechanism": "常见滑移率表达式在纵向速度接近零时数值病态，分母正则化可避免数值爆炸，但改变了变量的物理含义；应明确低速退出域而非宣称无偏估计。",
+      "applicability_assumptions": "纵向速度估计存在可信下界",
+      "counterexample": "车辆静止时直接计算滑移率可能因微小轮速噪声得到极端值",
+      "limitations": "退出阈值为待标定量，不给出 OEM 数值",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K005",
+        "AB-M05-K006"
+      ]
+    },
+    {
+      "id": "AB-M05-K005",
+      "title": "车轮有效滚动半径与速度比例误差",
+      "toc_anchor": "第5章/5.2",
+      "mechanism": "轮速乘有效滚动半径得到轮周速度，半径受载荷、轮胎气压、磨耗与动态变形影响；半径误差会以比例项传递到速度和滑移率估计。",
+      "applicability_assumptions": "轮速采样与半径参考工况可追溯",
+      "counterexample": "更换轮胎尺寸后沿用旧半径会产生系统性估计偏差",
+      "limitations": "不能把静态标称半径等同于所有工况动态有效半径",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K006",
+        "AB-M05-K007"
+      ]
+    },
+    {
+      "id": "AB-M05-K006",
+      "title": "估计器切换面的连续性与滞回",
+      "toc_anchor": "第5章/5.3",
+      "mechanism": "当车速估计在不同轮速代理间切换，输出可能产生非物理跳变；可用可信度加权、滞回和状态预测缓和，但必须分析切换时延与闭环稳定性。",
+      "applicability_assumptions": "轮速测量可用且估计器切换逻辑明确",
+      "counterexample": "两轮速度交叉时硬切换并叠加滤波延迟导致滑移目标反复切换",
+      "limitations": "平滑并不保证正确，可能掩盖全轮共同滑移",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K007",
+        "AB-M05-K008"
+      ]
+    },
+    {
+      "id": "AB-M05-K007",
+      "title": "联合状态估计的可观测性条件",
+      "toc_anchor": "第5章/5.3",
+      "mechanism": "将车辆速度、车轮速度与轮胎力作为状态时，能否从轮速、惯性量及已知输入恢复状态取决于传感器组合、动力学激励和轮胎参数；可观测性需对实际工作点或轨迹检验。",
+      "applicability_assumptions": "采用明确的动力学模型与噪声假设",
+      "counterexample": "恒速无激励且未知路面附着时不能仅凭轮速唯一辨识所有参数",
+      "limitations": "局部线性化可观测不等于全局非线性可观测",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K008",
+        "AB-M05-K009"
+      ]
+    },
+    {
+      "id": "AB-M05-K008",
+      "title": "估计误差进入制动闭环的传播",
+      "toc_anchor": "第5章/5.3",
+      "mechanism": "速度估计误差同时影响滑移率计算和目标反馈；控制器增益可能放大估计偏差，需在不确定速度边界上评估稳定性、饱和及滑移约束。",
+      "applicability_assumptions": "执行器动态和控制器结构已定义",
+      "counterexample": "只在理想车速反馈下证明稳定不能推出采用偏差估计后仍稳定",
+      "limitations": "缺少实际车辆、轮胎和执行器参数时仅能做研究级反例",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K009",
+        "AB-M05-K010"
+      ]
+    },
+    {
+      "id": "AB-M05-K009",
+      "title": "轮速脉冲量化与低速更新间隔",
+      "toc_anchor": "第5章/5.1",
+      "mechanism": "齿圈脉冲周期法与固定窗计数法的分辨率和延迟随转速改变，低速时脉冲间隔长；估计器应报告时间戳新鲜度与量化不确定度。",
+      "applicability_assumptions": "编码器齿数、计时器分辨率与采样机制已知",
+      "counterexample": "以固定高频采样更新保持旧脉冲速度值会制造虚假的新测量",
+      "limitations": "不得以轮速读数更新频率冒充物理脉冲信息率",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K010",
+        "AB-M05-K001"
+      ]
+    },
+    {
+      "id": "AB-M05-K010",
+      "title": "车速估计可信度驱动的降级状态机",
+      "toc_anchor": "第5章/5.3",
+      "mechanism": "速度估计可信度可综合轮速一致性、惯性预测残差、传感器新鲜度与低速域，按 VALID/DEGRADED/UNKNOWN 切换并限制下游依赖估计的控制策略。",
+      "applicability_assumptions": "存在独立定义的健康监测和安全策略",
+      "counterexample": "轮速全部失效仍输出正常置信度会让控制器把未知当确定",
+      "limitations": "仅为抽象设计；实际降级动作须经安全分析和OEM验证",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 original hypothesis from observed chapter themes, not book-body evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_record_ids": [
+        "AB-M05-K001",
+        "AB-M05-K002"
+      ]
+    }
+  ]
+}
