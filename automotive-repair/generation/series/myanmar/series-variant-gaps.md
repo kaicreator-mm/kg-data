@@ -23,7 +23,7 @@
 
 | 主题 | Probox / Succeed 官方家族差异 | Fit / Jazz 官方家族差异 | 共享知识的正确方式 |
 |---|---|---|---|
-| **有级自动变速器** | 2002 Toyota 家族列 4AT | Honda 2007/2010 部分 4WD 列 5AT | 使用独立审核的通用 [STR-AT](../topics/transmission/automatic/structure.md) **仅在该具体变速器真正属于传统液力行星齿轮架构时**；Toyota 4AT 与 Honda 5AT 仍不可相互承袭零件、液压或 DTC |
+| **有级自动变速器** | 2002 Toyota 家族列 4AT | Honda 2007/2010 部分 4WD 列 5AT | 使用独立审核的通用 [STR-AT](../../topics/transmission/automatic/structure.md) **仅在该具体变速器真正属于传统液力行星齿轮架构时**；Toyota 4AT 与 Honda 5AT 仍不可相互承袭零件、液压或 DTC |
 | **CVT** | 2014 Toyota 官方 Super CVT-i | 2001/2007/2010 Honda 汽油 CVT、IMA-CVT；部分 Honda CVT 有液力变矩器 | **优先构建一个通用 CVT 系统的 STR/FUN/FAIL** 并另存厂家差异；不要 Probox 和 Fit 各重写整章传动机理 |
 | **MT** | Toyota 2002 历史产品含 5MT | Honda 不同年款/驱动配置含 5/6MT | 复用通用 MT/离合器机械知识，车型差量只记录可证车架/箱号 |
 | **混动 DCT** | 本期研究的 Probox 史料没有将该家族作为当前配置事实 | Honda 2013 i-DCD Hybrid 7DCT（电机集成） | 独立 HEV 和混动 DCT 家族知识；不能从 Probox 一般 AT/CVT 外推出 Fit 混动 |
