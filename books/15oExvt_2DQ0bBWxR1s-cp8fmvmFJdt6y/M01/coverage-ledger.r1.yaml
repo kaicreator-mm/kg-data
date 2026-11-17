@@ -1,0 +1,21 @@
+book_id: "15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y"
+source_file_name: "汽车简单维修百问百答_第2版 李伟.pdf"
+lane: 4
+status: IN_PROGRESS
+source_scope: TOC_THEME_ONLY
+actual_toc_extracted: true
+parts_total: 4
+part_1:
+  topic_count: 23
+  status: IN_PROGRESS
+  covered_topic_group: "1-9; cross-topic safety and diagnostics"
+  remaining: "10-23 and deeper coverage of 1-9"
+part_2: {status: NOT_STARTED, topic_count: 25}
+part_3: {status: NOT_STARTED, topic_count: 25}
+part_4: {status: NOT_STARTED, topic_count: 39}
+knowledge_records_persisted_in_this_chunk: 10
+relationships_in_this_chunk: 18
+verification_status: MODEL_GENERATED_UNVERIFIED
+source_rights: NOT_VERIFIED_PRIVATE_INPUT
+next_cursor: "PART_1_TOPIC_10; then deepen 1-9; PART_2-4"
+book_complete: false
