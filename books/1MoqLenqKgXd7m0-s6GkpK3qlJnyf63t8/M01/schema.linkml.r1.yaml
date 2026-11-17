@@ -1,0 +1,55 @@
+id: https://kg-data.example/schema/nvh-m01
+name: nvh_knowledge_candidates
+prefixes:
+  linkml: https://w3id.org/linkml/
+  kg: https://kg-data.example/vocab/
+default_prefix: kg
+imports:
+  - linkml:types
+slots:
+  id:
+    required: true
+    range: string
+  title:
+    required: true
+    range: string
+  anchor:
+    required: true
+    range: string
+  claim:
+    required: true
+    range: string
+  mechanism:
+    required: true
+    range: string
+  assumptions:
+    required: true
+    range: string
+  counterexample:
+    required: true
+    range: string
+  verification_status:
+    required: true
+    range: string
+  source_evidence:
+    required: true
+    range: string
+  predicate:
+    required: true
+    range: string
+  target:
+    required: true
+    range: string
+  relations:
+    multivalued: true
+    range: KnowledgeRelation
+  records:
+    multivalued: true
+    range: KnowledgeRecord
+classes:
+  KnowledgeRelation:
+    slots: [predicate, target]
+  KnowledgeRecord:
+    slots: [id, title, anchor, claim, mechanism, assumptions, counterexample, verification_status, source_evidence, relations]
+  KnowledgeDataset:
+    slots: [records]
