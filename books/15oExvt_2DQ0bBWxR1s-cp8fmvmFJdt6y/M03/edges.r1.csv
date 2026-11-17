@@ -1,0 +1,13 @@
+source,target,relation,verification_status
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K01","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K02","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K02","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K01","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K03","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K02","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K04","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K03","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K05","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K04","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K06","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K05","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K07","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K06","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K08","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K07","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K09","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K08","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K10","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K09","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K11","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K10","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K12","KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K11","related_diagnostic_context","MODEL_GENERATED_UNVERIFIED"
