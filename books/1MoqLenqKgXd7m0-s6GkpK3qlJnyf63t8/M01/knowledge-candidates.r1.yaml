@@ -1,0 +1,61 @@
+book_file_id: "1MoqLenqKgXd7m0-s6GkpK3qlJnyf63t8"
+module: M01
+source_title: "汽车NVH综合技术"
+source_author: "刘显臣"
+source_year: 2014
+source_publisher: "机械工业出版社"
+source_rights: NOT_VERIFIED_PRIVATE_RESEARCH_INPUT
+toc_evidence: PDF_FRONT_MATTER_TOC_ONLY
+verification_status: MODEL_GENERATED_UNVERIFIED
+model_provenance: LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_TOC_TOPIC_NOT_TEXTBOOK_CLAIM
+records:
+  - id: M01-K001
+    title: "声压级的对数表达与参考量"
+    anchor: "第一篇 第一章 第二节 一、声音的基础理论"
+    claim: "声压级使用相对于参考声压的对数比值表达均方根声压幅值；声压级差值不是声压幅值的线性差。"
+    mechanism: "对于同一测量带宽与参考声压，Lp=20log10(p_rms/p_ref)。两个互不相关声场的能量合成应先转换为线性均方声压，再取对数。"
+    assumptions: "p_rms>0，p_ref>0；必须注明频率带宽、测点、时间统计和参考声压。声压级不等同于声功率级。"
+    counterexample: "不能将两个各60 dB的独立不相关噪声源直接相加为120 dB；也不能无条件认为合成为63 dB，需核实相关性与测量条件。"
+    verification_status: "MODEL_GENERATED_UNVERIFIED"
+    source_evidence: "TOC_ANCHOR_ONLY"
+    relations:
+      - predicate: FOUNDATION_FOR
+        target: M01-K002
+      - predicate: FOUNDATION_FOR
+        target: M01-K003
+  - id: M01-K002
+    title: "A计权与低频振动噪声的区分"
+    anchor: "第一篇 第一章 第二节 四、计权网络"
+    claim: "A计权声压级反映一种规定频率加权后的声学指标，不能单独刻画车辆低频轰鸣、纯音或结构振动的全部感知。"
+    mechanism: "计权滤波器改变各频率分量对总均方声压的贡献；不同频谱即使总dB(A)相近，也可能具有不同的低频能量和主观音质。"
+    assumptions: "同一测量位置、仪器校准、带宽和时间窗口；需要并列查看窄带频谱、阶次与主观评价。"
+    counterexample: "两辆车测得相同dB(A)并不证明车内轰鸣感或方向盘振动相同。"
+    verification_status: "MODEL_GENERATED_UNVERIFIED"
+    source_evidence: "TOC_ANCHOR_ONLY"
+    relations:
+      - predicate: COMPLEMENTS
+        target: M01-K004
+  - id: M01-K003
+    title: "倍频程与窄带阶次分析的用途边界"
+    anchor: "第一篇 第一章 第二节 五、倍频程"
+    claim: "倍频程适于概括宽频带噪声能量分布；针对发动机阶次、齿轮啮合等窄带线谱，应配合足够分辨率的频谱或阶次跟踪。"
+    mechanism: "倍频程带宽随中心频率成比例增大，频带内多个离散分量被聚合；旋转机械激励频率随转速变化，阶次分析以转速归一化帮助区分转速同步分量。"
+    assumptions: "转速信号可靠、采样率与抗混叠充分、窗口长度与频率分辨率匹配；频带汇总不用于唯一定位噪声源。"
+    counterexample: "某倍频程频带能量升高不能直接断言某一齿轮齿数对应的啮合故障。"
+    verification_status: "MODEL_GENERATED_UNVERIFIED"
+    source_evidence: "TOC_ANCHOR_ONLY"
+    relations:
+      - predicate: SUPPORTS_DIAGNOSIS
+        target: M01-K004
+  - id: M01-K004
+    title: "NVH源-路径-响应的可证伪诊断框架"
+    anchor: "第一篇 第一章 第一节 汽车NVH设计思路"
+    claim: "车辆NVH问题可先建立激励源、结构或空气传递路径、接收点响应的候选因果链，再通过受控工况与多点测量逐一排除。"
+    mechanism: "接收点响应取决于激励谱与路径传递特性；频率重合只提供关联线索，工况干预、相干性与路径变化实验可帮助验证机制。"
+    assumptions: "保持轮胎路面、车速、发动机负荷、温度及传感器安装条件可比；路径可能并行耦合，不能将单一传递函数视为全系统。"
+    counterexample: "驾驶室某频率峰值与发动机阶次相近，仍不能仅凭该峰值证明发动机是唯一噪声源。"
+    verification_status: "MODEL_GENERATED_UNVERIFIED"
+    source_evidence: "TOC_ANCHOR_ONLY"
+    relations:
+      - predicate: USES_METHOD
+        target: M01-K003
