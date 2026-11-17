@@ -1,0 +1,138 @@
+book_id: 1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X
+module: M01
+source_scope: TOC_THEME_ONLY
+verification_status: MODEL_GENERATED_UNVERIFIED
+model_provenance: GPT-6 original reasoning, no book-body claim evidence
+records:
+  - id: AB-M01-K001
+    title: "液压调压与开关阀的控制差异"
+    toc_anchor: "第1章 / 1.2"
+    mechanism: "液压开关阀常用增压、保压、减压离散状态实现平均压力控制，连续比例阀可直接调节目标压力或流量，但执行器的死区、滞后和供压约束决定实际闭环带宽。"
+    applicability_assumptions: "制动管路充液、泵及蓄压器能力已知；离散阀切换需要考虑采样周期与液压延迟。"
+    counterexample: "把阀线圈通断等同于轮端瞬时制动力变化，会忽略压力动态和摩擦非线性。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: REQUIRES_CONDITION
+        target: AB-M01-K002
+  - id: AB-M01-K002
+    title: "电液制动的能量与故障降级边界"
+    toc_anchor: "第1章 / 1.2"
+    mechanism: "电子液压制动将驾驶请求转换为电控液压压力目标；其安全设计需要把主电源、压力源、阀、传感器与机械或液压后备路径视为独立故障域。"
+    applicability_assumptions: "降级路径仅按具体车辆架构和安全分析确定，不默认所有EHB具备同样后备制动。"
+    counterexample: "电控失效并不自动等于完全无制动，也不能保证任何架构在失电后维持原有性能。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: CONSTRAINS
+        target: AB-M01-K003
+  - id: AB-M01-K003
+    title: "EMB 夹紧力与制动转矩的非线性关系"
+    toc_anchor: "第1章 / 1.3"
+    mechanism: "电机驱动减速器与丝杠产生轴向夹紧力，制动转矩还依赖有效摩擦半径、摩擦系数及两侧摩擦片状态；间隙闭合前位置运动不能等同于夹紧力。"
+    applicability_assumptions: "假定机械传动完好、转矩符号和夹紧力定义一致；热衰退与磨损需单独建模。"
+    counterexample: "只根据电机电流乘固定常数预测轮端转矩，可能忽略传动效率、静摩擦及盘片温度。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: RELATED
+        target: AB-M01-K004
+  - id: AB-M01-K004
+    title: "制动执行器双环控制与模式切换"
+    toc_anchor: "第1章 / 1.3"
+    mechanism: "内层电流或转矩回路抑制电机电气动态，外层位置回路可管理制动间隙，接触后切换为夹紧力控制；切换应考虑传感器噪声、迟滞和抗积分饱和。"
+    applicability_assumptions: "接触检测有可信的力或位移信息，模式切换策略经过实际标定和稳定性验证。"
+    counterexample: "以首次非零力读数作为无迟滞硬切换条件，噪声可使控制器反复抖动。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: REQUIRES_CONDITION
+        target: AB-M01-K005
+  - id: AB-M01-K005
+    title: "线控制动命令链的端到端安全"
+    toc_anchor: "第1章 / 1.4"
+    mechanism: "踏板意图采集、通信、制动控制器、执行器和轮端反馈构成闭环命令链；需要对数据新鲜度、超时、失序、冗余通道一致性和执行器反馈进行独立诊断。"
+    applicability_assumptions: "只提出安全分析候选，不推断某OEM已实现双通道或满足特定ASIL。"
+    counterexample: "两个通道共用同一供电或同一错误算法时，简单复制并不能抵抗共因失效。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: CONSTRAINS
+        target: AB-M01-K006
+  - id: AB-M01-K006
+    title: "制动滑移反馈的车速估计依赖"
+    toc_anchor: "第1章 / 1.5"
+    mechanism: "滑移率需要车轮角速度和纵向车速估计；纯轮速在四轮同时大滑移时可能失去可靠车速基准，IMU积分又会受偏置和坡度误差影响。"
+    applicability_assumptions: "车辆前进且传感器时间同步；低速阶段采用专门的估计有效性判据。"
+    counterexample: "以所有轮速最小值当作车速，在急制动时可能严重低估车速。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: RELATED
+        target: AB-M01-K007
+  - id: AB-M01-K007
+    title: "ABS减速度门限的工况敏感性"
+    toc_anchor: "第1章 / 1.5"
+    mechanism: "基于轮减速度的门限逻辑可快速发现趋向抱死的趋势，但轮胎路面附着、轮胎惯量、制动扭矩和传感器噪声都会改变相同门限的物理含义。"
+    applicability_assumptions: "门限是待标定的控制参数而非通用常数；使用滤波需量化相位延迟。"
+    counterexample: "同一减速度门限在干燥沥青和低附着路面上不保证相同稳定性。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: REQUIRES_CONDITION
+        target: AB-M01-K008
+  - id: AB-M01-K008
+    title: "集成底盘控制的多目标冲突"
+    toc_anchor: "第1章 / 1.6"
+    mechanism: "横摆稳定、纵向减速、转向响应和舒适性可能同时竞争轮胎摩擦圆与执行器能力；上层目标分配需优先约束安全可行域，再对多个控制器的请求仲裁。"
+    applicability_assumptions: "假定可观测的车辆状态与可用轮胎力边界，摩擦估计不确定性需保守处理。"
+    counterexample: "直接相加独立制动与转向控制命令，可能使轮胎组合力需求超过附着极限。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: CONSTRAINS
+        target: AB-M01-K009
+  - id: AB-M01-K009
+    title: "控制目标可行性与执行器饱和"
+    toc_anchor: "第1章 / 1.6"
+    mechanism: "轮端制动力矩存在最大值、最小值、变化率及延迟限制，外层滑移或横摆目标必须通过可行性检查和抗积分饱和避免持续积累不可实现的控制请求。"
+    applicability_assumptions: "限制取决于当前温度、电源、液压或电机状态，不可引用书中示例值为所有车型标定。"
+    counterexample: "把理论控制器无约束收敛结论直接移植到饱和执行器会失效。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: RELATED
+        target: AB-M01-K010
+  - id: AB-M01-K010
+    title: "制动控制的安全验证分层"
+    toc_anchor: "第1章 / 1.4/1.6"
+    mechanism: "模型层验证稳定性与边界，软件层执行故障注入、时间戳和状态机测试，硬件在环验证通信延迟和执行器饱和，整车试验才可观察复杂路面及车辆耦合。"
+    applicability_assumptions: "任何实车制动测试均需合法受控试验条件和独立安全规程；这里不提供实际危险操作步骤。"
+    counterexample: "仿真中滑移跟踪误差较小不能证明故障降级、功能安全或实车制动距离满足要求。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: REQUIRES_CONDITION
+        target: AB-M01-K011
+  - id: AB-M01-K011
+    title: "电控制动诊断中的故障可辨识性"
+    toc_anchor: "第1章 / 1.2/1.3"
+    mechanism: "轮速、液压压力、电机电流、夹紧力等残差可用于故障检测，但不同故障可能产生相同观测，需要多传感器激励与故障树排除不可辨识情形。"
+    applicability_assumptions: "故障残差阈值应考虑正常工况噪声、热漂移和执行器时延。"
+    counterexample: "压力跟踪误差单独出现不能唯一判定为阀卡滞，也可能是供压不足或传感器偏置。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: CONSTRAINS
+        target: AB-M01-K012
+  - id: AB-M01-K012
+    title: "再生与摩擦制动协调的条件"
+    toc_anchor: "第1章 / 1.6"
+    mechanism: "电驱动系统可回收部分负扭矩需求，但电池SOC、温度、电机转速和附着约束会改变可回收能力；协调器应将不可回收部分交由摩擦制动且控制减速度连续性。"
+    applicability_assumptions: "仅作为电驱车的扩展研究主题，不断言该书具体控制方案或所有车辆具备再生制动。"
+    counterexample: "电池满电或低温时沿用固定再生比例可能造成目标减速度偏差。"
+    uncertainty: "需权威技术来源与具体车型约束独立核验；不可用于维修安全决策"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: RELATED
+        target: AB-M01-K001
