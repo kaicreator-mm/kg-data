@@ -1,0 +1,198 @@
+{
+  "book_file_id": "1MoqLenqKgXd7m0-s6GkpK3qlJnyf63t8",
+  "module": "M06",
+  "source_title": "汽车NVH综合技术",
+  "source_rights": "NOT_VERIFIED_PRIVATE_RESEARCH_INPUT",
+  "toc_evidence": "OBSERVED_CHAPTER_TITLE_ONLY",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "records": [
+    {
+      "id": "M06-K001",
+      "title": "起步扭矩斜率与俯仰",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "起步驱动扭矩的建立速率可能激励动力总成俯仰及车身低频响应，终值相同但上升沿不同可产生不同峰值。",
+      "mechanism": "同步扭矩请求、轮速、动力总成角速度与座椅三轴加速度，按坡度和载荷分层检验响应时延。",
+      "assumptions": "必须能够合法观测驱动扭矩，电驱和燃油架构应分别建模。",
+      "counterexample": "相同扭矩斜率下路面附着变化也能导致冲击。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K002"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M06-K008"
+        }
+      ]
+    },
+    {
+      "id": "M06-K002",
+      "title": "离合器滑差衰减与接合冲击",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "摩擦离合器滑差衰减时的扭矩交接可能引发纵向冲击，热状态及摩擦系数改变动态响应。",
+      "mechanism": "对齐输入输出转速差、纵向加速度与可读离合器控制状态，比较滑差结束时刻和响应峰值。",
+      "assumptions": "仅适用于存在离合器接合的起步架构，具体接合阈值UNKNOWN。",
+      "counterexample": "峰值恰好发生在接合时刻也可能源于传动间隙闭合。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K003"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M06-K008"
+        }
+      ]
+    },
+    {
+      "id": "M06-K003",
+      "title": "液力变矩器低速流体耦合",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "液力变矩器在低速大滑差区的流体耦合和扭矩比变化可能改变起步平顺性。",
+      "mechanism": "比较泵轮和涡轮可用转速、油温、发动机请求及纵向加速度，识别耦合与发动机激励。",
+      "assumptions": "仅适用于带液力变矩器架构，锁止策略需车型证据。",
+      "counterexample": "发动机升速而车速迟滞可属于正常流体滑差。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K004"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M06-K008"
+        }
+      ]
+    },
+    {
+      "id": "M06-K004",
+      "title": "传动间隙闭合与扭矩反转",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "齿轮侧隙、花键间隙及弹性扭转可在驱动扭矩从零建立时发生非线性间隙闭合，形成短时冲击。",
+      "mechanism": "记录驱动切换前史、轮速、半轴扭转代理信号及壳体加速度，比较正反向扭矩事件。",
+      "assumptions": "必须确认实际传动结构，允许间隙数值UNKNOWN。",
+      "counterexample": "低速咔嗒声也可能来自制动卡钳或悬架连接。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K005"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M06-K008"
+        }
+      ]
+    },
+    {
+      "id": "M06-K005",
+      "title": "悬置模态与起步激励路径",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "悬置刚度、阻尼及几何决定起步反作用扭矩传至车身的路径，输入不变也可能因模态放大产生振感。",
+      "mechanism": "同步动力总成侧和车身侧多轴加速度，区分激励增强与传递函数变化。",
+      "assumptions": "需确认悬置类型、车型布置及主动控制状态。",
+      "counterexample": "更换悬置后改善并不证明原悬置是唯一根因。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K006"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M06-K008"
+        }
+      ]
+    },
+    {
+      "id": "M06-K006",
+      "title": "制动释放与驱动建立时序",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "自动驻车和坡道辅助释放与驱动扭矩建立的重叠时序可能产生纵向冲击。",
+      "mechanism": "联合读取允许访问的制动状态、驱动请求、轮速和加速度，核查事件先后关系。",
+      "assumptions": "仅适用于具相关功能的车辆，不得为测试关闭安全系统。",
+      "counterexample": "同一时刻的冲击可能来自坡度或轮胎附着变化。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K007"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M06-K008"
+        }
+      ]
+    },
+    {
+      "id": "M06-K007",
+      "title": "电驱起步转矩纹波与减速器",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "电驱电磁转矩纹波、减速器啮合与悬置路径可共同影响起步NVH，不应简单套用发动机燃烧阶次。",
+      "mechanism": "对齐电机转速、电驱请求、减速器壳体和座椅响应，按温度及控制模式分层。",
+      "assumptions": "仅适用于电驱架构；禁止未经授权的高压系统侵入测量。",
+      "counterexample": "电机转速相关峰值也可能来自齿轮啮合或轮胎。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K008"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M06-K008"
+        }
+      ]
+    },
+    {
+      "id": "M06-K008",
+      "title": "起步试验混杂与反事实",
+      "anchor": "第二篇 第六章 车辆起步时车身振动",
+      "claim": "坡度、载荷、温度、踏板输入及软件版本影响起步冲击，单次峰值下降不足以证明设计改善。",
+      "mechanism": "保存车辆版本、温度、坡度、踏板轨迹、载荷、传感器同步误差，进行重复对照与分布比较。",
+      "assumptions": "未提供OEM接受阈值，车型控制版本需分层。",
+      "counterexample": "软件升级后峰值下降可能仅因驾驶输入更缓。",
+      "applicability": "汽车起步NVH工程研究；车型和驱动架构待核验",
+      "limitations": "仅依据已观察章标题生成原创研究细分，原书正文未读；OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_CHAPTER_TITLE",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M06-K001"
+        }
+      ]
+    }
+  ]
+}
