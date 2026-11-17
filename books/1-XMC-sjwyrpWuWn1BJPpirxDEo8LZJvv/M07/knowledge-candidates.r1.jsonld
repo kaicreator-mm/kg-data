@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "title": "https://schema.org/name",
+    "related": "https://schema.org/relatedLink",
+    "verification_status": "https://example.org/kg/verificationStatus"
+  },
+  "@graph": [
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K001",
+      "@type": "https://schema.org/TechArticle",
+      "title": "主调压阀与供压能力",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K002"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K002",
+      "@type": "https://schema.org/TechArticle",
+      "title": "次调压与变矩器回路",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K003"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K003",
+      "@type": "https://schema.org/TechArticle",
+      "title": "手控阀与机械挡位请求",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K004"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K004",
+      "@type": "https://schema.org/TechArticle",
+      "title": "换挡阀卡滞的竞争性诊断",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K005"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K005",
+      "@type": "https://schema.org/TechArticle",
+      "title": "蓄压器与压力跃迁",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K006"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K006",
+      "@type": "https://schema.org/TechArticle",
+      "title": "单向球阀与流向限制",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K007"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K007",
+      "@type": "https://schema.org/TechArticle",
+      "title": "阀芯热膨胀间隙",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K008"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K008",
+      "@type": "https://schema.org/TechArticle",
+      "title": "颗粒污染与间歇故障",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K009"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K009",
+      "@type": "https://schema.org/TechArticle",
+      "title": "磁性吸附与机械卡滞区分",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K010"
+      ]
+    },
+    {
+      "@id": "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K010",
+      "@type": "https://schema.org/TechArticle",
+      "title": "阀体检修版本依赖",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts:book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M07-K001"
+      ]
+    }
+  ]
+}
