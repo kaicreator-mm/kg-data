@@ -19,12 +19,12 @@
 | ICE 空气/燃油/排放 | OPEN | OPEN | OPEN | OPEN | STR-ENG-AIRFUEL | 待激活广度 |
 | 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-AT-PATH / FUN-AT-HYD | STR-AT 已独立内容质量限定 ACCEPT；不代表 OEM/N3 事实合格 |
 | 传动/差速器 | OPEN | OPEN | OPEN | OPEN | STR-DRIVELINE | 待激活广度 |
-| 制动 / ABS/ESC | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | FUN-BRK；STR-BRK 内容独审 | 结构稿已提交，安全关键；真实发生频率 UNKNOWN |
+| 制动 / ABS/ESC | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-BRK | [STR-BRK 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)；安全关键，发生频率 UNKNOWN |
 | 转向悬架/轮胎 | OPEN | OPEN | OPEN | OPEN | STR-STEER-SUSP | 待激活广度 |
 | 低压电气/网络 | OPEN | OPEN | OPEN | OPEN | STR-LOWV | 待激活广度 |
 | 空调/热管理 | OPEN | OPEN | OPEN | OPEN | STR-THERMAL | 待激活广度 |
 | 车身/被动安全 | OPEN | OPEN | OPEN | OPEN | STR-BODY-SAFETY | 待激活广度，高风险操作边界 |
-| BEV 高压/电驱/充电 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | FUN-HV；STR-HV 内容独审 | 已提交通用 BEV 构型，安全非操作性知识 |
+| BEV 高压/电驱/充电 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-HV | [STR-HV 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；仅非操作性结构知识 |
 | 跨系统诊断/维护通用技术 | OPEN | OPEN | OPEN | OPEN | DISC-METHOD | 先定义跨系统共享原则 |
 | 混动/柴油/CVT/DCT/e-CVT/重型等 | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | ARCH-EXPAND | 未来扩展切片；不冒充不适用 |
 
@@ -44,8 +44,8 @@
 |---|---|---|---|
 | `STR-ENG-LUBE` | `69f7584ff242eb452d77ceacd70d08863f7d8579` | `ff103f4cfd948534be5ca2b9413128aee502987f` | 通用汽油发动机润滑；R2 修复 UNKNOWN，独审待办 |
 | `STR-AT` | `5eb2219e7afecde80920bf4c8277a68073a1e6f6` | `ed2b997ca164d98e74cf72ecb393aca86a553d20` | [独立生成质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955520356)，源事实仍未获 OEM/N3 资格 |
-| `STR-BRK` | `4ed14a5b8d24382c85e2989f56776ed5b2288a54` | `e231eda16a8d799d891e7604bee41437af29afb6` | 摩擦制动/液压/ABS/ESC；独审待办 |
-| `STR-HV` | `43c5d3da44fa72bc21f9d24c8fd32b03f1f5a370` | `472127e80e95f022dc512b0c635b7a63282c94d2` | 通用 BEV 高压；独审待办 |
+| `STR-BRK` | `4ed14a5b8d24382c85e2989f56776ed5b2288a54` | `e231eda16a8d799d891e7604bee41437af29afb6` | [独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)，未获车型 OEM 资格 |
+| `STR-HV` | `43c5d3da44fa72bc21f9d24c8fd32b03f1f5a370` | `472127e80e95f022dc512b0c635b7a63282c94d2` | [独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)，无高压实操/OEM 资格 |
 
 详情见 [GENERATION_QUALITY_R0.md](./GENERATION_QUALITY_R0.md)；控制账本按实际提交更新，不把 Writer 生成资格冒充独立内容质量审查。
 
@@ -53,6 +53,6 @@
 
 - `STR-ENG-LUBE`：实际生成 Markdown `topics/engine/lubrication/structure.md`，初稿 Commit `74e8f3d575471d16c3052c3003931da0daf73d7a`、Blob `b43057bee5ef1ee291e55ca5b3a7f8aee04a5e4e`，R2 已补充 UNKNOWN：现 Commit `69f7584ff242eb452d77ceacd70d08863f7d8579`、Blob `ff103f4cfd948534be5ca2b9413128aee502987f`，GitHub readback 一致；**内容质量独审尚未完成，专业事实未核验**。对应结构 S=`GENERATED_REVIEW_PENDING`。后续 `FUN-ENG-LUBE` 可读取真实上游作为候选输入，任何上游 REWORK 需传播 `STALE`。
 - 本轮 BREADTH 选择 ICE 润滑/制动/传统液力行星齿轮 AT/通用 BEV 高压结构，其它系统可独立并行启动而不等待四系统完成；`STR-LOWV` 为最高重要待派广度候选之一。F 仍 UNKNOWN，无发生率数据。
-- 本账本现有四个真实结构 Markdown 交付，其中 STR-AT 结构 S 已获 `ACCEPT_SCOPED_GENERATION_ONLY`，其余 3 篇结构 S 仍 `GENERATED_REVIEW_PENDING`；所有 F/X/R 均 OPEN，4 篇专业事实统一 `MODEL_GENERATED_UNVERIFIED`。
+- 本账本现有四个真实结构 Markdown 交付，其中 `STR-AT`、`STR-BRK`、`STR-HV` 三个结构 S 已获 `ACCEPT_SCOPED_GENERATION_ONLY`；`STR-ENG-LUBE R2` 的 S 仍 `GENERATED_REVIEW_PENDING`。所有 F/X/R 均 OPEN，四篇专业事实仍 `MODEL_GENERATED_UNVERIFIED`。
 - 不允许因创建目录、生成计划、上传文件、引用书目录而将内容状态改为 `GENERATED`。
 - v0.4.1 PLAN 的独立增量审核已 `ACCEPT_SCOPED_PLAN_READY`，不再重开原 v0.4 REWORK；其放行只涉及计划与生成，不涉及四篇专业事实合格。详见 [审核结论](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)。
