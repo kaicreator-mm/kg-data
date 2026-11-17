@@ -1,0 +1,4 @@
+"id","title","verification_status"
+"BODYEC-K001","车身控制器输入的上拉与接地判别","MODEL_GENERATED_UNVERIFIED"
+"BODYEC-K002","开关信号的接触抖动与软件去抖","MODEL_GENERATED_UNVERIFIED"
+"BODYEC-K003","车身控制信号的电气诊断边界","MODEL_GENERATED_UNVERIFIED"
