@@ -158,6 +158,6 @@
 | [Sonnax — Hydraulics Fundamentals, Part I: Main Pressure Regulator](https://www.sonnax.com/tech_resources/674-hydraulics-fundamentals-part-i-main-pressure-regulator-valve-line-ups) | 主压调节受泵供流、负荷信号、平衡/排油路径影响，液压压力并非简单恒值 | 具体车型压力限值或症状必然原因 |
 | [Sonnax — Anatomy of a Transmission: Oil Flow](https://www.sonnax.com/tech_resources/131-anatomy-of-a-transmission-oil-flow-in-the-pump-pr-converter-cooler-lube-circuits) | 部分典型 AT 中泵、主调压、变矩器供油、冷却/润滑的相互影响 | 各型号回路都完全相同或可据此实际钻孔/改阀 |
 | [ZF Aftermarket — Parts Sets for Automatic Transmissions](https://aftermarket.zf.com/en/aftermarket-portal/knowledge-hub/zf-parts-sets-for-automatic-transmissions/) | 6HP/8HP 的机电液压力控制阀与离合/制动执行相关，内部密封供油路径依型号差异 | 零件套件或调压阀可跨车型互换 |
-| [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) 与 [PLAN.md](../../PLAN.md) | 研究范围、生成任务及审计约束 | 任何专业技术断言的外部验证 |
+| [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) 与 [PLAN.md](../../../PLAN.md) | 研究范围、生成任务及审计约束 | 任何专业技术断言的外部验证 |
 
 **来源可见层级**：上述五项为 OFFICIAL_MANUFACTURER / SPECIALIST_TECH_PUBLIC_WEB 的有限公开技术材料；其余跨型号的连接解释标 **MODEL_SYNTHESIS**。先前 Drive Books / kg-data/books 的目录未用作可引用正文，BOOK_BODY=NOT_READ，OEM_SERVICE_MANUAL=NOT_READ，PROFESSIONAL_ORACLE=NOT_ATTESTED。本文全部专业内容仍统一为 **MODEL_GENERATED_UNVERIFIED**，须由其它对话作限定内容审查；不授予事实/OEM/N3 资格。
