@@ -1,0 +1,106 @@
+book_id: "1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv"
+book_title: "汽车自动变速器精品学习教程"
+edition: "2013年7月第1版第1次印刷"
+chapter: "模块一 流体力学基础知识"
+toc_module: M01
+mode: TOC_ONLY_GENERATION
+baseline_doc: "https://docs.google.com/document/d/1MvC_6dcTw8LwJ3Xyz0sDC6euGO8uwnDuHa0PUkBJd8I/edit"
+provenance: "目录仅用于主题定位；所有专业命题为模型原创未验证候选，不是原书正文抽取。"
+schema_version: "0.1.0"
+status: KNOWLEDGE_GENERATION_IN_PROGRESS
+records:
+  - id: "M01-K001"
+    title: "静止液体压力传递的适用条件"
+    kind: "mechanism"
+    statement: "密闭连通且近似静止的不可压缩液体中，外加压力增量可向各方向传递；绝对压力仍受高度差影响。"
+    technical_explanation: "帕斯卡原理讨论同一静止液体中的附加压力增量，不意味着不同高度点的总压力相同；液压执行器理想输出力可近似表示为F=pA，实际还受密封摩擦和背压影响。"
+    assumptions_and_scope: "近似静态、密闭液路、流体连续、压力单位Pa、有效面积m²；高速流动、气泡和泄漏须单独建模。"
+    counterexample: "有空气混入或节流流动时，不能把任意两测点的瞬时压力视为相同。"
+    toc_anchor: "模块一 流体力学基础知识"
+    related:
+      - target: "M01-K002"
+        relation: "CONDITIONS"
+      - target: "M01-K005"
+        relation: "RELATED"
+    source_scope: TOC_THEME_ONLY
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    requires_authoritative_check: true
+    source_evidence_for_claim: null
+    generation_provenance: LLM_ORIGINAL_FROM_TOC_HEADINGS_ONLY
+    review_status: SELF_QA_ONLY
+  - id: "M01-K002"
+    title: "体积流量与平均速度的连续性"
+    kind: "formula"
+    statement: "单相不可压缩稳态流动在无分支、无泄漏管段中满足Q=Av，串联截面体积流量近似守恒。"
+    technical_explanation: "Q的单位为m³/s，A为m²，v为截面平均速度m/s；截面积减小时平均速度增大，但不自动证明局部静压增加。"
+    assumptions_and_scope: "恒密度、稳态、同一流路、速度按截面平均；有蓄能器、旁通、泄漏或瞬态压缩时需质量守恒完整形式。"
+    counterexample: "分支阀体两支路流量可以不同，不能要求每条分支都等于总入口流量。"
+    toc_anchor: "模块一 流体力学基础知识"
+    related:
+      - target: "M01-K003"
+        relation: "RELATED"
+      - target: "M01-K005"
+        relation: "EXPLAINS"
+    source_scope: TOC_THEME_ONLY
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    requires_authoritative_check: true
+    source_evidence_for_claim: null
+    generation_provenance: LLM_ORIGINAL_FROM_TOC_HEADINGS_ONLY
+    review_status: SELF_QA_ONLY
+  - id: "M01-K003"
+    title: "液压功率的单位与效率边界"
+    kind: "formula"
+    statement: "液压端口功率在明确压差及体积流量的条件下近似为P=ΔpQ，不能直接当成轴输出功率。"
+    technical_explanation: "Δp使用Pa、Q使用m³/s时P为W；泵或马达的机械、容积损失使输入输出轴功率与理想液压功率不同。"
+    assumptions_and_scope: "采用控制体边界两端压差及同一流量定义；压力与流量方向需一致，非稳态蓄能项不能忽略。"
+    counterexample: "高系统压力而执行器无流量时，不能仅凭压力断言执行器持续输出高液压功率。"
+    toc_anchor: "模块一 流体力学基础知识"
+    related:
+      - target: "M01-K002"
+        relation: "USES"
+      - target: "M01-K004"
+        relation: "DISTINGUISH_FROM"
+    source_scope: TOC_THEME_ONLY
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    requires_authoritative_check: true
+    source_evidence_for_claim: null
+    generation_provenance: LLM_ORIGINAL_FROM_TOC_HEADINGS_ONLY
+    review_status: SELF_QA_ONLY
+  - id: "M01-K004"
+    title: "静压液压传动与动量型液力传动的区别"
+    kind: "comparison"
+    statement: "常见液压执行机构主要通过受控压差对活塞或液压马达做功，液力变矩器则依靠旋转流体动量变化实现转矩交换。"
+    technical_explanation: "前者通常分析压力、流量、有效面积及泄漏；后者通常分析泵轮、涡轮、导轮的角动量和速度比。两者都可能使用油液但模型边界不同。"
+    assumptions_and_scope: "仅比较典型工作机理，不意味着所有液压系统均无惯性作用，或所有液力传动都带增矩导轮。"
+    counterexample: "不能将变矩器的转矩比曲线当成液压缸的压力—推力标定曲线。"
+    toc_anchor: "模块一 流体力学基础知识"
+    related:
+      - target: "M01-K003"
+        relation: "RELATED"
+      - target: "M01-K001"
+        relation: "DISTINGUISH_FROM"
+    source_scope: TOC_THEME_ONLY
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    requires_authoritative_check: true
+    source_evidence_for_claim: null
+    generation_provenance: LLM_ORIGINAL_FROM_TOC_HEADINGS_ONLY
+    review_status: SELF_QA_ONLY
+  - id: "M01-K005"
+    title: "节流压降与热耗散的因果边界"
+    kind: "mechanism"
+    statement: "流体通过节流孔或阀口时可能出现局部压降和能量耗散；压降大小取决于流量、流体性质、几何形状及流动状态。"
+    technical_explanation: "在近似稳态不可压缩条件下，阀口常用经验关系Q≈Cd A sqrt(2Δp/ρ)，其中Cd需实测或经适用模型确定；该关系不能替代复杂空化、两相流或瞬态分析。"
+    assumptions_and_scope: "ρ为kg/m³，A为m²，Δp为Pa，Cd无量纲；仅适用于选定压差方向和阀口工况；温度、黏度、空化边界需核验。"
+    counterexample: "阀口压差增大不保证在空化或执行器饱和条件下流量永远按平方根关系增加。"
+    toc_anchor: "模块一 流体力学基础知识"
+    related:
+      - target: "M01-K002"
+        relation: "USES"
+      - target: "M01-K003"
+        relation: "RELATED"
+    source_scope: TOC_THEME_ONLY
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    requires_authoritative_check: true
+    source_evidence_for_claim: null
+    generation_provenance: LLM_ORIGINAL_FROM_TOC_HEADINGS_ONLY
+    review_status: SELF_QA_ONLY
