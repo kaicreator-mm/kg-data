@@ -1,0 +1,18 @@
+book_id: 1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X
+source_drive_modified_time: "2026-11-17T08:24:56.947Z"
+source_scope: TOC_THEME_ONLY
+status: IN_PROGRESS
+module: M01
+module_status: IN_PROGRESS
+subtopics:
+  "1.1": {status: NOT_STARTED, note: "历史背景仍待主题梳理"}
+  "1.2": {status: GENERATED, records: [AB-M01-K001, AB-M01-K002, AB-M01-K011]}
+  "1.3": {status: GENERATED, records: [AB-M01-K003, AB-M01-K004]}
+  "1.4": {status: GENERATED, records: [AB-M01-K005, AB-M01-K010]}
+  "1.5": {status: GENERATED, records: [AB-M01-K006, AB-M01-K007]}
+  "1.6": {status: GENERATED, records: [AB-M01-K008, AB-M01-K009, AB-M01-K012]}
+  "1.7": {status: NOT_STARTED, note: "总结无需机械复制；待评估独立价值"}
+knowledge_records: 12
+relationships: 12
+qualified_records: 0
+next_cursor: "M01 1.1/1.7 coverage then M02 deeper and M03-M08"
