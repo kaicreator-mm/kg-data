@@ -1,0 +1,80 @@
+id: https://example.org/dke/books/linkml/knowledge-graph-0.1
+name: dke_toc_knowledge_graph
+prefixes:
+  linkml: https://w3id.org/linkml/
+  dke: https://example.org/dke/books/
+default_prefix: dke
+imports:
+  - linkml:types
+slots:
+  book_id:
+    range: string
+    required: true
+  book_title:
+    range: string
+  edition:
+    range: string
+  chapter:
+    range: string
+  toc_module:
+    range: string
+  mode:
+    range: string
+  baseline_doc:
+    range: uri
+  provenance:
+    range: string
+  schema_version:
+    range: string
+  status:
+    range: string
+  id:
+    range: string
+    required: true
+    identifier: true
+  title:
+    range: string
+    required: true
+  kind:
+    range: string
+  statement:
+    range: string
+    required: true
+  technical_explanation:
+    range: string
+  assumptions_and_scope:
+    range: string
+  counterexample:
+    range: string
+  toc_anchor:
+    range: string
+  target:
+    range: string
+  relation:
+    range: string
+  source_scope:
+    range: string
+  verification_status:
+    range: string
+  generation_provenance:
+    range: string
+  review_status:
+    range: string
+  requires_authoritative_check:
+    range: boolean
+  source_evidence_for_claim:
+    range: string
+  related:
+    range: Relationship
+    multivalued: true
+  records:
+    range: KnowledgeRecord
+    multivalued: true
+classes:
+  BookKnowledgeGraph:
+    tree_root: true
+    slots: [book_id, book_title, edition, chapter, toc_module, mode, baseline_doc, provenance, schema_version, status, records]
+  KnowledgeRecord:
+    slots: [id, title, kind, statement, technical_explanation, assumptions_and_scope, counterexample, toc_anchor, related, source_scope, verification_status, requires_authoritative_check, source_evidence_for_claim, generation_provenance, review_status]
+  Relationship:
+    slots: [target, relation]
