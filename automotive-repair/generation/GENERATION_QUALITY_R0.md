@@ -10,8 +10,8 @@
 |---|---|---|---|---|
 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | GENERATED_REVIEW_PENDING | `ff103f4cfd948534be5ca2b9413128aee502987f` | 结构、油路、关键部件、变型、跨系统连接完整度较好；**显式 UNKNOWN P2 已补充 R2**；独审未做 |
 | `STR-AT` | `topics/transmission/automatic/structure.md` | ACCEPT_SCOPED_GENERATION_ONLY | `ed2b997ca164d98e74cf72ecb393aca86a553d20` | 其它对话已按原 Writer Exact Blob 做来源抽查与内容限定独审，[审核 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955520356)；仍非 OEM/N3 事实资格 |
-| `STR-BRK` | `topics/braking/structure.md` | GENERATED_REVIEW_PENDING | `e231eda16a8d799d891e7604bee41437af29afb6` | 摩擦/液压助力/电液制动及 ABS/ESC/再生协调结构有实质内容，含风险界限；独审未做 |
-| `STR-HV` | `topics/electrified/high-voltage/structure.md` | GENERATED_REVIEW_PENDING | `472127e80e95f022dc512b0c635b7a63282c94d2` | BEV 电池/BMS/配电/电驱/充电/热管理接口有实质内容，安全操作与资料未知界定清楚；独审未做 |
+| `STR-BRK` | `topics/braking/structure.md` | ACCEPT_SCOPED_GENERATION_ONLY | `e231eda16a8d799d891e7604bee41437af29afb6` | [其它对话受限独审 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)，制动安全仍需 OEM/车型核实 |
+| `STR-HV` | `topics/electrified/high-voltage/structure.md` | ACCEPT_SCOPED_GENERATION_ONLY | `472127e80e95f022dc512b0c635b7a63282c94d2` | [其它对话受限独审 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)，高压安全事实/实操未认证 |
 
 **检查证据**：直接从 GitHub 最新文件 fetch 回读，四个文件均有实体正文、车型或架构边界、关键部件关系、可见来源/参考、后继任务和未验证说明；非空 Markdown 结构成立。未执行实验台架、实车检测、形式化工具、所有外链逐条 fact-check，不能报告 `FACT_VERIFIED` 或 `ACCEPT_SCOPED_GENERATION_ONLY`。
 
@@ -25,7 +25,7 @@
 | P2 — 待独审关注 | `STR-BRK` | 电液 one-box/two-box、再生融合与机械/液压后备因供应商/车型不同，需核查没有默认同一种失效保护或维修方式 | 同上；不因缺车型级制动操作步骤判其结构任务失败 |
 | P2 — 待独审关注 | `STR-HV` | 公开 BEV 的 AC/DC 充电和高压配电概念图简化较多，需核查其**不是**隐含可执行接线/隔离流程 | 同上；遇可操作危险断言应升级 P1/P0 并立即修复 |
 
-**本预检没有确证四篇通用结构稿的 P0/P1；此后 STR-AT 获其它对话限定内容独审 ACCEPT，但不代表其余三篇 PASS。** P2 审核关注项尚不等于确证缺陷。材料是否专业正确必须由独立 Reviewer 检查原始技术来源及具体断言。
+**本预检没有确证四篇通用结构稿的 P0/P1；此后 STR-AT、STR-BRK、STR-HV 均获各自其它对话限定内容独审 ACCEPT；只有 STR-ENG-LUBE R2 待另一对话复审，不能把本对话原 Writer 的修复当成独立通过。** P2 审核关注项尚不等于确证缺陷。材料是否专业正确必须由独立 Reviewer 检查原始技术来源及具体断言。
 
 ## 3. 验收不能互相偷换
 
@@ -36,14 +36,14 @@
 
 ## 4. 后续真正 READY 的任务与优先级
 
-- 独立内容审核：`STR-AT@ed2b...` 已完成 [R1 独审](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955520356)，**无需在 SHA 不变时重复全量审核**；仍待 `STR-ENG-LUBE@ff103f...`、`STR-BRK@e231...`、`STR-HV@472127...` 三项内容独审，Review 不改生成文件。
+- 独立内容审核：`STR-AT@ed2b...` 已完成 [R1 独审](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955520356)，**无需在 SHA 不变时重复全量审核**；仍待 `STR-ENG-LUBE@ff103f...` 一项内容独审；`STR-BRK@e231...` 与 `STR-HV@472127...` 已通过各自 Exact Blob 的其它对话限定内容质量审核，Review 不改生成文件。
 - 基于真实结构上游，`FUN-ENG-LUBE`、`FUN-AT-PATH`、`FUN-AT-HYD`、`FUN-BRK`、`FUN-HV` 都可作为后继**候选**；如果独立 Reviewer 发现上游关键错误，应先修复受影响上游、将后继标 `STALE`，禁止错误传播。
 - BREADTH 必须继续覆盖 `STR-LOWV`、`STR-STEER-SUSP`、`STR-THERMAL` 等，避免四系统试点被误称汽车系统全集；全部真实故障频率依然 `UNKNOWN`。
 - 本轮只更新现有已发现任务状态；未增加新 DAG 节点，不冒充已完成动态全图插入验证。
 
 ## 5. 审核接收规则
 
-每个 Reviewer 需读取当前文件和 Writer RELEASE 提交、实际出版方公开技术资料及未核实声明。明确 `P0/P1/P2 / verdict / reviewed commit & Blob / applicable scope` 写回 #61。**没有 Reviewer 签收的三篇仍保持 Pending**。STR-AT 的限定 ACCEPT 有对应 Exact Blob 审核收据，不得迁移到其它文稿。R2 Engine 旧审核目标 Blob `b43057...` 必须认定为 STALE，不得拿来签新稿。
+每个 Reviewer 需读取当前文件和 Writer RELEASE 提交、实际出版方公开技术资料及未核实声明。明确 `P0/P1/P2 / verdict / reviewed commit & Blob / applicable scope` 写回 #61。**没有 Reviewer 签收的发动机润滑 R2 仍保持 Pending**。三份限定 ACCEPT 各自绑定独立 Exact Blob，不得迁移到其它文稿或新版本。R2 Engine 旧审核目标 Blob `b43057...` 必须认定为 STALE，不得拿来签新稿。
 
 ---
 *本预检只为首轮增量整改与并行审核分派，不能替代后续正式专业事实验证。*
