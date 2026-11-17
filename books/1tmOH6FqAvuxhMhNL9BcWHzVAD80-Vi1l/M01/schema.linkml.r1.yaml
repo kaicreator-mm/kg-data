@@ -1,0 +1,21 @@
+id: https://example.org/kg/book-knowledge-r1
+name: book_knowledge_r1
+prefixes:
+  linkml: https://w3id.org/linkml/
+  kg: https://example.org/kg/
+default_prefix: kg
+imports:
+  - linkml:types
+classes:
+  KnowledgeRecord:
+    attributes:
+      id: {range: string, required: true, identifier: true}
+      title: {range: string, required: true}
+      toc_anchor: {range: string, required: true}
+      claim: {range: string, required: true}
+      mechanism: {range: string, required: true}
+      applicability: {range: string, required: true}
+      counterexample: {range: string, required: true}
+      provenance: {range: string, required: true}
+      verification_status: {range: string, required: true}
+      related_ids: {range: string, multivalued: true}
