@@ -1,0 +1,158 @@
+{
+  "@context": {
+    "title": "https://schema.org/name",
+    "claim": "https://example.org/kg/claim",
+    "mechanism": "https://example.org/kg/mechanism",
+    "related": "https://example.org/kg/related"
+  },
+  "@graph": [
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K001",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起步扭矩斜率与俯仰",
+      "claim": "起步驱动扭矩的建立速率可能激励动力总成俯仰及车身低频响应，终值相同但上升沿不同可产生不同峰值。",
+      "mechanism": "同步扭矩请求、轮速、动力总成角速度与座椅三轴加速度，按坡度和载荷分层检验响应时延。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K002",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K002",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "离合器滑差衰减与接合冲击",
+      "claim": "摩擦离合器滑差衰减时的扭矩交接可能引发纵向冲击，热状态及摩擦系数改变动态响应。",
+      "mechanism": "对齐输入输出转速差、纵向加速度与可读离合器控制状态，比较滑差结束时刻和响应峰值。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K003",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K003",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "液力变矩器低速流体耦合",
+      "claim": "液力变矩器在低速大滑差区的流体耦合和扭矩比变化可能改变起步平顺性。",
+      "mechanism": "比较泵轮和涡轮可用转速、油温、发动机请求及纵向加速度，识别耦合与发动机激励。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K004",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K004",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "传动间隙闭合与扭矩反转",
+      "claim": "齿轮侧隙、花键间隙及弹性扭转可在驱动扭矩从零建立时发生非线性间隙闭合，形成短时冲击。",
+      "mechanism": "记录驱动切换前史、轮速、半轴扭转代理信号及壳体加速度，比较正反向扭矩事件。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K005",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K005",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "悬置模态与起步激励路径",
+      "claim": "悬置刚度、阻尼及几何决定起步反作用扭矩传至车身的路径，输入不变也可能因模态放大产生振感。",
+      "mechanism": "同步动力总成侧和车身侧多轴加速度，区分激励增强与传递函数变化。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K006",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K006",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "制动释放与驱动建立时序",
+      "claim": "自动驻车和坡道辅助释放与驱动扭矩建立的重叠时序可能产生纵向冲击。",
+      "mechanism": "联合读取允许访问的制动状态、驱动请求、轮速和加速度，核查事件先后关系。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K007",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K007",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "电驱起步转矩纹波与减速器",
+      "claim": "电驱电磁转矩纹波、减速器啮合与悬置路径可共同影响起步NVH，不应简单套用发动机燃烧阶次。",
+      "mechanism": "对齐电机转速、电驱请求、减速器壳体和座椅响应，按温度及控制模式分层。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K008",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M06-K008",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起步试验混杂与反事实",
+      "claim": "坡度、载荷、温度、踏板输入及软件版本影响起步冲击，单次峰值下降不足以证明设计改善。",
+      "mechanism": "保存车辆版本、温度、坡度、踏板轨迹、载荷、传感器同步误差，进行重复对照与分布比较。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M06-K001",
+          "predicate": "REQUIRES"
+        }
+      ]
+    }
+  ]
+}
