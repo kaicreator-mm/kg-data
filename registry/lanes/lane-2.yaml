@@ -19,17 +19,19 @@ active_book:
     M03: 19
     M04: 10
     M05: 10
-  total_persisted_candidates: 54
-  latest_run_added: 20
-  latest_run_edges_added: 20
-  latest_run_modules: [M04, M05]
-  latest_run_files_verified: 16
-  latest_run_files_expected: 16
+    M06: 12
+  total_persisted_candidates: 66
+  latest_run_added: 12
+  latest_run_edges_added: 12
+  latest_run_modules: [M06]
+  latest_run_files_verified: 8
+  latest_run_files_expected: 8
+  latest_run_final_commit: def8dc8787fe92f5c631dcf4bb5821752dcec5b0
   whole_book_complete: false
-  next_cursor: M05_INDIVIDUAL_TOPOLOGY_REVIEW_THEN_M06; M01-M05_PARTIAL; M06-M11_NOT_STARTED
+  next_cursor: M06_SUBTOPIC_DEEPENING_THEN_M07; M01-M05_PARTIAL; M07-M11_NOT_STARTED
   source_scope: TOC_THEME_ONLY
   verification_status: MODEL_GENERATED_UNVERIFIED
   independent_review: NOT_RUN
 books_touched_this_run: 1
 books_completed_this_run: 0
-next_action: Continue M05 missing topology-specific topics, then M06 electronic control; deepen M01-M04; no cross-lane writes.
+next_action: Continue remaining M06 actual TOC subtopics, then M07 valve body; preserve existing M01-M05 and source PDF.
