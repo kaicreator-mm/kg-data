@@ -1,0 +1,22 @@
+book_id: 1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X
+book_title: "汽车主动制动控制系统设计"
+source_drive_modified_time: "2026-11-17T08:24:56.947Z"
+source_rights: COPYRIGHTED_TRANSLATION_NOT_PUBLICLY_RELICENSED
+source_mode: TOC_FIRST_ONLY
+status: IN_PROGRESS
+module_cursor: M02
+modules:
+  M01: NOT_STARTED
+  M02: GENERATED_REVIEW_PENDING
+  M03: NOT_STARTED
+  M04: NOT_STARTED
+  M05: NOT_STARTED
+  M06: NOT_STARTED
+  M07: NOT_STARTED
+  M08: NOT_STARTED
+  APPENDIX_A: NOT_STARTED
+  APPENDIX_B: NOT_STARTED
+knowledge_records: 4
+relationships: 8
+qualified_records: 0
+next: "M02 deeper coverage, then M01 and M03-M08; primary-source verification pending"
