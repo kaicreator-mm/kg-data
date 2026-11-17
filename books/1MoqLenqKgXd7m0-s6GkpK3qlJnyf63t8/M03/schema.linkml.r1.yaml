@@ -1,0 +1,33 @@
+id: https://example.org/parts/nvh/m03
+name: parts_nvh_m03
+prefixes:
+  linkml: https://w3id.org/linkml/
+  parts: https://example.org/parts/nvh/
+default_prefix: parts
+default_range: string
+slots:
+  id:
+    identifier: true
+    required: true
+  title:
+    required: true
+  claim:
+    required: true
+  mechanism:
+    required: true
+  assumptions:
+    required: true
+  counterexample:
+    required: true
+  verification_status:
+    required: true
+classes:
+  KnowledgeCandidate:
+    slots:
+      - id
+      - title
+      - claim
+      - mechanism
+      - assumptions
+      - counterexample
+      - verification_status
