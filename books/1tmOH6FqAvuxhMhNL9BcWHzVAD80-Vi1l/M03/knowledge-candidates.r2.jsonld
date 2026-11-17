@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "kg": "https://example.org/kg/",
+    "@vocab": "https://example.org/kg/",
+    "id": "@id",
+    "type": "@type",
+    "related_ids": {
+      "@id": "kg:relatedTo",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "kg:M03-K013",
+      "@type": "KnowledgeCandidate",
+      "title": "序列式变速器的顺序选挡约束",
+      "claim": "序列式变速器通常由换挡鼓或棘轮机构将相邻挡位的选取顺序机械化，驾驶者不能像H型选挡机构一样任意横向直接选择所有挡位。",
+      "mechanism": "换挡鼓的槽型轨迹推动拨叉，拨叉移动接合套；相邻挡位过渡时仍须协调齿轮与轴转速，具体是否允许跳挡取决于结构和控制。",
+      "applicability": "采用顺序换挡机构的多挡齿轮变速器；不等同于所有自动变速器",
+      "assumptions": "换挡时仍需满足犬牙接合的转速差和扭矩卸载约束；不能仅靠顺序机构消除冲击。",
+      "counterexample": "把序列式变速器一律解释为无需离合器或允许任何转速强制挂挡。",
+      "uncertainty": "换挡鼓型式、点火切断和自动补油策略因车辆而异",
+      "toc_anchor": "3.9",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K004",
+        "kg:M03-K014"
+      ]
+    },
+    {
+      "@id": "kg:M03-K014",
+      "@type": "KnowledgeCandidate",
+      "title": "犬牙接合与卸载扭矩窗口",
+      "claim": "犬牙式接合机构在输入输出转速差过大或接合齿承载高扭矩时，可能发生冲击、拒绝入挡或齿面损伤。",
+      "mechanism": "换挡控制先降低传递扭矩，再通过转速匹配减小相对速度；接合套行程、犬牙倒角和轴系惯量共同决定可接受窗口。",
+      "applicability": "使用犬牙接合的顺序式或赛车变速器；非通用维修操作指南",
+      "assumptions": "仅定性描述，接合容许转速差和切扭持续时间均需对应硬件试验或原厂资料。",
+      "counterexample": "声称只要切断点火便可在任何发动机转速无损换挡。",
+      "uncertainty": "高转速负载、轴系弹性和油温影响结果",
+      "toc_anchor": "3.9",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K013",
+        "kg:M03-K004"
+      ]
+    },
+    {
+      "@id": "kg:M03-K015",
+      "@type": "KnowledgeCandidate",
+      "title": "传动比与功率损失的定量边界",
+      "claim": "在准稳态且无滑差时，可用轮端扭矩 T_w≈T_e·i_g·i_f·η_d 估算牵引力 F≈T_w/r_eff；这只是受附着、效率及发动机工作点约束的近似。",
+      "mechanism": "传动级联使转速按总传动比降低、扭矩按比值提高；轴承、齿轮和油液搅动消耗功率，η_d一般依负载、转速与温度变化。",
+      "applicability": "已知齿轮比、主减速比、有效滚动半径的准稳态正驱动工况",
+      "assumptions": "i_g、i_f采用输入转速除以输出转速的正值约定；负扭矩再生、滑摩和动态惯量另行建模。",
+      "counterexample": "固定发动机转速和效率时仅用更大传动比推断车辆加速度，不检查轮胎附着上限。",
+      "uncertainty": "动态换挡、CVT滑移与不同方向效率需单独模型",
+      "toc_anchor": "3.1",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K001",
+        "kg:M03-K016"
+      ]
+    },
+    {
+      "@id": "kg:M03-K016",
+      "@type": "KnowledgeCandidate",
+      "title": "轮胎附着约束与低挡失效反例",
+      "claim": "较低挡位提高轮端可用扭矩不意味着牵引力可无限提高，驱动轮附着极限和牵引力控制可能使轮端额外扭矩转化为滑移或限扭。",
+      "mechanism": "近似附着上限 F_x≤μ·N_drive；坡度、轴荷转移、轮胎状态和路面变化使μ及法向载荷不确定。",
+      "applicability": "非越野松软地面之外的定性牵引力分析；具体极限需轮胎与工况试验",
+      "assumptions": "不把单一常数摩擦系数当作全车型全路面标定值。",
+      "counterexample": "在冰面上假设低挡必然比高挡获得更大有效加速度。",
+      "uncertainty": "轮胎滑移率与联合侧向力使简单上限模型失效",
+      "toc_anchor": "3.1",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K015",
+        "kg:M03-K001"
+      ]
+    },
+    {
+      "@id": "kg:M03-K017",
+      "@type": "KnowledgeCandidate",
+      "title": "同步器热负荷与换挡时间的权衡",
+      "claim": "同步器在有限时间内消除轴系相对转速，较大的等效惯量和初始转速差通常增加所需摩擦功与热负荷。",
+      "mechanism": "近似能量 E≈1/2·J_eq·(Δω)^2；摩擦锥材料、油液和轴向施力决定瞬时同步扭矩与温升分布。",
+      "applicability": "常见摩擦锥同步器的定性设计与失效分析",
+      "assumptions": "等效惯量应映射至同一轴，公式不含换挡过程发动机扭矩输入与温度相关摩擦系数。",
+      "counterexample": "认为增大换挡手柄力总能无代价缩短同步时间。",
+      "uncertainty": "摩擦材料、表面状态、润滑和温度需要具体来源核查",
+      "toc_anchor": "3.3",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K004",
+        "kg:M03-K014"
+      ]
+    },
+    {
+      "@id": "kg:M03-K018",
+      "@type": "KnowledgeCandidate",
+      "title": "液力变矩器锁止诊断的混杂因素",
+      "claim": "巡航转速波动或抖振不能单独证明变矩器锁止离合器失效；发动机失火、传动轴不平衡、轮胎及路面激励可能产生相似主观症状。",
+      "mechanism": "应区分锁止指令、实际泵涡轮转速差、发动机负载与路况的时间关联，并控制油温与挡位；相关性不等于唯一因果。",
+      "applicability": "具备锁止离合器与可获取可信诊断数据的AT",
+      "assumptions": "诊断需要合法车型专用数据定义；不得依据通用文字执行危险路试。",
+      "counterexample": "仅凭某车速区间的振动就更换液力变矩器。",
+      "uncertainty": "车型数据PID含义、测量精度及控制策略未知",
+      "toc_anchor": "3.5",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K006",
+        "kg:M03-K007"
+      ]
+    },
+    {
+      "@id": "kg:M03-K019",
+      "@type": "KnowledgeCandidate",
+      "title": "CVT夹紧力与效率的非单调关系",
+      "claim": "CVT夹紧力不足可能导致带/链与带轮间宏观滑移和损伤，夹紧力过高则可能增加液压泵功耗和摩擦损失；目标不是无限提高夹紧力。",
+      "mechanism": "控制器需在扭矩传递能力、安全裕度、油温、带轮变径和液压执行能耗间优化。",
+      "applicability": "金属带/链式液压控制CVT；不推广到所有e-CVT功率分流结构",
+      "assumptions": "具体夹紧压力映射和故障阈值需要OEM资料与试验。",
+      "counterexample": "把任何CVT滑移问题都归因于压力不足，忽略磨损、油液及传感器故障。",
+      "uncertainty": "链式与带式接触模型不同，极限参数未知",
+      "toc_anchor": "3.7",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K009",
+        "kg:M03-K020"
+      ]
+    },
+    {
+      "@id": "kg:M03-K020",
+      "@type": "KnowledgeCandidate",
+      "title": "DCT低速蠕行与离合器热预算",
+      "claim": "低速蠕行时DCT可能在未完全接合的离合器上持续耗散滑摩功率，热管理策略可限制扭矩、改变接合状态或提示保护；不能等同于液力AT的流体蠕行。",
+      "mechanism": "滑摩热功率近似 P_heat≈T_clutch·|ω_in−ω_out|，累计能量受滑摩时间影响；温度估计受冷却路径和传感器影响。",
+      "applicability": "具有摩擦离合器控制的DCT，区分湿式与干式结构",
+      "assumptions": "仅作为定性机制和公式，不给出车辆操作阈值或保护触发温度。",
+      "counterexample": "长时间坡道保持时假设DCT与液力变矩器具有相同的散热机制。",
+      "uncertainty": "湿式冷却、干式散热和控制标定高度依车型",
+      "toc_anchor": "3.8",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "kg:M03-K010",
+        "kg:M03-K019"
+      ]
+    }
+  ]
+}
