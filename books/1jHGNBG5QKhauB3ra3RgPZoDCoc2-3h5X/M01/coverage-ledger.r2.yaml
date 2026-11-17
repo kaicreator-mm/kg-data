@@ -6,8 +6,8 @@ module: M01
 module_status: IN_PROGRESS
 subtopics:
   "1.1": {status: NOT_STARTED, note: "历史背景仍待主题梳理"}
-  "1.2": {status: GENERATED, records: [AB-M01-K001, AB-M01-K002, AB-M01-K011]}
-  "1.3": {status: GENERATED, records: [AB-M01-K003, AB-M01-K004]}
+  "1.2": {status: NOT_STARTED, note: "ABS发展史的独立技术知识及来源边界待梳理"}
+  "1.3": {status: GENERATED, records: [AB-M01-K001, AB-M01-K002, AB-M01-K003, AB-M01-K004, AB-M01-K011]}
   "1.4": {status: GENERATED, records: [AB-M01-K005, AB-M01-K010]}
   "1.5": {status: GENERATED, records: [AB-M01-K006, AB-M01-K007]}
   "1.6": {status: GENERATED, records: [AB-M01-K008, AB-M01-K009, AB-M01-K012]}
