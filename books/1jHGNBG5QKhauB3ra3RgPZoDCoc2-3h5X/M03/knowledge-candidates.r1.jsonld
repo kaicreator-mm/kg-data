@@ -1,0 +1,294 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "title": "https://schema.org/name",
+    "mechanism": "https://example.org/knowledge/mechanism",
+    "verification_status": "https://example.org/knowledge/verificationStatus",
+    "source_scope": "https://example.org/knowledge/sourceScope",
+    "source": "https://example.org/knowledge/source",
+    "target": "https://example.org/knowledge/target"
+  },
+  "@graph": [
+    {
+      "@id": "urn:kg:parts:AB-M03-K001",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "滑移闭环的参考目标可行性",
+      "mechanism": "轮速与车速估计形成滑移反馈；参考目标应受附着估计、执行器压力斜率与低速状态限制，否则跟踪误差并不代表控制器缺陷。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K002",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "轮减速度控制与滑移控制的可观测性差异",
+      "mechanism": "轮减速度由轮速差分获得，容易受到编码量化和滤波时延影响；它不需要显式车速却不能单独确定路面附着峰值。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K003",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "线性化滑移控制的局部有效域",
+      "mechanism": "围绕平衡滑移点线性化得到的状态空间增益依赖轮胎力曲线局部斜率；坡度、路面切换或轮胎温度变化会使名义线性模型失配。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K004",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "执行器带宽与滑移环的相位裕度",
+      "mechanism": "压力或夹紧力执行器引入延迟和速率限制，控制器外环增益必须计入执行器闭环响应与采样延迟，否则理想执行器仿真会高估鲁棒性。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K005",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "数值试验的模型不确定性矩阵",
+      "mechanism": "控制性能评估应组合附着突变、初速度、载荷、传感器噪声和执行器迟滞，并保留失败工况而非只报告一条理想滑移曲线。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K006",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "滑移控制激活的多条件门控",
+      "mechanism": "激活判据可综合制动请求、车速有效性、轮减速度趋势和执行器可用状态，避免在正常轻制动或传感器故障下误激活。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K007",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "抑制与退出逻辑的滞回",
+      "mechanism": "退出条件应考虑低速不可观测、传感器故障、请求解除和持续时间；滞回及最小保持时间可减少激活抑制抖动。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K008",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "双轴制动闭环中的载荷转移",
+      "mechanism": "制动减速度引起前后轴法向载荷再分配，前后轮滑移目标和力分配需联合考虑轴距、质心高度及附着不确定性。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K009",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "后轴相对滑移反馈的参考依赖",
+      "mechanism": "相对滑移方案利用轴间轮速信息缓解车辆速度估计问题，但在所有轮同时滑移或前轴轮速失真时参考不再可靠。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:AB-M03-K010",
+      "@type": "https://example.org/knowledge/ResearchCandidate",
+      "title": "弯道制动的纵横向附着耦合",
+      "mechanism": "弯道侧向力占用轮胎摩擦能力，制动目标需约束组合滑移及横摆稳定，单纯最大纵向减速可能损害路径保持能力。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY"
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:001",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K001"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K002"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:002",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K001"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K003"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:003",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K002"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K003"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:004",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K002"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K004"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:005",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K003"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K004"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:006",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K003"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K005"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:007",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K004"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K005"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:008",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K004"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K006"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:009",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K005"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K006"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:010",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K005"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K007"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:011",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K006"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K007"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:012",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K006"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K008"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:013",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K007"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K008"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:014",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K007"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K009"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:015",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K008"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K009"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:016",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K008"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K010"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:017",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K009"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K010"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:018",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K009"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K001"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:019",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K010"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K001"
+      }
+    },
+    {
+      "@id": "urn:kg:parts:M03:edge:020",
+      "@type": "https://example.org/knowledge/ResearchRelation",
+      "source": {
+        "@id": "urn:kg:parts:AB-M03-K010"
+      },
+      "target": {
+        "@id": "urn:kg:parts:AB-M03-K002"
+      }
+    }
+  ]
+}
