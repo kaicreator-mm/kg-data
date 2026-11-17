@@ -1,0 +1,21 @@
+id: https://example.org/kg/book-knowledge-schema
+name: book_knowledge_candidates
+prefixes:
+  linkml: https://w3id.org/linkml/
+  kg: https://example.org/kg/
+default_prefix: kg
+imports: [linkml:types]
+classes:
+  KnowledgeCandidate:
+    attributes:
+      id: {range: string, required: true, identifier: true}
+      title: {range: string, required: true}
+      claim: {range: string, required: true}
+      mechanism: {range: string, required: true}
+      applicability: {range: string, required: true}
+      assumptions: {range: string, required: true}
+      counterexample: {range: string, required: true}
+      uncertainty: {range: string, required: true}
+      toc_anchor: {range: string, required: true}
+      verification_status: {range: string, required: true}
+      related_ids: {range: string, multivalued: true}
