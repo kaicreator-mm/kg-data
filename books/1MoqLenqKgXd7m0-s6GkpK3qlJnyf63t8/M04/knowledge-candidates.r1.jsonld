@@ -1,0 +1,239 @@
+{
+  "@context": {
+    "id": "@id",
+    "title": "https://schema.org/name",
+    "claim": "https://example.org/kg/claim",
+    "mechanism": "https://example.org/kg/mechanism",
+    "related": "https://example.org/kg/related"
+  },
+  "@graph": [
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K001",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速车身振动的源路径响应",
+      "claim": "怠速燃烧转矩波动和附件载荷可能经动力总成悬置与副车架传至车身，车内振感取决于频率、方向及座椅路径。",
+      "mechanism": "同步采集发动机转速、动力总成三轴加速度、悬置车身侧、座椅导轨与方向盘振动；结合相干度与路径分析区分源和传递。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K002",
+          "predicate": "INVESTIGATED_WITH"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K003",
+          "predicate": "PROPAGATES_THROUGH"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K007",
+          "predicate": "CONFOUNDED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K002",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速阶次与燃烧事件的可辨识性",
+      "claim": "发动机循环性激励可产生与曲轴转速相关的阶次，但非整阶次与次谐波也可能由不均匀燃烧、控制摆动或采样误差形成。",
+      "mechanism": "以可信曲轴角度或转速同步重采样，联合观察频率谱、阶次谱、循环波动及重复性。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K004",
+          "predicate": "SUPPORTS"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K007",
+          "predicate": "DISTINGUISHES"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K003",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "悬置动态刚度与怠速隔振权衡",
+      "claim": "悬置动态刚度、阻尼及安装几何共同决定动力总成激励向车身的传递，降低单一方向刚度可能改变刚体模态和位移限位。",
+      "mechanism": "用工况相关动态刚度曲线、刚体模态与载荷路径评估隔振；同时核查大位移与耐久边界。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K010",
+          "predicate": "COUPLES_WITH"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K012",
+          "predicate": "VALIDATED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K004",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "空档加速的扫频共振识别",
+      "claim": "空档加速时发动机阶次穿越车身或动力总成模态可能出现局部峰值，扫频速率影响响应幅度。",
+      "mechanism": "同步记录转速、加速度和阶次瀑布图；在允许的安全试验条件下对比稳态与扫频响应。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K010",
+          "predicate": "INVESTIGATED_WITH"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K008",
+          "predicate": "REQUIRES"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K005",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速品质的主客观联合评价",
+      "claim": "怠速品质涉及座椅、方向盘、地板等不同接触点的振动方向、频带与波动，单一峰值加速度不足以代表乘员感知。",
+      "mechanism": "使用明示的频率加权、时间窗和重复次数，结合盲法主观评价与同工况客观指标。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K009",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K012",
+          "predicate": "REQUIRES"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K006",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "附件负载对怠速激励的扰动",
+      "claim": "空调压缩机、发电机和冷却风扇的负荷阶跃可能改变怠速控制扭矩与转速稳定性，从而影响振动。",
+      "mechanism": "记录附件启停事件、发动机控制状态、转速和多点振动；区分负载响应与附件自身机械激励。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K007",
+          "predicate": "MAY_CONTRIBUTE_TO"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K011",
+          "predicate": "CONSTRAINED_BY"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K001",
+          "predicate": "MAY_CONTRIBUTE_TO"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K007",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速不稳定与车身振动因果区分",
+      "claim": "怠速转速波动、燃烧不均与悬置传递可相互叠加；仅凭车身响应不能唯一识别发动机控制或机械根因。",
+      "mechanism": "联合观察允许读取的转速波动、燃烧相关状态和多点声振，建立候选因果图并排除路径模态。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K008",
+          "predicate": "REQUIRES"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K008",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速振动试验的环境控制",
+      "claim": "发动机冷却液温度、舱内空调、车辆载荷、轮胎接触及测点安装方式会影响怠速振动比较的可重复性。",
+      "mechanism": "制定试验元数据和仪器校准记录，分层比较冷/热机、附件负荷与驻车条件。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K005",
+          "predicate": "CONSTRAINS"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K009",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速拍振与双频源的辨别",
+      "claim": "两个接近频率的振动源叠加可能形成缓慢包络变化，主观上表现为周期性拍振而平均能量变化不大。",
+      "mechanism": "分析时间包络、频率分辨率与转速同步关系，核对是否存在双源或调幅现象。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K005",
+          "predicate": "AFFECTS"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K002",
+          "predicate": "INVESTIGATED_WITH"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K010",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速振动的结构模态耦合",
+      "claim": "车身局部件、转向柱和仪表板的模态可能放大输入振动，源端激励未变也可能出现局部舒适性恶化。",
+      "mechanism": "比较多个结构测点的频率响应、模态形态与源端输入；采用合法、非破坏性激励测试。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K012",
+          "predicate": "INVESTIGATED_WITH"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K003",
+          "predicate": "CONFOUNDS"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K011",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速控制策略变化的版本边界",
+      "claim": "发动机控制软件、附件管理和混动启停策略改变时，怠速振动统计分布可能改变，跨版本指标不可无条件合并。",
+      "mechanism": "绑定软件/硬件配置与可读取运行状态，按版本分层比较同温度同负载试验。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K008",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K005",
+          "predicate": "CONSTRAINS"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M04-K012",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "多路径干预验证与反事实",
+      "claim": "源强、悬置传递和车身局部响应可能同时变化，单次更换零件后的改善不足以识别唯一因果机制。",
+      "mechanism": "在受控工程条件下设计可逆对照、重复测量和源路径响应分解，报告未控制的混杂因素。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K001",
+          "predicate": "VALIDATES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M04-K007",
+          "predicate": "VALIDATES"
+        }
+      ]
+    }
+  ]
+}
