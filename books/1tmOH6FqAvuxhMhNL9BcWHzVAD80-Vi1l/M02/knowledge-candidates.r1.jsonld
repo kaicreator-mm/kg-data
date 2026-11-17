@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "title": "https://schema.org/name",
+    "claim": "https://schema.org/description",
+    "verification_status": "https://example.org/kg/verificationStatus",
+    "related_ids": {
+      "@id": "https://schema.org/relatedLink",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K001",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "四冲程能量转换与扭矩脉动",
+      "claim": "四冲程火花点火发动机以进气、压缩、做功、排气循环把燃料化学能转为曲轴输出；四冲程单缸每两转只有一次主要燃烧做功。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K002",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K003"
+      ]
+    },
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K002",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "气缸数与平顺性、摩擦及封装的折衷",
+      "claim": "气缸数不是越多越好：给定排量下增多气缸可能缩短发火间隔，但也增加摩擦副、密封边界、控制及成本。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K001",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K003"
+      ]
+    },
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K003",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "气缸排列与惯性平衡不是单一优劣排序",
+      "claim": "直列、V型和水平对置的空间布局影响发动机宽高、曲轴结构、振动阶次及附件布置，不能仅由排列断定技术先进程度。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K002",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K004"
+      ]
+    },
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K004",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "有效压缩、燃烧与膨胀的工况边界",
+      "claim": "气缸内燃烧并非理想瞬时爆炸，燃烧放热时刻、混合气状态与膨胀过程共同决定指示功和排气损失。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K001",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K005"
+      ]
+    },
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K005",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "节气门与进气歧管压降的负荷作用",
+      "claim": "节气门调节进气通道有效流通面积，典型汽油机部分负荷时通过歧管压力变化影响气缸充量，但不是所有发动机的唯一负荷控制器。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K004",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K006"
+      ]
+    },
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K006",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "理论空燃比与闭环氧传感器的限制",
+      "claim": "化学计量空燃比是燃料完全氧化的理论质量比，实际闭环空燃比控制需结合氧传感器反馈、燃料组成和排放后处理工作窗口。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K005",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K007"
+      ]
+    },
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K007",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "气门正时、充气效率和干涉风险",
+      "claim": "进排气门开闭相位影响扫气、残余废气、有效压缩和充气效率；正时偏移可能改变性能或造成机械干涉。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K005",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K008"
+      ]
+    },
+    {
+      "@id": "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K008",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "可变气门技术的自由度与代价",
+      "claim": "可变气门正时和可变升程分别改变开闭相位与升程轮廓，目的包括拓宽有效转速范围、降低泵气损失与优化排放。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K007",
+        "urn:kg-data:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M02-K006"
+      ]
+    }
+  ]
+}
