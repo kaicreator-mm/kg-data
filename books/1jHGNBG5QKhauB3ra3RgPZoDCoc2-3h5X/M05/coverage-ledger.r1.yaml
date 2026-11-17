@@ -1,0 +1,44 @@
+{
+  "book_id": "1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X",
+  "module": "M05",
+  "source_scope": "TOC_THEME_ONLY",
+  "module_status": "IN_PROGRESS",
+  "subtopics": [
+    {
+      "topic": "5.1",
+      "status": "IN_PROGRESS",
+      "record_ids": [
+        "AB-M05-K001",
+        "AB-M05-K004",
+        "AB-M05-K009"
+      ],
+      "note": "Partial chapter candidates, detailed TOC and deep coverage pending"
+    },
+    {
+      "topic": "5.2",
+      "status": "IN_PROGRESS",
+      "record_ids": [
+        "AB-M05-K002",
+        "AB-M05-K003",
+        "AB-M05-K005"
+      ],
+      "note": "Partial chapter candidates, detailed TOC and deep coverage pending"
+    },
+    {
+      "topic": "5.3",
+      "status": "IN_PROGRESS",
+      "record_ids": [
+        "AB-M05-K006",
+        "AB-M05-K007",
+        "AB-M05-K008",
+        "AB-M05-K010"
+      ],
+      "note": "Partial chapter candidates, detailed TOC and deep coverage pending"
+    }
+  ],
+  "knowledge_records": 10,
+  "relationships": 20,
+  "qualified_records": 0,
+  "whole_book_status": "IN_PROGRESS",
+  "next_cursor": "M05 actual full TOC subtopics and deepening, M06 next; backfill M01–M04, M07–M08, appendix A/B"
+}
