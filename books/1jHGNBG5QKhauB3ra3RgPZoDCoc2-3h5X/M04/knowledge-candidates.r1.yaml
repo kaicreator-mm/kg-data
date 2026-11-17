@@ -1,0 +1,243 @@
+{
+  "book_id": "1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X",
+  "module": "M04",
+  "module_topic": "离散动态执行器与极限环",
+  "source_drive_modified_time": "2026-11-17T08:24:56.947Z",
+  "source_scope": "TOC_THEME_ONLY",
+  "rights": "COPYRIGHTED_PRIVATE_SOURCE_NOT_RELICENSED",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "records": [
+    {
+      "id": "AB-M04-K001",
+      "title": "三态阀执行器的混合状态模型",
+      "toc_anchor": "第4章/4.2",
+      "mechanism": "增压保压减压可抽象为离散模式与连续轮速压力状态的混合系统；模式切换时液压流量、压力滞后和机械状态仍连续演化。",
+      "applicability_assumptions": "阀拓扑和压力源已知；模式与测量同步",
+      "counterexample": "把每次开阀等同于固定瞬时轮端转矩跃迁会产生虚假控制精度",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K002",
+      "title": "离散模式的最小驻留时间",
+      "toc_anchor": "第4章/4.2",
+      "mechanism": "采样噪声和阀响应延迟可诱发高频切换；驻留时间、死区和滞回限制切换频率，但过长驻留会降低滑移恢复速度。",
+      "applicability_assumptions": "阀寿命与动态延迟已知",
+      "counterexample": "零滞回控制在噪声下可能出现抖振",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K003",
+      "title": "极限环不是无条件故障",
+      "toc_anchor": "第4章/4.3",
+      "mechanism": "离散执行器的开关策略可能产生有界周期振荡，评估时应区分预期稳态极限环与幅值不断增长的不稳定振荡。",
+      "applicability_assumptions": "模式切换与路面条件近似周期不变",
+      "counterexample": "仅观察到周期压力波动就断言闭环失稳是不充分的",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K004",
+      "title": "Poincaré映射的局部稳定判据",
+      "toc_anchor": "第4章/4.3",
+      "mechanism": "对可定义横截面的周期轨道，可通过一次周期返回映射的局部导数或特征值判断小扰动是否衰减；存在性与吸引域仍需另证。",
+      "applicability_assumptions": "存在横截面、事件顺序固定且映射可微",
+      "counterexample": "局部乘子模小于1不能证明全部初始状态全局收敛",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K005",
+      "title": "切换边界与传感器时延",
+      "toc_anchor": "第4章/4.4",
+      "mechanism": "检测延迟改变模式切换时刻并扩大实际滑移摆幅；对切换面的扰动灵敏度应计入传感器滤波和液压滞后。",
+      "applicability_assumptions": "传感器与执行器时间戳可对齐",
+      "counterexample": "忽略延迟得到的稳定周期不保证延迟增加后仍稳定",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K006",
+      "title": "阀压力变化率不对称",
+      "toc_anchor": "第4章/4.5",
+      "mechanism": "增压和减压能力可能不对称，受蓄压压力、液温和管路容积影响；周期轨道的幅值与频率不能只用一个对称速率常数预测。",
+      "applicability_assumptions": "阀特性经过实验辨识",
+      "counterexample": "将低温减压响应套用常温增压速率可能低估轮胎抱死风险",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K007",
+      "title": "速率饱和与抗积分饱和",
+      "toc_anchor": "第4章/4.5",
+      "mechanism": "即使上层输出连续目标，离散执行器的压力斜率和阀模式也限制可实现集合；积分器应跟踪执行反馈而非积累不可达压力。",
+      "applicability_assumptions": "执行器模式反馈可信",
+      "counterexample": "长时间饱和后解除时控制请求可能出现过冲",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K008",
+      "title": "离散与连续执行器的公平对比",
+      "toc_anchor": "第4章/4.6",
+      "mechanism": "比较两类执行器应统一轮胎、车速估计、采样周期、故障模式和能耗约束，并报告切换次数及制动稳定性，而非只比较平均跟踪误差。",
+      "applicability_assumptions": "控制器调参预算和试验工况一致",
+      "counterexample": "不同轮胎摩擦曲线下的单指标优胜不能归因于执行器结构",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K009",
+      "title": "离散阀故障的可辨识残差",
+      "toc_anchor": "第4章/4.6",
+      "mechanism": "模式命令与压力响应不一致可能由阀卡滞、供压不足、泄漏或压力传感器漂移引起；残差必须与其他观测联合定位。",
+      "applicability_assumptions": "有独立压力或轮端响应观测",
+      "counterexample": "仅靠增压响应慢不能唯一确认阀线圈故障",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "id": "AB-M04-K010",
+      "title": "极限环验证的分层证据",
+      "toc_anchor": "第4章/4.7",
+      "mechanism": "混合模型仿真可测试事件序列与局部稳定；HIL需覆盖真实阀延迟，整车安全验证需独立场地及规程，不可把模型证明等同于车型认证。",
+      "applicability_assumptions": "研究阶段只做非执行性分析",
+      "counterexample": "仿真中有界振荡不等于故障工况下可接受的制动距离",
+      "limitations": "模型化研究命题；不包含OEM标定值、实车操作程序或正式安全资格",
+      "uncertainty": "PRIMARY_SOURCE_VERIFICATION_REQUIRED",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "GPT-6 independent original research hypothesis; source body not used as technical evidence",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AB-M04-K001",
+      "target": "AB-M04-K002",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K001",
+      "target": "AB-M04-K003",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K002",
+      "target": "AB-M04-K003",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K002",
+      "target": "AB-M04-K004",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K003",
+      "target": "AB-M04-K004",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K003",
+      "target": "AB-M04-K005",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K004",
+      "target": "AB-M04-K005",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K004",
+      "target": "AB-M04-K006",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K005",
+      "target": "AB-M04-K006",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K005",
+      "target": "AB-M04-K007",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K006",
+      "target": "AB-M04-K007",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K006",
+      "target": "AB-M04-K008",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K007",
+      "target": "AB-M04-K008",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K007",
+      "target": "AB-M04-K009",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K008",
+      "target": "AB-M04-K009",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K008",
+      "target": "AB-M04-K010",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K009",
+      "target": "AB-M04-K010",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K009",
+      "target": "AB-M04-K001",
+      "type": "RELATED_MECHANISM"
+    },
+    {
+      "source": "AB-M04-K010",
+      "target": "AB-M04-K001",
+      "type": "CONSTRAINS_OR_REFINES"
+    },
+    {
+      "source": "AB-M04-K010",
+      "target": "AB-M04-K002",
+      "type": "RELATED_MECHANISM"
+    }
+  ]
+}
