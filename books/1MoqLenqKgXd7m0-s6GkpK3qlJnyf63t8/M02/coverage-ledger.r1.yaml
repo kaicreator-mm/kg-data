@@ -1,0 +1,17 @@
+book_file_id: "1MoqLenqKgXd7m0-s6GkpK3qlJnyf63t8"
+module: M02
+chapter_topic: "第二篇 第二章 发动机起动时车体振动"
+chapter_status: SELF_QA
+knowledge_records: 8
+relations: 10
+qualified_records: 0
+verification_status: MODEL_GENERATED_UNVERIFIED
+source_scope: TOC_THEME_ONLY
+source_rights: NOT_VERIFIED
+covered_topics:
+  - topic: "起动时车体振动"
+    status: SELF_QA
+    record_ids: [M02-K001, M02-K002, M02-K003, M02-K004, M02-K005, M02-K006, M02-K007, M02-K008]
+book_status: IN_PROGRESS
+next_cursor: "第二篇 第三章 发动机起动时噪声；随后第四章 怠速振动，原有M01剩余主题仍待补齐"
+other_chapters: NOT_STARTED_OR_PARTIAL
