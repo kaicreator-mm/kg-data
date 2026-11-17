@@ -1,0 +1,250 @@
+{
+  "book_file_id": "1MoqLenqKgXd7m0-s6GkpK3qlJnyf63t8",
+  "module": "M05",
+  "source_title": "汽车NVH综合技术",
+  "source_rights": "NOT_VERIFIED_PRIVATE_RESEARCH_INPUT",
+  "toc_evidence": "PDF_FRONT_MATTER_TOC_ONLY",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "records": [
+    {
+      "id": "M05-K001",
+      "title": "怠速车外噪声的边界条件",
+      "anchor": "车外噪声",
+      "claim": "车外怠速噪声同时受动力总成、冷却系统、排气及反射环境影响，近场单点值不能直接代表整车外部辐射。",
+      "mechanism": "记录测点几何、背景噪声、温度、风速、附件启停和怠速稳定度，进行多点重复采样。",
+      "assumptions": "必须明确试验标准版本和现场条件；未提供法规或OEM阈值。",
+      "counterexample": "室内反射环境测得的峰值不可直接等同自由场结果。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M05-K009"
+        },
+        {
+          "predicate": "CONSTRAINED_BY",
+          "target": "M05-K010"
+        }
+      ]
+    },
+    {
+      "id": "M05-K002",
+      "title": "变速器怠速齿轮敲击与扭振",
+      "anchor": "变速器噪声",
+      "claim": "发动机扭矩波动可能使齿轮副在侧隙内交替碰撞，敲击声受输入扭振、润滑油温及传动系状态共同影响。",
+      "mechanism": "同步阶次、壳体加速度、油温和空档/离合器状态，比较可重复工况。",
+      "assumptions": "适用于有相关齿轮侧隙结构的传动系统，CVT与电驱减速器需另行建模。",
+      "counterexample": "变速器壳体有脉冲不必然是齿轮敲击，也可能是附件或外部碰撞传播。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M05-K009"
+        },
+        {
+          "predicate": "CONSTRAINED_BY",
+          "target": "M05-K010"
+        }
+      ]
+    },
+    {
+      "id": "M05-K003",
+      "title": "链传动张紧器动态与异响",
+      "anchor": "链条噪声",
+      "claim": "链条张力波动、张紧器阻尼不足及导轨接触可能引起宽带或阶次相关噪声。",
+      "mechanism": "用合法非侵入式壳体声振、转速与温度对比定位，避免将单个谱峰归因于链条。",
+      "assumptions": "链条布局、液压张紧方式和润滑状态必须按车型确认。",
+      "counterexample": "某阶次噪声随转速上升也可能来自齿轮或燃烧激励。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "INVESTIGATED_WITH",
+          "target": "M05-K009"
+        },
+        {
+          "predicate": "DIFFERENTIATED_FROM",
+          "target": "M05-K004"
+        }
+      ]
+    },
+    {
+      "id": "M05-K004",
+      "title": "传动带滑移与张紧轮振动",
+      "anchor": "传动带噪声",
+      "claim": "皮带摩擦状态、张力及张紧轮模态会影响啸叫和拍击；湿度与附件负荷会改变激励。",
+      "mechanism": "观察允许工况下的附件负荷、湿度、皮带轮转速比与声振时序。",
+      "assumptions": "不得在运转皮带附近实施危险手动检查；具体张力标准UNKNOWN。",
+      "counterexample": "湿冷启动啸叫不必然意味着皮带老化，也可能由负载和张紧系统引起。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "CONSTRAINED_BY",
+          "target": "M05-K010"
+        },
+        {
+          "predicate": "REQUIRES",
+          "target": "M05-K009"
+        }
+      ]
+    },
+    {
+      "id": "M05-K005",
+      "title": "机油泵压力脉动与结构传递",
+      "anchor": "机油泵噪声",
+      "claim": "容积式泵的周期流量脉动可能通过油路和壳体产生声振，黏度及旁通控制改变响应。",
+      "mechanism": "比较油温、转速、可用压力状态和泵附近壳体振动，避免单点判因。",
+      "assumptions": "泵结构、油品规范与测量接口必须有合法车型资料。",
+      "counterexample": "冷态声压增强不一定是泵故障，油液黏度改变也可能增加正常激励。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M05-K010"
+        },
+        {
+          "predicate": "DIFFERENTIATED_FROM",
+          "target": "M05-K002"
+        }
+      ]
+    },
+    {
+      "id": "M05-K006",
+      "title": "燃油泵噪声的隔离与工况",
+      "anchor": "燃油泵噪声",
+      "claim": "电动燃油泵的电磁/机械激励可能经支架、管路或油箱传至车厢，工作占空比与液位影响可听性。",
+      "mechanism": "在不触碰燃油高压危险部件的前提下对比可读泵控制状态、液位和结构测点。",
+      "assumptions": "车型燃油架构不同；涉及高压燃油的操作应由授权人员按规范进行。",
+      "counterexample": "车尾高频嗡声不必然是燃油泵，风扇或电驱附件也可能传播到相同区域。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M05-K009"
+        },
+        {
+          "predicate": "DIFFERENTIATED_FROM",
+          "target": "M05-K007"
+        }
+      ]
+    },
+    {
+      "id": "M05-K007",
+      "title": "风扇叶频与气动噪声分离",
+      "anchor": "风扇噪声",
+      "claim": "风扇叶片通过频率及其谐波可能叠加湍流宽带噪声，结构不平衡还可能产生旋转阶次。",
+      "mechanism": "同步风扇转速、叶片数、声压谱和支架振动，区分空气声与结构路径。",
+      "assumptions": "风扇控制策略、叶片数量和周围流场必须实际确认。",
+      "counterexample": "叶频峰升高不代表风扇失衡，正常气动载荷也能形成该谱线。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "DISTINGUISHED_BY",
+          "target": "M05-K009"
+        },
+        {
+          "predicate": "DIFFERENTIATED_FROM",
+          "target": "M05-K008"
+        }
+      ]
+    },
+    {
+      "id": "M05-K008",
+      "title": "空调压缩机与怠速控制耦合",
+      "anchor": "空调压缩机噪声",
+      "claim": "压缩机压缩脉动、离合器事件及发动机负荷补偿可共同引发怠速声振变化。",
+      "mechanism": "比较空调开关事件、发动机转速控制、压缩机附近壳体声振与车内响应。",
+      "assumptions": "电动压缩机和皮带驱动压缩机的耦合路径不同；制冷剂系统安全要求须核验。",
+      "counterexample": "空调开启后噪声增大可能来自鼓风机或冷凝器风扇，而非压缩机本体。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M05-K009"
+        },
+        {
+          "predicate": "REQUIRES",
+          "target": "M05-K010"
+        }
+      ]
+    },
+    {
+      "id": "M05-K009",
+      "title": "怠速声源路径的多源干扰",
+      "anchor": "车外噪声",
+      "claim": "发动机、变速器与附件同时运行时，声压叠加和遮蔽会使局部源识别存在非唯一性。",
+      "mechanism": "用转速阶次、可读控制事件和多测点相干性建立候选源路径，并在相同环境复测。",
+      "assumptions": "控制变量必须可追溯；不得擅自断开安全关键附件。",
+      "counterexample": "一个附件停转后噪声下降，也可能是发动机控制负荷随之改变。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "INFORMS",
+          "target": "M05-K001"
+        },
+        {
+          "predicate": "INFORMS",
+          "target": "M05-K002"
+        }
+      ]
+    },
+    {
+      "id": "M05-K010",
+      "title": "温度与附件状态下的怠速噪声可重复性",
+      "anchor": "车外噪声",
+      "claim": "冷/热机、润滑黏度、附件负荷及风扇控制会改变声学特征，跨条件比较可能误判设计改善。",
+      "mechanism": "将温度、环境、运行时间、附件开关与仪器版本作为元数据，分组统计声学指标。",
+      "assumptions": "不同车辆的软件版本、标定和发动机架构需独立分层。",
+      "counterexample": "热车后噪声下降不能直接证明更换的零件有效。",
+      "applicability": "汽车怠速NVH工程研究；车型/附件架构需核实",
+      "limitations": "目录主题生成，原书正文未验证，具体OEM阈值UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "VALIDATES",
+          "target": "M05-K001"
+        },
+        {
+          "predicate": "CONSTRAINS",
+          "target": "M05-K008"
+        }
+      ]
+    }
+  ]
+}
