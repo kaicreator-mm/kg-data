@@ -17,7 +17,7 @@
 |---|---|---|---|---|---|---|
 | ICE 润滑 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | FUN-ENG-LUBE；STR-ENG-LUBE 独立内容质量审核 | 结构稿已提交，未获内容独审；下游须复用未验证边界 |
 | ICE 空气/燃油/排放 | OPEN | OPEN | OPEN | OPEN | STR-ENG-AIRFUEL | 待激活广度 |
-| 传统液力行星 AT | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | FUN-AT-PATH / FUN-AT-HYD；STR-AT 内容独审 | 传统液压行星齿轮 AT 构型概念已提交，严格排除 CVT/DCT/e-CVT |
+| 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-AT-PATH / FUN-AT-HYD | STR-AT 已独立内容质量限定 ACCEPT；不代表 OEM/N3 事实合格 |
 | 传动/差速器 | OPEN | OPEN | OPEN | OPEN | STR-DRIVELINE | 待激活广度 |
 | 制动 / ABS/ESC | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | FUN-BRK；STR-BRK 内容独审 | 结构稿已提交，安全关键；真实发生频率 UNKNOWN |
 | 转向悬架/轮胎 | OPEN | OPEN | OPEN | OPEN | STR-STEER-SUSP | 待激活广度 |
@@ -43,7 +43,7 @@
 | Task | 当前正文 Commit | 当前 Blob | 源范围及审核状态 |
 |---|---|---|---|
 | `STR-ENG-LUBE` | `69f7584ff242eb452d77ceacd70d08863f7d8579` | `ff103f4cfd948534be5ca2b9413128aee502987f` | 通用汽油发动机润滑；R2 修复 UNKNOWN，独审待办 |
-| `STR-AT` | `5eb2219e7afecde80920bf4c8277a68073a1e6f6` | `ed2b997ca164d98e74cf72ecb393aca86a553d20` | 传统液力行星 AT；独审待办 |
+| `STR-AT` | `5eb2219e7afecde80920bf4c8277a68073a1e6f6` | `ed2b997ca164d98e74cf72ecb393aca86a553d20` | [独立生成质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955520356)，源事实仍未获 OEM/N3 资格 |
 | `STR-BRK` | `4ed14a5b8d24382c85e2989f56776ed5b2288a54` | `e231eda16a8d799d891e7604bee41437af29afb6` | 摩擦制动/液压/ABS/ESC；独审待办 |
 | `STR-HV` | `43c5d3da44fa72bc21f9d24c8fd32b03f1f5a370` | `472127e80e95f022dc512b0c635b7a63282c94d2` | 通用 BEV 高压；独审待办 |
 
@@ -53,6 +53,6 @@
 
 - `STR-ENG-LUBE`：实际生成 Markdown `topics/engine/lubrication/structure.md`，初稿 Commit `74e8f3d575471d16c3052c3003931da0daf73d7a`、Blob `b43057bee5ef1ee291e55ca5b3a7f8aee04a5e4e`，R2 已补充 UNKNOWN：现 Commit `69f7584ff242eb452d77ceacd70d08863f7d8579`、Blob `ff103f4cfd948534be5ca2b9413128aee502987f`，GitHub readback 一致；**内容质量独审尚未完成，专业事实未核验**。对应结构 S=`GENERATED_REVIEW_PENDING`。后续 `FUN-ENG-LUBE` 可读取真实上游作为候选输入，任何上游 REWORK 需传播 `STALE`。
 - 本轮 BREADTH 选择 ICE 润滑/制动/传统液力行星齿轮 AT/通用 BEV 高压结构，其它系统可独立并行启动而不等待四系统完成；`STR-LOWV` 为最高重要待派广度候选之一。F 仍 UNKNOWN，无发生率数据。
-- 本账本现有四个真实结构 Markdown 交付，四个结构 S 都为 `GENERATED_REVIEW_PENDING`、尚无任何内容质量独立 ACCEPT；所有 F/X/R 均 OPEN。
+- 本账本现有四个真实结构 Markdown 交付，其中 STR-AT 结构 S 已获 `ACCEPT_SCOPED_GENERATION_ONLY`，其余 3 篇结构 S 仍 `GENERATED_REVIEW_PENDING`；所有 F/X/R 均 OPEN，4 篇专业事实统一 `MODEL_GENERATED_UNVERIFIED`。
 - 不允许因创建目录、生成计划、上传文件、引用书目录而将内容状态改为 `GENERATED`。
 - v0.4.1 PLAN 的独立增量审核已 `ACCEPT_SCOPED_PLAN_READY`，不再重开原 v0.4 REWORK；其放行只涉及计划与生成，不涉及四篇专业事实合格。详见 [审核结论](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)。
