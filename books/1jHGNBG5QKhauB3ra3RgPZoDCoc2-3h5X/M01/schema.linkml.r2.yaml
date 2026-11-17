@@ -1,0 +1,24 @@
+id: https://example.org/parts/active-braking/m01
+name: active_braking_m01
+prefixes:
+  linkml: https://w3id.org/linkml/
+  ab: https://example.org/parts/active-braking/
+default_prefix: ab
+imports:
+  - linkml:types
+classes:
+  KnowledgeCandidate:
+    attributes:
+      id: {range: string, required: true, identifier: true}
+      title: {range: string, required: true}
+      toc_anchor: {range: string, required: true}
+      mechanism: {range: string, required: true}
+      applicability_assumptions: {range: string, required: true}
+      counterexample: {range: string, required: true}
+      uncertainty: {range: string, required: true}
+      verification_status: {range: string, required: true}
+      related: {range: KnowledgeRelation, multivalued: true}
+  KnowledgeRelation:
+    attributes:
+      type: {range: string, required: true}
+      target: {range: string, required: true}
