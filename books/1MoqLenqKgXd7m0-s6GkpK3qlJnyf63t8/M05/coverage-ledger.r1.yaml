@@ -1,0 +1,16 @@
+book_file_id: "1MoqLenqKgXd7m0-s6GkpK3qlJnyf63t8"
+module: M05
+chapter_topic: "第二篇 第五章 怠速噪声"
+observed_toc_topics:
+  - "车外噪声"
+  - "变速器噪声"
+  - "辅助机构噪声：链条、传动带、机油泵、燃油泵、风扇、空调压缩机"
+chapter_status: SELF_QA
+knowledge_records: 10
+relations: 20
+qualified_records: 0
+verification_status: MODEL_GENERATED_UNVERIFIED
+source_scope: TOC_THEME_ONLY
+book_status: IN_PROGRESS
+next_cursor: "第二篇 第六章 车辆起步时车身振动；M01剩余主题与M02/M03覆盖审计待处理"
+other_chapters: NOT_STARTED_OR_PARTIAL
