@@ -16,8 +16,8 @@
 | Dispatch | Task | 唯一 Output .md | 调度理由（非故障频率） | F | 状态 |
 |---|---|---|---|---|---|
 | 1 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | 基础 ICE 系统，后续功能/润滑失效前置；R2 现提交 `69f7584` | UNKNOWN | GENERATED_REVIEW_PENDING |
-| 2 | `STR-BRK` | `topics/braking/structure.md` | 制动安全关键；实际生成 `4ed14a5` | UNKNOWN | GENERATED_REVIEW_PENDING |
-| 3 | `STR-HV` | `topics/electrified/high-voltage/structure.md` | BEV 高压安全；实际生成 `43c5d3d` | UNKNOWN | GENERATED_REVIEW_PENDING |
+| 2 | `STR-BRK` | `topics/braking/structure.md` | [独立内容质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)；安全架构 | UNKNOWN | ACCEPT_SCOPED_GENERATION_ONLY |
+| 3 | `STR-HV` | `topics/electrified/high-voltage/structure.md` | [独立内容质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；非操作性 | UNKNOWN | ACCEPT_SCOPED_GENERATION_ONLY |
 | 4 | `STR-AT` | `topics/transmission/automatic/structure.md` | 传统液力行星 AT；[独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955520356) | UNKNOWN | ACCEPT_SCOPED_GENERATION_ONLY |
 
 **四条结构任务已真实生成并释放 Claim**；`STR-AT` 已获独立限定内容质量 `ACCEPT_SCOPED_GENERATION_ONLY`，其余 3 篇仍待审。所有专业事实都尚未获 OEM/N3 资格。每个 Writer 只修改自己的 topic 文件。下游功能/故障/维修知识只依自身真实已交付的前置并检查适用性，不等待其它系统。
@@ -26,7 +26,7 @@
 
 `FUN-ENG-LUBE`：直接前置 `STR-ENG-LUBE` 已有 R2 Markdown Commit `69f7584ff242eb452d77ceacd70d08863f7d8579`、Blob `ff103f4cfd948534be5ca2b9413128aee502987f`；内容质量审核仍 PENDING，因此后续 Writer 应保留 `MODEL_GENERATED_UNVERIFIED` 并在上游 REWORK 时标记影响范围 `STALE`。下游可由其它对话按独占写集认领，不能把结构稿称为专业 OEM 已核实输入。
 
-**此外**：`FUN-AT-PATH` 与 `FUN-AT-HYD` 可并行研究（上游 `STR-AT@ed2b997c...` 已获限定内容质量 ACCEPT）；`FUN-BRK` 上游 `STR-BRK@e231eda...`；`FUN-HV` 上游 `STR-HV@472127e...`。任何上游独审若 REWORK，需把受影响下游标为 STALE 并重算前置。
+**此外**：`FUN-BRK` 与 `FUN-HV` 也各自具备独立质量接受的结构前置。 `FUN-AT-PATH` 与 `FUN-AT-HYD` 可并行研究（上游 `STR-AT@ed2b997c...` 已获限定内容质量 ACCEPT）；`FUN-BRK` 上游 `STR-BRK@e231eda...`；`FUN-HV` 上游 `STR-HV@472127e...`。任何上游独审若 REWORK，需把受影响下游标为 STALE 并重算前置。
 
 优先先让 4 篇结构稿分别接受其它对话独立质量审查，以避免并行传播未识别的 P1；如使用未审上游先推进下一阶段，必须明确其 `MODEL_GENERATED_UNVERIFIED` 与后续可回滚性。
 
