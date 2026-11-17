@@ -1,0 +1,42 @@
+{
+  "book_id": "1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv",
+  "module": "M04",
+  "source_scope": "TOC_THEME_ONLY",
+  "status": "IN_PROGRESS",
+  "topic_coverage": [
+    {
+      "topic": "油泵形式及容积机理",
+      "status": "SELF_QA",
+      "records": [
+        "M04-K001",
+        "M04-K002",
+        "M04-K003"
+      ]
+    },
+    {
+      "topic": "油泵使用注意及故障机制",
+      "status": "SELF_QA",
+      "records": [
+        "M04-K004",
+        "M04-K005",
+        "M04-K006",
+        "M04-K008",
+        "M04-K009"
+      ]
+    },
+    {
+      "topic": "油泵检修的概念诊断与版本约束",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M04-K007",
+        "M04-K010"
+      ]
+    }
+  ],
+  "records": 10,
+  "edges": 10,
+  "full_book_complete": false,
+  "next_cursor": "M04_SUBTOPIC_DEEPENING_THEN_M05; M01/M02/M03 partial; M05-M11 NOT_STARTED",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "independent_review": "NOT_RUN"
+}
