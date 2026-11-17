@@ -1,0 +1,15 @@
+book_id: "1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l"
+chapter: M02
+chapter_title: "发动机"
+actual_toc_observed: true
+source_pdf_toc_pages: [6, 7]
+source_body_used_for_claims: false
+rights: NOT_VERIFIED
+coverage_status: IN_PROGRESS
+verification_status: MODEL_GENERATED_UNVERIFIED
+records_persisted_in_this_version: 8
+relationships_persisted_in_this_version: 16
+covered_sections: ["2.1 发动机基本原理", "2.2 气缸排列形式", "2.3 发动机工作过程", "2.4 进气与排气系统", "2.5 气门和气门正时", "2.6 可变气门技术"]
+remaining_sections: ["2.7 可变气缸", "2.8 涡轮增压器", "2.9 机械增压器", "2.10 燃油供给系统", "2.11 点火起动系统", "2.12 发动机整体构造", "2.13 发动机主运动部件", "2.14 冷却系统", "2.15 润滑系统", "2.16 柴油发动机", "2.17 转子发动机"]
+next_cursor: "M02/2.7 可变气缸; then remaining M02 and chapters M03-M11"
+book_status: IN_PROGRESS
