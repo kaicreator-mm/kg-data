@@ -1,0 +1,20 @@
+{
+  "book_id": "1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l",
+  "chapter": "M03",
+  "chapter_title": "变速器",
+  "source_pdf_toc_pages": [
+    7
+  ],
+  "source_body_used_for_claims": false,
+  "rights": "NOT_VERIFIED",
+  "coverage_status": "IN_PROGRESS",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "r1_records_preserved": 12,
+  "r2_new_records": 8,
+  "r2_new_edges": 16,
+  "section_3_9": "GENERATED",
+  "sections_3_1_3_3_3_5_3_7_3_8": "IN_PROGRESS_DEEPENING",
+  "remaining": "M03 remaining subtopics, M01/M02 backfill, M04-M11",
+  "next_cursor": "M03 remaining subtopics then M04 drive system",
+  "book_status": "IN_PROGRESS"
+}
