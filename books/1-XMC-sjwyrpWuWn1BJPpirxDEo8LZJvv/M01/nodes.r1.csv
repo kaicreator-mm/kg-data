@@ -1,0 +1,6 @@
+id,title,kind,source_scope,verification_status
+"M01-K001","静止液体压力传递的适用条件","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M01-K002","体积流量与平均速度的连续性","formula","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M01-K003","液压功率的单位与效率边界","formula","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M01-K004","静压液压传动与动量型液力传动的区别","comparison","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M01-K005","节流压降与热耗散的因果边界","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
