@@ -1,0 +1,49 @@
+id: https://example.org/automotive-nvh
+name: automotive_nvh_candidate
+prefixes:
+  linkml: https://w3id.org/linkml/
+  nvh: https://example.org/automotive-nvh/
+default_prefix: nvh
+imports:
+  - linkml:types
+classes:
+  KnowledgeRecord:
+    attributes:
+      id:
+        range: string
+        required: true
+        identifier: true
+      title:
+        range: string
+        required: true
+      anchor:
+        range: string
+      claim:
+        range: string
+        required: true
+      mechanism:
+        range: string
+      assumptions:
+        range: string
+      counterexample:
+        range: string
+      applicability:
+        range: string
+      limitations:
+        range: string
+      source_scope:
+        range: string
+      model_provenance:
+        range: string
+      verification_status:
+        range: string
+      relations:
+        range: Relation
+        multivalued: true
+        in_subset: []
+  Relation:
+    attributes:
+      predicate:
+        range: string
+      target:
+        range: string
