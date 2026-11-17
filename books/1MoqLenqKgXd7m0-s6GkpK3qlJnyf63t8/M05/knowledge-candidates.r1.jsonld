@@ -1,0 +1,200 @@
+{
+  "@context": {
+    "title": "https://schema.org/name",
+    "claim": "https://example.org/kg/claim",
+    "mechanism": "https://example.org/kg/mechanism",
+    "related": "https://example.org/kg/related"
+  },
+  "@graph": [
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K001",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速车外噪声的边界条件",
+      "claim": "车外怠速噪声同时受动力总成、冷却系统、排气及反射环境影响，近场单点值不能直接代表整车外部辐射。",
+      "mechanism": "记录测点几何、背景噪声、温度、风速、附件启停和怠速稳定度，进行多点重复采样。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K009",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K010",
+          "predicate": "CONSTRAINED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K002",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "变速器怠速齿轮敲击与扭振",
+      "claim": "发动机扭矩波动可能使齿轮副在侧隙内交替碰撞，敲击声受输入扭振、润滑油温及传动系状态共同影响。",
+      "mechanism": "同步阶次、壳体加速度、油温和空档/离合器状态，比较可重复工况。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K009",
+          "predicate": "CONFOUNDED_BY"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K010",
+          "predicate": "CONSTRAINED_BY"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K003",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "链传动张紧器动态与异响",
+      "claim": "链条张力波动、张紧器阻尼不足及导轨接触可能引起宽带或阶次相关噪声。",
+      "mechanism": "用合法非侵入式壳体声振、转速与温度对比定位，避免将单个谱峰归因于链条。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K009",
+          "predicate": "INVESTIGATED_WITH"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K004",
+          "predicate": "DIFFERENTIATED_FROM"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K004",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "传动带滑移与张紧轮振动",
+      "claim": "皮带摩擦状态、张力及张紧轮模态会影响啸叫和拍击；湿度与附件负荷会改变激励。",
+      "mechanism": "观察允许工况下的附件负荷、湿度、皮带轮转速比与声振时序。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K010",
+          "predicate": "CONSTRAINED_BY"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K009",
+          "predicate": "REQUIRES"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K005",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "机油泵压力脉动与结构传递",
+      "claim": "容积式泵的周期流量脉动可能通过油路和壳体产生声振，黏度及旁通控制改变响应。",
+      "mechanism": "比较油温、转速、可用压力状态和泵附近壳体振动，避免单点判因。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K010",
+          "predicate": "REQUIRES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K002",
+          "predicate": "DIFFERENTIATED_FROM"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K006",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "燃油泵噪声的隔离与工况",
+      "claim": "电动燃油泵的电磁/机械激励可能经支架、管路或油箱传至车厢，工作占空比与液位影响可听性。",
+      "mechanism": "在不触碰燃油高压危险部件的前提下对比可读泵控制状态、液位和结构测点。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K009",
+          "predicate": "CONFOUNDED_BY"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K007",
+          "predicate": "DIFFERENTIATED_FROM"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K007",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "风扇叶频与气动噪声分离",
+      "claim": "风扇叶片通过频率及其谐波可能叠加湍流宽带噪声，结构不平衡还可能产生旋转阶次。",
+      "mechanism": "同步风扇转速、叶片数、声压谱和支架振动，区分空气声与结构路径。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K009",
+          "predicate": "DISTINGUISHED_BY"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K008",
+          "predicate": "DIFFERENTIATED_FROM"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K008",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "空调压缩机与怠速控制耦合",
+      "claim": "压缩机压缩脉动、离合器事件及发动机负荷补偿可共同引发怠速声振变化。",
+      "mechanism": "比较空调开关事件、发动机转速控制、压缩机附近壳体声振与车内响应。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K009",
+          "predicate": "CONFOUNDED_BY"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K010",
+          "predicate": "REQUIRES"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K009",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "怠速声源路径的多源干扰",
+      "claim": "发动机、变速器与附件同时运行时，声压叠加和遮蔽会使局部源识别存在非唯一性。",
+      "mechanism": "用转速阶次、可读控制事件和多测点相干性建立候选源路径，并在相同环境复测。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K001",
+          "predicate": "INFORMS"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K002",
+          "predicate": "INFORMS"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:automotive-nvh:M05-K010",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "温度与附件状态下的怠速噪声可重复性",
+      "claim": "冷/热机、润滑黏度、附件负荷及风扇控制会改变声学特征，跨条件比较可能误判设计改善。",
+      "mechanism": "将温度、环境、运行时间、附件开关与仪器版本作为元数据，分组统计声学指标。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "source_scope": "TOC_THEME_ONLY",
+      "related": [
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K001",
+          "predicate": "VALIDATES"
+        },
+        {
+          "@id": "urn:kg:automotive-nvh:M05-K008",
+          "predicate": "CONSTRAINS"
+        }
+      ]
+    }
+  ]
+}
