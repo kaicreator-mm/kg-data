@@ -1,0 +1,11 @@
+id,title,kind,verification_status
+"M02-K001","变速器速比与扭矩速度约束","formula","MODEL_GENERATED_UNVERIFIED"
+"M02-K002","自动换挡的传感器与执行器闭环","mechanism","MODEL_GENERATED_UNVERIFIED"
+"M02-K003","液力自动变速器与CVT、DCT、AMT的结构分类","comparison","MODEL_GENERATED_UNVERIFIED"
+"M02-K004","挡位选择与机械驻车的安全边界","workflow","MODEL_GENERATED_UNVERIFIED"
+"M02-K005","变速器型号与车辆适配识别的证据要求","constraint","MODEL_GENERATED_UNVERIFIED"
+"M02-K006","换挡品质与扭矩交接","mechanism","MODEL_GENERATED_UNVERIFIED"
+"M02-K007","变速器油液的多功能与规范约束","constraint","MODEL_GENERATED_UNVERIFIED"
+"M02-K008","传动效率与热平衡的工况依赖","formula","MODEL_GENERATED_UNVERIFIED"
+"M02-K009","失效保护与诊断证据分层","workflow","MODEL_GENERATED_UNVERIFIED"
+"M02-K010","自动化程度与驾驶便利性的权衡","comparison","MODEL_GENERATED_UNVERIFIED"
