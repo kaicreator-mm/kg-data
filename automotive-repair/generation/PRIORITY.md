@@ -15,16 +15,20 @@
 
 | Dispatch | Task | 唯一 Output .md | 调度理由（非故障频率） | F | 状态 |
 |---|---|---|---|---|---|
-| 1 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | 基础 ICE 系统，后续功能/润滑失效前置；真实提交 `74e8f3d` | UNKNOWN | GENERATED_REVIEW_PENDING |
-| 2 | `STR-BRK` | `topics/braking/structure.md` | 制动安全关键，结构/功能知识具备跨架构解释价值；不写高风险操作 | UNKNOWN | READY_CLAIMABLE |
-| 3 | `STR-HV` | `topics/electrified/high-voltage/structure.md` | BEV 高压安全与诊断基本机理，需严格 OEM 限定；不写高压操作程序 | UNKNOWN | READY_CLAIMABLE |
-| 4 | `STR-AT` | `topics/transmission/automatic/structure.md` | 现存目录候选较多，易与 CVT/DCT/e-CVT 混淆，先固定**传统液力变矩器+行星齿轮+液压执行**结构范围 | UNKNOWN | READY_CLAIMABLE |
+| 1 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | 基础 ICE 系统，后续功能/润滑失效前置；R2 现提交 `69f7584` | UNKNOWN | GENERATED_REVIEW_PENDING |
+| 2 | `STR-BRK` | `topics/braking/structure.md` | 制动安全关键；实际生成 `4ed14a5` | UNKNOWN | GENERATED_REVIEW_PENDING |
+| 3 | `STR-HV` | `topics/electrified/high-voltage/structure.md` | BEV 高压安全；实际生成 `43c5d3d` | UNKNOWN | GENERATED_REVIEW_PENDING |
+| 4 | `STR-AT` | `topics/transmission/automatic/structure.md` | 仅传统液力行星齿轮 AT；实际生成 `5eb2219` | UNKNOWN | GENERATED_REVIEW_PENDING |
 
-**四条 Writer 任务以真实 Claim 认领后为 `CLAIMED`**，这张调度表本身不能冒充认领或成果。每个 Writer 只修改自己的 topic 文件。下游功能/故障/维修知识只依自身真实已交付的前置并检查适用性，不等待其它系统。
+**四条结构任务已真实生成并释放 Claim，当前全部 `GENERATED_REVIEW_PENDING`，并未获得独立内容质量 ACCEPT**。每个 Writer 只修改自己的 topic 文件。下游功能/故障/维修知识只依自身真实已交付的前置并检查适用性，不等待其它系统。
 
 ## 3. 已释放的下游独立知识任务
 
-`FUN-ENG-LUBE`：直接前置 `STR-ENG-LUBE` 已有真实 Markdown Commit `74e8f3d575471d16c3052c3003931da0daf73d7a`、Blob `b43057bee5ef1ee291e55ca5b3a7f8aee04a5e4e`；内容质量审核仍 PENDING，因此后续 Writer 应保留 `MODEL_GENERATED_UNVERIFIED` 并在上游 REWORK 时标记影响范围 `STALE`。下游可由其它对话按独占写集认领，不能把结构稿称为专业 OEM 已核实输入。
+`FUN-ENG-LUBE`：直接前置 `STR-ENG-LUBE` 已有 R2 Markdown Commit `69f7584ff242eb452d77ceacd70d08863f7d8579`、Blob `ff103f4cfd948534be5ca2b9413128aee502987f`；内容质量审核仍 PENDING，因此后续 Writer 应保留 `MODEL_GENERATED_UNVERIFIED` 并在上游 REWORK 时标记影响范围 `STALE`。下游可由其它对话按独占写集认领，不能把结构稿称为专业 OEM 已核实输入。
+
+**此外**：`FUN-AT-PATH` 与 `FUN-AT-HYD` 可并行研究（上游 `STR-AT@ed2b997c...`）；`FUN-BRK` 上游 `STR-BRK@e231eda...`；`FUN-HV` 上游 `STR-HV@472127e...`。任何上游独审若 REWORK，需把受影响下游标为 STALE 并重算前置。
+
+优先先让 4 篇结构稿分别接受其它对话独立质量审查，以避免并行传播未识别的 P1；如使用未审上游先推进下一阶段，必须明确其 `MODEL_GENERATED_UNVERIFIED` 与后续可回滚性。
 
 ## 4. 当前最高优先但延期的广度分支
 
