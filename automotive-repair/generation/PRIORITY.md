@@ -15,14 +15,18 @@
 
 | Dispatch | Task | 唯一 Output .md | 调度理由（非故障频率） | F | 状态 |
 |---|---|---|---|---|---|
-| 1 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | 基础 ICE 系统，后续功能/润滑失效前置；本轮由当前对话优先认领 | UNKNOWN | READY_CLAIMABLE |
+| 1 | `STR-ENG-LUBE` | `topics/engine/lubrication/structure.md` | 基础 ICE 系统，后续功能/润滑失效前置；真实提交 `74e8f3d` | UNKNOWN | GENERATED_REVIEW_PENDING |
 | 2 | `STR-BRK` | `topics/braking/structure.md` | 制动安全关键，结构/功能知识具备跨架构解释价值；不写高风险操作 | UNKNOWN | READY_CLAIMABLE |
 | 3 | `STR-HV` | `topics/electrified/high-voltage/structure.md` | BEV 高压安全与诊断基本机理，需严格 OEM 限定；不写高压操作程序 | UNKNOWN | READY_CLAIMABLE |
 | 4 | `STR-AT` | `topics/transmission/automatic/structure.md` | 现存目录候选较多，易与 CVT/DCT/e-CVT 混淆，先固定**传统液力变矩器+行星齿轮+液压执行**结构范围 | UNKNOWN | READY_CLAIMABLE |
 
 **四条 Writer 任务以真实 Claim 认领后为 `CLAIMED`**，这张调度表本身不能冒充认领或成果。每个 Writer 只修改自己的 topic 文件。下游功能/故障/维修知识只依自身真实已交付的前置并检查适用性，不等待其它系统。
 
-## 3. 当前最高优先但延期的广度分支
+## 3. 已释放的下游独立知识任务
+
+`FUN-ENG-LUBE`：直接前置 `STR-ENG-LUBE` 已有真实 Markdown Commit `74e8f3d575471d16c3052c3003931da0daf73d7a`、Blob `b43057bee5ef1ee291e55ca5b3a7f8aee04a5e4e`；内容质量审核仍 PENDING，因此后续 Writer 应保留 `MODEL_GENERATED_UNVERIFIED` 并在上游 REWORK 时标记影响范围 `STALE`。下游可由其它对话按独占写集认领，不能把结构稿称为专业 OEM 已核实输入。
+
+## 4. 当前最高优先但延期的广度分支
 
 | 候选 | 为什么值得下一轮启动 | 当前为何未认领 | 触发 |
 |---|---|---|---|
@@ -32,7 +36,7 @@
 
 其余按 [STRUCTURE-INDEX.md](./STRUCTURE-INDEX.md) 保持 OPEN；下一轮 C-REPLAN 从实际缺口选取新节点，防止四系统长期成为隐性全部汽修分母。
 
-## 4. 当前门禁与异步/并发冲突处理
+## 5. 当前门禁与异步/并发冲突处理
 
 1. v0.4.1 PLAN 的精确审核已放行首批 **SCOPED GENERATION**；不是专业事实资格。
 2. 认领和写入前须从 #61 重新读 Claims；Claim comment ID 数字最小者为同写集单 Writer 胜者；提交后还要再读检查。无合法 Claim 的 Writer 禁止写文件。
@@ -41,7 +45,7 @@
 5. 当前所有非计划内容即使生成并获质量限定审核，仍为 `MODEL_GENERATED_UNVERIFIED`。内容通过不自动授予 OEM/N3/正式专业诊断资格。
 6. 此账本由 **Integrator/独占控制 Writer** 更新；系统 Writer 只负责自己的系统独占 Markdown 和 #61 任务收据。避免多个并行 Worker 争写此文件。
 
-## 5. 真实收据
+## 6. 真实收据
 
 - 计划审核原文：https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408
 - Integrator C-DISPATCH 准入：https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597
