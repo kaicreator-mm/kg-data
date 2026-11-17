@@ -1,0 +1,11 @@
+id,title,kind,verification_status
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K01","整车功能分层与故障定位","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K02","曲柄连杆机构的力矩生成链","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K03","配气相位与充气效率的工况依赖","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K04","起动系统的能量与许可双链","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K05","火花点火的能量、时刻与混合气耦合","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K06","燃油控制的闭环与传感器可信度","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K07","润滑系统的压力与流量不可互代","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K08","冷却系统的热平衡与温控回路","mechanism","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K09","故障诊断中的共因与交叉验证","diagnostic_method","MODEL_GENERATED_UNVERIFIED"
+"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M01-K10","知识与维修作业安全边界","safety_constraint","MODEL_GENERATED_UNVERIFIED"
