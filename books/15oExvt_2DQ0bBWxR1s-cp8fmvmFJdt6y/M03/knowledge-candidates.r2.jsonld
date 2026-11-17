@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "id": "@id",
+    "title": "https://schema.org/name",
+    "kind": "https://example.org/kg/kind",
+    "related_ids": {
+      "@id": "https://example.org/kg/related",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K13",
+      "title": "喷油器滴漏与喷雾失真",
+      "kind": "safety_constraint",
+      "mechanism": "喷油器关闭后密封不严可能造成局部富油、缸壁油膜冲刷和热起动异常；诊断应分开观察轨压保持、喷油器回流、缸间贡献和电控命令。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K12"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K14",
+      "title": "燃油供给气阻的气液两相效应",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "供油管路吸气、油温上升导致析气或低压侧密封不良可使泵入口混入可压缩气体，产生流量波动和间歇失火；应结合低压侧密封与温度条件解释。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K13"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K15",
+      "title": "断裂火花塞的残余结构风险",
+      "kind": "safety_constraint",
+      "mechanism": "火花塞绝缘体、金属壳与螺纹可能以不同模式断裂；残件位置与缸盖材料决定修复策略，盲目加力会损伤螺纹或使碎片进入燃烧室。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K14"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K16",
+      "title": "润滑油路污染与残留物迁移",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "油路中颗粒、胶质和金属磨屑可能在泵、滤清器旁通阀及分支油道中重新分布；清洁效果应依据污染源消除、滤芯状态与局部供油证据评估。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K15"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K17",
+      "title": "氧传感器回路诊断的混淆因子",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "氧传感器电压或电流响应受排气氧含量、传感器温度、加热器供电、接地及排气泄漏影响；需区分传感器失效与发动机空燃比异常。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K16"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K18",
+      "title": "凸轮轴位置传感器相位证据",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "凸轮轴信号与曲轴基准共同建立气缸识别和相位同步；波形缺失可能来自供电、间隙、线束、靶轮或机械正时偏差。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K17"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K19",
+      "title": "燃油系统压力异常的多路径辨识",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "泵供给能力、滤芯压降、调压器泄漏、喷油器回流和电源负载共同决定供油压力；应在相同负载工况下关联压力与电气证据。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K18"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K20",
+      "title": "感载比例阀与轴荷制动力分配",
+      "kind": "safety_constraint",
+      "mechanism": "机械感载比例阀通过车身与车桥相对位置反映载荷趋势，改变后轴制动压力曲线；连杆锈蚀或悬架高度变化可能使前后制动力分配失衡。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K19"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K21",
+      "title": "燃油压力调节真空信号耦合",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "真空参考型压力调节器通过歧管压力改变相对喷油器压差；真空软管漏气、膜片泄漏和电磁切换失效可能呈现不同的混合气异常。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K20"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K22",
+      "title": "车速信号失真的传播路径",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "轮速或变速器输出轴速度经传感器、整形电路、网络传输和仪表/ECU使用；信号间歇可引起车速表、换挡或怠速控制的关联异常。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K21"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K23",
+      "title": "EGR阀卡滞与空气路径的因果区分",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "EGR实际流量受阀开度、进排气压差、通道积碳和执行器反馈共同约束；异常可影响进气氧浓度、燃烧稳定性及排放。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K22"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K24",
+      "title": "曲轴位置传感器同步丢失",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "曲轴齿圈脉冲的频率和缺齿参考用于转速及角度同步；间隙、线束屏蔽、热敏失效或靶轮机械偏差可能导致间歇无起动。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K23"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    },
+    {
+      "@id": "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K25",
+      "title": "节气门位置传感器相关性检验",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "电子节气门的双通道位置信号常用于相互合理性校验，线束接触、机械卡滞或供电基准偏移可使开度反馈与命令不一致。",
+      "related_ids": [
+        "https://example.org/kg/KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K24"
+      ],
+      "verification_status": "MODEL_GENERATED_UNVERIFIED"
+    }
+  ]
+}
