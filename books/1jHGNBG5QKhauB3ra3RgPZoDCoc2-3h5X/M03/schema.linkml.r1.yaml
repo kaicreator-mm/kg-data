@@ -1,0 +1,47 @@
+id: https://example.org/parts/braking/M03/schema
+name: braking_m03_candidate
+prefixes:
+  linkml: https://w3id.org/linkml/
+  braking: https://example.org/parts/braking/
+default_prefix: braking
+imports:
+  - linkml:types
+classes:
+  ResearchCandidate:
+    slots:
+      - id
+      - title
+      - toc_anchor
+      - mechanism
+      - applicability_assumptions
+      - counterexample
+      - limitations
+      - uncertainty
+      - source_scope
+      - model_provenance
+      - verification_status
+slots:
+  id:
+    identifier: true
+    range: string
+    required: true
+  title:
+    range: string
+  toc_anchor:
+    range: string
+  mechanism:
+    range: string
+  applicability_assumptions:
+    range: string
+  counterexample:
+    range: string
+  limitations:
+    range: string
+  uncertainty:
+    range: string
+  source_scope:
+    range: string
+  model_provenance:
+    range: string
+  verification_status:
+    range: string
