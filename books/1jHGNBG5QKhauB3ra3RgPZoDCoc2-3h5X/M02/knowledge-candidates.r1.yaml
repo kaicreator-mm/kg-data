@@ -1,0 +1,57 @@
+book_id: 1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X
+module: M02
+provenance:
+  topic_source: "Drive PDF 目录标题（仅主题定位）"
+  generated_by: "OpenAI GPT-6"
+  source_body_used_as_evidence: false
+  rights: "COPYRIGHTED_TRANSLATION_PRIVATE_INPUT; OUTPUT_ORIGINAL_CANDIDATES_ONLY"
+  verification_status: MODEL_GENERATED_UNVERIFIED
+records:
+  - id: AB-M02-K001
+    title: "制动纵向滑移率的定义与低速奇异性"
+    toc_anchor: "第2章 制动动力学模型 / 2.3 单轴模型"
+    mechanism: "制动时轮胎接触区周向速度 Rω 与车辆纵向速度 v 的差异构成滑移；常见正向制动定义 λ=(v−Rω)/v。该量无量纲，反映轮胎纵向相对运动而非轮速传感器的绝对误差。"
+    applicability_assumptions: "车辆前进、v>0、有效滚动半径R定义一致；近零车速须采用保护分母或切换估计状态，轮胎动态半径与标定误差需单独处理。"
+    counterexample: "不能在 v=0 时直接除以 v；不能把负滑移的驱动工况按相同符号直接解释为制动抱死。"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: REQUIRES_CONDITION
+        target: AB-M02-K002
+      - type: RELATED
+        target: AB-M02-K003
+  - id: AB-M02-K002
+    title: "轮胎纵向力与附着上限"
+    toc_anchor: "第2章 / 2.2 轮胎—路面接触力 / 2.2.1 摩擦模型"
+    mechanism: "纵向接触力可在简化模型中写成 Fx≈μ(λ,工况)Fz，μ 随滑移、路面、胎温、法向载荷等变化。轮胎附着峰值的位置并非全路面固定常数。"
+    applicability_assumptions: "只作宏观集中参数模型；实际轮胎具有组合滑移、载荷敏感性和滞后，μ 不能直接当作已知的实时传感器读数。"
+    counterexample: "不能声称所有湿滑路面最优滑移率固定为某百分比，或以单次减速度唯一反推出摩擦系数。"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: RELATED
+        target: AB-M02-K001
+      - type: CONSTRAINS
+        target: AB-M02-K004
+  - id: AB-M02-K003
+    title: "轮端旋转动力学与可观测性"
+    toc_anchor: "第2章 / 2.3 单轴模型"
+    mechanism: "在选定正向角速度符号下，简化车轮转动方程 J dω/dt=R Fx−Tb，其中 J 为等效转动惯量，Tb 为制动阻力矩。通过轮速变化可约束接触力和制动矩的组合，但通常不能单独辨识二者。"
+    applicability_assumptions: "等效半径、惯量及正负号约定已声明，忽略或另行建模轴承阻力、驱动扭矩与耦合效应；仅为教学研究简化式。"
+    counterexample: "轮速突然下降不一定意味着路面摩擦骤降，也可能由制动矩变化、传感器错误或轮径变化造成。"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: USES
+        target: AB-M02-K001
+      - type: RELATED
+        target: AB-M02-K004
+  - id: AB-M02-K004
+    title: "纵向车身动力学与单轴模型边界"
+    toc_anchor: "第2章 / 2.3 单轴模型 / 2.4 双轴模型"
+    mechanism: "简化直线运动满足 m dv/dt≈ΣFx−Fres，前后轴法向载荷会随制动减速度及质心几何变化。单轴等效模型可研究基本滑移反馈，却无法直接代表各轮不同附着和左右不对称。"
+    applicability_assumptions: "平直路面、车体近似刚体、符号统一；坡度、空气阻力、侧向力、载荷转移和多轮差异须在应用时补充。"
+    counterexample: "不能把单轮模型稳定性结论直接当作分离附着路面整车横摆稳定性证明。"
+    verification_status: MODEL_GENERATED_UNVERIFIED
+    related:
+      - type: REQUIRES_CONDITION
+        target: AB-M02-K002
+      - type: EXPLAINS
+        target: AB-M02-K003
