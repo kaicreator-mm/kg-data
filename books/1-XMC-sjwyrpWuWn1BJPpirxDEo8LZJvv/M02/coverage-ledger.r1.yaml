@@ -1,0 +1,75 @@
+{
+  "book_id": "1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv",
+  "module": "M02",
+  "module_title": "自动变速器基础知识",
+  "source_file_modified_time": "2026-11-17T07:27:03.075Z",
+  "source_file_size_bytes": 62061305,
+  "source_rights": "NOT_VERIFIED",
+  "status": "KNOWLEDGE_GENERATION_IN_PROGRESS",
+  "topic_coverage": [
+    {
+      "topic": "变速器功能与速比",
+      "status": "GENERATED",
+      "records": [
+        "M02-K001"
+      ]
+    },
+    {
+      "topic": "发展与控制技术",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M02-K002"
+      ]
+    },
+    {
+      "topic": "优缺点及改进",
+      "status": "GENERATED",
+      "records": [
+        "M02-K010"
+      ]
+    },
+    {
+      "topic": "分类",
+      "status": "GENERATED",
+      "records": [
+        "M02-K003"
+      ]
+    },
+    {
+      "topic": "型号识别",
+      "status": "GENERATED",
+      "records": [
+        "M02-K005"
+      ]
+    },
+    {
+      "topic": "选挡机构与使用",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M02-K004"
+      ]
+    },
+    {
+      "topic": "工作过程",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M02-K006",
+        "M02-K009"
+      ]
+    },
+    {
+      "topic": "组成及能量路径",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M02-K007",
+        "M02-K008"
+      ]
+    }
+  ],
+  "candidate_records": 10,
+  "candidate_relations": 20,
+  "full_book_complete": false,
+  "next_cursor": "M02_TOPIC_DEEPENING_THEN_M04; M01/M03 still partial; M04-M11 not started",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "independent_review": "NOT_RUN"
+}
