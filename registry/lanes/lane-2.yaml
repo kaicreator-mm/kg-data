@@ -1,0 +1,35 @@
+lane: 2
+partition_count: 5
+run_label: PARTS_BOOKS_KGDATA_LANE_2_R2_LONG_BATCH
+source_inventory:
+  root_pdf_count: 85
+  archive_pdf_count: 1
+  distinct_pdf_count: 86
+  inventory_observed_on: 2026-11-17
+active_book:
+  id: 1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  title: 汽车自动变速器精品学习教程
+  edition: 2013年7月第1版第1次印刷
+  source_modified_time: 2026-11-17T07:27:03.075Z
+  source_size_bytes: 62061305
+  stage: KNOWLEDGE_GENERATION_IN_PROGRESS
+  persisted_candidate_counts:
+    M01: 5
+    M02: 10
+    M03: 19
+    M04: 10
+    M05: 10
+  total_persisted_candidates: 54
+  latest_run_added: 20
+  latest_run_edges_added: 20
+  latest_run_modules: [M04, M05]
+  latest_run_files_verified: 16
+  latest_run_files_expected: 16
+  whole_book_complete: false
+  next_cursor: M05_INDIVIDUAL_TOPOLOGY_REVIEW_THEN_M06; M01-M05_PARTIAL; M06-M11_NOT_STARTED
+  source_scope: TOC_THEME_ONLY
+  verification_status: MODEL_GENERATED_UNVERIFIED
+  independent_review: NOT_RUN
+books_touched_this_run: 1
+books_completed_this_run: 0
+next_action: Continue M05 missing topology-specific topics, then M06 electronic control; deepen M01-M04; no cross-lane writes.
