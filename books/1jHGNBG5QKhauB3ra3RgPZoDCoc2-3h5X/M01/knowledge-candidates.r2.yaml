@@ -6,7 +6,7 @@ model_provenance: GPT-6 original reasoning, no book-body claim evidence
 records:
   - id: AB-M01-K001
     title: "液压调压与开关阀的控制差异"
-    toc_anchor: "第1章 / 1.2"
+    toc_anchor: "第1章 / 1.3"
     mechanism: "液压开关阀常用增压、保压、减压离散状态实现平均压力控制，连续比例阀可直接调节目标压力或流量，但执行器的死区、滞后和供压约束决定实际闭环带宽。"
     applicability_assumptions: "制动管路充液、泵及蓄压器能力已知；离散阀切换需要考虑采样周期与液压延迟。"
     counterexample: "把阀线圈通断等同于轮端瞬时制动力变化，会忽略压力动态和摩擦非线性。"
@@ -17,7 +17,7 @@ records:
         target: AB-M01-K002
   - id: AB-M01-K002
     title: "电液制动的能量与故障降级边界"
-    toc_anchor: "第1章 / 1.2"
+    toc_anchor: "第1章 / 1.3"
     mechanism: "电子液压制动将驾驶请求转换为电控液压压力目标；其安全设计需要把主电源、压力源、阀、传感器与机械或液压后备路径视为独立故障域。"
     applicability_assumptions: "降级路径仅按具体车辆架构和安全分析确定，不默认所有EHB具备同样后备制动。"
     counterexample: "电控失效并不自动等于完全无制动，也不能保证任何架构在失电后维持原有性能。"
