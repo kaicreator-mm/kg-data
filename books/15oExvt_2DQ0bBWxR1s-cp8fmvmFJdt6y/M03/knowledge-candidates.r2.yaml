@@ -1,0 +1,243 @@
+{
+  "book_id": "15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y",
+  "module": "M03",
+  "revision": 2,
+  "scope": "TOC_THEME_ONLY",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "records": [
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K13",
+      "toc_topic_number": 13,
+      "title": "喷油器滴漏与喷雾失真",
+      "kind": "safety_constraint",
+      "mechanism": "喷油器关闭后密封不严可能造成局部富油、缸壁油膜冲刷和热起动异常；诊断应分开观察轨压保持、喷油器回流、缸间贡献和电控命令。",
+      "applicability": "柴油共轨或机械喷油系统；须区分回油和喷嘴滴漏",
+      "counterexample": "轨压衰减也可能来自高压泵单向阀或外部泄漏",
+      "limitations": "高压喷射可穿透皮肤，禁止松开带压油管；OEM测试值未知",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题13",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K12"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K14",
+      "toc_topic_number": 14,
+      "title": "燃油供给气阻的气液两相效应",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "供油管路吸气、油温上升导致析气或低压侧密封不良可使泵入口混入可压缩气体，产生流量波动和间歇失火；应结合低压侧密封与温度条件解释。",
+      "applicability": "柴油低压供油回路；仅研究诊断逻辑",
+      "counterexample": "喷油器电故障同样可能造成间歇缺缸，但未必出现低压侧气泡",
+      "limitations": "不可用开放燃油管路的危险试验；具体排气工艺按厂商手册",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题14",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K13"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K15",
+      "toc_topic_number": 15,
+      "title": "断裂火花塞的残余结构风险",
+      "kind": "safety_constraint",
+      "mechanism": "火花塞绝缘体、金属壳与螺纹可能以不同模式断裂；残件位置与缸盖材料决定修复策略，盲目加力会损伤螺纹或使碎片进入燃烧室。",
+      "applicability": "汽油机火花塞拆卸失效",
+      "counterexample": "旋不动的火花塞不一定已经断裂，可能是螺纹腐蚀或热咬合",
+      "limitations": "碎片入缸风险；不提供通用扭矩、钻削或取出操作步骤",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题15",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K14"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K16",
+      "toc_topic_number": 16,
+      "title": "润滑油路污染与残留物迁移",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "油路中颗粒、胶质和金属磨屑可能在泵、滤清器旁通阀及分支油道中重新分布；清洁效果应依据污染源消除、滤芯状态与局部供油证据评估。",
+      "applicability": "润滑系统维修后的污染风险管理",
+      "counterexample": "更换机油后油压恢复不证明局部油道已完全清洁",
+      "limitations": "未知材料相容性与清洗剂风险；禁止未经OEM确认的冲洗方案",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题16",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K15"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K17",
+      "toc_topic_number": 17,
+      "title": "氧传感器回路诊断的混淆因子",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "氧传感器电压或电流响应受排气氧含量、传感器温度、加热器供电、接地及排气泄漏影响；需区分传感器失效与发动机空燃比异常。",
+      "applicability": "传统窄带或宽带传感器须先识别类型",
+      "counterexample": "窄带低电压并不总是传感器损坏，可能是实际稀混合气或漏气",
+      "limitations": "宽带泵电流不能套用窄带电压阈值；车型针脚未知",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题17",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K16"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K18",
+      "toc_topic_number": 18,
+      "title": "凸轮轴位置传感器相位证据",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "凸轮轴信号与曲轴基准共同建立气缸识别和相位同步；波形缺失可能来自供电、间隙、线束、靶轮或机械正时偏差。",
+      "applicability": "具有曲轴与凸轮位置检测的发动机",
+      "counterexample": "出现同步故障码不必然说明凸轮传感器本体损坏",
+      "limitations": "未知信号类型和引脚；不得带电短接或直接套用通用波形",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题18",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K17"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K19",
+      "toc_topic_number": 19,
+      "title": "燃油系统压力异常的多路径辨识",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "泵供给能力、滤芯压降、调压器泄漏、喷油器回流和电源负载共同决定供油压力；应在相同负载工况下关联压力与电气证据。",
+      "applicability": "电喷汽油系统和柴油系统分别建模",
+      "counterexample": "怠速压力正常不能排除高负荷供油不足",
+      "limitations": "燃油易燃且可能高压；仅OEM认可测试条件可用于实车",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题19",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K18"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K20",
+      "toc_topic_number": 20,
+      "title": "感载比例阀与轴荷制动力分配",
+      "kind": "safety_constraint",
+      "mechanism": "机械感载比例阀通过车身与车桥相对位置反映载荷趋势，改变后轴制动压力曲线；连杆锈蚀或悬架高度变化可能使前后制动力分配失衡。",
+      "applicability": "配有机械感载比例阀的液压制动系统",
+      "counterexample": "后轮先抱死也可能由轮胎附着差异或摩擦材料问题导致",
+      "limitations": "制动安全关键，禁止按模型猜测调整阀杆长度或压力",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题20",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K19"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K21",
+      "toc_topic_number": 21,
+      "title": "燃油压力调节真空信号耦合",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "真空参考型压力调节器通过歧管压力改变相对喷油器压差；真空软管漏气、膜片泄漏和电磁切换失效可能呈现不同的混合气异常。",
+      "applicability": "采用真空参考调压结构的特定发动机",
+      "counterexample": "无回油电子调压系统不一定存在该真空开关阀",
+      "limitations": "车型具体结构未知，禁止假设每辆车均有真空式调压器",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题21",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K20"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K22",
+      "toc_topic_number": 22,
+      "title": "车速信号失真的传播路径",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "轮速或变速器输出轴速度经传感器、整形电路、网络传输和仪表/ECU使用；信号间歇可引起车速表、换挡或怠速控制的关联异常。",
+      "applicability": "依车型可能采用机械齿轮霍尔传感器或ABS轮速网络",
+      "counterexample": "车速表不动不一定是传感器故障，也可能是仪表通信链路",
+      "limitations": "信号脉冲数、车型架构和诊断针脚未知",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题22",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K21"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K23",
+      "toc_topic_number": 23,
+      "title": "EGR阀卡滞与空气路径的因果区分",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "EGR实际流量受阀开度、进排气压差、通道积碳和执行器反馈共同约束；异常可影响进气氧浓度、燃烧稳定性及排放。",
+      "applicability": "装配外部EGR系统的发动机",
+      "counterexample": "怠速抖动也可能来自进气漏气或点火缺缸",
+      "limitations": "排放系统依法维护；不提供禁用EGR或绕过排放控制的方法",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题23",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K22"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K24",
+      "toc_topic_number": 24,
+      "title": "曲轴位置传感器同步丢失",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "曲轴齿圈脉冲的频率和缺齿参考用于转速及角度同步；间隙、线束屏蔽、热敏失效或靶轮机械偏差可能导致间歇无起动。",
+      "applicability": "磁电或霍尔曲轴位置传感器须区分供电与输出",
+      "counterexample": "无转速读数也可能是ECU供电故障，而非传感器本体",
+      "limitations": "禁止在旋转部件附近带电接触；具体间隙和信号标准未知",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题24",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K23"
+      ]
+    },
+    {
+      "id": "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K25",
+      "toc_topic_number": 25,
+      "title": "节气门位置传感器相关性检验",
+      "kind": "diagnostic_mechanism",
+      "mechanism": "电子节气门的双通道位置信号常用于相互合理性校验，线束接触、机械卡滞或供电基准偏移可使开度反馈与命令不一致。",
+      "applicability": "电子或机械节气门位置检测，先确认实际架构",
+      "counterexample": "加速迟滞不一定由TPS造成，也可能来自制动优先策略",
+      "limitations": "电子节气门自学习和故障安全策略因车型不同；禁止通用强制驱动",
+      "assumptions": "目录主题只作索引；技术说明由模型原创生成，不代表已从书籍正文或OEM资料核证；具体参数UNKNOWN。",
+      "source_scope": "TOC_THEME_ONLY",
+      "toc_anchor": "第三篇目录主题25",
+      "generated_by": "GPT-6 Lane4 R4",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related_ids": [
+        "KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M03-K24"
+      ]
+    }
+  ]
+}
