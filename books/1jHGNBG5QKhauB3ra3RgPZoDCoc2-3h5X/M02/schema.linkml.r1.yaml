@@ -1,0 +1,32 @@
+id: https://example.org/kg/braking-candidate
+name: braking_candidate
+prefixes:
+  linkml: https://w3id.org/linkml/
+  kg: https://example.org/kg/
+default_prefix: kg
+imports:
+  - linkml:types
+classes:
+  KnowledgeCandidate:
+    attributes:
+      id:
+        range: string
+        required: true
+        identifier: true
+      title:
+        range: string
+        required: true
+      toc_anchor:
+        range: string
+      mechanism:
+        range: string
+        required: true
+      applicability_assumptions:
+        range: string
+        required: true
+      counterexample:
+        range: string
+        required: true
+      verification_status:
+        range: string
+        required: true
