@@ -8,8 +8,8 @@ source_inventory:
   inventory_basis: "Google Drive two-folder list, fileId dedup; 2026-11-17"
 books_touched_this_run: 1
 books_generation_complete_this_run: 0
-knowledge_records_new_this_run: 12
-relationships_new_this_run: 12
+knowledge_records_new_this_run: 13
+relationships_new_this_run: 13
 native_files_committed_and_readback: 8
 book_checkpoints:
   - book_id: "1uQFboUZeq0K2Ol_dr0_A7GkZm0BWo6Oa"
@@ -27,15 +27,15 @@ book_checkpoints:
     toc_topic_count: 112
     completed_topic_coverage: false
     modules_written: [M01, M02, M03]
-    module_records: {M01: 10, M02: 8, M03: 12}
-    module_relationships: {M01: 18, M02: 14, M03: 12}
-    next: "M03 topics 13-25; M01 topics 10-23; M02 remaining topics; M04 39 topics; deepen previous coverage"
-    last_commit: "ae1244f5d8e0a12ca9124d03be333349d9ef8091"
+    module_records: {M01: 10, M02: 8, M03: 25}
+    module_relationships: {M01: 18, M02: 14, M03: 25}
+    next: "M03 25/25 first-pass; M01 topics 10-23; M02 remaining topics; M04 39 topics; deepen M03 and full-book QA"
+    last_commit: "41c816de00181edfb6c7520ccbca93c0d18c5731"
 verification:
   json_parse: PASS
   id_uniqueness: PASS
   edge_endpoint_integrity: PASS
-  github_content_readback: "8/8 PASS (R3 M03)"
+  github_content_readback: "8/8 PASS (R4 M03)"
   yaml_independent_parser: NOT_RUN
   csv_independent_parser: NOT_RUN
   rdf_parser: NOT_RUN
@@ -46,14 +46,14 @@ next_priority: "Continue M03 from topic 13 and remaining M01/M02/M04 of actual-T
 
 latest_run:
   output_label: PARTS_BOOKS_KGDATA_LANE_4_R2_LONG_BATCH
-  run_revision: R3
+  run_revision: R4
   actual_books_advanced: 1
-  new_records: 12
-  new_relations: 12
+  new_records: 13
+  new_relations: 13
   module: M03
-  covered_topics: "third part 1-12/25"
-  next_cursor: PART_3_TOPIC_13
-  exact_last_commit: "ae1244f5d8e0a12ca9124d03be333349d9ef8091"
+  covered_topics: "third part 1-25/25 first-pass, full-depth QA pending"
+  next_cursor: M01_M02_GAPS_THEN_M04_TOPIC_1
+  exact_last_commit: "41c816de00181edfb6c7520ccbca93c0d18c5731"
   file_readback: "8/8 PASS"
   status: IN_PROGRESS
   complete_books: 0
