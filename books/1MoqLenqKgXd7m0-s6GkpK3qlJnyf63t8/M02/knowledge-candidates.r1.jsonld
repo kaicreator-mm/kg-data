@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "title": "http://schema.org/name",
+    "claim": "http://schema.org/description",
+    "mechanism": "https://example.org/kg/mechanism",
+    "source_scope": "https://example.org/kg/sourceScope",
+    "verification_status": "https://example.org/kg/verificationStatus",
+    "related": "https://example.org/kg/related"
+  },
+  "@graph": [
+    {
+      "@id": "urn:parts:nvh:M02-K001",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动扭矩脉冲与车身瞬态响应",
+      "claim": "起动机驱动曲轴加速与各缸初始燃烧使动力总成支承受到随时间变化的反作用力矩；车身响应由激励、悬置动态刚度和结构模态共同决定。",
+      "mechanism": "以曲轴转速、发动机机体三轴加速度和车身响应同步采集，比较起动前、拖转、首次点火及稳定怠速区间；在可比温度和电池条件下区分拖转和燃烧事件。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M02-K002"
+        },
+        {
+          "@id": "urn:parts:nvh:M02-K003"
+        },
+        {
+          "@id": "urn:parts:nvh:M02-K004"
+        },
+        {
+          "@id": "urn:parts:nvh:M02-K006"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M02-K002",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动事件分段与时频测量",
+      "claim": "起动是非平稳事件，单个全程均方根值可能掩盖短暂冲击。",
+      "mechanism": "用转速或点火状态作为时间对齐基准，分段计算峰值、RMS与短时频谱，并检查传感器饱和和采样率。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M02-K007"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M02-K003",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "悬置隔振与瞬态位移权衡",
+      "claim": "较软悬置在部分频段有利于隔振，但可能放大低频刚体位移或碰限位；较硬悬置可能降低位移却提高传递力。",
+      "mechanism": "将悬置静刚度、频率相关动刚度、阻尼、预载与限位间隙一起纳入起动瞬态模型，校核六自由度刚体运动及车身路径。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M02-K008"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M02-K004",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动转速轨迹的因果诊断",
+      "claim": "拖转转速的非均匀性可能反映压缩阻力、供电、起动机控制和初次燃烧不均匀的组合，不能凭车身振动唯一判因。",
+      "mechanism": "同步测量曲轴转速轨迹、电池端电压、起动机电流及车身加速度；以事件时刻对应和对照实验筛选候选路径。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M02-K005"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M02-K005",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动时附件负荷与激励分离",
+      "claim": "起动时不同附件的负荷接入和控制状态会改变曲轴净加速转矩，进而影响支承激励。",
+      "mechanism": "比较相同温度与起动策略下附件状态、转速轨迹和车身振动；优先观察车辆允许的正常运行模式，避免绕过安全联锁。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M02-K004"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M02-K006",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "激励阶次与车身模态耦合边界",
+      "claim": "转速上升期间激励频率扫过车身或动力总成低频模态，可能形成短时响应峰值。",
+      "mechanism": "结合阶次轨迹、模态频率和多测点相位/相干性判断共振假设；需区分瞬态扫频与稳态共振。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M02-K008"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M02-K007",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动工况重复性与统计边界",
+      "claim": "单次起动峰值易受随机点火相位、温度和电池荷电状态影响，设计评价需要重复样本及离群值说明。",
+      "mechanism": "对多次起动记录工况元数据，报告峰值分布、中位数及极端样本；区分冷起动和热起动群体。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M02-K008"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M02-K008",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动NVH诊断的反事实试验",
+      "claim": "源-路径-响应框架需通过可控干预区分源强变化与传递路径变化。",
+      "mechanism": "先记录原始工况，针对允许的非侵入测量或工程样件变化逐次改变一个因素，比较转速/机体/车身响应；所有安全关键部件改动需正式工程验证。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": []
+    }
+  ]
+}
