@@ -1,0 +1,11 @@
+id,title,toc_anchor,verification_status
+"AB-M05-K001","制动滑移率估计的速度基准不可观测性","第5章/5.1","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K002","最大轮速代理的偏差边界","第5章/5.2","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K003","纵向速度预测与减速度物理约束","第5章/5.2","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K004","低速滑移估计的正则化与无效域","第5章/5.1","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K005","车轮有效滚动半径与速度比例误差","第5章/5.2","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K006","估计器切换面的连续性与滞回","第5章/5.3","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K007","联合状态估计的可观测性条件","第5章/5.3","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K008","估计误差进入制动闭环的传播","第5章/5.3","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K009","轮速脉冲量化与低速更新间隔","第5章/5.1","MODEL_GENERATED_UNVERIFIED"
+"AB-M05-K010","车速估计可信度驱动的降级状态机","第5章/5.3","MODEL_GENERATED_UNVERIFIED"
