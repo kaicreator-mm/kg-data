@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "@vocab": "https://example.org/parts-kg/",
+    "id": "@id",
+    "type": "@type",
+    "related": {
+      "@id": "https://example.org/parts-kg/related",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K001",
+      "@type": "KnowledgeCandidate",
+      "title": "内啮合齿轮泵的容积输送机理",
+      "kind": "mechanism",
+      "statement": "内齿轮与外齿轮的啮合使封闭工作腔容积周期性变化，吸入侧容积增大而排出侧容积减小，形成流体输送；系统压力主要由下游阻力和调压回路决定，而不是由泵自身凭空生成。",
+      "assumptions_and_scope": "适用于正排量内啮合齿轮泵的定性分析；实际结构可含月牙隔板，需以泵型图纸确认。",
+      "counterexample": "泵空转且出口敞开时可有流量而不建立较高工作压力。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K002"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K002",
+      "@type": "KnowledgeCandidate",
+      "title": "理论排量与容积效率",
+      "kind": "formula",
+      "statement": "在定义每转几何排量 Vd、转速 n 的一致单位条件下，理论体积流量 Qth=Vd·n；实际输出可写 Qout=ηv·Vd·n，ηv 受泄漏、黏度、压差与转速影响。",
+      "assumptions_and_scope": "稳态单泵、无外部蓄能释放，Q与Vd和n单位相容；ηv需实测，不能预设常数。",
+      "counterexample": "油温上升导致间隙泄漏增加时，同一转速的实际流量可能下降。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K003"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K003",
+      "@type": "KnowledgeCandidate",
+      "title": "压力需求与轴功率边界",
+      "kind": "formula",
+      "statement": "在流量 Q 和压差 Δp 一致的测量边界下，液压输出功率 Ph=Δp·Q；输入轴功率需考虑总效率 ηtotal，理想化表达 Pin≈Ph/ηtotal。",
+      "assumptions_and_scope": "只适用于近似稳态且效率为正、测量边界明确的情况；不用于具体车辆泵选型。",
+      "counterexample": "出口旁通或泄漏增大时，轴功率不能仅由名义排量直接预测。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K004"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K004",
+      "@type": "KnowledgeCandidate",
+      "title": "油泵吸入不足与气蚀风险",
+      "kind": "failure_mode",
+      "statement": "吸入口局部绝对压力过低时可能产生汽泡或析出气体，随后压力恢复造成流量波动、噪声与潜在损伤；吸油阻力、液位、油温和入口密封应作为不同假设分别核验。",
+      "assumptions_and_scope": "气蚀与吸气混入可能有相似噪声，必须通过压力和流体状态等独立证据区分；无车型阈值。",
+      "counterexample": "含气泡的油液并不必然证明发生了汽蚀，可能是接头吸气或回油扰动。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K005"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K005",
+      "@type": "KnowledgeCandidate",
+      "title": "吸气与液压控制响应",
+      "kind": "mechanism",
+      "statement": "油液中可压缩气体体积分数增加会降低混合介质等效体积模量，使相同供油体积对应的压力建立速度与执行元件响应发生变化。",
+      "assumptions_and_scope": "仅定性描述；温度、压力、气泡溶解及排气路径均影响响应，不给出特定标定值。",
+      "counterexample": "电磁阀迟滞也可能造成换挡响应慢，不能仅凭迟滞反推油液含气。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K006"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K006",
+      "@type": "KnowledgeCandidate",
+      "title": "泵端面间隙磨损与内泄漏",
+      "kind": "failure_mode",
+      "statement": "端面或径向间隙随磨损增大可增加高压区向低压区的内部泄漏，导致热态、低转速工况下可用流量不足的风险上升。",
+      "assumptions_and_scope": "需结合泵型、油温、压差、实际磨损测量；不能把所有热态低压归因于泵磨损。",
+      "counterexample": "调压阀卡滞或吸油滤网受限也可能产生相似压力不足症状。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K007"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K007",
+      "@type": "KnowledgeCandidate",
+      "title": "调压阀与泵供油能力的因果区分",
+      "kind": "diagnostic",
+      "statement": "系统主油压异常可由供油能力不足、泄漏增大、调压阀控制、传感器偏差等多因引起；应把压力观测与实际供油、控制命令和油温条件分层解释。",
+      "assumptions_and_scope": "仅供诊断假设设计；任何压力测试与拆检必须遵循车型维修资料和安全措施。",
+      "counterexample": "单一故障码或一次压力读数不能确定油泵是根因。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K008"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K008",
+      "@type": "KnowledgeCandidate",
+      "title": "高温黏度变化与泵效率",
+      "kind": "mechanism",
+      "statement": "温度变化会改变油液黏度，进而影响吸入损失、泄漏与机械摩擦；高黏度不总是有利，因为吸入阻力和低温流动性也会变化。",
+      "assumptions_and_scope": "不对特定ATF作黏温数值推断；需要实际流体规格和泵工况。",
+      "counterexample": "低温高黏度下泄漏虽可能减小，吸入供油却可能更困难。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K009"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K009",
+      "@type": "KnowledgeCandidate",
+      "title": "泵噪声的源路径鉴别",
+      "kind": "diagnostic",
+      "statement": "泵相关噪声候选可包括啮合压力脉动、气蚀、吸气、轴承与结构共振；应按转速阶次、油温、负载和传递路径建立可证伪假设。",
+      "assumptions_and_scope": "噪声特征与传动机构耦合，不能仅凭声学描述判定泵故障；安全测量需专业流程。",
+      "counterexample": "同转速下的齿轮机构啸叫也可能被误认为油泵噪声。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K010"
+      ]
+    },
+    {
+      "@id": "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K010",
+      "@type": "KnowledgeCandidate",
+      "title": "油泵检修与版本适配的证据门槛",
+      "kind": "constraint",
+      "statement": "泵体、转子、端盖、密封与阀体的可复用性以及间隙容限必须基于对应总成编号和制造商资料确认，通用知识不能替代车型检修限值。",
+      "assumptions_and_scope": "不提供间隙值、紧固扭矩、拆装步骤或油液替代建议；OEM证据缺失时为UNKNOWN。",
+      "counterexample": "外观尺寸相似的两代泵不代表驱动接口和泄压设定相同。",
+      "source_scope": "TOC_THEME_ONLY",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "urn:parts-kg:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:M04:M04-K001"
+      ]
+    }
+  ]
+}
