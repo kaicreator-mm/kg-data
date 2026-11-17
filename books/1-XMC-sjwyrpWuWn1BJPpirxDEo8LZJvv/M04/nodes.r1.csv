@@ -1,0 +1,11 @@
+id,title,kind,source_scope,verification_status
+"M04-K001","内啮合齿轮泵的容积输送机理","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K002","理论排量与容积效率","formula","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K003","压力需求与轴功率边界","formula","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K004","油泵吸入不足与气蚀风险","failure_mode","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K005","吸气与液压控制响应","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K006","泵端面间隙磨损与内泄漏","failure_mode","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K007","调压阀与泵供油能力的因果区分","diagnostic","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K008","高温黏度变化与泵效率","mechanism","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K009","泵噪声的源路径鉴别","diagnostic","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
+"M04-K010","油泵检修与版本适配的证据门槛","constraint","TOC_THEME_ONLY","MODEL_GENERATED_UNVERIFIED"
