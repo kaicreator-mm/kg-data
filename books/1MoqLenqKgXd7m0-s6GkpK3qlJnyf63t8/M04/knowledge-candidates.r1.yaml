@@ -1,0 +1,298 @@
+{
+  "book_file_id": "1MoqLenqKgXd7m0-s6GkpK3qlJnyf63t8",
+  "module": "M04",
+  "source_title": "汽车NVH综合技术",
+  "source_rights": "NOT_VERIFIED_PRIVATE_RESEARCH_INPUT",
+  "toc_evidence": "PDF_FRONT_MATTER_TOC_ONLY",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "records": [
+    {
+      "id": "M04-K001",
+      "title": "怠速车身振动的源路径响应",
+      "anchor": "怠速时车身振动",
+      "claim": "怠速燃烧转矩波动和附件载荷可能经动力总成悬置与副车架传至车身，车内振感取决于频率、方向及座椅路径。",
+      "mechanism": "同步采集发动机转速、动力总成三轴加速度、悬置车身侧、座椅导轨与方向盘振动；结合相干度与路径分析区分源和传递。",
+      "assumptions": "发动机稳定怠速、车辆静止且附件与空调状态可控；不同动力架构分别建模。",
+      "counterexample": "方向盘振动峰高不必然意味着发动机激励增强，转向柱局部模态也可放大。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "INVESTIGATED_WITH",
+          "target": "M04-K002"
+        },
+        {
+          "predicate": "PROPAGATES_THROUGH",
+          "target": "M04-K003"
+        },
+        {
+          "predicate": "CONFOUNDED_BY",
+          "target": "M04-K007"
+        }
+      ]
+    },
+    {
+      "id": "M04-K002",
+      "title": "怠速阶次与燃烧事件的可辨识性",
+      "anchor": "怠速时车身振动",
+      "claim": "发动机循环性激励可产生与曲轴转速相关的阶次，但非整阶次与次谐波也可能由不均匀燃烧、控制摆动或采样误差形成。",
+      "mechanism": "以可信曲轴角度或转速同步重采样，联合观察频率谱、阶次谱、循环波动及重复性。",
+      "assumptions": "明确四冲程/二冲程、气缸数、怠速转速波动和采样同步条件。",
+      "counterexample": "出现0.5阶不自动证明某缸失火或曲轴故障，传感器脉冲丢失也可能产生伪谱。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "SUPPORTS",
+          "target": "M04-K004"
+        },
+        {
+          "predicate": "DISTINGUISHES",
+          "target": "M04-K007"
+        }
+      ]
+    },
+    {
+      "id": "M04-K003",
+      "title": "悬置动态刚度与怠速隔振权衡",
+      "anchor": "怠速时车身振动",
+      "claim": "悬置动态刚度、阻尼及安装几何共同决定动力总成激励向车身的传递，降低单一方向刚度可能改变刚体模态和位移限位。",
+      "mechanism": "用工况相关动态刚度曲线、刚体模态与载荷路径评估隔振；同时核查大位移与耐久边界。",
+      "assumptions": "温度、预载、频率与振幅影响橡胶/液压悬置响应。",
+      "counterexample": "怠速振幅降低并不意味着急加速位移、碰撞约束或耐久表现同步改善。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "COUPLES_WITH",
+          "target": "M04-K010"
+        },
+        {
+          "predicate": "VALIDATED_BY",
+          "target": "M04-K012"
+        }
+      ]
+    },
+    {
+      "id": "M04-K004",
+      "title": "空档加速的扫频共振识别",
+      "anchor": "空档加速时车身振动",
+      "claim": "空档加速时发动机阶次穿越车身或动力总成模态可能出现局部峰值，扫频速率影响响应幅度。",
+      "mechanism": "同步记录转速、加速度和阶次瀑布图；在允许的安全试验条件下对比稳态与扫频响应。",
+      "assumptions": "车辆可靠固定、传动系隔离状态确认、环境与试验许可满足要求。",
+      "counterexample": "峰值恰逢某转速不能单独证明共振，控制策略或附件切换也会形成转速相关突变。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "INVESTIGATED_WITH",
+          "target": "M04-K010"
+        },
+        {
+          "predicate": "REQUIRES",
+          "target": "M04-K008"
+        }
+      ]
+    },
+    {
+      "id": "M04-K005",
+      "title": "怠速品质的主客观联合评价",
+      "anchor": "怠速品质",
+      "claim": "怠速品质涉及座椅、方向盘、地板等不同接触点的振动方向、频带与波动，单一峰值加速度不足以代表乘员感知。",
+      "mechanism": "使用明示的频率加权、时间窗和重复次数，结合盲法主观评价与同工况客观指标。",
+      "assumptions": "评测方法、受试者差异、坐姿、发动机温度与附件负荷须记录。",
+      "counterexample": "加权RMS降低却出现周期性拍振时，主观品质仍可能变差。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M04-K009"
+        },
+        {
+          "predicate": "REQUIRES",
+          "target": "M04-K012"
+        }
+      ]
+    },
+    {
+      "id": "M04-K006",
+      "title": "附件负载对怠速激励的扰动",
+      "anchor": "怠速品质",
+      "claim": "空调压缩机、发电机和冷却风扇的负荷阶跃可能改变怠速控制扭矩与转速稳定性，从而影响振动。",
+      "mechanism": "记录附件启停事件、发动机控制状态、转速和多点振动；区分负载响应与附件自身机械激励。",
+      "assumptions": "不同车型附件电驱/皮带驱动差异需确认；不得绕过安全联锁。",
+      "counterexample": "风扇启动后振动升高不必然来自发动机燃烧不稳，也可能是风扇不平衡。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "MAY_CONTRIBUTE_TO",
+          "target": "M04-K007"
+        },
+        {
+          "predicate": "CONSTRAINED_BY",
+          "target": "M04-K011"
+        },
+        {
+          "predicate": "MAY_CONTRIBUTE_TO",
+          "target": "M04-K001"
+        }
+      ]
+    },
+    {
+      "id": "M04-K007",
+      "title": "怠速不稳定与车身振动因果区分",
+      "anchor": "怠速时车身振动",
+      "claim": "怠速转速波动、燃烧不均与悬置传递可相互叠加；仅凭车身响应不能唯一识别发动机控制或机械根因。",
+      "mechanism": "联合观察允许读取的转速波动、燃烧相关状态和多点声振，建立候选因果图并排除路径模态。",
+      "assumptions": "不以未核验诊断码或私有OEM参数作判定；燃油与排放系统检查需合格人员。",
+      "counterexample": "相同转速波动下不同悬置车辆的座椅振动可能差异显著。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M04-K008"
+        }
+      ]
+    },
+    {
+      "id": "M04-K008",
+      "title": "怠速振动试验的环境控制",
+      "anchor": "怠速时车身振动",
+      "claim": "发动机冷却液温度、舱内空调、车辆载荷、轮胎接触及测点安装方式会影响怠速振动比较的可重复性。",
+      "mechanism": "制定试验元数据和仪器校准记录，分层比较冷/热机、附件负荷与驻车条件。",
+      "assumptions": "不宣称未提供的OEM合格阈值；环境和仪器不确定度必须报告。",
+      "counterexample": "不同测点粘接刚度造成的高频差异不应解释为真实设计改善。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "CONSTRAINS",
+          "target": "M04-K005"
+        }
+      ]
+    },
+    {
+      "id": "M04-K009",
+      "title": "怠速拍振与双频源的辨别",
+      "anchor": "怠速品质",
+      "claim": "两个接近频率的振动源叠加可能形成缓慢包络变化，主观上表现为周期性拍振而平均能量变化不大。",
+      "mechanism": "分析时间包络、频率分辨率与转速同步关系，核对是否存在双源或调幅现象。",
+      "assumptions": "需要足够长且稳定的记录时间，排除采样混叠和转速漂移。",
+      "counterexample": "短时包络起伏也可能是发动机转速瞬变，不能一概认定为两个固定频率源。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "AFFECTS",
+          "target": "M04-K005"
+        },
+        {
+          "predicate": "INVESTIGATED_WITH",
+          "target": "M04-K002"
+        }
+      ]
+    },
+    {
+      "id": "M04-K010",
+      "title": "怠速振动的结构模态耦合",
+      "anchor": "空档加速时车身振动",
+      "claim": "车身局部件、转向柱和仪表板的模态可能放大输入振动，源端激励未变也可能出现局部舒适性恶化。",
+      "mechanism": "比较多个结构测点的频率响应、模态形态与源端输入；采用合法、非破坏性激励测试。",
+      "assumptions": "边界条件、内饰装配与温度影响局部模态；不得以单点峰值代替系统模态。",
+      "counterexample": "仅对悬置做优化未必解决仪表板局部共振。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "INVESTIGATED_WITH",
+          "target": "M04-K012"
+        },
+        {
+          "predicate": "CONFOUNDS",
+          "target": "M04-K003"
+        }
+      ]
+    },
+    {
+      "id": "M04-K011",
+      "title": "怠速控制策略变化的版本边界",
+      "anchor": "怠速品质",
+      "claim": "发动机控制软件、附件管理和混动启停策略改变时，怠速振动统计分布可能改变，跨版本指标不可无条件合并。",
+      "mechanism": "绑定软件/硬件配置与可读取运行状态，按版本分层比较同温度同负载试验。",
+      "assumptions": "控制策略细节与OEM标定数据若不可得则保持UNKNOWN。",
+      "counterexample": "旧软件版本的怠速频谱不能直接作为新混动架构的合格基线。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "REQUIRES",
+          "target": "M04-K008"
+        },
+        {
+          "predicate": "CONSTRAINS",
+          "target": "M04-K005"
+        }
+      ]
+    },
+    {
+      "id": "M04-K012",
+      "title": "多路径干预验证与反事实",
+      "anchor": "怠速时车身振动",
+      "claim": "源强、悬置传递和车身局部响应可能同时变化，单次更换零件后的改善不足以识别唯一因果机制。",
+      "mechanism": "在受控工程条件下设计可逆对照、重复测量和源路径响应分解，报告未控制的混杂因素。",
+      "assumptions": "不提供危险改装或绕过联锁步骤；试验应由授权工程团队执行。",
+      "counterexample": "更换悬置后改善也可能来自装配预紧变化，不能直接归因于材料刚度。",
+      "applicability": "车辆怠速NVH研究；车型动力架构与试验边界需确认",
+      "limitations": "仅根据已观察目录主题生成；原书正文未作为技术命题证据；OEM标准、阈值与特定版本UNKNOWN",
+      "source_scope": "TOC_THEME_ONLY",
+      "model_provenance": "LLM_ORIGINAL_GENERAL_KNOWLEDGE_FROM_OBSERVED_TOC_TOPIC",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "relations": [
+        {
+          "predicate": "VALIDATES",
+          "target": "M04-K001"
+        },
+        {
+          "predicate": "VALIDATES",
+          "target": "M04-K007"
+        }
+      ]
+    }
+  ]
+}
