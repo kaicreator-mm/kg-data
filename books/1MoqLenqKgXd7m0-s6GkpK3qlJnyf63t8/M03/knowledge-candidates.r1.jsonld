@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "title": "http://schema.org/name",
+    "claim": "http://schema.org/description",
+    "mechanism": "https://example.org/kg/mechanism",
+    "verification_status": "https://example.org/kg/verificationStatus",
+    "related": "https://example.org/kg/related"
+  },
+  "@graph": [
+    {
+      "@id": "urn:parts:nvh:M03-K001",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动燃烧噪声与机械噪声的区分",
+      "claim": "燃烧压力上升激励缸体辐射，起动机啮合、齿轮和附件也可能产生机械噪声，单测点声压不足以区分。",
+      "mechanism": "同步采集曲轴转速、缸体振动、近场声压及允许的控制状态信号；对照拖转与首次燃烧的时序及阶次。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M03-K002"
+        },
+        {
+          "@id": "urn:parts:nvh:M03-K003"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M03-K002",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动噪声的短时评价与事件窗口",
+      "claim": "起动过程的最大声压、短时响度和持续时间描述不同感知维度；单一全程等效声级可能稀释短暂冲击。",
+      "mechanism": "以转速和点火事件定义起动窗口，计算短时声压级、峰值、事件持续时间及重复性，并保留原始波形。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": []
+    },
+    {
+      "@id": "urn:parts:nvh:M03-K003",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "发动机起动声源路径与车内响应",
+      "claim": "机舱声源经空气路径、结构路径和车身密封件耦合到车内；外部近场声压不能直接等同乘员耳旁声压。",
+      "mechanism": "在机舱、车身连接和乘员耳旁设置同步测点，结合隔声、结构传递和运行工况对比建立候选路径。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M03-K006"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M03-K004",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "半阶次分量的转速基准与识别限制",
+      "claim": "相对于曲轴一转定义的阶次谱可包含非整数阶次，某些交替循环激励可能形成半阶次；半阶次峰不能唯一定位曲轴弯曲或转矩变化。",
+      "mechanism": "用可信转速同步阶次跟踪，检查多个转速和负荷条件下半阶次幅值及与扭振、缸体振动的相关性。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M03-K007"
+        },
+        {
+          "@id": "urn:parts:nvh:M03-K005"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M03-K005",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动音质的频谱与心理声学多指标",
+      "claim": "起动声音的音调性、粗糙度、响度与瞬态尖锐度可能影响感知，单一dB(A)无法描述全部音质。",
+      "mechanism": "将短时频谱、阶次图、主观成对比较和一致的工况描述并行使用；心理声学指标须采用明示算法版本。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M03-K002"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M03-K006",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动声学目标的条件化与可重复性",
+      "claim": "噪声目标应绑定测点、工况、温度、时间窗口、仪器配置和统计准则，否则不同试验之间不可直接比较。",
+      "mechanism": "建立测试元数据清单，记录冷/热起动分组、多次重复、环境背景和测量不确定度，再比较目标区间。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M03-K002"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M03-K007",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "曲轴扭转激励与车身声振路径",
+      "claim": "周期转矩不均匀可能激发轴系扭转和悬置反力，经结构路径产生车内声振；声压峰值与扭转阶次相关不等于因果成立。",
+      "mechanism": "同步比较曲轴角速度波动、动力总成振动、车身连接点和车内声压，在安全工程条件下进行源路径响应试验。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M03-K003"
+        }
+      ]
+    },
+    {
+      "@id": "urn:parts:nvh:M03-K008",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "起动机啮合和脱开事件的声音边界",
+      "claim": "起动机啮合与脱开可能产生瞬态机械声，且时间上与燃烧建立重叠；需要事件标记防止误分类。",
+      "mechanism": "通过正常可读控制状态、转速变化和非侵入声振同步记录定位事件；禁止通过拆除联锁来人为制造工况。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:parts:nvh:M03-K001"
+        },
+        {
+          "@id": "urn:parts:nvh:M03-K006"
+        }
+      ]
+    }
+  ]
+}
