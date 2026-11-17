@@ -1,0 +1,70 @@
+{
+  "book_id": "1jHGNBG5QKhauB3ra3RgPZoDCoc2-3h5X",
+  "module": "M04",
+  "source_scope": "TOC_THEME_ONLY",
+  "module_status": "IN_PROGRESS",
+  "subtopics": [
+    {
+      "topic": "4.2",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M04-K001",
+        "AB-M04-K002"
+      ]
+    },
+    {
+      "topic": "4.3",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M04-K003",
+        "AB-M04-K004"
+      ]
+    },
+    {
+      "topic": "4.4",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M04-K005"
+      ]
+    },
+    {
+      "topic": "4.5",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M04-K006",
+        "AB-M04-K007"
+      ]
+    },
+    {
+      "topic": "4.6",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M04-K008",
+        "AB-M04-K009"
+      ]
+    },
+    {
+      "topic": "4.7",
+      "status": "GENERATED",
+      "record_ids": [
+        "AB-M04-K010"
+      ]
+    }
+  ],
+  "knowledge_records": 10,
+  "relationships": 20,
+  "qualified_records": 0,
+  "remaining_scope": "Additional topic-level deepening and source-first verification pending",
+  "next_cursor": "M04 4.3/4.4 极限环的符号推导与可证伪模型；M05 车速估计",
+  "whole_book_status": "IN_PROGRESS",
+  "other_modules_pending": [
+    "M01",
+    "M02",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "APPENDIX_A",
+    "APPENDIX_B"
+  ]
+}
