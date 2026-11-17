@@ -1,0 +1,35 @@
+id: https://example.org/kg-data/schema/automotive-original-candidates
+name: automotive_original_candidates
+prefixes:
+  linkml: https://w3id.org/linkml/
+  kg: https://example.org/kg-data/
+default_prefix: kg
+default_range: string
+imports:
+  - linkml:types
+classes:
+  KnowledgeRecord:
+    attributes:
+      id: {required: true, identifier: true}
+      title: {required: true}
+      toc_anchor: {required: true}
+      kind: {required: true}
+      claim: {required: true}
+      mechanism: {required: true}
+      applicability: {required: true}
+      assumptions: {required: true}
+      counterexample: {required: true}
+      uncertainty: {required: true}
+      provenance: {required: true}
+      verification_status: {required: true}
+      related_ids: {multivalued: true}
+  KnowledgeCollection:
+    tree_root: true
+    attributes:
+      source_book_id: {required: true}
+      source_title: {required: true}
+      chapter: {required: true}
+      records:
+        range: KnowledgeRecord
+        multivalued: true
+        inlined_as_list: true
