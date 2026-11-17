@@ -1,0 +1,47 @@
+{
+  "book_id": "1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv",
+  "module": "M05",
+  "status": "IN_PROGRESS",
+  "topic_coverage": [
+    {
+      "topic": "行星齿轮结构与运动规律",
+      "status": "SELF_QA",
+      "records": [
+        "M05-K001",
+        "M05-K002"
+      ]
+    },
+    {
+      "topic": "离合器、制动器与单向离合器",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M05-K003",
+        "M05-K004",
+        "M05-K005",
+        "M05-K006",
+        "M05-K007"
+      ]
+    },
+    {
+      "topic": "多种行星排和车型实例",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M05-K008"
+      ]
+    },
+    {
+      "topic": "普通齿轮式自动变速器",
+      "status": "IN_PROGRESS",
+      "records": [
+        "M05-K009",
+        "M05-K010"
+      ]
+    }
+  ],
+  "records": 10,
+  "edges": 10,
+  "full_book_complete": false,
+  "next_cursor": "M05_INDIVIDUAL_TOPOLOGY_REVIEW_THEN_M06; M01-M04 remain partial; M06-M11 not started",
+  "verification_status": "MODEL_GENERATED_UNVERIFIED",
+  "independent_review": "NOT_RUN"
+}
