@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "dke": "https://example.org/dke/books/",
+    "id": "@id",
+    "type": "@type",
+    "title": "dke:title",
+    "statement": "dke:statement",
+    "related": {
+      "@id": "dke:related",
+      "@type": "@id"
+    },
+    "verification_status": "dke:verificationStatus"
+  },
+  "@graph": [
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K001",
+      "type": "dke:KnowledgeRecord",
+      "title": "变速器速比与扭矩速度约束",
+      "statement": "理想单输入单输出传动中定义速比 i=ω_in/ω_out；忽略损失时 T_out≈i T_in，效率η引入后T_out≈η i T_in。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K003",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K008"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K002",
+      "type": "dke:KnowledgeRecord",
+      "title": "自动换挡的传感器与执行器闭环",
+      "statement": "自动换挡通常综合驾驶员请求、车速、发动机负载与传动状态，形成目标挡位及执行器命令，并通过反馈评估实际状态。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K006",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K009"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K003",
+      "type": "dke:KnowledgeRecord",
+      "title": "液力自动变速器与CVT、DCT、AMT的结构分类",
+      "statement": "AT、CVT、DCT、AMT按动力路径和速比实现方式不同，不能仅凭是否自动换挡判定内部结构。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K001",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K010"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K004",
+      "type": "dke:KnowledgeRecord",
+      "title": "挡位选择与机械驻车的安全边界",
+      "statement": "P挡通常依赖驻车锁止机构限制传动系转动，而非替代驻车制动；R/D/N选择的允许条件依具体车辆控制策略。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K005",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K009"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K005",
+      "type": "dke:KnowledgeRecord",
+      "title": "变速器型号与车辆适配识别的证据要求",
+      "statement": "变速器型号、标牌、VIN与软件标定之间不是一一对应；零件或油液适配必须结合制造商资料、具体配置与版本确认。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K004",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K007"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K006",
+      "type": "dke:KnowledgeRecord",
+      "title": "换挡品质与扭矩交接",
+      "statement": "多挡自动变速器换挡可能涉及释放与结合元件的扭矩交接，压力与发动机扭矩协调影响冲击、打滑及热负荷。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K002",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K008"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K007",
+      "type": "dke:KnowledgeRecord",
+      "title": "变速器油液的多功能与规范约束",
+      "statement": "变速器油可能同时承担润滑、冷却、液压控制和摩擦特性调节；油液选择必须以具体总成规范为准。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K005",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K006"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K008",
+      "type": "dke:KnowledgeRecord",
+      "title": "传动效率与热平衡的工况依赖",
+      "statement": "变速器能量损失可粗略表示为 P_loss=P_in-P_out；稳态热平衡需由散热与发热匹配，不能以单一效率代表全工况。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K001",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K006"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K009",
+      "type": "dke:KnowledgeRecord",
+      "title": "失效保护与诊断证据分层",
+      "statement": "异常挡位或换挡质量可能来自传感器、电气执行、液压、机械或控制标定；故障码仅是诊断线索，不能直接替代因果证明。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K002",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K005"
+      ]
+    },
+    {
+      "id": "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K010",
+      "type": "dke:KnowledgeRecord",
+      "title": "自动化程度与驾驶便利性的权衡",
+      "statement": "自动变速器可能减少驾驶员手动选挡负担，但系统复杂度、成本、能耗、维护及驾驶响应存在架构和工况依赖的权衡。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K003",
+        "https://example.org/dke/books/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/M02-K008"
+      ]
+    }
+  ]
+}
