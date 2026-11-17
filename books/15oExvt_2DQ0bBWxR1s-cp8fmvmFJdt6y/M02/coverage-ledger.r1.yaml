@@ -1,0 +1,12 @@
+book_id: "15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y"
+module: M02
+status: IN_PROGRESS
+actual_toc_extracted: true
+part_2_topic_count: 25
+covered_topic_ids: [1, 6, 7, 9, 12, 15, 19, 23]
+remaining_topic_count: 17
+knowledge_records_in_chunk: 8
+relationship_count: 14
+verification_status: MODEL_GENERATED_UNVERIFIED
+next_cursor: "PART_2_TOPIC_2; continue remaining topics and revisit depth"
+book_complete: false
