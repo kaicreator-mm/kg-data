@@ -53,11 +53,11 @@ CarMM 的 Probox 挂牌标题为 “Toyota Probox 2011”，内部生产年份�
 
 ### 4.1 发动机家族与润滑/供油条件
 
-`2NZ-FE / 1NZ-FE / 1NR-FE` 并非一个完全相同的发动机代码。已有共享 [STR-ENG-LUBE](../../../topics/engine/lubrication/structure.md)（仅通用油路）能帮助建立泵、滤清、调压、主油道、VVT 及冷却/回油概念，**但不能证明**某款 Probox 上实际的油泵结构、滤芯旁通设置、传感测点和压力阈值。后续仅在明确机型/年款/OEM 资料时才做 `SER-DELTA-PROBOX-LUBE` 实质差量；未证实则 `BLOCKED_SOURCE`。
+`2NZ-FE / 1NZ-FE / 1NR-FE` 并非一个完全相同的发动机代码。已有共享 [STR-ENG-LUBE](../../../../topics/engine/lubrication/structure.md)（仅通用油路）能帮助建立泵、滤清、调压、主油道、VVT 及冷却/回油概念，**但不能证明**某款 Probox 上实际的油泵结构、滤芯旁通设置、传感测点和压力阈值。后续仅在明确机型/年款/OEM 资料时才做 `SER-DELTA-PROBOX-LUBE` 实质差量；未证实则 `BLOCKED_SOURCE`。
 
 ### 4.2 传动型式的断裂点（高价值、优先）
 
-2002 家族含 4AT/5MT；2014 日本改款含 Super CVT-i。可以明确**不应跨代复制 AT 机理、油液规格或排故思路**。现有 [STR-AT](../../../topics/transmission/automatic/structure.md) 仅限“液力变矩器＋行星齿轮＋液压执行”家族，作为**对照/适用性排除**；对 CVT/MT 不是技术前置。后续需要先发现实际车架/驱动/变速器代码与生产范围，才能把特定技术关联到缅甸现车。**不能从旧车标题 Automatic 推断是否 4AT 或 CVT。**
+2002 家族含 4AT/5MT；2014 日本改款含 Super CVT-i。可以明确**不应跨代复制 AT 机理、油液规格或排故思路**。现有 [STR-AT](../../../../topics/transmission/automatic/structure.md) 仅限“液力变矩器＋行星齿轮＋液压执行”家族，作为**对照/适用性排除**；对 CVT/MT 不是技术前置。后续需要先发现实际车架/驱动/变速器代码与生产范围，才能把特定技术关联到缅甸现车。**不能从旧车标题 Automatic 推断是否 4AT 或 CVT。**
 
 ### 4.3 2WD / 4WD 与传动、底盘及轮端
 
