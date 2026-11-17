@@ -34,10 +34,10 @@
 
 | 缅甸在用相关车系候选 | 发现任务 | 当前 Markdown Blob | 状态 | 实质差异候选与真正阻塞 |
 |---|---|---|---|---|
-| Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `GENERATED_REVIEW_PENDING` | 厂商 2002 家族 4AT/5MT 与 2014 日本改款 CVT 差异是真实研究问题；`SER-DELTA-PROBOX-TRANS` 待独审/配置限定。润滑差量缺具体油路证据，暂 `BLOCKED_SOURCE` |
-| Honda Fit / Jazz（地域名称待核） | `SER-DISC-FIT` | `2c8ab39f67c076352586eed2a2f2187147fa909a` · [正文](./series/myanmar/honda/fit/discovery.md) | `GENERATED_REVIEW_PENDING` | Honda 官方汽油 CVT/部分 4WD 5AT/IMA-CVT/i-DCD 7DCT/e:HEV 代际区分，`SER-DELTA-FIT-TRANS` 待独审与配置证据；`SER-DELTA-FIT-BRK` 安全相关来源不足仍 CONDITIONAL |
+| Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777) | `SER-DELTA-PROBOX-TRANS` 已写实质差量候选 [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`，待独审；润滑差量仍 `BLOCKED_SOURCE` |
+| Honda Fit / Jazz（地域名称待核） | `SER-DISC-FIT` | `2c8ab39f67c076352586eed2a2f2187147fa909a` · [正文](./series/myanmar/honda/fit/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386) | `SER-DELTA-FIT-TRANS` 已生成技术差量候选 [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`，待独审；制动差量仍 `BLOCKED_SOURCE` |
 
-**严格统计**：已真实生成 `SER-DISC 2/2`、系列发现独立内容质量 `ACCEPT=0/2`；四个 `SER-DELTA` 为 **0/4 已生成**，`SER-VARIANT-CHECK` 为 `WAITING_EVENT`。缅甸全域各车型上路保有量/维修工单/故障发生率仍 `UNKNOWN`；挂牌/历史新闻不是保有量分母。两篇发现不是二手车数量排名或 OEM VIN 级适用资格。
+**严格统计（本轮 R3）**：已真实生成 `SER-DISC 2/2`、系列发现限定独立内容质量 `ACCEPT=2/2`；两个 `SER-DELTA-TRANS` 已实际生成，均 `GENERATED_REVIEW_PENDING`（四个计划中的 delta 为 **2/4 已生成、0/4 已独立内容审核通过**），另两个源不足保持条件性未生成；`SER-VARIANT-CHECK` 已由实际 delta 事件激活并生成 [gap Markdown](./series/myanmar/series-variant-gaps.md)，Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`、待独审；`SER-REPLAN` 尚未执行。缅甸全域各车型上路保有量/维修工单/故障发生率仍 `UNKNOWN`；挂牌/历史新闻不是保有量分母。两篇发现不是二手车数量排名或 OEM VIN 级适用资格。
 
 ## 更新与再规划（每次真实交付后执行）
 
