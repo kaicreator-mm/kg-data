@@ -15,7 +15,7 @@
 
 | 对象/切片 | S | F | X | R | 下一具体缺口/任务 | 为什么选择或延期 |
 |---|---|---|---|---|---|---|
-| ICE 润滑 | OPEN | OPEN | OPEN | OPEN | STR-ENG-LUBE | 共有机械基础，首批广度 |
+| ICE 润滑 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | FUN-ENG-LUBE；STR-ENG-LUBE 独立内容质量审核 | 结构稿已提交，未获内容独审；下游须复用未验证边界 |
 | ICE 空气/燃油/排放 | OPEN | OPEN | OPEN | OPEN | STR-ENG-AIRFUEL | 待激活广度 |
 | 传统液力行星 AT | OPEN | OPEN | OPEN | OPEN | STR-AT | 既有 TOC 线索；不代表已读正文 |
 | 传动/差速器 | OPEN | OPEN | OPEN | OPEN | STR-DRIVELINE | 待激活广度 |
@@ -39,6 +39,9 @@
 7. 下一轮任务仅从未认领的 `READY` 候选与已确认缺口中选择；**执行 DAG 无环，但知识图可保留循环反馈关系**。
 
 ## 当前实际记录
+
+- `STR-ENG-LUBE`：实际生成 Markdown `topics/engine/lubrication/structure.md`，Commit `74e8f3d575471d16c3052c3003931da0daf73d7a`、Blob `b43057bee5ef1ee291e55ca5b3a7f8aee04a5e4e`，GitHub readback 一致；**内容质量独审尚未完成，专业事实未核验**。对应结构 S=`GENERATED_REVIEW_PENDING`。后续 `FUN-ENG-LUBE` 可读取真实上游作为候选输入，任何上游 REWORK 需传播 `STALE`。
+- 本轮 BREADTH 选择 ICE 润滑/制动/传统液力行星齿轮 AT/通用 BEV 高压结构，其它系统可独立并行启动而不等待四系统完成；`STR-LOWV` 为最高重要待派广度候选之一。F 仍 UNKNOWN，无发生率数据。
 - 本文是结构先行的覆盖账本**初始化**，没有虚报正文生成；所有首批知识内容仍 OPEN。
 - 不允许因创建目录、生成计划、上传文件、引用书目录而将内容状态改为 `GENERATED`。
 - 生成前仍须先完成 v0.4.1 PLAN 的独立增量计划审查（#61 原 v0.4 审核结果为 REWORK）。
