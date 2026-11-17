@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "title": "https://schema.org/name",
+    "claim": "https://schema.org/description",
+    "related": "https://schema.org/relatedLink",
+    "verification_status": "https://example.org/verificationStatus"
+  },
+  "@graph": [
+    {
+      "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K001",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "驱动轮与发动机安装位置是两个独立维度",
+      "claim": "前置、后置和中置描述动力总成相对车身的位置；前驱、后驱和四驱描述动力分配到哪些车轮，两者不能互相代替。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K002"
+        },
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K003"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K002",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "驱动形式与车辆牵引极限的关系",
+      "claim": "驱动轮可利用的纵向牵引力受到轮胎与路面附着、法向载荷和横向力需求共同约束；四驱不等于在任何条件下都具有更短制动距离。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K001"
+        },
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K004"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K003",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "横置与纵置不等于驱动形式",
+      "claim": "动力总成的横置或纵置是曲轴轴线相对车身纵向的空间关系，不是前后轮驱动的直接判据。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K001"
+        },
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K004"
+        }
+      ]
+    },
+    {
+      "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K004",
+      "@type": "https://schema.org/DefinedTerm",
+      "title": "整车主要子系统的功能边界",
+      "claim": "整车可从动力与能量、传动与行驶、转向制动、车身结构、电子控制等功能维度分析，但部件数不是跨车型固定常数。",
+      "verification_status": "MODEL_GENERATED_UNVERIFIED",
+      "related": [
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K001"
+        },
+        {
+          "@id": "urn:kg:1tmOH6FqAvuxhMhNL9BcWHzVAD80-Vi1l:M01-K002"
+        }
+      ]
+    }
+  ]
+}
