@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "title": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "related": "https://schema.org/relatedLink",
+    "status": "https://example.org/kg/verificationStatus"
+  },
+  "@graph": [
+    {
+      "@id": "urn:parts:ab:AB-M01-K001",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "液压调压与开关阀的控制差异",
+      "description": "液压开关阀常用增压、保压、减压离散状态实现平均压力控制，连续比例阀可直接调节目标压力或流量，但执行器的死区、滞后和供压约束决定实际闭环带宽。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K002"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K002",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "电液制动的能量与故障降级边界",
+      "description": "电子液压制动将驾驶请求转换为电控液压压力目标；其安全设计需要把主电源、压力源、阀、传感器与机械或液压后备路径视为独立故障域。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K003"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K003",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "EMB 夹紧力与制动转矩的非线性关系",
+      "description": "电机驱动减速器与丝杠产生轴向夹紧力，制动转矩还依赖有效摩擦半径、摩擦系数及两侧摩擦片状态；间隙闭合前位置运动不能等同于夹紧力。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K004"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K004",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "制动执行器双环控制与模式切换",
+      "description": "内层电流或转矩回路抑制电机电气动态，外层位置回路可管理制动间隙，接触后切换为夹紧力控制；切换应考虑传感器噪声、迟滞和抗积分饱和。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K005"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K005",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "线控制动命令链的端到端安全",
+      "description": "踏板意图采集、通信、制动控制器、执行器和轮端反馈构成闭环命令链；需要对数据新鲜度、超时、失序、冗余通道一致性和执行器反馈进行独立诊断。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K006"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K006",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "制动滑移反馈的车速估计依赖",
+      "description": "滑移率需要车轮角速度和纵向车速估计；纯轮速在四轮同时大滑移时可能失去可靠车速基准，IMU积分又会受偏置和坡度误差影响。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K007"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K007",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "ABS减速度门限的工况敏感性",
+      "description": "基于轮减速度的门限逻辑可快速发现趋向抱死的趋势，但轮胎路面附着、轮胎惯量、制动扭矩和传感器噪声都会改变相同门限的物理含义。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K008"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K008",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "集成底盘控制的多目标冲突",
+      "description": "横摆稳定、纵向减速、转向响应和舒适性可能同时竞争轮胎摩擦圆与执行器能力；上层目标分配需优先约束安全可行域，再对多个控制器的请求仲裁。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K009"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K009",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "控制目标可行性与执行器饱和",
+      "description": "轮端制动力矩存在最大值、最小值、变化率及延迟限制，外层滑移或横摆目标必须通过可行性检查和抗积分饱和避免持续积累不可实现的控制请求。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K010"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K010",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "制动控制的安全验证分层",
+      "description": "模型层验证稳定性与边界，软件层执行故障注入、时间戳和状态机测试，硬件在环验证通信延迟和执行器饱和，整车试验才可观察复杂路面及车辆耦合。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K011"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K011",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "电控制动诊断中的故障可辨识性",
+      "description": "轮速、液压压力、电机电流、夹紧力等残差可用于故障检测，但不同故障可能产生相同观测，需要多传感器激励与故障树排除不可辨识情形。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K012"
+      }
+    },
+    {
+      "@id": "urn:parts:ab:AB-M01-K012",
+      "@type": "https://example.org/kg/KnowledgeCandidate",
+      "title": "再生与摩擦制动协调的条件",
+      "description": "电驱动系统可回收部分负扭矩需求，但电池SOC、温度、电机转速和附着约束会改变可回收能力；协调器应将不可回收部分交由摩擦制动且控制减速度连续性。",
+      "status": "MODEL_GENERATED_UNVERIFIED",
+      "related": {
+        "@id": "urn:parts:ab:AB-M01-K001"
+      }
+    }
+  ]
+}
