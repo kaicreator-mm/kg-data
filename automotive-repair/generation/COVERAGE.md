@@ -21,12 +21,14 @@
 | 传动/差速器 | OPEN | OPEN | OPEN | OPEN | STR-DRIVELINE | 待激活广度 |
 | 制动 / ABS/ESC | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-BRK | [STR-BRK 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)；安全关键，发生频率 UNKNOWN |
 | 转向悬架/轮胎 | OPEN | OPEN | OPEN | OPEN | STR-STEER-SUSP | 待激活广度 |
-| 低压电气/网络 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | STR-LOWV 内容质量独审；后续 FUN 需新受审任务 | [低压电气结构](./topics/electrical-low-voltage/structure.md) 实际生成，ICE/BEV 与网络适用性明确，非车型 OEM 事实 |
+| 低压电气/网络 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | 后续 FUN-LOWV 需单独新受审 DAG | [STR-LOWV 限定质量 ACCEPT（P2×1）](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984507844)，ICE/BEV 起动、供电与 CAN/LIN；非具体车型 OEM 事实 |
 | 空调/热管理 | OPEN | OPEN | OPEN | OPEN | STR-THERMAL | 待激活广度 |
 | 车身/被动安全 | OPEN | OPEN | OPEN | OPEN | STR-BODY-SAFETY | 待激活广度，高风险操作边界 |
 | BEV 高压/电驱/充电 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-HV | [STR-HV 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；仅非操作性结构知识 |
 | 跨系统诊断/维护通用技术 | OPEN | OPEN | OPEN | OPEN | DISC-METHOD | 先定义跨系统共享原则 |
-| 混动/柴油/CVT/DCT/e-CVT/重型等 | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | ARCH-EXPAND | 未来扩展切片；不冒充不适用 |
+| 机械式 CVT 共用家族（增量 R1） | GENERATED_REVIEW_PENDING | GENERATED_REVIEW_PENDING | OPEN | OPEN | 新 [STR/FUN-CVT](./SERIES_FAMILY_DAG_R1.md) 已生成；两个独立内容审核待做 | [结构](./topics/transmission/cvt/structure.md) Blob `19201970db7bb121d28df02f1c862cd05765cea4`；[功能](./topics/transmission/cvt/function.md) Blob `368e0e8fb644674df5262a3bad8f394a810db164`；不包括 HEV Electric CVT |
+| HEV 共用家族 IMA/i-DCD/e:HEV（增量 R1） | GENERATED_REVIEW_PENDING | GENERATED_REVIEW_PENDING | OPEN | OPEN | 新 [STR/FUN-HEV](./SERIES_FAMILY_DAG_R1.md) 已生成；两个独立内容审核待做 | [结构](./topics/electrified/hybrid/structure.md) Blob `23baed760bcf3dbb76cecfa609d8a7200532a8a9`；[功能](./topics/electrified/hybrid/function.md) Blob `2196e74550b7d4b2f4ed4c0a09ed3f83db4bfa87`；不宣称实际 Myanmar Fit 混动配置 |
+| 柴油/独立 DCT/PHEV/其它电驱/重型等尚未研究切片 | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | ARCH-EXPAND | 家族增量仅覆盖明确 CVT 与 HEV，不能把未覆盖系统误标完成或不适用 |
 
 ## 缅甸车型系列适用性覆盖（与通用 S/F/X/R 正交）
 
@@ -37,7 +39,7 @@
 | Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777) | `SER-DELTA-PROBOX-TRANS` 已写实质差量候选 [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`，[独立质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976215650)；润滑差量仍 `BLOCKED_SOURCE` |
 | Honda Fit / Jazz（地域名称待核） | `SER-DISC-FIT` | `2c8ab39f67c076352586eed2a2f2187147fa909a` · [正文](./series/myanmar/honda/fit/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386) | `SER-DELTA-FIT-TRANS` 已生成技术差量候选 [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`，[独立质量 ACCEPT P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976201311)；制动差量仍 `BLOCKED_SOURCE` |
 
-**严格统计（本轮 R4）**：通用 STR 结构 5 篇实际生成，其中 4 篇取得不同原 Writer 对话限定质量 ACCEPT，STR-LOWV R1 Blob `27520498eefdc491c5e857600b902677730c400d` 待独审；SER-DISC 2/2 实际生成且限定质量 ACCEPT；SER-DELTA 2/4 实际生成并全部各自限定独立内容质量 ACCEPT（其余两个仍 SOURCE_GAP）；`SER-VARIANT-CHECK` 已按真实交付触发并生成 [缺口稿](./series/myanmar/series-variant-gaps.md) Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`，待独审；`SER-REPLAN` 已交付 [CVT/HEV 增量 DAG 候选](./SERIES_FAMILY_DAG_R1.md) Blob `58d616663c2262efa4fc62851d8962a637294703`，计划独审待办、其新家族知识 Writer 尚未准入。缅甸真实车型保有量、工单/故障频率、具体车架配置始终 UNKNOWN，正式专业事实资格=0。
+**严格统计（2026-11-19 / 本轮 R5）**：原通用 STR 共 5 篇已提交、**5/5 获独立限定内容质量 ACCEPT**；Probox/Fit 2 篇 DISC + 2 篇 TRANS delta + 1 篇 SER-VARIANT-CHECK 均已限定内容质量 ACCEPT（车型另两个 delta 仍 SOURCE_GAP）；[新增 FAMILY DAG](./SERIES_FAMILY_DAG_R1.md) Blob `58d616663c2262efa4fc62851d8962a637294703` 已 [独立计划 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984583673)、[#61 C-FAM-DISPATCH](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6987899954) 已明确准入；实际新 CVT/HEV **结构 2/2、功能 2/2 共 4 篇已真实提交回读**，**内容独审 0/4**。因此总知识 Markdown **14 篇真实生成、10 篇限定质量独审通过、4 篇待独审**；不含计划/账本或未生成的 FAIL/REP。正式 OEM/缅甸 VIN 适配/专业事实资格 0；没有真实工单/存量故障率统计。
 
 ## 更新与再规划（每次真实交付后执行）
 
@@ -49,11 +51,22 @@
 6. 每轮仅更新 changed 行与收据，省略重复旧验收；记录 `task_id / exact_commit / exact_blob / reviewer_scope / claim / date / remaining_gap`。
 7. 下一轮任务仅从未认领的 `READY` 候选与已确认缺口中选择；**执行 DAG 无环，但知识图可保留循环反馈关系**。
 
+## 新共享家族结构→功能交付收据（R5，独立内容审核尚未完成）
+
+> [新家族增量 DAG](./SERIES_FAMILY_DAG_R1.md) 已 [独立接受](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984583673)；[C-FAM-DISPATCH 已另行准入](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6987899954)。相应两条链只依赖自身上游真实结构 Commit；独立内容审核未发生，结构如 REWORK，受影响功能必须 STALE。
+
+| Task | 原生 Markdown 文件 | 最新 Commit | Exact Blob | 真实状态 |
+|---|---|---|---|---|
+| `STR-CVT-FAMILY` | [CVT 结构](./topics/transmission/cvt/structure.md) | `00824f94e9592c72734de7a2dbd12a85f621d2f0` | `19201970db7bb121d28df02f1c862cd05765cea4` | GENERATED_REVIEW_PENDING |
+| `FUN-CVT-FAMILY` | [CVT 功能](./topics/transmission/cvt/function.md) | `b0b36c5bd14654bb84a2fd3825f639ca5239f835` | `368e0e8fb644674df5262a3bad8f394a810db164` | GENERATED_REVIEW_PENDING，依赖 CVT STR |
+| `STR-HEV-FAMILY` | [HEV 结构](./topics/electrified/hybrid/structure.md) | `e5170739a3a32354bcf09f0bd11a7cbf3f066ac0` | `23baed760bcf3dbb76cecfa609d8a7200532a8a9` | GENERATED_REVIEW_PENDING |
+| `FUN-HEV-FAMILY` | [HEV 功能](./topics/electrified/hybrid/function.md) | `e021cd177716ad574dd55ff9765fd5420f729026` | `2196e74550b7d4b2f4ed4c0a09ed3f83db4bfa87` | GENERATED_REVIEW_PENDING，依赖 HEV STR |
+
 ## 本轮新增通用广度收据
 
 | Task | 实际文件 | 最新 Commit / Blob | 状态 |
 |---|---|---|---|
-| STR-LOWV | [低压电气/网络结构](./topics/electrical-low-voltage/structure.md) | Commit `0c824f0d206f53c965ace6ad95f69bfbc6e3e6d4` / Blob `27520498eefdc491c5e857600b902677730c400d` | `GENERATED_REVIEW_PENDING`：待其它对话独立内容质量审核；OEM / 专业事实资格 0 |
+| STR-LOWV | [低压电气/网络结构](./topics/electrical-low-voltage/structure.md) | Commit `0c824f0d206f53c965ace6ad95f69bfbc6e3e6d4` / Blob `27520498eefdc491c5e857600b902677730c400d` | [独立内容质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984507844) P2×1 非阻断；OEM/专业事实仍 0 |
 
 ## 首轮并行新增交付收据
 
