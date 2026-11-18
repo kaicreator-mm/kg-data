@@ -36,18 +36,18 @@
 - `SER-DISC-PROBOX` 已交付 [Markdown](./series/myanmar/toyota/probox/discovery.md) · Blob `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [独立内容质量 ACCEPT（P2×2）](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777)。
 - `SER-DISC-FIT` 已交付 [Markdown](./series/myanmar/honda/fit/discovery.md) · Blob `2c8ab39f67c076352586eed2a2f2187147fa909a` · [独立内容质量 ACCEPT（P2×3）](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386)。
 - 两篇均落实源资料与当地挂牌分账：CarMM 个别 listing URL/2026-11-18；缅甸市场报道是 2022 历史交易；RTAD 行政样本不是 stock census；实际缅甸保有量、故障率、具体 VIN 配置均 UNKNOWN。
-- **本轮真实新产出**：Probox TRANS [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) · Commit `b44c8fcd857df3a315322679734779b2f61a4a26` · Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`；Fit TRANS [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) · Commit `80786eb8b1795751dc6295e77ab986a3e51d9a63` · Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`。两个 Writer 均已 RELEASE，**仅 GENERATED_REVIEW_PENDING**；待另外两个对话独立审核，不能将其认定为车型维修标准。
-- **事件触发完成**：`SER-VARIANT-CHECK` [实际生成](./series/myanmar/series-variant-gaps.md) · Commit `b6ba674221c791c7223a54d9911060e1aca64466` · Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`；发现共用 CVT 和 HEV 家族知识候选。由于上游 delta 仍待独审，此 gap 也是 `GENERATED_REVIEW_PENDING`，上游若 REWORK 必须 STALE 传播。
-- **不应启动**：`SER-DELTA-PROBOX-LUBE`、`SER-DELTA-FIT-BRK` 仍缺真正源码/适用版本，`SER-REPLAN` 也未执行；新的 `STR-CVT-FAMILY`、`STR-HEV-FAMILY` 只是建议，必须走全图变更审核后再准入，不能当 READY。
-- **下一轮优先**：两个 TRANS delta 独立内容质量审核可完全并发；`SER-VARIANT-CHECK` 在其依赖审核通过后增量复核；原通用广度与功能任务继续不受影响。
-- **防饥饿**：仍保留 `STR-LOWV`/转向/热管理的广度 Writer 和 `FUN-AT-PATH`/`FUN-AT-HYD`/`FUN-BRK` 等通用深度 Writer 并行，不能因为新 series 就暂停旧主 DAG。
+- **本轮真实新产出**：Probox TRANS [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) · Commit `b44c8fcd857df3a315322679734779b2f61a4a26` · Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`；Fit TRANS [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) · Commit `80786eb8b1795751dc6295e77ab986a3e51d9a63` · Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`。两个 Writer 均已 RELEASE，且已分别取得 [Probox 限定内容质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976215650) 和 [Fit 限定内容质量 ACCEPT P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976201311)；并非车型 OEM、VIN 或维修标准。
+- **事件触发完成**：`SER-VARIANT-CHECK` [实际生成](./series/myanmar/series-variant-gaps.md) · Commit `b6ba674221c791c7223a54d9911060e1aca64466` · Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`；发现共用 CVT 和 HEV 家族知识候选。现上游两份 delta 均独审限定 ACCEPT，但 gap 自身仍 `GENERATED_REVIEW_PENDING`，需其他对话单独质量审查，后续有新反证仍须按影响范围 STALE。
+- **不应启动**：`SER-DELTA-PROBOX-LUBE`、`SER-DELTA-FIT-BRK` 仍缺真正源码/适用版本，`SER-REPLAN` 已产出独立 [FAMILY_DAG_R1](./SERIES_FAMILY_DAG_R1.md) Blob `58d616663c2262efa4fc62851d8962a637294703`；新 `STR-CVT-FAMILY`、`STR-HEV-FAMILY` 及各自 FUN 仍为 **计划独审待办、禁止派发**，不得当 READY。
+- **下一轮优先**：两个 TRANS delta 已获得各自限定质量 ACCEPT；下一步独审 `SER-VARIANT-CHECK@81f3733e...` 与新 `SERIES_FAMILY_DAG_R1@58d61666...`，并独审通用 `STR-LOWV@27520498...`。原有 FUN-AT、FUN-BRK、FUN-HV 与其它广度仍可并行派发。
+- **防饥饿**：STR-LOWV 已实际生成、待独审；仍保留转向/热管理的广度 Writer 和 `FUN-AT-PATH`/`FUN-AT-HYD`/`FUN-BRK` 等通用深度 Writer 并行，不能因为新 series 就暂停旧主 DAG。
 - **硬条件/可选对照 P2**：对 CVT/MT/DCT 的新子图不应把传统 AT STR 作强制先决；现行被独审接受的 R2 表不擅自改 Blob，下一次 C-REPLAN 必须按需要移除虚假 hard edge，并完整验证新图与增量审核。
 
 ## 4. 当前最高优先但延期的广度分支
 
 | 候选 | 为什么值得下一轮启动 | 当前为何未认领 | 触发 |
 |---|---|---|---|
-| `STR-LOWV` | 低压供电、起动/充电、控制器通信是多个故障场景的通用知识前置 | 首次仅派出四个试点系统；不是低价值 | 新 Writer 资源空闲即可从 COVERAGE 的 OPEN 认领 |
+| `STR-LOWV` | 实际生成低压 ICE/BEV 结构及 CAN/LIN 网关 Markdown | Writer 已 RELEASE；限定内容质量待独审 | 交其它对话质量审核当前 Blob `27520498eefdc491c5e857600b902677730c400d`；不重复生成 |
 | `STR-STEER-SUSP` | 转向/悬架与轮胎影响安全和整车行为 | 非首批四个，尚无 Claim | 任意独立 Writer 资源空闲 |
 | `STR-THERMAL` | ICE/BEV 温控与空调具有共享与差异，适合独立生成 | 尚无 Claim | 任意独立 Writer 资源空闲 |
 
