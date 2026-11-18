@@ -55,7 +55,7 @@ DENSO 的公开发电机说明把发电机定位为电器负载及电池充电�
 - **状态/软件变化**：某些车型按休眠、充电、故障保护或电池类型改变低压补能条件；本文件没有针对任何车的时序、残余能量、阈值和安全程序资料。
 - **架构差异**：48V 电气/轻混可出现额外 DC/DC 与低压子网，但此资料不能证明缅甸某辆旧车实际配备 48V。HEV/PHEV 也不能直接套用 BEV 的高压维修假设。
 
-可与已有 [BEV 高压结构知识](../../electrified/high-voltage/structure.md) 交叉引用，但本文件不重复高压电池包内部设计，也不推导高压作业步骤。
+可与已有 [BEV 高压结构知识](../electrified/high-voltage/structure.md) 交叉引用，但本文件不重复高压电池包内部设计，也不推导高压作业步骤。
 
 ## 5. CAN、LIN、网关与 ECU：网络失效不等于零件失效
 
@@ -76,7 +76,7 @@ DENSO 的公开发电机说明把发电机定位为电器负载及电池充电�
 | Honda 混动 | 低压与能量管理/电驱/制动控制可能有关联 | IMA、i-DCD、e:HEV 是不同系统，未经车架/OEM 源确认不能宣称均有某一种 DC/DC 或继电布线 |
 | 跨车型共享 | 基础低压供电/回流及通信原理可复用 | 车型名称或挂牌“Automatic”并不能确定 ECU、线束、系统软件、故障率 |
 
-链接：[Probox 系列发现](../../../series/myanmar/toyota/probox/discovery.md)；[Fit 系列发现](../../../series/myanmar/honda/fit/discovery.md)。这两份稿件虽通过限定生成质量审核，仍非具体 Myanmar VIN 适配事实。
+链接：[Probox 系列发现](../../series/myanmar/toyota/probox/discovery.md)；[Fit 系列发现](../../series/myanmar/honda/fit/discovery.md)。这两份稿件虽通过限定生成质量审核，仍非具体 Myanmar VIN 适配事实。
 
 ## 7. UNKNOWN、可证伪反例与知识深度缺口
 
