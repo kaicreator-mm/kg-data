@@ -30,6 +30,14 @@
 
 四篇结构稿已获不同对话的限定内容质量 ACCEPT，可以各自启动 FUN；仍需各自保留 `MODEL_GENERATED_UNVERIFIED`、按真实来源进行车型适用性判断和未来有证据反例时局部回滚。
 
+## 3A. 已合法准入并真实交付的共享家族（R5）
+
+- [FAMILY 增量计划独立 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984583673) Blob `58d616663c2262efa4fc62851d8962a637294703`，[Integrator C-FAM-DISPATCH](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6987899954) 已独立入场：Plan 通用 32 + Series 10 + Family 6 = 48 Task；新 4 篇 Markdown 写集独立，不改两个原已审 PLAN。
+- **CVT**：[`STR`](./topics/transmission/cvt/structure.md) Blob `19201970db7bb121d28df02f1c862cd05765cea4`；[`FUN`](./topics/transmission/cvt/function.md) Blob `368e0e8fb644674df5262a3bad8f394a810db164`。都是实际 Writer 提交并 RELEASE，独立内容质量审 **0/2**。Honda Fit 2008 变矩器 CVT 与 Toyota 2018 Direct Shift-CVT 技术不可倒填 2014 Probox。
+- **HEV**：[`STR`](./topics/electrified/hybrid/structure.md) Blob `23baed760bcf3dbb76cecfa609d8a7200532a8a9`；[`FUN`](./topics/electrified/hybrid/function.md) Blob `2196e74550b7d4b2f4ed4c0a09ed3f83db4bfa87`。都是实际 Writer 提交并 RELEASE，独立内容质量审 **0/2**。按 Honda 2010 IMA、2013 i-DCD、2020 e:HEV 不同版本；高压/制动是不可执行边界。
+- **调度**：优先两个独立结构稿 Source-First 审核（可以并行）；其 FUN 在上游不 REWORK 时再按自己 Blob 独立增量审。如结构 REWORK，依赖 FUN 受影响范围需 STALE；不能一条链的审核代替另一条。
+- **广度防饥饿**：继续保留 `STR-THERMAL / STR-STEER-SUSP` 等旧已审 PLAN 任务以及 `FUN-AT-PATH/FUN-AT-HYD/FUN-BRK` 的并行分发窗口，不因 CVT/HEV 四篇内容阻塞；完整 OEM/N3 资格依然 0。
+
 ## 缅甸在用车型系列双轴调度（R2）
 
 - [SERIES R2 独立审核 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6959482030)、[SER-DISPATCH admitted](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6960479119)；批准的候选是 **Toyota Probox/Succeed 对照**与 **Honda Fit**，旧外部新车试点不恢复。
@@ -38,16 +46,16 @@
 - 两篇均落实源资料与当地挂牌分账：CarMM 个别 listing URL/2026-11-18；缅甸市场报道是 2022 历史交易；RTAD 行政样本不是 stock census；实际缅甸保有量、故障率、具体 VIN 配置均 UNKNOWN。
 - **本轮真实新产出**：Probox TRANS [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) · Commit `b44c8fcd857df3a315322679734779b2f61a4a26` · Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`；Fit TRANS [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) · Commit `80786eb8b1795751dc6295e77ab986a3e51d9a63` · Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`。两个 Writer 均已 RELEASE，且已分别取得 [Probox 限定内容质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976215650) 和 [Fit 限定内容质量 ACCEPT P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976201311)；并非车型 OEM、VIN 或维修标准。
 - **事件触发完成**：`SER-VARIANT-CHECK` [实际生成](./series/myanmar/series-variant-gaps.md) · Commit `b6ba674221c791c7223a54d9911060e1aca64466` · Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`；发现共用 CVT 和 HEV 家族知识候选。现上游两份 delta 均独审限定 ACCEPT，但 gap 自身仍 `GENERATED_REVIEW_PENDING`，需其他对话单独质量审查，后续有新反证仍须按影响范围 STALE。
-- **不应启动**：`SER-DELTA-PROBOX-LUBE`、`SER-DELTA-FIT-BRK` 仍缺真正源码/适用版本，`SER-REPLAN` 已产出独立 [FAMILY_DAG_R1](./SERIES_FAMILY_DAG_R1.md) Blob `58d616663c2262efa4fc62851d8962a637294703`；新 `STR-CVT-FAMILY`、`STR-HEV-FAMILY` 及各自 FUN 仍为 **计划独审待办、禁止派发**，不得当 READY。
-- **下一轮优先**：两个 TRANS delta 已获得各自限定质量 ACCEPT；下一步独审 `SER-VARIANT-CHECK@81f3733e...` 与新 `SERIES_FAMILY_DAG_R1@58d61666...`，并独审通用 `STR-LOWV@27520498...`。原有 FUN-AT、FUN-BRK、FUN-HV 与其它广度仍可并行派发。
-- **防饥饿**：STR-LOWV 已实际生成、待独审；仍保留转向/热管理的广度 Writer 和 `FUN-AT-PATH`/`FUN-AT-HYD`/`FUN-BRK` 等通用深度 Writer 并行，不能因为新 series 就暂停旧主 DAG。
+- **不应启动**：`SER-DELTA-PROBOX-LUBE`、`SER-DELTA-FIT-BRK` 仍缺真正源码/适用版本，`SER-REPLAN` 已产出独立 [FAMILY_DAG_R1](./SERIES_FAMILY_DAG_R1.md) Blob `58d616663c2262efa4fc62851d8962a637294703`；新 `STR/FUN-CVT-FAMILY`、`STR/FUN-HEV-FAMILY` 已在独立计划审核和 C-FAM-DISPATCH 后**实际生成各自 Markdown**，均 `GENERATED_REVIEW_PENDING`，未获得各自内容质量 ACCEPT，不能冒充专业事实 READY。
+- **下一轮优先**：两个 TRANS delta 已获得各自限定质量 ACCEPT；`SER-VARIANT-CHECK@81f3733e...`、`SERIES_FAMILY_DAG_R1@58d61666...` 和 `STR-LOWV@27520498...` 均已各自独立限定审核 ACCEPT，复用旧收据。现在优先并发审新四篇 CVT/HEV 家族 STR/FUN Exact Blob。原有 FUN-AT、FUN-BRK、FUN-HV 与其它广度仍可并行派发。
+- **防饥饿**：STR-LOWV 已独立限定质量 ACCEPT；仍保留转向/热管理的广度 Writer 和 `FUN-AT-PATH`/`FUN-AT-HYD`/`FUN-BRK` 等通用深度 Writer 并行，不能因为新 series 就暂停旧主 DAG。
 - **硬条件/可选对照 P2**：对 CVT/MT/DCT 的新子图不应把传统 AT STR 作强制先决；现行被独审接受的 R2 表不擅自改 Blob，下一次 C-REPLAN 必须按需要移除虚假 hard edge，并完整验证新图与增量审核。
 
 ## 4. 当前最高优先但延期的广度分支
 
 | 候选 | 为什么值得下一轮启动 | 当前为何未认领 | 触发 |
 |---|---|---|---|
-| `STR-LOWV` | 实际生成低压 ICE/BEV 结构及 CAN/LIN 网关 Markdown | Writer 已 RELEASE；限定内容质量待独审 | 交其它对话质量审核当前 Blob `27520498eefdc491c5e857600b902677730c400d`；不重复生成 |
+| `STR-LOWV` | 已生成低压 ICE/BEV 结构及 CAN/LIN 网关 Markdown | [限定质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984507844) P2×1 非阻断 | 后续 FUN-LOWV 只能经新受审 DAG 准入；不重复审核已过 Blob |
 | `STR-STEER-SUSP` | 转向/悬架与轮胎影响安全和整车行为 | 非首批四个，尚无 Claim | 任意独立 Writer 资源空闲 |
 | `STR-THERMAL` | ICE/BEV 温控与空调具有共享与差异，适合独立生成 | 尚无 Claim | 任意独立 Writer 资源空闲 |
 
