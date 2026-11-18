@@ -3,6 +3,14 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
+## 最新优先队列（R6 / 2026-11-19；以下覆盖历史 R5 快照）
+
+- **新共用家族结构已通过**：`STR-CVT-FAMILY@19201970...` 经 [独立 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988497818)；`STR-HEV-FAMILY@23baed76...` 经 [独立 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988518984)。原样 Blob 不重审。其各自的 `FUN-CVT-FAMILY@368e0e8f...`、`FUN-HEV-FAMILY@2196e745...` 已实际生成但质量待独审。
+- **传统 AT 两篇功能新交付**：`FUN-AT-PATH` [Markdown](./topics/transmission/automatic/power-path.md) Commit `3b435b77deafec8041f8342c603f111b98563a42` / Blob `6c0a2855abf2751819ebcf1b039db05d8a953f71`；`FUN-AT-HYD` [Markdown](./topics/transmission/automatic/hydraulic-control.md) Commit `9ea1604d6ed0a2dc3d781e0728efefe476961058` / Blob `88338dbea91a278866ffb7ccca7d69b0f22c349e`。均 `GENERATED_REVIEW_PENDING`；两份可异对话并行审核。
+- **总进度**：16 篇研究级知识 Markdown 真实生成，12 篇经其它对话限定质量 ACCEPT、4 篇待独审；所有专业 OEM/VIN/N3 事实资格 0，`FAIL-AT` 和 `REP-AT` 文件仍未生成。
+- **广度并行**：原已审通用 DAG 的 `STR-STEER-SUSP`、`STR-THERMAL` 等可由不同 Worker 独立认领，不必等这四个功能审核；保持至少一个广度占位。车型 L4 匹配与另外两项 delta 继续 `BLOCKED_SOURCE`。
+- **审核顺序**：先复用已审核的两条家族 STR，再对各自 FUN 提供最终内容判断；AT 的两个 FUN 审核互不依赖，完成后再考虑独立的 `FAIL-AT` 研究。
+
 ## 1. 两条队列，不为高价值深度牺牲整体覆盖
 
 - **BREADTH**：车辆系统、总成、组件和正常功能未覆盖分支；按真实缺口选择，保证持续推进，不能为了追求某个高价值故障的无限深度而长期停滞。
