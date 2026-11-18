@@ -17,7 +17,7 @@
 |---|---|---|---|---|---|---|
 | ICE 润滑 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-ENG-LUBE | [STR-ENG-LUBE R2 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6956153492)，另有非阻断 P2 ISO 草案来源时效问题 |
 | ICE 空气/燃油/排放 | OPEN | OPEN | OPEN | OPEN | STR-ENG-AIRFUEL | 待激活广度 |
-| 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-AT-PATH / FUN-AT-HYD | STR-AT 已独立内容质量限定 ACCEPT；不代表 OEM/N3 事实合格 |
+| 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | OPEN | OPEN | FUN-AT-PATH/FUN-AT-HYD 各自独审，之后才可评估 FAIL-AT | [动力路径](./topics/transmission/automatic/power-path.md) Blob `6c0a2855abf2751819ebcf1b039db05d8a953f71` 与 [液压控制](./topics/transmission/automatic/hydraulic-control.md) Blob `88338dbea91a278866ffb7ccca7d69b0f22c349e` 实际生成待独审；OEM 事实未获资格 |
 | 传动/差速器 | OPEN | OPEN | OPEN | OPEN | STR-DRIVELINE | 待激活广度 |
 | 制动 / ABS/ESC | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-BRK | [STR-BRK 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)；安全关键，发生频率 UNKNOWN |
 | 转向悬架/轮胎 | OPEN | OPEN | OPEN | OPEN | STR-STEER-SUSP | 待激活广度 |
@@ -26,8 +26,8 @@
 | 车身/被动安全 | OPEN | OPEN | OPEN | OPEN | STR-BODY-SAFETY | 待激活广度，高风险操作边界 |
 | BEV 高压/电驱/充电 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-HV | [STR-HV 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；仅非操作性结构知识 |
 | 跨系统诊断/维护通用技术 | OPEN | OPEN | OPEN | OPEN | DISC-METHOD | 先定义跨系统共享原则 |
-| 机械式 CVT 共用家族（增量 R1） | GENERATED_REVIEW_PENDING | GENERATED_REVIEW_PENDING | OPEN | OPEN | 新 [STR/FUN-CVT](./SERIES_FAMILY_DAG_R1.md) 已生成；两个独立内容审核待做 | [结构](./topics/transmission/cvt/structure.md) Blob `19201970db7bb121d28df02f1c862cd05765cea4`；[功能](./topics/transmission/cvt/function.md) Blob `368e0e8fb644674df5262a3bad8f394a810db164`；不包括 HEV Electric CVT |
-| HEV 共用家族 IMA/i-DCD/e:HEV（增量 R1） | GENERATED_REVIEW_PENDING | GENERATED_REVIEW_PENDING | OPEN | OPEN | 新 [STR/FUN-HEV](./SERIES_FAMILY_DAG_R1.md) 已生成；两个独立内容审核待做 | [结构](./topics/electrified/hybrid/structure.md) Blob `23baed760bcf3dbb76cecfa609d8a7200532a8a9`；[功能](./topics/electrified/hybrid/function.md) Blob `2196e74550b7d4b2f4ed4c0a09ed3f83db4bfa87`；不宣称实际 Myanmar Fit 混动配置 |
+| 机械式 CVT 共用家族（增量 R1） | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | OPEN | OPEN | FUN-CVT-FAMILY 独立质量审核 | [STR-CVT 限定质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988497818) Blob `19201970db7bb121d28df02f1c862cd05765cea4`；[FUN](./topics/transmission/cvt/function.md) Blob `368e0e8fb644674df5262a3bad8f394a810db164` 待独审 |
+| HEV 共用家族 IMA/i-DCD/e:HEV（增量 R1） | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | OPEN | OPEN | FUN-HEV-FAMILY 独立质量审核 | [STR-HEV 限定质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988518984) Blob `23baed760bcf3dbb76cecfa609d8a7200532a8a9`；[FUN](./topics/electrified/hybrid/function.md) Blob `2196e74550b7d4b2f4ed4c0a09ed3f83db4bfa87` 待独审 |
 | 柴油/独立 DCT/PHEV/其它电驱/重型等尚未研究切片 | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | ARCH-EXPAND | 家族增量仅覆盖明确 CVT 与 HEV，不能把未覆盖系统误标完成或不适用 |
 
 ## 缅甸车型系列适用性覆盖（与通用 S/F/X/R 正交）
@@ -39,7 +39,7 @@
 | Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777) | `SER-DELTA-PROBOX-TRANS` 已写实质差量候选 [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`，[独立质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976215650)；润滑差量仍 `BLOCKED_SOURCE` |
 | Honda Fit / Jazz（地域名称待核） | `SER-DISC-FIT` | `2c8ab39f67c076352586eed2a2f2187147fa909a` · [正文](./series/myanmar/honda/fit/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386) | `SER-DELTA-FIT-TRANS` 已生成技术差量候选 [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`，[独立质量 ACCEPT P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976201311)；制动差量仍 `BLOCKED_SOURCE` |
 
-**严格统计（2026-11-19 / 本轮 R5）**：原通用 STR 共 5 篇已提交、**5/5 获独立限定内容质量 ACCEPT**；Probox/Fit 2 篇 DISC + 2 篇 TRANS delta + 1 篇 SER-VARIANT-CHECK 均已限定内容质量 ACCEPT（车型另两个 delta 仍 SOURCE_GAP）；[新增 FAMILY DAG](./SERIES_FAMILY_DAG_R1.md) Blob `58d616663c2262efa4fc62851d8962a637294703` 已 [独立计划 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984583673)、[#61 C-FAM-DISPATCH](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6987899954) 已明确准入；实际新 CVT/HEV **结构 2/2、功能 2/2 共 4 篇已真实提交回读**，**内容独审 0/4**。因此总知识 Markdown **14 篇真实生成、10 篇限定质量独审通过、4 篇待独审**；不含计划/账本或未生成的 FAIL/REP。正式 OEM/缅甸 VIN 适配/专业事实资格 0；没有真实工单/存量故障率统计。
+**严格统计（2026-11-19 / 本轮 R6）**：通用基线 STR 5/5、缅甸 SERIES_DISC 2/2、TRANS_DELTA 2/2 和 SER-VARIANT-CHECK 1/1 均获限定独立质量 ACCEPT；CVT/HEV 新家族 STR 2/2 也各获限定独立质量 ACCEPT（[CVT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988497818)、[HEV](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988518984)）。两个家族 FUN 仍待独审；本轮新增传统 AT 两篇 FUN 已真实生成并回读，也待独审。**知识 Markdown 共 16 篇实际生成、12 篇限定内容质量通过、4 篇待独审**。另外两条车型 delta 仍 SOURCE_GAP；三个已审 PLAN 不变，OEM/VIN/N3 正式事实资格 0。
 
 ## 更新与再规划（每次真实交付后执行）
 
@@ -51,15 +51,24 @@
 6. 每轮仅更新 changed 行与收据，省略重复旧验收；记录 `task_id / exact_commit / exact_blob / reviewer_scope / claim / date / remaining_gap`。
 7. 下一轮任务仅从未认领的 `READY` 候选与已确认缺口中选择；**执行 DAG 无环，但知识图可保留循环反馈关系**。
 
-## 新共享家族结构→功能交付收据（R5，独立内容审核尚未完成）
+## 本轮传统 AT 双功能真实产出（R6）
+
+> STR-AT Blob `ed2b997ca164d98e74cf72ecb393aca86a553d20` 已限定独立质量 ACCEPT。两个 FUN 分别 Claim、原子创建、Commit/Blob 回读并 RELEASE。**后继 FAIL-AT 尚未实际生成**，必须结合两篇功能的独立内容质量审核后再合法推进。
+
+| Task | Markdown 文件 | Exact Commit / Blob | 质量状态 |
+|---|---|---|---|
+| `FUN-AT-PATH` | [动力路径](./topics/transmission/automatic/power-path.md) | `3b435b77deafec8041f8342c603f111b98563a42` / `6c0a2855abf2751819ebcf1b039db05d8a953f71` | GENERATED_REVIEW_PENDING |
+| `FUN-AT-HYD` | [液压控制](./topics/transmission/automatic/hydraulic-control.md) | `9ea1604d6ed0a2dc3d781e0728efefe476961058` / `88338dbea91a278866ffb7ccca7d69b0f22c349e` | GENERATED_REVIEW_PENDING |
+
+## 新共享家族结构→功能交付收据（R6：结构审核通过，功能待审）
 
 > [新家族增量 DAG](./SERIES_FAMILY_DAG_R1.md) 已 [独立接受](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984583673)；[C-FAM-DISPATCH 已另行准入](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6987899954)。相应两条链只依赖自身上游真实结构 Commit；独立内容审核未发生，结构如 REWORK，受影响功能必须 STALE。
 
 | Task | 原生 Markdown 文件 | 最新 Commit | Exact Blob | 真实状态 |
 |---|---|---|---|---|
-| `STR-CVT-FAMILY` | [CVT 结构](./topics/transmission/cvt/structure.md) | `00824f94e9592c72734de7a2dbd12a85f621d2f0` | `19201970db7bb121d28df02f1c862cd05765cea4` | GENERATED_REVIEW_PENDING |
+| `STR-CVT-FAMILY` | [CVT 结构](./topics/transmission/cvt/structure.md) | `00824f94e9592c72734de7a2dbd12a85f621d2f0` | `19201970db7bb121d28df02f1c862cd05765cea4` | [独立质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988497818) |
 | `FUN-CVT-FAMILY` | [CVT 功能](./topics/transmission/cvt/function.md) | `b0b36c5bd14654bb84a2fd3825f639ca5239f835` | `368e0e8fb644674df5262a3bad8f394a810db164` | GENERATED_REVIEW_PENDING，依赖 CVT STR |
-| `STR-HEV-FAMILY` | [HEV 结构](./topics/electrified/hybrid/structure.md) | `e5170739a3a32354bcf09f0bd11a7cbf3f066ac0` | `23baed760bcf3dbb76cecfa609d8a7200532a8a9` | GENERATED_REVIEW_PENDING |
+| `STR-HEV-FAMILY` | [HEV 结构](./topics/electrified/hybrid/structure.md) | `e5170739a3a32354bcf09f0bd11a7cbf3f066ac0` | `23baed760bcf3dbb76cecfa609d8a7200532a8a9` | [独立质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988518984) |
 | `FUN-HEV-FAMILY` | [HEV 功能](./topics/electrified/hybrid/function.md) | `e021cd177716ad574dd55ff9765fd5420f729026` | `2196e74550b7d4b2f4ed4c0a09ed3f83db4bfa87` | GENERATED_REVIEW_PENDING，依赖 HEV STR |
 
 ## 本轮新增通用广度收据
