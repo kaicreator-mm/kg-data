@@ -21,7 +21,7 @@
 | 传动/差速器 | OPEN | OPEN | OPEN | OPEN | STR-DRIVELINE | 待激活广度 |
 | 制动 / ABS/ESC | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-BRK | [STR-BRK 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)；安全关键，发生频率 UNKNOWN |
 | 转向悬架/轮胎 | OPEN | OPEN | OPEN | OPEN | STR-STEER-SUSP | 待激活广度 |
-| 低压电气/网络 | OPEN | OPEN | OPEN | OPEN | STR-LOWV | 待激活广度 |
+| 低压电气/网络 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | STR-LOWV 内容质量独审；后续 FUN 需新受审任务 | [低压电气结构](./topics/electrical-low-voltage/structure.md) 实际生成，ICE/BEV 与网络适用性明确，非车型 OEM 事实 |
 | 空调/热管理 | OPEN | OPEN | OPEN | OPEN | STR-THERMAL | 待激活广度 |
 | 车身/被动安全 | OPEN | OPEN | OPEN | OPEN | STR-BODY-SAFETY | 待激活广度，高风险操作边界 |
 | BEV 高压/电驱/充电 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-HV | [STR-HV 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；仅非操作性结构知识 |
@@ -34,10 +34,10 @@
 
 | 缅甸在用相关车系候选 | 发现任务 | 当前 Markdown Blob | 状态 | 实质差异候选与真正阻塞 |
 |---|---|---|---|---|
-| Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777) | `SER-DELTA-PROBOX-TRANS` 已写实质差量候选 [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`，待独审；润滑差量仍 `BLOCKED_SOURCE` |
-| Honda Fit / Jazz（地域名称待核） | `SER-DISC-FIT` | `2c8ab39f67c076352586eed2a2f2187147fa909a` · [正文](./series/myanmar/honda/fit/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386) | `SER-DELTA-FIT-TRANS` 已生成技术差量候选 [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`，待独审；制动差量仍 `BLOCKED_SOURCE` |
+| Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777) | `SER-DELTA-PROBOX-TRANS` 已写实质差量候选 [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`，[独立质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976215650)；润滑差量仍 `BLOCKED_SOURCE` |
+| Honda Fit / Jazz（地域名称待核） | `SER-DISC-FIT` | `2c8ab39f67c076352586eed2a2f2187147fa909a` · [正文](./series/myanmar/honda/fit/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386) | `SER-DELTA-FIT-TRANS` 已生成技术差量候选 [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`，[独立质量 ACCEPT P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976201311)；制动差量仍 `BLOCKED_SOURCE` |
 
-**严格统计（本轮 R3）**：已真实生成 `SER-DISC 2/2`、系列发现限定独立内容质量 `ACCEPT=2/2`；两个 `SER-DELTA-TRANS` 已实际生成，均 `GENERATED_REVIEW_PENDING`（四个计划中的 delta 为 **2/4 已生成、0/4 已独立内容审核通过**），另两个源不足保持条件性未生成；`SER-VARIANT-CHECK` 已由实际 delta 事件激活并生成 [gap Markdown](./series/myanmar/series-variant-gaps.md)，Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`、待独审；`SER-REPLAN` 尚未执行。缅甸全域各车型上路保有量/维修工单/故障发生率仍 `UNKNOWN`；挂牌/历史新闻不是保有量分母。两篇发现不是二手车数量排名或 OEM VIN 级适用资格。
+**严格统计（本轮 R4）**：通用 STR 结构 5 篇实际生成，其中 4 篇取得不同原 Writer 对话限定质量 ACCEPT，STR-LOWV R1 Blob `27520498eefdc491c5e857600b902677730c400d` 待独审；SER-DISC 2/2 实际生成且限定质量 ACCEPT；SER-DELTA 2/4 实际生成并全部各自限定独立内容质量 ACCEPT（其余两个仍 SOURCE_GAP）；`SER-VARIANT-CHECK` 已按真实交付触发并生成 [缺口稿](./series/myanmar/series-variant-gaps.md) Blob `81f3733e3df4131a23c98043112e3839fdc0b6eb`，待独审；`SER-REPLAN` 已交付 [CVT/HEV 增量 DAG 候选](./SERIES_FAMILY_DAG_R1.md) Blob `58d616663c2262efa4fc62851d8962a637294703`，计划独审待办、其新家族知识 Writer 尚未准入。缅甸真实车型保有量、工单/故障频率、具体车架配置始终 UNKNOWN，正式专业事实资格=0。
 
 ## 更新与再规划（每次真实交付后执行）
 
@@ -48,6 +48,12 @@
 5. 每次调度记录本轮 `BREADTH` 与 `DEPTH` 选择理由、被延期的最高价值真实 OPEN 分支、下次触发条件；高价值深度不能使全部结构广度永久饥饿。
 6. 每轮仅更新 changed 行与收据，省略重复旧验收；记录 `task_id / exact_commit / exact_blob / reviewer_scope / claim / date / remaining_gap`。
 7. 下一轮任务仅从未认领的 `READY` 候选与已确认缺口中选择；**执行 DAG 无环，但知识图可保留循环反馈关系**。
+
+## 本轮新增通用广度收据
+
+| Task | 实际文件 | 最新 Commit / Blob | 状态 |
+|---|---|---|---|
+| STR-LOWV | [低压电气/网络结构](./topics/electrical-low-voltage/structure.md) | Commit `0c824f0d206f53c965ace6ad95f69bfbc6e3e6d4` / Blob `27520498eefdc491c5e857600b902677730c400d` | `GENERATED_REVIEW_PENDING`：待其它对话独立内容质量审核；OEM / 专业事实资格 0 |
 
 ## 首轮并行新增交付收据
 
