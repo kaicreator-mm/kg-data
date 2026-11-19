@@ -3,6 +3,14 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
+## 最新 R8 并行优先级（2026-11-19，覆盖旧 R7 快照）
+
+1. **三个独立内容质量审核可并行**：[REP-AT](./topics/transmission/automatic/diagnostic-repair.md) Blob `2948cafc88693aa746520717068239a77d2c5d52`、[STR-THERMAL](./topics/thermal/structure.md) Blob `377ee9339949f39d916591f2ada300a59e3c72f7`、[FUN-BRK](./topics/braking/function.md) Blob `e5529c11339a5191de1ce46084923c8d38f88d7f`；三篇均真实 Commit/回读/Writer RELEASE，**不代表审核已执行**。
+2. **通过的旧审核复用**：[HEV FUN R2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995879183)、[FAIL-AT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995905451)、[STR-STEER-SUSP](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995919397) 均独立限定质量 ACCEPT；旧 R1 HEV P1 REWORK 记录保留，当前有效是 R2 新 Blob。
+3. **阶段里程碑**：传统 AT 已有 STR/FUN×2/FAIL 的独审链，REP 本轮已实际提交但仍需独审；ABS/ESC 已有 STR 独审、FUN 待审；热管理 STR 待审。当前共 **21 篇知识 Markdown 已生成、18 篇限定独立质量通过、3 篇待审**，正式 OEM/VIN/N3 事实 0。
+4. **后续广度/深度**：`FUN-HV` 等旧已审 DAG 独占写集可另派；热管理 `FUN-THERMAL`、转向悬架 `FUN-STEER-SUSP`、制动 `FAIL-BRK` 未被当前已审计划授权，需要再做增量 DAG 计划/审核，不可倒填 READY。
+5. **维修优先级**：缅甸车型无 VIN/变速箱号/电路/故障工单分母，模型只输出 UNKNOWN/条件化证据分类，不编造零件更换、油液/制动/HV 操作、故障发生率、售后真实结果。
+
 ## 最新 R7 优先队列（2026-11-19；覆盖后文旧 R6 快照）
 
 - **三项可并发异对话审核**：`FUN-HEV-FAMILY` R2 Blob `f625c181d59471bfff80724583127099430c400c` 仅独审 i-DCD §2.2 的 P1 修复及必要影响；`FAIL-AT` Blob `042c8d6bb21c53b877a6cd36238d854044759307` 新源来源/因果机制内容审；`STR-STEER-SUSP` Blob `1c84e3329bfcb40bcc2a01dac1b6af15ef5bfb40` 广度内容审。必须有各自独立 Claim，避免同 Writer 自审。
