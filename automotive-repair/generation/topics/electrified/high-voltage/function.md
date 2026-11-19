@@ -1,6 +1,6 @@
 # 纯电车高压系统的正常功能与保护逻辑：BMS、配电、预充、驱动和充电（FUN-HV）
 
-> Task ID：`FUN-HV` · MAIN：[parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) · 任务执行依据：已审 [PLAN v0.4.1](../../PLAN.md) Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf`。  
+> Task ID：`FUN-HV` · MAIN：[parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) · 任务执行依据：已审 [PLAN v0.4.1](../../../PLAN.md) Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf`。  
 > **直接知识前置**：[STR-HV](./structure.md) Blob `472127e80e95f022dc512b0c635b7a63282c94d2`，已获其它对话内容质量限定接受（[#61 记录](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)）。  
 > **范围与资格**：仅讨论通用轻型 BEV 设计的条件化正常机理；`MODEL_GENERATED_UNVERIFIED` / `GENERATED_REVIEW_PENDING`。PHEV/HEV/增程/FCEV 结构和具体缅甸市场车款并不自动适用。公开厂商技术文档不代表任何 VIN 的 OEM 电气图、完整保护逻辑、控制时序或操作许可。**严格非操作性**：不提供高压部件定位与拆卸、接触器操作或旁路、测压/测绝缘、预充实验、故障模拟、事故断电、维修测试程序或车型电气阈值。
 
