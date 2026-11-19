@@ -3,7 +3,15 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
-## 最新 R8 并行优先级（2026-11-19，覆盖旧 R7 快照）
+## 最新 R9 派发优先级（2026-11-19；下文 R8 仅保留历史）
+
+1. **R8 的三个独立质量审核已完成**：[REP-AT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518832)、[STR-THERMAL](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518885)、[FUN-BRK](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996547593) 均 ACCEPT_SCOPED_GENERATION_ONLY，P0/P1=0；不重做旧来源核对。
+2. **真实广度生成+待独审**：[STR-DRIVELINE](./topics/driveline/structure.md) Commit `f94d9c000049b070cde4c77c8febd7cacc904fa1` / Blob `9f70017bc47e3bc30110dfbc15ad5070c75981e1`；只由其它对话独审，不由原 Writer 自审。
+3. **六条旧 DAG READY Writer 并行**：`STR-ENG-AIRFUEL`、`STR-BODY-SAFETY`、`DISC-METHOD`、`FUN-ENG-LUBE`、`FUN-HV`、`FAIL-BRK`，每条不同独占文件；具体一次性触发词见 [#61 R9 dispatch](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996741634)。**只是可领取任务，不能在没有 Claim/Commit 时计为运行或完成**。特别确认 `FAIL-BRK` 已在原独审 PLAN §4，现上游 FUN-BRK 获 ACCEPT，无需再虚构新的审核门禁。
+4. **新增量计划（非 READY）**：`FUN-THERMAL`、`FUN-STEER-SUSP`、`FUN-DRIVELINE`、`FUN-LOWV` 可拟独立 C-REPLAN，审核新增边/写集后再启动；不直接改已审 v0.4.1/Series/Family 原 Blob。
+5. **真实进度**：知识 Markdown **22 GENERATED / 21 ACCEPT_SCOPED_GENERATION_ONLY / 1 GENERATED_REVIEW_PENDING**；范围不是整个汽修领域的完成率，所有缅甸 VIN/零件/OEM/N3 专业事实资格 0。Probox 润滑、Fit 制动两项依然 BLOCKED_SOURCE；无可靠频率数据时 `F=UNKNOWN`。继续保留至少一个结构广度 Worker，优先真正有增量的正文，不重复调度治理。
+
+## 历史 R8 并行优先级（2026-11-19，已被 R9 覆盖）
 
 1. **三个独立内容质量审核可并行**：[REP-AT](./topics/transmission/automatic/diagnostic-repair.md) Blob `2948cafc88693aa746520717068239a77d2c5d52`、[STR-THERMAL](./topics/thermal/structure.md) Blob `377ee9339949f39d916591f2ada300a59e3c72f7`、[FUN-BRK](./topics/braking/function.md) Blob `e5529c11339a5191de1ce46084923c8d38f88d7f`；三篇均真实 Commit/回读/Writer RELEASE，**不代表审核已执行**。
 2. **通过的旧审核复用**：[HEV FUN R2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995879183)、[FAIL-AT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995905451)、[STR-STEER-SUSP](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995919397) 均独立限定质量 ACCEPT；旧 R1 HEV P1 REWORK 记录保留，当前有效是 R2 新 Blob。
