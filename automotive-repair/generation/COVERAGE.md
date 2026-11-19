@@ -1,5 +1,18 @@
 # 汽修知识生成覆盖账本 — v0.4.1
 
+<!-- MYANMAR_FLEET_FIRST_R17_COVERAGE_OVERRIDE -->
+## R17 车型存量优先：覆盖的正确分母与 OPEN（2026-11-19）
+
+依据 [#61 最新 Owner 要求](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7010490802)和[MYANMAR_FLEET_PRIORITY_R1.md](./MYANMAR_FLEET_PRIORITY_R1.md)，下文历史 R9–R14 覆盖统计保留为**旧生成研究快照**，不得作为未来汽修知识的市场完整度。后续覆盖四视角增加一个前置维度 `Myanmar on-road series × verified generation/chassis/engine/transmission`。
+
+- **有本地市场线索但车型身份未充分解析的 OPEN**：Toyota Probox/Succeed、Honda Fit/Jazz 先复用已有 Discovery/差量；Nissan AD Van/Wingroad、Toyota Vitz/Yaris、Suzuki Swift、Toyota Wish 与 Nissan March 做本地版本发现与真实技术结构映射。
+- **其他车型（商用/柴油/混动）**：只在使用证据与厂商装配来源成立后接入；`VIN_FITMENT`、`MYANMAR_ON_ROAD_MODEL_RANK`、`LOCAL_FAILURE_FREQUENCY` 均保持 `UNKNOWN`，不能靠挂牌数字或外国新车销量虚构。
+- **技术覆盖与维修价值分账**：既有 BEV/HV 文章可以是 `GENERATION_QUALITY_ACCEPTED`，但对本地存量主流车系的`FLEET_RELEVANCE=UNPROVEN/DEFERRED`，绝不计为“高优先覆盖进展”。传统车的发动机、AT/CVT/MT、燃油、制动、底盘、电气、空调、商用车场景需基于真实在用车继续深挖。
+- **任务图**：旧 54 节点合法状态不追溯撤销；R16 八叶已有拓扑审核，但新 Owner 优先级未完成匹配，`C-R16-DISPATCH=HOLD_MARKET_MAPPING`；R17 四条车型发现仅候选，审核准入前不可生成。
+
+<!-- END_MYANMAR_FLEET_FIRST_R17_COVERAGE_OVERRIDE -->
+
+
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | CONTROL: `C-COVERAGE` | STATUS: `DRAFT_INITIALIZED__REVIEW_PENDING`。
 > **这里的 OPEN 是缺口，不代表知识已生成。** 初始仅限 [SCOPE.md](./SCOPE.md) 规定的两个通用架构研究切片，非全部 OEM 车型/全部汽修。
 
