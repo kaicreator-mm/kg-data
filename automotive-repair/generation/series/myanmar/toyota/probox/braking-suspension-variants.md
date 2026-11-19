@@ -22,14 +22,14 @@
 | OEM-PB-02 | [Toyota 75 年史·Succeed 2002 首发](https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60006139B/index.html) | 与 Probox 页面**相同文字**的后悬架设计描述；Succeed van 货舱 "1,830 mm and 450 kg"；车身 4300/1695/1525 mm、轴距 2550 mm（van grade；NCP55V 高 1530） | 同 OEM-PB-01 的全部"不能证明"项；以及两名称零件互换性 |
 | OEM-PB-03 | [Toyota 2008-08-01 部分改良公告](https://global.toyota/en/detail/1641086) | 唯一宣布的装备变化是高位制动灯扩至全车标准（原文限定该改良范围）；同页列出 2NZ-FE/1NZ-FE/1NZ-FNE、5MT/Super ECT(4速AT)、2WD(FF)/4WD、van/wagon grade 表 | 该公告**未宣布任何制动/悬架/转向机械变更**；"未宣布"只证明公告未覆盖，不证明当时不存在其它年型改动 |
 | OEM-PB-04 | [Toyota 2014-08-06 改款公告](https://global.toyota/en/detail/3737378) | 「全車大径のフロントディスクブレーキを採用し制動力を強化」；「VSC＆TRC」「ヒルスタートアシストコントロール」「緊急ブレーキシグナルを全車標準装備」；「車速感応型電動パワーステアリングを全車に採用することで、空車時から積載時まで扱いやすく」；「プラットフォームのフロント部を刷新し、サスペンションの構造を最適化」（目标「空車時から積載時まで…高い操縦安定性と乗り心地の良さを実現」）；「全車最大積載量400kg（２名乗車時）」；1NR-FE「プロボックスのみの設定」；grade/价格表含 1.3L 仅 2WD、1.5L 有 2WD/4WD | 各 grade 前后制动器盘/鼓明细、ABS 逐项配置、轮速传感器布置、盘径数值、改款前各 grade 转向/制动配置、悬架几何与刚度数值 |
-| OEM-PB-05 | [Toyota 2016 一部改良公告](https://global.toyota/en/detail/13332599) | 「Toyota Safety Sense C」全车标准（毫米波/激光雷达+单眼相机的冲突回避支援型 pre-crash，可施加制动辅助）、Drive Start Control；1.5L 2WD 标准怠速停止 | 该公告未宣布制动/悬架/转向机械变更；pre-crash 的作动逻辑/阈值/执行通道无细节 |
+| OEM-PB-05 | [Toyota 2016 一部改良公告](https://global.toyota/en/detail/13332599) | 「Toyota Safety Sense C」全车标准（激光雷达+单眼相机的冲突回避支援型 pre-crash）、Drive Start Control；1.5L 2WD 标准怠速停止 | 该公告未宣布制动/悬架/转向机械变更；pre-crash 的作动逻辑/阈值/执行通道无细节 |
 | OEM-MMR-01 | [Myanmar Digital News / GNLM 2022-09-29](https://mdn.gov.mm/en/automobile-market-sees-weaker-demand)（同[发现稿 MMR-PB-01](./discovery.md)） | "Types of cars such as PROBOX, SUCCEED, AD VAN, Toyota Mark II 200 and unmodified WISH 2003 model are popular in the market." | 只证明二手市场相关性；不构成保有量、维修频率或故障率分母 |
 
 以上均为厂商/媒体公开材料，**不是已浏览匹配缅甸具体 VIN 的 Toyota 修理书**；发布稿配置表不能生成扭矩/油压/间隙类"车型级确定事实"。
 
 ## 3. 审计 P2-02：版本化装备事实与未验证维修数值的分账
 
-**（a）2014 OEM 公开已证实的装备变化（可直接作为版本差量写）**：前盘制动加大径强化制动力（全车）；VSC＆TRC、坡道起步辅助、紧急制动信号全车标准化；车速感应 EPS 全车采用；前部平台刷新与悬架结构最优化（目标绑定空载到载重状态）。另有 2016 已证实的制动相关电子装备（TSS C pre-crash、Drive Start Control）。
+**（a）2014 OEM 公开已证实的装备变化（可直接作为版本差量写）**：前盘制动加大径强化制动力（全车）；VSC＆TRC、坡道起步辅助、紧急制动信号全车标准化；车速感应 EPS 全车采用；前部平台刷新与悬架结构最优化（目标绑定空载到载重状态）。另有 2016 公告已证实的**装备存在事实**：TSS C pre-crash（激光雷达+单眼相机）与 Drive Start Control 全车标准；但公告未载明制动执行通道，"TSS C pre-crash 可自主施加制动"属解释推断层，不是 OEM 制动装备确证。
 
 **（b）未验证、本文不使用的**：电路图与连接器引脚、轮速传感器数量与布置、液压单元/阀体结构、制动盘直径与厚度数值、制动液规格与容量、放气顺序、扭矩值、各 grade 前后盘/鼓明细。这些一律 `NO_OEM_SERVICE_DATA`，本稿一个数值都不给，包括不给"常见值"。
 
@@ -95,7 +95,7 @@ OEM-PB-04 确证「プラットフォームのフロント部を刷新し、サ�
 | 现象输入（只是知识分支条件，不是发生率） | 版本相关机理空间 | 跨版本误判反例 | 正确分支条件 |
 |---|---|---|---|
 | 制动踏板低/软、行程异常 | 同名车型跨 2014 前盘径不同；助力形式逐版本 UNKNOWN；液压路径衰减（通用 `STR-BRK`） | 用单一"主缸/助力器老化"解释所有年款，或用 2014 后硬件感受评价 2014 前车 | 先确定版本与装备族，再进入对应机理分支；缺配置证据则 `UNKNOWN` |
-| 行驶中非驾驶人意图的减速 | 2016+ TSS C pre-crash/Drive Start Control 的装备事实（OEM-PB-05）vs 制动卡滞/稳定控制介入 | 对无 TSS 装备年份套用"主动制动"解释，或把 2016+ 的正常装备行为一律当故障 | 先确认年款装备层；作动逻辑无来源，`TSS_C_BEHAVIOR_SPEC=UNKNOWN` |
+| 行驶中非驾驶人意图的减速 | 2016+ 公告证实 TSS C pre-crash/Drive Start Control 的装备存在事实（作动逻辑 UNKNOWN，OEM-PB-05），其"自主施加制动"为推断层 vs 制动卡滞/稳定控制介入 | 对无 TSS 装备年份套用"主动制动"解释，或把 2016+ 的正常装备行为一律当故障 | 先确认年款装备层；作动逻辑无来源，`TSS_C_BEHAVIOR_SPEC=UNKNOWN` |
 | 稳定控制/制动警告指示 | 2014 后 VSC＆TRC 全车标准（OEM-PB-04）；2014 前装备未知 | 断言"这车没有 VSC"或"必然有 ABS"——都超出所阅来源 | 年款装备层先分账；传感器/液压单元布置无 OEM 资料，不下部件级结论 |
 | 转向手感/噪声差异 | 2014 全车车速感应 EPS；此前形式 UNKNOWN（第 5 节） | "助力泵异响"与"EPS 电机/扭矩传感器"两族互套 | 确认转向形式后选机理族；EPS 标定/参数无来源不提供 |
 | 空载正常、载重后异常 | 2014 悬架优化官方目标即"空车時から積載時まで"；2002 后悬架载荷导向设计（OEM-PB-01/02/04） | 把载重相关行为一律归因"弹簧疲软"而不看版本设计差异与载荷历史 | 版本+实际载荷历史分账；`VEHICLE_LOAD_HISTORY=UNKNOWN` |
@@ -112,7 +112,7 @@ OEM-PB-04 确证「プラットフォームのフロント部を刷新し、サ�
 
 | 项目 | 结果 |
 |---|---|
-| `MATERIAL_DIFFERENCE_CONFIRMED_IN_OEM_FAMILY` | **是**：2014 前盘大径化+VSC＆TRC/坡起辅助/紧急制动信号全车标准化+车速感应 EPS 全车采用+前平台/悬架最优化（OEM-PB-04）；2016 TSS C 制动相关装备（OEM-PB-05）；2002 后悬架载荷导向设计与两名称载荷差（OEM-PB-01/02） |
+| `MATERIAL_DIFFERENCE_CONFIRMED_IN_OEM_FAMILY` | **是**：2014 前盘大径化+VSC＆TRC/坡起辅助/紧急制动信号全车标准化+车速感应 EPS 全车采用+前平台/悬架最优化（OEM-PB-04）；2016 TSS C 装备存在事实（公告未载明制动执行通道，自主施加制动属推断层；OEM-PB-05）；2002 后悬架载荷导向设计与两名称载荷差（OEM-PB-01/02） |
 | `APPLICABLE_TO_SPECIFIC_MYANMAR_VEHICLE` | **UNKNOWN**：无实车车架/制造期/装备验证 |
 | `REUSE_FROM_GENERIC` | [`STR-BRK`](../../../../topics/braking/structure.md)、[`STR-STEER-SUSP`](../../../../topics/steering-suspension/structure.md) 只作机理对照，不在本文复制；不为每个年款复制通用制动/悬架文章 |
 | `NO_MATERIAL_DELTA_YET` 适用域 | 后制动布局、助力形式、ABS 逐版本配置、轮胎规格、4WD 专属底盘硬件差——这些子域当前只有"问题存在"的证据，没有配置答案，不写结论 |
