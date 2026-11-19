@@ -1,5 +1,5 @@
 merge_round: 1
-merged_at_utc: '2026-11-19T23:09:05+00:00'
+merged_at_utc: '2026-11-19T23:38:31+00:00'
 writer: zcode-main-session:global-integrator (single-writer queue)
 inputs:
 - book_id: book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC
@@ -178,11 +178,43 @@ inputs:
   edges: 106
   evidence: 44
   graph_sha256: 57b4975d7e399769e603c8e169f1b74a3cfcae0d8d73356b9b3e1643ea8fc9d8
+- book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  graph_revision: 1
+  review_status: GENERATED_REVIEW_PENDING
+  book_status:
+    pages_total: 425
+    pages_processed: 12
+    pages_blocked: 413
+    assets_total: 14
+    assets_processed: 14
+    sections_total: 1
+    sections_closed: 1
+  claims: 62
+  entities: 28
+  edges: 15
+  evidence: 30
+  graph_sha256: 73136120d683c740c2efbe93a3d99ed454eb9f20b3d20d51e4b679ff1e591dee
+- book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  graph_revision: 1
+  review_status: GENERATED_REVIEW_PENDING
+  book_status:
+    pages_total: 130
+    pages_processed: 9
+    pages_blocked: 121
+    assets_total: 16
+    assets_processed: 16
+    sections_total: 1
+    sections_closed: 1
+  claims: 116
+  entities: 62
+  edges: 89
+  evidence: 21
+  graph_sha256: 9a402c5974b41c730c63cbd25c3a0d50d8a10c5b41a9a15f6a3d8346c71102ce
 master:
-  entities: 578
-  claims: 1240
-  edges: 522
-  evidence: 508
-  alignment_candidates: 26
+  entities: 668
+  claims: 1418
+  edges: 626
+  evidence: 559
+  alignment_candidates: 27
 merge_status: PROVISIONAL_NO_ENTITY_COLLAPSE
-expected_base_head: 51bdcbb309106a5294509def28f36929beb030bf
+expected_base_head: 161f9717dc107951c6e0547e4f0d1000b5b97556

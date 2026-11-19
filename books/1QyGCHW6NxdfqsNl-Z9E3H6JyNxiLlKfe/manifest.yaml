@@ -1,0 +1,32 @@
+book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+drive_file_id: 1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+title: 汽车构造透视图典 车身与底盘（陈新亚编著）
+edition: null
+isbn: null
+publication_year: null
+source_sha256: 59d759bd8a760fffc4d1af685f20747089fed88575afacd77b00b3ad2e362c91
+pdf_page_count: 130
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: cutaway-atlas-scanned
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: c08
+  label: 第八章 转向系统（齿轮齿条/循环球/液压助力/电动助力/可变齿比/后轮转向剖视；含 p87 第七章尾边界）
+  pdf_pages_range:
+  - 87
+  - 94
+  printed_pages:
+  - '82'
+  - '88'
+page_offset_printed_minus_pdfindex: 6
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING

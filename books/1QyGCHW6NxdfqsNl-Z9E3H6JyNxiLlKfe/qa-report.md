@@ -1,0 +1,375 @@
+# QA report — book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe (revision 1)
+
+- Scope: c08; whole-book status BOOK_IN_PROGRESS (partial, not complete).
+- Pages: 9/130 processed (blocked/pending 121 honestly PENDING in ledger).
+- Assets: 16/16 INTERPRETED_SCOPED.
+- Claims: 116 total = 116 book-direct + 0 model-inference; all EXTRACTED_UNCHECKED (no self-promotion).
+- Evidence records: 21; every direct claim carries matching-kind evidence registered in page ledger.
+- Open questions (unknowns carried, not fabricated): see chapter bundles / graph claims.
+- External API upload: NONE (local processing only). Rights: UNKNOWN, recorded not assumed.
+
+## Normalization notes (single-writer integrator)
+
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0001: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0001: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0002: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0002: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0003: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0003: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0004: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0004: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0005: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0005: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0006: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0006: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0007: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0007: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0008: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0008: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0009: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0009: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0010: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0010: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0011: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0011: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0012: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0012: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0013: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0013: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0014: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0014: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0015: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0015: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0016: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0016: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0017: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0017: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0018: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0018: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0019: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0019: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0020: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0020: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0021: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0021: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0022: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0022: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0023: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0023: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0024: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0024: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0025: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0025: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0026: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0026: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0027: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0027: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0028: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0028: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0029: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0029: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0030: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0030: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0031: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0031: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0032: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0032: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0033: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0033: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0034: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0034: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0035: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0035: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0036: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0036: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0037: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0037: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0038: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0038: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0039: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0039: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0040: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0040: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0041: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0041: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0042: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0042: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0043: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0043: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0044: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0044: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0045: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0045: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0046: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0046: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0047: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0047: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0048: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0048: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0049: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0049: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0050: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0050: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0051: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0051: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0052: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0052: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0053: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0053: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0054: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0054: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0055: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0055: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0056: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0056: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0057: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0057: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0058: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0058: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0059: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0059: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0060: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0060: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0061: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0061: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0062: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0062: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0063: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0063: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0064: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0064: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0065: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0065: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0066: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0066: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0067: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0067: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0068: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0068: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0069: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0069: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0070: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0070: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0071: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0071: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0072: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0072: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0073: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0073: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0074: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0074: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0075: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0075: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0076: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0076: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0077: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0077: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0078: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0078: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0079: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0079: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0080: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0080: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0081: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0081: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0082: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0082: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0083: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0083: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0084: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0084: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0085: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0085: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0086: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0086: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0087: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0087: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0088: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0088: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0089: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0089: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0090: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0090: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0091: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0091: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0092: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0092: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0093: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0093: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0094: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0094: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0095: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0095: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0096: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0096: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0097: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0097: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0098: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0098: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0099: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0099: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0100: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0100: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0101: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0101: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0102: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0102: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0103: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0103: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0104: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0104: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0105: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0105: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0106: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0106: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0107: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0107: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0108: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0108: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0109: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0109: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0110: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0110: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0111: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0111: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0112: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0112: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0113: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0113: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0114: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0114: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0115: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0115: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0116: string applicability moved to conditions (not a vehicle tuple)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0116: statement missing -> backfilled from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0006: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0021: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0027: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0038: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0083: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0084: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0100: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0101: declared kind matched none of cited evidence -> follows first evidence BOOK_BODY_DIRECT
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0116: source_kind MODEL_INFERENCE -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0001: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0001 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0002: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0002 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0003: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0003 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0004: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0004 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0005: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0005 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0006: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0012 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0007: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0013 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0008: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0014 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0009: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0015 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0010: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0016 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0011: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0017 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0012: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0018 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0013: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0019 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0014: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0020 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0015: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0022 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0016: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0023 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0017: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0024 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0018: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0025 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0019: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0028 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0020: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0029 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0021: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0030 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0022: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0031 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0023: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0032 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0024: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0033 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0025: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0034 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0026: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0035 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0027: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0036 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0028: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0039 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0029: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0040 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0030: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0041 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0031: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0042 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0032: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0043 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0033: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0044 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0034: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0045 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0035: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0046 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0036: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0047 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0037: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0048 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0038: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0049 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0039: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0050 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0040: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0051 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0041: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0052 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0042: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0053 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0043: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0057 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0044: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0058 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0045: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0059 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0046: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0060 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0047: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0061 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0048: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0062 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0049: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0063 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0050: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0064 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0051: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0065 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0052: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0066 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0053: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0067 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0054: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0068 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0055: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0069 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0056: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0070 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0057: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0071 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0058: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0072 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0059: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0073 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0060: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0074 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0061: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0075 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0062: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0076 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0063: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0077 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0064: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0078 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0065: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0079 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0066: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0080 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0067: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0081 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0068: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0082 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0069: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0083 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0070: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0084 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0071: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0086 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0072: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0088 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0073: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0089 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0074: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0090 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0075: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0091 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0076: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0092 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0077: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0093 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0078: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0094 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0079: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0095 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0080: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0096 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0081: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0097 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0082: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0098 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0083: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0099 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0084: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0108 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0085: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0109 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0086: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0110 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0087: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0111 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0088: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0112 subject/predicate adopted from edge (fallback describes); statement from value
+- edge book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0089: claim claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0113 subject/predicate adopted from edge (fallback describes); statement from value
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0006: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0007: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0008: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0009: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0010: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0011: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0021: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0026: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0027: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0037: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0038: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0054: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0055: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0056: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0085: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0087: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0100: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0101: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0102: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0103: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0104: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0105: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0106: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0107: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0114: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0115: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+- claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0116: edgeless claim -> object_id reinterpreted as subject_id, predicate='describes' (integrator convention)
+
+## Residual risks / unfinished
+- Remaining pages are PENDING (not silently skipped); completion requires full-page accounting per SKILL section 5.
+- 第八章 printed 89 (pdf95) 未在窗内
+- 其余章节 PENDING
+- 剖视图标注 0 unreadable

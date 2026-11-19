@@ -1,0 +1,957 @@
+book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+page_count: 130
+pages:
+- pdf_index: 0
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 1
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 2
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 3
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 4
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 5
+  page_status: PROCESSED_VISION
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: TOC page, structure only
+- pdf_index: 6
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 7
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 8
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 9
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 10
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 11
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 12
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 13
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 14
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 15
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 16
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 17
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 18
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 19
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 20
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 21
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 22
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 23
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 24
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 25
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 26
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 27
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 28
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 29
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 30
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 31
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 32
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 33
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 34
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 35
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 36
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 37
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 38
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 39
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 40
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 41
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 42
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 43
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 44
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 45
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 46
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 47
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 48
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 49
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 50
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 51
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 52
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 53
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 54
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 55
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 56
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 57
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 58
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 59
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 60
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 61
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 62
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 63
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 64
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 65
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 66
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 67
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 68
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 69
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 70
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 71
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 72
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 73
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 74
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 75
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 76
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 77
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 78
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 79
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 80
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 81
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 82
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 83
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 84
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 85
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 86
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 87
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F87-1
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 43
+    - 36
+    - 484
+    - 470
+    note: null
+  - asset_id: c08-F87-2
+    asset_kind: schematic_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 214
+    - 503
+    - 464
+    - 646
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e2
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e3
+  note: 'boundary page (printed 81, chapter 7 tail: 等速万向节) — registered, not extracted
+    into c08'
+- pdf_index: 88
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F88-1
+    asset_kind: schematic_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 72
+    - 77
+    - 440
+    - 400
+    note: null
+  - asset_id: c08-F88-2
+    asset_kind: schematic_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 400
+    - 336
+    - 670
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e3
+  note: scanned page visual reading
+- pdf_index: 89
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F89-1
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 23
+    - 489
+    - 371
+    note: null
+  - asset_id: c08-F89-2
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 43
+    - 376
+    - 489
+    - 700
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  note: scanned page visual reading
+- pdf_index: 90
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F90-1
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 33
+    - 489
+    - 405
+    note: null
+  - asset_id: c08-F90-2
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 415
+    - 489
+    - 680
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  note: scanned page visual reading
+- pdf_index: 91
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F91-1
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 38
+    - 489
+    - 244
+    note: null
+  - asset_id: c08-F91-2
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 474
+    - 479
+    - 680
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  note: scanned page visual reading
+- pdf_index: 92
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F92-1
+    asset_kind: exploded_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 62
+    - 503
+    - 484
+    note: null
+  - asset_id: c08-F92-2
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 509
+    - 503
+    - 675
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e2
+  note: scanned page visual reading
+- pdf_index: 93
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F93-1
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 180
+    - 43
+    - 503
+    - 268
+    note: null
+  - asset_id: c08-F93-2
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 278
+    - 503
+    - 680
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e3
+  note: scanned page visual reading
+- pdf_index: 94
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c08
+  assets:
+  - asset_id: c08-F94-1
+    asset_kind: schematic_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 23
+    - 38
+    - 489
+    - 351
+    note: null
+  - asset_id: c08-F94-2
+    asset_kind: cutaway_illustration
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 23
+    - 351
+    - 366
+    - 680
+    note: null
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e3
+  note: scanned page visual reading
+- pdf_index: 95
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 96
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 97
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 98
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 99
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 100
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 101
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 102
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 103
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 104
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 105
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 106
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 107
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 108
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 109
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 110
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 111
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 112
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 113
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 114
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 115
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 116
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 117
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 118
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 119
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 120
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 121
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 122
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 123
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 124
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 125
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 126
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 127
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 128
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 129
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'

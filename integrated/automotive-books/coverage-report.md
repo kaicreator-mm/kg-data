@@ -1,7 +1,7 @@
 # Integrated automotive-books coverage report (round 1, 2026-11-20)
 
 - Inventory snapshot: 765 PDFs (root 764 + archive 1), 765 unique fileIds — INVENTORY_COMPLETE_AT_SNAPSHOT, not KG complete.
-- BookGraphs started this round: 11; all BOOK_IN_PROGRESS (chapter-scoped), review_status=GENERATED_REVIEW_PENDING.
+- BookGraphs started this round: 13; all BOOK_IN_PROGRESS (chapter-scoped), review_status=GENERATED_REVIEW_PENDING.
 
 ## book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC
 - claims=257 entities=116 edges=60 evidence=134 graph_sha256=d3c0945817eb91a2…
@@ -47,11 +47,19 @@
 - claims=156 entities=94 edges=106 evidence=44 graph_sha256=57b4975d7e399769…
 - pages 7/329 processed; blocked/pending 322; assets 8/9; sections closed 1/1.
 
+## book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+- claims=62 entities=28 edges=15 evidence=30 graph_sha256=73136120d683c740…
+- pages 12/425 processed; blocked/pending 413; assets 14/14; sections closed 1/1.
+
+## book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+- claims=116 entities=62 edges=89 evidence=21 graph_sha256=9a402c5974b41c73…
+- pages 9/130 processed; blocked/pending 121; assets 16/16; sections closed 1/1.
+
 ## Metrics (reference 05 §6)
 
-- inventory_pdf_total=765; book_graphs_started=11; books_page_complete=0; books_scoped_accepted=0 (independent review NOT_RUN)
+- inventory_pdf_total=765; book_graphs_started=13; books_page_complete=0; books_scoped_accepted=0 (independent review NOT_RUN)
 - claims_source_located=0 (all EXTRACTED_UNCHECKED until source-check); claims_self_checked=0; claims_independently_accepted=0
-- cross_book_entities_aligned=0 verified / 26 candidates; conflicting_claim_sets=0 (scan pending); merge_queue_open=0
+- cross_book_entities_aligned=0 verified / 27 candidates; conflicting_claim_sets=0 (scan pending); merge_queue_open=0
 - model_calls logged in telemetry/cost-events.jsonl; provider token accounting unknown -> total_cost_usd=null
 
 ## Residual risks

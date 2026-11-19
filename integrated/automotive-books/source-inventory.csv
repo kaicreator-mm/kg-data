@@ -330,7 +330,7 @@ drive_file_id,file_name,size_bytes,md5,modified_time,genre_tag,kg_status,rights_
 1B5nPwS6pSgQx7YDAGZ_HKqu8BejWqOE4,汽车构造基础知识问答_刘闯，姚嘉，邬万江主编.pdf,13675979,1d11851c16a551f6fe33d407b148823b,2026-11-17T09:43:42.908Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1vyVlb8SwSupng-HSOeb6qfcYzwW7lz7Z,汽车构造的发展第6册_B·B·叶夫列莫夫 K·T·高许鑫著；耿耀西译.pdf,1978087,54ef3ff7cd7cbbe87db8ea1cfff548f0,2026-11-17T09:43:46.457Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1rhYtP66tHodkD7cRfLjDYvvtOShPPg07,汽车构造透视图典发动机与变速器_陈新亚编著.pdf,41051274,f6983ff6ccfd03de8be12717894f52d9,2026-11-17T09:44:14.373Z,structure-textbook+engine+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe,汽车构造透视图典车身与底盘_陈新亚编著.pdf,39806476,c500316c8aac6309d1c66fad4e73edb7,2026-11-17T09:44:15.552Z,structure-textbook+chassis+body-hvac,DISCOVERED_NOT_PROCESSED,UNKNOWN
+1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe,汽车构造透视图典车身与底盘_陈新亚编著.pdf,39806476,c500316c8aac6309d1c66fad4e73edb7,2026-11-17T09:44:15.552Z,structure-textbook+chassis+body-hvac,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 1-h3azZjXtq7nNuT8__FNDw4RMyktTVkk,汽车构造（上册）_第3版 张德生.pdf,102368297,a3f0012846621f290c13915bfab3808a,2026-11-17T09:45:09.993Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC,汽车构造（第2版）李春明.pdf,16431471,0f0a80eefe8d082cb92a3096045233d3,2026-11-17T09:44:29.446Z,structure-textbook,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 1VnrjFJMGVLvTDKy_C-WgS4ued6XZUphP,汽车柴油机故障排除实例_华道生，武文彪主编.pdf,142388179,4edae7896e272cb896dcf7f8278f755d,2026-11-17T09:45:40.600Z,repair-diagnosis,DISCOVERED_NOT_PROCESSED,UNKNOWN
@@ -685,7 +685,7 @@ drive_file_id,file_name,size_bytes,md5,modified_time,genre_tag,kg_status,rights_
 1Vw-Kvj6308KauzDI8nAw0W1O7tcpFRHL,汽车车载网络技术详解_第2版 刘春晖 刘宝君.pdf,80231634,958fbb54bcf278dc86a2919cc9c4e83c,2026-11-17T11:13:56.998Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1Bm7UoK9fcgMQxp_Nm6XruBLaaX2L4Jbg,汽车车载网络维修必会技能200问 郑易.pdf,41500614,e6fbef27b98928bf28c056800ab3055f,2026-11-17T11:13:39.338Z,repair-diagnosis,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1wu8S4eNGU07-a03DYwV8TGl1K-1tqNig,汽车转向、行驶与制动系统的检测与维修 杨玲玲.pdf,83279289,6d8a5f4de73180cf48258e2a7e6ce4e4,2026-11-17T11:14:18.406Z,repair-diagnosis+chassis,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd,汽车转向悬架制动系统使用与维修问答_齐志鹏，洪湘主编.pdf,14990905,f437f7b00b3d149d247e9884be3e5615,2026-11-17T11:14:10.183Z,repair-diagnosis+chassis,DISCOVERED_NOT_PROCESSED,UNKNOWN
+1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd,汽车转向悬架制动系统使用与维修问答_齐志鹏，洪湘主编.pdf,14990905,f437f7b00b3d149d247e9884be3e5615,2026-11-17T11:14:10.183Z,repair-diagnosis+chassis,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 16PdYAC1vclDQLKOSG5VmPKw_fITyZfEF,汽车轻量化——材料、设计与制造 迈利克.pdf,36161904,edde37ac9a8f678fc075a41636da5ea5,2026-11-17T11:14:35.188Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1UbFZXEbG3poxGH5rQVxOTtbq5ju3Dn_U,汽车运动性能技术 安部正人 马宁.pdf,59693007,d1e531df97d6b8d809d89be36912f6fa,2026-11-17T11:15:04.393Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 197fgux-sQ8YPhRkInFu0ojbah88W_plL,汽车运用与维修专业技能型紧缺人才培养培训教材汽车发动机构造与维修_汤定国主编(1).pdf,55392744,8007399da81f80a24c0ce8ba045d3a0c,2026-11-17T11:15:04.368Z,repair-diagnosis+structure-textbook+engine,BOOK_GRAPH_PARTIAL_R1,UNKNOWN

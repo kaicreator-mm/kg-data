@@ -1,5 +1,5 @@
 policy: equal normalized label+kind across books -> SAME_AS_CANDIDATE only; no auto same_as_verified; vehicle/transmission-variant merging forbidden without review
-candidates_total: 26
+candidates_total: 27
 candidates:
 - label_normalized: 传统点火系统
   kind: system
@@ -183,6 +183,13 @@ candidates:
   candidate_entity_ids:
   - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k20
   - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 转向柱
+  kind: component
+  candidate_entity_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k02
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
 - label_normalized: 阀体

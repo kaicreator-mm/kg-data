@@ -1,0 +1,208 @@
+# evidence.yaml — c08 转向系统（printed 82-88 实测；pdf 87 实拍为第七章内容，仅登记观察）
+# book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe  source_hash: 59d759bd
+# reader_model: glm-flash-free  qualification: EXTRACTED_UNCHECKED（未经独立审核）
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e1
+  pdf_page_index: 87
+  printed_page_label: "81"
+  section_id: c08
+  asset_id: c08-F87-1
+  locator: 整页上部大幅剖视渲染照片，图题『奥迪A8轿车球笼式万向节构造透视图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 整版剖视照片展示奥迪A8球笼式万向节拆开状态下的内外结构，图题含车型与图名，画面无引线标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e2
+  pdf_page_index: 87
+  printed_page_label: "81"
+  section_id: c08
+  asset_id: c08-F87-2
+  locator: 页面右下两张并列线描简图，图题『球笼式万向节构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 两张简图并排示意球笼式万向节在不同偏转角度下的传动状态，图中无文字标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e3
+  pdf_page_index: 87
+  printed_page_label: "81"
+  section_id: c08
+  locator: 页面左下正文小节《等速万向节》单段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明前轮驱动汽车半轴与车轮夹角不断变化，需用角速度相等的等速万向节适应跳动与摆动，前驱动半轴常用球笼式万向节。注意：本页页眉实拍为第七章传动轴和半轴，内容不属于c08转向系统，未纳入claims。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e1
+  pdf_page_index: 88
+  printed_page_label: "82"
+  section_id: c08
+  locator: 页面右下正文小节《可变齿比转向系统》两段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文介绍可变齿比转向系统齿条两边稀疏、中间细密，齿比中间小两端大，并说明高速用中间密齿段求稳定、低速用两端疏齿段求灵敏。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  pdf_page_index: 88
+  printed_page_label: "82"
+  section_id: c08
+  asset_id: c08-F88-1
+  locator: 页面上部彩色示意图带局部放大圆图，图题『齿轮齿条式转向系统构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 示意图画出转向盘、转向柱、转向齿轮与齿条及左右转向拉杆，放大圆图展示齿轮齿条啮合细节，共5处引线标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e3
+  pdf_page_index: 88
+  printed_page_label: "82"
+  section_id: c08
+  asset_id: c08-F88-2
+  locator: 页面左下轴测示意图，图题『可变转向齿比转向系统构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 轴测图在小齿轮与齿条上以箭头标注转向齿比最大位置两处、最小位置一处，显示齿条齿距中密端疏。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  pdf_page_index: 89
+  printed_page_label: "83"
+  section_id: c08
+  asset_id: c08-F89-1
+  locator: 页面上半部剖视图加放大圆图，图题『循环球式转向系统构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视图展示转向蜗杆、循环球轨道内排列的钢球、螺母、扇形齿轮与转向操纵臂，另附系统简图与放大圆图，共10处引线标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  pdf_page_index: 89
+  printed_page_label: "83"
+  section_id: c08
+  asset_id: c08-F89-2
+  locator: 页面下半部整车底盘剖视渲染照片，图题『奔驰S级轿车转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 底盘剖视照片标注转向柱、转向器、转向动力缸、转向拉杆及减振器、悬架上叉臂、悬架下连杆、副车架等，共8处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  pdf_page_index: 90
+  printed_page_label: "84"
+  section_id: c08
+  asset_id: c08-F90-1
+  locator: 页面上半部前底盘剖视渲染照片，图题『奔驰GL汽车液压助力转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注转向泵、储液罐、转向泵油散热器、回油管、转向器、转向横拉杆、转向球头等液压助力部件及空气减振器、半轴、稳定杆，共13处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  pdf_page_index: 90
+  printed_page_label: "84"
+  section_id: c08
+  asset_id: c08-F90-2
+  locator: 页面下半部分解摆放渲染照片，图题『奔驰E级轿车液压助力转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 分解摆放照片标注转向泵、储液罐、转向动力缸、转向柱万向节、转向器、回油管、护罩、转向横拉杆、转向球头，共13处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  pdf_page_index: 91
+  printed_page_label: "85"
+  section_id: c08
+  asset_id: c08-F91-1
+  locator: 页面上部转向器总成剖视渲染照片，图题『大众汽车随速电动助力转向系统』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 总成照片标注助力电动机、转向助力机构、转向器、护罩、转向横拉杆及『接转向柱』连接端，共7处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  pdf_page_index: 91
+  printed_page_label: "85"
+  section_id: c08
+  locator: 页面左中正文小节《随速电动助力转向工作原理》，含编号1-4的步骤列表
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明助力电动机按车速信号调整助力大小（低速助力大、高速助力小），并分四步描述助力经蜗杆A、蜗轮B、齿轮C传至转向丝杆D对拉杆助力的路径。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  pdf_page_index: 91
+  printed_page_label: "85"
+  section_id: c08
+  asset_id: c08-F91-2
+  locator: 页面下部转向器剖视渲染照片，图题『随速电动助力转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注电动机蜗杆A、中间蜗轮B、中间齿轮C、转向丝杆D、转向齿轮、转向齿条、转向柱万向节等助力传动链部件，共13处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  pdf_page_index: 92
+  printed_page_label: "86"
+  section_id: c08
+  asset_id: c08-F92-1
+  locator: 页面上半部爆炸分解渲染图，图题『奥迪A6汽车电动助力转向系统分解图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 分解图展示电动转向器构外壳、转向输入轴、转向力矩传感器、转向齿轮、电动机、中空轴、控制单元、转向丝杆与转向横拉杆，共9处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e2
+  pdf_page_index: 92
+  printed_page_label: "86"
+  section_id: c08
+  asset_id: c08-F92-2
+  locator: 页面下半部总成剖视渲染照片，图题『奥迪A6汽车电动助力转向系统』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 总成照片标注转向柱、十字轴万向节、转向器、电动机、控制单元、转向丝杆、护罩、转向横拉杆与球头，共11处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  pdf_page_index: 93
+  printed_page_label: "87"
+  section_id: c08
+  locator: 页面左侧正文小节《奥迪动态转向系统》三段，含编号1-3的部件列表
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明动态转向系统传动装置整合于转向柱、由电子交流电动机、叠式齿轮与互锁设备构成，并分述谐波齿轮的波发生器WG、薄壁柔轮FS、钢轮CS三个部件。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  pdf_page_index: 93
+  printed_page_label: "87"
+  section_id: c08
+  asset_id: c08-F93-1
+  locator: 页面右上部转向柱总成剖视渲染照片，图题『奥迪汽车动态转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注电动机、转向角度传感器、叠合齿轮（谐波驱动）、带U形连接的输出轴、转向柱十字轴万向节、转向输入轴、锁止环、锁止机构，共10处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e3
+  pdf_page_index: 93
+  printed_page_label: "87"
+  section_id: c08
+  asset_id: c08-F93-2
+  locator: 页面下半部动态转向器大剖视渲染照片，图题『奥迪A6汽车动态转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 大剖视照片在奥迪A6动态转向器上标注托架、电动机、转向角度传感器、叠合齿轮、锁止机构、锁止环、带U形连接的输出轴等，共9处标注。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  pdf_page_index: 94
+  printed_page_label: "88"
+  section_id: c08
+  locator: 页面右下正文小节《后轮转向系统》三段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明四轮转向一般由电动机改变后轮转向角，给出宝马7系最大3°、雷诺Laguna GT最大3.5°，以及低速反向转向增灵活、高速同向转向保平稳的作用。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  pdf_page_index: 94
+  printed_page_label: "88"
+  section_id: c08
+  asset_id: c08-F94-1
+  locator: 页面上半部整车线框布置图，图题『雷诺Laguna GT轿车后轮转向系统示意图』，图例①-⑤
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 线框布置图以序号①-⑤图例标注ESP/ABS控制单元、方向盘角度传感器、四轮转向系统控制电脑ECU、数据总线CAN与驱动后轮转向的电动机。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e3
+  pdf_page_index: 94
+  printed_page_label: "88"
+  section_id: c08
+  asset_id: c08-F94-2
+  locator: 页面左下部后悬架剖视渲染照片，图题『雷诺Laguna GT轿车后轮转向系统俯视图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注制动钳、制动液管、后转向拉杆、制动盘、转向球头、数据线，并以角度线标注3.5°后轮转角。
+  reader_model: glm-flash-free

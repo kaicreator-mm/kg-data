@@ -34,6 +34,14 @@ source_books:
   book_graph_sha256: bf08a2a36db10671af1a3252c021457817a67637b97a741229fe39e9bb795297
   revision: 1
   review_status: GENERATED_REVIEW_PENDING
+- book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  book_graph_sha256: 9a402c5974b41c730c63cbd25c3a0d50d8a10c5b41a9a15f6a3d8346c71102ce
+  revision: 1
+  review_status: GENERATED_REVIEW_PENDING
+- book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  book_graph_sha256: 73136120d683c740c2efbe93a3d99ed454eb9f20b3d20d51e4b679ff1e591dee
+  revision: 1
+  review_status: GENERATED_REVIEW_PENDING
 - book_id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E
   book_graph_sha256: 3e11c8bd4590ededfccbc7a9a648d1d67427a331b0ec3e4e0816cd99483e6b37
   revision: 1
@@ -1838,6 +1846,276 @@ entities:
 - id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
   label: 现代/起亚A4CF1/2
   kind: transmission_model
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  label: 齿轮齿条式转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k02
+  label: 转向柱
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k03
+  label: 转向齿轮
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k04
+  label: 转向齿条
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k05
+  label: 转向拉杆
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  label: 可变齿比转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  label: 循环球式转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k08
+  label: 转向蜗杆
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k09
+  label: 钢球
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k10
+  label: 循环球轨道
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k11
+  label: 螺母
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k12
+  label: 扇形齿轮
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k13
+  label: 转向操纵臂
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  label: 奔驰S级轿车转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k15
+  label: 转向器
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k16
+  label: 转向动力缸
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  label: 奔驰GL汽车液压助力转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k18
+  label: 转向泵
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k19
+  label: 储液罐
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k20
+  label: 转向泵油散热器
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k21
+  label: 回油管
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k22
+  label: 转向横拉杆
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k23
+  label: 转向球头
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k24
+  label: 护罩
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  label: 奔驰E级轿车液压助力转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k26
+  label: 转向柱万向节
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  label: 大众汽车随速电动助力转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k28
+  label: 助力电动机
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k29
+  label: 转向助力机构
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k30
+  label: 电动机蜗杆A
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k31
+  label: 中间蜗轮B
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k32
+  label: 中间齿轮C
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k33
+  label: 转向丝杆D
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  label: 奥迪A6汽车电动助力转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k35
+  label: 电动机
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k36
+  label: 控制单元
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k37
+  label: 中空轴
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k38
+  label: 转向丝杆
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k39
+  label: 电动转向器构外壳
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k40
+  label: 转向输入轴
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k41
+  label: 转向力矩传感器
+  kind: sensor
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k42
+  label: 十字轴万向节
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  label: 奥迪动态转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  label: 叠合齿轮（谐波驱动）
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k45
+  label: 波发生器（Wave Generator，WG）
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k46
+  label: 薄壁柔轮（Flex Spline，FS）
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k47
+  label: 钢轮（Circular Spline，CS）
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k48
+  label: 带U形连接的输出轴
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k49
+  label: 转向柱十字轴万向节
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k50
+  label: 锁止环
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k51
+  label: 锁止机构
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k52
+  label: 转向角度传感器
+  kind: sensor
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k53
+  label: 奥迪A6汽车动态转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k54
+  label: 托架
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k55
+  label: 后轮转向系统（四轮转向系统）
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  label: 雷诺Laguna GT轿车后轮转向系统
+  kind: system
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k57
+  label: ESP/ABS控制单元
+  kind: ecu
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k58
+  label: 方向盘角度传感器
+  kind: sensor
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k59
+  label: 四轮转向系统控制电脑ECU
+  kind: ecu
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k60
+  label: 数据总线CAN
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k61
+  label: 驱动后轮转向的电动机
+  kind: component
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k62
+  label: 后转向拉杆
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  label: Q1 如何拆卸带安全气囊的转向盘（问答主题）
+  kind: qa_topic
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  label: Q2 如何安装带安全气囊的转向盘（问答主题）
+  kind: qa_topic
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k03
+  label: Q3 安装转向盘要注意什么问题（问答主题）
+  kind: qa_topic
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04
+  label: 转向系统
+  kind: system
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k05
+  label: 无动力（机械）转向系统
+  kind: system
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k06
+  label: 与独立悬架配用的转向系统
+  kind: system
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k07
+  label: 动力转向系统
+  kind: system
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  label: 转向盘
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09
+  label: 上部转向轴
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10
+  label: 安全气囊（气囊模块）
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11
+  label: 气囊控制单元（也称转向盘垫）
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12
+  label: 气囊系统
+  kind: system
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13
+  label: 气囊系统独立后备供电电源
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14
+  label: 仪表板气囊指示灯
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  label: 时钟发条形状电气接头（时钟弹簧）
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16
+  label: 点火开关固定柱筒
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17
+  label: 气囊线束
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18
+  label: 拉器
+  kind: tool
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19
+  label: 转向盘与转向轴对正记号
+  kind: alignment_feature
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20
+  label: 红色记号（时钟簧接头中部表面对中记号）
+  kind: alignment_feature
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21
+  label: 转向柱
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22
+  label: 组合开关（转向、报警、变光及刮水器开关）
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k23
+  label: 联锁（防盗）装置
+  kind: mechanism
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k24
+  label: 联锁板
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k25
+  label: 带有联锁板的转向柱上部
+  kind: assembly
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26
+  label: 生产厂家维修手册
+  kind: document
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k27
+  label: 减震装置（转向盘内，仅用于4轮驱动）
+  kind: component
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28
+  label: 气囊模块电气接头
+  kind: component
 - id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:ent:k01
   label: 自动变速器（总成）
   kind: assembly
@@ -15262,6 +15540,4036 @@ claims:
   qualification_status: EXTRACTED_UNCHECKED
   conditions:
   - 页末断句，完整表述在后续页
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0001
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  value: 齿轮齿条式转向系统包含转向柱（构造示意图中转向盘下方与转向齿轮相连的杆件）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 齿轮齿条式转向系统包含转向柱（构造示意图中转向盘下方与转向齿轮相连的杆件）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0002
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  value: 齿轮齿条式转向系统包含转向齿轮，转向齿轮装于转向柱下端。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 齿轮齿条式转向系统包含转向齿轮，转向齿轮装于转向柱下端。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0003
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  value: 齿轮齿条式转向系统包含转向齿条，转向齿条与两侧转向拉杆连成一体。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 齿轮齿条式转向系统包含转向齿条，转向齿条与两侧转向拉杆连成一体。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0004
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  value: 齿轮齿条式转向系统包含左右两侧的转向拉杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 齿轮齿条式转向系统包含左右两侧的转向拉杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0005
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k03
+  value: 转向齿轮与转向齿条直接啮合（放大圆图内可见齿条齿与齿轮齿咬合）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 转向齿轮与转向齿条直接啮合（放大圆图内可见齿条齿与齿轮齿咬合）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k03
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0006
+  object_id: null
+  value: 齿轮齿条式转向系统的运动链为：转向盘转动经转向柱传至转向齿轮，齿轮带动齿条平移，再经两侧转向拉杆传至车轮（据构造示意图运动链推得）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 齿轮齿条式转向系统的运动链为：转向盘转动经转向柱传至转向齿轮，齿轮带动齿条平移，再经两侧转向拉杆传至车轮（据构造示意图运动链推得）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0007
+  object_id: null
+  value: 可变齿比转向系统的齿条不同于传统齿轮齿条式转向系统疏密一致的齿条，采用两边稀疏、中间细密的齿比结构。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 可
+  - 变
+  - 齿
+  - 比
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（可变齿比转向）'
+  applicability: null
+  statement: 可变齿比转向系统的齿条不同于传统齿轮齿条式转向系统疏密一致的齿条，采用两边稀疏、中间细密的齿比结构。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0008
+  object_id: null
+  value: 可变齿比转向系统的转向齿比是可变的：齿条中间位置的转向齿比较小，而两端的转向齿比较大。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 可
+  - 变
+  - 齿
+  - 比
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（可变齿比转向）'
+  applicability: null
+  statement: 可变齿比转向系统的转向齿比是可变的：齿条中间位置的转向齿比较小，而两端的转向齿比较大。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0009
+  object_id: null
+  value: 高速行驶时打方向盘角度较小，只使用齿比较密的中间齿条段，转向显得精确和稳定。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 可
+  - 变
+  - 齿
+  - 比
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（可变齿比转向）'
+  applicability: null
+  statement: 高速行驶时打方向盘角度较小，只使用齿比较密的中间齿条段，转向显得精确和稳定。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0010
+  object_id: null
+  value: 低速状态下往往要大幅度打方向盘，此时使用齿比较疏的两端齿条段，可以让转向显得更灵敏。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 可
+  - 变
+  - 齿
+  - 比
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（可变齿比转向）'
+  applicability: null
+  statement: 低速状态下往往要大幅度打方向盘，此时使用齿比较疏的两端齿条段，可以让转向显得更灵敏。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0011
+  object_id: null
+  value: 可变转向齿比转向系统构造示意图在齿条上标注了两处转向齿比最大位置和一处转向齿比最小位置。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（可变齿比转向）'
+  applicability: null
+  statement: 可变转向齿比转向系统构造示意图在齿条上标注了两处转向齿比最大位置和一处转向齿比最小位置。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0012
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  value: 可变齿比转向系统包含转向齿轮（可变转向齿比构造示意图中与齿条啮合的小齿轮）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（可变齿比转向）'
+  applicability: null
+  statement: 可变齿比转向系统包含转向齿轮（可变转向齿比构造示意图中与齿条啮合的小齿轮）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0013
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  value: 可变齿比转向系统包含带可变齿比齿段的转向齿条。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '2'
+  - ）
+  - '适用对象: 通用（可变齿比转向）'
+  applicability: null
+  statement: 可变齿比转向系统包含带可变齿比齿段的转向齿条。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0014
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  value: 循环球式转向系统包含转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统包含转向柱。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0015
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  value: 循环球式转向系统包含转向蜗杆，转向蜗杆与转向柱下端相接。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统包含转向蜗杆，转向蜗杆与转向柱下端相接。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0016
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  value: 循环球式转向系统包含钢球，钢球沿循环球轨道布置于转向蜗杆与螺母之间。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统包含钢球，钢球沿循环球轨道布置于转向蜗杆与螺母之间。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0017
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  value: 循环球式转向系统包含循环球轨道。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统包含循环球轨道。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0018
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  value: 循环球式转向系统包含螺母。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统包含螺母。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0019
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  value: 循环球式转向系统包含扇形齿轮，扇形齿轮与螺母下端的齿相啮合。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统包含扇形齿轮，扇形齿轮与螺母下端的齿相啮合。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0020
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  value: 循环球式转向系统包含转向操纵臂，转向操纵臂与扇形齿轮相连。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统包含转向操纵臂，转向操纵臂与扇形齿轮相连。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0021
+  object_id: null
+  value: 循环球式转向系统依靠钢球在转向蜗杆与螺母之间循环滚动，将转向柱的旋转运动转变为螺母移动，再经扇形齿轮与转向操纵臂输出摆转运动（据剖视图传动链推得）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 构
+  - 造
+  - 示
+  - 意
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '3'
+  - ）
+  - '适用对象: 通用（机械转向）'
+  applicability: null
+  statement: 循环球式转向系统依靠钢球在转向蜗杆与螺母之间循环滚动，将转向柱的旋转运动转变为螺母移动，再经扇形齿轮与转向操纵臂输出摆转运动（据剖视图传动链推得）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0022
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  value: 奔驰S级轿车转向系统构造图标注了转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - S
+  - 级
+  - ）
+  - '适用对象: 奔驰S级'
+  applicability: null
+  statement: 奔驰S级轿车转向系统构造图标注了转向柱。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0023
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  value: 奔驰S级轿车转向系统构造图标注了转向器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - S
+  - 级
+  - ）
+  - '适用对象: 奔驰S级'
+  applicability: null
+  statement: 奔驰S级轿车转向系统构造图标注了转向器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0024
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  value: 奔驰S级轿车转向系统构造图标注了转向动力缸。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - S
+  - 级
+  - ）
+  - '适用对象: 奔驰S级'
+  applicability: null
+  statement: 奔驰S级轿车转向系统构造图标注了转向动力缸。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0025
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  value: 奔驰S级轿车转向系统构造图标注了转向拉杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - S
+  - 级
+  - ）
+  - '适用对象: 奔驰S级'
+  applicability: null
+  statement: 奔驰S级轿车转向系统构造图标注了转向拉杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0026
+  object_id: null
+  value: 奔驰S级轿车转向系统构造图中同时标注了减振器、悬架上叉臂、悬架下连杆和副车架等底盘部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - S
+  - 级
+  - ）
+  - '适用对象: 奔驰S级'
+  applicability: null
+  statement: 奔驰S级轿车转向系统构造图中同时标注了减振器、悬架上叉臂、悬架下连杆和副车架等底盘部件。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0027
+  object_id: null
+  value: 奔驰S级轿车转向系统设有转向动力缸，据此其转向助力为液压式。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - S
+  - 级
+  - ）
+  - '适用对象: 奔驰S级'
+  applicability: null
+  statement: 奔驰S级轿车转向系统设有转向动力缸，据此其转向助力为液压式。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0028
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了转向泵。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了转向泵。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0029
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了储液罐。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了储液罐。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0030
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了转向泵油散热器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了转向泵油散热器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0031
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了回油管。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了回油管。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0032
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了转向器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了转向器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0033
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了左右两侧的转向横拉杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了左右两侧的转向横拉杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0034
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了转向球头。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了转向球头。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0035
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了转向柱。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0036
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  value: 奔驰GL汽车液压助力转向系统构造图标注了护罩。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图标注了护罩。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0037
+  object_id: null
+  value: 奔驰GL汽车液压助力转向系统构造图中同时标注了空气减振器、半轴、稳定杆等非转向系统部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL汽车液压助力转向系统构造图中同时标注了空气减振器、半轴、稳定杆等非转向系统部件。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0038
+  object_id: null
+  value: 奔驰GL液压助力转向系统由转向泵建立油压经管路送至转向器助力，回油管将油液送回储液罐，转向泵油散热器用于冷却液压油（据图示液压回路布置推得）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - G
+  - L
+  - ）
+  - '适用对象: 奔驰GL'
+  applicability: null
+  statement: 奔驰GL液压助力转向系统由转向泵建立油压经管路送至转向器助力，回油管将油液送回储液罐，转向泵油散热器用于冷却液压油（据图示液压回路布置推得）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0039
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了转向泵。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了转向泵。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0040
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了储液罐。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了储液罐。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0041
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了转向动力缸。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了转向动力缸。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0042
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了转向器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了转向器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0043
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了转向柱。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0044
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了转向柱万向节。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了转向柱万向节。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0045
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了左右两侧的转向横拉杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了左右两侧的转向横拉杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0046
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了转向球头。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了转向球头。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0047
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了护罩。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了护罩。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0048
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  value: 奔驰E级轿车液压助力转向系统构造图标注了回油管。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奔
+  - 驰
+  - E
+  - 级
+  - ）
+  - '适用对象: 奔驰E级'
+  applicability: null
+  statement: 奔驰E级轿车液压助力转向系统构造图标注了回油管。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0049
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 大众汽车随速电动助力转向系统包含助力电动机。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 大众汽车随速电动助力转向系统包含助力电动机。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0050
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 大众汽车随速电动助力转向系统包含转向助力机构。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 大众汽车随速电动助力转向系统包含转向助力机构。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0051
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 大众汽车随速电动助力转向系统包含转向器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 大众汽车随速电动助力转向系统包含转向器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0052
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 大众汽车随速电动助力转向系统包含护罩。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 大众汽车随速电动助力转向系统包含护罩。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0053
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 大众汽车随速电动助力转向系统包含转向横拉杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 大众汽车随速电动助力转向系统包含转向横拉杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0054
+  object_id: null
+  value: 转向助力电动机收集汽车速度的信号，并根据汽车速度调整转向助力的大小。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 随
+  - 速
+  - 电
+  - 动
+  - 助
+  - 力
+  - 转
+  - 向
+  - 工
+  - 作
+  - 原
+  - 理
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '5'
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 转向助力电动机收集汽车速度的信号，并根据汽车速度调整转向助力的大小。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k28
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0055
+  object_id: null
+  value: 车速较低时随速电动助力所施加的转向助力较大；车速较高时所施加的转向助力较小。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 随
+  - 速
+  - 电
+  - 动
+  - 助
+  - 力
+  - 转
+  - 向
+  - 工
+  - 作
+  - 原
+  - 理
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '5'
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 车速较低时随速电动助力所施加的转向助力较大；车速较高时所施加的转向助力较小。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0056
+  object_id: null
+  value: 随速电动助力施加助力的第一步：收集信号，决定施加助力的大小。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 随
+  - 速
+  - 电
+  - 动
+  - 助
+  - 力
+  - 转
+  - 向
+  - 工
+  - 作
+  - 原
+  - 理
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '5'
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力施加助力的第一步：收集信号，决定施加助力的大小。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0057
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k28
+  value: 随速电动助力施加助力的第二步：助力电动机根据控制指令旋转电动机蜗杆A。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 随
+  - 速
+  - 电
+  - 动
+  - 助
+  - 力
+  - 转
+  - 向
+  - 工
+  - 作
+  - 原
+  - 理
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '5'
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力施加助力的第二步：助力电动机根据控制指令旋转电动机蜗杆A。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k28
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0058
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k30
+  value: 随速电动助力施加助力的第三步：蜗杆A带动中间蜗轮B旋转。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 随
+  - 速
+  - 电
+  - 动
+  - 助
+  - 力
+  - 转
+  - 向
+  - 工
+  - 作
+  - 原
+  - 理
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '5'
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力施加助力的第三步：蜗杆A带动中间蜗轮B旋转。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k30
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0059
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k31
+  value: 中间蜗轮B与中间齿轮C同轴，蜗轮B旋转时带动同轴的中间齿轮C转动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 随
+  - 速
+  - 电
+  - 动
+  - 助
+  - 力
+  - 转
+  - 向
+  - 工
+  - 作
+  - 原
+  - 理
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '5'
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 中间蜗轮B与中间齿轮C同轴，蜗轮B旋转时带动同轴的中间齿轮C转动。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k31
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0060
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k32
+  value: 随速电动助力施加助力的第四步：中间齿轮C与转向丝杆D上的齿条啮合，从而对转向拉杆施加一定的助力。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 随
+  - 速
+  - 电
+  - 动
+  - 助
+  - 力
+  - 转
+  - 向
+  - 工
+  - 作
+  - 原
+  - 理
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '5'
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力施加助力的第四步：中间齿轮C与转向丝杆D上的齿条啮合，从而对转向拉杆施加一定的助力。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k32
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0061
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了电动机蜗杆A。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了电动机蜗杆A。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0062
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了中间蜗轮B。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了中间蜗轮B。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0063
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了中间齿轮C。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了中间齿轮C。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0064
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了转向丝杆D。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了转向丝杆D。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0065
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了转向齿轮。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了转向齿轮。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0066
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了转向齿条。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了转向齿条。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0067
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了转向柱万向节。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了转向柱万向节。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0068
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了转向柱。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0069
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  value: 随速电动助力转向系统构造图标注了转向球头。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 大
+  - 众
+  - ）
+  - '适用对象: 大众'
+  applicability: null
+  statement: 随速电动助力转向系统构造图标注了转向球头。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0070
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了电动转向器构外壳。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了电动转向器构外壳。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0071
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了转向输入轴。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了转向输入轴。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0072
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了转向力矩传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了转向力矩传感器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0073
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了转向齿轮。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了转向齿轮。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0074
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了电动机。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了电动机。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0075
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了中空轴。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了中空轴。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0076
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了控制单元。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了控制单元。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0077
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了转向丝杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了转向丝杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0078
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统分解图标注了转向横拉杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统分解图标注了转向横拉杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0079
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统整体构造图标注了转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统整体构造图标注了转向柱。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0080
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统整体构造图标注了十字轴万向节。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统整体构造图标注了十字轴万向节。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0081
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统整体构造图标注了护罩。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统整体构造图标注了护罩。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0082
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  value: 奥迪A6汽车电动助力转向系统整体构造图标注了转向球头（图中标注文字为『球头』）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车电动助力转向系统整体构造图标注了转向球头（图中标注文字为『球头』）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0083
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k35
+  value: 奥迪A6电动助力转向系统的电动机与中空轴同轴布置、套于转向丝杆上直接驱动转向丝杆（由分解图中电动机—中空轴—转向丝杆的装配关系推得）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6电动助力转向系统的电动机与中空轴同轴布置、套于转向丝杆上直接驱动转向丝杆（由分解图中电动机—中空轴—转向丝杆的装配关系推得）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k35
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0084
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k41
+  value: 奥迪A6电动助力转向系统的转向力矩传感器布置于转向输入轴处（分解图中传感器安装在转向输入轴上）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6电动助力转向系统的转向力矩传感器布置于转向输入轴处（分解图中传感器安装在转向输入轴上）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k41
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0085
+  object_id: null
+  value: 奥迪动态转向系统的传动装置整合于转向柱中，由一个配有位置感应器的电子交流电动机、叠式齿轮和一个互锁设备构成。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 奥
+  - 迪
+  - 动
+  - 态
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '7'
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪动态转向系统的传动装置整合于转向柱中，由一个配有位置感应器的电子交流电动机、叠式齿轮和一个互锁设备构成。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0086
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪动态转向系统的核心机构之一是采用谐波齿轮机构实现角度叠合传动作用；该谐波齿轮在构造图中标注为叠合齿轮（谐波驱动）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 奥
+  - 迪
+  - 动
+  - 态
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '7'
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪动态转向系统的核心机构之一是采用谐波齿轮机构实现角度叠合传动作用；该谐波齿轮在构造图中标注为叠合齿轮（谐波驱动）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0087
+  object_id: null
+  value: 谐波齿轮（叠合齿轮）主要由三个部件组成。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 奥
+  - 迪
+  - 动
+  - 态
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '7'
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 谐波齿轮（叠合齿轮）主要由三个部件组成。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0088
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  value: 谐波齿轮最里面的部件是波发生器（Wave Generator，简称WG），即最里面带轴承的那个内转子，它是椭圆形的。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 奥
+  - 迪
+  - 动
+  - 态
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '7'
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 谐波齿轮最里面的部件是波发生器（Wave Generator，简称WG），即最里面带轴承的那个内转子，它是椭圆形的。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0089
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  value: 谐波齿轮的第二个部件是薄壁柔轮（Flex Spline，简称FS），为椭圆形内转子上可以产生变形的薄壁柔轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 奥
+  - 迪
+  - 动
+  - 态
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '7'
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 谐波齿轮的第二个部件是薄壁柔轮（Flex Spline，简称FS），为椭圆形内转子上可以产生变形的薄壁柔轮。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0090
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  value: 谐波齿轮的第三个部件是最外侧的钢轮（Circular Spline，简称CS），它连接于转向轴的输出端，驱动转向机构。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 奥
+  - 迪
+  - 动
+  - 态
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '7'
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 谐波齿轮的第三个部件是最外侧的钢轮（Circular Spline，简称CS），它连接于转向轴的输出端，驱动转向机构。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0091
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了电动机。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了电动机。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0092
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了转向角度传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了转向角度传感器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0093
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了带U形连接的输出轴。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了带U形连接的输出轴。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0094
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了转向柱十字轴万向节。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了转向柱十字轴万向节。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0095
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了转向柱。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0096
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了转向输入轴。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了转向输入轴。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0097
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了锁止环。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了锁止环。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0098
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  value: 奥迪汽车动态转向系统构造图标注了锁止机构。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 奥迪汽车动态转向系统构造图标注了锁止机构。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0099
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k53
+  value: 奥迪A6汽车动态转向系统构造图标注了托架。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车动态转向系统构造图标注了托架。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k53
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0100
+  object_id: null
+  value: 奥迪A6汽车动态转向系统构造图所标注的功能部件（电动机、转向角度传感器、叠合齿轮（谐波驱动）、转向输入轴、锁止机构、锁止环、带U形连接的输出轴、转向柱十字轴万向节）与奥迪动态转向系统构造图一致，为同一套动态转向机构在奥迪A6上的应用。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 奥
+  - 迪
+  - A
+  - '6'
+  - ）
+  - '适用对象: 奥迪A6'
+  applicability: null
+  statement: 奥迪A6汽车动态转向系统构造图所标注的功能部件（电动机、转向角度传感器、叠合齿轮（谐波驱动）、转向输入轴、锁止机构、锁止环、带U形连接的输出轴、转向柱十字轴万向节）与奥迪动态转向系统构造图一致，为同一套动态转向机构在奥迪A6上的应用。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k53
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0101
+  object_id: null
+  value: 动态转向系统构造图中的锁止机构与锁止环对应正文所述的『互锁设备』，用于锁止转向柱中的传动装置。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 与
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '7'
+  - ）
+  - '适用对象: 奥迪'
+  applicability: null
+  statement: 动态转向系统构造图中的锁止机构与锁止环对应正文所述的『互锁设备』，用于锁止转向柱中的传动装置。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k51
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0102
+  object_id: null
+  value: 现在轿车上装备的四轮转向系统一般通过一个电动机来改变后轮的转向角。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 后
+  - 轮
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '8'
+  - ）
+  - '适用对象: 通用（四轮转向轿车）'
+  applicability: null
+  statement: 现在轿车上装备的四轮转向系统一般通过一个电动机来改变后轮的转向角。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k55
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0103
+  object_id: null
+  value: 宝马7系后轮转向角最大达3°。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 后
+  - 轮
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '8'
+  - ）
+  - '适用对象: 宝马7系'
+  applicability: null
+  statement: 宝马7系后轮转向角最大达3°。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k55
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0104
+  object_id: null
+  value: 雷诺Laguna GT后轮转向角最大可改变3.5°。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 后
+  - 轮
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '8'
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT后轮转向角最大可改变3.5°。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k55
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0105
+  object_id: null
+  value: 低速时后轮与前轮转向相反，以增进汽车的灵敏性、减小转弯直径。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 后
+  - 轮
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '8'
+  - ）
+  - '适用对象: 通用（四轮转向轿车）'
+  applicability: null
+  statement: 低速时后轮与前轮转向相反，以增进汽车的灵敏性、减小转弯直径。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k55
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0106
+  object_id: null
+  value: 低速反向转向不仅明显改善了灵活性，并且由于减小了转向力，还可进一步提高驾乘舒适性。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 后
+  - 轮
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '8'
+  - ）
+  - '适用对象: 通用（四轮转向轿车）'
+  applicability: null
+  statement: 低速反向转向不仅明显改善了灵活性，并且由于减小了转向力，还可进一步提高驾乘舒适性。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k55
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0107
+  object_id: null
+  value: 车速较高时后轮与前轮转向方向相同，从而使汽车的转向更加平稳、顺畅。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 正
+  - 文
+  - 小
+  - 节
+  - 《
+  - 后
+  - 轮
+  - 转
+  - 向
+  - 系
+  - 统
+  - 》
+  - （
+  - p
+  - r
+  - i
+  - n
+  - t
+  - e
+  - d
+  - ' '
+  - '8'
+  - '8'
+  - ）
+  - '适用对象: 通用（四轮转向轿车）'
+  applicability: null
+  statement: 车速较高时后轮与前轮转向方向相同，从而使汽车的转向更加平稳、顺畅。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k55
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0108
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  value: 雷诺Laguna GT轿车后轮转向系统示意图以序号①标注ESP/ABS控制单元。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统示意图以序号①标注ESP/ABS控制单元。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0109
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  value: 雷诺Laguna GT轿车后轮转向系统示意图以序号②标注方向盘角度传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统示意图以序号②标注方向盘角度传感器。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0110
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  value: 雷诺Laguna GT轿车后轮转向系统示意图以序号③标注四轮转向系统控制电脑ECU。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统示意图以序号③标注四轮转向系统控制电脑ECU。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0111
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  value: 雷诺Laguna GT轿车后轮转向系统示意图以序号④标注数据总线CAN。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统示意图以序号④标注数据总线CAN。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0112
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  value: 雷诺Laguna GT轿车后轮转向系统示意图以序号⑤标注驱动后轮转向的电动机。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统示意图以序号⑤标注驱动后轮转向的电动机。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0113
+  object_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  value: 雷诺Laguna GT轿车后轮转向系统俯视图标注了后转向拉杆。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统俯视图标注了后转向拉杆。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0114
+  object_id: null
+  value: 雷诺Laguna GT轿车后轮转向系统俯视图以角度线标注了3.5°的后轮转角范围。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统俯视图以角度线标注了3.5°的后轮转角范围。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0115
+  object_id: null
+  value: 雷诺Laguna GT轿车后轮转向系统俯视图中同时标注了制动钳、制动液管、制动盘、转向球头和数据线等部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 雷诺Laguna GT轿车后轮转向系统俯视图中同时标注了制动钳、制动液管、制动盘、转向球头和数据线等部件。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  predicate: describes
+- id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0116
+  object_id: null
+  value: 四轮转向系统控制电脑ECU通过数据总线CAN获取方向盘角度传感器与ESP/ABS控制单元的信号，并控制驱动后轮转向的电动机实现后轮转向（据示意图部件布置与连线推得）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 车
+  - 型
+  - 剖
+  - 视
+  - 图
+  - （
+  - 雷
+  - 诺
+  - L
+  - a
+  - g
+  - u
+  - n
+  - a
+  - ' '
+  - G
+  - T
+  - ）
+  - '适用对象: 雷诺Laguna GT'
+  applicability: null
+  statement: 四轮转向系统控制电脑ECU通过数据总线CAN获取方向盘角度传感器与ESP/ABS控制单元的信号，并控制驱动后轮转向的电动机实现后轮转向（据示意图部件布置与连线推得）。
+  subject_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k59
+  predicate: describes
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0001
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04
+  predicate: has_function
+  object_id: null
+  value: 使汽车改变行驶方向
+  statement: 第1章导语指出转向系统的功能是使汽车改变行驶方向，并引导参见图1-1、图1-2和图1-3。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0002
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04
+  predicate: relates_to
+  object_id: null
+  value: 行驶安全、延长轮胎寿命、降低燃油油耗
+  statement: 书中指出转向系统关系到汽车行驶的安全、延长轮胎寿命和降低燃油油耗。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0003
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k05
+  predicate: has_component
+  object_id: null
+  value: 图1-1图例13项：转向盘、转向轴（柱）、转向万向节、转向传动轴、转向器、转向摇臂、转向直拉杆、转向节臂、左转向节、梯形臂（10、12）、转向横拉杆、右转向节
+  statement: 图1-1无动力转向系统示意图的图例按13个编号列出机械转向系统组成部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 部件清单来自图1-1图例编号，仅表示图中示出的组成
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0004
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k06
+  predicate: has_component
+  object_id: null
+  value: 图1-2图例7项：转向盘、转向轴、转向臂、车轮、动力杆、右横拉杆、转向减震器
+  statement: 图1-2与独立悬架配用的转向系统轴测图的图例按7个编号列出组成部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 部件清单来自图1-2图例编号
+  unknowns:
+  - 图例第5项印刷字形略糊，读作"动力杆"（指向转向器区域）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0005
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k07
+  predicate: has_component
+  object_id: null
+  value: 图1-3图例12项：转向盘、转向轴、转向器、转向摇臂、转向主拉杆、转向节、梯形臂、转向横拉杆、转向油罐、转向油泵、转向控制阀、转向动力缸
+  statement: 图1-3动力转向系统示意图的图例按12个编号列出组成部件，其中转向油罐、转向油泵、转向控制阀、转向动力缸为液压助力部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 部件清单来自图1-3图例编号
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0006
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  predicate: commonly_equipped_with
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10
+  value: null
+  statement: Q1导语称转向盘（见图1-4和图1-5）内装安全气囊的做法已非常普遍。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0007
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: safety_rationale
+  object_id: null
+  value: 不掌握气囊装置拆卸方法时，轻者造成器件损坏，重者引起伤人事故
+  statement: 书中说明检修转向盘和转向柱前必须了解其安全气囊装置的拆卸方法，否则轻者造成器件损坏、重者引起伤人事故。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - SRS相关安全警示，为书中原述
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0008
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  predicate: located_in
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  value: null
+  statement: 图1-4（时钟发条形状电气接头安装在转向盘下）表明时钟发条形状电气接头位于转向盘下，图中同时标出气囊模块、减震装置（仅用于4轮驱动）、转向盘和转向柱。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 位置关系来自图1-4标题及图例编号
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0009
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k27
+  predicate: scope_limitation
+  object_id: null
+  value: 仅用于4轮驱动车型
+  statement: 图1-4图例第2项标注转向盘内的减震装置仅用于4轮驱动车型。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 适用范围标注来自图1-4图例括注
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0010
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  predicate: maintains_power
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10
+  value: null
+  statement: 图1-5标题表明时钟发条形状电气接头的作用是保持安装气囊的供电。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0011
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: requires_safety_constraint
+  object_id: null
+  value: 拆卸有气囊的转向盘之前，应先拆下蓄电池负极电缆，等1min后才能进行诊断和维修工作
+  statement: 书中安全前提：拆卸有气囊的转向盘前应先拆下蓄电池负极电缆并等1min，之后才能进行诊断和维修工作。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - SRS安全前提为书中原述
+  - 等待时间1min为书中原值
+  applicability:
+    vehicle_scope: 书中以"许多气囊系统"表述，非单一车型
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0012
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12
+  predicate: has_backup_power
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13
+  value: null
+  statement: 书中解释许多气囊系统另有独立的后备供电电源，确保碰撞中汽车电源（蓄电池等）断开后，后备电源仍会提供能量使气囊打开。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中以"许多气囊系统"限定，非全部车型
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0013
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13
+  predicate: backup_power_discharge_timing
+  object_id: null
+  value: 蓄电池负极断开1min后，后备电源才断电；之后保持蓄电池断开状态即没有能源可使气囊打开
+  statement: 书中给出放电时序：蓄电池负极断开1min后后备电源才断电，此后只要保持蓄电池断开就没有能源可使气囊打开。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 1min为书中原值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0014
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14
+  predicate: has_function
+  object_id: null
+  value: 显示气囊系统所处的状态
+  statement: 书中说明仪表板上的气囊指示灯用于显示气囊系统所处的状态。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0015
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14
+  predicate: behavior_pattern
+  object_id: null
+  value: 一些车辆：点火开关打开后亮几秒钟；起动发动机时指示灯不亮；发动机起动后会闪7~9次
+  statement: 书中描述一些车辆气囊指示灯的亮灭模式：点火开关打开后亮几秒钟，起动发动机时不亮，发动机起动后闪7~9次。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中以"在一些车辆中"限定
+  - 点亮时长"几秒钟"与闪烁次数"7~9次"为书中原值
+  applicability:
+    vehicle_scope: 指示灯工作状况随车辆型号和生产年代不同而不同（书中明示）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0016
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14
+  predicate: follow_oem_manual
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26
+  value: null
+  statement: 书中要求气囊指示灯工作状况随车辆型号和生产年代不同而不同，需要仔细查看生产厂家维修手册中关于气囊指示灯工作的部分。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0017
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14
+  predicate: may_indicate
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12
+  value: null
+  statement: 书中指出当气囊指示灯不按生产厂家规定状况工作时，气囊系统可能有故障，会造成汽车发生碰撞时气囊可能不打开（原书保留"可能"措辞）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中为"可能有故障/可能不打开"的或然表述，未升格为确定因果
+  counterexamples:
+  - 书中未给出具体故障件，指示灯异常不直接定位单一故障
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0018
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: follow_oem_manual
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26
+  value: null
+  statement: 书中说明转向盘以及气囊的拆卸步骤随车型的不同而不同，应按生产厂在维修手册中提供的步骤进行。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+  applicability:
+    vehicle_scope: 步骤随车型不同（书中明示）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0019
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤①：将点火开关转至锁止位置并使前轮笔直向前
+  statement: 书中(1)典型气囊模块和转向盘拆卸的步骤①为将点火开关转至锁止位置并使前轮笔直向前。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0020
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤②：拆下蓄电池负极电缆，等待1min
+  statement: 书中(1)典型气囊模块和转向盘拆卸的步骤②为拆下蓄电池负极电缆并等待1min。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+  - 等待时间1min为书中原值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0021
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤③：松开转向盘下安装气囊的3个自攻螺钉（见图1-6箭头所指处）
+  statement: 书中(1)典型气囊模块和转向盘拆卸的步骤③为松开转向盘下安装气囊的3个自攻螺钉，位置见图1-6箭头所指处。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+  - 自攻螺钉数量3为书中原值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0022
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10
+  predicate: fastened_by
+  object_id: null
+  value: 3个自攻螺钉（位于转向盘下，位置示意见图1-6）
+  statement: 由步骤③与图1-6可知气囊经3个自攻螺钉安装在转向盘下，图1-6用放大圈和箭头指示螺钉位置及旋出方向。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e6
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 数量3来自正文步骤③与图1-6图注"安装气囊的3个螺钉"
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0023
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤④：从转向盘上拉出气囊控制单元（气囊控制单元也称为转向盘垫），再拆下模块的电气接头（见图1-7）
+  statement: 书中步骤④为从转向盘上拉出气囊控制单元（也称转向盘垫），再拆下模块的电气接头。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0024
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: prohibited_action
+  object_id: null
+  value: 拆卸过程中不能拽转向柱中的电线
+  statement: 书中在拆卸步骤④处明确不能拽转向柱中的电线。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - SRS操作禁忌，为书中原述
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0025
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11
+  predicate: handling_requirement
+  object_id: null
+  value: 拆下后将模块面朝上放在工作台上
+  statement: 书中要求拆下的气囊模块面朝上放在工作台上。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - SRS部件放置安全要求，为书中原述
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0026
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤⑤：拆下转向盘内的气囊线束固定卡（见图1-8）
+  statement: 书中步骤⑤为拆下转向盘内的气囊线束固定卡。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0027
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤⑥：用套筒扳手和棘轮杆拆下转向盘固定螺母
+  statement: 书中步骤⑥为用套筒扳手和棘轮杆拆下转向盘固定螺母。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0028
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11
+  predicate: connected_via
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28
+  value: null
+  statement: 图1-7示拆下气囊模块电气接头的作业，放大圈内用箭头指示接头脱开方向，表明气囊控制单元经电气接头连接。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0029
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17
+  predicate: located_in
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  value: null
+  statement: 图1-8示拆下气囊线束固定卡，图中标注1为电气接头、2为气囊线束，二者位于转向盘内。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e5
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0030
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤⑦：注意转向盘和转向轴上相配合的对正记号；如无对正记号，用冲心錾和手锤在转向盘和转向轴上做出记号
+  statement: 书中步骤⑦要求注意转向盘和转向轴上的配合对正记号，没有记号时用冲心錾和手锤做记号。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0031
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤⑧：用拉器将转向盘卸下（见图1-9）
+  statement: 书中步骤⑧为用拉器将转向盘卸下。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0032
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  predicate: inspection_rule
+  object_id: null
+  value: 转向盘卸下后检查其状况；如转向盘弯曲或断裂，须更换
+  statement: 书中要求转向盘卸下后检查其状况，若弯曲或断裂须更换。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 判废准则为书中原述，未给出量化限值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0033
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: removal_step
+  object_id: null
+  value: 典型气囊模块和转向盘拆卸步骤⑨：拆下固定时钟发条形状电气接头的紧固螺钉，取下接头（见图1-10）
+  statement: 书中步骤⑨为拆下固定时钟发条形状电气接头的紧固螺钉并取下接头。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0034
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  predicate: fastened_by
+  object_id: null
+  value: 紧固螺钉（图1-10分解图示出）
+  statement: 图1-10拆卸时钟发条形状接头的分解图示出接头由紧固螺钉固定，图中同时示出变光和转向信号灯开关、开关壳体、刮水器和洗涤器开关、电线盖、球固定板、球、弹簧、灯光控制开关等周边部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 图1-10图例9项，部件清单仅表示图中示出
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0035
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: requires_safety_constraint
+  object_id: null
+  value: 在诊断和修理任何与气囊系统相关的零件前，应先拆下蓄电池的负极，一定要等1min后再工作，否则气囊会意外地打开
+  statement: 拆卸注意事项①重申：诊断和修理任何与气囊系统相关零件前应先拆下蓄电池负极，一定要等1min后再工作，否则气囊会意外地打开。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - SRS安全前提为书中原述
+  - 等待时间1min为书中原值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0036
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: follow_oem_manual
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26
+  value: null
+  statement: 拆卸注意事项②说明气囊维修的注意事项随着车辆的不同而不同，应按生产厂家维修手册中规定的气囊维修步骤进行。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+  applicability:
+    vehicle_scope: 注意事项随车辆不同（书中明示）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0037
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: prohibited_tool
+  object_id: null
+  value: 不要用诸如12V的检测灯或带自备电源的检测灯来诊断气囊系统；应使用生产厂家推荐的工具
+  statement: 拆卸注意事项③规定诊断维修气囊车辆的气囊系统或电子系统时应用生产厂家推荐的工具，不要用诸如12V的检测灯或带自备电源的检测灯来诊断气囊系统，工具使用不当会造成气囊的意外打开。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - SRS禁止工具清单为书中原述
+  - 12V为书中原值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0038
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: precaution_step
+  object_id: null
+  value: 在拆卸蓄电池负极电缆线之前，注意记住调整收音机的各个操作步骤，并在蓄电池负极电缆重新接上后，重新调整收音机和时钟
+  statement: 拆卸注意事项④要求拆蓄电池负极电缆前记住收音机各操作步骤，重新接上后重新调整收音机和时钟。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0039
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11
+  predicate: handling_requirement
+  object_id: null
+  value: 气囊单元暂时放在工作台上时，应将模块面朝上放置，否则气囊可能会弹出伤人
+  statement: 拆卸注意事项⑤要求气囊单元暂放工作台上时模块面朝上放置，否则气囊可能弹出伤人（原书保留"可能"）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - SRS部件放置安全要求，为书中原述
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0040
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: prohibited_action
+  object_id: null
+  value: 不要用手锤敲打转向轴顶部来拆卸转向盘，这样会损坏转向轴
+  statement: 拆卸注意事项⑥禁止用手锤敲打转向轴顶部来拆卸转向盘，指出这样会损坏转向轴。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 操作禁忌，为书中原述
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0041
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤①：确保前轮笔直向前方向，用手卷紧（逆时针方向）时钟发条形状的电气接头
+  statement: Q2安装步骤①为确保前轮笔直向前方向，用手按逆时针方向卷紧时钟发条形状的电气接头。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+  - 卷紧方向逆时针为书中原述
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0042
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤②：将时钟发条形状电气接头顺时针松开3圈，并将其中部表面的红色记号（见图1-11）与电缆圆周上的槽对准（此即时钟发条形状接头的对中方式）
+  statement: Q2安装步骤②为将时钟发条形状电气接头顺时针松开3圈，并把接头中部表面的红色记号与电缆圆周上的槽对准，此为接头的对中方式。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+  - 顺时针松开3圈为书中原值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0043
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  predicate: hazard_risk
+  object_id: null
+  value: 对中不当时，转向盘左转、右转到底会将时钟发条形状电气接头拉断
+  statement: 书中警告若时钟发条形状接头对中不当，转向盘左转、右转到底时会把接头拉断。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 失效后果为书中原述
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0044
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20
+  predicate: located_on
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  value: null
+  statement: 图1-11（时钟发条形状电气接头的对中）标出接头中部表面的红色记号位置，图例1为红色记号、2为接头线束、3为时钟发条形状电器接头。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0045
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤③：接好时钟发条形状电气接头，并将固定螺钉拧紧
+  statement: Q2安装步骤③为接好时钟发条形状电气接头并拧紧固定螺钉。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0046
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤④：转向盘与转向轴上的记号对准后，安好转向盘
+  statement: Q2安装步骤④为将转向盘与转向轴上的记号对准后安好转向盘。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0047
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤⑤：将转向盘固定螺母拧至规定力矩
+  statement: Q2安装步骤⑤为将转向盘固定螺母拧至规定力矩。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+  unknowns:
+  - 书中未给出规定力矩的具体数值
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0048
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤⑥：将气囊导线固定架装在转向盘内
+  statement: Q2安装步骤⑥为将气囊导线固定架装在转向盘内。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0049
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤⑦：将气囊控制单元放在转向盘顶部，连接气囊模块接头，安装并拧紧固定气囊的自攻螺钉
+  statement: Q2安装步骤⑦为将气囊控制单元放在转向盘顶部、连接气囊模块接头、安装并拧紧固定气囊的自攻螺钉（⑦跨printed 6~7两页连读）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+  - ⑦句跨页续行（printed 6 末行接 printed 7 首行）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0050
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤⑧：接好蓄电池的负极电缆
+  statement: Q2安装步骤⑧为接好蓄电池的负极电缆。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0051
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02
+  predicate: installation_step
+  object_id: null
+  value: 带安全气囊转向盘安装步骤⑨：调整收音机和时钟
+  statement: Q2安装步骤⑨为调整收音机和时钟。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中维修手册式操作步骤（车型相关）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0052
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k03
+  predicate: requires_attention
+  object_id: null
+  value: 除将时钟发条形状的电气连接件做好对中外，还要注意转向盘的位置和与转向盘相关的各个开关的正确安装
+  statement: Q3导语指出安装带气囊转向盘时，除做好时钟发条形状电气连接件的对中外，还要注意转向盘位置和相关各开关的正确安装。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0053
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  predicate: connected_by
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09
+  value: 通过花键连接，并用螺母将转向盘固定在轴上
+  statement: 书中说明转向盘通过花键与上部转向轴连接，并用螺母将转向盘固定在轴上。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0054
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  predicate: has_alignment_mark
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19
+  value: null
+  statement: 书中说明大多数转向盘与轴有对准标志，安装时必须对准。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中以"大多数"限定，非全部车型
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0055
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16
+  predicate: located_in
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21
+  value: 固定柱筒多安装在转向柱壳体的右上侧，点火开关用螺栓固定在柱筒壳体的下侧（见图1-12）
+  statement: 书中说明点火开关的固定柱筒多安装在转向柱壳体右上侧，点火开关用螺栓固定在柱筒壳体下侧。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中以"多安装在"限定为常见布置
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0056
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16
+  predicate: shown_in
+  object_id: null
+  value: 图1-12 点火开关与点火开关固定柱筒的位置；图例7项：转向盘、上盖、下盖、钥匙、钥匙放松按钮、点火开关触点、上万向节
+  statement: 图1-12示出点火开关与点火开关固定柱筒在转向柱上的位置，图例按7个编号标注。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 部件清单来自图1-12图例编号
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0057
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22
+  predicate: has_component
+  object_id: null
+  value: 转向灯开关、报警开关、前照灯变光开关以及刮水器开关（或统称组合开关），由一个控制手柄操纵，安装位置在转向盘下方（见图1-13）
+  statement: 书中说明转向灯开关、报警开关、前照灯变光开关及刮水器开关（或统称组合开关）由一个控制手柄操纵，安装在转向盘下方。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0058
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22
+  predicate: shown_in
+  object_id: null
+  value: 图1-13 转向、报警、变光及刮水器开关（组合开关）；图例9项：点火开关触点、变光开关、推杆、钥匙筒、刮水器开关、点火开关钥匙、手柄、转向灯开关、报警灯开关
+  statement: 图1-13示出组合开关总成，图例按9个编号标注组成部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 部件清单来自图1-13图例编号
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0059
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k23
+  predicate: connected_via
+  object_id: null
+  value: 变速操纵杆也装在转向柱内且带联锁（防盗）装置时，转向柱下端将从变速器接出的圆管状控制杆经组合传动机构与转向柱上的变速操纵杆相连
+  statement: 书中说明若变速操纵杆装在转向柱内且带联锁（防盗）装置，转向柱下端用从变速器接出的圆管状控制杆经组合传动机构与变速操纵杆相连。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 书中以"如果"限定为带转向柱变速操纵+联锁装置的配置
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0060
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k24
+  predicate: interlock_condition
+  object_id: null
+  value: 联锁板固定在上部转向轴上；当变速器在驻车位置、点火开关在关断位置时，变速操纵杆与联锁板上凸齿啮合，锁死转向盘和变速器（如图1-14所示）
+  statement: 书中说明联锁板固定在上部转向轴上，变速器在驻车位置且点火开关关断时，变速操纵杆与联锁板凸齿啮合从而锁死转向盘和变速器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 触发条件为驻车位置+点火开关关断（书中原述）
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0061
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k25
+  predicate: shown_in
+  object_id: null
+  value: 图1-14 带有联锁板的转向柱上部（横向排印）；图例：1、5、7、19、22、25、28、30、34、35.螺钉；2.转向灯开关总成；3.轴承；4.轴承座；6.点火开关拉杆；8.拐柄；9、26.手柄；10.弹簧；11.弹簧安装位置；12.锁壳；13.手柄总成；14、20.壳体；15.锁板弹簧；16.转向轴；17.锁板；18.套管总成；21.指针；23.锁壳；24.锁壳盖；27.点火开关联动杆；29.变速器手柄出口；31.弹簧；32.柱塞；33.钥匙灯
+  statement: 图1-14为带有联锁板的转向柱上部的整页分解图（横向排印，经旋转核读），图例列出各编号零件名称。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 图与图例按横向排印（旋转90°）核读
+  - 部件清单来自图1-14图例编号，仅表示图中示出
+- id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0062
+  subject_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18
+  predicate: used_for
+  object_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  value: null
+  statement: 图1-9示用拉器拆下转向盘的作业，图例1为拉器、2为配合记号。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e5
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions: []
 - id: claim:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:c01q0105:0001
   subject_id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:ent:k01
   predicate: has_subsystem
@@ -22382,6 +26690,526 @@ edges:
   to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
   predicate: may_aggravate
   claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0080
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0001
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0001
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0002
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0002
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0003
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0003
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0004
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k01
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0004
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0005
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k03
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k03
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0005
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0006
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0012
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0007
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k06
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0013
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0008
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0014
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0009
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0015
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0010
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0016
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0011
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0017
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0012
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0018
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0013
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0019
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0014
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k07
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0020
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0015
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0022
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0016
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0023
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0017
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0024
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0018
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k14
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0025
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0019
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0028
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0020
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0029
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0021
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0030
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0022
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0031
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0023
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0032
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0024
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0033
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0025
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0034
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0026
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0035
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0027
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k17
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0036
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0028
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0039
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0029
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0040
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0030
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0041
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0031
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0042
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0032
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0043
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0033
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0044
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0034
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0045
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0035
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0046
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0036
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0047
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0037
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k25
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0048
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0038
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0049
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0039
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0050
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0040
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0051
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0041
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0052
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0042
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0053
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0043
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k28
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k28
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0057
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0044
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k30
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k30
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0058
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0045
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k31
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k31
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0059
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0046
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k32
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k32
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0060
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0047
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0061
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0048
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0062
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0049
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0063
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0050
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0064
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0051
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0065
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0052
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0066
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0053
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0067
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0054
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0068
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0055
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k27
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0069
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0056
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0070
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0057
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0071
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0058
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0072
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0059
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0073
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0060
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0074
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0061
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0075
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0062
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0076
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0063
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0077
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0064
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0078
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0065
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0079
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0066
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0080
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0067
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0081
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0068
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k34
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0082
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0069
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k35
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k35
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0083
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0070
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k41
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k41
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0084
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0071
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0086
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0072
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0088
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0073
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0089
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0074
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k44
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0090
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0075
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0091
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0076
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0092
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0077
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0093
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0078
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0094
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0079
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0095
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0080
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0096
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0081
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0097
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0082
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k43
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0098
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0083
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k53
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k53
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0099
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0084
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0108
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0085
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0109
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0086
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0110
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0087
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0111
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0088
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0112
+  predicate: describes
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:edg:0089
+  from_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  to_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k56
+  claim_id: claim:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:c08:0113
+  predicate: describes
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0001
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10
+  predicate: commonly_equipped_with
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0006
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0002
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  predicate: located_in
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0008
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0003
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10
+  predicate: maintains_power
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0010
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0004
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13
+  predicate: has_backup_power
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0012
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0005
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26
+  predicate: follow_oem_manual
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0016
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0006
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12
+  predicate: may_indicate
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0017
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0007
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26
+  predicate: follow_oem_manual
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0018
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0008
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28
+  predicate: connected_via
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0028
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0009
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  predicate: located_in
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0029
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0010
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26
+  predicate: follow_oem_manual
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0036
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0011
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15
+  predicate: located_on
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0044
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0012
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09
+  predicate: connected_by
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0053
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0013
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19
+  predicate: has_alignment_mark
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0054
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0014
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21
+  predicate: located_in
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0055
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0015
+  from_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18
+  to_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01
+  predicate: used_for
+  claim_id: claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0062
 - id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:edg:0001
   from_id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:ent:k01
   to_id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:ent:k02
@@ -27053,6 +31881,516 @@ evidence:
   source_kind: BOOK_BODY_DIRECT
   observation_summary: 结论起句：保证质量须在阀体检测与修复工艺上采用科学方法，操作人员必须系统（句跨页未完）。
   reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 87
+  printed_page_label: '81'
+  section_id: c08
+  asset_id: c08-F87-1
+  locator: 整页上部大幅剖视渲染照片，图题『奥迪A8轿车球笼式万向节构造透视图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 整版剖视照片展示奥迪A8球笼式万向节拆开状态下的内外结构，图题含车型与图名，画面无引线标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 87
+  printed_page_label: '81'
+  section_id: c08
+  asset_id: c08-F87-2
+  locator: 页面右下两张并列线描简图，图题『球笼式万向节构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 两张简图并排示意球笼式万向节在不同偏转角度下的传动状态，图中无文字标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p87:e3
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 87
+  printed_page_label: '81'
+  section_id: c08
+  asset_id: null
+  locator: 页面左下正文小节《等速万向节》单段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明前轮驱动汽车半轴与车轮夹角不断变化，需用角速度相等的等速万向节适应跳动与摆动，前驱动半轴常用球笼式万向节。注意：本页页眉实拍为第七章传动轴和半轴，内容不属于c08转向系统，未纳入claims。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 88
+  printed_page_label: '82'
+  section_id: c08
+  asset_id: null
+  locator: 页面右下正文小节《可变齿比转向系统》两段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文介绍可变齿比转向系统齿条两边稀疏、中间细密，齿比中间小两端大，并说明高速用中间密齿段求稳定、低速用两端疏齿段求灵敏。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 88
+  printed_page_label: '82'
+  section_id: c08
+  asset_id: c08-F88-1
+  locator: 页面上部彩色示意图带局部放大圆图，图题『齿轮齿条式转向系统构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 示意图画出转向盘、转向柱、转向齿轮与齿条及左右转向拉杆，放大圆图展示齿轮齿条啮合细节，共5处引线标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p88:e3
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 88
+  printed_page_label: '82'
+  section_id: c08
+  asset_id: c08-F88-2
+  locator: 页面左下轴测示意图，图题『可变转向齿比转向系统构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 轴测图在小齿轮与齿条上以箭头标注转向齿比最大位置两处、最小位置一处，显示齿条齿距中密端疏。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 89
+  printed_page_label: '83'
+  section_id: c08
+  asset_id: c08-F89-1
+  locator: 页面上半部剖视图加放大圆图，图题『循环球式转向系统构造示意图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视图展示转向蜗杆、循环球轨道内排列的钢球、螺母、扇形齿轮与转向操纵臂，另附系统简图与放大圆图，共10处引线标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p89:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 89
+  printed_page_label: '83'
+  section_id: c08
+  asset_id: c08-F89-2
+  locator: 页面下半部整车底盘剖视渲染照片，图题『奔驰S级轿车转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 底盘剖视照片标注转向柱、转向器、转向动力缸、转向拉杆及减振器、悬架上叉臂、悬架下连杆、副车架等，共8处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 90
+  printed_page_label: '84'
+  section_id: c08
+  asset_id: c08-F90-1
+  locator: 页面上半部前底盘剖视渲染照片，图题『奔驰GL汽车液压助力转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注转向泵、储液罐、转向泵油散热器、回油管、转向器、转向横拉杆、转向球头等液压助力部件及空气减振器、半轴、稳定杆，共13处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p90:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 90
+  printed_page_label: '84'
+  section_id: c08
+  asset_id: c08-F90-2
+  locator: 页面下半部分解摆放渲染照片，图题『奔驰E级轿车液压助力转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 分解摆放照片标注转向泵、储液罐、转向动力缸、转向柱万向节、转向器、回油管、护罩、转向横拉杆、转向球头，共13处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 91
+  printed_page_label: '85'
+  section_id: c08
+  asset_id: c08-F91-1
+  locator: 页面上部转向器总成剖视渲染照片，图题『大众汽车随速电动助力转向系统』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 总成照片标注助力电动机、转向助力机构、转向器、护罩、转向横拉杆及『接转向柱』连接端，共7处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 91
+  printed_page_label: '85'
+  section_id: c08
+  asset_id: null
+  locator: 页面左中正文小节《随速电动助力转向工作原理》，含编号1-4的步骤列表
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明助力电动机按车速信号调整助力大小（低速助力大、高速助力小），并分四步描述助力经蜗杆A、蜗轮B、齿轮C传至转向丝杆D对拉杆助力的路径。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p91:e3
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 91
+  printed_page_label: '85'
+  section_id: c08
+  asset_id: c08-F91-2
+  locator: 页面下部转向器剖视渲染照片，图题『随速电动助力转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注电动机蜗杆A、中间蜗轮B、中间齿轮C、转向丝杆D、转向齿轮、转向齿条、转向柱万向节等助力传动链部件，共13处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 92
+  printed_page_label: '86'
+  section_id: c08
+  asset_id: c08-F92-1
+  locator: 页面上半部爆炸分解渲染图，图题『奥迪A6汽车电动助力转向系统分解图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 分解图展示电动转向器构外壳、转向输入轴、转向力矩传感器、转向齿轮、电动机、中空轴、控制单元、转向丝杆与转向横拉杆，共9处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p92:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 92
+  printed_page_label: '86'
+  section_id: c08
+  asset_id: c08-F92-2
+  locator: 页面下半部总成剖视渲染照片，图题『奥迪A6汽车电动助力转向系统』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 总成照片标注转向柱、十字轴万向节、转向器、电动机、控制单元、转向丝杆、护罩、转向横拉杆与球头，共11处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 93
+  printed_page_label: '87'
+  section_id: c08
+  asset_id: null
+  locator: 页面左侧正文小节《奥迪动态转向系统》三段，含编号1-3的部件列表
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明动态转向系统传动装置整合于转向柱、由电子交流电动机、叠式齿轮与互锁设备构成，并分述谐波齿轮的波发生器WG、薄壁柔轮FS、钢轮CS三个部件。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 93
+  printed_page_label: '87'
+  section_id: c08
+  asset_id: c08-F93-1
+  locator: 页面右上部转向柱总成剖视渲染照片，图题『奥迪汽车动态转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注电动机、转向角度传感器、叠合齿轮（谐波驱动）、带U形连接的输出轴、转向柱十字轴万向节、转向输入轴、锁止环、锁止机构，共10处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p93:e3
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 93
+  printed_page_label: '87'
+  section_id: c08
+  asset_id: c08-F93-2
+  locator: 页面下半部动态转向器大剖视渲染照片，图题『奥迪A6汽车动态转向系统构造图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 大剖视照片在奥迪A6动态转向器上标注托架、电动机、转向角度传感器、叠合齿轮、锁止机构、锁止环、带U形连接的输出轴等，共9处标注。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e1
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 94
+  printed_page_label: '88'
+  section_id: c08
+  asset_id: null
+  locator: 页面右下正文小节《后轮转向系统》三段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正文说明四轮转向一般由电动机改变后轮转向角，给出宝马7系最大3°、雷诺Laguna GT最大3.5°，以及低速反向转向增灵活、高速同向转向保平稳的作用。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e2
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 94
+  printed_page_label: '88'
+  section_id: c08
+  asset_id: c08-F94-1
+  locator: 页面上半部整车线框布置图，图题『雷诺Laguna GT轿车后轮转向系统示意图』，图例①-⑤
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 线框布置图以序号①-⑤图例标注ESP/ABS控制单元、方向盘角度传感器、四轮转向系统控制电脑ECU、数据总线CAN与驱动后轮转向的电动机。
+  reader_model: glm-flash-free
+- id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ev:p94:e3
+  source_book_id: book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe
+  pdf_page_index: 94
+  printed_page_label: '88'
+  section_id: c08
+  asset_id: c08-F94-2
+  locator: 页面左下部后悬架剖视渲染照片，图题『雷诺Laguna GT轿车后轮转向系统俯视图』
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 剖视照片标注制动钳、制动液管、后转向拉杆、制动盘、转向球头、数据线，并以角度线标注3.5°后轮转角。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 15
+  printed_page_label: null
+  section_id: c01q0104
+  asset_id: null
+  locator: 章标题下两行导语正文段（页面上部）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 章首导语概括转向系统的改向功能及其对行驶安全、轮胎寿命和油耗的意义。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e2
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 15
+  printed_page_label: null
+  section_id: c01q0104
+  asset_id: c01q0104-F15-1
+  locator: 页面上部图1-1 无动力转向系统示意图及右侧竖排图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-1以13个编号图例列出机械转向系统从转向盘到左右转向节的组成部件。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e3
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 15
+  printed_page_label: null
+  section_id: c01q0104
+  asset_id: c01q0104-F15-2
+  locator: 页面下部图1-2 与独立悬架配用的转向系统及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-2以7个编号图例示出独立悬架车型带转向减震器的转向系统布置。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 16
+  printed_page_label: '2'
+  section_id: c01q0104
+  asset_id: c01q0104-F16-1
+  locator: 页眉下大幅图1-3 动力转向系统示意图及图注、图例
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-3以12个编号图例列出动力转向系统组成，含油罐、油泵、控制阀、动力缸四个液压部件。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 16
+  printed_page_label: '2'
+  section_id: c01q0104
+  asset_id: null
+  locator: 页面下部Q1问题标题“1．如何拆卸带安全气囊的转向盘？”及其后导语段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q1导语说明气囊转向盘已普遍，检修转向盘和转向柱前必须掌握气囊装置拆卸方法以免损坏器件或伤人。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 16
+  printed_page_label: '2'
+  section_id: c01q0104
+  asset_id: c01q0104-F16-2
+  locator: 页面底部图1-4 时钟发条形状电气接头安装在转向盘下及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-4分解示出转向盘下的气囊模块、仅用于4轮驱动的减震装置、时钟发条形状电气接头与转向柱。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 17
+  printed_page_label: '3'
+  section_id: c01q0104
+  asset_id: c01q0104-F17-1
+  locator: 页眉下图1-5及图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-5标题指出时钟发条形状电气接头用于保持安装气囊的供电，图中示出转向柱上的时钟弹簧总成。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 17
+  printed_page_label: '3'
+  section_id: c01q0104
+  asset_id: null
+  locator: 图1-5下第一段正文（蓄电池负极电缆、等待1min、后备供电电源机理）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该段给出气囊拆卸安全前提：先断蓄电池负极并等1min，原因是气囊系统带独立后备电源，断负极1min后后备电源才断电。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 17
+  printed_page_label: '3'
+  section_id: c01q0104
+  asset_id: null
+  locator: 第二段正文（仪表板气囊指示灯状态与亮灭模式）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该段描述气囊指示灯的状态显示功能、一些车辆点火后亮几秒/起动后闪7~9次的模式，并要求按厂家手册核对，灯况异常时系统可能有故障。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e4
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 17
+  printed_page_label: '3'
+  section_id: c01q0104
+  asset_id: null
+  locator: 第三段正文（转向盘及气囊拆卸步骤随车型不同）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该段声明气囊转向盘拆卸步骤因车型而异，应以生产厂家维修手册步骤为准。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 17
+  printed_page_label: '3'
+  section_id: c01q0104
+  asset_id: null
+  locator: 左下小节“(1)典型气囊模块和转向盘拆卸”步骤①②③文字块
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该小节列出拆卸前三步：点火开关锁止且前轮摆正、断蓄电池负极等1min、松开转向盘下3个自攻螺钉。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e6
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 17
+  printed_page_label: '3'
+  section_id: c01q0104
+  asset_id: c01q0104-F17-2
+  locator: 右下图1-6 安装气囊的3个螺钉及图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-6在转向盘背面视图上用放大圈和箭头指示安装气囊的3个螺钉位置及旋出方向。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 18
+  printed_page_label: '4'
+  section_id: c01q0104
+  asset_id: null
+  locator: 页眉下步骤④段（拉出气囊控制单元、拆电气接头、禁止拽线、面朝上放置）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤④段说明拉出气囊控制单元（又称转向盘垫）并拆其电气接头，途中不得拽转向柱电线，拆下后模块面朝上放置。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e2
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 18
+  printed_page_label: '4'
+  section_id: c01q0104
+  asset_id: null
+  locator: 图1-7下方步骤⑤句
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑤要求拆下转向盘内的气囊线束固定卡。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e3
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 18
+  printed_page_label: '4'
+  section_id: c01q0104
+  asset_id: null
+  locator: 页面末行步骤⑥句
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑥规定用套筒扳手和棘轮杆拆下转向盘固定螺母。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e4
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 18
+  printed_page_label: '4'
+  section_id: c01q0104
+  asset_id: c01q0104-F18-1
+  locator: 页面中部图1-7 拆下气囊模块电气接头及图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-7在驾驶侧视图上以放大圈箭头示出气囊模块电气接头的脱开方向。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e5
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 18
+  printed_page_label: '4'
+  section_id: c01q0104
+  asset_id: c01q0104-F18-2
+  locator: 页面下部图1-8 拆下气囊线束固定卡及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-8示转向盘内的电气接头（1）与气囊线束（2）及固定卡位置。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 19
+  printed_page_label: '5'
+  section_id: c01q0104
+  asset_id: null
+  locator: 页眉下步骤⑦段（转向盘与转向轴对正记号）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑦段要求核对转向盘与转向轴的对正记号，缺记号时用冲心錾和手锤补做。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 19
+  printed_page_label: '5'
+  section_id: c01q0104
+  asset_id: null
+  locator: 步骤⑧段（拉器卸转向盘及弯曲断裂判废检查）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑧段规定用拉器卸下转向盘，并检查其状况，弯曲或断裂即更换。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e3
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 19
+  printed_page_label: '5'
+  section_id: c01q0104
+  asset_id: null
+  locator: 图1-9下方步骤⑨句（拆时钟发条形状电气接头紧固螺钉）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑨要求拆下固定时钟发条形状电气接头的紧固螺钉并取下接头。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e4
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 19
+  printed_page_label: '5'
+  section_id: c01q0104
+  asset_id: c01q0104-F19-2
+  locator: 页面下部图1-10 拆卸时钟发条形状接头及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-10以9个编号图例分解示出时钟发条形状接头及其周边组合开关部件。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e5
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 19
+  printed_page_label: '5'
+  section_id: c01q0104
+  asset_id: c01q0104-F19-1
+  locator: 页面中部图1-9 用拉器拆下转向盘及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-9示出拉器拆卸转向盘的作业姿态，图例标注拉器与配合记号两要素。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 20
+  printed_page_label: '6'
+  section_id: c01q0104
+  asset_id: null
+  locator: 小节“(2)拆卸注意事项”①~⑥整块
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 注意事项①~⑥覆盖断负极等1min、按厂家手册、禁用12V或自备电源检测灯、收音机时钟重设、模块面朝上、禁锤击转向轴。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 20
+  printed_page_label: '6'
+  section_id: c01q0104
+  asset_id: null
+  locator: Q2标题“2．如何安装带安全气囊的转向盘？”下步骤①~⑦文字块（含右栏②③④）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q2步骤①~⑦给出卷紧时钟簧、顺时针松3圈对准红色记号、接好拧紧、对记号装盘、拧规定力矩、装导线固定架、放气囊控制单元拧自攻螺钉的顺序。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e3
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 20
+  printed_page_label: '6'
+  section_id: c01q0104
+  asset_id: c01q0104-F20-1
+  locator: 左下图1-11 时钟发条形状电气接头的对中及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-11标出时钟簧接头中部表面红色记号与电缆圆周槽的对中关系及线束位置。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 21
+  printed_page_label: '7'
+  section_id: c01q0104
+  asset_id: null
+  locator: 页首跨页续行“紧固定气囊的自攻螺钉”及步骤⑧⑨两行
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 页首续完Q2步骤⑦的后半句，随后⑧接回蓄电池负极电缆、⑨重调收音机和时钟。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 21
+  printed_page_label: '7'
+  section_id: c01q0104
+  asset_id: null
+  locator: Q3标题“3．安装转向盘要注意什么问题？”下正文段（导语、花键连接、点火开关柱筒、组合开关、联锁装置）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q3正文强调对中时钟簧、转向盘定位与开关安装，说明花键加螺母连接与对准标志、柱筒右上侧布置、组合开关手柄布置及联锁板的锁止条件。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e3
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 21
+  printed_page_label: '7'
+  section_id: c01q0104
+  asset_id: c01q0104-F21-1
+  locator: 右上中部图1-12 点火开关与点火开关固定柱筒的位置及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-12以7个编号图例标出点火开关及其固定柱筒在转向柱上部的位置。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e4
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 21
+  printed_page_label: '7'
+  section_id: c01q0104
+  asset_id: c01q0104-F21-2
+  locator: 左下图1-13 转向、报警、变光及刮水器开关（组合开关）及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-13以9个编号图例分解示出组合开关总成的组成部件。
+  reader_model: glm-flash-free
+- id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p22:e1
+  source_book_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd
+  pdf_page_index: 22
+  printed_page_label: '8'
+  section_id: c01q0104
+  asset_id: c01q0104-F22-1
+  locator: 整页横向排印的图1-14 带有联锁板的转向柱上部、图注及图例（经旋转90°核读）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-14横向整页分解示出带联锁板的转向柱上部，旋转核读图例得到螺钉组、锁壳、锁板、转向轴、点火开关联动杆等约33项零件名。
+  reader_model: glm-flash-free
 - id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:ev:p10:e1
   source_book_id: book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E
   pdf_page_index: 10
@@ -28316,6 +33654,13 @@ alignment_candidates:
   candidate_entity_ids:
   - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k20
   - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 转向柱
+  kind: component
+  candidate_entity_ids:
+  - book:1QyGCHW6NxdfqsNl-Z9E3H6JyNxiLlKfe:ent:k02
+  - book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
 - label_normalized: 阀体

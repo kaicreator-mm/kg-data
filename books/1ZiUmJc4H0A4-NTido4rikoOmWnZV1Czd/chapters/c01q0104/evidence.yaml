@@ -1,0 +1,287 @@
+# evidence.yaml — book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd / chapter c01q0104
+# 扫描件全视觉路线：一切内容以页面图像为准（150dpi 整页定位 + 300dpi 裁块核读）
+# 页码实测：printed = pdf_index - 14；pdf15 为章首扉页无页脚页码
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1
+  pdf_page_index: 15
+  printed_page_label: null
+  section_id: c01q0104
+  locator: 章标题下两行导语正文段（页面上部）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 章首导语概括转向系统的改向功能及其对行驶安全、轮胎寿命和油耗的意义。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e2
+  pdf_page_index: 15
+  printed_page_label: null
+  section_id: c01q0104
+  asset_id: c01q0104-F15-1
+  locator: 页面上部图1-1 无动力转向系统示意图及右侧竖排图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-1以13个编号图例列出机械转向系统从转向盘到左右转向节的组成部件。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e3
+  pdf_page_index: 15
+  printed_page_label: null
+  section_id: c01q0104
+  asset_id: c01q0104-F15-2
+  locator: 页面下部图1-2 与独立悬架配用的转向系统及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-2以7个编号图例示出独立悬架车型带转向减震器的转向系统布置。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e1
+  pdf_page_index: 16
+  printed_page_label: "2"
+  section_id: c01q0104
+  asset_id: c01q0104-F16-1
+  locator: 页眉下大幅图1-3 动力转向系统示意图及图注、图例
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-3以12个编号图例列出动力转向系统组成，含油罐、油泵、控制阀、动力缸四个液压部件。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2
+  pdf_page_index: 16
+  printed_page_label: "2"
+  section_id: c01q0104
+  locator: 页面下部Q1问题标题“1．如何拆卸带安全气囊的转向盘？”及其后导语段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q1导语说明气囊转向盘已普遍，检修转向盘和转向柱前必须掌握气囊装置拆卸方法以免损坏器件或伤人。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3
+  pdf_page_index: 16
+  printed_page_label: "2"
+  section_id: c01q0104
+  asset_id: c01q0104-F16-2
+  locator: 页面底部图1-4 时钟发条形状电气接头安装在转向盘下及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-4分解示出转向盘下的气囊模块、仅用于4轮驱动的减震装置、时钟发条形状电气接头与转向柱。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e1
+  pdf_page_index: 17
+  printed_page_label: "3"
+  section_id: c01q0104
+  asset_id: c01q0104-F17-1
+  locator: 页眉下图1-5及图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-5标题指出时钟发条形状电气接头用于保持安装气囊的供电，图中示出转向柱上的时钟弹簧总成。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2
+  pdf_page_index: 17
+  printed_page_label: "3"
+  section_id: c01q0104
+  locator: 图1-5下第一段正文（蓄电池负极电缆、等待1min、后备供电电源机理）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该段给出气囊拆卸安全前提：先断蓄电池负极并等1min，原因是气囊系统带独立后备电源，断负极1min后后备电源才断电。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3
+  pdf_page_index: 17
+  printed_page_label: "3"
+  section_id: c01q0104
+  locator: 第二段正文（仪表板气囊指示灯状态与亮灭模式）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该段描述气囊指示灯的状态显示功能、一些车辆点火后亮几秒/起动后闪7~9次的模式，并要求按厂家手册核对，灯况异常时系统可能有故障。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e4
+  pdf_page_index: 17
+  printed_page_label: "3"
+  section_id: c01q0104
+  locator: 第三段正文（转向盘及气囊拆卸步骤随车型不同）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该段声明气囊转向盘拆卸步骤因车型而异，应以生产厂家维修手册步骤为准。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5
+  pdf_page_index: 17
+  printed_page_label: "3"
+  section_id: c01q0104
+  locator: 左下小节“(1)典型气囊模块和转向盘拆卸”步骤①②③文字块
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 该小节列出拆卸前三步：点火开关锁止且前轮摆正、断蓄电池负极等1min、松开转向盘下3个自攻螺钉。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e6
+  pdf_page_index: 17
+  printed_page_label: "3"
+  section_id: c01q0104
+  asset_id: c01q0104-F17-2
+  locator: 右下图1-6 安装气囊的3个螺钉及图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-6在转向盘背面视图上用放大圈和箭头指示安装气囊的3个螺钉位置及旋出方向。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1
+  pdf_page_index: 18
+  printed_page_label: "4"
+  section_id: c01q0104
+  locator: 页眉下步骤④段（拉出气囊控制单元、拆电气接头、禁止拽线、面朝上放置）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤④段说明拉出气囊控制单元（又称转向盘垫）并拆其电气接头，途中不得拽转向柱电线，拆下后模块面朝上放置。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e2
+  pdf_page_index: 18
+  printed_page_label: "4"
+  section_id: c01q0104
+  locator: 图1-7下方步骤⑤句
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑤要求拆下转向盘内的气囊线束固定卡。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e3
+  pdf_page_index: 18
+  printed_page_label: "4"
+  section_id: c01q0104
+  locator: 页面末行步骤⑥句
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑥规定用套筒扳手和棘轮杆拆下转向盘固定螺母。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e4
+  pdf_page_index: 18
+  printed_page_label: "4"
+  section_id: c01q0104
+  asset_id: c01q0104-F18-1
+  locator: 页面中部图1-7 拆下气囊模块电气接头及图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-7在驾驶侧视图上以放大圈箭头示出气囊模块电气接头的脱开方向。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e5
+  pdf_page_index: 18
+  printed_page_label: "4"
+  section_id: c01q0104
+  asset_id: c01q0104-F18-2
+  locator: 页面下部图1-8 拆下气囊线束固定卡及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-8示转向盘内的电气接头（1）与气囊线束（2）及固定卡位置。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e1
+  pdf_page_index: 19
+  printed_page_label: "5"
+  section_id: c01q0104
+  locator: 页眉下步骤⑦段（转向盘与转向轴对正记号）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑦段要求核对转向盘与转向轴的对正记号，缺记号时用冲心錾和手锤补做。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2
+  pdf_page_index: 19
+  printed_page_label: "5"
+  section_id: c01q0104
+  locator: 步骤⑧段（拉器卸转向盘及弯曲断裂判废检查）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑧段规定用拉器卸下转向盘，并检查其状况，弯曲或断裂即更换。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e3
+  pdf_page_index: 19
+  printed_page_label: "5"
+  section_id: c01q0104
+  locator: 图1-9下方步骤⑨句（拆时钟发条形状电气接头紧固螺钉）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 步骤⑨要求拆下固定时钟发条形状电气接头的紧固螺钉并取下接头。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e4
+  pdf_page_index: 19
+  printed_page_label: "5"
+  section_id: c01q0104
+  asset_id: c01q0104-F19-2
+  locator: 页面下部图1-10 拆卸时钟发条形状接头及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-10以9个编号图例分解示出时钟发条形状接头及其周边组合开关部件。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e5
+  pdf_page_index: 19
+  printed_page_label: "5"
+  section_id: c01q0104
+  asset_id: c01q0104-F19-1
+  locator: 页面中部图1-9 用拉器拆下转向盘及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-9示出拉器拆卸转向盘的作业姿态，图例标注拉器与配合记号两要素。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1
+  pdf_page_index: 20
+  printed_page_label: "6"
+  section_id: c01q0104
+  locator: 小节“(2)拆卸注意事项”①~⑥整块
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 注意事项①~⑥覆盖断负极等1min、按厂家手册、禁用12V或自备电源检测灯、收音机时钟重设、模块面朝上、禁锤击转向轴。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2
+  pdf_page_index: 20
+  printed_page_label: "6"
+  section_id: c01q0104
+  locator: Q2标题“2．如何安装带安全气囊的转向盘？”下步骤①~⑦文字块（含右栏②③④）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q2步骤①~⑦给出卷紧时钟簧、顺时针松3圈对准红色记号、接好拧紧、对记号装盘、拧规定力矩、装导线固定架、放气囊控制单元拧自攻螺钉的顺序。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e3
+  pdf_page_index: 20
+  printed_page_label: "6"
+  section_id: c01q0104
+  asset_id: c01q0104-F20-1
+  locator: 左下图1-11 时钟发条形状电气接头的对中及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-11标出时钟簧接头中部表面红色记号与电缆圆周槽的对中关系及线束位置。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1
+  pdf_page_index: 21
+  printed_page_label: "7"
+  section_id: c01q0104
+  locator: 页首跨页续行“紧固定气囊的自攻螺钉”及步骤⑧⑨两行
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 页首续完Q2步骤⑦的后半句，随后⑧接回蓄电池负极电缆、⑨重调收音机和时钟。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2
+  pdf_page_index: 21
+  printed_page_label: "7"
+  section_id: c01q0104
+  locator: Q3标题“3．安装转向盘要注意什么问题？”下正文段（导语、花键连接、点火开关柱筒、组合开关、联锁装置）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q3正文强调对中时钟簧、转向盘定位与开关安装，说明花键加螺母连接与对准标志、柱筒右上侧布置、组合开关手柄布置及联锁板的锁止条件。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e3
+  pdf_page_index: 21
+  printed_page_label: "7"
+  section_id: c01q0104
+  asset_id: c01q0104-F21-1
+  locator: 右上中部图1-12 点火开关与点火开关固定柱筒的位置及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-12以7个编号图例标出点火开关及其固定柱筒在转向柱上部的位置。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e4
+  pdf_page_index: 21
+  printed_page_label: "7"
+  section_id: c01q0104
+  asset_id: c01q0104-F21-2
+  locator: 左下图1-13 转向、报警、变光及刮水器开关（组合开关）及图例、图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-13以9个编号图例分解示出组合开关总成的组成部件。
+  reader_model: glm-flash-free
+
+- evidence_id: book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p22:e1
+  pdf_page_index: 22
+  printed_page_label: "8"
+  section_id: c01q0104
+  asset_id: c01q0104-F22-1
+  locator: 整页横向排印的图1-14 带有联锁板的转向柱上部、图注及图例（经旋转90°核读）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-14横向整页分解示出带联锁板的转向柱上部，旋转核读图例得到螺钉组、锁壳、锁板、转向轴、点火开关联动杆等约33项零件名。
+  reader_model: glm-flash-free

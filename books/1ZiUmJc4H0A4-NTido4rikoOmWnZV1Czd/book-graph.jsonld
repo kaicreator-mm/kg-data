@@ -1,0 +1,2347 @@
+{
+  "@context": {
+    "@vocab": "https://example.org/automotive-books-kg/",
+    "auto": "https://example.org/automotive-books-kg/",
+    "bookRef": {
+      "@id": "auto:bookRef",
+      "@type": "@id"
+    },
+    "claim": {
+      "@id": "auto:claim",
+      "@type": "@id"
+    },
+    "evidenceRef": {
+      "@id": "auto:evidenceRef",
+      "@type": "@id"
+    },
+    "from": {
+      "@id": "auto:from",
+      "@type": "@id"
+    },
+    "object": {
+      "@id": "auto:object",
+      "@type": "@id"
+    },
+    "subject": {
+      "@id": "auto:subject",
+      "@type": "@id"
+    },
+    "to": {
+      "@id": "auto:to",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "@type": "auto:KnowledgeGraph",
+      "canonicalJson": "{\"book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"coverage_summary\":{\"assets_processed\":14,\"assets_total\":14,\"pages_blocked\":413,\"pages_processed\":12,\"pages_total\":425,\"sections_closed\":1,\"sections_total\":1},\"generation_receipt\":{\"chapters\":[\"c01q0104\"],\"extractor_model\":\"glm-flash-free\",\"generated_utc\":\"2026-11-19T23:28:33+00:00\",\"observations\":\"local-private (not committed); evidence observation_summary in graph\",\"rights_note\":\"local processing only; no external API upload performed\",\"source_pdf_sha256\":\"d0f59e9ae85e3492170d5f2fa7b8f5b053bcbb9393a6d29b346fd1ee62072612\",\"writer\":\"zcode-main-session:book-integrator\"},\"graph_revision\":1,\"ontology_version\":\"automotive-books-kg-ontology-1.0\",\"page_ledger_ref\":\"page-ledger.yaml\",\"review_status\":\"GENERATED_REVIEW_PENDING\",\"schema_version\":\"1.0.0\",\"sections\":[{\"end_pdf_page\":22,\"id\":\"c01q0104\",\"label\":\"第1章 Q1-Q3 带安全气囊转向盘拆装与注意事项（Q4 越界待下批）\",\"section_status\":\"EXTRACTED\",\"start_pdf_page\":15}],\"source\":{\"drive_file_id\":\"1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"edition\":null,\"isbn\":null,\"pdf_page_count\":425,\"publication_year\":2006,\"source_rights_status\":\"UNKNOWN\",\"source_sha256\":\"d0f59e9ae85e3492170d5f2fa7b8f5b053bcbb9393a6d29b346fd1ee62072612\",\"title\":\"汽车转向悬架制动系统使用与维修问答（齐志鹏、洪湘主编，金盾出版社 2006）\"}}",
+      "ontologyVersion": "automotive-books-kg-ontology-1.0",
+      "reviewStatus": "GENERATED_REVIEW_PENDING",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"kind\":\"qa_topic\",\"label\":\"Q1 如何拆卸带安全气囊的转向盘（问答主题）\"}",
+      "domain": "",
+      "kind": "qa_topic",
+      "label": "Q1 如何拆卸带安全气囊的转向盘（问答主题）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"kind\":\"qa_topic\",\"label\":\"Q2 如何安装带安全气囊的转向盘（问答主题）\"}",
+      "domain": "",
+      "kind": "qa_topic",
+      "label": "Q2 如何安装带安全气囊的转向盘（问答主题）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k03",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k03\",\"kind\":\"qa_topic\",\"label\":\"Q3 安装转向盘要注意什么问题（问答主题）\"}",
+      "domain": "",
+      "kind": "qa_topic",
+      "label": "Q3 安装转向盘要注意什么问题（问答主题）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04\",\"kind\":\"system\",\"label\":\"转向系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "转向系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k05",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k05\",\"kind\":\"system\",\"label\":\"无动力（机械）转向系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "无动力（机械）转向系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k06",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k06\",\"kind\":\"system\",\"label\":\"与独立悬架配用的转向系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "与独立悬架配用的转向系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k07",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k07\",\"kind\":\"system\",\"label\":\"动力转向系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "动力转向系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"kind\":\"component\",\"label\":\"转向盘\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "转向盘"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09\",\"kind\":\"component\",\"label\":\"上部转向轴\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "上部转向轴"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10\",\"kind\":\"component\",\"label\":\"安全气囊（气囊模块）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "安全气囊（气囊模块）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11\",\"kind\":\"component\",\"label\":\"气囊控制单元（也称转向盘垫）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "气囊控制单元（也称转向盘垫）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12\",\"kind\":\"system\",\"label\":\"气囊系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "气囊系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13\",\"kind\":\"component\",\"label\":\"气囊系统独立后备供电电源\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "气囊系统独立后备供电电源"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14\",\"kind\":\"component\",\"label\":\"仪表板气囊指示灯\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "仪表板气囊指示灯"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"kind\":\"component\",\"label\":\"时钟发条形状电气接头（时钟弹簧）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "时钟发条形状电气接头（时钟弹簧）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16\",\"kind\":\"component\",\"label\":\"点火开关固定柱筒\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "点火开关固定柱筒"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17\",\"kind\":\"component\",\"label\":\"气囊线束\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "气囊线束"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18\",\"kind\":\"tool\",\"label\":\"拉器\"}",
+      "domain": "",
+      "kind": "tool",
+      "label": "拉器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19\",\"kind\":\"alignment_feature\",\"label\":\"转向盘与转向轴对正记号\"}",
+      "domain": "",
+      "kind": "alignment_feature",
+      "label": "转向盘与转向轴对正记号"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20\",\"kind\":\"alignment_feature\",\"label\":\"红色记号（时钟簧接头中部表面对中记号）\"}",
+      "domain": "",
+      "kind": "alignment_feature",
+      "label": "红色记号（时钟簧接头中部表面对中记号）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21\",\"kind\":\"component\",\"label\":\"转向柱\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "转向柱"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22\",\"kind\":\"component\",\"label\":\"组合开关（转向、报警、变光及刮水器开关）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "组合开关（转向、报警、变光及刮水器开关）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k23",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k23\",\"kind\":\"mechanism\",\"label\":\"联锁（防盗）装置\"}",
+      "domain": "",
+      "kind": "mechanism",
+      "label": "联锁（防盗）装置"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k24",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k24\",\"kind\":\"component\",\"label\":\"联锁板\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "联锁板"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k25",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k25\",\"kind\":\"assembly\",\"label\":\"带有联锁板的转向柱上部\"}",
+      "domain": "",
+      "kind": "assembly",
+      "label": "带有联锁板的转向柱上部"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26\",\"kind\":\"document\",\"label\":\"生产厂家维修手册\"}",
+      "domain": "",
+      "kind": "document",
+      "label": "生产厂家维修手册"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k27",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k27\",\"kind\":\"component\",\"label\":\"减震装置（转向盘内，仅用于4轮驱动）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "减震装置（转向盘内，仅用于4轮驱动）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28\",\"kind\":\"component\",\"label\":\"气囊模块电气接头\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "气囊模块电气接头"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0001",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0001\",\"object_id\":null,\"predicate\":\"has_function\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"第1章导语指出转向系统的功能是使汽车改变行驶方向，并引导参见图1-1、图1-2和图1-3。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04\",\"value\":\"使汽车改变行驶方向\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1"
+      ],
+      "measurement": null,
+      "predicate": "has_function",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "第1章导语指出转向系统的功能是使汽车改变行驶方向，并引导参见图1-1、图1-2和图1-3。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04",
+      "unknowns": [],
+      "value": "使汽车改变行驶方向"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0002",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0002\",\"object_id\":null,\"predicate\":\"relates_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中指出转向系统关系到汽车行驶的安全、延长轮胎寿命和降低燃油油耗。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04\",\"value\":\"行驶安全、延长轮胎寿命、降低燃油油耗\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1"
+      ],
+      "measurement": null,
+      "predicate": "relates_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中指出转向系统关系到汽车行驶的安全、延长轮胎寿命和降低燃油油耗。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k04",
+      "unknowns": [],
+      "value": "行驶安全、延长轮胎寿命、降低燃油油耗"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0003",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"部件清单来自图1-1图例编号，仅表示图中示出的组成\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0003\",\"object_id\":null,\"predicate\":\"has_component\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-1无动力转向系统示意图的图例按13个编号列出机械转向系统组成部件。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k05\",\"value\":\"图1-1图例13项：转向盘、转向轴（柱）、转向万向节、转向传动轴、转向器、转向摇臂、转向直拉杆、转向节臂、左转向节、梯形臂（10、12）、转向横拉杆、右转向节\"}",
+      "conditions": [
+        "部件清单来自图1-1图例编号，仅表示图中示出的组成"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e2"
+      ],
+      "measurement": null,
+      "predicate": "has_component",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-1无动力转向系统示意图的图例按13个编号列出机械转向系统组成部件。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k05",
+      "unknowns": [],
+      "value": "图1-1图例13项：转向盘、转向轴（柱）、转向万向节、转向传动轴、转向器、转向摇臂、转向直拉杆、转向节臂、左转向节、梯形臂（10、12）、转向横拉杆、右转向节"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0004",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"部件清单来自图1-2图例编号\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0004\",\"object_id\":null,\"predicate\":\"has_component\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-2与独立悬架配用的转向系统轴测图的图例按7个编号列出组成部件。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k06\",\"unknowns\":[\"图例第5项印刷字形略糊，读作\\\"动力杆\\\"（指向转向器区域）\"],\"value\":\"图1-2图例7项：转向盘、转向轴、转向臂、车轮、动力杆、右横拉杆、转向减震器\"}",
+      "conditions": [
+        "部件清单来自图1-2图例编号"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e3"
+      ],
+      "measurement": null,
+      "predicate": "has_component",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-2与独立悬架配用的转向系统轴测图的图例按7个编号列出组成部件。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k06",
+      "unknowns": [
+        "图例第5项印刷字形略糊，读作\"动力杆\"（指向转向器区域）"
+      ],
+      "value": "图1-2图例7项：转向盘、转向轴、转向臂、车轮、动力杆、右横拉杆、转向减震器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0005",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"部件清单来自图1-3图例编号\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0005\",\"object_id\":null,\"predicate\":\"has_component\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-3动力转向系统示意图的图例按12个编号列出组成部件，其中转向油罐、转向油泵、转向控制阀、转向动力缸为液压助力部件。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k07\",\"value\":\"图1-3图例12项：转向盘、转向轴、转向器、转向摇臂、转向主拉杆、转向节、梯形臂、转向横拉杆、转向油罐、转向油泵、转向控制阀、转向动力缸\"}",
+      "conditions": [
+        "部件清单来自图1-3图例编号"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e1"
+      ],
+      "measurement": null,
+      "predicate": "has_component",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-3动力转向系统示意图的图例按12个编号列出组成部件，其中转向油罐、转向油泵、转向控制阀、转向动力缸为液压助力部件。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k07",
+      "unknowns": [],
+      "value": "图1-3图例12项：转向盘、转向轴、转向器、转向摇臂、转向主拉杆、转向节、梯形臂、转向横拉杆、转向油罐、转向油泵、转向控制阀、转向动力缸"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0006",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0006\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10\",\"predicate\":\"commonly_equipped_with\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q1导语称转向盘（见图1-4和图1-5）内装安全气囊的做法已非常普遍。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10",
+      "predicate": "commonly_equipped_with",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q1导语称转向盘（见图1-4和图1-5）内装安全气囊的做法已非常普遍。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0007",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"SRS相关安全警示，为书中原述\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0007\",\"object_id\":null,\"predicate\":\"safety_rationale\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明检修转向盘和转向柱前必须了解其安全气囊装置的拆卸方法，否则轻者造成器件损坏、重者引起伤人事故。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"不掌握气囊装置拆卸方法时，轻者造成器件损坏，重者引起伤人事故\"}",
+      "conditions": [
+        "SRS相关安全警示，为书中原述"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2"
+      ],
+      "measurement": null,
+      "predicate": "safety_rationale",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明检修转向盘和转向柱前必须了解其安全气囊装置的拆卸方法，否则轻者造成器件损坏、重者引起伤人事故。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "不掌握气囊装置拆卸方法时，轻者造成器件损坏，重者引起伤人事故"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0008",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"位置关系来自图1-4标题及图例编号\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0008\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"predicate\":\"located_in\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-4（时钟发条形状电气接头安装在转向盘下）表明时钟发条形状电气接头位于转向盘下，图中同时标出气囊模块、减震装置（仅用于4轮驱动）、转向盘和转向柱。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"value\":null}",
+      "conditions": [
+        "位置关系来自图1-4标题及图例编号"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "predicate": "located_in",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-4（时钟发条形状电气接头安装在转向盘下）表明时钟发条形状电气接头位于转向盘下，图中同时标出气囊模块、减震装置（仅用于4轮驱动）、转向盘和转向柱。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0009",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"适用范围标注来自图1-4图例括注\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0009\",\"object_id\":null,\"predicate\":\"scope_limitation\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-4图例第2项标注转向盘内的减震装置仅用于4轮驱动车型。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k27\",\"value\":\"仅用于4轮驱动车型\"}",
+      "conditions": [
+        "适用范围标注来自图1-4图例括注"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3"
+      ],
+      "measurement": null,
+      "predicate": "scope_limitation",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-4图例第2项标注转向盘内的减震装置仅用于4轮驱动车型。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k27",
+      "unknowns": [],
+      "value": "仅用于4轮驱动车型"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0010",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0010\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10\",\"predicate\":\"maintains_power\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-5标题表明时钟发条形状电气接头的作用是保持安装气囊的供电。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10",
+      "predicate": "maintains_power",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-5标题表明时钟发条形状电气接头的作用是保持安装气囊的供电。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0011",
+      "@type": "auto:Claim",
+      "applicability": {
+        "vehicle_scope": "书中以\"许多气囊系统\"表述，非单一车型"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"vehicle_scope\":\"书中以\\\"许多气囊系统\\\"表述，非单一车型\"},\"conditions\":[\"SRS安全前提为书中原述\",\"等待时间1min为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0011\",\"object_id\":null,\"predicate\":\"requires_safety_constraint\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中安全前提：拆卸有气囊的转向盘前应先拆下蓄电池负极电缆并等1min，之后才能进行诊断和维修工作。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"拆卸有气囊的转向盘之前，应先拆下蓄电池负极电缆，等1min后才能进行诊断和维修工作\"}",
+      "conditions": [
+        "SRS安全前提为书中原述",
+        "等待时间1min为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2"
+      ],
+      "measurement": null,
+      "predicate": "requires_safety_constraint",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中安全前提：拆卸有气囊的转向盘前应先拆下蓄电池负极电缆并等1min，之后才能进行诊断和维修工作。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "拆卸有气囊的转向盘之前，应先拆下蓄电池负极电缆，等1min后才能进行诊断和维修工作"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0012",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中以\\\"许多气囊系统\\\"限定，非全部车型\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0012\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13\",\"predicate\":\"has_backup_power\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中解释许多气囊系统另有独立的后备供电电源，确保碰撞中汽车电源（蓄电池等）断开后，后备电源仍会提供能量使气囊打开。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12\",\"value\":null}",
+      "conditions": [
+        "书中以\"许多气囊系统\"限定，非全部车型"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13",
+      "predicate": "has_backup_power",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中解释许多气囊系统另有独立的后备供电电源，确保碰撞中汽车电源（蓄电池等）断开后，后备电源仍会提供能量使气囊打开。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0013",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"1min为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0013\",\"object_id\":null,\"predicate\":\"backup_power_discharge_timing\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中给出放电时序：蓄电池负极断开1min后后备电源才断电，此后只要保持蓄电池断开就没有能源可使气囊打开。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13\",\"value\":\"蓄电池负极断开1min后，后备电源才断电；之后保持蓄电池断开状态即没有能源可使气囊打开\"}",
+      "conditions": [
+        "1min为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2"
+      ],
+      "measurement": null,
+      "predicate": "backup_power_discharge_timing",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中给出放电时序：蓄电池负极断开1min后后备电源才断电，此后只要保持蓄电池断开就没有能源可使气囊打开。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13",
+      "unknowns": [],
+      "value": "蓄电池负极断开1min后，后备电源才断电；之后保持蓄电池断开状态即没有能源可使气囊打开"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0014",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0014\",\"object_id\":null,\"predicate\":\"has_function\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明仪表板上的气囊指示灯用于显示气囊系统所处的状态。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14\",\"value\":\"显示气囊系统所处的状态\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3"
+      ],
+      "measurement": null,
+      "predicate": "has_function",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明仪表板上的气囊指示灯用于显示气囊系统所处的状态。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14",
+      "unknowns": [],
+      "value": "显示气囊系统所处的状态"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0015",
+      "@type": "auto:Claim",
+      "applicability": {
+        "vehicle_scope": "指示灯工作状况随车辆型号和生产年代不同而不同（书中明示）"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"vehicle_scope\":\"指示灯工作状况随车辆型号和生产年代不同而不同（书中明示）\"},\"conditions\":[\"书中以\\\"在一些车辆中\\\"限定\",\"点亮时长\\\"几秒钟\\\"与闪烁次数\\\"7~9次\\\"为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0015\",\"object_id\":null,\"predicate\":\"behavior_pattern\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中描述一些车辆气囊指示灯的亮灭模式：点火开关打开后亮几秒钟，起动发动机时不亮，发动机起动后闪7~9次。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14\",\"value\":\"一些车辆：点火开关打开后亮几秒钟；起动发动机时指示灯不亮；发动机起动后会闪7~9次\"}",
+      "conditions": [
+        "书中以\"在一些车辆中\"限定",
+        "点亮时长\"几秒钟\"与闪烁次数\"7~9次\"为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3"
+      ],
+      "measurement": null,
+      "predicate": "behavior_pattern",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中描述一些车辆气囊指示灯的亮灭模式：点火开关打开后亮几秒钟，起动发动机时不亮，发动机起动后闪7~9次。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14",
+      "unknowns": [],
+      "value": "一些车辆：点火开关打开后亮几秒钟；起动发动机时指示灯不亮；发动机起动后会闪7~9次"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0016",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0016\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26\",\"predicate\":\"follow_oem_manual\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中要求气囊指示灯工作状况随车辆型号和生产年代不同而不同，需要仔细查看生产厂家维修手册中关于气囊指示灯工作的部分。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26",
+      "predicate": "follow_oem_manual",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中要求气囊指示灯工作状况随车辆型号和生产年代不同而不同，需要仔细查看生产厂家维修手册中关于气囊指示灯工作的部分。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0017",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中为\\\"可能有故障/可能不打开\\\"的或然表述，未升格为确定因果\"],\"counterexamples\":[\"书中未给出具体故障件，指示灯异常不直接定位单一故障\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0017\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12\",\"predicate\":\"may_indicate\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中指出当气囊指示灯不按生产厂家规定状况工作时，气囊系统可能有故障，会造成汽车发生碰撞时气囊可能不打开（原书保留\\\"可能\\\"措辞）。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14\",\"value\":null}",
+      "conditions": [
+        "书中为\"可能有故障/可能不打开\"的或然表述，未升格为确定因果"
+      ],
+      "counterexamples": [
+        "书中未给出具体故障件，指示灯异常不直接定位单一故障"
+      ],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12",
+      "predicate": "may_indicate",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中指出当气囊指示灯不按生产厂家规定状况工作时，气囊系统可能有故障，会造成汽车发生碰撞时气囊可能不打开（原书保留\"可能\"措辞）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0018",
+      "@type": "auto:Claim",
+      "applicability": {
+        "vehicle_scope": "步骤随车型不同（书中明示）"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"vehicle_scope\":\"步骤随车型不同（书中明示）\"},\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e4\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0018\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26\",\"predicate\":\"follow_oem_manual\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明转向盘以及气囊的拆卸步骤随车型的不同而不同，应按生产厂在维修手册中提供的步骤进行。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e4"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26",
+      "predicate": "follow_oem_manual",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明转向盘以及气囊的拆卸步骤随车型的不同而不同，应按生产厂在维修手册中提供的步骤进行。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0019",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0019\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中(1)典型气囊模块和转向盘拆卸的步骤①为将点火开关转至锁止位置并使前轮笔直向前。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤①：将点火开关转至锁止位置并使前轮笔直向前\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中(1)典型气囊模块和转向盘拆卸的步骤①为将点火开关转至锁止位置并使前轮笔直向前。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤①：将点火开关转至锁止位置并使前轮笔直向前"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0020",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\",\"等待时间1min为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0020\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中(1)典型气囊模块和转向盘拆卸的步骤②为拆下蓄电池负极电缆并等待1min。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤②：拆下蓄电池负极电缆，等待1min\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）",
+        "等待时间1min为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中(1)典型气囊模块和转向盘拆卸的步骤②为拆下蓄电池负极电缆并等待1min。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤②：拆下蓄电池负极电缆，等待1min"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0021",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\",\"自攻螺钉数量3为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0021\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中(1)典型气囊模块和转向盘拆卸的步骤③为松开转向盘下安装气囊的3个自攻螺钉，位置见图1-6箭头所指处。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤③：松开转向盘下安装气囊的3个自攻螺钉（见图1-6箭头所指处）\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）",
+        "自攻螺钉数量3为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中(1)典型气囊模块和转向盘拆卸的步骤③为松开转向盘下安装气囊的3个自攻螺钉，位置见图1-6箭头所指处。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤③：松开转向盘下安装气囊的3个自攻螺钉（见图1-6箭头所指处）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0022",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"数量3来自正文步骤③与图1-6图注\\\"安装气囊的3个螺钉\\\"\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e6\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0022\",\"object_id\":null,\"predicate\":\"fastened_by\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"由步骤③与图1-6可知气囊经3个自攻螺钉安装在转向盘下，图1-6用放大圈和箭头指示螺钉位置及旋出方向。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10\",\"value\":\"3个自攻螺钉（位于转向盘下，位置示意见图1-6）\"}",
+      "conditions": [
+        "数量3来自正文步骤③与图1-6图注\"安装气囊的3个螺钉\""
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e6"
+      ],
+      "measurement": null,
+      "predicate": "fastened_by",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "由步骤③与图1-6可知气囊经3个自攻螺钉安装在转向盘下，图1-6用放大圈和箭头指示螺钉位置及旋出方向。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10",
+      "unknowns": [],
+      "value": "3个自攻螺钉（位于转向盘下，位置示意见图1-6）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0023",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0023\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中步骤④为从转向盘上拉出气囊控制单元（也称转向盘垫），再拆下模块的电气接头。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤④：从转向盘上拉出气囊控制单元（气囊控制单元也称为转向盘垫），再拆下模块的电气接头（见图1-7）\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中步骤④为从转向盘上拉出气囊控制单元（也称转向盘垫），再拆下模块的电气接头。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤④：从转向盘上拉出气囊控制单元（气囊控制单元也称为转向盘垫），再拆下模块的电气接头（见图1-7）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0024",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"SRS操作禁忌，为书中原述\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0024\",\"object_id\":null,\"predicate\":\"prohibited_action\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中在拆卸步骤④处明确不能拽转向柱中的电线。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"拆卸过程中不能拽转向柱中的电线\"}",
+      "conditions": [
+        "SRS操作禁忌，为书中原述"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1"
+      ],
+      "measurement": null,
+      "predicate": "prohibited_action",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中在拆卸步骤④处明确不能拽转向柱中的电线。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "拆卸过程中不能拽转向柱中的电线"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0025",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"SRS部件放置安全要求，为书中原述\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0025\",\"object_id\":null,\"predicate\":\"handling_requirement\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中要求拆下的气囊模块面朝上放在工作台上。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11\",\"value\":\"拆下后将模块面朝上放在工作台上\"}",
+      "conditions": [
+        "SRS部件放置安全要求，为书中原述"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1"
+      ],
+      "measurement": null,
+      "predicate": "handling_requirement",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中要求拆下的气囊模块面朝上放在工作台上。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11",
+      "unknowns": [],
+      "value": "拆下后将模块面朝上放在工作台上"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0026",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0026\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中步骤⑤为拆下转向盘内的气囊线束固定卡。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤⑤：拆下转向盘内的气囊线束固定卡（见图1-8）\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e2"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中步骤⑤为拆下转向盘内的气囊线束固定卡。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤⑤：拆下转向盘内的气囊线束固定卡（见图1-8）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0027",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0027\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中步骤⑥为用套筒扳手和棘轮杆拆下转向盘固定螺母。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤⑥：用套筒扳手和棘轮杆拆下转向盘固定螺母\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e3"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中步骤⑥为用套筒扳手和棘轮杆拆下转向盘固定螺母。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤⑥：用套筒扳手和棘轮杆拆下转向盘固定螺母"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0028",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e4\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0028\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28\",\"predicate\":\"connected_via\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-7示拆下气囊模块电气接头的作业，放大圈内用箭头指示接头脱开方向，表明气囊控制单元经电气接头连接。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e4"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28",
+      "predicate": "connected_via",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-7示拆下气囊模块电气接头的作业，放大圈内用箭头指示接头脱开方向，表明气囊控制单元经电气接头连接。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0029",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e5\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0029\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"predicate\":\"located_in\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-8示拆下气囊线束固定卡，图中标注1为电气接头、2为气囊线束，二者位于转向盘内。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e5"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "predicate": "located_in",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-8示拆下气囊线束固定卡，图中标注1为电气接头、2为气囊线束，二者位于转向盘内。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0030",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0030\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中步骤⑦要求注意转向盘和转向轴上的配合对正记号，没有记号时用冲心錾和手锤做记号。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤⑦：注意转向盘和转向轴上相配合的对正记号；如无对正记号，用冲心錾和手锤在转向盘和转向轴上做出记号\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e1"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中步骤⑦要求注意转向盘和转向轴上的配合对正记号，没有记号时用冲心錾和手锤做记号。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤⑦：注意转向盘和转向轴上相配合的对正记号；如无对正记号，用冲心錾和手锤在转向盘和转向轴上做出记号"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0031",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0031\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中步骤⑧为用拉器将转向盘卸下。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤⑧：用拉器将转向盘卸下（见图1-9）\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中步骤⑧为用拉器将转向盘卸下。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤⑧：用拉器将转向盘卸下（见图1-9）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0032",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"判废准则为书中原述，未给出量化限值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0032\",\"object_id\":null,\"predicate\":\"inspection_rule\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中要求转向盘卸下后检查其状况，若弯曲或断裂须更换。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"value\":\"转向盘卸下后检查其状况；如转向盘弯曲或断裂，须更换\"}",
+      "conditions": [
+        "判废准则为书中原述，未给出量化限值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2"
+      ],
+      "measurement": null,
+      "predicate": "inspection_rule",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中要求转向盘卸下后检查其状况，若弯曲或断裂须更换。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "unknowns": [],
+      "value": "转向盘卸下后检查其状况；如转向盘弯曲或断裂，须更换"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0033",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0033\",\"object_id\":null,\"predicate\":\"removal_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中步骤⑨为拆下固定时钟发条形状电气接头的紧固螺钉并取下接头。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"典型气囊模块和转向盘拆卸步骤⑨：拆下固定时钟发条形状电气接头的紧固螺钉，取下接头（见图1-10）\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e3"
+      ],
+      "measurement": null,
+      "predicate": "removal_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中步骤⑨为拆下固定时钟发条形状电气接头的紧固螺钉并取下接头。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "典型气囊模块和转向盘拆卸步骤⑨：拆下固定时钟发条形状电气接头的紧固螺钉，取下接头（见图1-10）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0034",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"图1-10图例9项，部件清单仅表示图中示出\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e4\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0034\",\"object_id\":null,\"predicate\":\"fastened_by\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-10拆卸时钟发条形状接头的分解图示出接头由紧固螺钉固定，图中同时示出变光和转向信号灯开关、开关壳体、刮水器和洗涤器开关、电线盖、球固定板、球、弹簧、灯光控制开关等周边部件。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"value\":\"紧固螺钉（图1-10分解图示出）\"}",
+      "conditions": [
+        "图1-10图例9项，部件清单仅表示图中示出"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e4"
+      ],
+      "measurement": null,
+      "predicate": "fastened_by",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-10拆卸时钟发条形状接头的分解图示出接头由紧固螺钉固定，图中同时示出变光和转向信号灯开关、开关壳体、刮水器和洗涤器开关、电线盖、球固定板、球、弹簧、灯光控制开关等周边部件。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "unknowns": [],
+      "value": "紧固螺钉（图1-10分解图示出）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0035",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"SRS安全前提为书中原述\",\"等待时间1min为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0035\",\"object_id\":null,\"predicate\":\"requires_safety_constraint\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"拆卸注意事项①重申：诊断和修理任何与气囊系统相关零件前应先拆下蓄电池负极，一定要等1min后再工作，否则气囊会意外地打开。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"在诊断和修理任何与气囊系统相关的零件前，应先拆下蓄电池的负极，一定要等1min后再工作，否则气囊会意外地打开\"}",
+      "conditions": [
+        "SRS安全前提为书中原述",
+        "等待时间1min为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1"
+      ],
+      "measurement": null,
+      "predicate": "requires_safety_constraint",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "拆卸注意事项①重申：诊断和修理任何与气囊系统相关零件前应先拆下蓄电池负极，一定要等1min后再工作，否则气囊会意外地打开。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "在诊断和修理任何与气囊系统相关的零件前，应先拆下蓄电池的负极，一定要等1min后再工作，否则气囊会意外地打开"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0036",
+      "@type": "auto:Claim",
+      "applicability": {
+        "vehicle_scope": "注意事项随车辆不同（书中明示）"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"vehicle_scope\":\"注意事项随车辆不同（书中明示）\"},\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0036\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26\",\"predicate\":\"follow_oem_manual\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"拆卸注意事项②说明气囊维修的注意事项随着车辆的不同而不同，应按生产厂家维修手册中规定的气囊维修步骤进行。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26",
+      "predicate": "follow_oem_manual",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "拆卸注意事项②说明气囊维修的注意事项随着车辆的不同而不同，应按生产厂家维修手册中规定的气囊维修步骤进行。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0037",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"SRS禁止工具清单为书中原述\",\"12V为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0037\",\"object_id\":null,\"predicate\":\"prohibited_tool\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"拆卸注意事项③规定诊断维修气囊车辆的气囊系统或电子系统时应用生产厂家推荐的工具，不要用诸如12V的检测灯或带自备电源的检测灯来诊断气囊系统，工具使用不当会造成气囊的意外打开。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"不要用诸如12V的检测灯或带自备电源的检测灯来诊断气囊系统；应使用生产厂家推荐的工具\"}",
+      "conditions": [
+        "SRS禁止工具清单为书中原述",
+        "12V为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1"
+      ],
+      "measurement": null,
+      "predicate": "prohibited_tool",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "拆卸注意事项③规定诊断维修气囊车辆的气囊系统或电子系统时应用生产厂家推荐的工具，不要用诸如12V的检测灯或带自备电源的检测灯来诊断气囊系统，工具使用不当会造成气囊的意外打开。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "不要用诸如12V的检测灯或带自备电源的检测灯来诊断气囊系统；应使用生产厂家推荐的工具"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0038",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0038\",\"object_id\":null,\"predicate\":\"precaution_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"拆卸注意事项④要求拆蓄电池负极电缆前记住收音机各操作步骤，重新接上后重新调整收音机和时钟。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"在拆卸蓄电池负极电缆线之前，注意记住调整收音机的各个操作步骤，并在蓄电池负极电缆重新接上后，重新调整收音机和时钟\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1"
+      ],
+      "measurement": null,
+      "predicate": "precaution_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "拆卸注意事项④要求拆蓄电池负极电缆前记住收音机各操作步骤，重新接上后重新调整收音机和时钟。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "在拆卸蓄电池负极电缆线之前，注意记住调整收音机的各个操作步骤，并在蓄电池负极电缆重新接上后，重新调整收音机和时钟"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0039",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"SRS部件放置安全要求，为书中原述\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0039\",\"object_id\":null,\"predicate\":\"handling_requirement\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"拆卸注意事项⑤要求气囊单元暂放工作台上时模块面朝上放置，否则气囊可能弹出伤人（原书保留\\\"可能\\\"）。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11\",\"value\":\"气囊单元暂时放在工作台上时，应将模块面朝上放置，否则气囊可能会弹出伤人\"}",
+      "conditions": [
+        "SRS部件放置安全要求，为书中原述"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1"
+      ],
+      "measurement": null,
+      "predicate": "handling_requirement",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "拆卸注意事项⑤要求气囊单元暂放工作台上时模块面朝上放置，否则气囊可能弹出伤人（原书保留\"可能\"）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11",
+      "unknowns": [],
+      "value": "气囊单元暂时放在工作台上时，应将模块面朝上放置，否则气囊可能会弹出伤人"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0040",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"操作禁忌，为书中原述\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0040\",\"object_id\":null,\"predicate\":\"prohibited_action\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"拆卸注意事项⑥禁止用手锤敲打转向轴顶部来拆卸转向盘，指出这样会损坏转向轴。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"value\":\"不要用手锤敲打转向轴顶部来拆卸转向盘，这样会损坏转向轴\"}",
+      "conditions": [
+        "操作禁忌，为书中原述"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1"
+      ],
+      "measurement": null,
+      "predicate": "prohibited_action",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "拆卸注意事项⑥禁止用手锤敲打转向轴顶部来拆卸转向盘，指出这样会损坏转向轴。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "unknowns": [],
+      "value": "不要用手锤敲打转向轴顶部来拆卸转向盘，这样会损坏转向轴"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0041",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\",\"卷紧方向逆时针为书中原述\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0041\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤①为确保前轮笔直向前方向，用手按逆时针方向卷紧时钟发条形状的电气接头。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤①：确保前轮笔直向前方向，用手卷紧（逆时针方向）时钟发条形状的电气接头\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）",
+        "卷紧方向逆时针为书中原述"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤①为确保前轮笔直向前方向，用手按逆时针方向卷紧时钟发条形状的电气接头。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤①：确保前轮笔直向前方向，用手卷紧（逆时针方向）时钟发条形状的电气接头"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0042",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\",\"顺时针松开3圈为书中原值\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0042\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤②为将时钟发条形状电气接头顺时针松开3圈，并把接头中部表面的红色记号与电缆圆周上的槽对准，此为接头的对中方式。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤②：将时钟发条形状电气接头顺时针松开3圈，并将其中部表面的红色记号（见图1-11）与电缆圆周上的槽对准（此即时钟发条形状接头的对中方式）\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）",
+        "顺时针松开3圈为书中原值"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤②为将时钟发条形状电气接头顺时针松开3圈，并把接头中部表面的红色记号与电缆圆周上的槽对准，此为接头的对中方式。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤②：将时钟发条形状电气接头顺时针松开3圈，并将其中部表面的红色记号（见图1-11）与电缆圆周上的槽对准（此即时钟发条形状接头的对中方式）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0043",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"失效后果为书中原述\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0043\",\"object_id\":null,\"predicate\":\"hazard_risk\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中警告若时钟发条形状接头对中不当，转向盘左转、右转到底时会把接头拉断。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"value\":\"对中不当时，转向盘左转、右转到底会将时钟发条形状电气接头拉断\"}",
+      "conditions": [
+        "失效后果为书中原述"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2"
+      ],
+      "measurement": null,
+      "predicate": "hazard_risk",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中警告若时钟发条形状接头对中不当，转向盘左转、右转到底时会把接头拉断。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "unknowns": [],
+      "value": "对中不当时，转向盘左转、右转到底会将时钟发条形状电气接头拉断"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0044",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0044\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"predicate\":\"located_on\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-11（时钟发条形状电气接头的对中）标出接头中部表面的红色记号位置，图例1为红色记号、2为接头线束、3为时钟发条形状电器接头。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "predicate": "located_on",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-11（时钟发条形状电气接头的对中）标出接头中部表面的红色记号位置，图例1为红色记号、2为接头线束、3为时钟发条形状电器接头。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0045",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0045\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤③为接好时钟发条形状电气接头并拧紧固定螺钉。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤③：接好时钟发条形状电气接头，并将固定螺钉拧紧\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤③为接好时钟发条形状电气接头并拧紧固定螺钉。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤③：接好时钟发条形状电气接头，并将固定螺钉拧紧"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0046",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0046\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤④为将转向盘与转向轴上的记号对准后安好转向盘。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤④：转向盘与转向轴上的记号对准后，安好转向盘\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤④为将转向盘与转向轴上的记号对准后安好转向盘。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤④：转向盘与转向轴上的记号对准后，安好转向盘"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0047",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0047\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤⑤为将转向盘固定螺母拧至规定力矩。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"unknowns\":[\"书中未给出规定力矩的具体数值\"],\"value\":\"带安全气囊转向盘安装步骤⑤：将转向盘固定螺母拧至规定力矩\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤⑤为将转向盘固定螺母拧至规定力矩。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [
+        "书中未给出规定力矩的具体数值"
+      ],
+      "value": "带安全气囊转向盘安装步骤⑤：将转向盘固定螺母拧至规定力矩"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0048",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0048\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤⑥为将气囊导线固定架装在转向盘内。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤⑥：将气囊导线固定架装在转向盘内\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤⑥为将气囊导线固定架装在转向盘内。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤⑥：将气囊导线固定架装在转向盘内"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0049",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\",\"⑦句跨页续行（printed 6 末行接 printed 7 首行）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\",\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0049\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤⑦为将气囊控制单元放在转向盘顶部、连接气囊模块接头、安装并拧紧固定气囊的自攻螺钉（⑦跨printed 6~7两页连读）。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤⑦：将气囊控制单元放在转向盘顶部，连接气囊模块接头，安装并拧紧固定气囊的自攻螺钉\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）",
+        "⑦句跨页续行（printed 6 末行接 printed 7 首行）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2",
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤⑦为将气囊控制单元放在转向盘顶部、连接气囊模块接头、安装并拧紧固定气囊的自攻螺钉（⑦跨printed 6~7两页连读）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤⑦：将气囊控制单元放在转向盘顶部，连接气囊模块接头，安装并拧紧固定气囊的自攻螺钉"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0050",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0050\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤⑧为接好蓄电池的负极电缆。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤⑧：接好蓄电池的负极电缆\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤⑧为接好蓄电池的负极电缆。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤⑧：接好蓄电池的负极电缆"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0051",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中维修手册式操作步骤（车型相关）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0051\",\"object_id\":null,\"predicate\":\"installation_step\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q2安装步骤⑨为调整收音机和时钟。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02\",\"value\":\"带安全气囊转向盘安装步骤⑨：调整收音机和时钟\"}",
+      "conditions": [
+        "书中维修手册式操作步骤（车型相关）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1"
+      ],
+      "measurement": null,
+      "predicate": "installation_step",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q2安装步骤⑨为调整收音机和时钟。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k02",
+      "unknowns": [],
+      "value": "带安全气囊转向盘安装步骤⑨：调整收音机和时钟"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0052",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0052\",\"object_id\":null,\"predicate\":\"requires_attention\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"Q3导语指出安装带气囊转向盘时，除做好时钟发条形状电气连接件的对中外，还要注意转向盘位置和相关各开关的正确安装。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k03\",\"value\":\"除将时钟发条形状的电气连接件做好对中外，还要注意转向盘的位置和与转向盘相关的各个开关的正确安装\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2"
+      ],
+      "measurement": null,
+      "predicate": "requires_attention",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "Q3导语指出安装带气囊转向盘时，除做好时钟发条形状电气连接件的对中外，还要注意转向盘位置和相关各开关的正确安装。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k03",
+      "unknowns": [],
+      "value": "除将时钟发条形状的电气连接件做好对中外，还要注意转向盘的位置和与转向盘相关的各个开关的正确安装"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0053",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0053\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09\",\"predicate\":\"connected_by\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明转向盘通过花键与上部转向轴连接，并用螺母将转向盘固定在轴上。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"value\":\"通过花键连接，并用螺母将转向盘固定在轴上\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09",
+      "predicate": "connected_by",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明转向盘通过花键与上部转向轴连接，并用螺母将转向盘固定在轴上。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "unknowns": [],
+      "value": "通过花键连接，并用螺母将转向盘固定在轴上"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0054",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中以\\\"大多数\\\"限定，非全部车型\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0054\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19\",\"predicate\":\"has_alignment_mark\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明大多数转向盘与轴有对准标志，安装时必须对准。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"value\":null}",
+      "conditions": [
+        "书中以\"大多数\"限定，非全部车型"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19",
+      "predicate": "has_alignment_mark",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明大多数转向盘与轴有对准标志，安装时必须对准。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0055",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中以\\\"多安装在\\\"限定为常见布置\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0055\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21\",\"predicate\":\"located_in\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明点火开关的固定柱筒多安装在转向柱壳体右上侧，点火开关用螺栓固定在柱筒壳体下侧。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16\",\"value\":\"固定柱筒多安装在转向柱壳体的右上侧，点火开关用螺栓固定在柱筒壳体的下侧（见图1-12）\"}",
+      "conditions": [
+        "书中以\"多安装在\"限定为常见布置"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21",
+      "predicate": "located_in",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明点火开关的固定柱筒多安装在转向柱壳体右上侧，点火开关用螺栓固定在柱筒壳体下侧。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16",
+      "unknowns": [],
+      "value": "固定柱筒多安装在转向柱壳体的右上侧，点火开关用螺栓固定在柱筒壳体的下侧（见图1-12）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0056",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"部件清单来自图1-12图例编号\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e3\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0056\",\"object_id\":null,\"predicate\":\"shown_in\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-12示出点火开关与点火开关固定柱筒在转向柱上的位置，图例按7个编号标注。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16\",\"value\":\"图1-12 点火开关与点火开关固定柱筒的位置；图例7项：转向盘、上盖、下盖、钥匙、钥匙放松按钮、点火开关触点、上万向节\"}",
+      "conditions": [
+        "部件清单来自图1-12图例编号"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e3"
+      ],
+      "measurement": null,
+      "predicate": "shown_in",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-12示出点火开关与点火开关固定柱筒在转向柱上的位置，图例按7个编号标注。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16",
+      "unknowns": [],
+      "value": "图1-12 点火开关与点火开关固定柱筒的位置；图例7项：转向盘、上盖、下盖、钥匙、钥匙放松按钮、点火开关触点、上万向节"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0057",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0057\",\"object_id\":null,\"predicate\":\"has_component\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明转向灯开关、报警开关、前照灯变光开关及刮水器开关（或统称组合开关）由一个控制手柄操纵，安装在转向盘下方。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22\",\"value\":\"转向灯开关、报警开关、前照灯变光开关以及刮水器开关（或统称组合开关），由一个控制手柄操纵，安装位置在转向盘下方（见图1-13）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2"
+      ],
+      "measurement": null,
+      "predicate": "has_component",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明转向灯开关、报警开关、前照灯变光开关及刮水器开关（或统称组合开关）由一个控制手柄操纵，安装在转向盘下方。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22",
+      "unknowns": [],
+      "value": "转向灯开关、报警开关、前照灯变光开关以及刮水器开关（或统称组合开关），由一个控制手柄操纵，安装位置在转向盘下方（见图1-13）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0058",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"部件清单来自图1-13图例编号\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e4\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0058\",\"object_id\":null,\"predicate\":\"shown_in\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-13示出组合开关总成，图例按9个编号标注组成部件。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22\",\"value\":\"图1-13 转向、报警、变光及刮水器开关（组合开关）；图例9项：点火开关触点、变光开关、推杆、钥匙筒、刮水器开关、点火开关钥匙、手柄、转向灯开关、报警灯开关\"}",
+      "conditions": [
+        "部件清单来自图1-13图例编号"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e4"
+      ],
+      "measurement": null,
+      "predicate": "shown_in",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-13示出组合开关总成，图例按9个编号标注组成部件。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k22",
+      "unknowns": [],
+      "value": "图1-13 转向、报警、变光及刮水器开关（组合开关）；图例9项：点火开关触点、变光开关、推杆、钥匙筒、刮水器开关、点火开关钥匙、手柄、转向灯开关、报警灯开关"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0059",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"书中以\\\"如果\\\"限定为带转向柱变速操纵+联锁装置的配置\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0059\",\"object_id\":null,\"predicate\":\"connected_via\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明若变速操纵杆装在转向柱内且带联锁（防盗）装置，转向柱下端用从变速器接出的圆管状控制杆经组合传动机构与变速操纵杆相连。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k23\",\"value\":\"变速操纵杆也装在转向柱内且带联锁（防盗）装置时，转向柱下端将从变速器接出的圆管状控制杆经组合传动机构与转向柱上的变速操纵杆相连\"}",
+      "conditions": [
+        "书中以\"如果\"限定为带转向柱变速操纵+联锁装置的配置"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2"
+      ],
+      "measurement": null,
+      "predicate": "connected_via",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明若变速操纵杆装在转向柱内且带联锁（防盗）装置，转向柱下端用从变速器接出的圆管状控制杆经组合传动机构与变速操纵杆相连。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k23",
+      "unknowns": [],
+      "value": "变速操纵杆也装在转向柱内且带联锁（防盗）装置时，转向柱下端将从变速器接出的圆管状控制杆经组合传动机构与转向柱上的变速操纵杆相连"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0060",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"触发条件为驻车位置+点火开关关断（书中原述）\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0060\",\"object_id\":null,\"predicate\":\"interlock_condition\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中说明联锁板固定在上部转向轴上，变速器在驻车位置且点火开关关断时，变速操纵杆与联锁板凸齿啮合从而锁死转向盘和变速器。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k24\",\"value\":\"联锁板固定在上部转向轴上；当变速器在驻车位置、点火开关在关断位置时，变速操纵杆与联锁板上凸齿啮合，锁死转向盘和变速器（如图1-14所示）\"}",
+      "conditions": [
+        "触发条件为驻车位置+点火开关关断（书中原述）"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2"
+      ],
+      "measurement": null,
+      "predicate": "interlock_condition",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中说明联锁板固定在上部转向轴上，变速器在驻车位置且点火开关关断时，变速操纵杆与联锁板凸齿啮合从而锁死转向盘和变速器。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k24",
+      "unknowns": [],
+      "value": "联锁板固定在上部转向轴上；当变速器在驻车位置、点火开关在关断位置时，变速操纵杆与联锁板上凸齿啮合，锁死转向盘和变速器（如图1-14所示）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0061",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[\"图与图例按横向排印（旋转90°）核读\",\"部件清单来自图1-14图例编号，仅表示图中示出\"],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p22:e1\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0061\",\"object_id\":null,\"predicate\":\"shown_in\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-14为带有联锁板的转向柱上部的整页分解图（横向排印，经旋转核读），图例列出各编号零件名称。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k25\",\"value\":\"图1-14 带有联锁板的转向柱上部（横向排印）；图例：1、5、7、19、22、25、28、30、34、35.螺钉；2.转向灯开关总成；3.轴承；4.轴承座；6.点火开关拉杆；8.拐柄；9、26.手柄；10.弹簧；11.弹簧安装位置；12.锁壳；13.手柄总成；14、20.壳体；15.锁板弹簧；16.转向轴；17.锁板；18.套管总成；21.指针；23.锁壳；24.锁壳盖；27.点火开关联动杆；29.变速器手柄出口；31.弹簧；32.柱塞；33.钥匙灯\"}",
+      "conditions": [
+        "图与图例按横向排印（旋转90°）核读",
+        "部件清单来自图1-14图例编号，仅表示图中示出"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p22:e1"
+      ],
+      "measurement": null,
+      "predicate": "shown_in",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-14为带有联锁板的转向柱上部的整页分解图（横向排印，经旋转核读），图例列出各编号零件名称。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k25",
+      "unknowns": [],
+      "value": "图1-14 带有联锁板的转向柱上部（横向排印）；图例：1、5、7、19、22、25、28、30、34、35.螺钉；2.转向灯开关总成；3.轴承；4.轴承座；6.点火开关拉杆；8.拐柄；9、26.手柄；10.弹簧；11.弹簧安装位置；12.锁壳；13.手柄总成；14、20.壳体；15.锁板弹簧；16.转向轴；17.锁板；18.套管总成；21.指针；23.锁壳；24.锁壳盖；27.点火开关联动杆；29.变速器手柄出口；31.弹簧；32.柱塞；33.钥匙灯"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0062",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"conditions\":[],\"evidence_ids\":[\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e5\"],\"id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0062\",\"object_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"predicate\":\"used_for\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-9示用拉器拆下转向盘的作业，图例1为拉器、2为配合记号。\",\"subject_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18\",\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e5"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "predicate": "used_for",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-9示用拉器拆下转向盘的作业，图例1为拉器、2为配合记号。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e1\",\"locator\":\"章标题下两行导语正文段（页面上部）\",\"observation_summary\":\"章首导语概括转向系统的改向功能及其对行驶安全、轮胎寿命和油耗的意义。\",\"pdf_page_index\":15,\"printed_page_label\":null,\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "章标题下两行导语正文段（页面上部）",
+      "observationSummary": "章首导语概括转向系统的改向功能及其对行驶安全、轮胎寿命和油耗的意义。",
+      "pdfPageIndex": 15,
+      "printedPageLabel": null,
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e2",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F15-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F15-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e2\",\"locator\":\"页面上部图1-1 无动力转向系统示意图及右侧竖排图例、图注\",\"observation_summary\":\"图1-1以13个编号图例列出机械转向系统从转向盘到左右转向节的组成部件。\",\"pdf_page_index\":15,\"printed_page_label\":null,\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面上部图1-1 无动力转向系统示意图及右侧竖排图例、图注",
+      "observationSummary": "图1-1以13个编号图例列出机械转向系统从转向盘到左右转向节的组成部件。",
+      "pdfPageIndex": 15,
+      "printedPageLabel": null,
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F15-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F15-2\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p15:e3\",\"locator\":\"页面下部图1-2 与独立悬架配用的转向系统及图例、图注\",\"observation_summary\":\"图1-2以7个编号图例示出独立悬架车型带转向减震器的转向系统布置。\",\"pdf_page_index\":15,\"printed_page_label\":null,\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面下部图1-2 与独立悬架配用的转向系统及图例、图注",
+      "observationSummary": "图1-2以7个编号图例示出独立悬架车型带转向减震器的转向系统布置。",
+      "pdfPageIndex": 15,
+      "printedPageLabel": null,
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F16-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F16-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e1\",\"locator\":\"页眉下大幅图1-3 动力转向系统示意图及图注、图例\",\"observation_summary\":\"图1-3以12个编号图例列出动力转向系统组成，含油罐、油泵、控制阀、动力缸四个液压部件。\",\"pdf_page_index\":16,\"printed_page_label\":\"2\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页眉下大幅图1-3 动力转向系统示意图及图注、图例",
+      "observationSummary": "图1-3以12个编号图例列出动力转向系统组成，含油罐、油泵、控制阀、动力缸四个液压部件。",
+      "pdfPageIndex": 16,
+      "printedPageLabel": "2",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e2\",\"locator\":\"页面下部Q1问题标题“1．如何拆卸带安全气囊的转向盘？”及其后导语段\",\"observation_summary\":\"Q1导语说明气囊转向盘已普遍，检修转向盘和转向柱前必须掌握气囊装置拆卸方法以免损坏器件或伤人。\",\"pdf_page_index\":16,\"printed_page_label\":\"2\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面下部Q1问题标题“1．如何拆卸带安全气囊的转向盘？”及其后导语段",
+      "observationSummary": "Q1导语说明气囊转向盘已普遍，检修转向盘和转向柱前必须掌握气囊装置拆卸方法以免损坏器件或伤人。",
+      "pdfPageIndex": 16,
+      "printedPageLabel": "2",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F16-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F16-2\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p16:e3\",\"locator\":\"页面底部图1-4 时钟发条形状电气接头安装在转向盘下及图例、图注\",\"observation_summary\":\"图1-4分解示出转向盘下的气囊模块、仅用于4轮驱动的减震装置、时钟发条形状电气接头与转向柱。\",\"pdf_page_index\":16,\"printed_page_label\":\"2\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面底部图1-4 时钟发条形状电气接头安装在转向盘下及图例、图注",
+      "observationSummary": "图1-4分解示出转向盘下的气囊模块、仅用于4轮驱动的减震装置、时钟发条形状电气接头与转向柱。",
+      "pdfPageIndex": 16,
+      "printedPageLabel": "2",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F17-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F17-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e1\",\"locator\":\"页眉下图1-5及图注\",\"observation_summary\":\"图1-5标题指出时钟发条形状电气接头用于保持安装气囊的供电，图中示出转向柱上的时钟弹簧总成。\",\"pdf_page_index\":17,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页眉下图1-5及图注",
+      "observationSummary": "图1-5标题指出时钟发条形状电气接头用于保持安装气囊的供电，图中示出转向柱上的时钟弹簧总成。",
+      "pdfPageIndex": 17,
+      "printedPageLabel": "3",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e2\",\"locator\":\"图1-5下第一段正文（蓄电池负极电缆、等待1min、后备供电电源机理）\",\"observation_summary\":\"该段给出气囊拆卸安全前提：先断蓄电池负极并等1min，原因是气囊系统带独立后备电源，断负极1min后后备电源才断电。\",\"pdf_page_index\":17,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图1-5下第一段正文（蓄电池负极电缆、等待1min、后备供电电源机理）",
+      "observationSummary": "该段给出气囊拆卸安全前提：先断蓄电池负极并等1min，原因是气囊系统带独立后备电源，断负极1min后后备电源才断电。",
+      "pdfPageIndex": 17,
+      "printedPageLabel": "3",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e3\",\"locator\":\"第二段正文（仪表板气囊指示灯状态与亮灭模式）\",\"observation_summary\":\"该段描述气囊指示灯的状态显示功能、一些车辆点火后亮几秒/起动后闪7~9次的模式，并要求按厂家手册核对，灯况异常时系统可能有故障。\",\"pdf_page_index\":17,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "第二段正文（仪表板气囊指示灯状态与亮灭模式）",
+      "observationSummary": "该段描述气囊指示灯的状态显示功能、一些车辆点火后亮几秒/起动后闪7~9次的模式，并要求按厂家手册核对，灯况异常时系统可能有故障。",
+      "pdfPageIndex": 17,
+      "printedPageLabel": "3",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e4",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e4\",\"locator\":\"第三段正文（转向盘及气囊拆卸步骤随车型不同）\",\"observation_summary\":\"该段声明气囊转向盘拆卸步骤因车型而异，应以生产厂家维修手册步骤为准。\",\"pdf_page_index\":17,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "第三段正文（转向盘及气囊拆卸步骤随车型不同）",
+      "observationSummary": "该段声明气囊转向盘拆卸步骤因车型而异，应以生产厂家维修手册步骤为准。",
+      "pdfPageIndex": 17,
+      "printedPageLabel": "3",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e5\",\"locator\":\"左下小节“(1)典型气囊模块和转向盘拆卸”步骤①②③文字块\",\"observation_summary\":\"该小节列出拆卸前三步：点火开关锁止且前轮摆正、断蓄电池负极等1min、松开转向盘下3个自攻螺钉。\",\"pdf_page_index\":17,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "左下小节“(1)典型气囊模块和转向盘拆卸”步骤①②③文字块",
+      "observationSummary": "该小节列出拆卸前三步：点火开关锁止且前轮摆正、断蓄电池负极等1min、松开转向盘下3个自攻螺钉。",
+      "pdfPageIndex": 17,
+      "printedPageLabel": "3",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e6",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F17-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F17-2\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p17:e6\",\"locator\":\"右下图1-6 安装气囊的3个螺钉及图注\",\"observation_summary\":\"图1-6在转向盘背面视图上用放大圈和箭头指示安装气囊的3个螺钉位置及旋出方向。\",\"pdf_page_index\":17,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "右下图1-6 安装气囊的3个螺钉及图注",
+      "observationSummary": "图1-6在转向盘背面视图上用放大圈和箭头指示安装气囊的3个螺钉位置及旋出方向。",
+      "pdfPageIndex": 17,
+      "printedPageLabel": "3",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e1\",\"locator\":\"页眉下步骤④段（拉出气囊控制单元、拆电气接头、禁止拽线、面朝上放置）\",\"observation_summary\":\"步骤④段说明拉出气囊控制单元（又称转向盘垫）并拆其电气接头，途中不得拽转向柱电线，拆下后模块面朝上放置。\",\"pdf_page_index\":18,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页眉下步骤④段（拉出气囊控制单元、拆电气接头、禁止拽线、面朝上放置）",
+      "observationSummary": "步骤④段说明拉出气囊控制单元（又称转向盘垫）并拆其电气接头，途中不得拽转向柱电线，拆下后模块面朝上放置。",
+      "pdfPageIndex": 18,
+      "printedPageLabel": "4",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e2\",\"locator\":\"图1-7下方步骤⑤句\",\"observation_summary\":\"步骤⑤要求拆下转向盘内的气囊线束固定卡。\",\"pdf_page_index\":18,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图1-7下方步骤⑤句",
+      "observationSummary": "步骤⑤要求拆下转向盘内的气囊线束固定卡。",
+      "pdfPageIndex": 18,
+      "printedPageLabel": "4",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e3",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e3\",\"locator\":\"页面末行步骤⑥句\",\"observation_summary\":\"步骤⑥规定用套筒扳手和棘轮杆拆下转向盘固定螺母。\",\"pdf_page_index\":18,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面末行步骤⑥句",
+      "observationSummary": "步骤⑥规定用套筒扳手和棘轮杆拆下转向盘固定螺母。",
+      "pdfPageIndex": 18,
+      "printedPageLabel": "4",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e4",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F18-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F18-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e4\",\"locator\":\"页面中部图1-7 拆下气囊模块电气接头及图注\",\"observation_summary\":\"图1-7在驾驶侧视图上以放大圈箭头示出气囊模块电气接头的脱开方向。\",\"pdf_page_index\":18,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面中部图1-7 拆下气囊模块电气接头及图注",
+      "observationSummary": "图1-7在驾驶侧视图上以放大圈箭头示出气囊模块电气接头的脱开方向。",
+      "pdfPageIndex": 18,
+      "printedPageLabel": "4",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e5",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F18-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F18-2\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p18:e5\",\"locator\":\"页面下部图1-8 拆下气囊线束固定卡及图例、图注\",\"observation_summary\":\"图1-8示转向盘内的电气接头（1）与气囊线束（2）及固定卡位置。\",\"pdf_page_index\":18,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面下部图1-8 拆下气囊线束固定卡及图例、图注",
+      "observationSummary": "图1-8示转向盘内的电气接头（1）与气囊线束（2）及固定卡位置。",
+      "pdfPageIndex": 18,
+      "printedPageLabel": "4",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e1\",\"locator\":\"页眉下步骤⑦段（转向盘与转向轴对正记号）\",\"observation_summary\":\"步骤⑦段要求核对转向盘与转向轴的对正记号，缺记号时用冲心錾和手锤补做。\",\"pdf_page_index\":19,\"printed_page_label\":\"5\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页眉下步骤⑦段（转向盘与转向轴对正记号）",
+      "observationSummary": "步骤⑦段要求核对转向盘与转向轴的对正记号，缺记号时用冲心錾和手锤补做。",
+      "pdfPageIndex": 19,
+      "printedPageLabel": "5",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e2\",\"locator\":\"步骤⑧段（拉器卸转向盘及弯曲断裂判废检查）\",\"observation_summary\":\"步骤⑧段规定用拉器卸下转向盘，并检查其状况，弯曲或断裂即更换。\",\"pdf_page_index\":19,\"printed_page_label\":\"5\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "步骤⑧段（拉器卸转向盘及弯曲断裂判废检查）",
+      "observationSummary": "步骤⑧段规定用拉器卸下转向盘，并检查其状况，弯曲或断裂即更换。",
+      "pdfPageIndex": 19,
+      "printedPageLabel": "5",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e3",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e3\",\"locator\":\"图1-9下方步骤⑨句（拆时钟发条形状电气接头紧固螺钉）\",\"observation_summary\":\"步骤⑨要求拆下固定时钟发条形状电气接头的紧固螺钉并取下接头。\",\"pdf_page_index\":19,\"printed_page_label\":\"5\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图1-9下方步骤⑨句（拆时钟发条形状电气接头紧固螺钉）",
+      "observationSummary": "步骤⑨要求拆下固定时钟发条形状电气接头的紧固螺钉并取下接头。",
+      "pdfPageIndex": 19,
+      "printedPageLabel": "5",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e4",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F19-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F19-2\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e4\",\"locator\":\"页面下部图1-10 拆卸时钟发条形状接头及图例、图注\",\"observation_summary\":\"图1-10以9个编号图例分解示出时钟发条形状接头及其周边组合开关部件。\",\"pdf_page_index\":19,\"printed_page_label\":\"5\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面下部图1-10 拆卸时钟发条形状接头及图例、图注",
+      "observationSummary": "图1-10以9个编号图例分解示出时钟发条形状接头及其周边组合开关部件。",
+      "pdfPageIndex": 19,
+      "printedPageLabel": "5",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e5",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F19-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F19-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p19:e5\",\"locator\":\"页面中部图1-9 用拉器拆下转向盘及图例、图注\",\"observation_summary\":\"图1-9示出拉器拆卸转向盘的作业姿态，图例标注拉器与配合记号两要素。\",\"pdf_page_index\":19,\"printed_page_label\":\"5\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页面中部图1-9 用拉器拆下转向盘及图例、图注",
+      "observationSummary": "图1-9示出拉器拆卸转向盘的作业姿态，图例标注拉器与配合记号两要素。",
+      "pdfPageIndex": 19,
+      "printedPageLabel": "5",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e1\",\"locator\":\"小节“(2)拆卸注意事项”①~⑥整块\",\"observation_summary\":\"注意事项①~⑥覆盖断负极等1min、按厂家手册、禁用12V或自备电源检测灯、收音机时钟重设、模块面朝上、禁锤击转向轴。\",\"pdf_page_index\":20,\"printed_page_label\":\"6\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "小节“(2)拆卸注意事项”①~⑥整块",
+      "observationSummary": "注意事项①~⑥覆盖断负极等1min、按厂家手册、禁用12V或自备电源检测灯、收音机时钟重设、模块面朝上、禁锤击转向轴。",
+      "pdfPageIndex": 20,
+      "printedPageLabel": "6",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e2\",\"locator\":\"Q2标题“2．如何安装带安全气囊的转向盘？”下步骤①~⑦文字块（含右栏②③④）\",\"observation_summary\":\"Q2步骤①~⑦给出卷紧时钟簧、顺时针松3圈对准红色记号、接好拧紧、对记号装盘、拧规定力矩、装导线固定架、放气囊控制单元拧自攻螺钉的顺序。\",\"pdf_page_index\":20,\"printed_page_label\":\"6\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "Q2标题“2．如何安装带安全气囊的转向盘？”下步骤①~⑦文字块（含右栏②③④）",
+      "observationSummary": "Q2步骤①~⑦给出卷紧时钟簧、顺时针松3圈对准红色记号、接好拧紧、对记号装盘、拧规定力矩、装导线固定架、放气囊控制单元拧自攻螺钉的顺序。",
+      "pdfPageIndex": 20,
+      "printedPageLabel": "6",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F20-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F20-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p20:e3\",\"locator\":\"左下图1-11 时钟发条形状电气接头的对中及图例、图注\",\"observation_summary\":\"图1-11标出时钟簧接头中部表面红色记号与电缆圆周槽的对中关系及线束位置。\",\"pdf_page_index\":20,\"printed_page_label\":\"6\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "左下图1-11 时钟发条形状电气接头的对中及图例、图注",
+      "observationSummary": "图1-11标出时钟簧接头中部表面红色记号与电缆圆周槽的对中关系及线束位置。",
+      "pdfPageIndex": 20,
+      "printedPageLabel": "6",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e1\",\"locator\":\"页首跨页续行“紧固定气囊的自攻螺钉”及步骤⑧⑨两行\",\"observation_summary\":\"页首续完Q2步骤⑦的后半句，随后⑧接回蓄电池负极电缆、⑨重调收音机和时钟。\",\"pdf_page_index\":21,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "页首跨页续行“紧固定气囊的自攻螺钉”及步骤⑧⑨两行",
+      "observationSummary": "页首续完Q2步骤⑦的后半句，随后⑧接回蓄电池负极电缆、⑨重调收音机和时钟。",
+      "pdfPageIndex": 21,
+      "printedPageLabel": "7",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e2\",\"locator\":\"Q3标题“3．安装转向盘要注意什么问题？”下正文段（导语、花键连接、点火开关柱筒、组合开关、联锁装置）\",\"observation_summary\":\"Q3正文强调对中时钟簧、转向盘定位与开关安装，说明花键加螺母连接与对准标志、柱筒右上侧布置、组合开关手柄布置及联锁板的锁止条件。\",\"pdf_page_index\":21,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "Q3标题“3．安装转向盘要注意什么问题？”下正文段（导语、花键连接、点火开关柱筒、组合开关、联锁装置）",
+      "observationSummary": "Q3正文强调对中时钟簧、转向盘定位与开关安装，说明花键加螺母连接与对准标志、柱筒右上侧布置、组合开关手柄布置及联锁板的锁止条件。",
+      "pdfPageIndex": 21,
+      "printedPageLabel": "7",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F21-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F21-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e3\",\"locator\":\"右上中部图1-12 点火开关与点火开关固定柱筒的位置及图例、图注\",\"observation_summary\":\"图1-12以7个编号图例标出点火开关及其固定柱筒在转向柱上部的位置。\",\"pdf_page_index\":21,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "右上中部图1-12 点火开关与点火开关固定柱筒的位置及图例、图注",
+      "observationSummary": "图1-12以7个编号图例标出点火开关及其固定柱筒在转向柱上部的位置。",
+      "pdfPageIndex": 21,
+      "printedPageLabel": "7",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e4",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F21-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F21-2\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p21:e4\",\"locator\":\"左下图1-13 转向、报警、变光及刮水器开关（组合开关）及图例、图注\",\"observation_summary\":\"图1-13以9个编号图例分解示出组合开关总成的组成部件。\",\"pdf_page_index\":21,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "左下图1-13 转向、报警、变光及刮水器开关（组合开关）及图例、图注",
+      "observationSummary": "图1-13以9个编号图例分解示出组合开关总成的组成部件。",
+      "pdfPageIndex": 21,
+      "printedPageLabel": "7",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p22:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01q0104-F22-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd",
+      "canonicalJson": "{\"asset_id\":\"c01q0104-F22-1\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ev:p22:e1\",\"locator\":\"整页横向排印的图1-14 带有联锁板的转向柱上部、图注及图例（经旋转90°核读）\",\"observation_summary\":\"图1-14横向整页分解示出带联锁板的转向柱上部，旋转核读图例得到螺钉组、锁壳、锁板、转向轴、点火开关联动杆等约33项零件名。\",\"pdf_page_index\":22,\"printed_page_label\":\"8\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01q0104\",\"source_book_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "整页横向排印的图1-14 带有联锁板的转向柱上部、图注及图例（经旋转90°核读）",
+      "observationSummary": "图1-14横向整页分解示出带联锁板的转向柱上部，旋转核读图例得到螺钉组、锁壳、锁板、转向轴、点火开关联动杆等约33项零件名。",
+      "pdfPageIndex": 22,
+      "printedPageLabel": "8",
+      "sectionId": "c01q0104",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0001",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0006\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0001\",\"predicate\":\"commonly_equipped_with\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0006",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "predicate": "commonly_equipped_with",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0002",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0008\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0002\",\"predicate\":\"located_in\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0008",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "predicate": "located_in",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0003",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0010\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0003\",\"predicate\":\"maintains_power\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0010",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15",
+      "predicate": "maintains_power",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k10"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0004",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0012\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0004\",\"predicate\":\"has_backup_power\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0012",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12",
+      "predicate": "has_backup_power",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k13"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0005",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0016\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0005\",\"predicate\":\"follow_oem_manual\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0016",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14",
+      "predicate": "follow_oem_manual",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0006",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0017\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0006\",\"predicate\":\"may_indicate\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0017",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k14",
+      "predicate": "may_indicate",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k12"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0007",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0018\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0007\",\"predicate\":\"follow_oem_manual\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0018",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "predicate": "follow_oem_manual",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0008",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0028\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0008\",\"predicate\":\"connected_via\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0028",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k11",
+      "predicate": "connected_via",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k28"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0009",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0029\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0009\",\"predicate\":\"located_in\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0029",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k17",
+      "predicate": "located_in",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0010",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0036\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0010\",\"predicate\":\"follow_oem_manual\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0036",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01",
+      "predicate": "follow_oem_manual",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k26"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0011",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0044\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0011\",\"predicate\":\"located_on\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0044",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k20",
+      "predicate": "located_on",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k15"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0012",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0053\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0012\",\"predicate\":\"connected_by\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0053",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "predicate": "connected_by",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k09"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0013",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0054\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0013\",\"predicate\":\"has_alignment_mark\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0054",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k08",
+      "predicate": "has_alignment_mark",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k19"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0014",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0055\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0014\",\"predicate\":\"located_in\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0055",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k16",
+      "predicate": "located_in",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k21"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0015",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0062\",\"from_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18\",\"id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:edg:0015\",\"predicate\":\"used_for\",\"to_id\":\"book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:c01q0104:0062",
+      "from": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k18",
+      "predicate": "used_for",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1ZiUmJc4H0A4-NTido4rikoOmWnZV1Czd:ent:k01"
+    }
+  ]
+}
