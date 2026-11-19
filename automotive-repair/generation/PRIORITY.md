@@ -3,7 +3,22 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
-## R11 最新执行事实与下一轮快速并行（2026-11-19；覆盖后文 R10 快照）
+## R12 当轮最高优先级（2026-11-19，覆盖下文历史快照）
+
+**真实知识新增两篇（R12）**：
+- `FAIL-BRK`：[制动失效知识](./topics/braking/failure.md)，Commit `ee6496862882aa21bb99b9c78374dfb7c3e1cc19`、Blob `9412cae604dd3c9f38103480489f0c5e42d2fb32`、Writer RELEASE #61/`7001756715`，上游 `FUN-BRK@e5529c...` 已独立接受，待本篇其它对话独审。
+- `FUN-HV`：[BEV 高压正常功能](./topics/electrified/high-voltage/function.md)，Commit `d743ab4f569a68564bb40a436d7b0e3fe4918062`、Blob `0412b3da94f2a76210eb587ac00116eff5cfc9b7`、Writer RELEASE #61/`7001828737`，上游 `STR-HV@472127...` 已独立接受，待本篇其它对话独审。
+
+**准确分母**：`29 GENERATED / 21 ACCEPT_SCOPED_GENERATION_ONLY / 8 REVIEW_PENDING`。八篇待审为 `STR-DRIVELINE`、`FUN-ENG-LUBE`、`FAIL-ENG-LUBE`、`STR-ENG-AIRFUEL`、`DISC-METHOD`、`STR-BODY-SAFETY`、`FAIL-BRK`、`FUN-HV`。这仅是已提交 Markdown 的内容审核状态，**非全领域覆盖率**，也绝非 OEM/VIN/N3 实车资格。
+
+**下一步执行策略**：避免仅增加更多同链生成而积压审核；优先将八篇独审分给互不相同的其它对话，复用已审的 21 篇原样证据，每篇只审核自己 Exact Blob 的来源/结构/机理/反例与安全边界；审核 P0/P1 确认后再有针对性修复。R9 六叶增量 DAG `DAG_DELTA_R9.md@96bcd828...` 仍等待独立计划审，未经 `ACCEPT_SCOPED_DELTA_PLAN_READY` 加合法 C-R9-DISPATCH 不得将六条视为 READY。保留并行广度，勿以溯源治理阻止已批准原 DAG 的有效新增。
+
+**旧 PLAN 后继（可条件准备，未自动在运行）**：`REP-BRK` 依新 `FAIL-BRK`；`FAIL-HV` 依新 `FUN-HV`，都需正确保留 `MODEL_GENERATED_UNVERIFIED`、上游待审与 `STALE` 传播，不做高风险实操。另 `REP-ENG-LUBE` 依 `FAIL-ENG-LUBE`，优先完成对应上游质量独审减少返工。
+
+---
+## 历史 R11 最新执行事实与下一轮快速并行（2026-11-19；已被 R12 覆盖）
+
+
 
 **已真实新增三个独立广度 Markdown（全部 Writer CLAIM→Commit→Exact Blob 回读→RELEASE）**：
 
