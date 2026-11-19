@@ -1,5 +1,17 @@
 # 汽修知识生成动态优先级与并行调度 — R1
 
+<!-- R20_PROBOX_PRIMARY_FLEET_PRIORITY -->
+## R20 · Probox 优先：复用已审车型与变速器知识，补真实维修差量
+
+最新 Owner 要求：**Toyota Probox 是下一轮缅甸在用旧车维修知识的第一优先车系**；Succeed 作为关联但配置可能不同的第二车型名称独立核对。详见新增 [R20 Probox 增量 Task DAG 提案](./DAG_DELTA_R20_PROBOX.md)，Blob `137b4441b10847b76a79b9a81356c2f4f634614f`。已有 [Probox 车型 Discovery](./series/myanmar/toyota/probox/discovery.md) 和 [4AT/5MT→2014 Super CVT-i 传动差量](./series/myanmar/toyota/probox/transmission-applicability-delta.md) **均已独审接受，禁止重复生成**。
+
+- **已有旧 DAG 条件任务**：`SER-DELTA-PROBOX-LUBE`，其写集 `series/myanmar/toyota/probox/engine-lubrication-delta.md` 尚空；必须先有 Toyota 对具体发动机真实油路硬件差异的可信资料，不能仅凭 2NZ-FE/1NZ-FE/1NR-FE/1ND-TV 名称更替编造差异或油压。
+- **新增 3 条 R20 候选并行叶**：`SER-DELTA-PROBOX-ENGINE`（发动机/进排气燃油配置）、`SER-DELTA-PROBOX-BRK-SUSP`（底盘/转向/制动/载荷配置）、`SER-DELTA-PROBOX-LOWV-HVAC`（低压/空调选配）。三者为 **PROPOSED**，须异对话独立增量计划审与合法 Integrator 准入后才能开 Writer；只有三者全部真实准入，DAG 才由 58→61。
+- **不影响并行度**：R17 已生成 Nissan AD Van、Vitz、Swift、Wish 四篇。最新审核：AD Van/Swift 已通过限定内容审核；Vitz/Wish 为 REWORK，应交回各自原 Writer 处理确证 P1，不能虚报四篇都已审核接受；Probox 的旧合格知识不必为其它车系 REWORK 等待。
+- **市场来源资格**：Myanmar 2022 二手交易与日本 Toyota 年款公告支持优先选样与实际家族差异；2026 缅甸全国 Probox 存量排名、车辆真实装配及维修频率依然 UNKNOWN。BEV 通用扩张 HOLD。
+<!-- END_R20_PROBOX_PRIMARY_FLEET_PRIORITY -->
+
+
 <!-- R19_MYANMAR_SERIES_FOUR_WRITER_ACTUAL_DELIVERY -->
 ## R19 · 缅甸车型优先：四条 Series Discovery 已生成、待分别独审（2026-11-19）
 
