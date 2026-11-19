@@ -1,4 +1,20 @@
-# 汽修知识生成覆盖账本 — v0.4.1
+#<!-- R21_PROBOX_REPAIR_COVERAGE_UPDATE -->
+## R21 · Probox 三差量已生成并逐篇独立审核(2026-11-20)
+
+[C-R20-PROBOX-DISPATCH=ADMITTED 3/3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017119039) 后 **EFFECTIVE_DAG 58→61**;三条新叶真实生成、GitHub Exact Blob 回读 MATCH,并各自经非 Writer 对话独立差量审核:
+
+| R21 新叶 | 正文 | Commit / Exact Blob | 独立审核 |
+|---|---|---|---|
+| `SER-DELTA-PROBOX-ENGINE` | [engine-generation-variants.md](./series/myanmar/toyota/probox/engine-generation-variants.md) | `3f39f976…` / `f70912c834bd1446e5ef78fe0d536b25bc014ce6` | [ACCEPT P0=0 P1=0 P2=0](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017968669) |
+| `SER-DELTA-PROBOX-BRK-SUSP` | [braking-suspension-variants.md](./series/myanmar/toyota/probox/braking-suspension-variants.md) | R2 `87d632d…` / `c96dca51a6cb7f17a6920ee040e1704585514d8e` | R1 [REWORK P1-01](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017942754) → 原 Writer [R2 最小修复](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7018100761) → R2 差量复审 [R2 差量复审 ACCEPT P0=0 P1=0 P2=0](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7018215921) |
+| `SER-DELTA-PROBOX-LOWV-HVAC` | [low-voltage-hvac-variants.md](./series/myanmar/toyota/probox/low-voltage-hvac-variants.md) | `590a7c8…` / `06a7810fb9b191a11242602a7150aeb46c44b290` | [ACCEPT P0=0 P1=0 P2=0](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017937106) |
+
+- 覆盖语义:三篇均为**版本化装备/机理差量与竞争诊断**(日本 2002/2008/2014/2016 dated OEM 来源);缅甸实车装配、VIN 级适配、故障率、电路图级参数仍 `UNKNOWN`/`BLOCKED_OEM_CONFIGURATION_EVIDENCE`;`SER-DELTA-PROBOX-LUBE` 维持 CONDITIONAL 未重建。
+- **Vitz/Wish REWORK 已 GitHub 派发原 Writer**([Vitz](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017121869)、[Wish](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017125201)),领取前不计接受。
+- 最新总量 **46 GENERATED / 44 SCOPED_ACCEPT / 2 REWORK(Vitz/Wish 原 Writer 派发待领取)**;不是覆盖完成率。BEV 通用扩张 HOLD 不变。
+<!-- END_R21_PROBOX_REPAIR_COVERAGE_UPDATE -->
+
+ 汽修知识生成覆盖账本 — v0.4.1
 
 <!-- R20_PROBOX_REPAIR_COVERAGE -->
 ## R20 · Probox/Succeed 维修知识覆盖优先（2026-11-20）
@@ -90,7 +106,7 @@
 
 | 缅甸在用相关车系候选 | 发现任务 | 当前 Markdown Blob | 状态 | 实质差异候选与真正阻塞 |
 |---|---|---|---|---|
-| Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777) | `SER-DELTA-PROBOX-TRANS` 已写实质差量候选 [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`，[独立质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976215650)；润滑差量仍 `BLOCKED_SOURCE` |
+| Toyota Probox（Succeed 单独关联） | `SER-DISC-PROBOX` | `c8f011229a4e6fa6c66ae092a6f19a21142b4f19` · [正文](./series/myanmar/toyota/probox/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962402777) | `SER-DELTA-PROBOX-TRANS` 已写实质差量候选 [Markdown](./series/myanmar/toyota/probox/transmission-applicability-delta.md) Blob `2a0bfda60bc63ea484c45a6c0b01fe31f7db51a0`，[独立质量 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976215650)；R21：[C-R20-PROBOX-DISPATCH=ADMITTED 3/3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017119039) 后三差量全部生成并独审 ACCEPT——[ENGINE](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017968669)、[BRK-SUSP R2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7018215921)、[LOWV-HVAC](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017937106)(见 [R21 覆盖块](#r21--probox-三差量已生成并逐篇独立审核2026-11-20))；润滑差量仍 `BLOCKED_SOURCE` |
 | Honda Fit / Jazz（地域名称待核） | `SER-DISC-FIT` | `2c8ab39f67c076352586eed2a2f2187147fa909a` · [正文](./series/myanmar/honda/fit/discovery.md) | `ACCEPT_SCOPED_GENERATION_ONLY` · [独审 P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6962478386) | `SER-DELTA-FIT-TRANS` 已生成技术差量候选 [Markdown](./series/myanmar/honda/fit/transmission-variants-delta.md) Blob `a1a944399d2dd7dde3ce8e4be9bda06e94b431af`，[独立质量 ACCEPT P2×3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6976201311)；制动差量仍 `BLOCKED_SOURCE` |
 
 **严格统计（2026-11-19 / 本轮 R8）**：已审通用/缅甸车系/共享家族三份 DAG 未修改；最新 HEV FUN R2、FAIL-AT、STR-STEER-SUSP 各自获不同 Writer 对话限定内容质量 ACCEPT，**原 18 篇研究级 Markdown 18/18 限定质量通过**。本轮在独立任务 Claim 后新生成 [REP-AT](./topics/transmission/automatic/diagnostic-repair.md) Blob `2948cafc88693aa746520717068239a77d2c5d52`、[STR-THERMAL](./topics/thermal/structure.md) Blob `377ee9339949f39d916591f2ada300a59e3c72f7`、[FUN-BRK](./topics/braking/function.md) Blob `e5529c11339a5191de1ce46084923c8d38f88d7f`，均 GitHub 回读并 Writer RELEASE，独立内容审核 0/3。**当前知识正文 21 篇实际生成、18 篇独立限定质量通过、3 篇待审**；所有 OEM/VIN/N3 专业事实资格仍 0，车型另两条 SOURCE_GAP delta 未恢复。

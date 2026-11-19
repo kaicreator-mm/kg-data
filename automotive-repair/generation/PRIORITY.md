@@ -1,4 +1,18 @@
-# 汽修知识生成动态优先级与并行调度 — R1
+#<!-- R21_PROBOX_THREE_DELTAS_DELIVERED -->
+## R21 · Probox 三差量真实交付与独立审核(2026-11-20)
+
+[R20 增量 DAG 独审 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7016718264) 后,Integrator 逐项核查前置/写集/Claim/当前 Blob 并写回 [C-R20-PROBOX-DISPATCH=ADMITTED](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017119039)(3/3 准入,**EFFECTIVE_DAG 58→61**)。三条新叶按 Claim(#61/7017223776、#61/7017231117、#61/7017233918)→[二次仲裁 PASS](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017502398)→单文件交付→Exact Blob 回读→RELEASE 并行完成:
+
+- `SER-DELTA-PROBOX-ENGINE`:[发动机代际差量](./series/myanmar/toyota/probox/engine-generation-variants.md) Commit `3f39f976ad17fc66a85a68fb92dc34e71bedbd90` Blob `f70912c834bd1446e5ef78fe0d536b25bc014ce6`,[独审 ACCEPT P0=0 P1=0 P2=0](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017968669);1NZ-FNE CNG 按 P2-01 显式 `EXCLUDED_OR_CONDITIONAL_UNTIL_MYANMAR_EVIDENCE`,未并入汽柴油、未新增 DAG 节点。
+- `SER-DELTA-PROBOX-BRK-SUSP`:[制动悬架差量](./series/myanmar/toyota/probox/braking-suspension-variants.md) R1 独审 [REWORK P1-01](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017942754)(2016 公告确证栏引入来源外"毫米波/可施加制动辅助"),原 Writer [最小修复 R2 RELEASE](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7018100761) Commit `87d632d7e92e428fa0d55c7e1faf4c9cd6af83e4` Blob `c96dca51a6cb7f17a6920ee040e1704585514d8e`(恰 4 行、无范围扩大);R2 差量复审:[R2 差量复审 ACCEPT P0=0 P1=0 P2=0](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7018215921)。
+- `SER-DELTA-PROBOX-LOWV-HVAC`:[低压空调差量](./series/myanmar/toyota/probox/low-voltage-hvac-variants.md) Commit `590a7c8e1e5ef9838af579f79ebf1ebcd908ca4e` Blob `06a7810fb9b191a11242602a7150aeb46c44b290`,[独审 ACCEPT P0=0 P1=0 P2=0](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017937106);电路图/连接器/额定值等整层如实 `BLOCKED_OEM_CONFIGURATION_EVIDENCE`,2014 手动 A/C 句按原文「標準装備」(非「全車標準装備」)精确分账。
+
+- **Vitz/Wish P1 未解决,已 GitHub 派发原 Writer**:[Vitz 派发](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017121869)、[Wish 派发](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017125201);非原身份 Agent 不得代改,原 Writer 领取前两篇维持 REWORK、不计接受。
+- `SER-DELTA-PROBOX-LUBE` 维持基础图 CONDITIONAL,正文仍不存在,未重建未代写。
+- 最新总量 **46 GENERATED / 44 SCOPED_ACCEPT / 2 REWORK(Vitz/Wish 原 Writer 派发待领取)**(明细以 [COVERAGE.md](./COVERAGE.md) 为准)。BEV 通用扩张继续 HOLD;OEM/VIN/N3=0;没有 VIN 不断言具体零件适配。
+<!-- END_R21_PROBOX_THREE_DELTAS_DELIVERED -->
+
+ 汽修知识生成动态优先级与并行调度 — R1
 
 <!-- R20_PROBOX_PRIMARY_FLEET_PRIORITY -->
 ## R20 · Probox 优先：复用已审车型与变速器知识，补真实维修差量
