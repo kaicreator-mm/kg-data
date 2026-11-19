@@ -1,0 +1,2923 @@
+book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+schema_version: 1.0.0
+ontology_version: automotive-books-kg-ontology-1.0
+graph_revision: 1
+source:
+  drive_file_id: 1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  title: 汽车自动变速器精品学习教程
+  pdf_page_count: 404
+  source_sha256: ae8b6048e6b8b7a2adc001bc0fca19826e895c4f74f8a26d9cf616b1b6ed1f69
+  source_rights_status: UNKNOWN
+  publication_year: null
+  edition: null
+  isbn: null
+entities:
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  label: 液力耦合器
+  kind: assembly
+  attributes_json: '{"brief": "靠工作液传递转矩、无增矩作用的液力传动装置，现代汽车已淘汰", "pages": [60, 61]}'
+- aliases:
+  - 液力变矩器（课题二所指）
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  label: 液力变矩器（基本型，双向锁止导轮式）
+  kind: assembly
+  attributes_json: '{"brief": "在泵轮和涡轮之间加入双向锁止导轮从而能增大转矩的液力传动装置；高速时减矩，本书判定不适合实际使用", "pages": [60, 61, 62, 63]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  label: 综合式液力变矩器
+  kind: assembly
+  attributes_json: '{"brief": "导轮通过单向离合器支承在固定导轮支撑套上的液力变矩器，工作区域分为变矩器工作区与耦合器工作区", "pages": [63, 64, 65, 66, 67, 68, 69, 70]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  label: 带锁止离合器的综合式液力变矩器
+  kind: assembly
+  attributes_json: '{"brief": "在综合式液力变矩器中加装锁止离合器（TCC）、可机械连接泵轮与涡轮的变矩器，现代汽车采用", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+  label: 泵轮
+  kind: component
+  attributes_json: '{"brief": "液力变矩器的输入元件，封装于变矩器壳体内、靠近自动变速器一侧，与发动机同速同向旋转", "pages": [61, 62]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+  label: 涡轮
+  kind: component
+  attributes_json: '{"brief": "液力变矩器的输出元件，与泵轮相对安装、靠近发动机一侧，与自动变速器输入轴连接", "pages": [62]}'
+- aliases:
+  - 导轮（课题二）
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  label: 双向锁止导轮
+  kind: component
+  attributes_json: '{"brief": "液力变矩器（基本型）的反应元件，被双向固定在壳体上", "pages": [60, 61, 62, 63]}'
+- aliases:
+  - 导轮（综合式）
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  label: 单向锁止导轮
+  kind: component
+  attributes_json: '{"brief": "综合式液力变矩器的导轮，经单向离合器支承，低速锁止、高速可自由旋转", "pages": [63, 64, 65, 67, 68, 71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  label: 单向离合器
+  kind: component
+  attributes_json: '{"brief": "安装于导轮与导轮支撑套之间、单方向锁止另一方向超越的机构，分滚柱式与楔块式", "pages": [63, 65, 66, 67]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k10
+  label: 滚柱式单向离合器
+  kind: component
+  attributes_json: '{"brief": "利用弹簧把滚柱固定在内外座圈之间、靠凸轮状缺口楔紧/放松的单向离合器", "pages": [66]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k11
+  label: 楔块式单向离合器
+  kind: component
+  attributes_json: '{"brief": "由内外座圈和介于其间的 S 形金属楔块构成的单向离合器", "pages": [66, 67]}'
+- aliases:
+  - 导轮架（p62 行文）
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k12
+  label: 导轮支撑套
+  kind: component
+  attributes_json: '{"brief": "固定不动、经单向离合器支承导轮并与变速器油泵盖连接的套件", "pages": [63, 64, 67]}'
+- aliases:
+  - TCC
+  - Torque Converter Clutch
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+  label: 锁止离合器（TCC）
+  kind: component
+  attributes_json: '{"brief": "将泵轮和涡轮直接机械连接的锁止装置，分摩擦片-减振盘一体与摩擦片-锁止活塞一体两种类型", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k14
+  label: 锁止活塞
+  kind: component
+  attributes_json: '{"brief": "锁止离合器内可轴向移动的活塞，前侧经控制油道通锁止控制阀、后侧为变矩器油压", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k15
+  label: 减振盘
+  kind: component
+  attributes_json: '{"brief": "锁止离合器中可与摩擦片制成一体的减振元件", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k16
+  label: 摩擦片
+  kind: component
+  attributes_json: '{"brief": "锁止离合器的摩擦元件，与减振盘或锁止活塞制成一体", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+  label: 导环
+  kind: component
+  attributes_json: '{"brief": "设于泵轮/涡轮叶片内缘、为油液提供顺畅通道的环", "pages": [61, 62, 64, 71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k18
+  label: 变矩器壳体
+  kind: component
+  attributes_json: '{"brief": "封装泵轮等元件并与飞轮螺栓连接的变矩器外壳", "pages": [61, 62, 64, 71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k19
+  label: 变矩比 K
+  kind: parameter
+  attributes_json: '{"brief": "涡轮输出转矩与泵轮输入转矩的比值，K=Mt/Mp=(Mp±Ms)/Mp", "pages": [62, 63, 70]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k20
+  label: 传动效率 η
+  kind: parameter
+  attributes_json: '{"brief": "涡轮输出功率与泵轮输入功率的比值，η=K(nt/np)×100%", "pages": [63, 70]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k21
+  label: 环流
+  kind: concept
+  attributes_json: '{"brief": "工作液按泵轮和涡轮转动方向流动的流动类型", "pages": [64]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k22
+  label: 涡流
+  kind: concept
+  attributes_json: '{"brief": "工作液经泵轮和涡轮叶片形成的通道进行螺旋形循环的流动类型，转矩增大由涡流实现", "pages": [64]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k23
+  label: 冲击损失
+  kind: concept
+  attributes_json: '{"brief": "回流油液方向与泵轮转向相反、多方向回跳散射致流动受扰动的现象", "pages": [60, 61]}'
+- aliases:
+  - 耦合器工作点
+  - 耦合器点
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k24
+  label: 耦合点（耦合器工作点）
+  kind: concept
+  attributes_json: '{"brief": "导轮开始随泵轮同向旋转、转矩增大值变为 1 倍的工作点（涡轮/泵轮转速比约 0.8～0.85）", "pages": [65, 68, 70]}'
+- aliases:
+  - 失速工况
+  - 失速转速
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k25
+  label: 失速点（失速工况/失速转速）
+  kind: concept
+  attributes_json: '{"brief": "涡轮固定不动而泵轮仍在旋转的工况；失速转速为涡轮静止时发动机能达到的最高转速", "pages": [68, 69, 70]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k26
+  label: 变矩器工作区
+  kind: concept
+  attributes_json: '{"brief": "综合式液力变矩器中发生转矩增大的工作区域", "pages": [68]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k27
+  label: 耦合器工作区
+  kind: concept
+  attributes_json: '{"brief": "以耦合器工作点为界、仅有转矩传递而无转矩增大的工作区域", "pages": [68]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k28
+  label: 锁止控制阀
+  kind: component
+  attributes_json: '{"brief": "位于阀体上、控制锁止活塞前侧油压的阀，由速控油压或电脑经锁止电磁阀控制", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k29
+  label: 锁止电磁阀
+  kind: component
+  attributes_json: '{"brief": "受自动变速器电脑控制、用于操纵锁止控制阀的电磁阀", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k30
+  label: 变矩器油压
+  kind: parameter
+  attributes_json: '{"brief": "锁止活塞后侧工作液保持的油压，与泵轮、涡轮中工作液相通", "pages": [71]}'
+- aliases:
+  - 油液
+  - ATF
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k31
+  label: 工作液（自动变速器油液）
+  kind: medium
+  attributes_json: '{"brief": "液力传动装置的工作介质", "pages": [60, 62, 64, 71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k32
+  label: 发动机飞轮
+  kind: component
+  attributes_json: '{"brief": "变矩器螺栓固定其后端；配自动变速器时质量较小只满足起动需要", "pages": [60]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k33
+  label: 自动变速器输入轴
+  kind: component
+  attributes_json: '{"brief": "涡轮与之连接并把转矩传给齿轮变速机构；其中间设锁止控制油道", "pages": [62, 71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k34
+  label: 锁止控制油道
+  kind: component
+  attributes_json: '{"brief": "自动变速器输入轴中间的控制油道，连通锁止活塞前侧与锁止控制阀", "pages": [71]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k35
+  label: 变速器油泵盖
+  kind: component
+  attributes_json: '{"brief": "与导轮支撑套连接并固定在变速器壳体上，使单向离合器内座圈不能转动", "pages": [67]}'
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k36
+  label: 自动变速器壳体
+  kind: component
+  attributes_json: '{"brief": "导轮架经花键槽与其上的轴配合、油泵盖固定于其上的壳体", "pages": [62, 67]}'
+claims:
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: operating_characteristic
+  statement: 液力耦合器驱动车辆行驶时，涡轮转速始终低于泵轮转速；如果泵轮和涡轮的转速相同，借助油液传递动力的过程就会停止。
+  conditions:
+  - 驱动车辆行驶时
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e04
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0001
+  value: 驱动车辆行驶时涡轮转速始终低于泵轮转速；若泵轮和涡轮转速相同，借助油液传递动力的过程就会停止
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k23
+  predicate: occurs_in
+  statement: 冲击损失发生于液力耦合器传递动力的过程中：油液回流到泵轮时因涡轮叶片的反作用，流动方向变为与泵轮转向相反；油液以多种方向回跳和散射以致流动受扰动，这种现象称为冲击损失。
+  conditions:
+  - 液力耦合器传递动力过程中
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e01
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0002
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k23
+  predicate: causes
+  statement: 回流油液方向与泵轮转向相反使发动机运转阻力增加（图3-5）；另外油液的动能还会因摩擦转换为热量产生能量损失。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e01
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0003
+  value: 发动机运转阻力增加；油液动能因摩擦转换为热量产生能量损失
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: torque_ratio_theoretical
+  statement: 液力耦合器的输出转矩与输入转矩的理论比值为1∶1，但输出转矩与输入转矩始终不会相等，更不可能超出输入转矩。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e02
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0004
+  value: 1∶1（理论值）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: max_transmission_efficiency
+  statement: 液力耦合器最大的传动效率约为90%。
+  conditions:
+  - 最大值、约数
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e03
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0005
+  value: 约90
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: efficiency_depends_on
+  statement: 液力耦合器的传动效率与工作液种类、泵轮和涡轮叶片的形状、汽车的载荷和发动机的转矩有关。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e03
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0006
+  value: 工作液种类、泵轮和涡轮叶片的形状、汽车的载荷、发动机的转矩
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: application_status
+  statement: 液力耦合器可传递发动机动力但没有增矩作用，油液流动中产生紊流和大量的热、消耗能量而降低传动效率，所以在现代汽车上已经淘汰。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e03
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0007
+  value: 在现代汽车上已经淘汰
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: development_history
+  statement: 自动变速器最重要的改进是别克公司为坦克开发的液力变矩器；1948年这种液力变矩器与其他部件结合成为液力变速器，而最后成为各种自动变速器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e05
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0008
+  value: 1948年别克公司为坦克开发的液力变矩器，与其他部件结合成为液力变速器，最后成为各种自动变速器（自动变速器最重要的改进）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: is_defined_as
+  statement: 液力变矩器是连接发动机飞轮和变速器输入轴的另一种液力传动装置；与液力耦合器一样可平稳地把发动机的动力传递到变速器，并允许发动机与变速器之间有些滑转，从而在停车时不脱开动力档也能维持发动机运转。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e06
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0009
+  value: 连接发动机飞轮和变速器输入轴的液力传动装置：可平稳地把发动机动力传递到变速器，允许发动机与变速器之间有些滑转，停车时不脱开动力档也能维持发动机运转
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: comprises
+  statement: 液力变矩器像液力耦合器一样采用油液作为工作介质，但不同的是在泵轮和涡轮之间加入了双向锁止导轮，从而传递和增大来自发动机的转矩。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e07
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0010
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: mounted_on_rear_of
+  statement: 液力变矩器的安装位置与液力耦合器一样，通过螺栓固定在发动机飞轮的后端；因通过螺栓与飞轮相连接，其转速与转向都和发动机相同。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e07
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e01
+  pdf_pages:
+  - 60
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0011
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k32
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: function
+  statement: 由于液力变矩器的涡轮转速可以在一定范围内连续变化，因此能够达到一定的无级变速效果。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e08
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0012
+  value: 涡轮转速可在一定范围内连续变化，能达到一定的无级变速效果
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: additional_function
+  statement: 液力变矩器质量较大且分布均匀，高速旋转时可保持良好平衡、防止振动，还起到一般发动机飞轮的作用；因此配置自动变速器的发动机飞轮质量较小，只满足起动发动机的需要。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e08
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0013
+  value: 兼起一般发动机飞轮的作用；因此配置自动变速器的发动机飞轮质量较小，只满足起动发动机的需要
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: shock_loss_dependency
+  statement: 液力耦合器中从泵轮流出的油液推动涡轮叶片时，部分发动机转矩被消耗以补偿冲击损失；泵轮和涡轮间转速差较大或油液涡流速度加快（涡轮转速低）时明显，转速差较小（涡流速度较小、涡轮转速高）时损失较小。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0014
+  value: 泵轮和涡轮转速差较大或油液涡流速度加快（涡轮转速低）时冲击损失明显；转速差较小、涡流速度较小（涡轮转速高）时损失较小
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: peak_efficiency_condition
+  statement: 当泵轮和涡轮的转速几乎相等时，液力耦合器传递转矩的效率最高；如果两个部件转速相差甚大，则转矩传递的效率很低。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0015
+  value: 泵轮和涡轮转速几乎相等时传递转矩的效率最高；转速相差甚大时转矩传递效率很低
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+  predicate: function_limitation
+  statement: 液力耦合器只能传递发动机的动力，并不能改变发动机的输出转矩。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0016
+  value: 只能传递发动机的动力，并不能改变发动机的输出转矩
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: design_feature
+  statement: 液力变矩器的泵轮和涡轮叶片形状设计能将油液流动的扰动减小至最小，能将转矩较少损失地传递，即使两个部件转速相差很大时亦是如此。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e02
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0017
+  value: 泵轮和涡轮叶片形状设计能将油液流动的扰动减小至最小，即使两部件转速相差很大时也能将转矩较少损失地传递
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: torque_changing_capability
+  statement: 液力变矩器增加了第三个元件——双向锁止导轮，这样液力变矩器不仅能传递发动机的动力，还能改变发动机的输出转矩。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e02
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0018
+  value: 因增加第三个元件双向锁止导轮，不仅能传递发动机的动力，还能改变发动机的输出转矩
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: developed_from
+  statement: 液力变矩器是为了改善液力耦合器的性能而在其基础上发展起来的。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0019
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: comprises
+  statement: 液力变矩器除液力耦合器的泵轮、涡轮、导环和壳体以外，在涡轮和泵轮之间增加双向锁止导轮——组成包含泵轮（结构见图3-6）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0020
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: comprises
+  statement: 液力变矩器组成包含涡轮（结构见图3-6）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0021
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: comprises
+  statement: 液力变矩器组成包含导环（结构见图3-6，涡轮与泵轮均有导环标注）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0022
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: comprises
+  statement: 液力变矩器组成包含壳体。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0023
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k18
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  predicate: located_between
+  statement: 双向锁止导轮位于液力变矩器的涡轮和泵轮之间。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0024
+  value: 涡轮和泵轮之间
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+  predicate: is_input_element_of
+  statement: 泵轮是液力变矩器的输入元件，封装于变矩器壳体内，靠近自动变速器一侧。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e05
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0025
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+  predicate: has_feature
+  statement: 泵轮许多呈一定曲率、一定方向的叶片沿径向安装在变矩器壳体上，叶片内缘上有导环，提供一个通道以便油液顺畅流动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e01
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0026
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+  predicate: working_principle
+  statement: 发动机运转时液力变矩器同速同向旋转，位于变矩器壳体上的泵轮叶片内的油液依靠离心力的作用从泵轮外缘向外喷出；随着发动机转速升高、离心力增大，喷射油液速度亦随之升高。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e01
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0027
+  value: 泵轮叶片内的油液依靠离心力作用从泵轮外缘向外喷出；随发动机转速升高、油液所受离心力增大，从泵轮向外喷射油液的速度亦随之升高
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+  predicate: is_output_element_of
+  statement: 涡轮是液力变矩器的输出元件，与泵轮相对安装，通过推力轴承保持3～4mm的间隙，且靠近发动机一侧。
+  conditions:
+  - 涡轮与泵轮间隙 3～4mm（经推力轴承）
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0028
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+  predicate: design_feature
+  statement: 涡轮内部有与泵轮类似的叶片，叶片的曲线方向与泵轮叶片的曲线方向相反。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0029
+  value: 内部有与泵轮类似的叶片，叶片曲线方向与泵轮叶片曲线方向相反
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+  predicate: connected_to
+  statement: 涡轮与自动变速器的输入轴连接，通过自动变速器油液作为介质，把泵轮的转矩传递给变速器的齿轮变速机构。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0030
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k33
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  predicate: is_reaction_element_of
+  statement: 双向锁止导轮是液力变矩器的反应元件。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e03
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0031
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  predicate: size_and_position
+  statement: 导轮的直径大约是泵轮或涡轮直径的一半，并且位于泵轮与涡轮之间，与泵轮和涡轮保持一定的轴向间隙。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e03
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0032
+  value: 直径大约是泵轮或涡轮直径的一半，位于泵轮与涡轮之间并与其保持一定的轴向间隙
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  predicate: fixed_to
+  statement: 导轮上许多具有一定曲率、一定方向的叶片组装在导轮架上，导轮架的中心部分通过花键槽与自动变速器壳体上的轴配合，因此导轮被双向固定在壳体上。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e03
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0033
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k36
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  predicate: function_analogy
+  statement: 两个电扇组成的耦合器能传递转矩但不能增大转矩；添加管道后空气从电扇B回流到电扇A、增强电扇A吹出的气流；在液力变矩器中双向锁止导轮就起到了这种空气管道的作用（图3-7）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e04
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0034
+  value: 在两电扇-管道类比（图3-7）中起空气管道的作用：使流过电扇B（被驱动风扇）后残余的能量经管道导回电扇A（驱动风扇）叶片后面促其旋转
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: torque_conversion_principle
+  statement: 借助于导轮叶片使油液通过涡轮之后，再使油液回流至泵轮，通过这种回流冲击泵轮进而达到增大转矩的目的；但在涡轮和泵轮转速差较小时恰恰相反，实现的是减矩作用。
+  conditions:
+  - 转速差大→增矩；转速差小→减矩
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e04
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0035
+  value: 借助导轮叶片使油液通过涡轮之后回流至泵轮，通过回流冲击泵轮达到增大转矩目的；但涡轮和泵轮转速差较小时恰恰相反，实现减矩作用
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: operating_condition
+  statement: 低车速时，从涡轮内缘返回的液体逆时针冲击双向锁止导轮，经导轮叶片反射后顺时针冲击泵轮叶片，泵轮转矩增大，推动涡轮的转矩增大。
+  conditions:
+  - 低车速
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e04
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0036
+  value: 低车速时：从涡轮内缘返回的液体逆时针冲击双向锁止导轮，经导轮叶片反射后顺时针冲击泵轮叶片，泵轮转矩增大，推动涡轮的转矩增大
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: operating_condition
+  statement: 高车速时，从涡轮内缘返回的液体顺时针冲击双向锁止导轮，经导轮叶片反射后逆时针冲击泵轮叶片，泵轮转矩减小，推动涡轮的转矩减小。
+  conditions:
+  - 高车速
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e04
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0037
+  value: 高车速时：从涡轮内缘返回的液体顺时针冲击双向锁止导轮，经导轮叶片反射后逆时针冲击泵轮叶片，泵轮转矩减小，推动涡轮的转矩减小
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: has_characteristic
+  statement: 液力变矩器的工作特性主要是转矩特性和效率特性。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e06
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0038
+  value: 转矩特性和效率特性
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k19
+  predicate: is_defined_as
+  statement: 转矩特性用变矩比来表示；变矩比是指涡轮输出转矩与泵轮输入转矩的比值，表达式 K = Mt/Mp = (Mp ± Ms)/Mp（Mt、Mp、Ms 分别为涡轮输出转矩、泵轮输入转矩、导轮反作用转矩）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e06
+  pdf_pages:
+  - 62
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0039
+  value: 涡轮输出转矩与泵轮输入转矩的比值；K = Mt/Mp = (Mp ± Ms)/Mp，式中 K 变矩比、Mt 涡轮输出转矩、Mp 泵轮输入转矩、Ms 导轮反作用转矩
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: torque_ratio_low_speed
+  statement: 低转速时 K = Mt/Mp = (Mp + Ms)/Mp > 1（实际在车上为1.9～2.5之间），说明液力变矩器的变矩比大于液力耦合器。
+  conditions:
+  - 低转速
+  - 实际在车上
+  - 双向锁止导轮式
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e02
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0040
+  value: K=(Mp+Ms)/Mp > 1，实际在车上为1.9～2.5之间
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: torque_ratio_high_speed
+  statement: 高转速时 K = Mt/Mp = (Mp - Ms)/Mp < 1，说明液力变矩器的变矩比小于液力耦合器。
+  conditions:
+  - 高转速
+  - 双向锁止导轮式
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e02
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0041
+  value: K=(Mp-Ms)/Mp < 1，变矩比小于液力耦合器
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k20
+  predicate: is_defined_as
+  statement: 效率特性用传动效率来表示；传动效率是涡轮输出功率与泵轮输入功率的比值，表达式 η = Pt/Pp × 100% = Mtnt/Mpnp × 100% = K(nt/np) × 100%（原文分子分母连写，即 Mt·nt 与 Mp·np）。
+  source_kind: BOOK_FORMULA_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e03
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0042
+  value: 涡轮输出功率与泵轮输入功率的比值；η = Pt/Pp × 100% = Mt·nt/(Mp·np) × 100% = K(nt/np) × 100%（Pt/Pp 涡轮/泵轮功率，Mt/Mp 涡轮/泵轮转矩，nt/np 涡轮/泵轮转速）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: efficiency_vs_coupling
+  statement: 液力变矩器低转速时 K>1、K(nt/np)>nt/np，传动效率大于液力耦合器；高转速时 K<1、K(nt/np)<nt/np，传动效率小于液力耦合器。
+  conditions:
+  - 双向锁止导轮式
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e04
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0043
+  value: 低转速时（K>1）传动效率大于液力耦合器；高转速时（K<1）传动效率小于液力耦合器
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: efficiency_vs_turbine_speed
+  statement: 当涡轮转速较低时液力变矩器的传动效率高于液力耦合器；当涡轮转速增加到某一数值时两者相等；当涡轮转速继续增大后液力变矩器的传动效率将小于液力耦合器，其输出转矩也随之下降。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e04
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0044
+  value: 涡轮转速较低时效率高于耦合器；涡轮转速增加到某一数值时两者相等；转速继续增大后效率低于耦合器且输出转矩随之下降
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  predicate: application_status
+  statement: 液力变矩器可以传递发动机动力，发动机低速运转时可增大输出转矩，高速运转时却降低了输出转矩（由于采用双向锁止导轮的原因），因此这种液力变矩器不适合实际使用。
+  conditions:
+  - 双向锁止导轮式
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e05
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0045
+  value: 低速时可增大发动机输出转矩、高速运转时却降低发动机输出转矩（因采用双向锁止导轮），因此这种液力变矩器不适合实际使用
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: same_principle_as
+  statement: 综合式液力变矩器和液力变矩器的转矩传输原理是一样的，不同之处在于导轮不是完全固定不动的，而是通过单向离合器支承在导轮支撑套上（导轮支撑套固定不动）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e06
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0046
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  predicate: supported_via
+  statement: 综合式液力变矩器的导轮通过单向离合器支承在导轮支撑套上，导轮支撑套固定不动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e06
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0047
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  predicate: function
+  statement: 导轮叶片截住离开涡轮的油液，改变其方向使其冲击泵轮叶片的后表面，此时油液作用的方向和泵轮的旋转方向相同，给泵轮一个额外的助推力，达到增大转矩的目的。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e06
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0048
+  value: 导轮叶片截住离开涡轮的油液并改变其方向，使其冲击泵轮叶片的后表面（油液作用方向与泵轮旋转方向相同），给泵轮额外的助推力，达到增大转矩的目的
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: comprises
+  statement: 综合式液力变矩器与液力变矩器相似，也是由泵轮、涡轮、导环、壳体、导轮组成——组成包含泵轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0049
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: comprises
+  statement: 综合式液力变矩器组成包含涡轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0050
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: comprises
+  statement: 综合式液力变矩器组成包含导环。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0051
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: comprises
+  statement: 综合式液力变矩器组成包含壳体。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0052
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k18
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: comprises
+  statement: 综合式液力变矩器组成包含导轮（单向锁止导轮）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0053
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: component_similarity
+  statement: 综合式液力变矩器的泵轮和涡轮的构造与液力变矩器基本相同；导轮则由双向锁止导轮变为单向锁止导轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0054
+  value: 泵轮和涡轮的构造与液力变矩器基本相同
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  predicate: mounted_via
+  statement: 导轮由液力变矩器的双向锁止变为单向锁止（双向锁止导轮变为单向锁止导轮），同样安装在泵轮与涡轮之间，通过导轮支撑套固定于变速器壳体上（图3-8 图内标注『单向锁止导轮』）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0055
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k12
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: flow_path
+  statement: 工作液在综合式液力变矩器中的流动总体上从泵轮流向涡轮；泵轮旋转时离心力将工作液从内缘向外缘甩出进入涡轮外缘，推动涡轮叶片使涡轮转动后，工作液由叶片引导进入涡轮中心部位，然后通过导轮回流到泵轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e02
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0056
+  value: 总体上工作液从泵轮流流向涡轮：泵轮旋转时离心力将工作液从泵轮内缘向外缘甩出而进入涡轮外缘，推动涡轮叶片使涡轮转动后，工作液由叶片引导进入涡轮中心部位，然后通过导轮回流到泵轮
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: has_flow_type
+  statement: 像液力耦合器一样，综合式液力变矩器内的工作液流动也具有环流与涡流两种类型（图3-8）——其一为环流。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e03
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0057
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k21
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: has_flow_type
+  statement: 像液力耦合器一样，综合式液力变矩器内的工作液流动也具有环流与涡流两种类型（图3-8）——其二为涡流。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e03
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0058
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k22
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k21
+  predicate: is_defined_as
+  statement: 环流是工作液按泵轮和涡轮的转动方向流动的流动类型。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e03
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0059
+  value: 工作液按泵轮和涡轮的转动方向流动
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k22
+  predicate: is_defined_as
+  statement: 涡流是工作液通过泵轮和涡轮叶片形成的通道进行螺旋形循环的流动类型。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e03
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0060
+  value: 工作液通过泵轮和涡轮叶片形成的通道进行螺旋形循环
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: flow_speed_dependency
+  statement: 两种工作液流动的速度取决于综合式液力变矩器的工作条件以及泵轮和涡轮之间的转速差：发动机低速运转时转速差增加则涡流速度增加、环流速度减小；高速运转时转速差减小则涡流速度减小、环流速度增加。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e05
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0061
+  value: 发动机低速运转时泵轮与涡轮转速差增加→涡流速度增加、环流速度减小；发动机高速运转时转速差减小→涡流速度减小、环流速度增加
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: torque_gain_mechanism
+  statement: 综合式液力变矩器的转矩增大由涡流实现，因此随着涡流速度的升高，工作液的动能和转矩增大的幅度将增大。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e05
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0062
+  value: 转矩增大由涡流实现；随涡流速度升高，工作液的动能和转矩增大的幅度将增大
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: low_speed_flow_state
+  statement: 当汽车处于低速时，泵轮与涡轮之间的转速差大，在泵轮和涡轮之间循环的工作液涡流强度大、环流强度小，流经涡轮的液体从中间流出，变矩器中来自涡轮的液体将冲击在导轮叶片的前表面（图3-9）。
+  conditions:
+  - 汽车低速
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e06
+  pdf_pages:
+  - 64
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0063
+  value: 汽车低速时泵轮与涡轮转速差大，循环工作液涡流强度大、环流强度小；流经涡轮的液体从中间流出，来自涡轮的液体冲击在导轮叶片的前表面
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  predicate: function_at_low_speed
+  statement: 由于导轮是固定不动的，液体将受到导轮叶片前表面的阻挡而产生液体反射，具有方向性的液体返回到泵轮叶片上，而这种具有方向性的液体起到了帮助发动机转动泵轮的作用。
+  conditions:
+  - 汽车低速、导轮固定
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e01
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0064
+  value: 导轮固定不动时液体受导轮叶片前表面阻挡产生液体反射，具有方向性的液体返回到泵轮叶片上，起到帮助发动机转动泵轮的作用
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: torque_gain_upper_bound
+  statement: 流动的液体对导轮产生的作用力矩，可以使变矩器的输出转矩提高两倍甚至更多。
+  conditions:
+  - 汽车低速（导轮叶片前表面受冲击）
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e01
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0065
+  value: 输出转矩可提高两倍甚至更多（低速时流动液体对导轮产生的作用力矩）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: max_torque_multiplier
+  statement: 变矩器转矩增大值并不是一个恒定值，转矩增大值和汽车的车速有关；当汽车处于起步阶段，变矩器具有最大的转矩增大值，通常可达1.8～2.5倍，随车速提高转矩增大值逐渐下降。
+  conditions:
+  - 汽车起步阶段
+  - 通常可达
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e01
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0066
+  value: 1.8～2.5倍
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k24
+  predicate: is_defined_as
+  statement: 随着车速提高转矩增大值逐渐下降，当涡轮和泵轮转速比达到0.8～0.85左右时（即所谓的耦合点），变矩器的转矩增大值就变成一倍。
+  conditions:
+  - 转速比约0.8～0.85（左右）
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e01
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0067
+  value: 涡轮和泵轮转速比达到约0.8～0.85、变矩器转矩增大值变成一倍的工作点（即所谓的耦合点）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: high_speed_torque_reduction
+  statement: 随着车速逐渐提高，来自涡轮的液体逐渐偏离作用在导轮叶片前表面的方向（图3-10），变矩器的输出转矩也随之下降；当涡轮和泵轮转速比达到耦合点时，涡轮喷射的液体作用在导轮叶片的后表面，经导轮反射的液体返回给泵轮反而成了泵轮旋转的阻力，将会出现输出转矩低于输入转矩的状况。
+  conditions:
+  - 高速/达到耦合点后
+  - 导轮固定不动的前提下
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e02
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0068
+  value: 高速时来自涡轮的液体逐渐偏离导轮叶片前表面方向，输出转矩随之下降；达到耦合点时涡轮喷射液体作用在导轮叶片后表面，经导轮反射的液体返回泵轮反而成为泵轮旋转的阻力，出现输出转矩低于输入转矩的状况
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: inherent_characteristic
+  statement: 作用在导轮叶片前表面的液体，随着涡轮转速提高逐渐转向叶片的后表面，是液力变矩器固有的特性，它是由变矩器结构所决定的。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e02
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0069
+  value: 作用在导轮叶片前表面的液体随涡轮转速提高逐渐转向叶片后表面，是液力变矩器固有的特性，由变矩器结构决定
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: installed_between
+  statement: 为了防止汽车高速时出现变矩器的输出转矩小于输入转矩的现象，现代汽车采用的液力变矩器均在导轮和导轮支撑套之间安装了单向离合器，即综合式液力变矩器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e02
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0070
+  value: 导轮和导轮支撑套之间
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: locks
+  statement: 低速（转速差大）时作用在导轮叶片前表面的液体使导轮欲按泵轮旋转的相反方向转动，通过单向离合器锁止使导轮固定，产生增大转矩的效果（图3-11、图3-15a）。
+  conditions:
+  - 低速/泵轮与涡轮转速差大
+  - 液流作用于导轮叶片前表面
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e05
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e05
+  pdf_pages:
+  - 65
+  - 66
+  - 67
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0071
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: releases
+  statement: 高速（涡轮转速接近泵轮转速）时作用在导轮叶片后表面的液体通过单向离合器的超越（释放）使导轮自由旋转；若导轮固定将阻挡工作液流动；此时变矩器实际上变成了耦合器，只能传递力矩，作用在导轮叶片的转矩将不能增大（图3-11、图3-15b）。
+  conditions:
+  - 高速/涡轮转速接近泵轮转速
+  - 液流作用于导轮叶片后表面
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e05
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e05
+  pdf_pages:
+  - 65
+  - 66
+  - 67
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0072
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: failure_mode
+  statement: 如果单向离合器失效表现为在两个方向都能自由旋转，则反映出汽车低速时加速性能减弱。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0073
+  value: 失效表现为在两个方向都能自由旋转→反映出汽车低速时加速性能减弱
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: failure_mode
+  statement: 如果单向离合器失效表现为两个方向都锁止，则反映出汽车高速时动力不足。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0074
+  value: 失效表现为两个方向都锁止→反映出汽车高速时动力不足
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: diagnosis_method
+  statement: 单向离合器是比较容易损坏的部件，但变矩器又是不可拆卸的总成，因此只能根据故障的现象来判断；自动变速器的失速试验也可以反映变矩器中单向离合器的失效状况。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0075
+  value: 单向离合器较易损坏而变矩器是不可拆卸总成，只能根据故障现象判断；自动变速器的失速试验也可以反映变矩器中单向离合器的失效状况
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: has_type
+  statement: 常用的单向离合器有两种不同的形式：滚柱式和楔块式——其一为滚柱式（结构见图3-12）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0076
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k10
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: has_type
+  statement: 常用的单向离合器有两种不同的形式：滚柱式和楔块式——其二为楔块式（结构见图3-13）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0077
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k11
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k10
+  predicate: structure_and_principle
+  statement: 滚柱式单向离合器利用弹簧把滚柱固定在离合器内外座圈之间适当位置；外座圈的内表面有若干个凸轮状缺口，使滚柱在弹簧力作用下介于内座圈和缺口表面之间（图3-12）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e03
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0078
+  value: 利用弹簧把滚柱固定在离合器内外座圈之间适当位置；外座圈内表面有若干凸轮状缺口，滚柱在弹簧力作用下介于内座圈和缺口表面之间
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k10
+  predicate: locking_condition
+  statement: 当某一座圈固定，而另一座圈以一定方向旋转时，滚柱楔紧在缺口滚道的狭窄端，则旋转座圈也锁止。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e03
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0079
+  value: 某一座圈固定、另一座圈以一定方向旋转时，滚柱楔紧在缺口滚道的狭窄端，则旋转座圈也锁止
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k10
+  predicate: freewheel_condition
+  statement: 当该座圈朝相反方向旋转时，滚柱朝缺口滚道较宽端运动，滚柱和缺口滚道无楔紧趋势，该座圈能自由转动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e03
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0080
+  value: 该座圈朝相反方向旋转时，滚柱朝缺口滚道较宽端运动，滚柱和缺口滚道无楔紧趋势，该座圈能自由转动
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k11
+  predicate: comprises
+  statement: 楔块式单向离合器包括内外座圈和介于座圈之间的S形的金属楔块（图3-13）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e04
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0081
+  value: 内外座圈和介于座圈之间的S形的金属楔块
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k11
+  predicate: locking_condition
+  statement: 当其中一个座圈固定，而另一座圈往某一方向旋转时，其结果使S形楔块竖起，楔紧内外座圈表面，则旋转座圈锁止。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e01
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0082
+  value: 其中一个座圈固定、另一座圈往某一方向旋转时，S形楔块竖起楔紧内外座圈表面，则旋转座圈锁止
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k11
+  predicate: freewheel_condition
+  statement: 当该座圈以相反方向旋转，使楔块倒下，没有楔紧内外座圈表面的趋势，那么该座圈可以自由转动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e01
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0083
+  value: 该座圈以相反方向旋转时楔块倒下，没有楔紧内外座圈表面的趋势，该座圈可以自由转动
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: comprises
+  statement: 单向离合器内座圈和外座圈之间放置有若干滚柱或楔块。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e02
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0084
+  value: 内座圈、外座圈以及放置于两者之间的若干滚柱或楔块
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: connected_to
+  statement: 单向离合器内座圈与导轮支撑套用键槽连接，而导轮支撑套与变速器油泵盖连接；因为油泵盖固定在变速器壳体上，所以单向离合器内座圈不能转动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e02
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0085
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k12
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  predicate: outer_race_connected_to
+  statement: 单向离合器的外座圈与导轮连接并同步转动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e02
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0086
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: flow_reversal_at_turbine_exit
+  statement: 综合式液力变矩器中涡轮叶片呈曲线形，能提供最有效的转矩传递；但从涡轮排出的工作液流动的方向与输入的工作液流动的方向相反。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0087
+  value: 涡轮叶片呈曲线形能提供最有效的转矩传递，但从涡轮排出的工作液流动方向与输入的工作液流动方向相反
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: no_stator_consequence
+  statement: 当涡轮的转速较低或停止旋转时，工作液从涡轮回流到泵轮时会冲击泵轮叶片的前表面以阻止泵轮旋转，这样就增加了发动机的运转阻力（图3-14a）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0088
+  value: 涡轮转速较低或停止时，工作液从涡轮回流到泵轮会冲击泵轮叶片前表面阻止泵轮旋转，增加发动机的运转阻力（图3-14a 无导轮情形）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  predicate: redirects_return_flow
+  statement: 导轮的叶片能使工作液流动的方向再次反向（图3-14b），使工作液回流到泵轮的中心部位，推动泵轮叶片的后表面，以促使泵轮的旋转而增大泵轮的转矩。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0089
+  value: 导轮叶片使工作液流动方向再次反向，使工作液回流到泵轮的中心部位、推动泵轮叶片的后表面，以促使泵轮旋转而增大泵轮的转矩（图3-14b）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: torque_synthesis
+  statement: 由于导轮能够改变从涡轮回流到泵轮的工作液方向、促使工作液冲击泵轮叶片的后表面，来自发动机的转矩与从涡轮回流的转矩合成后传递到涡轮；换言之，泵轮将原始输入转矩增大后再传至涡轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0090
+  value: 来自发动机的转矩与从涡轮回流的转矩合成后传递到涡轮；泵轮将原始输入转矩增大后再传至涡轮
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: energy_conservation_constraint
+  statement: 在转矩传递的过程中，转矩的增加是通过涡轮转速的降低获得的，否则将破坏能量守恒定律。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0091
+  value: 转矩的增加是通过涡轮转速的降低获得的，否则将破坏能量守恒定律
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: return_flow_direction_dependency
+  statement: 从涡轮回流到导轮的工作液方向取决于泵轮和涡轮之间的转速差。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e05
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0092
+  value: 从涡轮回流到导轮的工作液方向取决于泵轮和涡轮之间的转速差
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k24
+  predicate: functional_definition
+  statement: 当涡轮转速达到泵轮转速的规定比例时，导轮则按泵轮的同样方向旋转，这称之为耦合器工作点或耦合器点；在达到耦合器工作点时不产生转矩增大效果，综合式液力变矩器的工作如同普通的液力耦合器一样。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e02
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0093
+  value: 涡轮转速达到泵轮转速的规定比例、导轮按泵轮同样方向旋转的时刻；达到耦合器工作点时不产生转矩增大效果，综合式液力变矩器的工作如同普通的液力耦合器一样
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: speed_ratio_effect
+  statement: 随着涡轮旋转速比的逐渐上升，涡轮和泵轮之间的转速差开始减小，工作液的涡流速度开始降低，由导轮增大的转矩量开始减小；当速比达到规定值时，流过泵轮和涡轮工作液的涡流速度达到最小值，此时转矩比大约为1∶1。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e03
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0094
+  value: 随涡轮速比上升：转速差减小、涡流速度降低、由导轮增大的转矩量减小；速比达规定值时涡流速度达最小值，此时转矩比大约为1∶1
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: coupling_region_behavior
+  statement: 因为从涡轮流出的工作液以高速冲击导轮叶片的后表面，单向离合器允许导轮按泵轮的旋转方向旋转，即液力变矩器在耦合器工作区时变成液力耦合器以防止转矩比下降过多；导轮开始转动的转速称为耦合器工作点（图3-16）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e03
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0095
+  value: 从涡轮流出的工作液以高速冲击导轮叶片后表面时，单向离合器允许导轮按泵轮旋转方向旋转，液力变矩器在耦合器工作区变成液力耦合器以防止转矩比下降过多；导轮开始转动的转速称为耦合器工作点（图3-16）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: has_operating_region
+  statement: 综合式液力变矩器的工作区域分为两个：变矩器工作区和耦合器工作区（图3-16）——其一为变矩器工作区，转矩增大仅发生于此区。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e05
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0096
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k26
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: has_operating_region
+  statement: 综合式液力变矩器的工作区域分为两个：变矩器工作区和耦合器工作区（图3-16）——其二为耦合器工作区，以耦合器工作点为界限，仅有转矩传递而无转矩增大。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e05
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0097
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k27
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k26
+  predicate: is_defined_as
+  statement: 变矩器工作区是综合式液力变矩器两个工作区域中转矩增大仅发生于此的区域。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e05
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0098
+  value: 综合式液力变矩器中发生转矩增大的工作区域
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k27
+  predicate: is_defined_as
+  statement: 耦合器工作区是以耦合器工作点为界限、仅有转矩的传递而无转矩增大的工作区域。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e05
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0099
+  value: 以耦合器工作点为界限、仅有转矩传递而无转矩增大的工作区域
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k26
+  predicate: enables
+  statement: 自动变速器车辆之所以能够平稳起步而不会引起发动机熄火，就是因为它能够在变矩器工作区内获得增大的转矩。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e05
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0100
+  value: 自动变速器车辆能够平稳起步而不会引起发动机熄火（因能在变矩器工作区内获得增大的转矩）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: torque_gain_condition
+  statement: 综合式液力变矩器只是因为安装了导轮改变了工作液的流动方向，才使其具有增大转矩的作用；转矩增大的作用也仅发生在涡轮转速远小于泵轮转速的时候。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e06
+  pdf_pages:
+  - 68
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0101
+  value: 只因安装导轮改变工作液流动方向才有增矩作用；转矩增大作用仅发生在涡轮转速远小于泵轮转速的时候
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: coupling_region_state
+  statement: 当涡轮的转速接近于泵轮的转速时，流向导轮叶片工作液的方向与来自泵轮的液流方向相同，即导轮不产生改变工作液流动方向的作用，这时单向离合器释放，而使导轮相对于内座圈自由转动；工作液的循环流动强度很弱，发动机的转矩由工作液的圆周流动传递，综合式液力变矩器进入耦合器工作区（图3-16），在耦合器工作区没有转矩增大的作用。
+  conditions:
+  - 涡轮转速接近泵轮转速
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e06
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e01
+  pdf_pages:
+  - 68
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0102
+  value: 涡轮转速接近泵轮转速时，流向导轮叶片的工作液方向与来自泵轮的液流方向相同，导轮不产生改向作用，单向离合器释放使导轮相对于内座圈自由转动；工作液循环流动强度很弱，发动机转矩由工作液的圆周流动传递，无转矩增大作用
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k25
+  predicate: is_defined_as
+  statement: 涡轮固定不动而泵轮仍在旋转时的工况称为失速工况；失速转速是涡轮处于静止时发动机所能达到的最高转速；失速发生在汽车起步或汽车停车时。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e01
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0103
+  value: 失速工况：涡轮固定不动而泵轮仍在旋转时的工况；失速转速：涡轮处于静止时发动机所能达到的最高转速；失速发生在汽车起步或汽车停车时
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k25
+  predicate: typical_stall_speed_range
+  statement: 当今，大多数综合式液力变矩器的失速转速处于2000～3000 r/min之间。
+  conditions:
+  - 当今大多数综合式液力变矩器
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e01
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0104
+  value: 2000～3000
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k25
+  predicate: engine_power_dependency
+  statement: 一般配用较低功率发动机的综合式液力变矩器失速转速高，而配用较高功率发动机的综合式液力变矩器失速转速低。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e01
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0105
+  value: 配用较低功率发动机的综合式液力变矩器失速转速高；配用较高功率发动机的失速转速低
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: max_torque_ratio
+  statement: 当涡轮完全不旋转（如变速杆在D位而车辆被制动时），泵轮和涡轮之间的转速差达到最大值，工作液的涡流速度和转矩增大的作用也达到最大值，即综合式液力变矩器的最大转矩比是在失速点时，它通常在1.7～2.5范围之内。
+  conditions:
+  - 失速点
+  - 通常
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e02
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0106
+  value: 1.7～2.5
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k25
+  predicate: function
+  statement: 在失速点，工作液具有很大的能量用于克服车辆起步时的静止阻力。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e02
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0107
+  value: 在失速点工作液具有很大的能量，用于克服车辆起步时的静止阻力
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: operating_process
+  statement: 当发动机怠速时由发动机产生的转矩为最小值；由于采用制动器制动车辆使涡轮固定（变速杆处于动力档时），综合式液力变矩器不能克服载荷使涡轮旋转，而一旦涡轮上的载荷减小（抬起制动踏板时），便能够迅速地以高转矩旋转。
+  conditions:
+  - 车辆静止、发动机怠速
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e03
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0108
+  value: 车辆静止、发动机怠速运转：怠速时发动机转矩为最小值；制动器制动车辆使涡轮固定（变速杆处于动力档），变矩器不能克服载荷使涡轮旋转；涡轮载荷减小（抬起制动踏板）时能迅速以高转矩旋转
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: operating_process
+  statement: 当抬起制动踏板时作用在涡轮上的载荷减小；随着踩下加速踏板，综合式液力变矩器在变矩器工作区的增矩作用迅速发挥出来，使涡轮以大于发动机产生的转矩开始旋转，用于克服车辆起步时的阻力，车辆开始起步。
+  conditions:
+  - 车辆起步阶段
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e03
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0109
+  value: 车辆起步阶段：抬起制动踏板涡轮载荷减小，踩下加速踏板后变矩器工作区的增矩作用迅速发挥，涡轮以大于发动机产生的转矩开始旋转，克服车辆起步阻力使车辆起步
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: operating_process
+  statement: 当车辆速度上升时，涡轮的转速快速接近泵轮的转速，变矩比快速接近1；当综合式液力变矩器达到耦合器工作点时，导轮开始旋转并停止转矩增大的作用，进入耦合器工作区内工作；这时车辆速度与发动机转速成正比直线上升。
+  conditions:
+  - 车辆低速行驶阶段
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e04
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0110
+  value: 车辆低速行驶阶段：车速上升时涡轮转速快速接近泵轮转速、变矩比快速接近1；达到耦合器工作点时导轮开始旋转并停止转矩增大作用，进入耦合器工作区；车辆速度与发动机转速成正比直线上升
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: operating_process
+  statement: 车辆以中速至高速行驶阶段，综合式液力变矩器能起到液力耦合器的作用，涡轮几乎和泵轮以一样的转速旋转；车辆正常起步2～3s后达到液力耦合器工作点继而进入耦合区，但如果在中速或高速行驶时载荷增加引起车速下降，则可能退回在变矩区工作。
+  conditions:
+  - 中速至高速行驶
+  - 正常起步2～3s后
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e04
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0111
+  value: 中速至高速行驶阶段：起液力耦合器作用，涡轮几乎和泵轮以一样转速旋转；正常起步2～3s后达到耦合器工作点进入耦合区；中速或高速行驶载荷增加引起车速下降时可能退回变矩区工作
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: operating_process
+  statement: 如果驾驶人在车辆行驶过程中放松加速踏板，泵轮由于与发动机连接以怠速转速运转，而涡轮与输出轴连接、其转速与车速有关；在车速较高时涡轮的转速将会高于泵轮，并反向带动发动机转速增加，产生发动机制动作用；因此涡轮的转速有可能高于泵轮的转速。
+  conditions:
+  - 发动机制动阶段
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e04
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0112
+  value: 发动机制动阶段：放松加速踏板时泵轮随发动机以怠速转速运转，涡轮与输出轴连接、转速与车速有关；车速较高时涡轮转速会高于泵轮并反向带动发动机转速增加，产生发动机制动作用；涡轮转速有可能高于泵轮转速
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: has_characteristic
+  statement: 综合式液力变矩器的工作特性主要是转矩特性和效率特性。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e05
+  pdf_pages:
+  - 69
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0113
+  value: 转矩特性和效率特性
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: torque_ratio_low_speed
+  statement: 综合式液力变矩器低转速时 K = Mt/Mp = (Mp + Ms)/Mp > 1（实际在车上为1.7～2.5之间），说明其变矩比大于液力耦合器。
+  conditions:
+  - 低转速
+  - 实际在车上
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e01
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0114
+  value: K=(Mp+Ms)/Mp > 1，实际在车上为1.7～2.5之间
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: torque_ratio_high_speed
+  statement: 综合式液力变矩器高转速时 K = Mt/Mp = 1，说明其变矩比等于液力耦合器。
+  conditions:
+  - 高转速
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e01
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0115
+  value: K = Mt/Mp = 1，变矩比等于液力耦合器
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: efficiency_vs_coupling
+  statement: 综合式液力变矩器低转速时 K>1、K(nt/np)>nt/np，传动效率大于液力耦合器；高转速时 K=1、K(nt/np)=nt/np，传动效率等于液力耦合器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e02
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0116
+  value: 低转速时（K>1）传动效率大于液力耦合器；高转速时（K=1）传动效率等于液力耦合器
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: stall_point_efficiency
+  statement: 综合式液力变矩器在失速点时泵轮旋转而涡轮静止，在这种状态下涡轮接受的转矩达到最大值，但因为涡轮没有转动，传动效率为零。
+  conditions:
+  - 失速点
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e03
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0117
+  value: 0（失速点时泵轮旋转而涡轮静止，涡轮接受转矩最大但因涡轮没有转动，传动效率为零）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: efficiency_peak_location
+  statement: 当涡轮开始旋转时传动效率急剧上升，传动效率在综合式液力变矩器达到耦合点前达到最大值；在最大效率之后，因为部分工作液从涡轮流出被引入导轮叶片的后表面，传动效率开始下降。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e03
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0118
+  value: 涡轮开始旋转后传动效率急剧上升，在达到耦合点前达到最大值；最大效率之后部分工作液从涡轮流出被引入导轮叶片后表面，传动效率开始下降
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: coupling_point_behavior
+  statement: 在耦合点时，从涡轮流出的大部分工作液冲击导轮叶片的后表面，导轮开始旋转以防止传动效率进一步下降，综合式液力变矩器开始变成液力耦合器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e03
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0119
+  value: 耦合点时从涡轮流出的大部分工作液冲击导轮叶片后表面，导轮开始旋转以防止传动效率进一步下降，综合式液力变矩器开始变成液力耦合器
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: operating_requirement
+  statement: 由于综合式液力变矩器借助流体传递能量，泵轮和涡轮之间必须存在转速差，否则工作液就不会循环，也不会产生动力传递。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e03
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0120
+  value: 借助流体传递能量，泵轮和涡轮之间必须存在转速差，否则工作液不会循环、不会产生动力传递
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: typical_transmission_efficiency
+  statement: 由于摩擦和冲击导致工作液升温造成能量损失、传动效率下降，综合式液力变矩器的传动效率不可能达到100%，一般可以达到95%左右。
+  conditions:
+  - 一般
+  - 约数
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e03
+  pdf_pages:
+  - 70
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0121
+  value: 约95
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  predicate: slip_loss
+  statement: 前面三个课题的动力传递装置（耦合器、液力变矩器、综合式液力变矩器）都属于软连接机构、采用液力传递动力，泵轮与涡轮之间的转速差最少也有4%～5%，相当于泵轮与涡轮之间存在滑转现象，从而使变矩器内部工作液因摩擦产生一定能量损失，传动效率低、无法达到100%（长期以来配备自动变速器的轿车油耗高的主要症结）。
+  conditions:
+  - 液力软连接机构
+  - 转速差下限4%～5%
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e01
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0122
+  value: 泵轮与涡轮之间的转速差最少也有4%～5%，相当于存在滑转现象，使变矩器内部工作液因摩擦产生能量损失，传动效率低、无法达到100%（配备自动变速器轿车油耗高的主要症结）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  predicate: purpose
+  statement: 为了提高变矩器的传动效率、减小燃油消耗，现代汽车采用的液力变矩器均为带锁止离合器的综合式液力变矩器，即在原有的综合式液力变矩器中加装锁止离合器，使用机械方式直接连接泵轮和涡轮，解决转速差问题进而提高传动效率，使其尽可能接近100%。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e02
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0123
+  value: 在综合式液力变矩器中加装锁止离合器，用机械方式直接连接泵轮和涡轮，解决泵轮和涡轮之间的转速差问题，提高传动效率使其尽可能接近100%；现代汽车采用的液力变矩器均为带锁止离合器的综合式液力变矩器
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k14
+  predicate: is_component_of
+  statement: 这种变矩器的锁止离合器内有一个可轴向移动的锁止活塞。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e03
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0124
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k30
+  predicate: is_defined_as
+  statement: 锁止活塞后侧的工作液与变矩器泵轮、涡轮中的工作液相通，保持一定的油压，该油压称为变矩器油压。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e03
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0125
+  value: 锁止活塞后侧工作液保持的油压；该工作液与变矩器泵轮、涡轮中的工作液相通
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k34
+  predicate: connects
+  statement: 锁止活塞前侧的工作液通过自动变速器输入轴中间的控制油道与阀体上的锁止控制阀相通。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e03
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0126
+  value: 锁止活塞前侧的工作液（经自动变速器输入轴中间的控制油道）与阀体上的锁止控制阀相通
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k28
+  predicate: controlled_by
+  statement: 锁止控制阀由速控油压或自动变速器电脑通过锁止电磁阀来控制。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e03
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0127
+  value: 速控油压或自动变速器电脑通过锁止电磁阀来控制
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  predicate: comprises
+  statement: 带锁止离合器的综合式液力变矩器的结构由泵轮、涡轮、导环、壳体、单向锁止导轮、锁止离合器组成——组成包含泵轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0128
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  predicate: comprises
+  statement: 带锁止离合器的综合式液力变矩器组成包含涡轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0129
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  predicate: comprises
+  statement: 带锁止离合器的综合式液力变矩器组成包含导环。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0130
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  predicate: comprises
+  statement: 带锁止离合器的综合式液力变矩器组成包含壳体。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0131
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k18
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  predicate: comprises
+  statement: 带锁止离合器的综合式液力变矩器组成包含单向锁止导轮。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0132
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  predicate: comprises
+  statement: 带锁止离合器的综合式液力变矩器组成包含锁止离合器（除锁止离合器外其他元件均在课题三中讲解过）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0133
+  object_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+  predicate: is_defined_as
+  statement: 如图3-17所示，锁止离合器简称TCC，是英文 Torque Converter Clutch 的缩写。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e05
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0134
+  value: 锁止离合器，简称TCC，是英文 Torque Converter Clutch 的缩写（图3-17）
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+  predicate: has_type
+  statement: 锁止离合器分为两种类型：一种是摩擦片与减振盘制成一体；另一种是摩擦片与锁止活塞制成一体（图3-17 a为摩擦片与锁止活塞制成一体、b为摩擦片与减振盘制成一体）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e05
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0135
+  value: 两种类型：一种是摩擦片与减振盘制成一体；另一种是摩擦片与锁止活塞制成一体
+- subject_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+  predicate: function
+  statement: 锁止离合器可以将泵轮和涡轮直接连接起来，即将发动机与自动变速器机械连接起来，这样减少液力变矩器在高速比时的能量损耗，提高了传动效率，提高汽车在正常行驶时的燃油经济性，并防止自动变速器油液过热。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e05
+  pdf_pages:
+  - 71
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0136
+  value: 将泵轮和涡轮直接连接起来（即把发动机与自动变速器机械连接），减少液力变矩器在高速比时的能量损耗，提高传动效率，提高汽车正常行驶时的燃油经济性，并防止自动变速器油液过热
+edges:
+- predicate: occurs_in
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0002
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0001
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k23
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0010
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0002
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+- predicate: mounted_on_rear_of
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0011
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0003
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k32
+- predicate: developed_from
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0019
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0004
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k01
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0020
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0005
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0021
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0006
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0022
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0007
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0023
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0008
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k18
+- predicate: is_input_element_of
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0025
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0009
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- predicate: has_feature
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0026
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0010
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- predicate: is_output_element_of
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0028
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0011
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- predicate: connected_to
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0030
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0012
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k33
+- predicate: is_reaction_element_of
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0031
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0013
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- predicate: fixed_to
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0033
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0014
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k36
+- predicate: same_principle_as
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0046
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0015
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+- predicate: supported_via
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0047
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0016
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0049
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0017
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0050
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0018
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0051
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0019
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0052
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0020
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k18
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0053
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0021
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- predicate: mounted_via
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0055
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0022
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k12
+- predicate: has_flow_type
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0057
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0023
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k21
+- predicate: has_flow_type
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0058
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0024
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k22
+- predicate: locks
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0071
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0025
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- predicate: releases
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0072
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0026
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- predicate: has_type
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0076
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0027
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k10
+- predicate: has_type
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0077
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0028
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k11
+- predicate: connected_to
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0085
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0029
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k12
+- predicate: outer_race_connected_to
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0086
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0030
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- predicate: has_operating_region
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0096
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0031
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k26
+- predicate: has_operating_region
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0097
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0032
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k27
+- predicate: is_component_of
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0124
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0033
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k14
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0128
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0034
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0129
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0035
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0130
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0036
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k17
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0131
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0037
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k18
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0132
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0038
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- predicate: comprises
+  claim_id: claim:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:c03s2t4:0133
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0039
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+- predicate: uses_working_fluid
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0040
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k02
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k31
+- predicate: located_between
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0041
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- predicate: located_between
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0042
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k07
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- predicate: located_between
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0043
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- predicate: located_between
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0044
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- predicate: supported_on
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0045
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k12
+- predicate: discharges_to
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0046
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- predicate: discharges_to
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0047
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+- predicate: discharges_to
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0048
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k08
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- predicate: characteristic_point_of
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0049
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k24
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+- predicate: characteristic_point_of
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0050
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k25
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+- predicate: region_of
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0051
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k26
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+- predicate: region_of
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0052
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k27
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+- predicate: connected_to
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0053
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k12
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k35
+- predicate: fixed_to
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0054
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k35
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k36
+- predicate: acts_on
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0055
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k30
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k14
+- predicate: connected_to
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0056
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k34
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k28
+- predicate: located_in
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0057
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k34
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k33
+- predicate: controlled_via
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0058
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k28
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k29
+- predicate: couples
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0059
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k05
+- predicate: couples
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0060
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k13
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k06
+- predicate: developed_from
+  claim_id: null
+  id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:edg:0061
+  from_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k04
+  to_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k03
+evidence:
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L10-L16
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L17-L19
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L21-L24
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L3-L9
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L27-L28
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L29-L31
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e07
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L32-L34
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e08
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L35-L39
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e09
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 60
+  printed_page_label: '52'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0060_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 61
+  printed_page_label: '53'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L7-L13
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 61
+  printed_page_label: '53'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L14-L18
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 61
+  printed_page_label: '53'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L19-L22
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 61
+  printed_page_label: '53'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0061_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 61
+  printed_page_label: '53'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L30-L32
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 62
+  printed_page_label: '54'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L3-L7
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 62
+  printed_page_label: '54'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L8-L12
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 62
+  printed_page_label: '54'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L13-L17
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 62
+  printed_page_label: '54'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L18-L35
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 62
+  printed_page_label: '54'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0062_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 62
+  printed_page_label: '54'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L36-L39
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 63
+  printed_page_label: '55'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L3-L8
+  source_kind: BOOK_FORMULA_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 63
+  printed_page_label: '55'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L9-L12
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 63
+  printed_page_label: '55'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L13-L23
+  source_kind: BOOK_FORMULA_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 63
+  printed_page_label: '55'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L24-L29
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 63
+  printed_page_label: '55'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L30-L32
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 63
+  printed_page_label: '55'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L34-L39
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 64
+  printed_page_label: '56'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L4-L8
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 64
+  printed_page_label: '56'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L10-L14
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 64
+  printed_page_label: '56'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L15-L17
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 64
+  printed_page_label: '56'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0064_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 64
+  printed_page_label: '56'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L24-L29
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 64
+  printed_page_label: '56'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L30-L34
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 65
+  printed_page_label: '57'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L3-L10
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 65
+  printed_page_label: '57'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L11-L18
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 65
+  printed_page_label: '57'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0065_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 65
+  printed_page_label: '57'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0065_crop1_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 65
+  printed_page_label: '57'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L25-L30
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 65
+  printed_page_label: '57'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L31-L34
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 66
+  printed_page_label: '58'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0066_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 66
+  printed_page_label: '58'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0066.txt#L9-L10
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 66
+  printed_page_label: '58'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0066.txt#L11-L15
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 66
+  printed_page_label: '58'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0066.txt#L16-L17
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 66
+  printed_page_label: '58'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0066_crop1_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 66
+  printed_page_label: '58'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0066_crop2_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 67
+  printed_page_label: '59'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L3-L5
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 67
+  printed_page_label: '59'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L6-L8
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 67
+  printed_page_label: '59'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L9-L18
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 67
+  printed_page_label: '59'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0067_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 67
+  printed_page_label: '59'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L26-L35
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 68
+  printed_page_label: '60'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0068_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 68
+  printed_page_label: '60'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L10-L12
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 68
+  printed_page_label: '60'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L13-L22
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 68
+  printed_page_label: '60'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0068_crop1_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 68
+  printed_page_label: '60'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L23-L28
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 68
+  printed_page_label: '60'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L29-L35
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 69
+  printed_page_label: '61'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L4-L8
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 69
+  printed_page_label: '61'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L9-L12
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 69
+  printed_page_label: '61'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L13-L20
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 69
+  printed_page_label: '61'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L20-L32
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 69
+  printed_page_label: '61'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L33-L35
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 70
+  printed_page_label: '62'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0070.txt#L3-L13
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 70
+  printed_page_label: '62'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0070.txt#L14-L28
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 70
+  printed_page_label: '62'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0070.txt#L29-L38
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e01
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 71
+  printed_page_label: '63'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L5-L8
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e02
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 71
+  printed_page_label: '63'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L9-L12
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e03
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 71
+  printed_page_label: '63'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L12-L16
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 71
+  printed_page_label: '63'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L16-L18
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e05
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 71
+  printed_page_label: '63'
+  section_id: c03s2t4
+  asset_id: null
+  locator: text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L19-L23
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: ''
+  reader_model: ''
+- id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e06
+  source_book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  pdf_page_index: 71
+  printed_page_label: '63'
+  section_id: c03s2t4
+  asset_id: null
+  locator: renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0071_crop0_300dpi.png
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: ''
+  reader_model: ''
+sections:
+- id: c03s2t4
+  label: 模块三 课题二液力变矩器～课题四带锁止离合器的综合式液力变矩器
+  start_pdf_page: 60
+  end_pdf_page: 71
+  section_status: EXTRACTED
+coverage_summary:
+  pages_total: 404
+  pages_processed: 16
+  pages_blocked: 388
+  assets_total: 13
+  assets_processed: 13
+  sections_total: 1
+  sections_closed: 1
+review_status: GENERATED_REVIEW_PENDING
+page_ledger_ref: page-ledger.yaml
+generation_receipt:
+  writer: zcode-main-session:book-integrator
+  extractor_model: glm-flash-free
+  generated_utc: '2026-11-19T21:59:14+00:00'
+  source_pdf_sha256: ae8b6048e6b8b7a2adc001bc0fca19826e895c4f74f8a26d9cf616b1b6ed1f69
+  chapters:
+  - c03s2t4
+  observations: local-private (not committed); evidence observation_summary in graph
+  rights_note: local processing only; no external API upload performed

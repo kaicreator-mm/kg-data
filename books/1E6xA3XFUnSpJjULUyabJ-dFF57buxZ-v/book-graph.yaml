@@ -1,0 +1,1576 @@
+book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+schema_version: 1.0.0
+ontology_version: automotive-books-kg-ontology-1.0
+graph_revision: 1
+source:
+  drive_file_id: 1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  title: 汽车自动变速器阀体诊断与修复技术（第2版）
+  pdf_page_count: 303
+  source_sha256: b0d3c1dde4b05b9fdf8a2def34f8bab3a34709cf984bc0b106ec5d70406c53fd
+  source_rights_status: UNKNOWN
+  publication_year: null
+  edition: 第2版
+  isbn: null
+entities:
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  label: 阀体
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  label: 阀孔
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  label: 滑阀（阀芯）
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k04
+  label: 电磁阀
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k05
+  label: 变速器电控单元
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k06
+  label: 主调压阀
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k07
+  label: 增压阀
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  label: 电磁阀调压阀
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k09
+  label: 次级调压阀
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k10
+  label: 离合器控制阀
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k11
+  label: 锁止调压阀
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k12
+  label: 调压弹簧
+  kind: component
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k13
+  label: 降压阀（件号85755-09K）
+  kind: component
+  applicability:
+    transmission: 大众01V（ZF 5HP19）上后阀板
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k14
+  label: 阀套式改良修复阀（阀芯件号84741-10K）
+  kind: repair_part
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+    area: 下阀板电磁阀调压阀部位
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  label: 机械磨损（阀芯/阀孔配副磨损）
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  label: 偏磨（单边磨损）
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k17
+  label: 油压泄漏
+  kind: phenomenon
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k18
+  label: 油路交叉泄漏
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k19
+  label: 滑阀反应迟钝/运动不到位
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
+  label: 滑阀卡滞
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k21
+  label: 弹簧疲劳失效
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k22
+  label: 电泳腐蚀
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k23
+  label: 月牙形光亮磨损区域
+  kind: observation_sign
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k24
+  label: 边缘带尖角的磨损
+  kind: observation_sign
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  label: 电磁阀输出油压不正常
+  kind: phenomenon
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k26
+  label: 离合器控制正时性被破坏
+  kind: phenomenon
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k27
+  label: 换档冲击
+  kind: symptom
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k28
+  label: 换档打滑
+  kind: symptom
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k29
+  label: 离合器烧毁
+  kind: failure_mode
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k30
+  label: 故障码
+  kind: symptom
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k31
+  label: 换档故障
+  kind: symptom
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k32
+  label: 硬阳极电镀
+  kind: material_coating
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k33
+  label: 软阳极电镀（镀膜质量不佳）
+  kind: material_coating
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k34
+  label: 阀孔目测检查（多角度观察+聚焦手电筒）
+  kind: inspection_method
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k35
+  label: 真空测试
+  kind: test_method
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k36
+  label: 弹簧长度与偏斜检查
+  kind: inspection_method
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k37
+  label: 锉刀/刀片划痕硬度测试
+  kind: test_method
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k38
+  label: 耳边晃动检查法
+  kind: inspection_method
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k39
+  label: 更换阀体总成排查
+  kind: diagnostic_method
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k40
+  label: 铜棒蘸水研磨阀孔
+  kind: repair_method
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k41
+  label: 更换失效弹簧
+  kind: repair_action
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  label: 大众09G
+  kind: transmission_model
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k43
+  label: 宝马ZF6HP
+  kind: transmission_model
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k44
+  label: 爱信AW55-50
+  kind: transmission_model
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k45
+  label: 丰田U660/U760/U250系列
+  kind: transmission_model
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k46
+  label: 奔驰722.9
+  kind: transmission_model
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k47
+  label: 大众01V（ZF 5HP19）
+  kind: transmission_model
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  label: 现代/起亚A4CF1/2
+  kind: transmission_model
+claims:
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0001
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: primary_failure_mode
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  statement: 阀体本身的失效主要是阀孔或滑阀的机械磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 指阀体本身，不含装在阀体上的电磁阀
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0002
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k19
+  statement: 阀孔或滑阀磨损会使滑阀（在电磁阀调节后的油压作用下）反应迟钝。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0003
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
+  statement: 阀孔或滑阀磨损会使滑阀出现卡滞。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0004
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k19
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k30
+  statement: 滑阀反应迟钝等异常超出变速器电控单元的调节范围后，会出现故障码。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 超出变速器电控单元的调节范围
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0005
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k31
+  statement: 滑阀卡滞等异常超出变速器电控单元的调节范围后，会出现换档故障。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 超出变速器电控单元的调节范围
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0006
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k04
+  predicate: receives_pressure_commands_from
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k05
+  statement: 大多数阀体内装有电磁阀；电磁阀按变速器电控单元发出的指令来对液压实施调节。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0007
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: inspection_scope
+  value: 阀体的检查是对其机械磨损的检查；电磁阀的检测也至关重要，本书后面有专门章节介绍
+  statement: 作者定位：阀体检查实质是对机械磨损的检查；电磁阀检测同等重要但另行成章。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0008
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k17
+  statement: 滑阀与阀孔的磨损会导致油压泄漏。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0009
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k17
+  predicate: tcu_compensation_capability
+  value: 漏向油底壳的泄漏可被电控单元一定程度补偿
+  statement: 磨损泄漏若走向是漏进油底壳，电控单元还能将其补偿掉一部分。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 泄漏走向为漏向油底壳
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0010
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k18
+  statement: 磨损导致油压从一个油路漏向另一个油路时，形成油路的交叉泄漏。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 磨损使油压在油路与油路之间泄漏
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0011
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k18
+  predicate: tcu_compensation_capability
+  value: 油路交叉泄漏电控单元很难补偿
+  statement: 对油路交叉泄漏，电控单元就很难补偿了。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0012
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: root_cure_requirement
+  value: 确保阀体（包括阀芯和阀孔）没有机械磨损
+  statement: 作者论断：想从根源上消除阀体故障，就得保证阀体（含阀芯与阀孔两方）不存在机械磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0013
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k06
+  predicate: normal_operation_effect
+  value: 两端液压推力与弹簧力平衡下的轴向运动不导致阀体磨损
+  statement: 油压从阀体上方进入分别作用于主调压阀滑阀两端，滑阀在液压推力与弹簧力平衡作用下轴向运动，这本身并不会导致阀体磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e4
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0014
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k06
+  predicate: depicted_assembly
+  value: 图3-3剖视显示典型主调压阀与增压阀系列：标注主油路的平衡油压（压缩弹簧）、截流油路、进入油压、阀体调节槽口、EPC增压信号、倒档增压信号、泄油孔、工作圆的边折、工作面、油压作用面、阀杆、带斜角的阀杆、调压弹簧、增压阀
+  statement: 图3-3为一幅典型主调压阀-增压阀系列剖视渲染图，带14处部件/油路标注。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e3
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0015
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k35
+  predicate: applies_to
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  statement: 图3-3标注提示：注意阀和孔的配合间隙，可目测此处或做真空测试。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 针对主调压阀/增压阀系列阀与孔的配合间隙处
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0016
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  predicate: visual_signature
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k23
+  statement: 偏磨的典型表现形式是边缘呈现出月牙形的光亮区域（图3-4和图3-5）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0017
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  predicate: prevalence
+  value: 偏磨是阀体中最普遍的磨损原因
+  statement: 作者经验：偏磨（月牙形光亮区域）是阀体中最普遍的磨损原因。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者经验性结论
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0018
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  predicate: formation_mechanism
+  value: 进入油路的油对滑阀产生向下的压力，使滑阀和阀孔的一边受挤压而另一半完全不受力，滑阀运动中单边磨损阀孔
+  statement: 偏磨机理：单向油压使滑阀单边受力，运动过程中单边磨损阀孔。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0019
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k34
+  predicate: inspects
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  statement: 检查阀孔时应换用不同角度观察，必要时借助聚焦的手电筒，留意阀孔表面有无光亮区域。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0020
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k23
+  predicate: depicted_example
+  value: 图3-4实拍：阀孔边缘月牙形光亮磨损区域（偏磨表现一）
+  statement: 图3-4为月牙形磨损区域的第一张实拍特写。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e3
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0021
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k23
+  predicate: depicted_example
+  value: 图3-5实拍：阀孔内月牙形光亮磨损区域（偏磨表现二）
+  statement: 图3-5为月牙形磨损区域的第二张实拍特写（从孔口向内观察）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e4
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0022
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k12
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  statement: 作用于滑阀一端的调压弹簧在挤压时给滑阀一个偏出中线的作用力，推动滑阀轴向运动的同时把滑阀往阀孔壁上挤压，造成偏磨。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 弹簧作用于滑阀一端（如连接主调压阀和增压阀的调压弹簧）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0023
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k24
+  predicate: indicates
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k12
+  statement: 边缘带尖角的磨损形式（图3-6）与月牙形不同，是弹簧作用的结果。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0024
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k24
+  predicate: depicted_example
+  value: 图3-6实拍：由弹簧引起的磨损（边缘带尖角）
+  statement: 图3-6为弹簧引起磨损的实拍，磨损边缘带尖角。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e5
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0025
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k36
+  predicate: applies_to
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k12
+  statement: 检查阀体过程中碰到弹簧时，应对其长度与有无偏斜进行检查。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0026
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k21
+  predicate: observable_effect
+  value: 弹簧疲劳后明显变短并伴一定程度偏斜
+  statement: 受疲劳强度影响，同种弹簧失效后会明显变短且有一定偏斜，这种弹簧需要更换。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0027
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k41
+  predicate: triggered_by
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k21
+  statement: 明显变短且有偏斜的疲劳弹簧就是需要更换的。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0028
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k21
+  predicate: depicted_example
+  value: 图3-7实拍：同一弹簧失效前后比较，左边弹簧明显短于右边且有偏斜
+  statement: 图3-7展示同一种弹簧失效前后的对比。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e6
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0029
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k36
+  predicate: reference_data_source
+  value: 标准弹簧长度有资料可查，或自己通过测量新的阀体建立自己的资料系统
+  statement: 弹簧长度基准的两种来源：查资料，或实测新阀体自建资料。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0030
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k34
+  predicate: primary_inspection_target
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  statement: 检查阀体时不能只盯着阀芯，最要紧的部位是阀孔，特别是其两端位置。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e8
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0031
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  predicate: harder_than
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  statement: 阀芯表面硬度高于阀体，所以很多情况下滑阀看起来没有磨损，阀孔却已经出现磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e8
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0032
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  predicate: depicted_example
+  value: 图3-8实拍：磨损的滑阀，工作面边缘出现明显磨损
+  statement: 图3-8展示的滑阀在工作面的边缘上已出现明显磨损。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e7
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0033
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  predicate: wear_implication
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  statement: 滑阀工作面边缘已见明显磨损时务必检查阀孔，此时阀孔往往已磨得很严重。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e8
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 滑阀工作面边缘已见明显磨损时
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0034
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  predicate: shape_features
+  value: 2个工作面，一端有长杆连接较硬的调压弹簧
+  statement: 图3-6这种阀最容易磨损：一头长杆连接较硬调压弹簧，弹簧偏向作用力引起滑阀运动中摆动，油压下更易偏磨；边缘尖角易磨损且更易磨损阀孔。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0035
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  predicate: earliest_wear_site_in
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  statement: 大多数阀体内的电磁阀调节阀都是这种形状，导致几乎所有变速器阀体中电磁阀调压阀基本都是最先磨损的部位。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者对各种阀体的经验性观察
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0036
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  predicate: premature_failure_risk
+  value: 电控程度高的新款自动变速器中电磁阀调压阀运动频率更高，更容易过早失效；阀芯属于这种形状的调压阀均应列为阀体重点检查部位
+  statement: 高电控车型电磁阀调压阀运动频率更高、更易过早失效，应作为阀体重点检查部位。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmissions:
+    - 大众09G
+    - 宝马ZF6HP
+    - 爱信AW55-50
+    - 丰田U660
+    - 丰田U760
+    - 丰田U250
+    - 奔驰722.9
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0037
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k13
+  predicate: part_number
+  value: 85755-09K
+  statement: 图3-9显示5HP19上后阀板中容易磨损的降压阀（85755-09K）与配合弹簧；正文称其为帕萨特01V阀体上方小阀板的降压阀。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众01V（ZF 5HP19）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0038
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k13
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  statement: 帕萨特01V阀体上方小阀板内的降压阀常把阀孔磨坏，使电磁阀输出油压变得不正常。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众01V（ZF 5HP19）
+  conditions:
+  - 降压阀阀孔磨损时
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0039
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k27
+  statement: 电磁阀输出油压不正常会产生换档冲击。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众01V（ZF 5HP19）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0040
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k28
+  statement: 电磁阀输出油压不正常会产生换档打滑。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众01V（ZF 5HP19）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0041
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k29
+  statement: 电磁阀输出油压不正常可导致离合器烧毁。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众01V（ZF 5HP19）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0042
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k33
+  predicate: may_damage
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  statement: 滑阀失效的另一原因是阀芯表面镀膜质量不佳：后市场粗制滥造阀芯只用普通软阳极电镀而非硬度最高的硬阳极电镀，在电泳和机械磨损综合作用下阀芯易被破坏。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e4
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0043
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k32
+  predicate: structural_property
+  value: 真正的硬阳极电镀层有50%的厚度生长入铝基体内，且这种阳极电镀膜是不导电的
+  statement: 硬阳极电镀层结构特性：50%厚度长入铝基体、膜不导电。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 指真正的硬阳极电镀（非软阳极电镀）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0044
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k33
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k22
+  statement: 阀芯表面镀膜质量不佳时，阀体上驱动电磁阀的电流会通过阀芯表面，基体金属在电流作用下发生电泳，造成阀芯腐蚀。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 镀膜质量不佳（非硬阳极电镀）且有驱动电磁阀的电流通过阀芯表面
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0045
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k22
+  predicate: depicted_example
+  value: 图3-10实拍：滑阀表面出现电泳腐蚀（箭头标注金属的腐蚀）
+  statement: 图3-10展示阀芯电泳腐蚀的实际形貌。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e5
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0046
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k32
+  predicate: hardness_relation
+  value: 真正阳极电镀膜的表面硬度是钢的2倍；表面有镀层并不等于就是硬阳极电镀（作者提醒）
+  statement: 作者提醒：阳极电镀膜表面硬度约为钢的2倍，但表面有镀层不等于硬阳极电镀。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 硬度倍数为作者给出的对比值，未指定具体硬度计条件
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0047
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k37
+  predicate: assesses
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k32
+  statement: 检测阀芯质量是否合格可用刀片或锉刀划阀芯表面，看是否留下痕迹；若滑阀表面被划伤，应立刻丢弃此阀。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e4
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0048
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k37
+  predicate: depicted_procedure
+  value: 图3-11：HRC60的锉刀（TSUBOSAN）不能穿透硬电镀层下的基底材料；HRC40的锉刀会刮伤零件表面并穿透到基底材料
+  statement: 图3-11用HRC60与HRC40两种锉刀对比演示硬阳极电镀的硬度测试判据。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e6
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 锉刀硬度HRC60/HRC40（图内标注TSUBOSAN品牌）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0049
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: wear_timing_variance
+  value: 并非所有滑阀或阀孔都会磨损失效；有些在里程数很小时就出现磨损，与每种阀的设计和工作状态有关
+  statement: 磨损并非遍及所有滑阀，出现与否及早晚取决于阀的设计和工作状态。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0050
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k06
+  predicate: prone_to
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  statement: 一般来说所有的调压阀都容易出现磨损，主调压阀在列。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者一般性概括
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0051
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  predicate: prone_to
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  statement: 一般来说所有调压阀都容易出现磨损，电磁阀调压阀（次级调压阀之一）在列。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者一般性概括
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0052
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k09
+  predicate: prone_to
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  statement: 次级调压阀类别（电磁阀调压阀、离合器控制阀或锁止调压阀等）一般来说容易出现磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者一般性概括
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0053
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k10
+  predicate: prone_to
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  statement: 离合器控制阀作为次级调压阀之一，一般来说容易出现磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者一般性概括
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0054
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k11
+  predicate: prone_to
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  statement: 锁止调压阀作为次级调压阀之一，一般来说容易出现磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者一般性概括
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0055
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: cause_for_regulator_valves
+  value: 调压阀工作很频繁，一直处于振幅很小而频率很高的往复振动中
+  statement: 调压阀易磨损的原因之一：频繁的小振幅高频率往复振动。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0056
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  predicate: aggravating_factor
+  value: 很多调压阀有图3-9所示的形状，运动时容易偏斜；若再搭配一个较硬弹簧，偏磨会变得更严重
+  statement: 易偏斜的阀形状加较硬弹簧会加重偏磨。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0057
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k46
+  predicate: circled_wear_prone_valves
+  value: 图3-12中圈出：次级调压阀、主调压阀、电磁阀调压阀1、电磁阀调压阀2
+  statement: 图3-12奔驰722.9阀体油路示意图以椭圆圈出四处易磨损阀。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 奔驰722.9
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0058
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k46
+  predicate: wear_prone_sites
+  value: 电磁阀调压阀、主调压阀、次级调压阀等容易出现阀孔的严重磨损
+  statement: 奔驰722.9某些阀体因材质较软，上述调压阀类易出现阀孔严重磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 奔驰722.9
+  conditions:
+  - 阀体材质较软的某些722.9阀体
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0059
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  predicate: first_wear_site
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  statement: 大众09G下阀板上最先磨、最常见的易损点是电磁阀调压阀，多表现为阀孔严重磨坏，令电磁阀的控制出问题。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+    area: 下阀板
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0060
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  predicate: next_common_wear_site
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k09
+  statement: 大众09G下阀板上仅次于电磁阀调压阀的常见阀孔磨损部位是次级调压阀。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+    area: 下阀板
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0061
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  predicate: next_common_wear_site
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k06
+  statement: 大众09G下阀板上主调压阀也是常见的阀孔磨损部位（次序在次级调压阀之后）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+    area: 下阀板
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0062
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  predicate: clutch_control_valve_feature
+  value: 阀体另一侧4个离合器控制阀中3个阀芯一端各有一个较大工作圆；该高出其余工作圆的部位易磨损其对应阀孔区域
+  statement: 09G离合器控制阀结构特征与对应阀孔易损区的成因。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0063
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k10
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k26
+  statement: 这些离合器控制阀的阀孔磨坏后，经电磁阀调节的油压作用其上，阀动作会变得迟缓或走不到位，从而破坏离合器控制的正时性。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+  conditions:
+  - 离合器控制阀的阀孔已被磨损
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0064
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k26
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k28
+  statement: 离合器控制正时性被破坏会出现换档打滑的现象。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0065
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k26
+  predicate: may_cause
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k27
+  statement: 离合器控制正时性被破坏会出现换档冲击的现象。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0066
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  predicate: frequent_failure_site
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  statement: 现代/起亚A4CF1/2的下阀板之所以经常要整体更换，在于其下阀板上的电磁阀调压阀几乎总在发生阀孔磨损；该阀形状与图3-9类似，弹簧作用下更易磨损阀孔。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e5
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+    area: 下阀板
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0067
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  predicate: material_property
+  value: 阀体本身的材质就较软（偏软）
+  statement: A4CF1/2阀体材质偏软是其阀孔易磨损的内在原因。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0068
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  predicate: repair_limitation
+  value: 只换阀体或只换一个阀芯都难根治——阀体材质偏软，同样的磨损很快又会出现
+  statement: 对A4CF1/2电磁阀调压阀阀孔磨损，单纯换阀体或换单个阀芯都不能根治。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0069
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k14
+  predicate: repair_target
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  statement: 要修复A4CF1/2电磁阀调压阀阀孔磨损部位而不是更换整个阀体，需要使用图3-15中这种加以阀套设计的改良阀。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0070
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k14
+  predicate: prevents
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  statement: 图3-15的改良阀芯与阀套经精密配合设计并采用升级耐磨材质，可让阀孔、阀芯和阀套三者不再发生磨损，解决该部位使用寿命问题。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0071
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: inspection_summary
+  value: 检查阀体时重点对象是各类压力调节阀
+  statement: 作者小结：检查阀体应着重查看各种压力调节阀。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e2
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0072
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  predicate: circled_wear_prone_sites
+  value: 图3-13下阀板中圈出：电磁阀调压阀、次级调压阀、主调压阀、增压阀系列，以及K2控制阀、B1控制阀、K3离合器控制阀；另标注K1控制阀与多处单向阀
+  statement: 图3-13以圈选标注大众09G下阀板维修中看到的易损点。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 大众09G
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0073
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  predicate: depicted_damage
+  value: 图3-14实拍：下阀板电磁阀调压阀（已取出置于板旁）对应阀孔标注为严重磨损
+  statement: 图3-14展示A4CF1下阀板电磁阀调压阀阀孔严重磨损的实例。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0074
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k14
+  predicate: kit_composition
+  value: 图3-15分解标注：下阀体、定位夹、阀套、阀芯（84741-10K）、弹簧；工具包F-84741-TL10
+  statement: 图3-15展示阀套式改良修复件及其安装工具包的组成。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    transmission: 现代/起亚A4CF1/2
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0075
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: fault_root_share
+  value: 很大一部分故障根源来自阀体；电控程度越高级，阀体中液压控制零件运动频率越高，越容易提早出现机械磨损导致液压泄漏
+  statement: 作者论断：电控自动变速器大部分故障根源在阀体，机理由运动频率与磨损解释。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 自动变速器从液控变为电控的背景下
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0076
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k39
+  predicate: typical_usage
+  value: 多数维修人员把其他可排除处都排除后最后才聚焦阀体，一般以更换阀体总成的方式来确认故障是否就在阀体内
+  statement: 行业现状：阀体修复是自动变速器机械部件中最复杂的部分，换总成是主流排查手段。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者对行业现状的描述
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0077
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: industry_status
+  value: 国内大多数专业维修厂在阀体翻新和检测方面不够深入和系统（刚起步）；工艺流程缺少系统性和规范性；一线维修人员缺少系统专业培训、习惯多来自口口相传；里程数大、成色旧、多个故障点叠加时没有系统工艺流程难以保证翻新质量
+  statement: 作者对国内阀体翻新检测行业现状的评价性论断。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 本书出版时国内行业状况（作者经验评价）
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0078
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k38
+  predicate: reliability
+  value: 不可靠（误导性）：滑阀越磨损阀孔间隙越大、晃动越厉害，摇晃给出的信息反而是误导的
+  statement: 作者反例：拆阀体后在耳边晃动加肉眼观察是多数工人判断阀体好坏的步骤，但信息方向相反。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者经验性结论；指已磨损阀体
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0079
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k40
+  predicate: applicability_scope
+  value: 可平整阀孔内壁：对老款液压变速器中动作频率很低的换档阀有用；新型电控变速器滑阀设计精密得多，阀孔已出现磨损时再用会加剧滑阀卡滞的风险，尤其热车时；有时越研磨越易出现滑阀卡滞
+  statement: 作者对铜棒蘸水研磨法的适用范围与风险的限定。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 作者经验性结论；新型电控变速器阀孔已磨损时禁用
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0080
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k40
+  predicate: may_aggravate
+  object_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
+  statement: 在新型电控变速器阀孔已磨损的情况下再用铜棒蘸水研磨阀孔内壁，会加剧滑阀卡滞的风险。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 新型电控变速器；阀孔已出现磨损；尤其热车时
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0081
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: clearance_wear_feedback
+  value: 滑阀与阀孔配合间隙越大，滑阀越容易磨损阀孔
+  statement: 由滑阀在阀孔内的受力状态与偏磨因素可理解的道理：间隙越大越易磨损。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e4
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0082
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: depicted_example
+  value: 图3-4与图3-5实拍：偏磨典型表现——边缘月牙形光亮区域（两例不同阀孔部位）
+  statement: 图3-4、图3-5为偏磨月牙形光亮区域的两张实拍记录。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e3
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e4
+  qualification_status: EXTRACTED_UNCHECKED
+- id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0083
+  subject_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: quality_requirement
+  value: 保证质量的前提是在阀体检测与修复工艺上采用科学方法，操作人员须系统（句跨页续至下页）
+  statement: 第三节点题句：阀体质量保证依赖科学的检测与修复工艺及系统（培训），句子跨页未完。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e5
+  qualification_status: EXTRACTED_UNCHECKED
+  conditions:
+  - 页末断句，完整表述在后续页
+edges:
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0001
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k19
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0002
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0002
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0003
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0003
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k19
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k30
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0004
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0004
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k31
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0005
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0005
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k04
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k05
+  predicate: receives_pressure_commands_from
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0006
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0006
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k17
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0008
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0007
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k18
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0010
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0008
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k35
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  predicate: applies_to
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0015
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0009
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k23
+  predicate: visual_signature
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0016
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0010
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k34
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  predicate: inspects
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0019
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0011
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k12
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k16
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0022
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0012
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k24
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k12
+  predicate: indicates
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0023
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0013
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k36
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k12
+  predicate: applies_to
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0025
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0014
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k41
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k21
+  predicate: triggered_by
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0027
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0015
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k34
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  predicate: primary_inspection_target
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0030
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0016
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: harder_than
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0031
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0017
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k02
+  predicate: wear_implication
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0033
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0018
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  predicate: earliest_wear_site_in
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0035
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0019
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k13
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0038
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0020
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k27
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0039
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0021
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k28
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0040
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0022
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k25
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k29
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0041
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0023
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k33
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k03
+  predicate: may_damage
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0042
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0024
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k33
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k22
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0044
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0025
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k37
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k32
+  predicate: assesses
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0047
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0026
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k06
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: prone_to
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0050
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0027
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: prone_to
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0051
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0028
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k09
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: prone_to
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0052
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0029
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k10
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: prone_to
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0053
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0030
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k11
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: prone_to
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0054
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0031
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  predicate: first_wear_site
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0059
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0032
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k09
+  predicate: next_common_wear_site
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0060
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0033
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k42
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k06
+  predicate: next_common_wear_site
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0061
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0034
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k10
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k26
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0063
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0035
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k26
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k28
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0064
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0036
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k26
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k27
+  predicate: may_cause
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0065
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0037
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k08
+  predicate: frequent_failure_site
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0066
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0038
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k14
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k48
+  predicate: repair_target
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0069
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0039
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k14
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k15
+  predicate: prevents
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0070
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:edg:0040
+  from_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k40
+  to_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k20
+  predicate: may_aggravate
+  claim_id: claim:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:c03s123:0080
+evidence:
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e1
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 36
+  printed_page_label: '28'
+  section_id: c03s123
+  asset_id: null
+  locator: 正文页首承接段（上节末尾续文，节标题『一、阀体的失效机理』之前）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 本页承接前文：阀体自身失效源于阀孔或滑阀磨损，磨损令滑阀迟钝或卡滞，超出电控单元调节范围即报故障码或换档故障；阀体检查即机械磨损检查，电磁阀检测另有专章。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e2
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 36
+  printed_page_label: '28'
+  section_id: c03s123
+  asset_id: null
+  locator: 第一节『阀体的失效机理』首段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 电磁阀频繁驱动使滑阀与阀孔随里程普遍磨损；泄漏漏向油底壳可被部分补偿，窜入其他油路的交叉泄漏难补偿，根治须保证阀芯阀孔无机械磨损。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e3
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 36
+  printed_page_label: '28'
+  section_id: c03s123
+  asset_id: c03s123-F36-1
+  locator: 图3-3 一个典型的主调压阀系列（页中大幅剖视渲染图，bbox pdf points 59.1,306.1-454.1,604.5）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-3剖视渲染主调压阀-增压阀系列，14处标注（进入油压、截流油路、EPC/倒档增压信号、泄油孔、工作圆边折、带斜角阀杆、调压弹簧等），并提示在阀与孔配合间隙处目测或真空测试。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p36:e4
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 36
+  printed_page_label: '28'
+  section_id: c03s123
+  asset_id: null
+  locator: 图3-3图注下方正文两段（含页末断句）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 油压自阀体上方进入作用于滑阀两端，左右液压力与弹簧力平衡推动滑阀轴向运动，该正常运动不磨损阀体；页末起句引出两个真正致磨因素（句跨页）。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e1
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: null
+  locator: 页首承接段（偏磨机理与月牙形识别）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 单向油压使滑阀单边受挤造成偏磨，典型外观为边缘月牙形光亮区域，是阀体最普遍的磨损；建议多角度并用聚焦手电筒检查阀孔表面光亮区。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e2
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: null
+  locator: 第二段正文（弹簧致磨因素、弹簧检查与疲劳对比）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 一端加载的调压弹簧给滑阀偏出中线的作用力并压向孔壁，磨损边缘带尖角；检查弹簧长度与偏斜，疲劳弹簧明显变短偏斜需更换，标准长度可查资料或实测新阀体自建。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e3
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: c03s123-F37-1
+  locator: 图3-4 月牙形的磨损区域（一）（左上实拍，bbox 45.9,211.7-295.7,354.2）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-4实拍特写：阀孔边缘呈月牙形的光亮磨损带。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e4
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: c03s123-F37-2
+  locator: 图3-5 月牙形的磨损区域（二）（右上实拍，bbox 294.5,211.7-484.3,354.2）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-5实拍特写：自孔口向内观察阀孔内壁的月牙形光亮磨损区。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e5
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: c03s123-F37-3
+  locator: 图3-6 由弹簧引起的磨损（左中实拍，bbox 45.0,371.8-268.7,511.4）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-6实拍：弹簧偏置力造成的磨损，边缘带尖角，与月牙形磨损形态不同。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e6
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: c03s123-F37-4
+  locator: 图3-7 同一弹簧失效前后的比较（右中实拍，bbox 267.3,371.8-485.3,511.4）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-7实拍：同型弹簧失效前后并排对比，左侧弹簧明显短于右侧且伴偏斜。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e7
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: c03s123-F37-5
+  locator: 图3-8 磨损的滑阀（右下实拍，bbox 266.1,531.9-485.0,680.7）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-8实拍：拆出置于阀体旁的滑阀，其工作面边缘有明显磨损。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p37:e8
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 37
+  printed_page_label: '29'
+  section_id: c03s123
+  asset_id: null
+  locator: 图3-7/3-8之间及其下方正文（检查重点与阀芯阀孔硬度关系）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 检查阀体不能只查阀芯而要主查阀孔尤其两端；阀芯硬度高于阀体，滑阀外观完好时阀孔可能已有月牙形磨损。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e1
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 38
+  printed_page_label: '30'
+  section_id: c03s123
+  asset_id: null
+  locator: 页首承接句+第一段正文（滑阀磨损原因与电磁阀调压阀最先磨损）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 滑阀磨损源自易偏磨设计与镀膜差；两工作面长杆硬弹簧的阀最易磨，电磁阀调压阀多为此形并几乎在所有阀体中最早磨损；09G/ZF6HP/AW55-50/丰田U660 U760 U250/722.9等高电控车型运动频率更高更易过早失效。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e2
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 38
+  printed_page_label: '30'
+  section_id: c03s123
+  asset_id: c03s123-F38-1
+  locator: 图3-9 容易磨损的大众01V的降压阀（页中右侧渲染分解图，bbox 209.4,193.6-476.8,313.3）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-9渲染分解：5HP19上后阀板、降压阀（标注件号85755-09K）与配合弹簧。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e3
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 38
+  printed_page_label: '30'
+  section_id: c03s123
+  asset_id: null
+  locator: 图3-9左侧及下方正文（01V降压阀磨损后果）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 帕萨特01V阀体上方小阀板降压阀磨损阀孔，致电磁阀输出油压不正常，进而换档冲击、换档打滑乃至离合器烧毁。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e4
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 38
+  printed_page_label: '30'
+  section_id: c03s123
+  asset_id: null
+  locator: 下半页正文（镀膜质量与电泳腐蚀、硬度划痕测试）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 粗制阀芯用软阳极电镀而非硬阳极电镀；真硬阳极层50%厚度长入铝基体且不导电，镀膜差时电磁阀驱动电流过阀芯表面引发基体电泳腐蚀；阳极膜硬度约为钢2倍，可用刀片/锉刀划测，划伤即弃。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e5
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 38
+  printed_page_label: '30'
+  section_id: c03s123
+  asset_id: c03s123-F38-2
+  locator: 图3-10 滑阀表面出现电泳腐蚀（左下实拍，bbox 36.6,517.5-304.0,674.7）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-10实拍：两根滑阀表面电泳腐蚀形貌，箭头标注金属的腐蚀部位。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p38:e6
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 38
+  printed_page_label: '30'
+  section_id: c03s123
+  asset_id: c03s123-F38-3
+  locator: 图3-11 硬阳极电镀的硬度测试（右下两联实拍，bbox 306.9,496.8-476.5,674.7）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-11两联实拍：HRC60锉刀不能穿透硬电镀层下基底材料，HRC40锉刀会刮伤零件表面并穿透到基底。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e1
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 39
+  printed_page_label: '31'
+  section_id: c03s123
+  asset_id: null
+  locator: 节标题『二、阀体中最先要检查哪些部位』下首段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 磨损并非遍及所有滑阀，早晚取决于设计和工作状态；一般来说所有调压阀（主调压阀以及电磁阀调压阀、离合器控制阀或锁止调压阀一类次级阀）易磨损，缘于小振幅高频往复振动及易偏斜形状加硬弹簧。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e2
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 39
+  printed_page_label: '31'
+  section_id: c03s123
+  asset_id: null
+  locator: 图3-12上方正文段（奔驰722.9示例）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 图3-12中圈出的阀即易磨损点；材质较软的722.9阀体中电磁阀调压阀、主调压阀、次级调压阀等易阀孔严重磨损。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e3
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 39
+  printed_page_label: '31'
+  section_id: c03s123
+  asset_id: c03s123-F39-1
+  locator: 图3-12 奔驰722.9的阀体油路示意图（页中大幅示意图，bbox 54.5,277.5-475.9,523.8）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-12油路示意图以椭圆圈出四处易磨损阀（次级调压阀、主调压阀、电磁阀调压阀1、电磁阀调压阀2），图内含B1/K2/B2/BR/K1/K3/B3执行元件与多个M测压点标记。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e4
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 39
+  printed_page_label: '31'
+  section_id: c03s123
+  asset_id: null
+  locator: 图3-12下方正文两段（大众09G下阀板易损点）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 09G下阀板最先最常见磨损为电磁阀调压阀阀孔严重磨损致电磁阀控制问题，其次为次级调压阀与主调压阀；另侧4个离合器控制阀中3个端部大工作圆磨对应孔区，阀迟缓或不到位破坏离合器正时，出现打滑或冲击。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p39:e5
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 39
+  printed_page_label: '31'
+  section_id: c03s123
+  asset_id: null
+  locator: 页末段起始（现代/起亚A4CF1/2示例，句跨页）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 现代/起亚A4CF1/2下阀板常需更换，因其电磁阀调压阀几乎总是阀孔磨损，该阀形状与图3-9类似（句跨页续）。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e1
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 40
+  printed_page_label: '32'
+  section_id: c03s123
+  asset_id: null
+  locator: 页首承接段（A4CF1/2续与阀套改良阀）+小结句前正文
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: A4CF1/2阀体材质偏软，仅换阀体或阀芯不能根治（磨损很快再现）；需用图3-15阀套改良阀，其精密配合与耐磨材质使孔/芯/套不再磨损。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e2
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 40
+  printed_page_label: '32'
+  section_id: c03s123
+  asset_id: null
+  locator: 图3-13上方正文单句小结
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 作者小结：检查阀体时应着重查看各种压力调节阀。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e3
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 40
+  printed_page_label: '32'
+  section_id: c03s123
+  asset_id: c03s123-F40-1
+  locator: 图3-13 大众09G下阀板上容易磨损的部位（页中渲染图，bbox 39.8,164.7-473.3,417.7）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-13渲染：下阀板上圈出电磁阀调压阀/次级调压阀/主调压阀/增压阀组与K2/B1/K3离合器控制阀组，另标K1控制阀与多处单向阀。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p40:e4
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 40
+  printed_page_label: '32'
+  section_id: c03s123
+  asset_id: c03s123-F40-2
+  locator: 图3-14 现代/起亚A4CF1的下阀板（页下实拍，bbox 58.2,437.5-454.8,676.4）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-14实拍：A4CF1下阀板，取出的电磁阀调压阀置于板旁，箭头标注阀孔严重磨损。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e1
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 41
+  printed_page_label: '33'
+  section_id: c03s123
+  asset_id: c03s123-F41-1
+  locator: 图3-15 改良的修复件（页顶渲染分解图，bbox 103.2,62.1-426.8,289.5）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图3-15分解标注：下阀体、定位夹、阀套、阀芯（84741-10K）、弹簧，以及工具包F-84741-TL10。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e2
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 41
+  printed_page_label: '33'
+  section_id: c03s123
+  asset_id: null
+  locator: 节标题『三、阀体检测方法』下首段（行业背景）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 电控化后很大部分故障根源在阀体（零件运动频率高易提早磨损泄漏）；阀体修复最复杂，多数人以换总成判定；国内翻新检测刚起步、工艺与培训不系统，旧阀多故障叠加时无系统流程难保质量。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e3
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 41
+  printed_page_label: '33'
+  section_id: c03s123
+  asset_id: null
+  locator: 同段内『一个明显的不规范操作的例子…』起（耳边晃动反例）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 耳边晃动听滑阀滑顺加肉眼观察是多数工人的判断法，但间隙越大晃动越厉害，摇晃给出的信息反而误导。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e4
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 41
+  printed_page_label: '33'
+  section_id: c03s123
+  asset_id: null
+  locator: 同段内『另一个常见的坏习惯…』起（铜棒研磨反例与间隙道理）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 铜棒蘸水研磨对老款液压变速器低频换档阀有用，但新型电控变速器阀孔已磨损时用会加剧卡滞风险尤其热车；间隙越大滑阀越易磨损阀孔。
+  reader_model: glm-flash-free
+- id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ev:p41:e5
+  source_book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  pdf_page_index: 41
+  printed_page_label: '33'
+  section_id: c03s123
+  asset_id: null
+  locator: 页末断句（结论起句，跨页续至pdf第42页）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 结论起句：保证质量须在阀体检测与修复工艺上采用科学方法，操作人员必须系统（句跨页未完）。
+  reader_model: glm-flash-free
+sections:
+- id: c03s123
+  label: 第三章 阀体的失效与检测 一、二节及三节开头
+  start_pdf_page: 36
+  end_pdf_page: 41
+  section_status: EXTRACTED
+coverage_summary:
+  pages_total: 303
+  pages_processed: 10
+  pages_blocked: 293
+  assets_total: 13
+  assets_processed: 13
+  sections_total: 1
+  sections_closed: 1
+review_status: GENERATED_REVIEW_PENDING
+page_ledger_ref: page-ledger.yaml
+generation_receipt:
+  writer: zcode-main-session:book-integrator
+  extractor_model: glm-flash-free
+  generated_utc: '2026-11-19T22:28:27+00:00'
+  source_pdf_sha256: b0d3c1dde4b05b9fdf8a2def34f8bab3a34709cf984bc0b106ec5d70406c53fd
+  chapters:
+  - c03s123
+  observations: local-private (not committed); evidence observation_summary in graph
+  rights_note: local processing only; no external API upload performed

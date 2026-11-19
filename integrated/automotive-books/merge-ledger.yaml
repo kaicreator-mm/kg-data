@@ -1,23 +1,23 @@
 merge_round: 1
-merged_at_utc: '2026-11-19T20:54:40+00:00'
+merged_at_utc: '2026-11-19T22:40:52+00:00'
 writer: zcode-main-session:global-integrator (single-writer queue)
 inputs:
 - book_id: book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC
-  graph_revision: 1
+  graph_revision: 2
   review_status: GENERATED_REVIEW_PENDING
   book_status:
     pages_total: 300
-    pages_processed: 11
-    pages_blocked: 289
-    assets_total: 11
-    assets_processed: 10
-    sections_total: 1
-    sections_closed: 1
-  claims: 97
-  entities: 64
-  edges: 32
-  evidence: 61
-  graph_sha256: b89a9a2d30868f8ca0d322f721f994574577834ce62a4a770d8ce2eaeaa5e658
+    pages_processed: 22
+    pages_blocked: 278
+    assets_total: 28
+    assets_processed: 26
+    sections_total: 2
+    sections_closed: 2
+  claims: 257
+  entities: 116
+  edges: 60
+  evidence: 134
+  graph_sha256: d3c0945817eb91a27b171d1b0a91370bc8679ae9a54b31da5e982130143afee1
 - book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
   graph_revision: 1
   review_status: GENERATED_REVIEW_PENDING
@@ -66,43 +66,91 @@ inputs:
   edges: 32
   evidence: 37
   graph_sha256: 3e11c8bd4590ededfccbc7a9a648d1d67427a331b0ec3e4e0816cd99483e6b37
-- book_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1
+- book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
   graph_revision: 1
   review_status: GENERATED_REVIEW_PENDING
   book_status:
-    pages_total: 109
-    pages_processed: 10
-    pages_blocked: 99
-    assets_total: 2
-    assets_processed: 2
-    sections_total: 1
-    sections_closed: 1
-  claims: 28
-  entities: 24
-  edges: 17
-  evidence: 21
-  graph_sha256: 3b510d7aaaa131a158d9741570f2f2268bdb9b0c36b29566b2ea20f66e799bff
-- book_id: book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_
-  graph_revision: 1
-  review_status: GENERATED_REVIEW_PENDING
-  book_status:
-    pages_total: 299
-    pages_processed: 10
-    pages_blocked: 289
+    pages_total: 404
+    pages_processed: 16
+    pages_blocked: 388
     assets_total: 13
     assets_processed: 13
     sections_total: 1
     sections_closed: 1
-  claims: 73
-  entities: 44
+  claims: 136
+  entities: 36
+  edges: 61
+  evidence: 69
+  graph_sha256: 8b3a1b4a5d802125b2df39a1b5aff7229c981169703eb70d5cf52d40eaccf301
+- book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  graph_revision: 1
+  review_status: GENERATED_REVIEW_PENDING
+  book_status:
+    pages_total: 278
+    pages_processed: 14
+    pages_blocked: 264
+    assets_total: 19
+    assets_processed: 19
+    sections_total: 1
+    sections_closed: 1
+  claims: 37
+  entities: 20
+  edges: 9
+  evidence: 22
+  graph_sha256: f947ab44329cd1e7ca1b1b150d7bf39c1b068c7f4798bf8a26e7c66f731e342b
+- book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+  graph_revision: 1
+  review_status: GENERATED_REVIEW_PENDING
+  book_status:
+    pages_total: 303
+    pages_processed: 10
+    pages_blocked: 293
+    assets_total: 13
+    assets_processed: 13
+    sections_total: 1
+    sections_closed: 1
+  claims: 83
+  entities: 48
+  edges: 40
+  evidence: 32
+  graph_sha256: bf08a2a36db10671af1a3252c021457817a67637b97a741229fe39e9bb795297
+- book_id: book:1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz
+  graph_revision: 1
+  review_status: GENERATED_REVIEW_PENDING
+  book_status:
+    pages_total: 277
+    pages_processed: 16
+    pages_blocked: 261
+    assets_total: 12
+    assets_processed: 12
+    sections_total: 1
+    sections_closed: 1
+  claims: 140
+  entities: 52
+  edges: 33
+  evidence: 71
+  graph_sha256: 925a6dab85847ef4e14e47ed9889d91f887492b8b934f8c2e352170910addaeb
+- book_id: book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3
+  graph_revision: 1
+  review_status: GENERATED_REVIEW_PENDING
+  book_status:
+    pages_total: 306
+    pages_processed: 7
+    pages_blocked: 299
+    assets_total: 7
+    assets_processed: 6
+    sections_total: 1
+    sections_closed: 1
+  claims: 36
+  entities: 26
   edges: 17
-  evidence: 26
-  graph_sha256: 2749ba5fd4a93a5bf8cc99334e214016f8e48b5fec1e71c2d253aeed74271c61
+  evidence: 11
+  graph_sha256: f77785651b4411277eb966178f90a9e2f435c986808bc576b8653c276153ed13
 master:
-  entities: 270
-  claims: 425
-  edges: 177
-  evidence: 173
-  alignment_candidates: 7
+  entities: 436
+  claims: 916
+  edges: 331
+  evidence: 404
+  alignment_candidates: 16
 merge_status: PROVISIONAL_NO_ENTITY_COLLAPSE
-expected_base_head: a587b7e653946d9b9bee8af5169d8d585459c375
+expected_base_head: 4d3a874837b2286b2af5a6aed22c159df70cd8f6

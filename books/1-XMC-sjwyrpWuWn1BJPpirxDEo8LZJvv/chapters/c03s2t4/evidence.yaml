@@ -1,0 +1,469 @@
+# evidence.yaml — 《汽车自动变速器精品学习教程》(刘汉涛) 模块三 课题二/三/四
+# book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv  chapter_id: c03s2t4  source_hash: ae8b6048
+# kind 枚举: TEXT(正文文本层逐字) | FORMULA(公式行) | FIGURE(图区，300dpi 裁块核对)
+# locator: 相对 C:\xDev\Books\kg-work\ 的文件与行号/裁块路径
+# printed = pdf_index - 8
+meta:
+  book_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+  chapter_id: c03s2t4
+  source_hash: "ae8b6048"
+  reader_model: "glm-flash-free"
+  extracted_at: "2026-11-20"
+  page_range: "pdf 60-71 (printed 52-63)"
+  text_layer_quality: GOOD
+
+evidence:
+  # ---------- p0060 (printed 52) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e01
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L10-L16"
+    quote: "在耦合器传递动力的过程中，存在着能量损失。油液从泵轮流至涡轮……当油液回流到泵轮时，其流动方向由于涡轮叶片的反作用，变为其与泵轮的转向相反，使发动机的运转阻力增加……这种现象称之为冲击损失"
+    notes: "冲击损失定义与后果段"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e02
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L17-L19"
+    quote: "因此，耦合器的输出转矩与输入转矩的理论比值为1∶1，但耦合器的输出转矩与输入转矩始终不会相等，更不可能超出输入转矩。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e03
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L21-L24"
+    quote: "耦合器最大的传动效率约为90%，其传动效率与工作液种类、泵轮和涡轮叶片的形状、汽车的载荷和发动机的转矩有关……所以在现代汽车上已经淘汰。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e04
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L3-L9"
+    quote: "在驱动车辆行驶时，涡轮的转速始终低于泵轮的转速，如果泵轮和涡轮的转速相同，借助油液传递动力的过程就会停止。"
+    notes: "课题一结尾段（承接 printed 51）"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e05
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L27-L28"
+    quote: "自动变速器最重要的改进是别克公司为坦克开发的液力变矩器。1948年，这种液力变矩器与其他部件结合成为液力变速器，而最后成为各种自动变速器。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e06
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L29-L31"
+    quote: "液力变矩器是连接发动机飞轮和变速器输入轴的另一种液力传动装置……允许发动机与变速器之间有些滑转，从而在停车时，不脱开动力档也能维持发动机运转。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e07
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L32-L34"
+    quote: "液力变矩器在泵轮和涡轮之间加入了双向锁止导轮，从而传递和增大来自发动机的转矩……它通过螺栓固定在发动机飞轮的后端。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e08
+    kind: TEXT
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0060.txt#L35-L39"
+    quote: "液力变矩器的涡轮转速可以在一定范围内连续变化……液力变矩器还起到一般发动机飞轮的作用。因此，配置自动变速器的发动机飞轮的质量较小，只满足起动发动机的需要。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0060:e09
+    kind: FIGURE
+    pdf_page_index: 60
+    printed_page_label: "52"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0060_crop0_300dpi.png"
+    quote: "图3-5 油液流向阻碍泵轮运转"
+    notes: "asset=c03s2t4-F60-1; sha256=34aab5f398c70f05b3e232ffd685a4a45e24a9f591a2e58955e7da169090cf6f; 涡轮T/泵轮P 简图"
+
+  # ---------- p0061 (printed 53) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e01
+    kind: TEXT
+    pdf_page_index: 61
+    printed_page_label: "53"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L7-L13"
+    quote: "部分发动机转矩被消耗以补偿冲击损失……当泵轮和涡轮的转速几乎相等时，液力耦合器传递转矩的效率最高……液力耦合器只能传递发动机的动力，并不能改变发动机的输出转矩。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e02
+    kind: TEXT
+    pdf_page_index: 61
+    printed_page_label: "53"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L14-L18"
+    quote: "泵轮和涡轮叶片的形状设计能将油液流动的扰动减小至最小……液力变矩器增加了第三个元件———双向锁止导轮，这样，液力变矩器不仅能传递发动机的动力，还能改变发动机的输出转矩。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e03
+    kind: TEXT
+    pdf_page_index: 61
+    printed_page_label: "53"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L19-L22"
+    quote: "液力变矩器是为了改善液力耦合器的性能而在其基础上发展起来的，除了液力耦合器的泵轮、涡轮、导环和壳体以外，液力变矩器在涡轮和泵轮之间增加了双向锁止导轮，液力变矩器的结构如图3-6所示。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e04
+    kind: FIGURE
+    pdf_page_index: 61
+    printed_page_label: "53"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0061_crop0_300dpi.png"
+    quote: "图3-6 液力变矩器结构示意图（图内标注：涡轮/导环/导轮/导环/泵轮）"
+    notes: "asset=c03s2t4-F61-1; sha256=283bb984d28a1c40cac4eeb927d0492c47b641399bf52787c65a11152edbf887"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0061:e05
+    kind: TEXT
+    pdf_page_index: 61
+    printed_page_label: "53"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0061.txt#L30-L32"
+    quote: "1. 泵轮 它是液力变矩器的输入元件，封装于变矩器壳体内，靠近自动变速器一侧。"
+
+  # ---------- p0062 (printed 54) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e01
+    kind: TEXT
+    pdf_page_index: 62
+    printed_page_label: "54"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L3-L7"
+    quote: "（曲率、一定方向的叶片沿径向安装在变矩器的壳体上，叶片的内缘上有导环，提供一个通道以便油液顺畅流动。）液力变矩器通过螺栓与飞轮相连接，所以其转速与转向都和发动机相同……泵轮叶片内的油液依靠离心力的作用从泵轮外缘向外喷出。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e02
+    kind: TEXT
+    pdf_page_index: 62
+    printed_page_label: "54"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L8-L12"
+    quote: "它是液力变矩器的输出元件，与泵轮相对安装，通过推力轴承保持3～4mm的间隙，且靠近发动机一侧……涡轮与自动变速器的输入轴连接，通过自动变速器油液作为介质，把泵轮的转矩传递给变速器的齿轮变速机构。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e03
+    kind: TEXT
+    pdf_page_index: 62
+    printed_page_label: "54"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L13-L17"
+    quote: "它是液力变矩器的反应元件。导轮的直径大约是泵轮或涡轮直径的一半……导轮架的中心部分通过花键槽与自动变速器壳体上的轴配合，因此，导轮被双向固定在壳体上。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e04
+    kind: TEXT
+    pdf_page_index: 62
+    printed_page_label: "54"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L18-L35"
+    quote: "在液力变矩器中，双向锁止导轮就起到了这种空气管道的作用……通过这种回流冲击泵轮，进而达到增大转矩的目的。但在涡轮和泵轮转速差较小时，这种情况恰恰相反，实现的是减矩作用。1）低车速时……2）高车速时……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e05
+    kind: FIGURE
+    pdf_page_index: 62
+    printed_page_label: "54"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0062_crop0_300dpi.png"
+    quote: "图3-7 液力变矩器工作原理示意图（电扇A/电扇B/空气通道）"
+    notes: "asset=c03s2t4-F62-1; sha256=0de39c1eaaa360788a0388c66446a54536d7b2a91da60400fe8bc27fc00531dd"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0062:e06
+    kind: TEXT
+    pdf_page_index: 62
+    printed_page_label: "54"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0062.txt#L36-L39"
+    quote: "液力变矩器的工作特性主要是转矩特性和效率特性。1. 转矩特性 转矩特性用变矩比来表示。变矩比是指涡轮输出转矩与泵轮输入转矩的比值。"
+    notes: "表达式接 p0063"
+
+  # ---------- p0063 (printed 55) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e01
+    kind: FORMULA
+    pdf_page_index: 63
+    printed_page_label: "55"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L3-L8"
+    quote: "K = Mt / Mp = （Mp ± Ms）/ Mp ；K———变矩比；Mt———涡轮输出转矩；Mp———泵轮输入转矩；Ms———导轮反作用转矩"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e02
+    kind: TEXT
+    pdf_page_index: 63
+    printed_page_label: "55"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L9-L12"
+    quote: "1）低转速时，K = （Mp + Ms）/ Mp > 1（实际在车上为1.9～2.5之间）……2）高转速时，K = （Mp - Ms）/ Mp < 1……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e03
+    kind: FORMULA
+    pdf_page_index: 63
+    printed_page_label: "55"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L13-L23"
+    quote: "η = Pt / Pp × 100% = Mtnt / Mpnp × 100% = K（nt / np）× 100%；Pt/Pp、Mt/Mp、nt/np、K 符号说明"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e04
+    kind: TEXT
+    pdf_page_index: 63
+    printed_page_label: "55"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L24-L29"
+    quote: "1）低转速时……传动效率大于液力耦合器。2）高转速时……传动效率小于液力耦合器……当涡轮转速继续增大后，液力变矩器的传动效率将小于液力耦合器的传动效率，其输出转矩也随之下降。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e05
+    kind: TEXT
+    pdf_page_index: 63
+    printed_page_label: "55"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L30-L32"
+    quote: "在发动机低速运转时，液力变矩器可以增大发动机的输出转矩；而在发动机高速运转时，液力变矩器却降低了发动机的输出转矩（由于采用双向锁止导轮的原因）。因此，这种液力变矩器是不适合实际使用的。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0063:e06
+    kind: TEXT
+    pdf_page_index: 63
+    printed_page_label: "55"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0063.txt#L34-L39"
+    quote: "课题三 综合式液力变矩器……不同之处在于综合式液力变矩器的导轮不是完全固定不动的，而是通过单向离合器支承在导轮支撑套上（导轮支撑套固定不动）……使其冲击泵轮叶片的后表面……达到增大转矩的目的。"
+
+  # ---------- p0064 (printed 56) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e01
+    kind: TEXT
+    pdf_page_index: 64
+    printed_page_label: "56"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L4-L8"
+    quote: "综合式液力变矩器与液力变矩器相似，也是由泵轮、涡轮、导环、壳体、导轮组成。泵轮和涡轮的构造与液力变矩器基本相同。导轮则由双向锁止导轮变为单向锁止导轮……通过导轮支撑套固定于变速器壳体上。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e02
+    kind: TEXT
+    pdf_page_index: 64
+    printed_page_label: "56"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L10-L14"
+    quote: "工作液在综合式液力变矩器中的流动总体上从泵轮流向涡轮……然后通过导轮回流到泵轮。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e03
+    kind: TEXT
+    pdf_page_index: 64
+    printed_page_label: "56"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L15-L17"
+    quote: "一种是环流，工作液按泵轮和涡轮的转动方向流动；另一种是涡流，即工作液通过泵轮和涡轮叶片形成的通道进行螺旋形循环，如图3-8所示。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e04
+    kind: FIGURE
+    pdf_page_index: 64
+    printed_page_label: "56"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0064_crop0_300dpi.png"
+    quote: "图3-8 综合式液力变矩器中的液体流动（图内标注：涡轮：连接变速器/单向锁止导轮/泵轮：连接发动机/液流）"
+    notes: "asset=c03s2t4-F64-1; sha256=407139d79a35523180ee5d08d20b54d1b751f5b6eb68fb263e08d55237f90866"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e05
+    kind: TEXT
+    pdf_page_index: 64
+    printed_page_label: "56"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L24-L29"
+    quote: "当发动机低速运转时……涡流的速度增加，环流的速度减小；当发动机高速运转时……综合式液力变矩器的转矩增大由涡流实现……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0064:e06
+    kind: TEXT
+    pdf_page_index: 64
+    printed_page_label: "56"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0064.txt#L30-L34"
+    quote: "当汽车处于低速时，泵轮与涡轮之间的转速差大……这时流经涡轮的液体从中间流出，变矩器中来自涡轮的液体将冲击在导轮叶片的前表（面，接 p0065：如图3-9所示）"
+
+  # ---------- p0065 (printed 57) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e01
+    kind: TEXT
+    pdf_page_index: 65
+    printed_page_label: "57"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L3-L10"
+    quote: "液体将受到导轮叶片前表面的阻挡而产生液体反射……可以使变矩器的输出转矩提高两倍甚至更多……当汽车处于起步阶段，变矩器具有最大的转矩增大值，通常可达1.8～2.5倍……当涡轮和泵轮转速比达到0.8～0.85左右时（即所谓的耦合点），变矩器的转矩增大值就变成一倍。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e02
+    kind: TEXT
+    pdf_page_index: 65
+    printed_page_label: "57"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L11-L18"
+    quote: "随着车速逐渐提高，来自涡轮的液体逐渐偏离作用在导轮叶片前表面的方向……经导轮反射的液体返回给泵轮，反而成了泵轮旋转的阻力……现代汽车采用的液力变矩器，均在导轮和导轮支撑套之间安装了单向离合器，即综合式液力变矩器。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e03
+    kind: FIGURE
+    pdf_page_index: 65
+    printed_page_label: "57"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0065_crop0_300dpi.png"
+    quote: "图3-9 汽车车速较低时的工况图（涡轮/导轮/泵轮 叶片剖视+液流带）"
+    notes: "asset=c03s2t4-F65-1; sha256=39c8c6cc8c1f17cc1527bea7df1b8baf5b1205e89708bd9db5db752193e2fc82"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e04
+    kind: FIGURE
+    pdf_page_index: 65
+    printed_page_label: "57"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0065_crop1_300dpi.png"
+    quote: "图3-10 汽车车速较高时的工况（同布局，粗箭头示液流射向导轮叶片后部）"
+    notes: "asset=c03s2t4-F65-2; sha256=16590ab5c599eae6015ee6a8af11f5e345ce9ae797d85b4940a0a0c188ef22d4"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e05
+    kind: TEXT
+    pdf_page_index: 65
+    printed_page_label: "57"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L25-L30"
+    quote: "1）当在低速时，作用在导轮叶片前表面的液体通过单向离合器锁止使导轮固定，产生增大转矩的效果……2）当在高速时，作用在导轮叶片后表面的液体通过单向离合器的超越（释放），使导轮自由旋转……此时变矩器实际上变成了耦合器，它只能传递力矩……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0065:e06
+    kind: TEXT
+    pdf_page_index: 65
+    printed_page_label: "57"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0065.txt#L31-L34"
+    quote: "如果单向离合器失效表现为在两个方向都能自由旋转，则反映出汽车低速时加速性能减弱；如果失效表现为两个方向都锁止，则反映出汽车高速时动力不足。自动变速器的失速试验，也可以反映变矩器中单向离合器的失效状况。"
+
+  # ---------- p0066 (printed 58) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e01
+    kind: FIGURE
+    pdf_page_index: 66
+    printed_page_label: "58"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0066_crop0_300dpi.png"
+    quote: "图3-11 导轮与单向离合器的连接关系（图内标注：单向离合器/导轮/导轮固定：液流改变方向/低速时液流方向/高速时液流方向/导轮自由旋转）"
+    notes: "asset=c03s2t4-F66-1; sha256=889aa7a44770f69d939a525c98e1aad2134e06f8160ef16679bd980dd71c401e"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e02
+    kind: TEXT
+    pdf_page_index: 66
+    printed_page_label: "58"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0066.txt#L9-L10"
+    quote: "常用的单向离合器有两种不同的形式：即滚柱式和楔块式。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e03
+    kind: TEXT
+    pdf_page_index: 66
+    printed_page_label: "58"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0066.txt#L11-L15"
+    quote: "滚柱式单向离合器……利用弹簧把滚柱固定在离合器内外座圈之间适当位置。外座圈的内表面有若干个凸轮状缺口……滚柱楔紧在缺口滚道的狭窄端，则旋转座圈也锁止……滚柱朝缺口滚道较宽端运动……该座圈能自由转动。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e04
+    kind: TEXT
+    pdf_page_index: 66
+    printed_page_label: "58"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0066.txt#L16-L17"
+    quote: "楔块式单向离合器结构图如图3-13所示。它包括内外座圈和介于座圈之间的S形的金属楔块。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e05
+    kind: FIGURE
+    pdf_page_index: 66
+    printed_page_label: "58"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0066_crop1_300dpi.png"
+    quote: "图3-12 滚柱式单向离合器结构图（图内标注：轮毂/轮鼓/滚柱/弹簧/锁止）"
+    notes: "asset=c03s2t4-F66-2; sha256=cb685b6367952ebfa7e7698500754f0180d88b725b3c61e4cf7a6d9e2e556eb9"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0066:e06
+    kind: FIGURE
+    pdf_page_index: 66
+    printed_page_label: "58"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0066_crop2_300dpi.png"
+    quote: "图3-13 楔块式单向离合器结构图（图内标注：轮毂/楔块/轮鼓/锁止）"
+    notes: "asset=c03s2t4-F66-3; sha256=d4cdf0f2c570eb67f02fe6c68b6bb68d95fbce2a1b20b4c779c9b0e988d40872"
+
+  # ---------- p0067 (printed 59) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e01
+    kind: TEXT
+    pdf_page_index: 67
+    printed_page_label: "59"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L3-L5"
+    quote: "当其中一个座圈固定，而另一座圈往某一方向旋转时，其结果使S形楔块竖起，楔紧内外座圈表面，则旋转座圈锁止。当该座圈以相反方向旋转，使楔块倒下……该座圈可以自由转动。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e02
+    kind: TEXT
+    pdf_page_index: 67
+    printed_page_label: "59"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L6-L8"
+    quote: "单向离合器内座圈和外座圈之间放置有若干滚柱或楔块。内座圈与导轮支撑套用键槽连接，而导轮支撑套与变速器油泵盖连接，因为油泵盖固定在变速器壳体上，所以，单向离合器内座圈不能转动。单向离合器的外座圈与导轮连接并同步转动。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e03
+    kind: TEXT
+    pdf_page_index: 67
+    printed_page_label: "59"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L9-L18"
+    quote: "1. 导轮的作用……导轮的叶片能使工作液流动的方向再次反向……推动泵轮叶片的后表面……来自发动机的转矩与从涡轮回流的转矩合成后传递到涡轮……转矩的增加是通过涡轮转速的降低获得的，否则将破坏能量守恒定律。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e04
+    kind: FIGURE
+    pdf_page_index: 67
+    printed_page_label: "59"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0067_crop0_300dpi.png"
+    quote: "图3-14 泵轮的方向和涡轮的旋转 a）无导轮（T/P） b）有导轮（T/R/P，R带固定支撑）"
+    notes: "asset=c03s2t4-F67-1; sha256=7e57c23e0fd1309183cf7bd239433dada5ac81937a47c801b1f1271abf616ec3"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0067:e05
+    kind: TEXT
+    pdf_page_index: 67
+    printed_page_label: "59"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0067.txt#L26-L35"
+    quote: "2. 单向离合器的作用 从涡轮回流到导轮的工作液方向取决于泵轮和涡轮之间的转速差。……转速差大时……导轮被单向离合器锁住而不能旋转……当涡轮的转速接近于泵轮的转速时……单向离合器使导轮处于自由状态，使工作液回流到泵轮。"
+
+  # ---------- p0068 (printed 60) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e01
+    kind: FIGURE
+    pdf_page_index: 68
+    printed_page_label: "60"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0068_crop0_300dpi.png"
+    quote: "图3-15 导轮的工作状况 a）导轮锁止（锁止+固定支撑三角） b）导轮释放（自由）"
+    notes: "asset=c03s2t4-F68-1; sha256=4314ab7e3038da093540aaca436a3f9343f58182b253f1b6441392fe980615d1"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e02
+    kind: TEXT
+    pdf_page_index: 68
+    printed_page_label: "60"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L10-L12"
+    quote: "当涡轮转速达到泵轮转速的规定比例时，导轮则按泵轮的同样方向旋转，这称之为耦合器工作点或耦合器点。在达到耦合器工作点时，不产生转矩增大效果，综合式液力变矩器的工作如同普通的液力耦合器一样。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e03
+    kind: TEXT
+    pdf_page_index: 68
+    printed_page_label: "60"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L13-L22"
+    quote: "3. 耦合器工作点 随着涡轮旋转速比的逐渐上升……此时转矩比大约为1∶1。因为从涡轮流出的工作液以高速冲击导轮叶片的后表面，单向离合器允许导轮按泵轮的旋转方向旋转……导轮开始转动的转速称为耦合器工作点，如图3-16所示。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e04
+    kind: FIGURE
+    pdf_page_index: 68
+    printed_page_label: "60"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0068_crop1_300dpi.png"
+    quote: "图3-16 耦合点和失速点（横轴传动比0~1.0，左轴转矩比1~3，右轴传动效率%；变矩区/耦合区以0.85分界；失速点(0,2)、耦合器工作点(0.85,1)）"
+    notes: "asset=c03s2t4-F68-2; sha256=76c372dd51b6f841cfa46f731e5b5f83a7a8090a925b67d021a3997836e379c8; 曲线估读仅记于资产观察"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e05
+    kind: TEXT
+    pdf_page_index: 68
+    printed_page_label: "60"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L23-L28"
+    quote: "综合式液力变矩器的工作区域可分为两个，即变矩器工作区和耦合器工作区……转矩增大仅发生在变矩器工作区，在以耦合器工作点为界限的耦合器工作区内，仅有转矩的传递而无转矩的增大。所以，自动变速器车辆之所以能够平稳起步而不会引起发动机熄火……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0068:e06
+    kind: TEXT
+    pdf_page_index: 68
+    printed_page_label: "60"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0068.txt#L29-L35"
+    quote: "4. 综合式液力变矩器的耦合器工作区……当涡轮的转速接近于泵轮的转速时，流向导轮叶片工作液的方向与来自泵轮的液流方向相同……这时，单向离合器释放，而使导轮相对于内座圈自由转动。（接 p0069：工作液的循环流动强度很弱……）"
+
+  # ---------- p0069 (printed 61) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e01
+    kind: TEXT
+    pdf_page_index: 69
+    printed_page_label: "61"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L4-L8"
+    quote: "5. 失速点 涡轮固定不动而泵轮仍在旋转时的工况称为失速工况。失速转速是涡轮处于静止时发动机所能达到的最高转速。失速发生在汽车起步或汽车停车时。当今，大多数综合式液力变矩器的失速转速处于2000～3000r/min之间……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e02
+    kind: TEXT
+    pdf_page_index: 69
+    printed_page_label: "61"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L9-L12"
+    quote: "当涡轮完全不旋转（如变速杆在D位而车辆被制动时）……即综合式液力变矩器的最大转矩比是在失速点时，它通常在1.7～2.5范围之内。在失速点，工作液具有很大的能量用于克服车辆起步时的静止阻力。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e03
+    kind: TEXT
+    pdf_page_index: 69
+    printed_page_label: "61"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L13-L20"
+    quote: "1. 车辆静止，发动机怠速运转……2. 车辆起步阶段……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e04
+    kind: TEXT
+    pdf_page_index: 69
+    printed_page_label: "61"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L20-L32"
+    quote: "3. 车辆低速行驶阶段……4. 车辆以中速至高速行驶阶段……正常起步2～3s后……5. 发动机制动阶段……涡轮的转速有可能高于泵轮的转速。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0069:e05
+    kind: TEXT
+    pdf_page_index: 69
+    printed_page_label: "61"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0069.txt#L33-L35"
+    quote: "五、综合式液力变矩器的工作特性 综合式液力变矩器的工作特性主要是转矩特性和效率特性。"
+
+  # ---------- p0070 (printed 62) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e01
+    kind: TEXT
+    pdf_page_index: 70
+    printed_page_label: "62"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0070.txt#L3-L13"
+    quote: "1. 转矩特性……K = Mt / Mp = （Mp ± Ms）/ Mp……1）低转速时，K=（Mp+Ms）/Mp > 1（实际在车上为1.7～2.5之间）……2）高转速时，K = Mt / Mp = 1，说明综合式液力变矩器的变矩比等于液力耦合器。"
+    notes: "含 K 表达式，与 p0063:e01 同式"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e02
+    kind: TEXT
+    pdf_page_index: 70
+    printed_page_label: "62"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0070.txt#L14-L28"
+    quote: "2. 效率特性……η = Pt / Pp × 100% ……1）低转速时，K>1……传动效率大于液力耦合器。2）高转速时，K=1……传动效率等于液力耦合器。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0070:e03
+    kind: TEXT
+    pdf_page_index: 70
+    printed_page_label: "62"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0070.txt#L29-L38"
+    quote: "综上所述……在失速点时……传动效率为零……传动效率在综合式液力变矩器达到耦合点前达到最大值……综合式液力变矩器的传动效率不可能达到100%，一般可以达到95%左右。"
+
+  # ---------- p0071 (printed 63) ----------
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e01
+    kind: TEXT
+    pdf_page_index: 71
+    printed_page_label: "63"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L5-L8"
+    quote: "在前面三个课题中所讲述的动力传递装置都属于软连接机构……泵轮与涡轮之间的转速差最少也有4%～5%，这相当于泵轮与涡轮之间存在有滑转现象……传动效率低，无法达到100%……"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e02
+    kind: TEXT
+    pdf_page_index: 71
+    printed_page_label: "63"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L9-L12"
+    quote: "为了提高变矩器的传动效率，减小燃油消耗，现代汽车采用的液力变矩器均为带锁止离合器的综合式液力变矩器……使用机械的方式直接连接泵轮和涡轮……使其尽可能接近100%。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e03
+    kind: TEXT
+    pdf_page_index: 71
+    printed_page_label: "63"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L12-L16"
+    quote: "这种变矩器的锁止离合器内有一个可轴向移动的锁止活塞，锁止活塞后侧的工作液与变矩器泵轮、涡轮中的工作液相通，保持一定的油压（该油压称为变矩器油压）；锁止活塞前侧的工作液通过自动变速器输入轴中间的控制油道与阀体上的锁止控制阀相通。锁止控制阀由速控油压或自动变速器电脑通过锁止电磁阀来控制。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e04
+    kind: TEXT
+    pdf_page_index: 71
+    printed_page_label: "63"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L16-L18"
+    quote: "带锁止离合器的综合式液力变矩器的结构由泵轮、涡轮、导环、壳体、单向锁止导轮、锁止离合器组成。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e05
+    kind: TEXT
+    pdf_page_index: 71
+    printed_page_label: "63"
+    locator: "text/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/p0071.txt#L19-L23"
+    quote: "锁止离合器简称TCC，是英文 Torque Converter Clutch 的缩写。其分为两种类型：一种是摩擦片与减振盘制成一体；另一种是摩擦片与锁止活塞制成一体……并防止自动变速器油液过热。"
+  - evidence_id: book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ev:p0071:e06
+    kind: FIGURE
+    pdf_page_index: 71
+    printed_page_label: "63"
+    locator: "renders/1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv/pilot-crops-300dpi/p0071_crop0_300dpi.png"
+    quote: "图3-17 锁止离合器的类型 a）摩擦片与锁止活塞制成一体 b）摩擦片与减振盘制成一体（图内标注：减振盘/涡轮/摩擦片/锁止活塞/泵轮/导轮）"
+    notes: "asset=c03s2t4-F71-1; sha256=fe496d1f2a1a3422ccd1bbd827918ad961bc9fc4f8b048f8db0d67194f570412"

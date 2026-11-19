@@ -1,0 +1,32 @@
+book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+drive_file_id: 1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+title: 汽车电气设备构造与维修（第二版）
+edition: 第二版
+isbn: null
+publication_year: null
+source_sha256: d7e47fca57f4aba44416b5e8fcebb61ebf158aeca5fce83f4e61e46c047f521d
+pdf_page_count: 278
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: vocational-electric-textbook-scanned
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: u01t2t3
+  label: 单元一 课题2 汽车电气系统基本检测工具的使用 + 课题3 汽车电路与电气元件的检测
+  pdf_pages_range:
+  - 11
+  - 22
+  printed_pages:
+  - '5'
+  - '16'
+page_offset_printed_minus_pdfindex: 6
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING

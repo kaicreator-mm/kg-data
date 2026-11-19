@@ -1,18 +1,61 @@
 policy: equal normalized label+kind across books -> SAME_AS_CANDIDATE only; no auto same_as_verified; vehicle/transmission-variant merging forbidden without review
-candidates_total: 7
+candidates_total: 16
 candidates:
-- label_normalized: 散热器
-  kind: component
+- label_normalized: 传统点火系统
+  kind: system
   candidate_entity_ids:
-  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k61
-  - book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k03
+  - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k20
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
-- label_normalized: 水泵
+- label_normalized: 冷却系统
+  kind: system
+  candidate_entity_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  - book:1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz:ent:k23
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 单向离合器
   kind: component
   candidate_entity_ids:
-  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k60
-  - book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k02
+  - book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv:ent:k09
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k09
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 喷油器
+  kind: component
+  candidate_entity_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k26
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k17
+  - book:1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz:ent:k34
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 微机控制点火系统
+  kind: system
+  candidate_entity_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k05
+  - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k22
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 氧传感器
+  kind: component
+  candidate_entity_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k42
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k16
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 油底壳
+  kind: component
+  candidate_entity_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k54
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k0214
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 润滑系统
+  kind: system
+  candidate_entity_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  - book:1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz:ent:k22
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
 - label_normalized: 火花塞
@@ -20,6 +63,7 @@ candidates:
   candidate_entity_ids:
   - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k15
   - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k02
+  - book:1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz:ent:k32
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
 - label_normalized: 点火开关
@@ -29,18 +73,19 @@ candidates:
   - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k21
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
+- label_normalized: 点火系统
+  kind: system
+  candidate_entity_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  - book:1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz:ent:k25
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
 - label_normalized: 点火线圈
   kind: component
   candidate_entity_ids:
   - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k14
   - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k09
-  status: PENDING_SOURCE_VERSION_REVIEW
-  message: Equal label/kind does not prove identity
-- label_normalized: 节温器
-  kind: component
-  candidate_entity_ids:
-  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k62
-  - book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k18
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
 - label_normalized: 蓄电池
@@ -49,7 +94,29 @@ candidates:
   - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01
   - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k05
   - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k19
-  - book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k32
+  - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 起动机
+  kind: component
+  candidate_entity_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k19
+  - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k17
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 起动继电器
+  kind: component
+  candidate_entity_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ent:k20
+  - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 阀体
+  kind: component
+  candidate_entity_ids:
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
+  - book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:ent:k07
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
 verified_same_as: []

@@ -770,71 +770,308 @@ pages:
   evidence_ids: []
   note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
 - pdf_index: 128
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F128-1
+    asset_kind: component_cutaway_figure
+    asset_status: IDENTIFIED
+    bbox:
+    - 187.3
+    - 76.1
+    - 327.3
+    - 232.6
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p128:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p128:e2
+  note: text layer + figure crops read
 - pdf_index: 129
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F129-1
+    asset_kind: selection_chart
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 115.4
+    - 361.9
+    - 413.3
+    - 614.5
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p129:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p129:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p129:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p129:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p129:e5
+  note: text layer + figure crops read
 - pdf_index: 130
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F130-1
+    asset_kind: exploded_assembly_figure
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 172.1
+    - 337.8
+    - 342.5
+    - 614.4
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p130:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p130:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p130:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p130:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p130:e5
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p130:e6
+  note: text layer + figure crops read
 - pdf_index: 131
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F131-1
+    asset_kind: lubrication_circuit_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 301.2
+    - 264.1
+    - 453.2
+    - 439.6
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p131:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p131:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p131:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p131:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p131:e5
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p131:e6
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p131:e7
+  note: text layer + figure crops read
 - pdf_index: 132
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F132-1
+    asset_kind: lubrication_circuit_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 130.6
+    - 154.6
+    - 383.9
+    - 374.2
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p132:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p132:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p132:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p132:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p132:e5
+  note: text layer + figure crops read
 - pdf_index: 133
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F133-1
+    asset_kind: lubrication_circuit_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 98.2
+    - 76.1
+    - 430.6
+    - 546.6
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p133:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p133:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p133:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p133:e4
+  note: text layer + figure crops read
 - pdf_index: 134
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F134-1
+    asset_kind: working_principle_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 96.6
+    - 122.6
+    - 229.0
+    - 279.2
+    note: null
+  - asset_id: c06s2-F134-2
+    asset_kind: exploded_assembly_figure
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 269.5
+    - 88.1
+    - 418.0
+    - 279.3
+    note: null
+  - asset_id: c06s2-F134-3
+    asset_kind: working_principle_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 150.5
+    - 429.7
+    - 364.0
+    - 603.1
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e5
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e6
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e7
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p134:e8
+  note: text layer + figure crops read
 - pdf_index: 135
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F135-1
+    asset_kind: structure_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 112.2
+    - 242.3
+    - 416.4
+    - 439.1
+    note: null
+  - asset_id: c06s2-F135-2
+    asset_kind: working_principle_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 337.2
+    - 75.1
+    - 470.6
+    - 200.1
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e5
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e6
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e7
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e8
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p135:e9
+  note: text layer + figure crops read
 - pdf_index: 136
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F136-1
+    asset_kind: schematic_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 125.9
+    - 161.0
+    - 388.6
+    - 289.4
+    note: null
+  - asset_id: c06s2-F136-2
+    asset_kind: component_cutaway_figure
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 317.0
+    - 386.5
+    - 465.6
+    - 615.7
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e5
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e6
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e7
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e8
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e9
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e10
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e11
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p136:e12
+  note: text layer + figure crops read
 - pdf_index: 137
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F137-1
+    asset_kind: component_cutaway_figure
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 244.3
+    - 186.2
+    - 476.4
+    - 362.6
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e5
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e6
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e7
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e8
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p137:e9
+  note: text layer + figure crops read
 - pdf_index: 138
-  page_status: PENDING
-  section_ids: []
-  assets: []
-  evidence_ids: []
-  note: 'Preflight route hint only: MIXED_REVIEW_NEEDED'
+  page_status: PROCESSED_COMBINED
+  section_ids:
+  - c06s2
+  assets:
+  - asset_id: c06s2-F138-1
+    asset_kind: system_layout_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 148.3
+    - 76.1
+    - 366.3
+    - 250.0
+    note: null
+  - asset_id: c06s2-F138-2
+    asset_kind: component_cutaway_figure
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 78.2
+    - 337.7
+    - 191.8
+    - 489.0
+    note: null
+  - asset_id: c06s2-F138-3
+    asset_kind: working_principle_diagram
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 227.0
+    - 288.1
+    - 436.2
+    - 489.0
+    note: null
+  evidence_ids:
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p138:e1
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p138:e2
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p138:e3
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p138:e4
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p138:e5
+  - book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC:ev:p138:e6
+  note: text layer + figure crops read
 - pdf_index: 139
   page_status: PROCESSED_COMBINED
   section_ids:

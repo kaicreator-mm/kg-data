@@ -1,0 +1,13 @@
+chapter_id: ov
+pdf_pages_range:
+- 10
+- 15
+extractor_model: glm-flash-free
+source_pdf_sha256: ccbe1a1bf1f599e9f00d1c212f9f6a4161f1af81777fbc0191505d2a022268b2
+claims: 36
+entities: 26
+edges: 18
+evidence_records: 11
+open_questions: 3
+observations_local_only: true
+status: EXTRACTED_STRUCT_QA_PENDING_REVIEW

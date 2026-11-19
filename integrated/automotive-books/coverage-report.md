@@ -1,11 +1,11 @@
 # Integrated automotive-books coverage report (round 1, 2026-11-20)
 
 - Inventory snapshot: 765 PDFs (root 764 + archive 1), 765 unique fileIds — INVENTORY_COMPLETE_AT_SNAPSHOT, not KG complete.
-- BookGraphs started this round: 6; all BOOK_IN_PROGRESS (chapter-scoped), review_status=GENERATED_REVIEW_PENDING.
+- BookGraphs started this round: 9; all BOOK_IN_PROGRESS (chapter-scoped), review_status=GENERATED_REVIEW_PENDING.
 
 ## book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC
-- claims=97 entities=64 edges=32 evidence=61 graph_sha256=b89a9a2d30868f8c…
-- pages 11/300 processed; blocked/pending 289; assets 10/11; sections closed 1/1.
+- claims=257 entities=116 edges=60 evidence=134 graph_sha256=d3c0945817eb91a2…
+- pages 22/300 processed; blocked/pending 278; assets 26/28; sections closed 2/2.
 
 ## book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
 - claims=93 entities=71 edges=69 evidence=14 graph_sha256=a1da6126451ef4ac…
@@ -19,19 +19,31 @@
 - claims=102 entities=39 edges=32 evidence=37 graph_sha256=3e11c8bd4590eded…
 - pages 9/259 processed; blocked/pending 250; assets 5/5; sections closed 1/1.
 
-## book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1
-- claims=28 entities=24 edges=17 evidence=21 graph_sha256=3b510d7aaaa131a1…
-- pages 10/109 processed; blocked/pending 99; assets 2/2; sections closed 1/1.
+## book:1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv
+- claims=136 entities=36 edges=61 evidence=69 graph_sha256=8b3a1b4a5d802125…
+- pages 16/404 processed; blocked/pending 388; assets 13/13; sections closed 1/1.
 
-## book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_
-- claims=73 entities=44 edges=17 evidence=26 graph_sha256=2749ba5fd4a93a5b…
-- pages 10/299 processed; blocked/pending 289; assets 13/13; sections closed 1/1.
+## book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+- claims=37 entities=20 edges=9 evidence=22 graph_sha256=f947ab44329cd1e7…
+- pages 14/278 processed; blocked/pending 264; assets 19/19; sections closed 1/1.
+
+## book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+- claims=83 entities=48 edges=40 evidence=32 graph_sha256=bf08a2a36db10671…
+- pages 10/303 processed; blocked/pending 293; assets 13/13; sections closed 1/1.
+
+## book:1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz
+- claims=140 entities=52 edges=33 evidence=71 graph_sha256=925a6dab85847ef4…
+- pages 16/277 processed; blocked/pending 261; assets 12/12; sections closed 1/1.
+
+## book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3
+- claims=36 entities=26 edges=17 evidence=11 graph_sha256=f77785651b441127…
+- pages 7/306 processed; blocked/pending 299; assets 6/7; sections closed 1/1.
 
 ## Metrics (reference 05 §6)
 
-- inventory_pdf_total=765; book_graphs_started=6; books_page_complete=0; books_scoped_accepted=0 (independent review NOT_RUN)
+- inventory_pdf_total=765; book_graphs_started=9; books_page_complete=0; books_scoped_accepted=0 (independent review NOT_RUN)
 - claims_source_located=0 (all EXTRACTED_UNCHECKED until source-check); claims_self_checked=0; claims_independently_accepted=0
-- cross_book_entities_aligned=0 verified / 7 candidates; conflicting_claim_sets=0 (scan pending); merge_queue_open=0
+- cross_book_entities_aligned=0 verified / 16 candidates; conflicting_claim_sets=0 (scan pending); merge_queue_open=0
 - model_calls logged in telemetry/cost-events.jsonl; provider token accounting unknown -> total_cost_usd=null
 
 ## Residual risks

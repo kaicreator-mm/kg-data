@@ -1,0 +1,32 @@
+book_id: book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+drive_file_id: 1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v
+title: 汽车自动变速器阀体诊断与修复技术（第2版）
+edition: 第2版
+isbn: null
+publication_year: null
+source_sha256: b0d3c1dde4b05b9fdf8a2def34f8bab3a34709cf984bc0b106ec5d70406c53fd
+pdf_page_count: 303
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: at-valve-body-specialist
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: c03s123
+  label: 第三章 阀体的失效与检测 一、二节及三节开头
+  pdf_pages_range:
+  - 36
+  - 41
+  printed_pages:
+  - '28'
+  - '33'
+page_offset_printed_minus_pdfindex: 9
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING

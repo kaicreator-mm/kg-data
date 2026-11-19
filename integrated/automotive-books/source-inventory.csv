@@ -1,6 +1,6 @@
 drive_file_id,file_name,size_bytes,md5,modified_time,genre_tag,kg_status,rights_status
 1mDuzn59UGm7FkqPi-CyGAbImhvhultYX,"卡罗拉车系快修速查手册 (卡罗拉车系快修速查手册.pdf) (z-library.sk, 1lib.sk, z-lib.sk).pdf",46467629,134c063e654c1f456585f793913cc4b6,2026-11-17T05:56:04.088Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_,"新款本田车系维修案例精选_第2版 (新款本田车系维修案例精选_第2版.pdf) (z-library.sk, 1lib.sk, z-lib.sk).pdf",55215271,f08b86c3f1063f8d955dd1ad31cb1636,2026-11-17T05:55:59.068Z,repair-diagnosis,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
+1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_,"新款本田车系维修案例精选_第2版 (新款本田车系维修案例精选_第2版.pdf) (z-library.sk, 1lib.sk, z-lib.sk).pdf",55215271,f08b86c3f1063f8d955dd1ad31cb1636,2026-11-17T05:55:59.068Z,repair-diagnosis,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1JVsHex7NK-rhy6MTIvtxN4u0ztIFLH7k,汽车-拖拉机用内燃机的构造型式_苏联机器制造百科全书编辑委员会编；林曦，邓锡予译.pdf,10014931,ad1fd6f2dcd21dafe67920cb5cfe5a02,2026-11-17T08:15:20.911Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1nDxLITXIu9vSzK1dhY2-dhFzD_Biuf1Z,汽车CAD_CAE技术基础与实例_羊玢主编；杨敏，田杰，贾永刚等副主编.pdf,206050863,7c3f6d67929ac69cb4a091b782b6e108,2026-11-17T08:18:28.561Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 15QJ_05dVZyhGBCNlHJkeYPqSyatpH9sB,汽车EVI及高强度钢氢致延迟断裂研究进展_中信微合金化技术中心，中国汽车工程研究院股份有限公司编.pdf,126689247,4b7709f2de2c25f90691b2a4db3b03b0,2026-11-17T08:18:26.687Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
@@ -230,7 +230,7 @@ drive_file_id,file_name,size_bytes,md5,modified_time,genre_tag,kg_status,rights_
 1vOfWhsTzdNGj3nNXbvFku9X9-oOVHODJ,汽车拆装实习_杨信主编.pdf,2996891,d31986681df74d03a414d2836401f48f,2026-11-17T09:13:53.086Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 17dH5nCM_aStDmRqOlbsMilv6tM5DGhw2,汽车拖拉机下_东北林学院，中南林学院主编.pdf,37057329,51c7639755ac439e7010f8ac10cf3484,2026-11-17T09:14:14.432Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1qr2bsV3cVX8j0GUdogtxLsH20iu7q26J,汽车拖拉机内燃机原理_武汉工学院，河北工学院编.pdf,12167903,69ebabf2845112b13ce5a28bc23db518,2026-11-17T09:13:58.750Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz,汽车拖拉机学第1册发动机构造与理论_许绮川，鲁植雄主编.pdf,18697955,2e29d14f7851dd685768f6303812890b,2026-11-17T09:14:12.457Z,structure-textbook+engine,DISCOVERED_NOT_PROCESSED,UNKNOWN
+1Ds7ED02SAYic6aZm5nRpIb0KZX8C8EIz,汽车拖拉机学第1册发动机构造与理论_许绮川，鲁植雄主编.pdf,18697955,2e29d14f7851dd685768f6303812890b,2026-11-17T09:14:12.457Z,structure-textbook+engine,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 1zPFpShLtEi3c_v9wJn_Z38vu3E41GsbD,汽车拖拉机的理论构造与计算上_管荣法编著.pdf,6643677,44675ab19ccaadae369af33f91c3be5b,2026-11-17T09:14:18.066Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1B7ura4gmDvSnPgmVFwdBaXyfBKDoC66h,汽车拖拉机节能_朱秉兰主编.pdf,4199998,03a7daae82b94c1528923b3c978f7134,2026-11-17T09:14:18.444Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1btSlFSFdZ3q1QRSNa_ua7GZF3LGO8H68,汽车拖拉机试验学第2版_李杰敏主编.pdf,10482875,c0f30d8aa943f3661dc62b5777976a8e,2026-11-17T09:14:30.229Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
@@ -482,9 +482,9 @@ drive_file_id,file_name,size_bytes,md5,modified_time,genre_tag,kg_status,rights_
 1wMDY1xUYXWqBWaAFeqFoshX2j3pizXPb,汽车电气设备构造与维修_杨少波，安妮主编.pdf,106403944,530297ca56bfeb69d338cebcd1ef1a62,2026-11-17T10:16:21.988Z,repair-diagnosis+structure-textbook+electric-circuit,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1nNUFD5mh2uEnEf279jYBBnMKIhNTKr49,汽车电气设备构造与维修_汪红，刘磊，郑晓彦主编；张忠东副主编.pdf,33710681,ffaddbda88271fcbf931aba63e40aad7,2026-11-17T10:16:12.513Z,repair-diagnosis+structure-textbook+electric-circuit,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1QnHILKp5-P-pUfd3TM3zPU_SoWM47xUb,汽车电气设备构造与维修_沈步楼，张新强，刘俊明主编.pdf,124317429,a39dd8d9b22fdd079e87aae0a65fe781,2026-11-17T10:17:38.621Z,repair-diagnosis+structure-textbook+electric-circuit,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1wtxnL2CnwTklePxerazLQICo9-lrxzj3,汽车电气设备构造与维修_舒华，姚国平主编(1).pdf,34121156,f283b1dda0cc78e4debae8ad58cbb8c5,2026-11-17T10:16:48.783Z,repair-diagnosis+structure-textbook+electric-circuit,DISCOVERED_NOT_PROCESSED,UNKNOWN
+1wtxnL2CnwTklePxerazLQICo9-lrxzj3,汽车电气设备构造与维修_舒华，姚国平主编(1).pdf,34121156,f283b1dda0cc78e4debae8ad58cbb8c5,2026-11-17T10:16:48.783Z,repair-diagnosis+structure-textbook+electric-circuit,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 13zQU1wYHND5HlyEEzxKrJqaLZy4svrMG,汽车电气设备构造与维修_舒华，姚国平主编.pdf,34121156,f283b1dda0cc78e4debae8ad58cbb8c5,2026-11-17T07:28:18.907Z,repair-diagnosis+structure-textbook+electric-circuit,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B,汽车电气设备构造与维修_金君堂主编.pdf,48679147,b7ad61bed69b07671fefc5906269b423,2026-11-17T10:17:37.087Z,repair-diagnosis+structure-textbook+electric-circuit,DISCOVERED_NOT_PROCESSED,UNKNOWN
+1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B,汽车电气设备构造与维修_金君堂主编.pdf,48679147,b7ad61bed69b07671fefc5906269b423,2026-11-17T10:17:37.087Z,repair-diagnosis+structure-textbook+electric-circuit,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 1dTqEzOG2hI50axFOUagdKxAh7SxhmOWZ,汽车电气设备检修与技术详解 刘春晖.pdf,26053891,9fa2533f72759d235592fe79fc2ec5fc,2026-11-17T10:17:56.445Z,electric-circuit,DISCOVERED_NOT_PROCESSED,UNKNOWN
 171-izQkpsSU9stOHRVpdJ4CZvSBh2L4x,汽车电系修护_林德华译.pdf,67055486,5f07849a502a2868ac7d188e2cd15e6d,2026-11-17T10:18:17.560Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1QeCMLD8wplyCr7fzd68Jk0-uULgvfw7G,汽车电线束设计与工艺职业教育“十三五”改革创新规划教材_侯守明，谷孝卫.pdf,63230850,c5a03959fdedf14c6e81ec90d06413b4,2026-11-17T10:18:38.449Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
@@ -619,11 +619,11 @@ drive_file_id,file_name,size_bytes,md5,modified_time,genre_tag,kg_status,rights_
 1XzHcU-G5UD83tWvL0VVeXGOJbjZ5Cdct,汽车自动变速器电子控制装置检修入门_孙余凯，吴永平，项绮明编著.pdf,29085040,497e61e4d28fbd63013c9bbcfc5e2fb5,2026-11-17T10:57:07.367Z,electric-circuit+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1G1k8A1vGo2hFjBw7BjVRtnWHYZT-bJxL,汽车自动变速器精品学习教程 刘汉涛(1).pdf,62061305,3f01704392b65c44291477598338c374,2026-11-17T10:57:41.443Z,structure-textbook+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1sOc2BXnpvfxVIfijl39KQPopT7u1qnK5,汽车自动变速器精品学习教程 刘汉涛.pdf,62061305,3f01704392b65c44291477598338c374,2026-11-17T07:27:03.075Z,structure-textbook+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv,汽车自动变速器精品学习教程 刘汉涛.pdf,62061305,3f01704392b65c44291477598338c374,2026-11-17T07:27:03.075Z,structure-textbook+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
+1-XMC-sjwyrpWuWn1BJPpirxDEo8LZJvv,汽车自动变速器精品学习教程 刘汉涛.pdf,62061305,3f01704392b65c44291477598338c374,2026-11-17T07:27:03.075Z,structure-textbook+transmission,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 1HfuYP0abS0Yzb3jSGNTqq3F9G2vMswj5,汽车自动变速器维修原理与实例教程_高维，王枝东主编；王卫兵，钱文武，范磊，陈浩副主编；万茂松，尹为国主审.pdf,44435095,44fe8d42db08cea07e0d0d7e04c12ae2,2026-11-17T10:57:37.583Z,repair-diagnosis+structure-textbook+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1KSwoOUGzIzxrnd7p_rNkHt6a3s_scLMo,汽车自动变速器维修轻松入门600问 刘汉涛.pdf,133234382,489ba33059baff1fc1c699d11f9eb22e,2026-11-17T10:58:40.563Z,repair-diagnosis+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E,汽车自动变速器维修问答_鞠峰主编.pdf,16450177,9de8a97c477b4a86c7f12c3d6bf3c7e5,2026-11-17T10:57:57.139Z,repair-diagnosis+transmission,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
-1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v,汽车自动变速器阀体诊断与修复技术_第2版 齐明.pdf,33354405,4653dc56ef10cc9098d4571e45e983ba,2026-11-17T10:58:31.450Z,repair-diagnosis+transmission,DISCOVERED_NOT_PROCESSED,UNKNOWN
+1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v,汽车自动变速器阀体诊断与修复技术_第2版 齐明.pdf,33354405,4653dc56ef10cc9098d4571e45e983ba,2026-11-17T10:58:31.450Z,repair-diagnosis+transmission,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
 1g_cg16tmcjv3yewDp9tiKAfoIPozK-Rm,汽车舒适与安全系统原理与检修_于万海，刘建华主编；王文龙，曾虎副主编.pdf,79843543,a994c7197da6d13de145173920c5e8ef,2026-11-17T10:59:15.540Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1xCwrSLRVNs_7OctINEJTXe0D4uUsgFfN,汽车节油技术_齐作哲，丁东编著.pdf,8194144,9460778c49bbfa364fe8d910514edaeb,2026-11-17T10:58:50.130Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1w8Xuuz3l4i2oTb4QxHpaQa-hTnsJZhOF,汽车节油经验_商业部燃料组，交通部增产节约办公室编.pdf,1988211,92592f2158eb1055ad1c8cd756e677d7,2026-11-17T10:59:00.044Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
@@ -690,7 +690,7 @@ drive_file_id,file_name,size_bytes,md5,modified_time,genre_tag,kg_status,rights_
 1UbFZXEbG3poxGH5rQVxOTtbq5ju3Dn_U,汽车运动性能技术 安部正人 马宁.pdf,59693007,d1e531df97d6b8d809d89be36912f6fa,2026-11-17T11:15:04.393Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN
 197fgux-sQ8YPhRkInFu0ojbah88W_plL,汽车运用与维修专业技能型紧缺人才培养培训教材汽车发动机构造与维修_汤定国主编(1).pdf,55392744,8007399da81f80a24c0ce8ba045d3a0c,2026-11-17T11:15:04.368Z,repair-diagnosis+structure-textbook+engine,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1UTxahK2RoLJOPD3r2ORqhE-hLg2jyG03,汽车运用与维修专业技能型紧缺人才培养培训教材汽车发动机构造与维修_汤定国主编.pdf,55392744,8007399da81f80a24c0ce8ba045d3a0c,2026-11-17T07:21:57.711Z,repair-diagnosis+structure-textbook+engine,DISCOVERED_NOT_PROCESSED,UNKNOWN
-1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1,汽车运用与维修汽车发动机构造与维修_高忠学，常翠玲主编(1).pdf,5288636,60474ba3dd91b4f70f1a7614891ab010,2026-11-17T11:15:07.652Z,repair-diagnosis+structure-textbook+engine,BOOK_GRAPH_PARTIAL_R1,UNKNOWN
+1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1,汽车运用与维修汽车发动机构造与维修_高忠学，常翠玲主编(1).pdf,5288636,60474ba3dd91b4f70f1a7614891ab010,2026-11-17T11:15:07.652Z,repair-diagnosis+structure-textbook+engine,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1ujfBjoi51XSBn66cszwVEnB4ihI9o4sk,汽车运用与维修汽车发动机构造与维修_高忠学，常翠玲主编.pdf,5288636,60474ba3dd91b4f70f1a7614891ab010,2026-11-17T07:29:36.284Z,repair-diagnosis+structure-textbook+engine,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1PI9VlhXXphS97yHlN0EoAdoZxuH2gq7q,汽车运用基础_陈焕江主编.pdf,11104390,ee48e07a02b37a7cb598e4ccea33f36e,2026-11-17T11:15:13.814Z,structure-textbook,DISCOVERED_NOT_PROCESSED,UNKNOWN
 1_pKwGQ7dZQVJExTPYTXS1UqoXCvowMj6,汽车运用工程_许洪国主编.pdf,30440611,4b0ed3ea9a3dcea3b6c68a7bbee971e1,2026-11-17T11:15:28.364Z,other,DISCOVERED_NOT_PROCESSED,UNKNOWN

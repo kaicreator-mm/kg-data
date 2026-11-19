@@ -1,0 +1,1413 @@
+{
+  "@context": {
+    "@vocab": "https://example.org/automotive-books-kg/",
+    "auto": "https://example.org/automotive-books-kg/",
+    "bookRef": {
+      "@id": "auto:bookRef",
+      "@type": "@id"
+    },
+    "claim": {
+      "@id": "auto:claim",
+      "@type": "@id"
+    },
+    "evidenceRef": {
+      "@id": "auto:evidenceRef",
+      "@type": "@id"
+    },
+    "from": {
+      "@id": "auto:from",
+      "@type": "@id"
+    },
+    "object": {
+      "@id": "auto:object",
+      "@type": "@id"
+    },
+    "subject": {
+      "@id": "auto:subject",
+      "@type": "@id"
+    },
+    "to": {
+      "@id": "auto:to",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "@type": "auto:KnowledgeGraph",
+      "canonicalJson": "{\"book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"coverage_summary\":{\"assets_processed\":6,\"assets_total\":7,\"pages_blocked\":299,\"pages_processed\":7,\"pages_total\":306,\"sections_closed\":1,\"sections_total\":1},\"generation_receipt\":{\"chapters\":[\"ov\"],\"extractor_model\":\"glm-flash-free\",\"generated_utc\":\"2026-11-19T22:37:40+00:00\",\"observations\":\"local-private (not committed); evidence observation_summary in graph\",\"rights_note\":\"local processing only; no external API upload performed\",\"source_pdf_sha256\":\"ccbe1a1bf1f599e9f00d1c212f9f6a4161f1af81777fbc0191505d2a022268b2\",\"writer\":\"zcode-main-session:book-integrator\"},\"graph_revision\":1,\"ontology_version\":\"automotive-books-kg-ontology-1.0\",\"page_ledger_ref\":\"page-ledger.yaml\",\"review_status\":\"GENERATED_REVIEW_PENDING\",\"schema_version\":\"1.0.0\",\"sections\":[{\"end_pdf_page\":15,\"id\":\"ov\",\"label\":\"概述（汽车电气设备组成与电子控制系统概况，printed 1-5）\",\"section_status\":\"EXTRACTED\",\"start_pdf_page\":10}],\"source\":{\"drive_file_id\":\"1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"edition\":null,\"isbn\":null,\"pdf_page_count\":306,\"publication_year\":null,\"source_rights_status\":\"UNKNOWN\",\"source_sha256\":\"ccbe1a1bf1f599e9f00d1c212f9f6a4161f1af81777fbc0191505d2a022268b2\",\"title\":\"汽车电气设备构造与维修（金盾职业技能培训教材）\"}}",
+      "ontologyVersion": "automotive-books-kg-ontology-1.0",
+      "reviewStatus": "GENERATED_REVIEW_PENDING",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01\",\"kind\":\"system\",\"label\":\"汽车电气设备\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "汽车电气设备"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"kind\":\"system\",\"label\":\"汽车电气系统（传统电气部分）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "汽车电气系统（传统电气部分）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03\",\"kind\":\"system\",\"label\":\"汽车电子控制系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "汽车电子控制系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04\",\"kind\":\"subsystem\",\"label\":\"电源系统\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "电源系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\",\"kind\":\"subsystem\",\"label\":\"起动系统\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "起动系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"kind\":\"subsystem\",\"label\":\"点火系统\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "点火系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07\",\"kind\":\"subsystem\",\"label\":\"照明与信号系统\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "照明与信号系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08\",\"kind\":\"subsystem\",\"label\":\"信息显示与警报系统\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "信息显示与警报系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09\",\"kind\":\"subsystem\",\"label\":\"辅助电气系统\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "辅助电气系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10\",\"kind\":\"subsystem\",\"label\":\"配电装置\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "配电装置"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11\",\"kind\":\"component\",\"label\":\"蓄电池\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "蓄电池"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12\",\"kind\":\"component\",\"label\":\"发电机（交流发电机）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "发电机（交流发电机）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13\",\"kind\":\"component\",\"label\":\"调节器（电子调节器）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "调节器（电子调节器）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k14",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k14\",\"kind\":\"component\",\"label\":\"IC（集成电路）调节器\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "IC（集成电路）调节器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k15",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k15\",\"kind\":\"component\",\"label\":\"充电指示灯\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "充电指示灯"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k16",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k16\",\"kind\":\"component\",\"label\":\"电流表\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "电流表"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k17",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k17\",\"kind\":\"component\",\"label\":\"起动机\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "起动机"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18\",\"kind\":\"component\",\"label\":\"起动继电器\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "起动继电器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k19",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k19\",\"kind\":\"component\",\"label\":\"点火起动开关\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "点火起动开关"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k20",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k20\",\"kind\":\"system\",\"label\":\"传统点火系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "传统点火系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21\",\"kind\":\"system\",\"label\":\"电子点火系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "电子点火系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k22",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k22\",\"kind\":\"system\",\"label\":\"微机控制点火系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "微机控制点火系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k23",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k23\",\"kind\":\"vehicle\",\"label\":\"上海大众桑塔纳 2000GSi 轿车\"}",
+      "domain": "",
+      "kind": "vehicle",
+      "label": "上海大众桑塔纳 2000GSi 轿车"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k24",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k24\",\"kind\":\"component\",\"label\":\"发动机电控单元（发动机 ECU）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "发动机电控单元（发动机 ECU）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k25",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k25\",\"kind\":\"system\",\"label\":\"防抱死制动系统（ABS）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "防抱死制动系统（ABS）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k26",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k26\",\"kind\":\"component_group\",\"label\":\"汽车电子控制系统组成要素（传感器/电控单元/执行器）\"}",
+      "domain": "",
+      "kind": "component_group",
+      "label": "汽车电子控制系统组成要素（传感器/电控单元/执行器）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0001",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0001\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"现代汽车电气设备由汽车电气系统与汽车电子控制系统两部分组成，每一部分又由若干子系统组成；电气系统主要功能是保证汽车正常行驶，电控系统主要功能是提高汽车整体性能。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "现代汽车电气设备由汽车电气系统与汽车电子控制系统两部分组成，每一部分又由若干子系统组成；电气系统主要功能是保证汽车正常行驶，电控系统主要功能是提高汽车整体性能。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0002",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0002\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气设备第二部分为汽车电子控制系统。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气设备第二部分为汽车电子控制系统。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0003",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0003\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04\",\"predicate\":\"has_component\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气设备包括电源系统、起动系统、点火系统、照明与信号系统、信息显示与警报系统、辅助电气系统和配电装置等。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04",
+      "predicate": "has_component",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气设备包括电源系统、起动系统、点火系统、照明与信号系统、信息显示与警报系统、辅助电气系统和配电装置等。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0004",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0004\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\",\"predicate\":\"has_subsystem\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气系统包含起动系统。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05",
+      "predicate": "has_subsystem",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气系统包含起动系统。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0005",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0005\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"predicate\":\"has_subsystem\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气系统包含点火系统。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "predicate": "has_subsystem",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气系统包含点火系统。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0006",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0006\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07\",\"predicate\":\"has_subsystem\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气系统包含照明与信号系统。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07",
+      "predicate": "has_subsystem",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气系统包含照明与信号系统。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0007",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0007\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08\",\"predicate\":\"has_subsystem\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气系统包含信息显示与警报系统。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08",
+      "predicate": "has_subsystem",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气系统包含信息显示与警报系统。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0008",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0008\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09\",\"predicate\":\"has_subsystem\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气系统包含辅助电气系统。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09",
+      "predicate": "has_subsystem",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气系统包含辅助电气系统。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0009",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0009\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10\",\"predicate\":\"has_subsystem\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电气系统包含配电装置。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10",
+      "predicate": "has_subsystem",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电气系统包含配电装置。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0010",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0010\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"电源系统主要由蓄电池、发电机和调节器组成；在汽车装备的蓄电池和发电机两个直流电源中蓄电池是辅助电源、发电机是主要电源，蓄电池与发电机并联工作，整车电器与电子设备均与两个直流电源并联连接。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "电源系统主要由蓄电池、发电机和调节器组成；在汽车装备的蓄电池和发电机两个直流电源中蓄电池是辅助电源、发电机是主要电源，蓄电池与发电机并联工作，整车电器与电子设备均与两个直流电源并联连接。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0011",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0011\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"电源系统包含发电机（主要电源）。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "电源系统包含发电机（主要电源）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0012",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0012\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"电源系统包含调节器（电压调节装置，功用是在发动机转速变化时自动调节发电机输出电压并保持稳定）。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "电源系统包含调节器（电压调节装置，功用是在发动机转速变化时自动调节发电机输出电压并保持稳定）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0013",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0013\",\"object_id\":null,\"predicate\":\"performs_function\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"调节器功用：随发动机转速变化自动调节发电机输出电压保持稳定。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13\",\"unknowns\":[],\"value\":\"在发动机转速变化时自动调节发电机的输出电压并使其保持稳定\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "predicate": "performs_function",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "调节器功用：随发动机转速变化自动调节发电机输出电压保持稳定。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13",
+      "unknowns": [],
+      "value": "在发动机转速变化时自动调节发电机的输出电压并使其保持稳定"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0014",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0014\",\"object_id\":null,\"predicate\":\"has_config_variant\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"现代汽车普遍采用交流发电机与电子调节器；按电子调节器安装方式不同，电源系统布置形式分为整体式与分离式两种。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12\",\"unknowns\":[],\"value\":\"电子调节器安装方式不同使交流发电机电源系统的布置形式分为整体式和分离式两种\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "predicate": "has_config_variant",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "现代汽车普遍采用交流发电机与电子调节器；按电子调节器安装方式不同，电源系统布置形式分为整体式与分离式两种。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12",
+      "unknowns": [],
+      "value": "电子调节器安装方式不同使交流发电机电源系统的布置形式分为整体式和分离式两种"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0015",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0015\",\"object_id\":null,\"predicate\":\"has_config_variant\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"调节器分离安装的特点与优缺点。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13\",\"unknowns\":[],\"value\":\"分离式：发电机与调节器之间需用导线连接，电源系统故障率较高，但发生故障时能就车诊断故障发生在交流发电机还是电子调节器，只需更换故障部件即可继续行驶\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2"
+      ],
+      "measurement": null,
+      "predicate": "has_config_variant",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "调节器分离安装的特点与优缺点。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13",
+      "unknowns": [],
+      "value": "分离式：发电机与调节器之间需用导线连接，电源系统故障率较高，但发生故障时能就车诊断故障发生在交流发电机还是电子调节器，只需更换故障部件即可继续行驶"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0016",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[\"图0-2 分离式布置方案\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e1\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0016\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11\",\"predicate\":\"indicates\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图0-2 电源线路中电子调节器只调节发电机输出电压一项功能，并采用电流表指示蓄电池的充放电状态；电流表安装在组合仪表盘上占用较大空间，适用于电源系统结构简单、有足够安装空间的载货汽车。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k16\",\"unknowns\":[],\"value\":null}",
+      "conditions": [
+        "图0-2 分离式布置方案"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11",
+      "predicate": "indicates",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图0-2 电源线路中电子调节器只调节发电机输出电压一项功能，并采用电流表指示蓄电池的充放电状态；电流表安装在组合仪表盘上占用较大空间，适用于电源系统结构简单、有足够安装空间的载货汽车。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k16",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0017",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[\"图0-3 分离式布置方案\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0017\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11\",\"predicate\":\"indicates\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图0-3 电源线路中电子调节器具有调节发电机输出电压和控制充电指示灯指示蓄电池充放电状态多种功能；充电指示灯占用空间小，适用于结构紧凑的小轿车。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k15\",\"unknowns\":[],\"value\":null}",
+      "conditions": [
+        "图0-3 分离式布置方案"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11",
+      "predicate": "indicates",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图0-3 电源线路中电子调节器具有调节发电机输出电压和控制充电指示灯指示蓄电池充放电状态多种功能；充电指示灯占用空间小，适用于结构紧凑的小轿车。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k15",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0018",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0018\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k14\",\"predicate\":\"integrates\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"当电子调节器安装在交流发电机上组成整体式交流发电机时，调节器一般采用多功能集成电路（IC）调节器；整体式交流发电机电源系统的显著特点是交流发电机与 IC 调节器之间无需再使用导线连接，电源系统线路大大简化、故障率大大降低；但一旦电源系统发生故障，不能就车诊断出故障发生在交流发电机还是电子调节器，需要更换整体式交流发电机才能继续行驶。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k14",
+      "predicate": "integrates",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "当电子调节器安装在交流发电机上组成整体式交流发电机时，调节器一般采用多功能集成电路（IC）调节器；整体式交流发电机电源系统的显著特点是交流发电机与 IC 调节器之间无需再使用导线连接，电源系统线路大大简化、故障率大大降低；但一旦电源系统发生故障，不能就车诊断出故障发生在交流发电机还是电子调节器，需要更换整体式交流发电机才能继续行驶。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0019",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0019\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k17\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"现代汽车普遍采用电磁控制式起动系统，主要由起动机、起动继电器和点火起动开关组成，功用是起动发动机。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k17",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "现代汽车普遍采用电磁控制式起动系统，主要由起动机、起动继电器和点火起动开关组成，功用是起动发动机。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0020",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0020\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"起动系统包含起动继电器。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "起动系统包含起动继电器。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0021",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0021\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k19\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"起动系统包含点火起动开关。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k19",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "起动系统包含点火起动开关。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0022",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[\"柴油发动机\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0022\",\"object_id\":null,\"predicate\":\"not_applicable_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"柴油机不装备点火系统的原因（压燃）。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"unknowns\":[],\"value\":\"柴油机：压缩冲程末期吸入缸内空气的温度已经超过柴油的燃点，从喷油器喷出的雾状柴油遇到热空气就立即燃烧，所以不需要装备点火系统\"}",
+      "conditions": [
+        "柴油发动机"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "predicate": "not_applicable_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "柴油机不装备点火系统的原因（压燃）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "unknowns": [],
+      "value": "柴油机：压缩冲程末期吸入缸内空气的温度已经超过柴油的燃点，从喷油器喷出的雾状柴油遇到热空气就立即燃烧，所以不需要装备点火系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0023",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0023\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k20\",\"predicate\":\"has_variant\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"按控制方式不同，汽车点火系统可分为传统点火系统、电子点火系统和微机控制点火系统三种类型；传统点火系统仅在早期生产的汽车上采用。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k20",
+      "predicate": "has_variant",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "按控制方式不同，汽车点火系统可分为传统点火系统、电子点火系统和微机控制点火系统三种类型；传统点火系统仅在早期生产的汽车上采用。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0024",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0024\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21\",\"predicate\":\"has_variant\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"点火系统第二类为电子点火系统；工业发达国家 20 世纪 60 年代、国内于 80 年代开始采用；目前载货汽车普遍采用电子点火系统。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21",
+      "predicate": "has_variant",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "点火系统第二类为电子点火系统；工业发达国家 20 世纪 60 年代、国内于 80 年代开始采用；目前载货汽车普遍采用电子点火系统。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0025",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\",\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0025\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k22\",\"predicate\":\"has_variant\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"点火系统第三类为微机控制点火系统；小轿车已普遍采用；主要由安装在发动机上的各种传感器、发动机电控单元、点火控制器、点火线圈和火花塞等组成。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3",
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k22",
+      "predicate": "has_variant",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "点火系统第三类为微机控制点火系统；小轿车已普遍采用；主要由安装在发动机上的各种传感器、发动机电控单元、点火控制器、点火线圈和火花塞等组成。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0026",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0026\",\"object_id\":null,\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"电子点火系统主要由点火信号发生器、点火控制器、点火线圈和火花塞等组成。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21\",\"unknowns\":[],\"value\":\"点火信号发生器、点火控制器、点火线圈和火花塞等\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3"
+      ],
+      "measurement": null,
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "电子点火系统主要由点火信号发生器、点火控制器、点火线圈和火花塞等组成。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21",
+      "unknowns": [],
+      "value": "点火信号发生器、点火控制器、点火线圈和火花塞等"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0027",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0027\",\"object_id\":null,\"predicate\":\"performs_function\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"照明与信号系统的功能与组成。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07\",\"unknowns\":[],\"value\":\"照明系统提供车内各种照明灯，用以提供夜间或雾天安全行车必须的灯光（前照灯是最重要的照明装置）；信号系统包括各种信号灯、闪光器、电喇叭、蜂鸣器等，主要提供安全行车必须的警告信号。\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "predicate": "performs_function",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "照明与信号系统的功能与组成。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07",
+      "unknowns": [],
+      "value": "照明系统提供车内各种照明灯，用以提供夜间或雾天安全行车必须的灯光（前照灯是最重要的照明装置）；信号系统包括各种信号灯、闪光器、电喇叭、蜂鸣器等，主要提供安全行车必须的警告信号。"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0028",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0028\",\"object_id\":null,\"predicate\":\"performs_function\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"信息显示与警报系统的仪表与警报装置清单。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08\",\"unknowns\":[],\"value\":\"信息显示系统包括监测发动机和整车状态的各种监测仪表（电流表/电压表/油压表/温度表/燃油表/车速里程表/发动机转速表等）；警报系统包括防盗警报装置、警告警报装置以及蓄电池充电指示灯、紧急情况警报灯、油压过低警报灯、气压过低警报灯、冷却液温度过高警报灯和各种电子控制系统故障警报灯等。\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "predicate": "performs_function",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "信息显示与警报系统的仪表与警报装置清单。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08",
+      "unknowns": [],
+      "value": "信息显示系统包括监测发动机和整车状态的各种监测仪表（电流表/电压表/油压表/温度表/燃油表/车速里程表/发动机转速表等）；警报系统包括防盗警报装置、警告警报装置以及蓄电池充电指示灯、紧急情况警报灯、油压过低警报灯、气压过低警报灯、冷却液温度过高警报灯和各种电子控制系统故障警报灯等。"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0029",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0029\",\"object_id\":null,\"predicate\":\"performs_function\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"辅助电气系统的组成与发展方向。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09\",\"unknowns\":[],\"value\":\"辅助电气系统包括挡风玻璃刮水与洗涤系统、风窗玻璃升降系统、空调系统、低温起动预热系统、座椅位置调节系统、收放机和点烟器等，主要向娱乐、舒适、方便和安全保障需求发展。\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "predicate": "performs_function",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "辅助电气系统的组成与发展方向。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09",
+      "unknowns": [],
+      "value": "辅助电气系统包括挡风玻璃刮水与洗涤系统、风窗玻璃升降系统、空调系统、低温起动预热系统、座椅位置调节系统、收放机和点烟器等，主要向娱乐、舒适、方便和安全保障需求发展。"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0030",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0030\",\"object_id\":null,\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"配电装置包括控制开关/保险装置/中央继电器接线盒/配电线束和连接器等。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10\",\"unknowns\":[],\"value\":\"各种控制开关、保险装置、中央继电器接线盒、配电线束和连接器等\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "配电装置包括控制开关/保险装置/中央继电器接线盒/配电线束和连接器等。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10",
+      "unknowns": [],
+      "value": "各种控制开关、保险装置、中央继电器接线盒、配电线束和连接器等"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0031",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0031\",\"object_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k26\",\"predicate\":\"is_composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"现代汽车电子控制系统都是由传感器、电控单元和执行器三部分组成的机电一体化控制系统；控制功能和控制对象不同，采用控制部件的结构型式以及数量各不相同；目的是提高汽车的整体性能。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k26",
+      "predicate": "is_composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "现代汽车电子控制系统都是由传感器、电控单元和执行器三部分组成的机电一体化控制系统；控制功能和控制对象不同，采用控制部件的结构型式以及数量各不相同；目的是提高汽车的整体性能。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0032",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0032\",\"object_id\":null,\"predicate\":\"has_classification\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"汽车电子控制系统两种分类法（按功能七类/按结构四类）。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03\",\"unknowns\":[],\"value\":\"按控制功能不同分为动力性、经济与排放性、安全性、舒适性、操纵性、通过性和娱乐信息控制系统七种类型；按汽车总体结构分为发动机电子控制系统、底盘电子控制系统、车身电子控制系统和综合控制系统四大类\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "predicate": "has_classification",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "汽车电子控制系统两种分类法（按功能七类/按结构四类）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03",
+      "unknowns": [],
+      "value": "按控制功能不同分为动力性、经济与排放性、安全性、舒适性、操纵性、通过性和娱乐信息控制系统七种类型；按汽车总体结构分为发动机电子控制系统、底盘电子控制系统、车身电子控制系统和综合控制系统四大类"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0033",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0033\",\"object_id\":null,\"predicate\":\"controls\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"发动机电子控制系统 13 项子系统缩写清单。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k24\",\"unknowns\":[],\"value\":\"发动机电子控制系统主要包括：电控发动机燃油喷射系统 EFI、空燃比反馈控制系统 AFC、怠速控制系统 ISC、断油控制系统、燃油蒸气回收系统、排气再循环系统、加速踏板控制系统 EAP、微机控制点火系统 MCI、发动机爆燃控制系统 EDS、进气控制系统、增压控制系统和汽车巡航控制系统 CCS、第二代车载故障诊断系统 OBD-II 等\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "predicate": "controls",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "发动机电子控制系统 13 项子系统缩写清单。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k24",
+      "unknowns": [],
+      "value": "发动机电子控制系统主要包括：电控发动机燃油喷射系统 EFI、空燃比反馈控制系统 AFC、怠速控制系统 ISC、断油控制系统、燃油蒸气回收系统、排气再循环系统、加速踏板控制系统 EAP、微机控制点火系统 MCI、发动机爆燃控制系统 EDS、进气控制系统、增压控制系统和汽车巡航控制系统 CCS、第二代车载故障诊断系统 OBD-II 等"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0034",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0034\",\"object_id\":null,\"predicate\":\"includes_chassis_systems\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"底盘电子控制系统清单（ECT/ABS/EBD/EBA/DSC/驱动防滑等）。\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03\",\"unknowns\":[],\"value\":\"汽车底盘电子控制系统主要包括：电子控制自动变速系统 ECT、防抱死制动系统 ABS、电子控制制动力分配系统 EBD、电子控制制动辅助系统 EBA、动态稳定控制系统 DSC、驱动防滑控制系统等\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2"
+      ],
+      "measurement": null,
+      "predicate": "includes_chassis_systems",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "底盘电子控制系统清单（ECT/ABS/EBD/EBA/DSC/驱动防滑等）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03",
+      "unknowns": [],
+      "value": "汽车底盘电子控制系统主要包括：电子控制自动变速系统 ECT、防抱死制动系统 ABS、电子控制制动力分配系统 EBD、电子控制制动辅助系统 EBA、动态稳定控制系统 DSC、驱动防滑控制系统等"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0035",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p12:e1\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0035\",\"object_id\":null,\"predicate\":\"has_component_inventory\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图0-1 给出桑塔纳 2000GSi 轿车 40 项电器与电子控制部件分布：雾灯、转向信号灯、组合前照灯、散热器风扇、双音喇叭、空调压缩机、交流发电机、储液干燥器、蓄电池、ABS ECU 与液压控制总成、起动机、点火线圈与点火控制器、风窗玻璃洗涤泵、冷却液位传感器、发动机 ECU、空调鼓风机、制动液位传感器、风窗刮水器电机、空调控制器、电动车窗控制按钮、中央接线盒、自动升降天线、扬声器、组合仪表、收放机、内顶灯、阅读灯、轮速传感器、电动后视镜调节开关、中央门锁控制开关、车门接触开关、后窗摇窗机开关、燃油泵、燃油油位传感器、后门锁控制电机、组合尾灯、后风窗除霜器、防盗器 ECU 等（注：发动机燃料喷射系统部件未画出）\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k23\",\"unknowns\":[\"编号29、33 两项部件名字形存疑未列入清单\"],\"value\":\"40 项电器与电子控制部件分布清单（详见 statement）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p12:e1"
+      ],
+      "measurement": null,
+      "predicate": "has_component_inventory",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图0-1 给出桑塔纳 2000GSi 轿车 40 项电器与电子控制部件分布：雾灯、转向信号灯、组合前照灯、散热器风扇、双音喇叭、空调压缩机、交流发电机、储液干燥器、蓄电池、ABS ECU 与液压控制总成、起动机、点火线圈与点火控制器、风窗玻璃洗涤泵、冷却液位传感器、发动机 ECU、空调鼓风机、制动液位传感器、风窗刮水器电机、空调控制器、电动车窗控制按钮、中央接线盒、自动升降天线、扬声器、组合仪表、收放机、内顶灯、阅读灯、轮速传感器、电动后视镜调节开关、中央门锁控制开关、车门接触开关、后窗摇窗机开关、燃油泵、燃油油位传感器、后门锁控制电机、组合尾灯、后风窗除霜器、防盗器 ECU 等（注：发动机燃料喷射系统部件未画出）",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k23",
+      "unknowns": [
+        "编号29、33 两项部件名字形存疑未列入清单"
+      ],
+      "value": "40 项电器与电子控制部件分布清单（详见 statement）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0036",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p15:e1\"],\"id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0036\",\"object_id\":null,\"predicate\":\"has_application_inventory\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图0-5 给出电子控制技术在汽车上的 34 项应用概况：燃油喷射、怠速控制、空燃比反馈控制、发动机故障诊断、自动变速、微机控制点火、加速踏板控制、控制器区域网络、声音复制、声控操作、音响、车载计算机、车载电话、交通控制、信息显示、线束复用、雷达车距控制与警报、前照灯控制与清洗、气体放电车灯、轮胎气压控制、防抱死制动、底盘故障诊断、刮水器与清洗器控制、维修周期显示、液面与磨损监控、安全气囊与安全带控制、车辆保安、前/后轮转向控制、电子悬架、自动空调、座椅调节、中央门锁、巡航控制、车距警报\",\"subject_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03\",\"unknowns\":[],\"value\":\"34 项汽车电子应用清单（图0-5 BOSCH 概况图）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p15:e1"
+      ],
+      "measurement": null,
+      "predicate": "has_application_inventory",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图0-5 给出电子控制技术在汽车上的 34 项应用概况：燃油喷射、怠速控制、空燃比反馈控制、发动机故障诊断、自动变速、微机控制点火、加速踏板控制、控制器区域网络、声音复制、声控操作、音响、车载计算机、车载电话、交通控制、信息显示、线束复用、雷达车距控制与警报、前照灯控制与清洗、气体放电车灯、轮胎气压控制、防抱死制动、底盘故障诊断、刮水器与清洗器控制、维修周期显示、液面与磨损监控、安全气囊与安全带控制、车辆保安、前/后轮转向控制、电子悬架、自动空调、座椅调节、中央门锁、巡航控制、车距警报",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03",
+      "unknowns": [],
+      "value": "34 项汽车电子应用清单（图0-5 BOSCH 概况图）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p10:e1",
+      "@type": "auto:Evidence",
+      "assetId": "ov-F10-0",
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":\"ov-F10-0\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p10:e1\",\"locator\":\"150dpi p0010 目录第4页\",\"observation_summary\":\"目录显示第八章辅助电气(223起)与第九章全车线路(245-294)章节结构。\",\"pdf_page_index\":10,\"printed_page_label\":null,\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"TOC_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "150dpi p0010 目录第4页",
+      "observationSummary": "目录显示第八章辅助电气(223起)与第九章全车线路(245-294)章节结构。",
+      "pdfPageIndex": 10,
+      "printedPageLabel": null,
+      "sectionId": "ov",
+      "sourceKind": "TOC_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e1\",\"locator\":\"正文：概述引言与按功能需求的系统列装清单\",\"observation_summary\":\"电气设备直接影响性能；按起动/安全/诊断/动力/经济/舒适/安全需求列装各系统的表述。\",\"pdf_page_index\":11,\"printed_page_label\":\"1\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "正文：概述引言与按功能需求的系统列装清单",
+      "observationSummary": "电气设备直接影响性能；按起动/安全/诊断/动力/经济/舒适/安全需求列装各系统的表述。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "1",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e2\",\"locator\":\"正文：电气设备的组成（两部分/七个子系统）与电源系统段\",\"observation_summary\":\"电气系统+电子控制两部分；电源系统由蓄电池/发电机/调节器组成且两电源并联，调节器随转速自动调压。\",\"pdf_page_index\":11,\"printed_page_label\":\"1\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "正文：电气设备的组成（两部分/七个子系统）与电源系统段",
+      "observationSummary": "电气系统+电子控制两部分；电源系统由蓄电池/发电机/调节器组成且两电源并联，调节器随转速自动调压。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "1",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e3",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p11:e3\",\"locator\":\"正文：分离式布置特点与图0-2/0-3 两种指示方式适用车型\",\"observation_summary\":\"分离式故障率较高但可就车诊断；电流表方案适用载货车、充电指示灯方案适用紧凑轿车。\",\"pdf_page_index\":11,\"printed_page_label\":\"1\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "正文：分离式布置特点与图0-2/0-3 两种指示方式适用车型",
+      "observationSummary": "分离式故障率较高但可就车诊断；电流表方案适用载货车、充电指示灯方案适用紧凑轿车。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "1",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p12:e1",
+      "@type": "auto:Evidence",
+      "assetId": "ov-F12-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":\"ov-F12-1\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p12:e1\",\"locator\":\"图0-1 桑塔纳2000GSi 电器与电子控制部件分布图（旋转整页，40编号部件）\",\"observation_summary\":\"整车部件分布图给出 40 个编号部件清单（雾灯/组合前照灯/散热器风扇/发电机/蓄电池/ABS ECU 总成/起动机/发动机 ECU/中央接线盒/燃油泵/防盗器 ECU 等），29、33 两项字形存疑。\",\"pdf_page_index\":12,\"printed_page_label\":\"2\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图0-1 桑塔纳2000GSi 电器与电子控制部件分布图（旋转整页，40编号部件）",
+      "observationSummary": "整车部件分布图给出 40 个编号部件清单（雾灯/组合前照灯/散热器风扇/发电机/蓄电池/ABS ECU 总成/起动机/发动机 ECU/中央接线盒/燃油泵/防盗器 ECU 等），29、33 两项字形存疑。",
+      "pdfPageIndex": 12,
+      "printedPageLabel": "2",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e1",
+      "@type": "auto:Evidence",
+      "assetId": "ov-F13-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":\"ov-F13-1\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e1\",\"locator\":\"图0-2 调节器与交流发电机分离安装的电源系统线路\",\"observation_summary\":\"分离式线路拓扑：电流表、调节器 E/F/B 端、发电机 B 端、易熔线、点火开关 30/IG、熔断器盒。\",\"pdf_page_index\":13,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图0-2 调节器与交流发电机分离安装的电源系统线路",
+      "observationSummary": "分离式线路拓扑：电流表、调节器 E/F/B 端、发电机 B 端、易熔线、点火开关 30/IG、熔断器盒。",
+      "pdfPageIndex": 13,
+      "printedPageLabel": "3",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e2",
+      "@type": "auto:Evidence",
+      "assetId": "ov-F13-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":\"ov-F13-2\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e2\",\"locator\":\"图0-3 多功能调节器与交流发电机分离安装的电源系统线路\",\"observation_summary\":\"多功能调节器 S/F/P/IG/L 端与充电指示灯接入的线路拓扑。\",\"pdf_page_index\":13,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图0-3 多功能调节器与交流发电机分离安装的电源系统线路",
+      "observationSummary": "多功能调节器 S/F/P/IG/L 端与充电指示灯接入的线路拓扑。",
+      "pdfPageIndex": 13,
+      "printedPageLabel": "3",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p13:e3\",\"locator\":\"正文：整体式线路特点/起动系统/点火系统三分类与普及史\",\"observation_summary\":\"整体式线路简化但不能就车诊断；电磁控制式起动系组成；柴油机无需点火系的原因；点火系三分类与普及年代；电子点火系组成。\",\"pdf_page_index\":13,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "正文：整体式线路特点/起动系统/点火系统三分类与普及史",
+      "observationSummary": "整体式线路简化但不能就车诊断；电磁控制式起动系组成；柴油机无需点火系的原因；点火系三分类与普及年代；电子点火系组成。",
+      "pdfPageIndex": 13,
+      "printedPageLabel": "3",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e1",
+      "@type": "auto:Evidence",
+      "assetId": "ov-F14-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":\"ov-F14-1\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e1\",\"locator\":\"图0-4 整体式交流发电机电源系统线路\",\"observation_summary\":\"整体式发电机+IC 调节器+充电指示灯线路拓扑（线束插座 S/IG/L）。\",\"pdf_page_index\":14,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图0-4 整体式交流发电机电源系统线路",
+      "observationSummary": "整体式发电机+IC 调节器+充电指示灯线路拓扑（线束插座 S/IG/L）。",
+      "pdfPageIndex": 14,
+      "printedPageLabel": "4",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p14:e2\",\"locator\":\"正文：微机点火系组成/照明与信号/信息显示与警报/辅助电气/配电装置/电控系统组成与分类/发动机与底盘电控系统清单\",\"observation_summary\":\"微机点火系五要素；照明信号/信息显示警报/辅助电气/配电装置四系统清单；电控系统三要素与两种分类法；发动机电控 12 项与底盘电控 6 项系统缩写清单。\",\"pdf_page_index\":14,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "正文：微机点火系组成/照明与信号/信息显示与警报/辅助电气/配电装置/电控系统组成与分类/发动机与底盘电控系统清单",
+      "observationSummary": "微机点火系五要素；照明信号/信息显示警报/辅助电气/配电装置四系统清单；电控系统三要素与两种分类法；发动机电控 12 项与底盘电控 6 项系统缩写清单。",
+      "pdfPageIndex": 14,
+      "printedPageLabel": "4",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p15:e1",
+      "@type": "auto:Evidence",
+      "assetId": "ov-F15-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3",
+      "canonicalJson": "{\"asset_id\":\"ov-F15-1\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ev:p15:e1\",\"locator\":\"图0-5 电子控制技术在汽车上的应用概况（BOSCH，34项）\",\"observation_summary\":\"34 项汽车电子应用清单（燃油喷射→车距警报），涵盖动力/底盘/车身/信息娱乐与安全各域。\",\"pdf_page_index\":15,\"printed_page_label\":\"5\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"ov\",\"source_book_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "图0-5 电子控制技术在汽车上的应用概况（BOSCH，34项）",
+      "observationSummary": "34 项汽车电子应用清单（燃油喷射→车距警报），涵盖动力/底盘/车身/信息娱乐与安全各域。",
+      "pdfPageIndex": 15,
+      "printedPageLabel": "5",
+      "sectionId": "ov",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0001",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0001\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0001\",\"predicate\":\"is_composed_of\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0001",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01",
+      "predicate": "is_composed_of",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0002",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0002\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0002\",\"predicate\":\"is_composed_of\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0002",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k01",
+      "predicate": "is_composed_of",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k03"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0003",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0004\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0003\",\"predicate\":\"has_subsystem\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0004",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "predicate": "has_subsystem",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0004",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0005\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0004\",\"predicate\":\"has_subsystem\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0005",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "predicate": "has_subsystem",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0005",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0006\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0005\",\"predicate\":\"has_subsystem\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0006",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "predicate": "has_subsystem",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k07"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0006",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0007\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0006\",\"predicate\":\"has_subsystem\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0007",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "predicate": "has_subsystem",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k08"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0007",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0008\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0007\",\"predicate\":\"has_subsystem\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0008",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "predicate": "has_subsystem",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k09"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0008",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0009\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0008\",\"predicate\":\"has_subsystem\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0009",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k02",
+      "predicate": "has_subsystem",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k10"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0009",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0011\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0009\",\"predicate\":\"is_composed_of\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0011",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04",
+      "predicate": "is_composed_of",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0010",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0012\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0010\",\"predicate\":\"is_composed_of\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0012",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k04",
+      "predicate": "is_composed_of",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k13"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0011",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0016\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k16\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0011\",\"predicate\":\"indicates\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0016",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k16",
+      "predicate": "indicates",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0012",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0017\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k15\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0012\",\"predicate\":\"indicates\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0017",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k15",
+      "predicate": "indicates",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k11"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0013",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0018\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0013\",\"predicate\":\"integrates\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k14\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0018",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k12",
+      "predicate": "integrates",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k14"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0014",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0020\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0014\",\"predicate\":\"is_composed_of\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0020",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05",
+      "predicate": "is_composed_of",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k18"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0015",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0021\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0015\",\"predicate\":\"is_composed_of\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k19\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0021",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k05",
+      "predicate": "is_composed_of",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k19"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0016",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0024\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0016\",\"predicate\":\"has_variant\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0024",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "predicate": "has_variant",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k21"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0017",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0025\",\"from_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06\",\"id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:edg:0017\",\"predicate\":\"has_variant\",\"to_id\":\"book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k22\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ov:0025",
+      "from": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k06",
+      "predicate": "has_variant",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k22"
+    }
+  ]
+}

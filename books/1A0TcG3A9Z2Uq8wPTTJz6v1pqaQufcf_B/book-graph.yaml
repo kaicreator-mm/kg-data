@@ -1,0 +1,916 @@
+book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+schema_version: 1.0.0
+ontology_version: automotive-books-kg-ontology-1.0
+graph_revision: 1
+source:
+  drive_file_id: 1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  title: 汽车电气设备构造与维修（第二版）
+  pdf_page_count: 278
+  source_sha256: d7e47fca57f4aba44416b5e8fcebb61ebf158aeca5fce83f4e61e46c047f521d
+  source_rights_status: UNKNOWN
+  publication_year: null
+  edition: 第二版
+  isbn: null
+entities:
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k01
+  label: 跨接线
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  label: 测试灯
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k03
+  label: 12V 无源测试灯
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k04
+  label: 12V 有源测试灯
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  label: 指针式（模拟式）万用表
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k06
+  label: 数字式万用表
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k07
+  label: 汽车专用万用表
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k08
+  label: 钳形电流表
+  kind: tool
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k09
+  label: 穿心式电流互感器
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k10
+  label: 汽车计算机（电控）控制系统
+  kind: system
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k11
+  label: 小容量电容器
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k12
+  label: 二极管
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k13
+  label: 晶体管
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k14
+  label: 万用表表内电池
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k15
+  label: 人体电阻
+  kind: physical_property
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k16
+  label: 氧传感器
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k17
+  label: 喷油器
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k18
+  label: 点火线圈
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k19
+  label: 起动机
+  kind: component
+  applicability: null
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k20
+  label: 霍尔式电流传感夹
+  kind: tool
+  applicability: null
+claims:
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0001
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k01
+  predicate: is_defined_as
+  object_id: null
+  value: 两端分别接有鳄鱼夹或不同形式插头的多股导线
+  statement: 跨接线是一段多股导线，两端分别接鳄鱼夹或不同形式的插头。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p11:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0002
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k01
+  predicate: used_for
+  object_id: null
+  value: 对怀疑有断路的导线进行替代鉴别；在不需要某部件功用时用跨接线短路隔离该部件以检查其工作情况
+  statement: 跨接线可对怀疑断路的导线替代鉴别，也可隔离部件检查工作情况。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p11:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 使用跨接线引入电源电压时要注意被测部位的工作电压一致
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0003
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  predicate: has_variant
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k03
+  value: null
+  statement: 测试灯分无源测试灯和有源测试灯两种。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0004
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  predicate: has_variant
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k04
+  value: null
+  statement: 测试灯有无源与有源两种，有源测试灯为其第二类。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0005
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  predicate: used_for
+  object_id: null
+  value: 根据灯的亮灭及明暗程度判断电路有无断路、短路和搭铁故障以及被测电路的电压大小
+  statement: 测试灯用于汽车电路故障检查，据灯亮灭明暗判断断路/短路/搭铁故障及电压大小。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0006
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k03
+  predicate: is_composed_of
+  object_id: null
+  value: 12V/2～20W 灯泡、导线和各种型号的探针
+  statement: 12V 无源测试灯由 12V/2～20W 灯泡、导线和各种型号的探针组成。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0007
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k03
+  predicate: used_for
+  object_id: null
+  value: 检查电源电路各线端是否有电
+  statement: 12V 无源测试灯用于检查电源电路各线端是否有电。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0008
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k03
+  predicate: diagnosed_by
+  object_id: null
+  value: 检测时鳄鱼夹搭铁，另一端接电器部件电源接头：灯亮说明电源电路无故障；灯不亮则顺电流方向依次找第二、第三检测点直到灯亮，故障点可判断为在最后两个测试点之间的线路或电器部件上
+  statement: 无源测试灯检测流程：灯不亮顺电流方向逐点测试，故障位于最后两个测试点之间的线路或部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0009
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k04
+  predicate: is_composed_of
+  object_id: null
+  value: 结构与 12V 无源测试灯基本相同，手柄内加装 2 节 1.5V 干电池
+  statement: 12V 有源测试灯与无源灯结构基本相同，手柄内加装 2 节 1.5V 干电池。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0010
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k04
+  predicate: used_for
+  object_id: null
+  value: 检查电气线路断路和短路故障
+  statement: 12V 有源测试灯可用来检查电气线路断路和短路故障。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0011
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k04
+  predicate: diagnosed_by
+  object_id: null
+  value: 断路检查：断开部件电源电路，灯一端搭铁另一端从电路首端依次接各接点——灯不亮则断路在被测点与搭铁之间，灯亮则断路在被测点与上一被测点之间；短路检查：断开部件电源线和搭铁线，灯一端搭铁另一端接余下电路——灯亮表示有短路(搭铁)故障，逐步拔开插接器/断开开关/拆除部件直到灯熄灭，短路出现在最后两个开路部件之间
+  statement: 有源测试灯断路/短路检查的判别流程（含故障区段判定规则）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0012
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  predicate: requires_safety_constraint
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k10
+  value: null
+  statement: 不可用测试灯检查汽车计算机控制系统故障，除非维修手册中有特殊说明方可进行。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0013
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  predicate: has_variant
+  object_id: null
+  value: 500 型、MF9 型、MF10 型等多种型号
+  statement: 指针式万用表有 500 型、MF9 型、MF10 型等多种型号。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0014
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  predicate: measures
+  object_id: null
+  value: 直流电压、直流电流、交流电压、静态电阻、音频电平等；有的还能测量交流电流、电容、电感以及晶体管的某些参数
+  statement: 指针式万用表可测量直流电压/直流电流/交流电压/静态电阻/音频电平等，部分型号可测交流电流/电容/电感/晶体管参数。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0015
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  predicate: requires_precondition
+  object_id: null
+  value: 测电阻前先选挡位并将两表笔瞬时短路调零（未指零可旋 Ω 旋钮调零），每换一次电阻挡量程均应先调零位
+  statement: 指针式万用表测电阻的调零规则。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0016
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  predicate: requires_precondition
+  object_id: null
+  value: (2)测量电路电阻应断电测量，测试电路电容应先短路放电；量程选择适当（指针停在刻度中心最易读数）；测高阻值电阻时手不可触及电阻两端（人体电阻并联使结果不准）；(3)电压电流难估计时先拨最大量程再改小，换量程时两表笔离开测量体不可带电换量程；(4)直流电压/电流极性与仪表一致（红正黑负），测电流串联、测电压并联；(5)交流电压只适用正弦波有效值，不能测非正弦量；(6)不可用指针式万用表检测电控系统，否则可能烧坏电控单元或电控元件
+  statement: 指针式万用表使用注意事项(2)-(6)：断电测阻、电容放电、量程选择、防人体电阻并联、不带电换挡、极性与串并联、正弦波限制、禁测电控系统。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p14:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0017
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k06
+  predicate: is_composed_of
+  object_id: null
+  value: 数字电压基本表、测量电路、量程转换开关等；测量电路能将待测电量和电参量转换为毫伏级直流电压供基本表显示
+  statement: 数字式万用表由数字电压基本表/测量电路/量程转换开关组成，测量电路把待测电量转换为毫伏级直流电压。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p14:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0018
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k06
+  predicate: uses_symbol_convention
+  object_id: null
+  value: 面板符号：Ω电阻、V̄直流电压、Ṽ交流电压、Ā直流电流、Ã交流电流、℃温度、二极管及通断测试、F电容、hFE晶体管测试；有的万用表直流电用 DC、交流电用 AC 表示
+  statement: 数字万用表面板符号约定（表1-2-1）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p13:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0019
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k06
+  predicate: requires_precondition
+  object_id: null
+  value: 表笔安装：红表笔为正黑表笔为负，黑表笔只插 COM 孔，红表笔按测量对象插入 20A/mA/VΩ 不同孔（A 安培、mA 毫安、COM 公共端负极）；电阻挡量程选择应由小到大；电流挡量程选择应由大到小；超出量程范围（显示 1）应选择更高量程；测量结束打到 OFF 挡避免放电
+  statement: 数字万用表使用原则（表笔安装/量程方向规则/超量程/关机），表1-2-1 续表。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p15:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0020
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k06
+  predicate: diagnosed_by
+  object_id: null
+  value: 直流电压：黑笔插 COM 红笔插 VΩ，旋钮拨 V⎯ 区域选比估计值大的量程，表笔接电源两端读数；显示 1. 表明量程太小需加大；数值左边出现 - 表明表笔极性与实际电源极性相反（红笔接的是负极）。交流电压：拨 V~ 适当量程挡，接法与直流相同。直流电流：拨 DCA 适当量程挡，被测电流小于 200mA 时红笔插 mA 插口串接入电路；大于 200mA 时量程开关置于 20A 挡红笔插
+    20A 插口，显示值以 A 为单位。交流电流：拨 ACA 适当量程挡，红笔按量程插入 mA 或 10A 插口，方法同直流电流
+  statement: 数字万用表四类电量测量方法（表1-2-2）。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p16:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0021
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k06
+  predicate: diagnosed_by
+  object_id: null
+  value: 电阻：拨 Ω 范围适当量程挡，红笔插 V·Ω 黑笔插 COM 即可测量。线路通断：拨蜂鸣器挡，被测线路电阻低于 20Ω 蜂鸣器发声说明线路接通，反之不通或接触不良。二极管：拨二极管符号挡，红笔插 V·Ω 黑笔插 COM，表笔尖接二极管测正反向电压。晶体管 hFE：被测管插入 hFE 插口，按 PNP/NPN 选量程挡，接通表内电源显示 hFE 值
+  statement: 数字万用表电阻/通断/二极管/hFE 测量方法（表1-2-2 续表）。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p17:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0022
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k07
+  predicate: measures
+  object_id: null
+  value: 除常规电量外还能完成汽车特有参数测试：转速、闭合角、百分比、频率、压力、时间、温度等
+  statement: 汽车专用万用表可测汽车特有参数（转速/闭合角/百分比/频率/压力/时间/温度），常规万用表无法完成。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p17:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0023
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k07
+  predicate: requires_safety_constraint
+  object_id: null
+  value: 不允许用模拟式万用表检测电控汽车——测试过程会造成计算机及传感器损坏，必须采用汽车专用的高阻抗数字式万用表
+  statement: 电控汽车检测必须用汽车专用高阻抗数字式万用表，禁用模拟式万用表。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0024
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k07
+  predicate: is_composed_of
+  object_id: null
+  value: 显示器、功能按钮、测试项目选择开关、测量温度插座、测量电流插座和公共插座及外壳
+  statement: 汽车专用万用表由显示器/功能按钮/测试项目选择开关/温度插座/电流插座/公共插座及外壳组成。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0025
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k07
+  predicate: diagnosed_by
+  object_id: null
+  value: 信号频率：Freq 挡，黑线(搭铁座孔引出)搭铁、红线(公共座孔引出)接被测信号线；温度：Temp 挡按 ℃/℉ 功能钮，探针插入温度座孔接触被测物；点火线圈初级闭合角：Dwell 挡黑线搭铁红线接点火线圈负接线柱，发动机运转显示闭合角；频宽比：Duty Cycle 挡；转速：RPM 挡，感应式转速传感器夹在一缸高压点火线上；起动电流：400mV 挡（1mV 相当于 1A），霍尔式电流传感夹夹蓄电池线，按最小/最大钮，拆点火高压线用起动机转动曲轴
+    2~3s 显示起动电流；氧传感器：4V 挡按 DC 钮，黑线搭铁红线接氧传感器，快怠速(2000r/min)使工作温度达 360℃ 以上，混合气浓输出约 0.8V、稀时 0.1~0.2V，低于 360℃(开环)无电压输出；喷油脉宽：频宽比挡测频宽比后再置 Freq 挡测频率，按 Sp=η/fp 计算喷油脉冲宽度
+  statement: 汽车专用万用表各检测项目方法（表1-2-3）。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0026
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k16
+  predicate: has_specification
+  object_id: null
+  value: 工作温度达 360℃ 以上才有电压输出；混合气浓时输出约 0.8V，混合气稀时 0.1～0.2V
+  statement: 氧传感器输出特性（快怠速 2000r/min 工况）：浓混合气约 0.8V、稀混合气 0.1～0.2V，低于 360℃（开环）无电压输出。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 发动机以快怠速 2000 r/min 运转
+  counterexamples: []
+  unknowns:
+  - 具体车型/传感器型号书中未指明
+  measurement:
+    numeric_value: 0.8
+    unit: V
+    test_condition: 发动机快怠速 2000r/min、氧传感器工作温度≥360℃、混合气浓
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0027
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k17
+  predicate: has_design_characteristic
+  object_id: null
+  value: Sp = η / fp（Sp 喷油脉冲宽度 s；η 频宽比 %；fp 喷油频率 Hz）
+  statement: 喷油器喷油脉冲宽度计算公式 Sp=η/fp。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0028
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k19
+  predicate: measured_by
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k20
+  value: null
+  statement: 起动机起动电流用霍尔式电流传感夹夹在蓄电池线上测量：400mV 挡（1mV 相当于 1A），按下最小/最大功能按钮，拆下点火高压线，用起动机转动曲轴 2～3s，显示屏即显示起动电流。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0029
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k08
+  predicate: used_for
+  object_id: null
+  value: 在不断开电路的情况下直接测量电路中的大电流（如测量起动机的起动电流）；万用表测电流需断开电路串联且只能测较小电流
+  statement: 钳形电流表可在不断开电路的情况下直接测量大电流，弥补万用表需断开串联且只能测小电流的限制。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0030
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k08
+  predicate: realizes_mechanism
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k09
+  value: null
+  statement: 钳形电流表主要部件是穿心式电流互感器：磁铁套在被测导线上形成匝数为 1 匝的初级线圈，接通电路后通过电磁感应次级线圈产生感应电流，使与次级线圈相连的电流表指针偏转指示电流值。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0031
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k08
+  predicate: requires_precondition
+  object_id: null
+  value: 1.检查表针零位（未指零用旋具调整表头调零螺栓）；2.测较小电流时可将导线在钳口绕几圈再读数，实际电流=仪表读数÷所绕匝数；3.据负载粗估电流从高挡向低挡切换，换挡时将被测导线置于卡口之外；4.使用时远离强磁场（通电自耦调压器、磁铁等）
+  statement: 钳形电流表使用注意事项 4 条（调零/绕圈倍率换算/换挡规则/防磁场）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0032
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k12
+  predicate: tested_by
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  value: null
+  statement: 二极管简易判别（表1-3-1）：R×100 挡测得电阻值<500Ω 为正向电阻，此时黑表笔所接为正（阳）极、红表笔所接为负（阴）极；反向测量时电阻值大（图注 >500kΩ、正文 >500Ω，图文口径不一致按原印并存）表明二极管良好，否则已损坏。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p20:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 反向电阻阈值图注(>500kΩ)与正文(>500Ω)不一致，按原印两处并存
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0033
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k11
+  predicate: tested_by
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  value: null
+  statement: 小容量电容器漏电判别：正反向检测时万用表指针基本不动或微动一下即为正常，否则为漏电过大；漏电过大的电容器不能继续使用；测量时两只手不应同时捏住电容器两根引线（避免人体电阻并入）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p20:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0034
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k13
+  predicate: tested_by
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  value: null
+  statement: 晶体管简易判别（表1-3-1 续表）：基极判别——R×100 挡任选一管脚假定基极，黑表笔相接、红表笔分别接其他两极，两次阻值基本相同则假定成立；类型判别——判基极过程中两次测得阻值都较小为 NPN 型，反之为 PNP 型；集电极判别——两表笔接 c/e 极、b 极用嘴衔住（利用人体电阻实现偏置）测读后对调再测，PNP 管偏转角大（阻值小）一侧正端（红表笔）所接为集电极，NPN
+    管偏转角大一侧负端（黑表笔）所接为集电极。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p20:e4
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0035
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k14
+  predicate: affects
+  object_id: null
+  value: 指针式万用表电阻挡调零依赖表内电池；电池电压下降后指针不能调零应更换电池
+  statement: 测量电阻依靠表内电池提供电流；表内电池使用后电压会有所变化，每次测量前均应短接两表笔调零，若指针不能调零则应更换电池。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0036
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k15
+  predicate: degrades_measurement_of
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  value: 人体电阻并联导致测量结果不准
+  statement: 测高阻值电阻时手不可触及电阻两端，否则人体电阻与被测电阻并联使测量结果不准（图1-3-4b 亦示两手同时捏电容引线引入人体电阻为不正确手法）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p14:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+- id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0037
+  subject_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k18
+  predicate: measured_by
+  object_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k07
+  value: null
+  statement: 点火线圈初级电路闭合角检测：专用万用表 Dwell 挡，黑线搭铁、红线接点火线圈负接线柱，发动机运转时显示屏显示一次侧电路闭合角。
+  source_kind: BOOK_TABLE_DIRECT
+  evidence_ids:
+  - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns: []
+edges:
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0001
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k03
+  predicate: has_variant
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0003
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0002
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k04
+  predicate: has_variant
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0004
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0003
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k02
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k10
+  predicate: requires_safety_constraint
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0012
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0005
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k19
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k20
+  predicate: measured_by
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0028
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0006
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k08
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k09
+  predicate: realizes_mechanism
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0030
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0007
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k12
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  predicate: tested_by
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0032
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0008
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k11
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  predicate: tested_by
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0033
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0009
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k13
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k05
+  predicate: tested_by
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0034
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:edg:0010
+  from_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k18
+  to_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k07
+  predicate: measured_by
+  claim_id: claim:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:u01t2t3:0037
+evidence:
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p11:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 11
+  printed_page_label: '5'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 150dpi p0011 正文：跨接线定义段（一、跨接线）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 跨接线为两端接鳄鱼夹或插头的多股导线，用于导线替代鉴别与部件隔离检查。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p11:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 11
+  printed_page_label: '5'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 150dpi p0011 课题2标题与学习目标框
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 课题2目标为掌握电气系统基本检测工具的选择和使用方法。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 12
+  printed_page_label: '6'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F12-1
+  locator: 图1-2-1 跨接线（300dpi 裁块）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图示多根两端带鳄鱼夹/插头的跨接线实物。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p12:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 12
+  printed_page_label: '6'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：跨接线用法与电压一致注意事项；测试灯定义与分类；12V无源测试灯组成与检测步骤；12V有源测试灯构成
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 跨接线用法（替代鉴别/隔离/电压一致）、测试灯分类判据、无源灯构造与逐步找故障点步骤、有源灯内置2节1.5V干电池。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p13:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 13
+  printed_page_label: '7'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：有源测试灯断路/短路检查步骤与提示框；万用表分类；指针式万用表型号量程；使用注意(1)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 有源灯断路与短路判别流程、测试灯禁查计算机控制系统的提示、指针表型号与调零规则。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p14:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 14
+  printed_page_label: '8'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F14-2
+  locator: 表1-2-1 数字万用表的使用原则（起始，符号含义行）
+  source_kind: BOOK_TABLE_DIRECT
+  observation_summary: 万用表面板符号Ω/V─/V~/A─/A~/℃/二极管/F/hFE 含义与DC/AC表示。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p14:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 14
+  printed_page_label: '8'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：指针式万用表使用注意(2)-(6)与数字式万用表组成
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 断电测电阻、电容放电、量程选择、极性与串并联、正弦波有效值限制、禁测电控系统、数字表组成原理。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p15:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 15
+  printed_page_label: '9'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F15-1
+  locator: 表1-2-1 续表（表笔安装/量程选择/超量程/OFF挡）
+  source_kind: BOOK_TABLE_DIRECT
+  observation_summary: 表笔插孔规则（黑笔只插COM）、电阻挡由小到大、电流挡由大到小、显示1需加大量程、结束打OFF。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p16:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 16
+  printed_page_label: '10'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F16-1
+  locator: 表1-2-2 数字万用表的使用方法（直流电压/交流电压/直流电流/交流电流行）
+  source_kind: BOOK_TABLE_DIRECT
+  observation_summary: 四类电量的挡位、插孔与读数判读（含1.量程不足与-号极性反、200mA/20A插口分界）。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p17:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 17
+  printed_page_label: '11'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F17-1
+  locator: 表1-2-2 续表（电阻/通断/二极管/hFE 行）
+  source_kind: BOOK_TABLE_DIRECT
+  observation_summary: 电阻挡插口、蜂鸣器挡20Ω接通判据、二极管正反向电压挡、hFE插口PNP/NPN挡。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p17:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 17
+  printed_page_label: '11'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：汽车专用万用表定义段（能测汽车特有参数）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 汽车专用万用表可测转速/闭合角/频宽比/频率/压力/时间/温度等，常规表无法完成。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 18
+  printed_page_label: '12'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F18-2
+  locator: 表1-2-3 汽车专用万用表的使用方法（频率/温度/闭合角/频宽比/转速/起动电流/氧传感器/喷油脉宽行）
+  source_kind: BOOK_TABLE_DIRECT
+  observation_summary: 专用表各检测项目的挡位、接线、发动机工况与判读值（含氧传感器0.8V/0.1-0.2V/360℃与Sp=η/fp公式）。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p18:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 18
+  printed_page_label: '12'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：模拟式万用表禁测电控汽车与专用高阻抗数字表要求
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 模拟表检测电控车会损坏计算机及传感器，必须用汽车专用高阻抗数字式万用表。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p19:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 19
+  printed_page_label: '13'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F19-2
+  locator: 图1-2-8 钳形电流表的工作原理
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 穿心式电流互感器原理：W1初级1匝、W2次级、D1-D4整流、M表头、R1-R5。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p19:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 19
+  printed_page_label: '13'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：钳形电流表用途/原理与使用注意事项1-4
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 不断开电路测大电流、互感器原理、调零、绕圈倍率换算、从高挡到低挡换挡、远离强磁场。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p20:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 20
+  printed_page_label: '14'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F20-1
+  locator: 图1-3-1 电压的测量（R1/R2/V 并联）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 电压表并联接入被测电阻两端的接线图。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p20:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 20
+  printed_page_label: '14'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F20-2
+  locator: 图1-3-2 电流的测量（A 串联）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 电流表串联接入电路的接线图。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p20:e3
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 20
+  printed_page_label: '14'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F20-3
+  locator: 图1-3-3 电阻的测量（Rx 与表内电池）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 电阻一只脚断开后用表内电池测量的接线图。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p20:e4
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 20
+  printed_page_label: '14'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：基本电量测量三节与电容器判别起
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 电压并联/电流串联/电阻断开单脚测量规则与量程选择误差权衡。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p21:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 21
+  printed_page_label: '15'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F21-1
+  locator: 图1-3-4 小容量电容器漏电的检查（a正确b不正确）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 两手不可同时捏电容两引线（人体电阻并联影响），正确手法示意。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p21:e2
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 21
+  printed_page_label: '15'
+  section_id: u01t2t3
+  asset_id: null
+  locator: 正文：电容器漏电判据与表1-3-1二极管检测两行
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 指针不动或微动即正常否则漏电过大不能继续使用；二极管正向<500Ω黑笔为阳极，反向电阻大则良好（图注>500kΩ与正文>500Ω口径差异如实登记）。
+  reader_model: zcode-main-session (GLM)
+- id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ev:p22:e1
+  source_book_id: book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B
+  pdf_page_index: 22
+  printed_page_label: '16'
+  section_id: u01t2t3
+  asset_id: u01t2t3-F22-1
+  locator: 表1-3-1 续表（晶体管基极/类型/其余管脚行）
+  source_kind: BOOK_TABLE_DIRECT
+  observation_summary: R×100假基极法、两次阻值均小判NPN、嘴衔b极利用人体偏置比较偏转角判集电极（PNP红正/NPN黑负）。
+  reader_model: zcode-main-session (GLM)
+sections:
+- id: u01t2t3
+  label: 单元一 课题2 汽车电气系统基本检测工具的使用 + 课题3 汽车电路与电气元件的检测
+  start_pdf_page: 11
+  end_pdf_page: 22
+  section_status: EXTRACTED
+coverage_summary:
+  pages_total: 278
+  pages_processed: 14
+  pages_blocked: 264
+  assets_total: 19
+  assets_processed: 19
+  sections_total: 1
+  sections_closed: 1
+review_status: GENERATED_REVIEW_PENDING
+page_ledger_ref: page-ledger.yaml
+generation_receipt:
+  writer: zcode-main-session:book-integrator
+  extractor_model: glm-flash-free
+  generated_utc: '2026-11-19T22:18:11+00:00'
+  source_pdf_sha256: d7e47fca57f4aba44416b5e8fcebb61ebf158aeca5fce83f4e61e46c047f521d
+  chapters:
+  - u01t2t3
+  observations: local-private (not committed); evidence observation_summary in graph
+  rights_note: local processing only; no external API upload performed

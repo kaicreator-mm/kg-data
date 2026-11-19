@@ -26,7 +26,15 @@ pilot_scope:
   printed_pages:
   - '133'
   - '140'
+- chapter_id: c06s2
+  label: 第六章第二节 发动机润滑系
+  pdf_pages_range:
+  - 128
+  - 138
+  printed_pages:
+  - '122'
+  - '132'
 page_offset_printed_minus_pdfindex: 6
 historical_artifacts: null
-graph_revision: 1
+graph_revision: 2
 review_status: GENERATED_REVIEW_PENDING
