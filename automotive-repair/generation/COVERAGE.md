@@ -1,4 +1,13 @@
-#<!-- R21_PROBOX_REPAIR_COVERAGE_UPDATE -->
+<!-- PARTS_AUTOREPAIR_R22_ICE_SEVEN_ADMISSION_LEDGER -->
+## R22 · 缅甸 ICE 结构→功能→失效→诊断维修补全（2026-11-20）
+
+- 生效 DAG **68**：原有61加上 [R16 七个经旧车适用性映射放行的叶子](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7021821148)；第八个混动 `REP-HEV-FAMILY` 仍 HOLD，不进行 BEV 专属扩张。旧 61 个已入场节点与 Probox R21 已接受稿一律复用。
+- 当前知识状态：**47 GENERATED / 44 ACCEPT_SCOPED_GENERATION_ONLY / 1 GENERATED_REVIEW_PENDING / 2 REWORK**。新增第 47 篇是 [机械 CVT 诊断维修决策](./topics/transmission/cvt/diagnostic-repair.md)，Commit `cd11952cd6bdebfd60e5c58229cc1b3c9aa48f7e`，Blob `7ca8717c02f81220ec58fb1c57116a19984cc2a7`，独立内容审核尚未完成。
+- 目前六条有来源基础但 **未写稿** 的已准入内容：`FUN-ENG-AIRFUEL`、`FAIL-LOWV`、`FAIL-STEER-SUSP`、`FAIL-DRIVELINE`、`FAIL-THERMAL`、`FUN-BODY-SAFETY`。实际写集/直接前置见 [#61 独立派发](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7021981579)。不把 READY 当成已生成或已审核。原 Vitz/Wish 均需原 Writer 修 P1，仍不计 ACCEPT。
+- 本轮修复旧 R21 账本开头 `#<!--` 的 Markdown 注释笔误（仅格式）。未获取具体缅甸车架、原厂维修参数、真实故障率，因此 `MYANMAR_VIN_FITMENT`、`OEM_REPAIR_QUALIFICATION`、`N3` 维持 UNKNOWN / NOT_GRANTED。
+<!-- END_PARTS_AUTOREPAIR_R22_ICE_SEVEN_ADMISSION_LEDGER -->
+
+<!-- R21_PROBOX_REPAIR_COVERAGE_UPDATE -->
 ## R21 · Probox 三差量已生成并逐篇独立审核(2026-11-20)
 
 [C-R20-PROBOX-DISPATCH=ADMITTED 3/3](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017119039) 后 **EFFECTIVE_DAG 58→61**;三条新叶真实生成、GitHub Exact Blob 回读 MATCH,并各自经非 Writer 对话独立差量审核:
