@@ -1,4 +1,13 @@
-#<!-- R21_PROBOX_THREE_DELTAS_DELIVERED -->
+<!-- PARTS_AUTOREPAIR_R22_ICE_SEVEN_ADMISSION_LEDGER -->
+## R22 · 实质维修知识优先：缅甸 ICE 七叶准入，六条并行待写（2026-11-20）
+
+- [R16 八叶已通过的独立计划审](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7010503120)不重复复审；已基于当前缅甸在用旧车证据 [准入其中七叶](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7021821148)，与原有 Probox R21 合格成果直接关联。**有效 DAG 68**（旧61+7），`REP-HEV-FAMILY=HOLD_LOCAL_VARIANT_EVIDENCE`，通用 BEV 扩张继续 HOLD。
+- **已真实新生成** `REP-CVT-FAMILY` [CVT 竞争诊断/维修判断知识](./topics/transmission/cvt/diagnostic-repair.md)，Blob `7ca8717c02f81220ec58fb1c57116a19984cc2a7`，Writer [RELEASE](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7021944518)，当前 `GENERATED_REVIEW_PENDING`，不是已经审核通过。
+- **六条立即并行 Writer READY**：`FUN-ENG-AIRFUEL`（汽油机正常工作）、`FAIL-LOWV`（起动/充电/电源）、`FAIL-STEER-SUSP`（转向/悬架/轮胎）、`FAIL-DRIVELINE`（差速/半轴）、`FAIL-THERMAL`（发动机冷却/空调）、`FUN-BODY-SAFETY`（车身照明/被动安全正常功能，后者较低优先）。各自独立写集与上游 Blob、范围限制见 [#61 六路派发](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7021981579)，未 Claim/Commit 前不计生成。
+- **R22 当前真值：47 篇 GENERATED / 44 篇独立限定 ACCEPT / 1 篇 REVIEW_PENDING(CVT) / 2 篇 REWORK(Vitz/Wish)**。Vitz/Wish 只原 Writer 最小修复，旧44篇不重审。无缅甸 VIN 适配、专业 OEM/N3、全国车型存量排名和真实故障率，均 `UNKNOWN`。
+<!-- END_PARTS_AUTOREPAIR_R22_ICE_SEVEN_ADMISSION_LEDGER -->
+
+<!-- R21_PROBOX_THREE_DELTAS_DELIVERED -->
 ## R21 · Probox 三差量真实交付与独立审核(2026-11-20)
 
 [R20 增量 DAG 独审 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7016718264) 后,Integrator 逐项核查前置/写集/Claim/当前 Blob 并写回 [C-R20-PROBOX-DISPATCH=ADMITTED](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017119039)(3/3 准入,**EFFECTIVE_DAG 58→61**)。三条新叶按 Claim(#61/7017223776、#61/7017231117、#61/7017233918)→[二次仲裁 PASS](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7017502398)→单文件交付→Exact Blob 回读→RELEASE 并行完成:
