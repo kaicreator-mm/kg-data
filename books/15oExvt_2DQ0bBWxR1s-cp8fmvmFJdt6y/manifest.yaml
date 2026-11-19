@@ -1,0 +1,33 @@
+book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+drive_file_id: 15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+title: 汽车简单维修百问百答（第2版）
+edition: 第2版
+isbn: null
+publication_year: null
+source_sha256: 986e74c6fe6e58806013f27efe2fa3b39b5d7245c0df67970513210bc6d67d60
+pdf_page_count: 206
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: repair-qa
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: c01q0509
+  label: 第一篇 基础知识篇 Q5-Q9（起动/点火/燃油电控/润滑/冷却）
+  pdf_pages_range:
+  - 16
+  - 22
+  printed_pages:
+  - '6'
+  - '12'
+page_offset_printed_minus_pdfindex: 10
+historical_artifacts: '#60 lane-4 M01-M03 TOC-only candidates exist (MODEL_GENERATED_UNVERIFIED);
+  not reused as body evidence; separate historical path preserved'
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING

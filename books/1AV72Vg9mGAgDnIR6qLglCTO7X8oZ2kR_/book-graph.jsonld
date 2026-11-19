@@ -1,0 +1,3098 @@
+{
+  "@context": {
+    "@vocab": "https://example.org/automotive-books-kg/",
+    "auto": "https://example.org/automotive-books-kg/",
+    "bookRef": {
+      "@id": "auto:bookRef",
+      "@type": "@id"
+    },
+    "claim": {
+      "@id": "auto:claim",
+      "@type": "@id"
+    },
+    "evidenceRef": {
+      "@id": "auto:evidenceRef",
+      "@type": "@id"
+    },
+    "from": {
+      "@id": "auto:from",
+      "@type": "@id"
+    },
+    "object": {
+      "@id": "auto:object",
+      "@type": "@id"
+    },
+    "subject": {
+      "@id": "auto:subject",
+      "@type": "@id"
+    },
+    "to": {
+      "@id": "auto:to",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "@type": "auto:KnowledgeGraph",
+      "canonicalJson": "{\"book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"coverage_summary\":{\"assets_processed\":13,\"assets_total\":13,\"pages_blocked\":289,\"pages_processed\":10,\"pages_total\":299,\"sections_closed\":1,\"sections_total\":1},\"generation_receipt\":{\"chapters\":[\"c01\"],\"extractor_model\":\"glm-flash-free\",\"generated_utc\":\"2026-11-19T20:50:23+00:00\",\"observations\":\"local-private (not committed); evidence observation_summary in graph\",\"rights_note\":\"local processing only; no external API upload performed\",\"source_pdf_sha256\":\"9d5b28c5743157c7c0876668a27eb77df77919a9d6bc7720ae64f27b0c5de3fa\",\"writer\":\"zcode-main-session:book-integrator\"},\"graph_revision\":1,\"ontology_version\":\"automotive-books-kg-ontology-1.0\",\"page_ledger_ref\":\"page-ledger.yaml\",\"review_status\":\"GENERATED_REVIEW_PENDING\",\"schema_version\":\"1.0.0\",\"sections\":[{\"end_pdf_page\":13,\"id\":\"c01\",\"label\":\"第一章 新款本田车系概述与发动机故障诊断基础（printed 1-9）\",\"section_status\":\"EXTRACTED\",\"start_pdf_page\":4}],\"source\":{\"drive_file_id\":\"1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"edition\":\"第2版\",\"isbn\":null,\"pdf_page_count\":299,\"publication_year\":null,\"source_rights_status\":\"UNKNOWN\",\"source_sha256\":\"9d5b28c5743157c7c0876668a27eb77df77919a9d6bc7720ae64f27b0c5de3fa\",\"title\":\"新款本田车系维修案例精选（第2版）\"}}",
+      "ontologyVersion": "automotive-books-kg-ontology-1.0",
+      "reviewStatus": "GENERATED_REVIEW_PENDING",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k01",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k01\",\"kind\":\"vehicle_domain\",\"label\":\"本田车系\"}",
+      "domain": "",
+      "kind": "vehicle_domain",
+      "label": "本田车系"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"kind\":\"system\",\"label\":\"VTEC系统（可变气门正时和升程电子控制系统）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "VTEC系统（可变气门正时和升程电子控制系统）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k03",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k03\",\"kind\":\"operating_mode\",\"label\":\"VTEC低速工作模式\"}",
+      "domain": "",
+      "kind": "operating_mode",
+      "label": "VTEC低速工作模式"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04\",\"kind\":\"operating_mode\",\"label\":\"VTEC高速工作模式\"}",
+      "domain": "",
+      "kind": "operating_mode",
+      "label": "VTEC高速工作模式"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k05",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k05\",\"kind\":\"component\",\"label\":\"进气主摇臂\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "进气主摇臂"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k06",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k06\",\"kind\":\"component\",\"label\":\"进气辅摇臂\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "进气辅摇臂"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k07",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k07\",\"kind\":\"component\",\"label\":\"进气中间摇臂（高速摇臂）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "进气中间摇臂（高速摇臂）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08\",\"kind\":\"component\",\"label\":\"VTEC切换活塞\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "VTEC切换活塞"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09\",\"kind\":\"component\",\"label\":\"摇臂轴控制电磁阀（VTEC电磁阀）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "摇臂轴控制电磁阀（VTEC电磁阀）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k10",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k10\",\"kind\":\"component\",\"label\":\"机油泵（压力机油来源）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "机油泵（压力机油来源）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"kind\":\"controller\",\"label\":\"ECM/PCM（发动机/动力总成控制单元）\"}",
+      "domain": "",
+      "kind": "controller",
+      "label": "ECM/PCM（发动机/动力总成控制单元）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k12",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k12\",\"kind\":\"system\",\"label\":\"i-VTEC系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "i-VTEC系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"kind\":\"subsystem\",\"label\":\"VTC（Variable Timing Control，可变正时控制）\"}",
+      "domain": "",
+      "kind": "subsystem",
+      "label": "VTC（Variable Timing Control，可变正时控制）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k14",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k14\",\"kind\":\"component\",\"label\":\"VTC作动器\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "VTC作动器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k15",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k15\",\"kind\":\"component\",\"label\":\"VTC油压控制阀（图1-3标注：VTC油控制电磁阀）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "VTC油压控制阀（图1-3标注：VTC油控制电磁阀）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16\",\"kind\":\"system\",\"label\":\"电子节气门控制系统（ETCS）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "电子节气门控制系统（ETCS）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k17",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k17\",\"kind\":\"sensor\",\"label\":\"节气门位置（TP）传感器A/B\"}",
+      "domain": "",
+      "kind": "sensor",
+      "label": "节气门位置（TP）传感器A/B"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k18",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k18\",\"kind\":\"sensor\",\"label\":\"加速踏板位置（APP）传感器A/B\"}",
+      "domain": "",
+      "kind": "sensor",
+      "label": "加速踏板位置（APP）传感器A/B"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k19",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k19\",\"kind\":\"actuator\",\"label\":\"节气门电动机\"}",
+      "domain": "",
+      "kind": "actuator",
+      "label": "节气门电动机"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k20",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k20\",\"kind\":\"system\",\"label\":\"进气歧管调节控制系统（IMT）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "进气歧管调节控制系统（IMT）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21\",\"kind\":\"actuator\",\"label\":\"进气歧管调节（IMT）作动器（含IMT阀位置传感器、电动机、磁铁）\"}",
+      "domain": "",
+      "kind": "actuator",
+      "label": "进气歧管调节（IMT）作动器（含IMT阀位置传感器、电动机、磁铁）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k22",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k22\",\"kind\":\"system\",\"label\":\"废气再循环控制系统（电控EGR系统）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "废气再循环控制系统（电控EGR系统）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k23",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k23\",\"kind\":\"component\",\"label\":\"EGR阀\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "EGR阀"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k24",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k24\",\"kind\":\"sensor\",\"label\":\"EGR阀位置传感器\"}",
+      "domain": "",
+      "kind": "sensor",
+      "label": "EGR阀位置传感器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k25",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k25\",\"kind\":\"system\",\"label\":\"燃油蒸发排放控制系统（电控EVAP系统）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "燃油蒸发排放控制系统（电控EVAP系统）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k26",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k26\",\"kind\":\"component\",\"label\":\"EVAP活性炭罐\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "EVAP活性炭罐"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27\",\"kind\":\"system\",\"label\":\"曲轴箱强制通风系统（PCV）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "曲轴箱强制通风系统（PCV）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k28",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k28\",\"kind\":\"component\",\"label\":\"PCV阀\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "PCV阀"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29\",\"kind\":\"system\",\"label\":\"能源管理系统（EMS）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "能源管理系统（EMS）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30\",\"kind\":\"sensor\",\"label\":\"蓄电池电流传感器（蓄电池传感器）\"}",
+      "domain": "",
+      "kind": "sensor",
+      "label": "蓄电池电流传感器（蓄电池传感器）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k31",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k31\",\"kind\":\"component\",\"label\":\"发电机\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "发电机"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k32",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k32\",\"kind\":\"component\",\"label\":\"蓄电池\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "蓄电池"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k33",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k33\",\"kind\":\"system\",\"label\":\"主动噪声控制系统（ANC）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "主动噪声控制系统（ANC）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k34",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k34\",\"kind\":\"controller\",\"label\":\"ANC-ECU\"}",
+      "domain": "",
+      "kind": "controller",
+      "label": "ANC-ECU"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k35",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k35\",\"kind\":\"system\",\"label\":\"主动控制发动机支座系统（ACM）\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "主动控制发动机支座系统（ACM）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k36",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k36\",\"kind\":\"controller\",\"label\":\"ACM-ECU控制单元\"}",
+      "domain": "",
+      "kind": "controller",
+      "label": "ACM-ECU控制单元"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k37",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k37\",\"kind\":\"component\",\"label\":\"主动控制支座（充液式发动机支座）\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "主动控制支座（充液式发动机支座）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38\",\"kind\":\"diagnostic_principle_set\",\"label\":\"汽车故障诊断六项基本原则（先外后里/先简后繁/先熟后生/代码优先/先思后行/先备后用）\"}",
+      "domain": "",
+      "kind": "diagnostic_principle_set",
+      "label": "汽车故障诊断六项基本原则（先外后里/先简后繁/先熟后生/代码优先/先思后行/先备后用）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39\",\"kind\":\"diagnostic_method_set\",\"label\":\"汽车故障诊断六种基本方法（直观诊断/自诊断系统/简单仪表/故障码诊断法/征兆模拟/部件互换）\"}",
+      "domain": "",
+      "kind": "diagnostic_method_set",
+      "label": "汽车故障诊断六种基本方法（直观诊断/自诊断系统/简单仪表/故障码诊断法/征兆模拟/部件互换）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"kind\":\"diagnostic_workflow\",\"label\":\"汽车故障诊断基本流程（图1-13）\"}",
+      "domain": "",
+      "kind": "diagnostic_workflow",
+      "label": "汽车故障诊断基本流程（图1-13）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41\",\"kind\":\"tool\",\"label\":\"HDS诊断仪（本田专用故障诊断仪）\"}",
+      "domain": "",
+      "kind": "tool",
+      "label": "HDS诊断仪（本田专用故障诊断仪）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k42",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k42\",\"kind\":\"concept\",\"label\":\"DTC（故障码）\"}",
+      "domain": "",
+      "kind": "concept",
+      "label": "DTC（故障码）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k43",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k43\",\"kind\":\"document\",\"label\":\"故障症状诊断表\"}",
+      "domain": "",
+      "kind": "document",
+      "label": "故障症状诊断表"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k44",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k44\",\"kind\":\"document_section\",\"label\":\"本书第一章（新款本田车系概述）\"}",
+      "domain": "",
+      "kind": "document_section",
+      "label": "本书第一章（新款本田车系概述）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0001",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0001\",\"object_id\":null,\"predicate\":\"defined_as\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"VTEC的中文全称为可变气门正时和升程电子控制系统，书中称其为本田的专有技术。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"unknowns\":[],\"value\":\"可变气门正时和升程电子控制系统（本田专有技术）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1"
+      ],
+      "measurement": null,
+      "predicate": "defined_as",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "VTEC的中文全称为可变气门正时和升程电子控制系统，书中称其为本田的专有技术。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "unknowns": [],
+      "value": "可变气门正时和升程电子控制系统（本田专有技术）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0002",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0002\",\"object_id\":null,\"predicate\":\"adjusts_valvetrain_by_parameters\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"VTEC能随发动机转速、负荷、冷却液温度等运行参数的变化，适当调整配气正时和气门升程，使发动机在高速、低速下均能达到最高效率。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"unknowns\":[],\"value\":\"配气正时与气门升程\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1"
+      ],
+      "measurement": null,
+      "predicate": "adjusts_valvetrain_by_parameters",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "VTEC能随发动机转速、负荷、冷却液温度等运行参数的变化，适当调整配气正时和气门升程，使发动机在高速、低速下均能达到最高效率。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "unknowns": [],
+      "value": "配气正时与气门升程"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0003",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0003\",\"object_id\":null,\"predicate\":\"has_structure\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"VTEC系统的进气凸轮轴上分别有三个凸轮面，分别顶置摇臂轴上的三个摇臂。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"unknowns\":[],\"value\":\"进气凸轮轴三个凸轮面对应顶置摇臂轴上的三个摇臂（主/辅/中间）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1"
+      ],
+      "measurement": null,
+      "predicate": "has_structure",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "VTEC系统的进气凸轮轴上分别有三个凸轮面，分别顶置摇臂轴上的三个摇臂。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "unknowns": [],
+      "value": "进气凸轮轴三个凸轮面对应顶置摇臂轴上的三个摇臂（主/辅/中间）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0004",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"触发条件：发动机低转速或低负荷\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0004\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k03\",\"predicate\":\"forms_operating_mode\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"发动机处于低转速或低负荷时三个摇臂之间无任何连接，进气主摇臂和进气辅摇臂分别顶动两个进气门，使两者具有不同的正时及升程，形成低速工作模式。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"unknowns\":[],\"value\":\"低速工作模式（图1-1）\"}",
+      "conditions": [
+        "触发条件：发动机低转速或低负荷"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k03",
+      "predicate": "forms_operating_mode",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "发动机处于低转速或低负荷时三个摇臂之间无任何连接，进气主摇臂和进气辅摇臂分别顶动两个进气门，使两者具有不同的正时及升程，形成低速工作模式。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "unknowns": [],
+      "value": "低速工作模式（图1-1）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0005",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"仅在低速工作模式下\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1\",\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0005\",\"object_id\":null,\"predicate\":\"idle_behavior_in_low_speed_mode\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"低速工作模式下，中间的高速摇臂不顶动气门，只在摇臂轴上做无效的运动（该句自p0005行末跨页续至p0006行首）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k07\",\"unknowns\":[],\"value\":\"不顶动气门，仅在摇臂轴上做无效运动\"}",
+      "conditions": [
+        "仅在低速工作模式下"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1",
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1"
+      ],
+      "measurement": null,
+      "predicate": "idle_behavior_in_low_speed_mode",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "低速工作模式下，中间的高速摇臂不顶动气门，只在摇臂轴上做无效的运动（该句自p0005行末跨页续至p0006行首）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k07",
+      "unknowns": [],
+      "value": "不顶动气门，仅在摇臂轴上做无效运动"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0006",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0006\",\"object_id\":null,\"predicate\":\"receives_and_processes_sensor_parameters\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"转速不断提高时，发动机各传感器将监测到的负荷、转速、车速以及冷却液温度等参数送到ECM/PCM，由ECM/PCM分析处理。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"unknowns\":[],\"value\":\"负荷、转速、车速、冷却液温度等运行参数\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1"
+      ],
+      "measurement": null,
+      "predicate": "receives_and_processes_sensor_parameters",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "转速不断提高时，发动机各传感器将监测到的负荷、转速、车速以及冷却液温度等参数送到ECM/PCM，由ECM/PCM分析处理。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "unknowns": [],
+      "value": "负荷、转速、车速、冷却液温度等运行参数"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0007",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"触发条件：ECM/PCM判定需要切换为高速工作模式\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0007\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09\",\"predicate\":\"triggers_high_speed_switch\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"当需要变换为高速工作模式时，ECM/PCM发出一个信号打开摇臂轴控制电磁阀（VTEC电磁阀），使压力机油进入摇臂轴内顶动VTEC切换活塞。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"unknowns\":[],\"value\":\"打开摇臂轴控制电磁阀（VTEC电磁阀），压力机油进入摇臂轴顶动VTEC切换活塞\"}",
+      "conditions": [
+        "触发条件：ECM/PCM判定需要切换为高速工作模式"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09",
+      "predicate": "triggers_high_speed_switch",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "当需要变换为高速工作模式时，ECM/PCM发出一个信号打开摇臂轴控制电磁阀（VTEC电磁阀），使压力机油进入摇臂轴内顶动VTEC切换活塞。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "unknowns": [],
+      "value": "打开摇臂轴控制电磁阀（VTEC电磁阀），压力机油进入摇臂轴顶动VTEC切换活塞"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04\",\"predicate\":\"connects_rockers_into_high_speed_mode\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"VTEC切换活塞被压力机油顶动后，使三只摇臂连接成一体，两只气门都按高速模式工作。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08\",\"unknowns\":[],\"value\":\"三只摇臂连接成一体，两只气门都按高速模式工作（图1-2）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04",
+      "predicate": "connects_rockers_into_high_speed_mode",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "VTEC切换活塞被压力机油顶动后，使三只摇臂连接成一体，两只气门都按高速模式工作。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08",
+      "unknowns": [],
+      "value": "三只摇臂连接成一体，两只气门都按高速模式工作（图1-2）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0009",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"触发条件：转速降低到气门正时需要再次变换\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0009\",\"object_id\":null,\"predicate\":\"triggers_return_to_low_speed\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"当发动机转速降低到气门正时需要再次变换时，ECM/PCM再次发出信号打开VTEC电磁阀，使压力机油泄出，气门再次回到低速工作模式。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"unknowns\":[],\"value\":\"再次打开VTEC电磁阀使压力机油泄出，气门回到低速工作模式\"}",
+      "conditions": [
+        "触发条件：转速降低到气门正时需要再次变换"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1"
+      ],
+      "measurement": null,
+      "predicate": "triggers_return_to_low_speed",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "当发动机转速降低到气门正时需要再次变换时，ECM/PCM再次发出信号打开VTEC电磁阀，使压力机油泄出，气门再次回到低速工作模式。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "unknowns": [],
+      "value": "再次打开VTEC电磁阀使压力机油泄出，气门回到低速工作模式"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0010",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0010\",\"object_id\":null,\"predicate\":\"depicted_low_speed_layout\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-1以结构剖视与油路示意展示了低速工作模式的构成：两个低升程凸轮、三个进气摇臂、VTEC切换活塞与回位弹簧，压力机油来自机油泵并经摇臂轴控制电磁阀（阀芯）控制。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"unknowns\":[],\"value\":\"图1-1（c01-F5-1）标注：低升程凸轮×2、进气主/辅/中间摇臂、VTEC切换活塞、回位弹簧、摇臂轴控制电磁阀（含阀芯）、来自机油泵油路、ECM/PCM\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e2"
+      ],
+      "measurement": null,
+      "predicate": "depicted_low_speed_layout",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-1以结构剖视与油路示意展示了低速工作模式的构成：两个低升程凸轮、三个进气摇臂、VTEC切换活塞与回位弹簧，压力机油来自机油泵并经摇臂轴控制电磁阀（阀芯）控制。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "unknowns": [],
+      "value": "图1-1（c01-F5-1）标注：低升程凸轮×2、进气主/辅/中间摇臂、VTEC切换活塞、回位弹簧、摇臂轴控制电磁阀（含阀芯）、来自机油泵油路、ECM/PCM"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0011",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e3\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0011\",\"object_id\":null,\"predicate\":\"depicted_high_speed_layout\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-2展示高速工作模式：由高升程凸轮驱动，压力机油自机油泵经摇臂轴控制电磁阀进入摇臂轴，VTEC切换活塞移动将三只摇臂连为一体。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04\",\"unknowns\":[],\"value\":\"图1-2（c01-F6-1）标注：高升程凸轮、油路接通、VTEC切换活塞移动连接三摇臂\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e3"
+      ],
+      "measurement": null,
+      "predicate": "depicted_high_speed_layout",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-2展示高速工作模式：由高升程凸轮驱动，压力机油自机油泵经摇臂轴控制电磁阀进入摇臂轴，VTEC切换活塞移动将三只摇臂连为一体。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04",
+      "unknowns": [],
+      "value": "图1-2（c01-F6-1）标注：高升程凸轮、油路接通、VTEC切换活塞移动连接三摇臂"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0012",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0012\",\"object_id\":null,\"predicate\":\"defined_as_composition\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"i-VTEC系统是在VTEC系统的基础上增加一个称为VTC（Variable Timing Control，可变正时控制）的装置——一组进气门凸轮轴正时可变控制机构，即i-VTEC=VTEC+VTC。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k12\",\"unknowns\":[],\"value\":\"i-VTEC=VTEC+VTC\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "defined_as_composition",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "i-VTEC系统是在VTEC系统的基础上增加一个称为VTC（Variable Timing Control，可变正时控制）的装置——一组进气门凸轮轴正时可变控制机构，即i-VTEC=VTEC+VTC。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k12",
+      "unknowns": [],
+      "value": "i-VTEC=VTEC+VTC"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0013",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0013\",\"object_id\":null,\"predicate\":\"controls_exhaust_valve_timing_overlap\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"采用i-VTEC后，排气阀门的正时与开启的重叠时间是可变的，由VTC控制。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[\"书中该句称排气阀门正时与重叠时间由VTC控制，而图1-3显示VTC作动器装于进气凸轮轴，两者关系本书未展开说明\"],\"value\":\"排气阀门的正时与开启的重叠时间（可变）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "controls_exhaust_valve_timing_overlap",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "采用i-VTEC后，排气阀门的正时与开启的重叠时间是可变的，由VTC控制。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [
+        "书中该句称排气阀门正时与重叠时间由VTC控制，而图1-3显示VTC作动器装于进气凸轮轴，两者关系本书未展开说明"
+      ],
+      "value": "排气阀门的正时与开启的重叠时间（可变）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0014",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0014\",\"object_id\":null,\"predicate\":\"composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"VTC系统由VTC作动器、VTC油压控制阀、各种传感器以及ECM/PCM组成（图1-3）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[],\"value\":\"VTC作动器+VTC油压控制阀+各种传感器+ECM/PCM\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "VTC系统由VTC作动器、VTC油压控制阀、各种传感器以及ECM/PCM组成（图1-3）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [],
+      "value": "VTC作动器+VTC油压控制阀+各种传感器+ECM/PCM"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0015",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0015\",\"object_id\":null,\"predicate\":\"varies_cam_phase_continuously_by_pcm_signal\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"VTC作动器与VTC油压控制阀根据ECM/PCM的信号产生动作，使进气凸轮轴的相位连续变化。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k14\",\"unknowns\":[],\"value\":\"进气凸轮轴相位连续变化\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "varies_cam_phase_continuously_by_pcm_signal",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "VTC作动器与VTC油压控制阀根据ECM/PCM的信号产生动作，使进气凸轮轴的相位连续变化。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k14",
+      "unknowns": [],
+      "value": "进气凸轮轴相位连续变化"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0016",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"书中原句为“可将发动机功率提高20%”，未给出测试条件、机型范围与对比基准\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0016\",\"object_id\":null,\"predicate\":\"raises_engine_power\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中称VTC令气门重叠时间更加精确、保证进排气门的最佳重叠时间，可将发动机功率提高20%。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[\"20%数值的实验来源与适用边界不明\"],\"value\":\"20%（书中数值）\"}",
+      "conditions": [
+        "书中原句为“可将发动机功率提高20%”，未给出测试条件、机型范围与对比基准"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "raises_engine_power",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中称VTC令气门重叠时间更加精确、保证进排气门的最佳重叠时间，可将发动机功率提高20%。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [
+        "20%数值的实验来源与适用边界不明"
+      ],
+      "value": "20%（书中数值）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0017",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0017\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"predicate\":\"adaptively_cooperates_with_vtec_in_three_regions\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"VTC系统的导入使气门配气相位能够“智能化地”适应发动机负荷的改变；VTC在发动机运转过程中配合VTEC系统，主要运用在三个方面。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[],\"value\":\"配气相位智能化适应负荷改变；在发动机运转中配合VTEC，主要运用三个区域\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "predicate": "adaptively_cooperates_with_vtec_in_three_regions",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "VTC系统的导入使气门配气相位能够“智能化地”适应发动机负荷的改变；VTC在发动机运转过程中配合VTEC系统，主要运用在三个方面。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [],
+      "value": "配气相位智能化适应负荷改变；在发动机运转中配合VTEC，主要运用三个区域"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0018",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"运用区域：最佳怠速/稀薄燃烧区域\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0018\",\"object_id\":null,\"predicate\":\"region_1_idle_and_lean_burn\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"在最佳怠速/稀薄燃烧区域内，VTC系统停止作用，此时气门重叠角最小；由于VTEC的作用产生强大的涡流，使发动机怠速工作稳定。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[],\"value\":\"最佳怠速/稀薄燃烧区域：VTC停止作用、气门重叠角最小、VTEC产生强大涡流使怠速稳定\"}",
+      "conditions": [
+        "运用区域：最佳怠速/稀薄燃烧区域"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "region_1_idle_and_lean_burn",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "在最佳怠速/稀薄燃烧区域内，VTC系统停止作用，此时气门重叠角最小；由于VTEC的作用产生强大的涡流，使发动机怠速工作稳定。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [],
+      "value": "最佳怠速/稀薄燃烧区域：VTC停止作用、气门重叠角最小、VTEC产生强大涡流使怠速稳定"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0019",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"运用区域：最佳油耗、排气控制区域\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\",\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0019\",\"object_id\":null,\"predicate\":\"region_2_fuel_economy_and_emission\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"在最佳油耗、排气控制区域内，VTEC发挥作用产生强大涡流使可燃混合气混合更加均匀，同时VTC的作用使气门重叠角加大，将部分废气重新吸入气缸，起到EGR的作用，以此达到最佳油耗和排气控制（句自p0006跨页续至p0007）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[],\"value\":\"最佳油耗、排气控制区域：VTEC产生涡流使混合更均匀，VTC加大气门重叠角将部分废气重新吸入气缸起EGR作用\"}",
+      "conditions": [
+        "运用区域：最佳油耗、排气控制区域"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2",
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2"
+      ],
+      "measurement": null,
+      "predicate": "region_2_fuel_economy_and_emission",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "在最佳油耗、排气控制区域内，VTEC发挥作用产生强大涡流使可燃混合气混合更加均匀，同时VTC的作用使气门重叠角加大，将部分废气重新吸入气缸，起到EGR的作用，以此达到最佳油耗和排气控制（句自p0006跨页续至p0007）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [],
+      "value": "最佳油耗、排气控制区域：VTEC产生涡流使混合更均匀，VTC加大气门重叠角将部分废气重新吸入气缸起EGR作用"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0020",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"运用区域：最佳转矩控制区域\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0020\",\"object_id\":null,\"predicate\":\"region_3_torque_control\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"在最佳转矩控制区域内，通过VTC的控制以最适当的气门重叠角，同时配合VTEC系统的作用，使发动机的输出转矩最大限度地提高。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[],\"value\":\"最佳转矩控制区域：以最适当的气门重叠角配合VTEC，使输出转矩最大限度提高\"}",
+      "conditions": [
+        "运用区域：最佳转矩控制区域"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2"
+      ],
+      "measurement": null,
+      "predicate": "region_3_torque_control",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "在最佳转矩控制区域内，通过VTC的控制以最适当的气门重叠角，同时配合VTEC系统的作用，使发动机的输出转矩最大限度地提高。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [],
+      "value": "最佳转矩控制区域：以最适当的气门重叠角配合VTEC，使输出转矩最大限度提高"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0021",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0021\",\"object_id\":null,\"predicate\":\"depicted_vtc_oil_and_electric_layout\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-3展示了VTC的油路与电路构成：机油泵经VTC滤网向VTC油控制电磁阀供油，电磁阀分配推进油压与延迟油压至VTC作动器（内有推进器、延迟器、叶片），另设排放油口；ECM/PCM根据各种传感器信号控制电磁阀并与凸轮轴位置传感器连接。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"unknowns\":[],\"value\":\"图1-3（c01-F7-1）标注：机油泵→VTC滤网→VTC油控制电磁阀分出推进油压/延迟油压至VTC作动器（推进器/延迟器/叶片），排放油口泄油；ECM/PCM依各种传感器信号控制并与凸轮轴位置传感器（IG1电源、LG、接地GND）相连\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e1"
+      ],
+      "measurement": null,
+      "predicate": "depicted_vtc_oil_and_electric_layout",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-3展示了VTC的油路与电路构成：机油泵经VTC滤网向VTC油控制电磁阀供油，电磁阀分配推进油压与延迟油压至VTC作动器（内有推进器、延迟器、叶片），另设排放油口；ECM/PCM根据各种传感器信号控制电磁阀并与凸轮轴位置传感器连接。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "unknowns": [],
+      "value": "图1-3（c01-F7-1）标注：机油泵→VTC滤网→VTC油控制电磁阀分出推进油压/延迟油压至VTC作动器（推进器/延迟器/叶片），排放油口泄油；ECM/PCM依各种传感器信号控制并与凸轮轴位置传感器（IG1电源、LG、接地GND）相连"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0022",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0022\",\"object_id\":null,\"predicate\":\"composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"电子节气门控制系统由节气门电动机、节气门位置（TP）传感器A/B、加速踏板位置（APP）传感器A/B、电子节气门控制系统（ETCS）控制继电器及ECM/PCM组成（图1-4）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16\",\"unknowns\":[],\"value\":\"节气门电动机+TP传感器A/B+APP传感器A/B+ETCS控制继电器+ECM/PCM\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2"
+      ],
+      "measurement": null,
+      "predicate": "composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "电子节气门控制系统由节气门电动机、节气门位置（TP）传感器A/B、加速踏板位置（APP）传感器A/B、电子节气门控制系统（ETCS）控制继电器及ECM/PCM组成（图1-4）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16",
+      "unknowns": [],
+      "value": "节气门电动机+TP传感器A/B+APP传感器A/B+ETCS控制继电器+ECM/PCM"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0023",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0023\",\"object_id\":null,\"predicate\":\"regulates_intake_air\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"电子节气门控制系统主要运用节气门位置传感器感知节气门的开度，并通过车辆内部的加速踏板位置（APP）传感器A/B信号协同操作，来调节吸入气缸中的空气量。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16\",\"unknowns\":[],\"value\":\"TP传感器感知节气门开度，与APP传感器A/B信号协同操作，调节吸入气缸中的空气量\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2"
+      ],
+      "measurement": null,
+      "predicate": "regulates_intake_air",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "电子节气门控制系统主要运用节气门位置传感器感知节气门的开度，并通过车辆内部的加速踏板位置（APP）传感器A/B信号协同操作，来调节吸入气缸中的空气量。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16",
+      "unknowns": [],
+      "value": "TP传感器感知节气门开度，与APP传感器A/B信号协同操作，调节吸入气缸中的空气量"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0024",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0024\",\"object_id\":null,\"predicate\":\"depicted_wiring_layout\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-4示出ETCS电路连接关系：APP传感器A/B与TP传感器A/B分别经电源/信号/接地线接入ECM/PCM，节气门电动机由ETCSM+与ETCSM-两线驱动，系统还有IG1(ETCS)电源、PGM/ETCS接地，并接收来自发动机其他传感器与来自巡航控制继电器的信号。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16\",\"unknowns\":[],\"value\":\"图1-4（c01-F8-1）标注：APP传感器A/B（VCC/APSA/APSB/SG）与TP传感器A/B（VCC/TPSA/TPSB/SG）接入ECM/PCM，节气门电动机由ETCSM+/ETCSM-驱动，IG1(ETCS)电源、PGM/ETCS接地、来自发动机其他传感器及来自巡航控制继电器信号\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e1"
+      ],
+      "measurement": null,
+      "predicate": "depicted_wiring_layout",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-4示出ETCS电路连接关系：APP传感器A/B与TP传感器A/B分别经电源/信号/接地线接入ECM/PCM，节气门电动机由ETCSM+与ETCSM-两线驱动，系统还有IG1(ETCS)电源、PGM/ETCS接地，并接收来自发动机其他传感器与来自巡航控制继电器的信号。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k16",
+      "unknowns": [],
+      "value": "图1-4（c01-F8-1）标注：APP传感器A/B（VCC/APSA/APSB/SG）与TP传感器A/B（VCC/TPSA/TPSB/SG）接入ECM/PCM，节气门电动机由ETCSM+/ETCSM-驱动，IG1(ETCS)电源、PGM/ETCS接地、来自发动机其他传感器及来自巡航控制继电器信号"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0025",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0025\",\"object_id\":null,\"predicate\":\"function\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"进气歧管调节控制系统主要用来调节发动机功率，通过打开和关闭进气歧管调节（IMT）作动器来实现控制（图1-5）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k20\",\"unknowns\":[],\"value\":\"调节发动机功率，通过打开/关闭IMT作动器实现控制\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2"
+      ],
+      "measurement": null,
+      "predicate": "function",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "进气歧管调节控制系统主要用来调节发动机功率，通过打开和关闭进气歧管调节（IMT）作动器来实现控制（图1-5）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k20",
+      "unknowns": [],
+      "value": "调节发动机功率，通过打开/关闭IMT作动器实现控制"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0026",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"对应IMT阀两种状态的转速区间特性\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0026\",\"object_id\":null,\"predicate\":\"torque_characteristic_by_valve_state\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"工作时，当IMT阀关闭时，发动机低速运转时转矩较高；当IMT阀打开时，发动机高速运转时的转矩较高。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k20\",\"unknowns\":[],\"value\":\"IMT阀关闭→低速运转转矩较高；IMT阀打开→高速运转转矩较高\"}",
+      "conditions": [
+        "对应IMT阀两种状态的转速区间特性"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2"
+      ],
+      "measurement": null,
+      "predicate": "torque_characteristic_by_valve_state",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "工作时，当IMT阀关闭时，发动机低速运转时转矩较高；当IMT阀打开时，发动机高速运转时的转矩较高。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k20",
+      "unknowns": [],
+      "value": "IMT阀关闭→低速运转转矩较高；IMT阀打开→高速运转转矩较高"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0027",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0027\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"predicate\":\"reports_valve_position_to_pcm\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"进气歧管调节阀作动器包括一个测试IMT阀位置、并将该信号发送至ECM/PCM的传感器。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21\",\"unknowns\":[],\"value\":\"内置检测IMT阀位置的传感器并将信号发送至ECM/PCM\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "predicate": "reports_valve_position_to_pcm",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "进气歧管调节阀作动器包括一个测试IMT阀位置、并将该信号发送至ECM/PCM的传感器。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21",
+      "unknowns": [],
+      "value": "内置检测IMT阀位置的传感器并将信号发送至ECM/PCM"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0028",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e3\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0028\",\"object_id\":null,\"predicate\":\"depicted_actuator_parts\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-5展示进气歧管上的IMT阀与进气歧管调节(IMT)作动器，作动器内部标注有磁铁与电动机两个部件。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21\",\"unknowns\":[],\"value\":\"图1-5（c01-F8-2）标注：IMT阀、进气歧管调节(IMT)作动器、磁铁、电动机\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e3"
+      ],
+      "measurement": null,
+      "predicate": "depicted_actuator_parts",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-5展示进气歧管上的IMT阀与进气歧管调节(IMT)作动器，作动器内部标注有磁铁与电动机两个部件。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21",
+      "unknowns": [],
+      "value": "图1-5（c01-F8-2）标注：IMT阀、进气歧管调节(IMT)作动器、磁铁、电动机"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0029",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0029\",\"object_id\":null,\"predicate\":\"composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"废气再循环控制系统采用电控EGR系统，主要由EGR阀、EGR阀位置传感器、EGR管以及发动机控制单元（ECM/PCM）组成（图1-6）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k22\",\"unknowns\":[],\"value\":\"EGR阀+EGR阀位置传感器+EGR管+ECM/PCM\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2"
+      ],
+      "measurement": null,
+      "predicate": "composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "废气再循环控制系统采用电控EGR系统，主要由EGR阀、EGR阀位置传感器、EGR管以及发动机控制单元（ECM/PCM）组成（图1-6）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k22",
+      "unknowns": [],
+      "value": "EGR阀+EGR阀位置传感器+EGR管+ECM/PCM"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0030",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0030\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k23\",\"predicate\":\"controls_egr_valve_by_ideal_opening_map\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"EGR阀工作时，ECM/PCM根据存储器内的不同条件下理想的EGR阀开度控制EGR阀。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"unknowns\":[],\"value\":\"根据存储器内不同条件下理想的EGR阀开度控制EGR阀\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k23",
+      "predicate": "controls_egr_valve_by_ideal_opening_map",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "EGR阀工作时，ECM/PCM根据存储器内的不同条件下理想的EGR阀开度控制EGR阀。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "unknowns": [],
+      "value": "根据存储器内不同条件下理想的EGR阀开度控制EGR阀"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0031",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0031\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"predicate\":\"closed_loop_correction\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"EGR阀位置传感器检测EGR阀的开度并送至ECM/PCM；ECM/PCM将此开度与根据输入信号计算出的理想开度比较，如有不同，将减小EGR阀的电流、减小施加到EGR阀的真空度，使EGR再循环的废气量改变。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k24\",\"unknowns\":[],\"value\":\"检测EGR阀开度送ECM/PCM，与理想开度比较，如有不同则减小EGR阀电流与真空度，改变再循环废气量\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "predicate": "closed_loop_correction",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "EGR阀位置传感器检测EGR阀的开度并送至ECM/PCM；ECM/PCM将此开度与根据输入信号计算出的理想开度比较，如有不同，将减小EGR阀的电流、减小施加到EGR阀的真空度，使EGR再循环的废气量改变。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k24",
+      "unknowns": [],
+      "value": "检测EGR阀开度送ECM/PCM，与理想开度比较，如有不同则减小EGR阀电流与真空度，改变再循环废气量"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0032",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p9:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0032\",\"object_id\":null,\"predicate\":\"depicted_gas_recirculation_path\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-6示出EGR再循环路径：排气经排气歧管、EGR管与EGR阀引入进气歧管，图中还标注三元催化转化器(TWC)、节气门体、空气滤清器、EGR阀位置传感器及ECM/PCM的连接关系。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k22\",\"unknowns\":[],\"value\":\"图1-6（c01-F9-1）标注：废气自排气歧管经EGR管、EGR阀进入进气歧管；并标注三元催化转化器(TWC)、节气门体、空气滤清器、EGR阀位置传感器、ECM/PCM\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p9:e1"
+      ],
+      "measurement": null,
+      "predicate": "depicted_gas_recirculation_path",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-6示出EGR再循环路径：排气经排气歧管、EGR管与EGR阀引入进气歧管，图中还标注三元催化转化器(TWC)、节气门体、空气滤清器、EGR阀位置传感器及ECM/PCM的连接关系。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k22",
+      "unknowns": [],
+      "value": "图1-6（c01-F9-1）标注：废气自排气歧管经EGR管、EGR阀进入进气歧管；并标注三元催化转化器(TWC)、节气门体、空气滤清器、EGR阀位置传感器、ECM/PCM"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0033",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0033\",\"object_id\":null,\"predicate\":\"composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"燃油蒸发排放控制系统采用电控EVAP系统，主要由EVAP双通阀、EVAP活性炭罐、EVAP活性炭罐净化阀、EVAP管以及ECM/PCM组成（图1-7）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k25\",\"unknowns\":[],\"value\":\"EVAP双通阀+EVAP活性炭罐+EVAP活性炭罐净化阀+EVAP管+ECM/PCM\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4"
+      ],
+      "measurement": null,
+      "predicate": "composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "燃油蒸发排放控制系统采用电控EVAP系统，主要由EVAP双通阀、EVAP活性炭罐、EVAP活性炭罐净化阀、EVAP管以及ECM/PCM组成（图1-7）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k25",
+      "unknowns": [],
+      "value": "EVAP双通阀+EVAP活性炭罐+EVAP活性炭罐净化阀+EVAP管+ECM/PCM"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0034",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0034\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k26\",\"predicate\":\"function_store_and_purge\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"EVAP系统的作用在于尽量减少排入大气的燃油蒸气；燃油蒸气被临时存储在EVAP活性炭罐内，直到从活性炭罐净化后输送至发动机进行燃烧。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k25\",\"unknowns\":[],\"value\":\"尽量减少排入大气的燃油蒸气；蒸气临时存储于活性炭罐，净化后输送至发动机燃烧\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k26",
+      "predicate": "function_store_and_purge",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "EVAP系统的作用在于尽量减少排入大气的燃油蒸气；燃油蒸气被临时存储在EVAP活性炭罐内，直到从活性炭罐净化后输送至发动机进行燃烧。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k25",
+      "unknowns": [],
+      "value": "尽量减少排入大气的燃油蒸气；蒸气临时存储于活性炭罐，净化后输送至发动机燃烧"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0035",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0035\",\"object_id\":null,\"predicate\":\"composed_of_hose_routing\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"曲轴箱强制通风系统（PCV）主要由PCV软管、PCV阀组成；一般一条PCV软管接通空气滤清器至气门室盖，另一条接通PCV阀至进气歧管（图1-8）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27\",\"unknowns\":[],\"value\":\"PCV软管+PCV阀；一条软管接空气滤清器至气门室盖，另一条接PCV阀至进气歧管\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4"
+      ],
+      "measurement": null,
+      "predicate": "composed_of_hose_routing",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "曲轴箱强制通风系统（PCV）主要由PCV软管、PCV阀组成；一般一条PCV软管接通空气滤清器至气门室盖，另一条接通PCV阀至进气歧管（图1-8）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27",
+      "unknowns": [],
+      "value": "PCV软管+PCV阀；一条软管接空气滤清器至气门室盖，另一条接PCV阀至进气歧管"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0036",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0036\",\"object_id\":null,\"predicate\":\"structure_and_location\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"PCV阀由柱塞式阀门和弹簧构成，位于进气歧管的一侧。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k28\",\"unknowns\":[],\"value\":\"柱塞式阀门+弹簧；位于进气歧管的一侧\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "predicate": "structure_and_location",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "PCV阀由柱塞式阀门和弹簧构成，位于进气歧管的一侧。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k28",
+      "unknowns": [],
+      "value": "柱塞式阀门+弹簧；位于进气歧管的一侧"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0037",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0037\",\"object_id\":null,\"predicate\":\"vacuum_determines_blowby_flow\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"进气歧管的真空度决定了PCV阀的开闭及开启的程度，而PCV阀的开闭及开启程度又决定了窜气混合气被重新吸入进气歧管参加燃烧的数量。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k28\",\"unknowns\":[],\"value\":\"进气歧管真空度决定PCV阀开闭及开启程度，进而决定窜气混合气重新吸入进气歧管参加燃烧的数量\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "predicate": "vacuum_determines_blowby_flow",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "进气歧管的真空度决定了PCV阀的开闭及开启的程度，而PCV阀的开闭及开启程度又决定了窜气混合气被重新吸入进气歧管参加燃烧的数量。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k28",
+      "unknowns": [],
+      "value": "进气歧管真空度决定PCV阀开闭及开启程度，进而决定窜气混合气重新吸入进气歧管参加燃烧的数量"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0038",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0038\",\"object_id\":null,\"predicate\":\"depicted_flow_legend\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-8以图例标注两种流向：黑色箭头表示窜缸水蒸气，白色箭头表示新鲜空气，并标出两条PCV软管与PCV阀（局部放大）的位置。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27\",\"unknowns\":[],\"value\":\"图1-8（c01-F10-1）图例：黑箭头=窜缸水蒸气，白箭头=新鲜空气；标注两条PCV软管与PCV阀\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e1"
+      ],
+      "measurement": null,
+      "predicate": "depicted_flow_legend",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-8以图例标注两种流向：黑色箭头表示窜缸水蒸气，白色箭头表示新鲜空气，并标出两条PCV软管与PCV阀（局部放大）的位置。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27",
+      "unknowns": [],
+      "value": "图1-8（c01-F10-1）图例：黑箭头=窜缸水蒸气，白箭头=新鲜空气；标注两条PCV软管与PCV阀"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0039",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0039\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"predicate\":\"install_location_and_wiring\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"能源管理系统在蓄电池上增加了电流传感器（图1-9），安装在蓄电池的负极，带有2根连接端子：一端的电线为传感器提供电源，另一端的电线向ECM/PCM发送数据。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30\",\"unknowns\":[],\"value\":\"安装于蓄电池负极，带2根连接端子：一端供电，另一端向ECM/PCM发送数据\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "predicate": "install_location_and_wiring",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "能源管理系统在蓄电池上增加了电流传感器（图1-9），安装在蓄电池的负极，带有2根连接端子：一端的电线为传感器提供电源，另一端的电线向ECM/PCM发送数据。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30",
+      "unknowns": [],
+      "value": "安装于蓄电池负极，带2根连接端子：一端供电，另一端向ECM/PCM发送数据"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0040",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"数值为书中表述，未注明适用车型与环境条件\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0040\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k31\",\"predicate\":\"adjusts_generator_voltage\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"ECM/PCM根据蓄电池传感器的数据向发电机下达充电指令，通过此数据连接线可控制发电机电压在12.5~14.5V之间进行调整，增减以0.1V为单位。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29\",\"unknowns\":[],\"value\":\"发电机电压在12.5~14.5V之间调整，增减以0.1V为单位\"}",
+      "conditions": [
+        "数值为书中表述，未注明适用车型与环境条件"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k31",
+      "predicate": "adjusts_generator_voltage",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "ECM/PCM根据蓄电池传感器的数据向发电机下达充电指令，通过此数据连接线可控制发电机电压在12.5~14.5V之间进行调整，增减以0.1V为单位。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29",
+      "unknowns": [],
+      "value": "发电机电压在12.5~14.5V之间调整，增减以0.1V为单位"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0041",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0041\",\"object_id\":null,\"predicate\":\"battery_benefit\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"EMS系统可减少由于不规范的行驶模式引发的蓄电池问题，同时蓄电池维持一定的充电量也可提升蓄电池的寿命。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29\",\"unknowns\":[],\"value\":\"减少不规范行驶模式引发的蓄电池问题；蓄电池维持一定充电量可提升寿命\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "predicate": "battery_benefit",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "EMS系统可减少由于不规范的行驶模式引发的蓄电池问题，同时蓄电池维持一定的充电量也可提升蓄电池的寿命。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29",
+      "unknowns": [],
+      "value": "减少不规范行驶模式引发的蓄电池问题；蓄电池维持一定充电量可提升寿命"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0042",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0042\",\"object_id\":null,\"predicate\":\"tracks_charge_state_periodically\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"EMS采用的蓄电池传感器可定期追踪调查蓄电池的整体充电状态（EMS主要功能之一）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30\",\"unknowns\":[],\"value\":\"定期追踪调查蓄电池的整体充电状态\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "predicate": "tracks_charge_state_periodically",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "EMS采用的蓄电池传感器可定期追踪调查蓄电池的整体充电状态（EMS主要功能之一）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30",
+      "unknowns": [],
+      "value": "定期追踪调查蓄电池的整体充电状态"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0043",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"记录窗口：最近5次行驶周期；状态：钥匙关闭\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0043\",\"object_id\":null,\"predicate\":\"records_key_off_current_consumption\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"根据ECM/PCM，EMS可记录最近5次行驶周期内钥匙关闭状态下的电流消耗状况（EMS主要功能之二）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29\",\"unknowns\":[],\"value\":\"最近5次行驶周期内钥匙关闭状态下的电流消耗状况\"}",
+      "conditions": [
+        "记录窗口：最近5次行驶周期；状态：钥匙关闭"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "predicate": "records_key_off_current_consumption",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "根据ECM/PCM，EMS可记录最近5次行驶周期内钥匙关闭状态下的电流消耗状况（EMS主要功能之二）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29",
+      "unknowns": [],
+      "value": "最近5次行驶周期内钥匙关闭状态下的电流消耗状况"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0044",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0044\",\"object_id\":null,\"predicate\":\"raises_dtc_on_fault\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"EMS在发生不良故障时会出现故障码并显示其故障内容（EMS主要功能之三）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29\",\"unknowns\":[],\"value\":\"发生不良故障时出现故障码并显示其故障内容\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2"
+      ],
+      "measurement": null,
+      "predicate": "raises_dtc_on_fault",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "EMS在发生不良故障时会出现故障码并显示其故障内容（EMS主要功能之三）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29",
+      "unknowns": [],
+      "value": "发生不良故障时出现故障码并显示其故障内容"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0045",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0045\",\"object_id\":null,\"predicate\":\"defined_as\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"主动噪声控制（ANC）系统也称有源噪声控制、有源消声、有源降噪，是一种利用附加声源在指定区域内人为地、有目的地产生抵消声信号来控制原始声信号的降噪方法。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k33\",\"unknowns\":[],\"value\":\"有源降噪方法：利用附加声源在指定区域内人为地、有目的地产生抵消声信号控制原始声信号\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e1"
+      ],
+      "measurement": null,
+      "predicate": "defined_as",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "主动噪声控制（ANC）系统也称有源噪声控制、有源消声、有源降噪，是一种利用附加声源在指定区域内人为地、有目的地产生抵消声信号来控制原始声信号的降噪方法。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k33",
+      "unknowns": [],
+      "value": "有源降噪方法：利用附加声源在指定区域内人为地、有目的地产生抵消声信号控制原始声信号"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0046",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0046\",\"object_id\":null,\"predicate\":\"composed_of\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"ANC系统包括ANC-ECU、误差信号传感器、初级声源传感器、扬声器四大部分，通过扬声器发送小声音来消除发动机噪声（图1-10）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k33\",\"unknowns\":[],\"value\":\"ANC-ECU+误差信号传感器+初级声源传感器+扬声器（四大部分）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e1"
+      ],
+      "measurement": null,
+      "predicate": "composed_of",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "ANC系统包括ANC-ECU、误差信号传感器、初级声源传感器、扬声器四大部分，通过扬声器发送小声音来消除发动机噪声（图1-10）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k33",
+      "unknowns": [],
+      "value": "ANC-ECU+误差信号传感器+初级声源传感器+扬声器（四大部分）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0047",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0047\",\"object_id\":null,\"predicate\":\"composed_of_and_control_chain\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"主动控制发动机支座（ACM）系统由前、后主动控制支座和ACM-ECU控制单元组成（图1-11）；工作时两个支座都由ACM-ECU控制单元进行控制，ACM-ECU从ECM/PCM接收信号。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k35\",\"unknowns\":[],\"value\":\"前/后主动控制支座+ACM-ECU；ACM-ECU控制两支座并从ECM/PCM接收信号\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3"
+      ],
+      "measurement": null,
+      "predicate": "composed_of_and_control_chain",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "主动控制发动机支座（ACM）系统由前、后主动控制支座和ACM-ECU控制单元组成（图1-11）；工作时两个支座都由ACM-ECU控制单元进行控制，ACM-ECU从ECM/PCM接收信号。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k35",
+      "unknowns": [],
+      "value": "前/后主动控制支座+ACM-ECU；ACM-ECU控制两支座并从ECM/PCM接收信号"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0048",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0048\",\"object_id\":null,\"predicate\":\"structure\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"主动控制支座是一个充液式发动机支座，由一个上密封液体室和一个下线性电磁阀驱动室组成（图1-12），主要部件包括线性电磁阀、柱塞总成、支座橡胶以及振动板等。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k37\",\"unknowns\":[],\"value\":\"充液式支座：上密封液体室+下线性电磁阀驱动室；部件含线性电磁阀、柱塞总成、支座橡胶、振动板等\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3"
+      ],
+      "measurement": null,
+      "predicate": "structure",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "主动控制支座是一个充液式发动机支座，由一个上密封液体室和一个下线性电磁阀驱动室组成（图1-12），主要部件包括线性电磁阀、柱塞总成、支座橡胶以及振动板等。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k37",
+      "unknowns": [],
+      "value": "充液式支座：上密封液体室+下线性电磁阀驱动室；部件含线性电磁阀、柱塞总成、支座橡胶、振动板等"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0049",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0049\",\"object_id\":null,\"predicate\":\"counter_phase_vibration_mechanism\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"主动控制支座工作时由ACM-ECU控制，驱动电磁阀能使向密封液体加压和减压的柱塞移动；通过向与发动机振动相反的相位执行该程序，以减少传送到车身的发动机振动。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k35\",\"unknowns\":[],\"value\":\"ACM-ECU控制电磁阀使加压/减压柱塞移动，以与发动机振动相反相位执行，减少传至车身的振动\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3"
+      ],
+      "measurement": null,
+      "predicate": "counter_phase_vibration_mechanism",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "主动控制支座工作时由ACM-ECU控制，驱动电磁阀能使向密封液体加压和减压的柱塞移动；通过向与发动机振动相反的相位执行该程序，以减少传送到车身的发动机振动。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k35",
+      "unknowns": [],
+      "value": "ACM-ECU控制电磁阀使加压/减压柱塞移动，以与发动机振动相反相位执行，减少传至车身的振动"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0050",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0050\",\"object_id\":null,\"predicate\":\"principle_outside_first\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断原则（1）先外后里：发动机出现故障时，先对电子控制系统以外的可能故障部位予以检查。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38\",\"unknowns\":[],\"value\":\"先外后里：先检查电子控制系统以外的可能故障部位\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1"
+      ],
+      "measurement": null,
+      "predicate": "principle_outside_first",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断原则（1）先外后里：发动机出现故障时，先对电子控制系统以外的可能故障部位予以检查。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38",
+      "unknowns": [],
+      "value": "先外后里：先检查电子控制系统以外的可能故障部位"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0051",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0051\",\"object_id\":null,\"predicate\":\"principle_simple_first\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断原则（2）先简后繁：直观检查最为简单，可先用看、摸、听等就车检查项目进行检查——看线路是否松脱断裂、油路是否漏油、进气管路有无破损漏气；摸可疑线路连接处有无不正常高温以判断接触不良；听有无漏气声、发动机异响及喷油器有无规律的咔嗒声。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38\",\"unknowns\":[],\"value\":\"先简后繁：先用看（线路松脱断裂、油路漏油、进气管路破损漏气）、摸（可疑线路连接处有无异常高温判断接触不良）、听（漏气声、发动机异响、喷油器规律咔嗒声）等就车检查项目检查\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1"
+      ],
+      "measurement": null,
+      "predicate": "principle_simple_first",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断原则（2）先简后繁：直观检查最为简单，可先用看、摸、听等就车检查项目进行检查——看线路是否松脱断裂、油路是否漏油、进气管路有无破损漏气；摸可疑线路连接处有无不正常高温以判断接触不良；听有无漏气声、发动机异响及喷油器有无规律的咔嗒声。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38",
+      "unknowns": [],
+      "value": "先简后繁：先用看（线路松脱断裂、油路漏油、进气管路破损漏气）、摸（可疑线路连接处有无异常高温判断接触不良）、听（漏气声、发动机异响、喷油器规律咔嗒声）等就车检查项目检查"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0052",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0052\",\"object_id\":null,\"predicate\":\"principle_familiar_first\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断原则（3）先熟后生：由于结构和使用环境等原因，某一故障现象可能以某些总成部件的故障最为常见，应先检查这些常见故障部位，若未找出故障，再检查其他不常见的可能故障部位。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38\",\"unknowns\":[],\"value\":\"先熟后生：先检查最常见的故障部位，未找出再查不常见部位\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1"
+      ],
+      "measurement": null,
+      "predicate": "principle_familiar_first",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断原则（3）先熟后生：由于结构和使用环境等原因，某一故障现象可能以某些总成部件的故障最为常见，应先检查这些常见故障部位，若未找出故障，再检查其他不常见的可能故障部位。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38",
+      "unknowns": [],
+      "value": "先熟后生：先检查最常见的故障部位，未找出再查不常见部位"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0053",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"适用前提：电控系统具有故障自诊断功能\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0053\",\"object_id\":null,\"predicate\":\"principle_code_first\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断原则（4）代码优先：电子控制系统一般都有故障自诊断功能，应先读取故障码并检查、排除故障码所指的故障部位；待故障码所指故障消除后，如果故障现象还未消除，再检查可能存在故障的其他部位。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38\",\"unknowns\":[],\"value\":\"代码优先：先读故障码并排除码指部位；码指故障消除后现象未消除再查其他可能部位\"}",
+      "conditions": [
+        "适用前提：电控系统具有故障自诊断功能"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1"
+      ],
+      "measurement": null,
+      "predicate": "principle_code_first",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断原则（4）代码优先：电子控制系统一般都有故障自诊断功能，应先读取故障码并检查、排除故障码所指的故障部位；待故障码所指故障消除后，如果故障现象还未消除，再检查可能存在故障的其他部位。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38",
+      "unknowns": [],
+      "value": "代码优先：先读故障码并排除码指部位；码指故障消除后现象未消除再查其他可能部位"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0054",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0054\",\"object_id\":null,\"predicate\":\"principle_think_before_act\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断原则（5）先思后行：对发动机的故障现象先进行故障分析，在了解了可能的故障原因的基础上再进行故障检查。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38\",\"unknowns\":[],\"value\":\"先思后行：先故障分析、了解可能原因，再进行故障检查\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1"
+      ],
+      "measurement": null,
+      "predicate": "principle_think_before_act",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断原则（5）先思后行：对发动机的故障现象先进行故障分析，在了解了可能的故障原因的基础上再进行故障检查。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38",
+      "unknowns": [],
+      "value": "先思后行：先故障分析、了解可能原因，再进行故障检查"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0055",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0055\",\"object_id\":null,\"predicate\":\"principle_prepare_before_use\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断原则（6）先备后用：检修该型车辆时应准备有关检修数据资料和相关检测工具；也可利用无故障车辆对其系统有关参数进行测量，作为检查同类车辆的检测比较参数。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38\",\"unknowns\":[],\"value\":\"先备后用：检修前备好检修数据资料与检测工具；可用无故障车辆测量系统参数作为同类车检查比较参数\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1"
+      ],
+      "measurement": null,
+      "predicate": "principle_prepare_before_use",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断原则（6）先备后用：检修该型车辆时应准备有关检修数据资料和相关检测工具；也可利用无故障车辆对其系统有关参数进行测量，作为检查同类车辆的检测比较参数。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k38",
+      "unknowns": [],
+      "value": "先备后用：检修前备好检修数据资料与检测工具；可用无故障车辆测量系统参数作为同类车检查比较参数"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0056",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0056\",\"object_id\":null,\"predicate\":\"method_visual_diagnosis\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断方法（1）直观诊断：通过人的感觉器官对汽车故障现象进行看、听、嗅等，了解和掌握故障现象的特点，进行分析判断，初步确定出故障范围及部位。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39\",\"unknowns\":[],\"value\":\"直观诊断：看/听/嗅等感觉器官了解故障现象特点，分析判断，初步确定故障范围及部位\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2"
+      ],
+      "measurement": null,
+      "predicate": "method_visual_diagnosis",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断方法（1）直观诊断：通过人的感觉器官对汽车故障现象进行看、听、嗅等，了解和掌握故障现象的特点，进行分析判断，初步确定出故障范围及部位。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39",
+      "unknowns": [],
+      "value": "直观诊断：看/听/嗅等感觉器官了解故障现象特点，分析判断，初步确定故障范围及部位"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0057",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0057\",\"object_id\":null,\"predicate\":\"method_self_diagnosis_system\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断方法（2）利用自诊断系统诊断：随车诊断是利用汽车电控故障自诊断功能对电控发动机故障进行诊断的方法，即调取发动机电控系统故障码，然后根据故障码表的故障提示快速找出故障所在。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39\",\"unknowns\":[],\"value\":\"利用自诊断系统诊断：调取故障码，按故障码表提示快速找出故障\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2"
+      ],
+      "measurement": null,
+      "predicate": "method_self_diagnosis_system",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断方法（2）利用自诊断系统诊断：随车诊断是利用汽车电控故障自诊断功能对电控发动机故障进行诊断的方法，即调取发动机电控系统故障码，然后根据故障码表的故障提示快速找出故障所在。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39",
+      "unknowns": [],
+      "value": "利用自诊断系统诊断：调取故障码，按故障码表提示快速找出故障"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0058",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0058\",\"object_id\":null,\"predicate\":\"method_simple_instruments\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断方法（3）利用简单仪表诊断：如利用万用表对电控发动机故障进行诊断。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39\",\"unknowns\":[],\"value\":\"利用简单仪表诊断：如用万用表诊断电控发动机故障\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2"
+      ],
+      "measurement": null,
+      "predicate": "method_simple_instruments",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断方法（3）利用简单仪表诊断：如利用万用表对电控发动机故障进行诊断。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39",
+      "unknowns": [],
+      "value": "利用简单仪表诊断：如用万用表诊断电控发动机故障"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0059",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0059\",\"object_id\":null,\"predicate\":\"method_dtc_diagnosis\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断方法（4）故障码诊断法：使用故障诊断仪读取故障码、读取数据流进行检测分析并找出故障原因的一种方法。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39\",\"unknowns\":[],\"value\":\"故障码诊断法：故障诊断仪读码+读数据流检测分析找故障原因\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2"
+      ],
+      "measurement": null,
+      "predicate": "method_dtc_diagnosis",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断方法（4）故障码诊断法：使用故障诊断仪读取故障码、读取数据流进行检测分析并找出故障原因的一种方法。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39",
+      "unknowns": [],
+      "value": "故障码诊断法：故障诊断仪读码+读数据流检测分析找故障原因"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0060",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0060\",\"object_id\":null,\"predicate\":\"method_symptom_simulation\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断方法（5）故障征兆模拟试验方法：主要有振动法、加热法、水淋法和电器全接通法四种。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39\",\"unknowns\":[],\"value\":\"故障征兆模拟试验方法：振动法、加热法、水淋法、电器全接通法\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2"
+      ],
+      "measurement": null,
+      "predicate": "method_symptom_simulation",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断方法（5）故障征兆模拟试验方法：主要有振动法、加热法、水淋法和电器全接通法四种。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39",
+      "unknowns": [],
+      "value": "故障征兆模拟试验方法：振动法、加热法、水淋法、电器全接通法"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0061",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0061\",\"object_id\":null,\"predicate\":\"method_part_swapping\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"诊断方法（6）部件互换法：将怀疑有故障的电子部件用正常的电子部件替代，以判断故障原因的一种方法。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39\",\"unknowns\":[],\"value\":\"部件互换法：用正常电子部件替代怀疑有故障的部件以判断故障原因\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2"
+      ],
+      "measurement": null,
+      "predicate": "method_part_swapping",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "诊断方法（6）部件互换法：将怀疑有故障的电子部件用正常的电子部件替代，以判断故障原因的一种方法。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k39",
+      "unknowns": [],
+      "value": "部件互换法：用正常电子部件替代怀疑有故障的部件以判断故障原因"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0062",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e3\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0062\",\"object_id\":null,\"predicate\":\"depicted_as_flowchart\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"书中给出汽车故障诊断基本流程（图1-13），该流程以本田HDS诊断仪连接、读取与清除DTC为主线展开。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"图1-13（p0013整页流程图），以HDS诊断仪读码/清码为主线\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e3"
+      ],
+      "measurement": null,
+      "predicate": "depicted_as_flowchart",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "书中给出汽车故障诊断基本流程（图1-13），该流程以本田HDS诊断仪连接、读取与清除DTC为主线展开。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "图1-13（p0013整页流程图），以HDS诊断仪读码/清码为主线"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0063",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0063\",\"object_id\":null,\"predicate\":\"flow_step_intake_and_analysis\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"流程图1-13第一步：询问车主与故障相关的详细信息，包括发生故障的频率、路况、操作情况等；第二步：根据车主的描述进行故障分析。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"步骤1-2：询问车主故障详细信息（频率、路况、操作情况等）→根据车主描述进行故障分析\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "predicate": "flow_step_intake_and_analysis",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "流程图1-13第一步：询问车主与故障相关的详细信息，包括发生故障的频率、路况、操作情况等；第二步：根据车主的描述进行故障分析。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "步骤1-2：询问车主故障详细信息（频率、路况、操作情况等）→根据车主描述进行故障分析"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0064",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0064\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41\",\"predicate\":\"flow_step_connect_hds\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"流程图1-13第三步：将HDS诊断仪连接到诊断插座；如果没有通信，检查检测仪及连接情况。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"步骤3：将HDS诊断仪连接到诊断插座；如无通信，检查检测仪及连接情况\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41",
+      "predicate": "flow_step_connect_hds",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "流程图1-13第三步：将HDS诊断仪连接到诊断插座；如果没有通信，检查检测仪及连接情况。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "步骤3：将HDS诊断仪连接到诊断插座；如无通信，检查检测仪及连接情况"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0065",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0065\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k42\",\"predicate\":\"flow_step_read_and_clear_dtc\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"流程图1-13第四、五步：读取DTC（故障码）并将其记录，然后清除DTC。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"步骤4-5：读取DTC（故障码）并将其记录，然后清除DTC\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k42",
+      "predicate": "flow_step_read_and_clear_dtc",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "流程图1-13第四、五步：读取DTC（故障码）并将其记录，然后清除DTC。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "步骤4-5：读取DTC（故障码）并将其记录，然后清除DTC"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0066",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0066\",\"object_id\":null,\"predicate\":\"flow_step_confirm_symptom\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"流程图1-13第六步：检查并确认故障症状；若未确认故障，则进行故障症状模拟后回到重新读取DTC。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"步骤6：检查并确认故障症状；未确认故障时进行故障症状模拟\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "predicate": "flow_step_confirm_symptom",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "流程图1-13第六步：检查并确认故障症状；若未确认故障，则进行故障症状模拟后回到重新读取DTC。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "步骤6：检查并确认故障症状；未确认故障时进行故障症状模拟"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0067",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"分支条件：重新读取DTC后有码/无码\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0067\",\"object_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k43\",\"predicate\":\"flow_branch_by_dtc_result\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"流程图1-13在重新读取DTC后按结果分支：有故障码时参照具体车型的故障码诊断步骤进行排除；无故障码时执行基本检查，并参考故障症状诊断表。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"重新读取DTC分支：有故障码→参照具体车型故障码诊断步骤排除；无故障码→执行基本检查并参考故障症状诊断表\"}",
+      "conditions": [
+        "分支条件：重新读取DTC后有码/无码"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k43",
+      "predicate": "flow_branch_by_dtc_result",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "流程图1-13在重新读取DTC后按结果分支：有故障码时参照具体车型的故障码诊断步骤进行排除；无故障码时执行基本检查，并参考故障症状诊断表。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "重新读取DTC分支：有故障码→参照具体车型故障码诊断步骤排除；无故障码→执行基本检查并参考故障症状诊断表"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0068",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0068\",\"object_id\":null,\"predicate\":\"flow_step_locate_circuit_or_part\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"流程图1-13随后：找出故障的电路或元件并执行检查；为确认故障部位，需检查间歇性故障。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"找出故障的电路或元件并执行检查；为确认故障部位需检查间歇性故障\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "predicate": "flow_step_locate_circuit_or_part",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "流程图1-13随后：找出故障的电路或元件并执行检查；为确认故障部位，需检查间歇性故障。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "找出故障的电路或元件并执行检查；为确认故障部位需检查间歇性故障"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0069",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0069\",\"object_id\":null,\"predicate\":\"flow_final_repair_and_recheck\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"流程图1-13收尾步骤：确认故障部位后更换或修理，进行路试并确认故障排除，最后重新连接HDS诊断仪读取故障码并清除。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"unknowns\":[],\"value\":\"确认故障部位→更换或修理→路试并确认故障排除→重新连接HDS诊断仪读取故障码并清除\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "predicate": "flow_final_repair_and_recheck",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "流程图1-13收尾步骤：确认故障部位后更换或修理，进行路试并确认故障排除，最后重新连接HDS诊断仪读取故障码并清除。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "unknowns": [],
+      "value": "确认故障部位→更换或修理→路试并确认故障排除→重新连接HDS诊断仪读取故障码并清除"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0070",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[\"页码为印刷页码；第二节起始页8已与p0012页脚页码互证\"],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p4:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0070\",\"object_id\":null,\"predicate\":\"chapter_structure_from_toc\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"据全书目录页，第一章新款本田车系概述含四节：第一节新款本田车系新技术、第二节新款本田车系故障诊断方法、第三节本田专用故障诊断仪、第四节本田故障码表，分别始于印刷页1、8、21、27。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k44\",\"unknowns\":[],\"value\":\"第一节新技术（印刷页1）、第二节故障诊断方法（印刷页8）、第三节本田专用故障诊断仪（印刷页21）、第四节本田故障码表（印刷页27）\"}",
+      "conditions": [
+        "页码为印刷页码；第二节起始页8已与p0012页脚页码互证"
+      ],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p4:e1"
+      ],
+      "measurement": null,
+      "predicate": "chapter_structure_from_toc",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "据全书目录页，第一章新款本田车系概述含四节：第一节新款本田车系新技术、第二节新款本田车系故障诊断方法、第三节本田专用故障诊断仪、第四节本田故障码表，分别始于印刷页1、8、21、27。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k44",
+      "unknowns": [],
+      "value": "第一节新技术（印刷页1）、第二节故障诊断方法（印刷页8）、第三节本田专用故障诊断仪（印刷页21）、第四节本田故障码表（印刷页27）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0071",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0071\",\"object_id\":null,\"predicate\":\"name_equivalence_across_text_and_figure\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_BODY_DIRECT\",\"statement\":\"正文所述的“VTC油压控制阀”与图1-3中标注的“VTC油控制电磁阀”应为同一部件，仅名称写法不同（模型推断，基于两处描述的功能与位置一致）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k15\",\"unknowns\":[\"书中未明示两名称等同，待后续机型维修章节核对\"],\"value\":\"正文“VTC油压控制阀”=图1-3标注“VTC油控制电磁阀”\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "name_equivalence_across_text_and_figure",
+      "safetyScope": null,
+      "sourceKind": "BOOK_BODY_DIRECT",
+      "statement": "正文所述的“VTC油压控制阀”与图1-3中标注的“VTC油控制电磁阀”应为同一部件，仅名称写法不同（模型推断，基于两处描述的功能与位置一致）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k15",
+      "unknowns": [
+        "书中未明示两名称等同，待后续机型维修章节核对"
+      ],
+      "value": "正文“VTC油压控制阀”=图1-3标注“VTC油控制电磁阀”"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0072",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0072\",\"object_id\":null,\"predicate\":\"term_equivalence_across_text_and_figure\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-8图例中的“窜缸水蒸气”与正文所述“窜气混合气”指同一介质（曲轴箱窜气），用词不同（模型推断，基于同一图与同一 PCV 流向语境）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27\",\"unknowns\":[\"图注用词是否为排印习惯差异待核\"],\"value\":\"图1-8图例“窜缸水蒸气”≈正文“窜气混合气”\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e1"
+      ],
+      "measurement": null,
+      "predicate": "term_equivalence_across_text_and_figure",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-8图例中的“窜缸水蒸气”与正文所述“窜气混合气”指同一介质（曲轴箱窜气），用词不同（模型推断，基于同一图与同一 PCV 流向语境）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k27",
+      "unknowns": [
+        "图注用词是否为排印习惯差异待核"
+      ],
+      "value": "图1-8图例“窜缸水蒸气”≈正文“窜气混合气”"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0073",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": null,
+        "make": "Honda",
+        "model": "本田车系"
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":null,\"make\":\"Honda\",\"model\":\"本田车系\"},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\"],\"id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0073\",\"object_id\":null,\"predicate\":\"tool_identity_with_honda_scanner\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图1-13流程中使用的“HDS诊断仪”即本田专用故障诊断仪（HDS为Honda Diagnostic System的通行缩写），对应本书第一章第三节“本田专用故障诊断仪”的主题（模型推断，本书在本批范围内未给出HDS全称）。\",\"subject_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41\",\"unknowns\":[\"HDS全称与功能细节在第一章第三节（印刷页21起，本批范围外）\"],\"value\":\"图1-13中的HDS诊断仪=本田专用故障诊断仪（第一章第三节主题）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1"
+      ],
+      "measurement": null,
+      "predicate": "tool_identity_with_honda_scanner",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图1-13流程中使用的“HDS诊断仪”即本田专用故障诊断仪（HDS为Honda Diagnostic System的通行缩写），对应本书第一章第三节“本田专用故障诊断仪”的主题（模型推断，本书在本批范围内未给出HDS全称）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41",
+      "unknowns": [
+        "HDS全称与功能细节在第一章第三节（印刷页21起，本批范围外）"
+      ],
+      "value": "图1-13中的HDS诊断仪=本田专用故障诊断仪（第一章第三节主题）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F10-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F10-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e1\",\"locator\":\"pilot-crops-300dpi/p0010_crop0_300dpi.png（bbox_pdf_points 119.8,74.1,390.4,301.6）+ p0010_150dpi.png 核对\",\"observation_summary\":\"图1-8展示曲轴箱强制通风系统管路与PCV阀局部放大，图例区分窜缸水蒸气与新鲜空气两种流向。\",\"pdf_page_index\":10,\"printed_page_label\":\"6\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0010_crop0_300dpi.png（bbox_pdf_points 119.8,74.1,390.4,301.6）+ p0010_150dpi.png 核对",
+      "observationSummary": "图1-8展示曲轴箱强制通风系统管路与PCV阀局部放大，图例区分窜缸水蒸气与新鲜空气两种流向。",
+      "pdfPageIndex": 10,
+      "printedPageLabel": "6",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e2\",\"locator\":\"p0010.txt 行8-28（PCV阀段、二、车身控制系统新技术/1.能源管理系统及EMS功能三条）\",\"observation_summary\":\"本页正文说明PCV阀的柱塞弹簧结构与真空度调节机理，并介绍EMS在蓄电池负极加装电流传感器、发电机电压12.5至14.5V可调及其三项主要功能。\",\"pdf_page_index\":10,\"printed_page_label\":\"6\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0010.txt 行8-28（PCV阀段、二、车身控制系统新技术/1.能源管理系统及EMS功能三条）",
+      "observationSummary": "本页正文说明PCV阀的柱塞弹簧结构与真空度调节机理，并介绍EMS在蓄电池负极加装电流传感器、发电机电压12.5至14.5V可调及其三项主要功能。",
+      "pdfPageIndex": 10,
+      "printedPageLabel": "6",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F10-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F10-2\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e3\",\"locator\":\"pilot-crops-300dpi/p0010_crop1_300dpi.png（bbox_pdf_points 237.3,430.0,462.3,570.4）+ p0010_150dpi.png 核对\",\"observation_summary\":\"图1-9呈现EMS部件布局，标注发电机、蓄电池、蓄电池传感器之间的LIN数据线与+B接线关系。\",\"pdf_page_index\":10,\"printed_page_label\":\"6\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0010_crop1_300dpi.png（bbox_pdf_points 237.3,430.0,462.3,570.4）+ p0010_150dpi.png 核对",
+      "observationSummary": "图1-9呈现EMS部件布局，标注发电机、蓄电池、蓄电池传感器之间的LIN数据线与+B接线关系。",
+      "pdfPageIndex": 10,
+      "printedPageLabel": "6",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e1\",\"locator\":\"p0011.txt 行2-7（2.主动噪声控制系统定义与组成段）\",\"observation_summary\":\"本页正文界定ANC为利用附加声源产生抵消声信号的有源降噪方法，并列出其四个组成部分。\",\"pdf_page_index\":11,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0011.txt 行2-7（2.主动噪声控制系统定义与组成段）",
+      "observationSummary": "本页正文界定ANC为利用附加声源产生抵消声信号的有源降噪方法，并列出其四个组成部分。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "7",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e2",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F11-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F11-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e2\",\"locator\":\"pilot-crops-300dpi/p0011_crop0_300dpi.png（bbox_pdf_points 107.3,168.5,402.8,314.0）+ p0011_150dpi.png 核对\",\"observation_summary\":\"图1-10以整车俯视图标出ANC-ECU、误差信号传感器、初级声源传感器与扬声器的布点及发动机噪声、车室内噪声的指向。\",\"pdf_page_index\":11,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0011_crop0_300dpi.png（bbox_pdf_points 107.3,168.5,402.8,314.0）+ p0011_150dpi.png 核对",
+      "observationSummary": "图1-10以整车俯视图标出ANC-ECU、误差信号传感器、初级声源传感器与扬声器的布点及发动机噪声、车室内噪声的指向。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "7",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e3\",\"locator\":\"p0011.txt 行14-21（3.主动控制发动机支座(ACM)系统两段）\",\"observation_summary\":\"本页正文给出ACM系统的组成与控制链路，以及充液式主动控制支座的内部结构、部件清单和反相位减振工作机理。\",\"pdf_page_index\":11,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0011.txt 行14-21（3.主动控制发动机支座(ACM)系统两段）",
+      "observationSummary": "本页正文给出ACM系统的组成与控制链路，以及充液式主动控制支座的内部结构、部件清单和反相位减振工作机理。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "7",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e4",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F11-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F11-2\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e4\",\"locator\":\"pilot-crops-300dpi/p0011_crop1_300dpi.png（bbox_pdf_points 45.2,472.3,258.3,637.6）+ p0011_150dpi.png 核对\",\"observation_summary\":\"图1-11在动力总成布局图上标出ACM-ECU、ECM/PCM及前、后主动控制支座的位置关系。\",\"pdf_page_index\":11,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0011_crop1_300dpi.png（bbox_pdf_points 45.2,472.3,258.3,637.6）+ p0011_150dpi.png 核对",
+      "observationSummary": "图1-11在动力总成布局图上标出ACM-ECU、ECM/PCM及前、后主动控制支座的位置关系。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "7",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e5",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F11-3",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F11-3\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e5\",\"locator\":\"pilot-crops-300dpi/p0011_crop2_300dpi.png（bbox_pdf_points 275.1,458.1,458.1,637.9）+ p0011_150dpi.png 核对\",\"observation_summary\":\"图1-12为主动控制支座剖视，标注振动板、支座橡胶、线性电磁阀与柱塞总成四个部件。\",\"pdf_page_index\":11,\"printed_page_label\":\"7\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0011_crop2_300dpi.png（bbox_pdf_points 275.1,458.1,458.1,637.9）+ p0011_150dpi.png 核对",
+      "observationSummary": "图1-12为主动控制支座剖视，标注振动板、支座橡胶、线性电磁阀与柱塞总成四个部件。",
+      "pdfPageIndex": 11,
+      "printedPageLabel": "7",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e1\",\"locator\":\"p0012.txt 行5-22（一、汽车故障诊断的基本原则六条）\",\"observation_summary\":\"本页正文列出故障诊断六项基本原则，每条附简要操作含义，如先外后里、先简后繁、先熟后生、代码优先、先思后行、先备后用。\",\"pdf_page_index\":12,\"printed_page_label\":\"8\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0012.txt 行5-22（一、汽车故障诊断的基本原则六条）",
+      "observationSummary": "本页正文列出故障诊断六项基本原则，每条附简要操作含义，如先外后里、先简后繁、先熟后生、代码优先、先思后行、先备后用。",
+      "pdfPageIndex": 12,
+      "printedPageLabel": "8",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e2\",\"locator\":\"p0012.txt 行23-34（二、汽车故障诊断的基本方法六条）\",\"observation_summary\":\"本页正文列出六种基本诊断方法，覆盖直观诊断、自诊断系统、简单仪表、故障码诊断法、征兆模拟试验与部件互换法。\",\"pdf_page_index\":12,\"printed_page_label\":\"8\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0012.txt 行23-34（二、汽车故障诊断的基本方法六条）",
+      "observationSummary": "本页正文列出六种基本诊断方法，覆盖直观诊断、自诊断系统、简单仪表、故障码诊断法、征兆模拟试验与部件互换法。",
+      "pdfPageIndex": 12,
+      "printedPageLabel": "8",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e3",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p12:e3\",\"locator\":\"p0012.txt 行35-36（三、汽车故障诊断基本流程引导句）\",\"observation_summary\":\"本页末尾以一句话引出下页的故障诊断基本流程图（图1-13）。\",\"pdf_page_index\":12,\"printed_page_label\":\"8\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0012.txt 行35-36（三、汽车故障诊断基本流程引导句）",
+      "observationSummary": "本页末尾以一句话引出下页的故障诊断基本流程图（图1-13）。",
+      "pdfPageIndex": 12,
+      "printedPageLabel": "8",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F13-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F13-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1\",\"locator\":\"pilot-crops-300dpi/p0013_crop0_300dpi.png（bbox_pdf_points 78.9,79.8,431.2,658.6）+ p0013_150dpi.png 核对\",\"observation_summary\":\"图1-13为整页诊断流程图，主链自询问车主经HDS连接、读取记录并清除DTC、症状确认到修理后路试复核，含无通信检查、症状模拟、无码基本检查与间歇性故障检查等分支。\",\"pdf_page_index\":13,\"printed_page_label\":\"9\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0013_crop0_300dpi.png（bbox_pdf_points 78.9,79.8,431.2,658.6）+ p0013_150dpi.png 核对",
+      "observationSummary": "图1-13为整页诊断流程图，主链自询问车主经HDS连接、读取记录并清除DTC、症状确认到修理后路试复核，含无通信检查、症状模拟、无码基本检查与间歇性故障检查等分支。",
+      "pdfPageIndex": 13,
+      "printedPageLabel": "9",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p4:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p4:e1\",\"locator\":\"p0004.txt 全页（目录双栏条目）\",\"observation_summary\":\"本页为全书目录，列出十章各车系维修案例的章—节—页码结构，第一章四节分别始于印刷页1、8、21、27。\",\"pdf_page_index\":4,\"printed_page_label\":\"0\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0004.txt 全页（目录双栏条目）",
+      "observationSummary": "本页为全书目录，列出十章各车系维修案例的章—节—页码结构，第一章四节分别始于印刷页1、8、21、27。",
+      "pdfPageIndex": 4,
+      "printedPageLabel": "0",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e1\",\"locator\":\"p0005.txt 正文块（章题/节题/一、发动机新技术/1.可变气门正时系统/(1)VTEC系统两段，行1-17）\",\"observation_summary\":\"本页正文给出VTEC的定义与参数自适应特性，并描述低速模式下三摇臂各自独立、主辅摇臂分别驱动两进气门形成低速模式的机理。\",\"pdf_page_index\":5,\"printed_page_label\":\"1\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0005.txt 正文块（章题/节题/一、发动机新技术/1.可变气门正时系统/(1)VTEC系统两段，行1-17）",
+      "observationSummary": "本页正文给出VTEC的定义与参数自适应特性，并描述低速模式下三摇臂各自独立、主辅摇臂分别驱动两进气门形成低速模式的机理。",
+      "pdfPageIndex": 5,
+      "printedPageLabel": "1",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e2",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F5-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F5-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e2\",\"locator\":\"pilot-crops-300dpi/p0005_crop0_300dpi.png（bbox_pdf_points 73.6,408.6,436.7,672.6）+ p0005_150dpi.png 核对\",\"observation_summary\":\"图1-1以结构剖视加油路示意呈现低速工作模式，标注两个低升程凸轮、三个进气摇臂、VTEC切换活塞、回位弹簧与来自机油泵经电磁阀的油路。\",\"pdf_page_index\":5,\"printed_page_label\":\"1\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0005_crop0_300dpi.png（bbox_pdf_points 73.6,408.6,436.7,672.6）+ p0005_150dpi.png 核对",
+      "observationSummary": "图1-1以结构剖视加油路示意呈现低速工作模式，标注两个低升程凸轮、三个进气摇臂、VTEC切换活塞、回位弹簧与来自机油泵经电磁阀的油路。",
+      "pdfPageIndex": 5,
+      "printedPageLabel": "1",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e1\",\"locator\":\"p0006.txt 行2-8（承接句与高低速切换机理段）\",\"observation_summary\":\"本页承接上页说明中间摇臂低速空转，并完整给出ECM/PCM经VTEC电磁阀控制压力机油推动切换活塞、实现高低速模式双向切换的因果链。\",\"pdf_page_index\":6,\"printed_page_label\":\"2\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0006.txt 行2-8（承接句与高低速切换机理段）",
+      "observationSummary": "本页承接上页说明中间摇臂低速空转，并完整给出ECM/PCM经VTEC电磁阀控制压力机油推动切换活塞、实现高低速模式双向切换的因果链。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "2",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e2\",\"locator\":\"p0006.txt 行15-28（(2)i-VTEC系统段落，含VTC组成、20%功率表述与运用区域1/2起始）\",\"observation_summary\":\"本页正文界定i-VTEC等于VTEC加VTC，列出VTC系统的四个组成部分，并给出功率提升20%的书内数值及VTC三个运用区域中前两个的描述。\",\"pdf_page_index\":6,\"printed_page_label\":\"2\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0006.txt 行15-28（(2)i-VTEC系统段落，含VTC组成、20%功率表述与运用区域1/2起始）",
+      "observationSummary": "本页正文界定i-VTEC等于VTEC加VTC，列出VTC系统的四个组成部分，并给出功率提升20%的书内数值及VTC三个运用区域中前两个的描述。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "2",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F6-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F6-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e3\",\"locator\":\"pilot-crops-300dpi/p0006_crop0_300dpi.png（bbox_pdf_points 78.6,184.2,431.5,459.5）+ p0006_150dpi.png 核对\",\"observation_summary\":\"图1-2展示高速工作模式，标注高升程凸轮与切换活塞连接三摇臂后的油路接通状态，部件标注与图1-1对应。\",\"pdf_page_index\":6,\"printed_page_label\":\"2\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0006_crop0_300dpi.png（bbox_pdf_points 78.6,184.2,431.5,459.5）+ p0006_150dpi.png 核对",
+      "observationSummary": "图1-2展示高速工作模式，标注高升程凸轮与切换活塞连接三摇臂后的油路接通状态，部件标注与图1-1对应。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "2",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F7-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e1\",\"locator\":\"pilot-crops-300dpi/p0007_crop0_300dpi.png（bbox_pdf_points 49.2,74.1,460.9,401.6）+ p0007_150dpi.png 核对\",\"observation_summary\":\"图1-3展示i-VTEC系统结构，标注VTC作动器内部叶片与推进/延迟机构、机油泵经滤网与油控电磁阀分配推进/延迟油压的油路及ECM/PCM电路连接。\",\"pdf_page_index\":7,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0007_crop0_300dpi.png（bbox_pdf_points 49.2,74.1,460.9,401.6）+ p0007_150dpi.png 核对",
+      "observationSummary": "图1-3展示i-VTEC系统结构，标注VTC作动器内部叶片与推进/延迟机构、机油泵经滤网与油控电磁阀分配推进/延迟油压的油路及ECM/PCM电路连接。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "3",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e2\",\"locator\":\"p0007.txt 行8-22（跨页承接句、运用区域3、2.电子节气门控制系统、3.进气歧管调节控制系统）\",\"observation_summary\":\"本页完成VTC第三运用区域（最佳转矩）的描述，并给出电子节气门控制系统的组成与进气调节原理、IMT系统的功能及IMT阀开关对应的转矩特性。\",\"pdf_page_index\":7,\"printed_page_label\":\"3\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0007.txt 行8-22（跨页承接句、运用区域3、2.电子节气门控制系统、3.进气歧管调节控制系统）",
+      "observationSummary": "本页完成VTC第三运用区域（最佳转矩）的描述，并给出电子节气门控制系统的组成与进气调节原理、IMT系统的功能及IMT阀开关对应的转矩特性。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "3",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F8-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F8-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e1\",\"locator\":\"pilot-crops-300dpi/p0008_crop0_300dpi.png（bbox_pdf_points 107.2,74.1,403.0,244.9）+ p0008_150dpi.png 核对\",\"observation_summary\":\"图1-4以电路框图加实物照片呈现电子节气门控制系统，标出APP与TP传感器接线、节气门电动机驱动线及来自其他传感器和巡航控制继电器的信号。\",\"pdf_page_index\":8,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0008_crop0_300dpi.png（bbox_pdf_points 107.2,74.1,403.0,244.9）+ p0008_150dpi.png 核对",
+      "observationSummary": "图1-4以电路框图加实物照片呈现电子节气门控制系统，标出APP与TP传感器接线、节气门电动机驱动线及来自其他传感器和巡航控制继电器的信号。",
+      "pdfPageIndex": 8,
+      "printedPageLabel": "4",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e2\",\"locator\":\"p0008.txt 行8-24（4.废气再循环控制系统段落）\",\"observation_summary\":\"本页正文说明电控EGR系统的组成及其闭环控制过程：按存储的理想开度控制EGR阀，由位置传感器反馈比较后调整电流与真空度改变废气量。\",\"pdf_page_index\":8,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0008.txt 行8-24（4.废气再循环控制系统段落）",
+      "observationSummary": "本页正文说明电控EGR系统的组成及其闭环控制过程：按存储的理想开度控制EGR阀，由位置传感器反馈比较后调整电流与真空度改变废气量。",
+      "pdfPageIndex": 8,
+      "printedPageLabel": "4",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F8-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F8-2\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e3\",\"locator\":\"pilot-crops-300dpi/p0008_crop1_300dpi.png（bbox_pdf_points 192.1,263.3,462.3,538.2）+ p0008_150dpi.png 核对\",\"observation_summary\":\"图1-5展示进气歧管上的IMT阀与IMT作动器，作动器剖面标注磁铁与电动机两个内部部件。\",\"pdf_page_index\":8,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0008_crop1_300dpi.png（bbox_pdf_points 192.1,263.3,462.3,538.2）+ p0008_150dpi.png 核对",
+      "observationSummary": "图1-5展示进气歧管上的IMT阀与IMT作动器，作动器剖面标注磁铁与电动机两个内部部件。",
+      "pdfPageIndex": 8,
+      "printedPageLabel": "4",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e4\",\"locator\":\"p0008.txt 行25-32（5.燃油蒸发排放控制系统与6.曲轴箱强制通风系统段落）\",\"observation_summary\":\"本页正文给出EVAP系统的组成与炭罐存储净化原理，以及PCV系统的组成和两条软管的连接路径。\",\"pdf_page_index\":8,\"printed_page_label\":\"4\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_BODY_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "p0008.txt 行25-32（5.燃油蒸发排放控制系统与6.曲轴箱强制通风系统段落）",
+      "observationSummary": "本页正文给出EVAP系统的组成与炭罐存储净化原理，以及PCV系统的组成和两条软管的连接路径。",
+      "pdfPageIndex": 8,
+      "printedPageLabel": "4",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_BODY_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p9:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F9-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F9-1\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p9:e1\",\"locator\":\"pilot-crops-300dpi/p0009_crop0_300dpi.png（bbox_pdf_points 50.3,89.9,459.8,370.0）+ p0009_150dpi.png 核对\",\"observation_summary\":\"图1-6以整车管路加电路图呈现EGR系统，示出废气从排气歧管经EGR管与EGR阀进入进气歧管的再循环路径及三元催化转化器位置。\",\"pdf_page_index\":9,\"printed_page_label\":\"5\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0009_crop0_300dpi.png（bbox_pdf_points 50.3,89.9,459.8,370.0）+ p0009_150dpi.png 核对",
+      "observationSummary": "图1-6以整车管路加电路图呈现EGR系统，示出废气从排气歧管经EGR管与EGR阀进入进气歧管的再循环路径及三元催化转化器位置。",
+      "pdfPageIndex": 9,
+      "printedPageLabel": "5",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p9:e2",
+      "@type": "auto:Evidence",
+      "assetId": "c01-F9-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_",
+      "canonicalJson": "{\"asset_id\":\"c01-F9-2\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p9:e2\",\"locator\":\"pilot-crops-300dpi/p0009_crop1_300dpi.png（bbox_pdf_points 68.5,388.3,441.6,594.9）+ p0009_150dpi.png 核对\",\"observation_summary\":\"图1-7呈现EVAP系统管路布局，标注燃油箱气液分离阀、双通阀、活性炭罐及净化阀与ECM/PCM控制线的关系。\",\"pdf_page_index\":9,\"printed_page_label\":\"5\",\"reader_model\":\"glm-flash-free\",\"section_id\":\"c01\",\"source_book_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "pilot-crops-300dpi/p0009_crop1_300dpi.png（bbox_pdf_points 68.5,388.3,441.6,594.9）+ p0009_150dpi.png 核对",
+      "observationSummary": "图1-7呈现EVAP系统管路布局，标注燃油箱气液分离阀、双通阀、活性炭罐及净化阀与ECM/PCM控制线的关系。",
+      "pdfPageIndex": 9,
+      "printedPageLabel": "5",
+      "sectionId": "c01",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0001",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0004\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0001\",\"predicate\":\"forms_operating_mode\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k03\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0004",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02",
+      "predicate": "forms_operating_mode",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k03"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0002",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0002\",\"predicate\":\"connects_rockers_into_high_speed_mode\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08",
+      "predicate": "connects_rockers_into_high_speed_mode",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0006",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0007\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0006\",\"predicate\":\"triggers_high_speed_switch\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0007",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "predicate": "triggers_high_speed_switch",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0007",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0007\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0007\",\"predicate\":\"triggers_high_speed_switch\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0007",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "predicate": "triggers_high_speed_switch",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k09"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0008",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0008\",\"predicate\":\"connects_rockers_into_high_speed_mode\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08",
+      "predicate": "connects_rockers_into_high_speed_mode",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0009",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0009\",\"predicate\":\"connects_rockers_into_high_speed_mode\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08",
+      "predicate": "connects_rockers_into_high_speed_mode",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0010",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0010\",\"predicate\":\"connects_rockers_into_high_speed_mode\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k08",
+      "predicate": "connects_rockers_into_high_speed_mode",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k04"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0017",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0017\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0017\",\"predicate\":\"adaptively_cooperates_with_vtec_in_three_regions\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0017",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k13",
+      "predicate": "adaptively_cooperates_with_vtec_in_three_regions",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k02"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0025",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0027\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0025\",\"predicate\":\"reports_valve_position_to_pcm\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0027",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k21",
+      "predicate": "reports_valve_position_to_pcm",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0028",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0030\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0028\",\"predicate\":\"controls_egr_valve_by_ideal_opening_map\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k23\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0030",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11",
+      "predicate": "controls_egr_valve_by_ideal_opening_map",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k23"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0029",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0031\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k24\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0029\",\"predicate\":\"closed_loop_correction\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0031",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k24",
+      "predicate": "closed_loop_correction",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0032",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0039\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0032\",\"predicate\":\"install_location_and_wiring\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0039",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30",
+      "predicate": "install_location_and_wiring",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0033",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0039\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0033\",\"predicate\":\"install_location_and_wiring\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0039",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k30",
+      "predicate": "install_location_and_wiring",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k11"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0034",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0040\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0034\",\"predicate\":\"adjusts_generator_voltage\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k31\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0040",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k29",
+      "predicate": "adjusts_generator_voltage",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k31"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0040",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0064\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0040\",\"predicate\":\"flow_step_connect_hds\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0064",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "predicate": "flow_step_connect_hds",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k41"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0041",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0065\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0041\",\"predicate\":\"flow_step_read_and_clear_dtc\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k42\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0065",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "predicate": "flow_step_read_and_clear_dtc",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k42"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0042",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0067\",\"from_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40\",\"id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0042\",\"predicate\":\"flow_branch_by_dtc_result\",\"to_id\":\"book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k43\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0067",
+      "from": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k40",
+      "predicate": "flow_branch_by_dtc_result",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ent:k43"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-id,title,kind,verification_status
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K01","缸孔圆度与锥度的不同失效含义","mechanism","MODEL_GENERATED_UNVERIFIED"
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K02","活塞与缸壁间隙的热膨胀约束","mechanism","MODEL_GENERATED_UNVERIFIED"
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K03","活塞环端隙与侧隙的功能区分","mechanism","MODEL_GENERATED_UNVERIFIED"
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K04","曲轴径向与轴向游隙的约束来源","mechanism","MODEL_GENERATED_UNVERIFIED"
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K05","配气凸轮磨损与气门升程关联","mechanism","MODEL_GENERATED_UNVERIFIED"
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K06","离合器自由行程与分离状态的非线性关系","mechanism","MODEL_GENERATED_UNVERIFIED"
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K07","车轮定位参数的耦合与诊断边界","mechanism","MODEL_GENERATED_UNVERIFIED"
-"KG-L4-15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y-M02-K08","制动助力器与基础液压制动的故障隔离","mechanism","MODEL_GENERATED_UNVERIFIED"

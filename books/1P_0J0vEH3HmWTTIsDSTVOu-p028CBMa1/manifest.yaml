@@ -1,0 +1,32 @@
+book_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1
+drive_file_id: 1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1
+title: 汽车发动机构造与维修
+edition: null
+isbn: null
+publication_year: 2007
+source_sha256: 0f7f3349c3a6dcb10eb33f022b1b4050d061f25128f69996b7ab0f7b74f1e339
+pdf_page_count: 109
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: vocational-textbook-scanned
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: c04
+  label: 第四章 发动机冷却系统的构造与维修（含 p36 第三章尾边界登记）
+  pdf_pages_range:
+  - 36
+  - 42
+  printed_pages:
+  - '31'
+  - '37'
+page_offset_printed_minus_pdfindex: 5
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING

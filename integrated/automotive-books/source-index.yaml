@@ -1,0 +1,21 @@
+snapshot_utc: '2026-11-19T20:54:40+00:00'
+drive_root_id: 1sm-6FSZHMIRktDRo_j4dCcqc0PAz_t8c
+drive_archive_id: 1PLWcp62DL-k-M9ENIR27hkANPYcfaQWL
+inventory_pdf_total: 765
+unique_file_ids: 765
+books_with_bookgraph_this_round:
+- 17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC
+- 15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+- 144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8
+- 1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E
+- 1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1
+- 1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_
+book_states:
+  book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC: BOOK_GRAPH_PARTIAL_REVIEW_PENDING
+  book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y: BOOK_GRAPH_PARTIAL_REVIEW_PENDING
+  book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8: BOOK_GRAPH_PARTIAL_REVIEW_PENDING
+  book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E: BOOK_GRAPH_PARTIAL_REVIEW_PENDING
+  book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1: BOOK_GRAPH_PARTIAL_REVIEW_PENDING
+  book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_: BOOK_GRAPH_PARTIAL_REVIEW_PENDING
+inventory_state: INVENTORY_COMPLETE_AT_SNAPSHOT (not KG done)
+detail_file: source-inventory.csv

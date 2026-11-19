@@ -1,0 +1,138 @@
+# evidence.yaml — 《汽车简单维修百问百答（第2版）》第一篇 基础知识篇 Q5-Q9
+# chapter_id: c01q0509 / pdf_page_index 16-22 / printed_page_label 6-12 (printed = pdf_index - 10)
+# reader_model: glm-flash-free（按任务约定登记）
+# observation_summary 均为原创转述，未整段抄书。
+evidence:
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e1"
+    pdf_page_index: 16
+    printed_page_label: "6"
+    section_id: "c01q0509"
+    locator: "正文 Q5 段：'5. 汽车起动系统组成及功用？'标题及释文（'起动系统主要由起动机、起动机继电器、点火开关以及蓄电池等组成……如图1-6所示'）"
+    source_kind: "BOOK_BODY_DIRECT"
+    observation_summary: "Q5 释文给出起动系统的四个主要组成部件，以及电能转机械能、带动飞轮齿圈使发动机起动的功用表述。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2"
+    pdf_page_index: 16
+    printed_page_label: "6"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F16-1"
+    locator: "图1-6 '起动系统的组成及工作原理'（页面中部整幅；300dpi 裁块 p0016_crop0）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-6 用电路-结构示意图加起动机实物照片展示起动控制回路（点火开关、继电器、空档起动开关、熔丝）与起动机内部部件（吸拉/保持线圈、电枢、单向离合器等）。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3"
+    pdf_page_index: 16
+    printed_page_label: "6"
+    section_id: "c01q0509"
+    locator: "正文 Q6 段：'6. 汽车点火系统组成及功用？'标题及释文（'点火系统是汽油发动机上的重要组成部分……使发动机正常工作'）"
+    source_kind: "BOOK_BODY_DIRECT"
+    observation_summary: "Q6 释文给出点火系统组成部件、12V 转 15000～30000V 的升压点火机理，及其对动力性、环保性、经济性的影响。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e1"
+    pdf_page_index: 17
+    printed_page_label: "7"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F17-1"
+    locator: "图1-7 '点火系统组成' 及 1—17 部件名录（300dpi 裁块 p0017_crop0）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-7 以编号爆炸图列出点火系统部件：点火高压线、点火线圈、火花塞、爆燃传感器1/2、霍尔传感器及各类插头、紧固件。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e2"
+    pdf_page_index: 17
+    printed_page_label: "7"
+    section_id: "c01q0509"
+    locator: "正文 Q7 段：'7. 燃油供给系统、电子控制系统组成及功用？'标题及释文（'汽车燃油供给系统、电子控制系统的组成如图1-8、图1-9和图1-10所示……从而将热能转化成机械能'）"
+    source_kind: "BOOK_BODY_DIRECT"
+    observation_summary: "Q7 释文按机型（化油器/缸外喷射汽油机、直喷汽油机、机械或电子喷射柴油机）区分供油方式，并给出供油功用与热能转化表述。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1"
+    pdf_page_index: 18
+    printed_page_label: "8"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F18-1"
+    locator: "图1-8 '燃油供给系统组成'（管路示意图；300dpi 裁块 p0018_crop0）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-8 示意供油路线：燃油箱内电动燃油泵经燃油滤清器到燃油分配管与各缸喷油器，油压调节器带回油口。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e2"
+    pdf_page_index: 18
+    printed_page_label: "8"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F18-2"
+    locator: "图1-9 '燃油箱及其附属件' 及 1—25 部件名录（300dpi 裁块 p0018_crop1）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-9 编号拆示燃油箱及加油口盖、重力阀、通气管、通风阀、燃油泵、燃油表传感器、供/回油管、燃油滤清器等附属件。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e1"
+    pdf_page_index: 19
+    printed_page_label: "9"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F19-1"
+    locator: "图1-10 '活性炭罐装置' 及 1—9 部件名录（300dpi 裁块 p0019_crop0）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-10 编号拆示活性炭罐装置：活性炭罐、活性炭罐电磁阀、节气门体及接燃油箱重力阀的通风管等。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e2"
+    pdf_page_index: 19
+    printed_page_label: "9"
+    section_id: "c01q0509"
+    locator: "正文段（属 Q7）：'电子控制系统的主要作用是……汽油机电子控制系统的组成和流程如图1-11所示'"
+    source_kind: "BOOK_BODY_DIRECT"
+    observation_summary: "释文给出电控系统功用（按工况定最佳控制方案、故障自诊断）与传感器/ECU/执行器三段组成，并强调 ECU 为核心部件。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1"
+    pdf_page_index: 20
+    printed_page_label: "10"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F20-1"
+    locator: "图1-11 '汽油机电子控制系统'（传感器→发动机电控单元→执行器信号流框图；300dpi 裁块 p0020_crop0）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-11 框图列示汽油机电控系统的传感器清单、发动机电控单元、执行器清单，以及故障检测诊断插座与车速/空调附加信号。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2"
+    pdf_page_index: 20
+    printed_page_label: "10"
+    section_id: "c01q0509"
+    locator: "正文 Q8 段：'8. 汽车润滑系统组成及功用？'标题及释文（'润滑系统由油底壳、机油、机油滤清器、机油泵、机油集滤器、主油道、分油道和各摩擦表面等组成……保护零部件'）"
+    source_kind: "BOOK_BODY_DIRECT"
+    observation_summary: "Q8 释文列出润滑系统组成与五类功用：供油减摩耐磨、清除磨屑、冷却摩擦表面、油膜提高气缸密封性、防锈保护。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p21:e1"
+    pdf_page_index: 21
+    printed_page_label: "11"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F21-1"
+    locator: "图1-12 '润滑系统的组成' 及 1—28 部件名录（300dpi 裁块 p0021_crop0）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-12 编号拆示润滑系统部件：机油加油口盖、机油标尺、油底壳、带链轮的机油泵、机油泵链条、放油螺栓、机油滤清器支架等。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1"
+    pdf_page_index: 22
+    printed_page_label: "12"
+    section_id: "c01q0509"
+    locator: "正文 Q9 段：'9. 汽车冷却系统组成及功用？'标题及释文（'冷却系统主要由水泵、散热器、节温器、冷却液温度传感器、冷却风扇以及膨胀罐等组成……冷却液量约为6.0L'）"
+    source_kind: "BOOK_BODY_DIRECT"
+    observation_summary: "Q9 释文列出冷却系统组成、冷却与为暖风供热的功用，以及压力 0.13～0.15MPa、温度 80～120℃、冷却液量约 6.0L 三个参数。"
+    reader_model: "glm-flash-free"
+
+  - evidence_id: "book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2"
+    pdf_page_index: 22
+    printed_page_label: "12"
+    section_id: "c01q0509"
+    asset_id: "c01q0509-F22-1"
+    locator: "图1-13 '冷却系统组成' 及 1—18 部件名录（300dpi 裁块 p0022_crop0）"
+    source_kind: "BOOK_FIGURE_DIRECT"
+    observation_summary: "图1-13 编号拆示冷却系统部件：散热器、空气导板、热敏开关、冷却液上/下软管、风扇、风扇护圈、膨胀箱、节气门体等。"
+    reader_model: "glm-flash-free"

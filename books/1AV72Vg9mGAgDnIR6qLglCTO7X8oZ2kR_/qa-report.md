@@ -1,0 +1,72 @@
+# QA report — book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_ (revision 1)
+
+- Scope: c01; whole-book status BOOK_IN_PROGRESS (partial, not complete).
+- Pages: 10/299 processed (blocked/pending 289 honestly PENDING in ledger).
+- Assets: 13/13 INTERPRETED_SCOPED.
+- Claims: 73 total = 73 book-direct + 0 model-inference; all EXTRACTED_UNCHECKED (no self-promotion).
+- Evidence records: 26; every direct claim carries matching-kind evidence registered in page ledger.
+- Open questions (unknowns carried, not fabricated): see chapter bundles / graph claims.
+- External API upload: NONE (local processing only). Rights: UNKNOWN, recorded not assumed.
+
+## Normalization notes (single-writer integrator)
+
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0004: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p5:e2'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0008: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p6:e3'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0014: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p7:e1'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0022: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p8:e1'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0035: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e1'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0039: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p10:e3'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0046: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e2'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0047: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e4'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0048: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p11:e5'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0062: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:ev:p13:e1'])
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0071: declared kind matched none of cited evidence -> follows first evidence BOOK_BODY_DIRECT
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0072: declared kind matched none of cited evidence -> follows first evidence BOOK_FIGURE_DIRECT
+- claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0073: declared kind matched none of cited evidence -> follows first evidence BOOK_FIGURE_DIRECT
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0001: rewritten to mirror claim triple (k02 --forms_operating_mode--> k03)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0002: rewritten to mirror claim triple (k08 --connects_rockers_into_high_speed_mode--> k04)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0003: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0003 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0004: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0003 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0005: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0003 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0006: rewritten to mirror claim triple (k11 --triggers_high_speed_switch--> k09)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0007: rewritten to mirror claim triple (k11 --triggers_high_speed_switch--> k09)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0008: rewritten to mirror claim triple (k08 --connects_rockers_into_high_speed_mode--> k04)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0009: rewritten to mirror claim triple (k08 --connects_rockers_into_high_speed_mode--> k04)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0010: rewritten to mirror claim triple (k08 --connects_rockers_into_high_speed_mode--> k04)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0011: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0010 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0012: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0012 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0013: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0012 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0014: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0014 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0015: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0014 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0016: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0015 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0017: rewritten to mirror claim triple (k13 --adaptively_cooperates_with_vtec_in_three_regions--> k02)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0018: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0022 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0019: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0022 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0020: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0022 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0021: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0023 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0022: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0023 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0023: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0024 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0024: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0025 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0025: rewritten to mirror claim triple (k21 --reports_valve_position_to_pcm--> k11)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0026: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0029 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0027: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0029 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0028: rewritten to mirror claim triple (k11 --controls_egr_valve_by_ideal_opening_map--> k23)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0029: rewritten to mirror claim triple (k24 --closed_loop_correction--> k11)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0030: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0033 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0031: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0035 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0032: rewritten to mirror claim triple (k30 --install_location_and_wiring--> k11)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0033: rewritten to mirror claim triple (k30 --install_location_and_wiring--> k11)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0034: rewritten to mirror claim triple (k29 --adjusts_generator_voltage--> k31)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0035: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0046 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0036: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0047 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0037: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0048 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0038: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0049 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0039: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0047 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0040: rewritten to mirror claim triple (k40 --flow_step_connect_hds--> k41)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0041: rewritten to mirror claim triple (k40 --flow_step_read_and_clear_dtc--> k42)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0042: rewritten to mirror claim triple (k40 --flow_branch_by_dtc_result--> k43)
+- edge book:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:edg:0043: linked claim claim:1AV72Vg9mGAgDnIR6qLglCTO7X8oZ2kR_:c01:0070 has no object_id -> edge dropped (claim keeps the statement)
+
+## Residual risks / unfinished
+- Remaining pages are PENDING (not silently skipped); completion requires full-page accounting per SKILL section 5.
+- 目录页未读取（PENDING）；表1-1 常见故障诊断表起始于 pdf14，范围外仅登记边界

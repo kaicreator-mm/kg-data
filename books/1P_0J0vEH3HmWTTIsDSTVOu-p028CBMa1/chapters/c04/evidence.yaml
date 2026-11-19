@@ -1,0 +1,197 @@
+# evidence.yaml
+# book: 1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1（《汽车发动机构造与维修》高忠学、常翠玲主编，中等职教教材，前言 2007-03）
+# chapter: c04 发动机冷却系统的构造与维修（第四章）
+# 印刷页码偏移实测: printed = pdf_page_index - 5
+# reader_model: glm-flash-free（全视觉路线，PDF 无文字层）
+
+evidence:
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p36:e1
+    pdf_page_index: 36
+    printed_page_label: 31
+    section_id: c04
+    locator: "整页；第三章强化训练简答题 5-14；页脚印页码 31"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 该页为第三章配气机构强化训练尾页，印有简答题 5-14（气门间隙两次调整、气门密封性等），第四章未开始，仅作边界登记。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1
+    pdf_page_index: 37
+    printed_page_label: 32
+    section_id: c04
+    asset_id: c04-F37-1
+    locator: "章题『第四章 发动机冷却系统的构造与维修』+『知识网络』层级图（冷却系统—作用/组成/冷却循环路线）"
+    source_kind: BOOK_FIGURE_DIRECT
+    observation_summary: 章首页知识网络图给出冷却系统的组成三分支（冷却装置、冷却强度调节装置、水温显示装置）与三种循环路线，并标出水泵/散热器/风扇/节温器的学习点。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e2
+    pdf_page_index: 37
+    printed_page_label: 32
+    section_id: c04
+    locator: "『教学目标』1-3 条"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 教学目标要求掌握水冷却系组成、三种循环路线，并重点掌握水泵、散热器、膨胀水箱、节温器等构造及工作原理，为教学体例元信息。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e3
+    pdf_page_index: 37
+    printed_page_label: 32
+    section_id: c04
+    locator: "『重点难点』1-4 条"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 重点难点列出冷却系功用及组成、水泵/散热器/节温器构造与工作原理、冷却水温度调节、冷却不足与冷却过度危害，为教学体例元信息。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e4
+    pdf_page_index: 37
+    printed_page_label: 32
+    section_id: c04
+    locator: "『要点点击』1.冷却强度调节 (1)目的 + (2)方法①"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 正文说明冷却强度须随转速、负荷、环境气温改变而调节，方法①为利用节温器按冷却液温度自动改变循环路线和流量。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e1
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    locator: "页首续『要点点击』1.(2)②"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 冷却强度调节方法②为利用百叶窗、温控风扇离合器、温控电风扇等改变通过散热器的空气流量。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e2
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    locator: "『要点点击』2.节温器 段落"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 正文定义节温器为冷却强度调节装置之一，按冷却系水温变化控制循环路线（大、小、混合）及流量，保证发动机在最适宜温度下工作。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e3
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    locator: "『要点点击』3.大循环 段落"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 正文定义大循环：水温高于 80℃ 时主阀开副阀关，冷却水全部经主阀座进散热器散热后由水泵送入气缸体水套。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e4
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    locator: "『要点点击』4.小循环 段落"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 正文定义小循环：水温低于 70℃ 时主阀关副阀开，水由气缸盖水套经副阀座、旁通管进水泵再入气缸体水套，不经散热器故温度迅速提高。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e5
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    locator: "『要点点击』5.混合循环 段落"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 正文定义混合循环：水温 70-80℃ 之间主副阀均部分开启，大小循环并存，仅部分冷却水流经散热器散热。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    asset_id: c04-F38-1
+    locator: "『要点点击』6.大、小、混合循环比较表（5 列 3 行）"
+    source_kind: BOOK_TABLE_DIRECT
+    observation_summary: 比较表按名称/控制部件/控制温度/节温器工作状态/冷却水循环路线列出三种循环：>80℃ 全部流经散热器、<70℃ 不经散热器、70-80℃ 部分流经散热器，控制部件均为节温器。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e7
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    locator: "『考点指向』1-4 条"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 考点指向列出冷却方式、冷却系组成功用与最佳冷却温度、冷却水循环路线、各主要零件作用四项考核点，为教学体例元信息。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e8
+    pdf_page_index: 38
+    printed_page_label: 33
+    section_id: c04
+    locator: "『强化训练』一、填空题 1-4（0.126MPa 判据在第 2 题题干）"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 填空题题干印有『若开启压力低于 0.126MPa 时应更换散热器盖』的判据语句；额定开启压力数值处留空未给。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p39:e1
+    pdf_page_index: 39
+    printed_page_label: 34
+    section_id: c04
+    locator: "『强化训练』一、填空题 5-26"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 填空题 5-26 涉及蜡式节温器类型、风扇离合器类型、皮带下沉量、电磁/硅油风扇离合器参数、水泵间隙与东风 EQ6100-1 流量压力等，全部为留空练习，无答案数值。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p39:e2
+    pdf_page_index: 39
+    printed_page_label: 34
+    section_id: c04
+    locator: "『强化训练』二、名词解释 1-4"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 名词解释列大循环、小循环、混合循环、穴蚀四题，仅有术语名无解答内容。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p40:e1
+    pdf_page_index: 40
+    printed_page_label: 35
+    section_id: c04
+    locator: "『强化训练』二、名词解释 5-7"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 名词解释列强制循环水冷却系、水冷系、风冷系三题，仅有术语名无解答内容。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p40:e2
+    pdf_page_index: 40
+    printed_page_label: 35
+    section_id: c04
+    locator: "『强化训练』三、判断题 1-28"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 判断题 1-28 覆盖分水管、膨胀水箱、硅油风扇离合器（338K/308K）、水封、温控电动风扇、双阀蜡式节温器等陈述，均未给判定答案。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p41:e1
+    pdf_page_index: 41
+    printed_page_label: 36
+    section_id: c04
+    locator: "『强化训练』三、判断题 29-34"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 判断题 29-34 涉及水箱盖蒸气阀与空气阀常闭单向阀、闭式循环沸点可高于 100℃、风扇离合器自动调节、水泵检视孔、锁止板应急等陈述，未给答案。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p41:e2
+    pdf_page_index: 41
+    printed_page_label: 36
+    section_id: c04
+    locator: "『强化训练』四、选择题 1-14"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 选择题 1-14 涉及最佳工作温度选项（90/70-80/80-90/80-100℃）、软水判断、节温器石蜡泄漏、堵塞冷却管百分比、储液罐补水原理等，均未标答案。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p42:e1
+    pdf_page_index: 42
+    printed_page_label: 37
+    section_id: c04
+    locator: "『强化训练』四、选择题 15-21"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 选择题 15-21 涉及桑塔纳 JV 风扇转速控制、节温器开闭部件与安装位置、强制循环装置、闭式循环沸点等，均未标答案。
+    reader_model: "glm-flash-free"
+
+  - evidence_id: book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p42:e2
+    pdf_page_index: 42
+    printed_page_label: 37
+    section_id: c04
+    locator: "『强化训练』五、简答题 1-6"
+    source_kind: BOOK_BODY_DIRECT
+    observation_summary: 简答题 1-6 问冷却系统作用、膨胀水箱目的、风扇离合器作用、大小循环路线图、冷却不足与过度危害、水泵作用及工作原理，仅有问题无答案。
+    reader_model: "glm-flash-free"

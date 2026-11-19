@@ -1,0 +1,13 @@
+chapter_id: c01q0509
+pdf_pages_range:
+- 16
+- 22
+extractor_model: glm-flash-free
+source_pdf_sha256: 986e74c6fe6e58806013f27efe2fa3b39b5d7245c0df67970513210bc6d67d60
+claims: 93
+entities: 71
+edges: 70
+evidence_records: 14
+open_questions: 10
+observations_local_only: true
+status: EXTRACTED_STRUCT_QA_PENDING_REVIEW

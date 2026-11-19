@@ -1,0 +1,1566 @@
+{
+  "@context": {
+    "@vocab": "https://example.org/automotive-books-kg/",
+    "auto": "https://example.org/automotive-books-kg/",
+    "bookRef": {
+      "@id": "auto:bookRef",
+      "@type": "@id"
+    },
+    "claim": {
+      "@id": "auto:claim",
+      "@type": "@id"
+    },
+    "evidenceRef": {
+      "@id": "auto:evidenceRef",
+      "@type": "@id"
+    },
+    "from": {
+      "@id": "auto:from",
+      "@type": "@id"
+    },
+    "object": {
+      "@id": "auto:object",
+      "@type": "@id"
+    },
+    "subject": {
+      "@id": "auto:subject",
+      "@type": "@id"
+    },
+    "to": {
+      "@id": "auto:to",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "@type": "auto:KnowledgeGraph",
+      "canonicalJson": "{\"book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"coverage_summary\":{\"assets_processed\":5,\"assets_total\":10,\"pages_blocked\":48,\"pages_processed\":5,\"pages_total\":53,\"sections_closed\":1,\"sections_total\":1},\"generation_receipt\":{\"chapters\":[\"c02sc\"],\"extractor_model\":\"glm-flash-free\",\"generated_utc\":\"2026-11-19T20:50:24+00:00\",\"observations\":\"local-private (not committed); evidence observation_summary in graph\",\"rights_note\":\"local processing only; no external API upload performed\",\"source_pdf_sha256\":\"5f937d51a0879d8e98b9a1da2f6cca4ce13c11cb9bd4a7c9e12b68a639f0efc2\",\"writer\":\"zcode-main-session:book-integrator\"},\"graph_revision\":1,\"ontology_version\":\"automotive-books-kg-ontology-1.0\",\"page_ledger_ref\":\"page-ledger.yaml\",\"review_status\":\"GENERATED_REVIEW_PENDING\",\"schema_version\":\"1.0.0\",\"sections\":[{\"end_pdf_page\":7,\"id\":\"c02sc\",\"label\":\"二、配电系统：配电/点火系统电路图（printed 3）+ 启动/充电系统电路图（printed 4）\",\"section_status\":\"EXTRACTED\",\"start_pdf_page\":6}],\"source\":{\"drive_file_id\":\"144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"edition\":\"第1版\",\"isbn\":\"978-7-5381-5948-6\",\"pdf_page_count\":53,\"publication_year\":2009,\"source_rights_status\":\"UNKNOWN\",\"source_sha256\":\"5f937d51a0879d8e98b9a1da2f6cca4ce13c11cb9bd4a7c9e12b68a639f0efc2\",\"title\":\"广州丰田凯美瑞彩色电路图集\"}}",
+      "ontologyVersion": "automotive-books-kg-ontology-1.0",
+      "reviewStatus": "GENERATED_REVIEW_PENDING",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01\",\"kind\":\"component\",\"label\":\"蓄电池\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "蓄电池"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02\",\"kind\":\"fuse\",\"label\":\"FL MAIN 主熔丝 3.0W\"}",
+      "domain": "",
+      "kind": "fuse",
+      "label": "FL MAIN 主熔丝 3.0W"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03\",\"kind\":\"fuse\",\"label\":\"120A ALT 熔丝\"}",
+      "domain": "",
+      "kind": "fuse",
+      "label": "120A ALT 熔丝"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k04",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k04\",\"kind\":\"fuse\",\"label\":\"30A ST/AM2 熔丝\"}",
+      "domain": "",
+      "kind": "fuse",
+      "label": "30A ST/AM2 熔丝"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k05",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k05\",\"kind\":\"fuse\",\"label\":\"7.5A AM1 熔丝\"}",
+      "domain": "",
+      "kind": "fuse",
+      "label": "7.5A AM1 熔丝"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06\",\"kind\":\"fuse\",\"label\":\"10A GAUGE NO.1 熔丝(IG)\"}",
+      "domain": "",
+      "kind": "fuse",
+      "label": "10A GAUGE NO.1 熔丝(IG)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k07",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k07\",\"kind\":\"fuse\",\"label\":\"7.5A GAUGE NO.2 熔丝(IG)\"}",
+      "domain": "",
+      "kind": "fuse",
+      "label": "7.5A GAUGE NO.2 熔丝(IG)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08\",\"kind\":\"component\",\"label\":\"E23 点火开关\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "E23 点火开关"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\",\"kind\":\"component\",\"label\":\"启动继电器\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "启动继电器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10\",\"kind\":\"component\",\"label\":\"A22 离(高)合器启动开关(M/T)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "A22 离(高)合器启动开关(M/T)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11\",\"kind\":\"component\",\"label\":\"P/N 位置开关矩阵(A/T)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "P/N 位置开关矩阵(A/T)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12\",\"kind\":\"component\",\"label\":\"起动机 C3(A)/C29(B)/D1(C)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "起动机 C3(A)/C29(B)/D1(C)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k13",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k13\",\"kind\":\"component\",\"label\":\"起动机磁性开关\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "起动机磁性开关"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14\",\"kind\":\"component\",\"label\":\"发电机(交流发电机) C18(B)/C19(A)/C\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "发电机(交流发电机) C18(B)/C19(A)/C"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k15",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k15\",\"kind\":\"component\",\"label\":\"发电机整流器(6管)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "发电机整流器(6管)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"kind\":\"component\",\"label\":\"IC 调节器\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "IC 调节器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17\",\"kind\":\"component\",\"label\":\"充电指示灯(组合仪表内)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "充电指示灯(组合仪表内)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18\",\"kind\":\"component\",\"label\":\"组合仪表 F1(A)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "组合仪表 F1(A)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19\",\"kind\":\"component\",\"label\":\"发动机 ECU\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "发动机 ECU"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k20",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k20\",\"kind\":\"component\",\"label\":\"变速器 ECU\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "变速器 ECU"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k21",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k21\",\"kind\":\"system\",\"label\":\"发动机控制系统\"}",
+      "domain": "",
+      "kind": "system",
+      "label": "发动机控制系统"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22\",\"kind\":\"component\",\"label\":\"点火线圈(1-4)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "点火线圈(1-4)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k23",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k23\",\"kind\":\"component\",\"label\":\"C16 静噪滤波器(点火右)\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "C16 静噪滤波器(点火右)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k24",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k24\",\"kind\":\"component\",\"label\":\"右后除霜继电器\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "右后除霜继电器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k25",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k25\",\"kind\":\"component\",\"label\":\"电子控制喷油装置继电器\"}",
+      "domain": "",
+      "kind": "component",
+      "label": "电子控制喷油装置继电器"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k26",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k26\",\"kind\":\"infrastructure\",\"label\":\"接线位置代号体系(1B/1C/1E/1F/1G/1I/3E/3F/3G/3Q/12/16 等)\"}",
+      "domain": "",
+      "kind": "infrastructure",
+      "label": "接线位置代号体系(1B/1C/1E/1F/1G/1I/3E/3F/3G/3Q/12/16 等)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k27",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k27\",\"kind\":\"infrastructure\",\"label\":\"中继线连接器(A41(A)/A42(B)、C1(A)/B(B))\"}",
+      "domain": "",
+      "kind": "infrastructure",
+      "label": "中继线连接器(A41(A)/A42(B)、C1(A)/B(B))"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k28",
+      "@type": "auto:Entity",
+      "aliases": [],
+      "applicability": null,
+      "canonicalJson": "{\"applicability\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k28\",\"kind\":\"infrastructure\",\"label\":\"接地点(A1/A3/C4/壳体接地)\"}",
+      "domain": "",
+      "kind": "infrastructure",
+      "label": "接地点(A1/A3/C4/壳体接地)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0001",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0001\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02\",\"predicate\":\"feeds_power_through\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"蓄电池正极经 FL MAIN 3.0W 主熔丝向起动机及全车配电母线供电（printed 3 配电图与 printed 4 启动/充电图一致）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+      "predicate": "feeds_power_through",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "蓄电池正极经 FL MAIN 3.0W 主熔丝向起动机及全车配电母线供电（printed 3 配电图与 printed 4 启动/充电图一致）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0002",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0002\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03\",\"predicate\":\"feeds_power_through\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"蓄电池经 120A ALT 熔丝向点火开关 AM1/AM2 支路供电。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03",
+      "predicate": "feeds_power_through",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "蓄电池经 120A ALT 熔丝向点火开关 AM1/AM2 支路供电。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0003",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0003\",\"measurement\":{\"numeric_value\":3.0,\"test_condition\":\"电路图熔丝额定值标注（printed 3）\",\"unit\":\"W\"},\"object_id\":null,\"predicate\":\"has_specification\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"FL MAIN 主熔丝额定规格标注为 3.0W。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02\",\"unknowns\":[],\"value\":\"3.0W\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4"
+      ],
+      "measurement": {
+        "numeric_value": 3.0,
+        "test_condition": "电路图熔丝额定值标注（printed 3）",
+        "unit": "W"
+      },
+      "predicate": "has_specification",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "FL MAIN 主熔丝额定规格标注为 3.0W。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+      "unknowns": [],
+      "value": "3.0W"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0004",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0004\",\"measurement\":{\"numeric_value\":120,\"test_condition\":\"电路图熔丝额定值标注（printed 3）\",\"unit\":\"A\"},\"object_id\":null,\"predicate\":\"has_specification\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"交流发电机主熔丝额定电流 120A。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03\",\"unknowns\":[],\"value\":\"120A\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1"
+      ],
+      "measurement": {
+        "numeric_value": 120,
+        "test_condition": "电路图熔丝额定值标注（printed 3）",
+        "unit": "A"
+      },
+      "predicate": "has_specification",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "交流发电机主熔丝额定电流 120A。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03",
+      "unknowns": [],
+      "value": "120A"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0005",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0005\",\"measurement\":{\"numeric_value\":30,\"test_condition\":\"电路图熔丝额定值标注（printed 3/4）\",\"unit\":\"A\"},\"object_id\":null,\"predicate\":\"has_specification\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"ST/AM2 熔丝额定电流 30A，向点火开关 AM2(针5) 供电。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k04\",\"unknowns\":[],\"value\":\"30A\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1"
+      ],
+      "measurement": {
+        "numeric_value": 30,
+        "test_condition": "电路图熔丝额定值标注（printed 3/4）",
+        "unit": "A"
+      },
+      "predicate": "has_specification",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "ST/AM2 熔丝额定电流 30A，向点火开关 AM2(针5) 供电。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k04",
+      "unknowns": [],
+      "value": "30A"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0006",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0006\",\"measurement\":{\"numeric_value\":7.5,\"test_condition\":\"电路图熔丝额定值标注（printed 3/4）\",\"unit\":\"A\"},\"object_id\":null,\"predicate\":\"has_specification\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"AM1 熔丝额定电流 7.5A，经 O 色线向点火开关 AM1(针4) 供电。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k05\",\"unknowns\":[],\"value\":\"7.5A\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1"
+      ],
+      "measurement": {
+        "numeric_value": 7.5,
+        "test_condition": "电路图熔丝额定值标注（printed 3/4）",
+        "unit": "A"
+      },
+      "predicate": "has_specification",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "AM1 熔丝额定电流 7.5A，经 O 色线向点火开关 AM1(针4) 供电。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k05",
+      "unknowns": [],
+      "value": "7.5A"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0007",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0007\",\"measurement\":{\"numeric_value\":10,\"test_condition\":\"电路图熔丝额定值标注（printed 4）\",\"unit\":\"A\"},\"object_id\":null,\"predicate\":\"has_specification\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"GAUGE NO.1 熔丝(IG 电源)额定电流 10A，经 R/O 线向发电机 IC 调节器 IG 端供电。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06\",\"unknowns\":[],\"value\":\"10A\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+      ],
+      "measurement": {
+        "numeric_value": 10,
+        "test_condition": "电路图熔丝额定值标注（printed 4）",
+        "unit": "A"
+      },
+      "predicate": "has_specification",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "GAUGE NO.1 熔丝(IG 电源)额定电流 10A，经 R/O 线向发电机 IC 调节器 IG 端供电。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06",
+      "unknowns": [],
+      "value": "10A"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0008",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0008\",\"measurement\":{\"numeric_value\":7.5,\"test_condition\":\"电路图熔丝额定值标注（printed 4）\",\"unit\":\"A\"},\"object_id\":null,\"predicate\":\"has_specification\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"GAUGE NO.2 熔丝(IG 电源)额定电流 7.5A，经 GR 线向充电指示灯 IG2 侧供电。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k07\",\"unknowns\":[],\"value\":\"7.5A\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+      ],
+      "measurement": {
+        "numeric_value": 7.5,
+        "test_condition": "电路图熔丝额定值标注（printed 4）",
+        "unit": "A"
+      },
+      "predicate": "has_specification",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "GAUGE NO.2 熔丝(IG 电源)额定电流 7.5A，经 GR 线向充电指示灯 IG2 侧供电。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k07",
+      "unknowns": [],
+      "value": "7.5A"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0009",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0009\",\"object_id\":null,\"predicate\":\"has_terminal\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"E23 点火开关端子：AM1(针4,进线O)、ACC、IG1、ST1(针3,出线GR)、AM2(针5,进线B)、IG2、ST2(针7,出线L)。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08\",\"unknowns\":[],\"value\":\"AM1(4)/ACC/IG1/ST1(3)/AM2(5)/IG2/ST2(7)\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1"
+      ],
+      "measurement": null,
+      "predicate": "has_terminal",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "E23 点火开关端子：AM1(针4,进线O)、ACC、IG1、ST1(针3,出线GR)、AM2(针5,进线B)、IG2、ST2(针7,出线L)。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+      "unknowns": [],
+      "value": "AM1(4)/ACC/IG1/ST1(3)/AM2(5)/IG2/ST2(7)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0010",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e3\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0010\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"点火开关 ST2(针7) 经 L 色线、AE7 针2 接启动继电器线圈；ST1(针3) 经 GR 线、[3F][3E] 接 EA1 针6。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "点火开关 ST2(针7) 经 L 色线、AE7 针2 接启动继电器线圈；ST1(针3) 经 GR 线、[3F][3E] 接 EA1 针6。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0011",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "transmission": [
+          "M/T"
+        ]
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"transmission\":[\"M/T\"]},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0011\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\",\"predicate\":\"enables_starting_for\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"M/T 车型：A22 离(高)合器启动开关串入启动继电器线圈回路（G 色线）；A22 名称首字在 150/300dpi 下离/高字形相近，按丰田 M/T 标准配置判读为离合器启动开关，保留 PARTIAL。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10\",\"unknowns\":[\"A22 名称首字未完全确证（离/高）\",\"开关内部常闭/常开逻辑图上未标注\"],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+      "predicate": "enables_starting_for",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "M/T 车型：A22 离(高)合器启动开关串入启动继电器线圈回路（G 色线）；A22 名称首字在 150/300dpi 下离/高字形相近，按丰田 M/T 标准配置判读为离合器启动开关，保留 PARTIAL。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10",
+      "unknowns": [
+        "A22 名称首字未完全确证（离/高）",
+        "开关内部常闭/常开逻辑图上未标注"
+      ]
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0012",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "transmission": [
+          "A/T"
+        ]
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"transmission\":[\"A/T\"]},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0012\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\",\"predicate\":\"enables_starting_for\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"A/T 车型：P/N 位置开关矩阵(L/B/P/N)经 C1(A)/B(B) 中继线连接器(9A:2GR-FE/5B:2AZ-FE)参与启动使能回路；CA2 针8→Y(A/T)→变速器 ECU<7-23>。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+      "predicate": "enables_starting_for",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "A/T 车型：P/N 位置开关矩阵(L/B/P/N)经 C1(A)/B(B) 中继线连接器(9A:2GR-FE/5B:2AZ-FE)参与启动使能回路；CA2 针8→Y(A/T)→变速器 ECU<7-23>。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0013",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0013\",\"object_id\":null,\"predicate\":\"has_terminal\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"启动继电器端子：线圈 5/1，触点 3/2；触点侧 GR 与 SB 两线的输入/输出方向在分块边缘未能完全区分（PARTIAL_UNCONFIRMED，不作诊断结论）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\",\"unknowns\":[\"触点侧 GR/SB 进出方向未确证\"],\"value\":\"5/1 线圈；3/2 触点\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2"
+      ],
+      "measurement": null,
+      "predicate": "has_terminal",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "启动继电器端子：线圈 5/1，触点 3/2；触点侧 GR 与 SB 两线的输入/输出方向在分块边缘未能完全区分（PARTIAL_UNCONFIRMED，不作诊断结论）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+      "unknowns": [
+        "触点侧 GR/SB 进出方向未确证"
+      ],
+      "value": "5/1 线圈；3/2 触点"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0014",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0014\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02\",\"predicate\":\"receives_power_from\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"起动机(C3(A)/C29(B)/D1(C)) B 端经 B 色线、C 接点、FL MAIN 3.0W 熔丝接蓄电池正极；磁性开关由 CA1(针1) B 线（A/T:A / M/T:B）供电；电机壳体接地。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+      "predicate": "receives_power_from",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "起动机(C3(A)/C29(B)/D1(C)) B 端经 B 色线、C 接点、FL MAIN 3.0W 熔丝接蓄电池正极；磁性开关由 CA1(针1) B 线（A/T:A / M/T:B）供电；电机壳体接地。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0015",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0015\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k13\",\"predicate\":\"has_subcomponent\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"起动机包含磁性开关（电磁开关）与 M 电机两部分（图示）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k13",
+      "predicate": "has_subcomponent",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "起动机包含磁性开关（电磁开关）与 M 电机两部分（图示）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0016",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0016\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k15\",\"predicate\":\"has_subcomponent\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"发电机内置三相定子绕组与 6 管整流桥（图示），整流输出经 B 端（针1:A=2GR-FE / 1:B=2AZ-FE）以 B 色线并入 FL MAIN/蓄电池母线。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k15",
+      "predicate": "has_subcomponent",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "发电机内置三相定子绕组与 6 管整流桥（图示），整流输出经 B 端（针1:A=2GR-FE / 1:B=2AZ-FE）以 B 色线并入 FL MAIN/蓄电池母线。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0017",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0017\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"predicate\":\"has_subcomponent\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"发电机内置 IC 调节器，端子 B/M/S/IG/L（针 B; M=3B; S=1B; IG=2B; L=4B）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "predicate": "has_subcomponent",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "发电机内置 IC 调节器，端子 B/M/S/IG/L（针 B; M=3B; S=1B; IG=2B; L=4B）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0018",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0018\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"IC 调节器 M 端(针3) 经 L 色线(2AZ-FE)、[3B] 接线位置接发动机 ECU<8-9>。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "IC 调节器 M 端(针3) 经 L 色线(2AZ-FE)、[3B] 接线位置接发动机 ECU<8-9>。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0019",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0019\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"IC 调节器 IG 端(针2) 经 R 线、[2B]→10 CA2→14 EA1→16 IH 接 10A GAUGE NO.1(IG) 熔丝。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "IC 调节器 IG 端(针2) 经 R 线、[2B]→10 CA2→14 EA1→16 IH 接 10A GAUGE NO.1(IG) 熔丝。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0020",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0020\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"充电指示灯一端 IG2(针13) 经 GR 线、[3Q][3G]、[12 IG] 接 7.5A GAUGE NO.2(IG)；另一端 CHG-(针23) 经 Y 线、[4B] 接发电机 L 端(针4)。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "充电指示灯一端 IG2(针13) 经 GR 线、[3Q][3G]、[12 IG] 接 7.5A GAUGE NO.2(IG)；另一端 CHG-(针23) 经 Y 线、[4B] 接发电机 L 端(针4)。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0021",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0021\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"发电机 IC 调节器 L 端经 Y 色线接组合仪表 F1(A)（充电指示灯 CHG- 侧）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "发电机 IC 调节器 L 端经 Y 色线接组合仪表 F1(A)（充电指示灯 CHG- 侧）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0022",
+      "@type": "auto:Claim",
+      "applicability": null,
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":null,\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0022\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"predicate\":\"receives_signal_from\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"发动机控制系统经 CA2(针7)→W(A/T)→V(蓝箭头=传感器/反馈) 与调节器/发电机相关信号相连（图例颜色定义反馈方向）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k21\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "predicate": "receives_signal_from",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "发动机控制系统经 CA2(针7)→W(A/T)→V(蓝箭头=传感器/反馈) 与调节器/发电机相关信号相连（图例颜色定义反馈方向）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k21",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0023",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0023\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"点火电路：四个点火线圈 C11/C13/C12/C14（黑色4针）1=+B(BR 母线)、4=GND(W-B 经 C4 接地)；IGT1/2/3/4（W/G-R/G/LG，绿色执行器信号）与 IGF（W-L，蓝色反馈信号，图例定义）汇合接发动机控制模块<8-10>。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "点火电路：四个点火线圈 C11/C13/C12/C14（黑色4针）1=+B(BR 母线)、4=GND(W-B 经 C4 接地)；IGT1/2/3/4（W/G-R/G/LG，绿色执行器信号）与 IGF（W-L，蓝色反馈信号，图例定义）汇合接发动机控制模块<8-10>。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0024",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0024\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"C16 静噪滤波器(点火右) 针1 接 IGF(W-L) 汇流线（图示）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k23\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "C16 静噪滤波器(点火右) 针1 接 IGF(W-L) 汇流线（图示）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k23",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0025",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0025\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22\",\"predicate\":\"feeds_power_through\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"配电：30A 主电喷装置(Y)→[12 1E]→电子控制喷油装置继电器→[6 1B]→B→15A 2号电喷(R)/10A 3号电喷(GR)；15A 喷油(点火)熔丝经 7→10 B 接线位置向点火线圈 +B(BR) 母线供电。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k25\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+      "predicate": "feeds_power_through",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "配电：30A 主电喷装置(Y)→[12 1E]→电子控制喷油装置继电器→[6 1B]→B→15A 2号电喷(R)/10A 3号电喷(GR)；15A 喷油(点火)熔丝经 7→10 B 接线位置向点火线圈 +B(BR) 母线供电。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k25",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0026",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0026\",\"object_id\":null,\"predicate\":\"has_terminal\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"右后除霜继电器端子 4/5/3/1/2，关联 W-B/Y/W/G/V 色线与 50A 右后除霜、10A 后视镜加热熔丝。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k24\",\"unknowns\":[],\"value\":\"4/5/3/1/2\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2"
+      ],
+      "measurement": null,
+      "predicate": "has_terminal",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "右后除霜继电器端子 4/5/3/1/2，关联 W-B/Y/W/G/V 色线与 50A 右后除霜、10A 后视镜加热熔丝。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k24",
+      "unknowns": [],
+      "value": "4/5/3/1/2"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0027",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p4:e1\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0027\",\"object_id\":null,\"predicate\":\"identifies\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"图内接线位置代号（1A/1B/1C/1E/1F/1G/1I/3E/3F/3G/3Q/12/16/IH/FE3 等）按图集识读页的代号体系标注接线盒/中继位置。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k26\",\"unknowns\":[],\"value\":\"[1A][1B][1C][1E][1F][1G][1I][3E][3F][3G][3Q][12][16][IH][FE3]\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p4:e1",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1"
+      ],
+      "measurement": null,
+      "predicate": "identifies",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "图内接线位置代号（1A/1B/1C/1E/1F/1G/1I/3E/3F/3G/3Q/12/16/IH/FE3 等）按图集识读页的代号体系标注接线盒/中继位置。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k26",
+      "unknowns": [],
+      "value": "[1A][1B][1C][1E][1F][1G][1I][3E][3F][3G][3Q][12][16][IH][FE3]"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0028",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0028\",\"object_id\":null,\"predicate\":\"identifies\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"中继线连接器代号 A41(A)/A42(B)、C1(A)/B(B) 用于跨区导线中继（printed 4）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k27\",\"unknowns\":[],\"value\":\"A41(A)/A42(B); C1(A)/B(B)\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7"
+      ],
+      "measurement": null,
+      "predicate": "identifies",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "中继线连接器代号 A41(A)/A42(B)、C1(A)/B(B) 用于跨区导线中继（printed 4）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k27",
+      "unknowns": [],
+      "value": "A41(A)/A42(B); C1(A)/B(B)"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0029",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4\",\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0029\",\"object_id\":null,\"predicate\":\"uses_wire_color\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"配电/启动/充电回路接地采用 W-B 色线，接地点含 A1、A3、C4 及起动机/蓄电池壳体接地（图示）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k28\",\"unknowns\":[],\"value\":\"W-B\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4",
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3"
+      ],
+      "measurement": null,
+      "predicate": "uses_wire_color",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "配电/启动/充电回路接地采用 W-B 色线，接地点含 A1、A3、C4 及起动机/蓄电池壳体接地（图示）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k28",
+      "unknowns": [],
+      "value": "W-B"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0030",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "transmission": [
+          "A/T"
+        ]
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"transmission\":[\"A/T\"]},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0030\",\"object_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11\",\"predicate\":\"connects_to\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"变速器 ECU<7-23> 经 Y(A/T)/L-B/L(2GR-FE) 与 P/N 位置矩阵相连（printed 4）。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k20\",\"unknowns\":[],\"value\":null}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7"
+      ],
+      "measurement": null,
+      "object": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+      "predicate": "connects_to",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "变速器 ECU<7-23> 经 Y(A/T)/L-B/L(2GR-FE) 与 P/N 位置矩阵相连（printed 4）。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k20",
+      "unknowns": []
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0031",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e5\"],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0031\",\"object_id\":null,\"predicate\":\"documented_in_analysis\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"BOOK_FIGURE_DIRECT\",\"statement\":\"分析栏列出整车配电说明与编号(1)-(16)熔丝供电路径（可读部分：40A 冷凝器风扇/发电机励磁/50A 主风扇/40A 散热器风扇/50A 加热器/30A ABS 2号/50A(ABS 1号?)/25A 1号门/15A 右前雾灯/7.5A OBD/30A 电动座椅/25A 电动窗/30A 天窗/7.5A 空调/10A 制动灯），右缘裁切尾字不全，完整文本待原图复核。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02\",\"unknowns\":[\"条目右缘裁切，个别熔丝名称尾字不全（如 50A 后接 ABS 1号? 未确证）\"],\"value\":\"(1)-(16) 熔丝供电路径清单\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "evidenceRef": [
+        "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e5"
+      ],
+      "measurement": null,
+      "predicate": "documented_in_analysis",
+      "safetyScope": null,
+      "sourceKind": "BOOK_FIGURE_DIRECT",
+      "statement": "分析栏列出整车配电说明与编号(1)-(16)熔丝供电路径（可读部分：40A 冷凝器风扇/发电机励磁/50A 主风扇/40A 散热器风扇/50A 加热器/30A ABS 2号/50A(ABS 1号?)/25A 1号门/15A 右前雾灯/7.5A OBD/30A 电动座椅/25A 电动窗/30A 天窗/7.5A 空调/10A 制动灯），右缘裁切尾字不全，完整文本待原图复核。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+      "unknowns": [
+        "条目右缘裁切，个别熔丝名称尾字不全（如 50A 后接 ABS 1号? 未确证）"
+      ],
+      "value": "(1)-(16) 熔丝供电路径清单"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0032",
+      "@type": "auto:Claim",
+      "applicability": {
+        "engine": [
+          "2AZ-FE",
+          "2GR-FE"
+        ],
+        "make": "Toyota",
+        "market": null,
+        "model": "凯美瑞/Camry",
+        "model_code": null
+      },
+      "assumptions": [],
+      "canonicalJson": "{\"applicability\":{\"engine\":[\"2AZ-FE\",\"2GR-FE\"],\"make\":\"Toyota\",\"market\":null,\"model\":\"凯美瑞/Camry\",\"model_code\":null},\"conditions\":[],\"counterexamples\":[],\"evidence_ids\":[],\"id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0032\",\"object_id\":null,\"predicate\":\"expected_operation\",\"qualification_status\":\"EXTRACTED_UNCHECKED\",\"source_kind\":\"MODEL_INFERENCE\",\"statement\":\"推断（非本书断言）：启动继电器线圈经 ST2→L 得电、触点接通后由 GR/SB 支路向磁性开关供电——该方向性判断部分依赖常规继电器拓扑推断，图中触点进出方向未完全可辨。\",\"subject_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\",\"unknowns\":[\"图中触点方向 PARTIAL；此条仅为推断，不作为书页证据\"],\"value\":\"线圈经ST2→L得电，触点接通后由GR/SB支路向磁性开关供电（方向性推断）\"}",
+      "conditions": [],
+      "counterexamples": [],
+      "measurement": null,
+      "predicate": "expected_operation",
+      "safetyScope": null,
+      "sourceKind": "MODEL_INFERENCE",
+      "statement": "推断（非本书断言）：启动继电器线圈经 ST2→L 得电、触点接通后由 GR/SB 支路向磁性开关供电——该方向性判断部分依赖常规继电器拓扑推断，图中触点进出方向未完全可辨。",
+      "status": "EXTRACTED_UNCHECKED",
+      "subject": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+      "unknowns": [
+        "图中触点方向 PARTIAL；此条仅为推断，不作为书页证据"
+      ],
+      "value": "线圈经ST2→L得电，触点接通后由GR/SB支路向磁性开关供电（方向性推断）"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p4:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p4:e1\",\"locator\":\"survey p00004 150dpi：电路图识读页——接线位置代号表(C/H/I/G 等字母含义)、术语缩写、总线示意\",\"observation_summary\":\"图集识读规则与接线位置代号体系（用于解读页内 [1B][EA1][CA2] 等代号）。\",\"pdf_page_index\":4,\"printed_page_label\":\"1\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "survey p00004 150dpi：电路图识读页——接线位置代号表(C/H/I/G 等字母含义)、术语缩写、总线示意",
+      "observationSummary": "图集识读规则与接线位置代号体系（用于解读页内 [1B][EA1][CA2] 等代号）。",
+      "pdfPageIndex": 4,
+      "printedPageLabel": "1",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1\",\"locator\":\"tileA/tileB 300dpi：配电熔丝区(50A 1号ABS/30A 2号ABS/50A 右后除霜/50A 加热器/50A 主风扇/40A 散热风扇/120A 交流发电机/40A 冷凝器风扇/10A 车顶/10A 1号ECU-B/15A 收音机/20A 启动锁/25A 音响/15A 转向与危险灯/10A 发动机牵引力控制/7.5A 发电机)\",\"observation_summary\":\"配电区熔丝清单与进线线色清晰可读。\",\"pdf_page_index\":6,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileA/tileB 300dpi：配电熔丝区(50A 1号ABS/30A 2号ABS/50A 右后除霜/50A 加热器/50A 主风扇/40A 散热风扇/120A 交流发电机/40A 冷凝器风扇/10A 车顶/10A 1号ECU-B/15A 收音机/20A 启动锁/25A 音响/15A 转向与危险灯/10A 发动机牵引力控制/7.5A 发电机)",
+      "observationSummary": "配电区熔丝清单与进线线色清晰可读。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "3",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F6-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F6-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2\",\"locator\":\"tileA/tileB：右后除霜继电器端子4/5/3/1/2与W-B/Y/W/G/V线；日间行车/喇叭/空燃比/安全喇叭/H-LP(LL)/(RL)/电子控制喷油装置继电器组\",\"observation_summary\":\"继电器组与关联熔丝拓扑清晰。\",\"pdf_page_index\":6,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileA/tileB：右后除霜继电器端子4/5/3/1/2与W-B/Y/W/G/V线；日间行车/喇叭/空燃比/安全喇叭/H-LP(LL)/(RL)/电子控制喷油装置继电器组",
+      "observationSummary": "继电器组与关联熔丝拓扑清晰。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "3",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F6-2",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F6-2\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3\",\"locator\":\"tileC：点火电路框 15A 喷油(点火)→BR 母线→C11/C13/C12/C14 点火线圈(1=+B,4=GND,IGT:W/G-R/G/LG,IGF:W-L)→发动机控制模块<8-10>；C16 静噪滤波器(点火右)针1；W-B 经 C4 接地\",\"observation_summary\":\"四个点火线圈端子号与线色全部可读，IGF 汇流线为蓝色(图例=反馈)。\",\"pdf_page_index\":6,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileC：点火电路框 15A 喷油(点火)→BR 母线→C11/C13/C12/C14 点火线圈(1=+B,4=GND,IGT:W/G-R/G/LG,IGF:W-L)→发动机控制模块<8-10>；C16 静噪滤波器(点火右)针1；W-B 经 C4 接地",
+      "observationSummary": "四个点火线圈端子号与线色全部可读，IGF 汇流线为蓝色(图例=反馈)。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "3",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4\",\"locator\":\"tileB：FL MAIN 3.0W 主熔丝与蓄电池、1G 分配总线至 H-LP/多路通信/1号电喷支路\",\"observation_summary\":\"主熔丝与分配总线拓扑清晰。\",\"pdf_page_index\":6,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileB：FL MAIN 3.0W 主熔丝与蓄电池、1G 分配总线至 H-LP/多路通信/1号电喷支路",
+      "observationSummary": "主熔丝与分配总线拓扑清晰。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "3",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e5",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F6-3",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F6-3\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e5\",\"locator\":\"tileB/tileC 右缘：分析栏说明与编号(1)-(16)熔丝供电路径（右缘裁切，尾字不全）\",\"observation_summary\":\"分析文字部分可读：(1)经40A冷凝器风扇熔丝…(2)供电给发电机励磁电路…(3)经50A主风扇…(4)经40A散热器风扇…(5)经50A加热器…(6)经30A ABS 2号…(7)经50A(ABS 1号?)…(8)经25A 1号门…(9)经15A右前雾灯…(10)经7.5A OBD…(11)经30A电动座椅…(12)经25A电动窗…(13)经30A天窗…(14)经7.5A空调…(16)经10A制动熔丝后供给制动灯…\",\"pdf_page_index\":6,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileB/tileC 右缘：分析栏说明与编号(1)-(16)熔丝供电路径（右缘裁切，尾字不全）",
+      "observationSummary": "分析文字部分可读：(1)经40A冷凝器风扇熔丝…(2)供电给发电机励磁电路…(3)经50A主风扇…(4)经40A散热器风扇…(5)经50A加热器…(6)经30A ABS 2号…(7)经50A(ABS 1号?)…(8)经25A 1号门…(9)经15A右前雾灯…(10)经7.5A OBD…(11)经30A电动座椅…(12)经25A电动窗…(13)经30A天窗…(14)经7.5A空调…(16)经10A制动熔丝后供给制动灯…",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "3",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6",
+      "@type": "auto:Evidence",
+      "assetId": null,
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":null,\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6\",\"locator\":\"tileA 图例带：红=电器电源/电路供电、绿=执行器/控制信号、蓝=传感器/反馈信号\",\"observation_summary\":\"三色箭头图例定义，用于判读导线信号方向。\",\"pdf_page_index\":6,\"printed_page_label\":\"3\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileA 图例带：红=电器电源/电路供电、绿=执行器/控制信号、蓝=传感器/反馈信号",
+      "observationSummary": "三色箭头图例定义，用于判读导线信号方向。",
+      "pdfPageIndex": 6,
+      "printedPageLabel": "3",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F7-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1\",\"locator\":\"tileA(p7)：E23 点火开关端子 AM1(4)/ACC/IG1/ST1(3)/AM2(5)/IG2/ST2(7)；7.5A AM1(O线)、120A ALT(B)、30A ST/AM2(B) 熔丝链；AE7 针1(B)/针2(L)\",\"observation_summary\":\"点火开关各档端子号与进出线色清晰。\",\"pdf_page_index\":7,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileA(p7)：E23 点火开关端子 AM1(4)/ACC/IG1/ST1(3)/AM2(5)/IG2/ST2(7)；7.5A AM1(O线)、120A ALT(B)、30A ST/AM2(B) 熔丝链；AE7 针1(B)/针2(L)",
+      "observationSummary": "点火开关各档端子号与进出线色清晰。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "4",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F7-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2\",\"locator\":\"tileA(p7)：启动继电器(5/1线圈、3/2触点)与 A22 离(高)合器启动开关(黑色2针，M/T)；G/L 线路径\",\"observation_summary\":\"启动继电器与 M/T 启动使能开关可见；继电器触点侧 GR/SB 走向细节为 PARTIAL。\",\"pdf_page_index\":7,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileA(p7)：启动继电器(5/1线圈、3/2触点)与 A22 离(高)合器启动开关(黑色2针，M/T)；G/L 线路径",
+      "observationSummary": "启动继电器与 M/T 启动使能开关可见；继电器触点侧 GR/SB 走向细节为 PARTIAL。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "4",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e3",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F7-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e3\",\"locator\":\"tileA/B(p7)：ST1(3)→GR→[3F][3E]→EA1(6)→B(2AZ-FE)/P(2GR-FE)分支；CA2 针18 R(*1)、针8；CA3 针9 SB(*1)\",\"observation_summary\":\"ST1 信号经中继到 EA1/CA2/CA3 的路径与线色清晰。\",\"pdf_page_index\":7,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileA/B(p7)：ST1(3)→GR→[3F][3E]→EA1(6)→B(2AZ-FE)/P(2GR-FE)分支；CA2 针18 R(*1)、针8；CA3 针9 SB(*1)",
+      "observationSummary": "ST1 信号经中继到 EA1/CA2/CA3 的路径与线色清晰。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "4",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F7-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4\",\"locator\":\"tileC(p7)：蓄电池+→FL MAIN 3.0W→C 接点→C3(A)C29(B)D1(C) 起动机(B 大线+电磁开关+M 电机，壳体接地)；CA1(1)→B→磁性开关(A/T:A/M/T:B)；W-B→接地A1/A3\",\"observation_summary\":\"起动机主供电与接地路径清晰。\",\"pdf_page_index\":7,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileC(p7)：蓄电池+→FL MAIN 3.0W→C 接点→C3(A)C29(B)D1(C) 起动机(B 大线+电磁开关+M 电机，壳体接地)；CA1(1)→B→磁性开关(A/T:A/M/T:B)；W-B→接地A1/A3",
+      "observationSummary": "起动机主供电与接地路径清晰。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "4",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F7-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5\",\"locator\":\"tileC/D(p7)：发电机 C18(B)C19(A)C 三相定子→6管整流桥→B端(1A:2GR-FE/1B:2AZ-FE)→B线并入 FL MAIN/蓄电池母线；IC 调节器 B/M/S/IG/L 端子\",\"observation_summary\":\"发电机内部整流与调节器五端子清晰。\",\"pdf_page_index\":7,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileC/D(p7)：发电机 C18(B)C19(A)C 三相定子→6管整流桥→B端(1A:2GR-FE/1B:2AZ-FE)→B线并入 FL MAIN/蓄电池母线；IC 调节器 B/M/S/IG/L 端子",
+      "observationSummary": "发电机内部整流与调节器五端子清晰。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "4",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F7-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6\",\"locator\":\"tileB/D(p7)：充电指示灯回路：IG2←13A←GR←[3Q][3G]←12 IG←7.5A GAUGE NO.2(IG)；灯另一端 CHG-→23A→Y→[4B]→发电机 L(4B)；10A GAUGE NO.1(IG)→16IH→R→14EA1→O→10CA2→R→IG(2B)；M(3B)→L(2AZ-FE)→3B→发动机ECU<8-9>\",\"observation_summary\":\"充电指示灯与调节器 IG/M/S/L 外回路端子、线色、中继连接器齐全。\",\"pdf_page_index\":7,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileB/D(p7)：充电指示灯回路：IG2←13A←GR←[3Q][3G]←12 IG←7.5A GAUGE NO.2(IG)；灯另一端 CHG-→23A→Y→[4B]→发电机 L(4B)；10A GAUGE NO.1(IG)→16IH→R→14EA1→O→10CA2→R→IG(2B)；M(3B)→L(2AZ-FE)→3B→发动机ECU<8-9>",
+      "observationSummary": "充电指示灯与调节器 IG/M/S/L 外回路端子、线色、中继连接器齐全。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "4",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7",
+      "@type": "auto:Evidence",
+      "assetId": "c02sc-F7-1",
+      "bookRef": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+      "canonicalJson": "{\"asset_id\":\"c02sc-F7-1\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7\",\"locator\":\"tileC(p7)：R(M/T)×3→汇点→W(A/T)→CA2(7)→V(蓝)→发动机控制系统<7-17><8-11>；Y(2GR-FE)→发射ECU<7-23>；P/N 矩阵(L/B/P/N)经C1(A)B(B)中继线连接器\",\"observation_summary\":\"M/T 与 A/T 启动使能差异路径清晰。\",\"pdf_page_index\":7,\"printed_page_label\":\"4\",\"reader_model\":\"zcode-main-session (GLM)\",\"section_id\":\"c02sc\",\"source_book_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8\",\"source_kind\":\"BOOK_FIGURE_DIRECT\"}",
+      "externalURL": null,
+      "externalVersion": null,
+      "locator": "tileC(p7)：R(M/T)×3→汇点→W(A/T)→CA2(7)→V(蓝)→发动机控制系统<7-17><8-11>；Y(2GR-FE)→发射ECU<7-23>；P/N 矩阵(L/B/P/N)经C1(A)B(B)中继线连接器",
+      "observationSummary": "M/T 与 A/T 启动使能差异路径清晰。",
+      "pdfPageIndex": 7,
+      "printedPageLabel": "4",
+      "sectionId": "c02sc",
+      "sourceKind": "BOOK_FIGURE_DIRECT"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0001",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0001\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0001\",\"predicate\":\"feeds_power_through\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0001",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+      "predicate": "feeds_power_through",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0002",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0002\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0002\",\"predicate\":\"feeds_power_through\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0002",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+      "predicate": "feeds_power_through",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0003",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0010\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0003\",\"predicate\":\"connects_to\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0010",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+      "predicate": "connects_to",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0004",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0011\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0004\",\"predicate\":\"enables_starting_for\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0011",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10",
+      "predicate": "enables_starting_for",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0005",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0012\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0005\",\"predicate\":\"enables_starting_for\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0012",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+      "predicate": "enables_starting_for",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0006",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0018\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0006\",\"predicate\":\"connects_to\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0018",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "predicate": "connects_to",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0007",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0019\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0007\",\"predicate\":\"connects_to\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0019",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+      "predicate": "connects_to",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0008",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0020\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0008\",\"predicate\":\"connects_to\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0020",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17",
+      "predicate": "connects_to",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0009",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0021\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0009\",\"predicate\":\"connects_to\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0021",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+      "predicate": "connects_to",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18"
+    },
+    {
+      "@id": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0010",
+      "@type": "auto:Relation",
+      "canonicalJson": "{\"claim_id\":\"claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0023\",\"from_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22\",\"id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0010\",\"predicate\":\"connects_to\",\"to_id\":\"book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19\"}",
+      "claim": "https://example.org/automotive-books-kg/claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0023",
+      "from": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+      "predicate": "connects_to",
+      "status": null,
+      "to": "https://example.org/automotive-books-kg/book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19"
+    }
+  ]
+}

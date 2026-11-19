@@ -1,0 +1,1070 @@
+{
+ "book_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8",
+ "chapter_id": "c02sc",
+ "source_observation_ids": [
+  "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:obs:p6",
+  "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:obs:p7"
+ ],
+ "entities": [
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+   "label": "蓄电池",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+   "label": "FL MAIN 主熔丝 3.0W",
+   "kind": "fuse",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03",
+   "label": "120A ALT 熔丝",
+   "kind": "fuse",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k04",
+   "label": "30A ST/AM2 熔丝",
+   "kind": "fuse",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k05",
+   "label": "7.5A AM1 熔丝",
+   "kind": "fuse",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06",
+   "label": "10A GAUGE NO.1 熔丝(IG)",
+   "kind": "fuse",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k07",
+   "label": "7.5A GAUGE NO.2 熔丝(IG)",
+   "kind": "fuse",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+   "label": "E23 点火开关",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "label": "启动继电器",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10",
+   "label": "A22 离(高)合器启动开关(M/T)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+   "label": "P/N 位置开关矩阵(A/T)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12",
+   "label": "起动机 C3(A)/C29(B)/D1(C)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k13",
+   "label": "起动机磁性开关",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+   "label": "发电机(交流发电机) C18(B)/C19(A)/C",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k15",
+   "label": "发电机整流器(6管)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "label": "IC 调节器",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17",
+   "label": "充电指示灯(组合仪表内)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18",
+   "label": "组合仪表 F1(A)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+   "label": "发动机 ECU",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k20",
+   "label": "变速器 ECU",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k21",
+   "label": "发动机控制系统",
+   "kind": "system",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+   "label": "点火线圈(1-4)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k23",
+   "label": "C16 静噪滤波器(点火右)",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k24",
+   "label": "右后除霜继电器",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k25",
+   "label": "电子控制喷油装置继电器",
+   "kind": "component",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k26",
+   "label": "接线位置代号体系(1B/1C/1E/1F/1G/1I/3E/3F/3G/3Q/12/16 等)",
+   "kind": "infrastructure",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k27",
+   "label": "中继线连接器(A41(A)/A42(B)、C1(A)/B(B))",
+   "kind": "infrastructure",
+   "applicability": null
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k28",
+   "label": "接地点(A1/A3/C4/壳体接地)",
+   "kind": "infrastructure",
+   "applicability": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0001",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+   "predicate": "feeds_power_through",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+   "value": null,
+   "statement": "蓄电池正极经 FL MAIN 3.0W 主熔丝向起动机及全车配电母线供电（printed 3 配电图与 printed 4 启动/充电图一致）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0002",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+   "predicate": "feeds_power_through",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03",
+   "value": null,
+   "statement": "蓄电池经 120A ALT 熔丝向点火开关 AM1/AM2 支路供电。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0003",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+   "predicate": "has_specification",
+   "object_id": null,
+   "value": "3.0W",
+   "statement": "FL MAIN 主熔丝额定规格标注为 3.0W。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [],
+   "measurement": {
+    "numeric_value": 3.0,
+    "unit": "W",
+    "test_condition": "电路图熔丝额定值标注（printed 3）"
+   }
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0004",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03",
+   "predicate": "has_specification",
+   "object_id": null,
+   "value": "120A",
+   "statement": "交流发电机主熔丝额定电流 120A。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [],
+   "measurement": {
+    "numeric_value": 120,
+    "unit": "A",
+    "test_condition": "电路图熔丝额定值标注（printed 3）"
+   }
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0005",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k04",
+   "predicate": "has_specification",
+   "object_id": null,
+   "value": "30A",
+   "statement": "ST/AM2 熔丝额定电流 30A，向点火开关 AM2(针5) 供电。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [],
+   "measurement": {
+    "numeric_value": 30,
+    "unit": "A",
+    "test_condition": "电路图熔丝额定值标注（printed 3/4）"
+   }
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0006",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k05",
+   "predicate": "has_specification",
+   "object_id": null,
+   "value": "7.5A",
+   "statement": "AM1 熔丝额定电流 7.5A，经 O 色线向点火开关 AM1(针4) 供电。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [],
+   "measurement": {
+    "numeric_value": 7.5,
+    "unit": "A",
+    "test_condition": "电路图熔丝额定值标注（printed 3/4）"
+   }
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0007",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06",
+   "predicate": "has_specification",
+   "object_id": null,
+   "value": "10A",
+   "statement": "GAUGE NO.1 熔丝(IG 电源)额定电流 10A，经 R/O 线向发电机 IC 调节器 IG 端供电。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [],
+   "measurement": {
+    "numeric_value": 10,
+    "unit": "A",
+    "test_condition": "电路图熔丝额定值标注（printed 4）"
+   }
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0008",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k07",
+   "predicate": "has_specification",
+   "object_id": null,
+   "value": "7.5A",
+   "statement": "GAUGE NO.2 熔丝(IG 电源)额定电流 7.5A，经 GR 线向充电指示灯 IG2 侧供电。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [],
+   "measurement": {
+    "numeric_value": 7.5,
+    "unit": "A",
+    "test_condition": "电路图熔丝额定值标注（printed 4）"
+   }
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0009",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+   "predicate": "has_terminal",
+   "object_id": null,
+   "value": "AM1(4)/ACC/IG1/ST1(3)/AM2(5)/IG2/ST2(7)",
+   "statement": "E23 点火开关端子：AM1(针4,进线O)、ACC、IG1、ST1(针3,出线GR)、AM2(针5,进线B)、IG2、ST2(针7,出线L)。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0010",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "value": null,
+   "statement": "点火开关 ST2(针7) 经 L 色线、AE7 针2 接启动继电器线圈；ST1(针3) 经 GR 线、[3F][3E] 接 EA1 针6。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e3"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0011",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10",
+   "predicate": "enables_starting_for",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "value": null,
+   "statement": "M/T 车型：A22 离(高)合器启动开关串入启动继电器线圈回路（G 色线）；A22 名称首字在 150/300dpi 下离/高字形相近，按丰田 M/T 标准配置判读为离合器启动开关，保留 PARTIAL。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "transmission": [
+     "M/T"
+    ],
+    "market": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [
+    "A22 名称首字未完全确证（离/高）",
+    "开关内部常闭/常开逻辑图上未标注"
+   ]
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0012",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+   "predicate": "enables_starting_for",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "value": null,
+   "statement": "A/T 车型：P/N 位置开关矩阵(L/B/P/N)经 C1(A)/B(B) 中继线连接器(9A:2GR-FE/5B:2AZ-FE)参与启动使能回路；CA2 针8→Y(A/T)→变速器 ECU<7-23>。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "transmission": [
+     "A/T"
+    ],
+    "market": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0013",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "predicate": "has_terminal",
+   "object_id": null,
+   "value": "5/1 线圈；3/2 触点",
+   "statement": "启动继电器端子：线圈 5/1，触点 3/2；触点侧 GR 与 SB 两线的输入/输出方向在分块边缘未能完全区分（PARTIAL_UNCONFIRMED，不作诊断结论）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [
+    "触点侧 GR/SB 进出方向未确证"
+   ]
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0014",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12",
+   "predicate": "receives_power_from",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+   "value": null,
+   "statement": "起动机(C3(A)/C29(B)/D1(C)) B 端经 B 色线、C 接点、FL MAIN 3.0W 熔丝接蓄电池正极；磁性开关由 CA1(针1) B 线（A/T:A / M/T:B）供电；电机壳体接地。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0015",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k12",
+   "predicate": "has_subcomponent",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k13",
+   "value": null,
+   "statement": "起动机包含磁性开关（电磁开关）与 M 电机两部分（图示）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0016",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+   "predicate": "has_subcomponent",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k15",
+   "value": null,
+   "statement": "发电机内置三相定子绕组与 6 管整流桥（图示），整流输出经 B 端（针1:A=2GR-FE / 1:B=2AZ-FE）以 B 色线并入 FL MAIN/蓄电池母线。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0017",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+   "predicate": "has_subcomponent",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "value": null,
+   "statement": "发电机内置 IC 调节器，端子 B/M/S/IG/L（针 B; M=3B; S=1B; IG=2B; L=4B）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0018",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+   "value": null,
+   "statement": "IC 调节器 M 端(针3) 经 L 色线(2AZ-FE)、[3B] 接线位置接发动机 ECU<8-9>。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0019",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06",
+   "value": null,
+   "statement": "IC 调节器 IG 端(针2) 经 R 线、[2B]→10 CA2→14 EA1→16 IH 接 10A GAUGE NO.1(IG) 熔丝。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0020",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "value": null,
+   "statement": "充电指示灯一端 IG2(针13) 经 GR 线、[3Q][3G]、[12 IG] 接 7.5A GAUGE NO.2(IG)；另一端 CHG-(针23) 经 Y 线、[4B] 接发电机 L 端(针4)。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0021",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18",
+   "value": null,
+   "statement": "发电机 IC 调节器 L 端经 Y 色线接组合仪表 F1(A)（充电指示灯 CHG- 侧）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0022",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k21",
+   "predicate": "receives_signal_from",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "value": null,
+   "statement": "发动机控制系统经 CA2(针7)→W(A/T)→V(蓝箭头=传感器/反馈) 与调节器/发电机相关信号相连（图例颜色定义反馈方向）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": null,
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0023",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+   "value": null,
+   "statement": "点火电路：四个点火线圈 C11/C13/C12/C14（黑色4针）1=+B(BR 母线)、4=GND(W-B 经 C4 接地)；IGT1/2/3/4（W/G-R/G/LG，绿色执行器信号）与 IGF（W-L，蓝色反馈信号，图例定义）汇合接发动机控制模块<8-10>。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0024",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k23",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+   "value": null,
+   "statement": "C16 静噪滤波器(点火右) 针1 接 IGF(W-L) 汇流线（图示）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0025",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k25",
+   "predicate": "feeds_power_through",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+   "value": null,
+   "statement": "配电：30A 主电喷装置(Y)→[12 1E]→电子控制喷油装置继电器→[6 1B]→B→15A 2号电喷(R)/10A 3号电喷(GR)；15A 喷油(点火)熔丝经 7→10 B 接线位置向点火线圈 +B(BR) 母线供电。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0026",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k24",
+   "predicate": "has_terminal",
+   "object_id": null,
+   "value": "4/5/3/1/2",
+   "statement": "右后除霜继电器端子 4/5/3/1/2，关联 W-B/Y/W/G/V 色线与 50A 右后除霜、10A 后视镜加热熔丝。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0027",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k26",
+   "predicate": "identifies",
+   "object_id": null,
+   "value": "[1A][1B][1C][1E][1F][1G][1I][3E][3F][3G][3Q][12][16][IH][FE3]",
+   "statement": "图内接线位置代号（1A/1B/1C/1E/1F/1G/1I/3E/3F/3G/3Q/12/16/IH/FE3 等）按图集识读页的代号体系标注接线盒/中继位置。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p4:e1",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0028",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k27",
+   "predicate": "identifies",
+   "object_id": null,
+   "value": "A41(A)/A42(B); C1(A)/B(B)",
+   "statement": "中继线连接器代号 A41(A)/A42(B)、C1(A)/B(B) 用于跨区导线中继（printed 4）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0029",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k28",
+   "predicate": "uses_wire_color",
+   "object_id": null,
+   "value": "W-B",
+   "statement": "配电/启动/充电回路接地采用 W-B 色线，接地点含 A1、A3、C4 及起动机/蓄电池壳体接地（图示）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4",
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0030",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k20",
+   "predicate": "connects_to",
+   "object_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+   "value": null,
+   "statement": "变速器 ECU<7-23> 经 Y(A/T)/L-B/L(2GR-FE) 与 P/N 位置矩阵相连（printed 4）。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "transmission": [
+     "A/T"
+    ],
+    "market": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": []
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0031",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+   "predicate": "documented_in_analysis",
+   "object_id": null,
+   "value": "(1)-(16) 熔丝供电路径清单",
+   "statement": "分析栏列出整车配电说明与编号(1)-(16)熔丝供电路径（可读部分：40A 冷凝器风扇/发电机励磁/50A 主风扇/40A 散热器风扇/50A 加热器/30A ABS 2号/50A(ABS 1号?)/25A 1号门/15A 右前雾灯/7.5A OBD/30A 电动座椅/25A 电动窗/30A 天窗/7.5A 空调/10A 制动灯），右缘裁切尾字不全，完整文本待原图复核。",
+   "source_kind": "BOOK_FIGURE_DIRECT",
+   "evidence_ids": [
+    "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e5"
+   ],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [
+    "条目右缘裁切，个别熔丝名称尾字不全（如 50A 后接 ABS 1号? 未确证）"
+   ]
+  },
+  {
+   "id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0032",
+   "subject_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "predicate": "expected_operation",
+   "object_id": null,
+   "value": "线圈经ST2→L得电，触点接通后由GR/SB支路向磁性开关供电（方向性推断）",
+   "statement": "推断（非本书断言）：启动继电器线圈经 ST2→L 得电、触点接通后由 GR/SB 支路向磁性开关供电——该方向性判断部分依赖常规继电器拓扑推断，图中触点进出方向未完全可辨。",
+   "source_kind": "MODEL_INFERENCE",
+   "evidence_ids": [],
+   "qualification_status": "EXTRACTED_UNCHECKED",
+   "applicability": {
+    "make": "Toyota",
+    "model": "凯美瑞/Camry",
+    "engine": [
+     "2AZ-FE",
+     "2GR-FE"
+    ],
+    "market": null,
+    "model_code": null
+   },
+   "conditions": [],
+   "counterexamples": [],
+   "unknowns": [
+    "图中触点方向 PARTIAL；此条仅为推断，不作为书页证据"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0001",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k02",
+   "predicate": "feeds_power_through",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0001"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0002",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k01",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k03",
+   "predicate": "feeds_power_through",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0002"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0003",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k08",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "predicate": "connects_to",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0010"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0004",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k10",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "predicate": "enables_starting_for",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0011"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0005",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k11",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k09",
+   "predicate": "enables_starting_for",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0012"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0006",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+   "predicate": "connects_to",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0018"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0007",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k06",
+   "predicate": "connects_to",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0019"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0008",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k17",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k16",
+   "predicate": "connects_to",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0020"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0009",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k14",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k18",
+   "predicate": "connects_to",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0021"
+  },
+  {
+   "id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:edg:0010",
+   "from_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k22",
+   "to_id": "book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ent:k19",
+   "predicate": "connects_to",
+   "claim_id": "claim:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:c02sc:0023"
+  }
+ ],
+ "open_questions": [
+  "启动继电器触点侧 GR/SB 两线输入/输出方向未完全可辨（刻意保留的不确定样本）",
+  "A22 名称首字（离/高）需原图或更高分辨率复核",
+  "printed 3 分析栏右缘裁切条目完整文本待原图复核",
+  "元件位置图（2AZ-FE/2GR-FE 各2幅）标签与箭头逐一对应未做全量核对（PARTIAL）",
+  "C18/C19 连接器针数与实际端子排列需与接线位置代号表交叉核对"
+ ]
+}

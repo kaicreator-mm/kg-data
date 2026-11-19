@@ -1,0 +1,419 @@
+book_id: book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8
+page_count: 53
+pages:
+- pdf_index: 0
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 1
+  page_status: NO_DOMAIN_CONTENT_CONFIRMED
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: CIP/publication data page, no domain content
+- pdf_index: 2
+  page_status: PROCESSED_VISION
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: TOC_ALIGNED_NO_BODY_CLAIMS
+- pdf_index: 3
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 4
+  page_status: PROCESSED_VISION
+  section_ids: []
+  assets: []
+  evidence_ids:
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p4:e1
+  note: legend/reading-guide page (printed 1); codes referenced as evidence
+- pdf_index: 5
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 6
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c02sc
+  assets:
+  - asset_id: c02sc-F6-0
+    asset_kind: LEGEND_BAND
+    asset_status: INTERPRETED_SCOPED
+    bbox: null
+    note: null
+  - asset_id: c02sc-F6-1
+    asset_kind: POWER_DISTRIBUTION_CIRCUIT
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 120
+    - 545
+    - 690
+    note: null
+  - asset_id: c02sc-F6-2
+    asset_kind: IGNITION_CIRCUIT_DETAIL
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 40
+    - 470
+    - 420
+    - 690
+    note: null
+  - asset_id: c02sc-F6-3
+    asset_kind: ANALYSIS_TEXT_BLOCK
+    asset_status: PARTIAL
+    bbox:
+    - 520
+    - 400
+    - 770
+    - 700
+    note: 分析条目(1)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)(16) 右缘被裁切，尾字不完整; 说明段第一句'当…电压时'前半句被裁切
+  evidence_ids:
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e1
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e2
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e3
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e4
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e5
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p6:e6
+  note: power distribution + ignition circuit (300dpi tiles)
+- pdf_index: 7
+  page_status: PROCESSED_VISION
+  section_ids:
+  - c02sc
+  assets:
+  - asset_id: c02sc-F7-0
+    asset_kind: LEGEND_BAND
+    asset_status: INTERPRETED_SCOPED
+    bbox: null
+    note: null
+  - asset_id: c02sc-F7-1
+    asset_kind: STARTING_CHARGING_CIRCUIT
+    asset_status: INTERPRETED_SCOPED
+    bbox:
+    - 0
+    - 120
+    - 600
+    - 470
+    note: null
+  - asset_id: c02sc-F7-2
+    asset_kind: COMPONENT_LOCATION_DIAGRAM
+    asset_status: PARTIAL
+    bbox:
+    - 600
+    - 100
+    - 1000
+    - 400
+    note: 元件位置图小字号标签在150dpi下约70%可辨，箭头-元件逐一对应未全量核对
+  - asset_id: c02sc-F7-3
+    asset_kind: COMPONENT_LOCATION_DIAGRAM
+    asset_status: PARTIAL
+    bbox:
+    - 30
+    - 400
+    - 400
+    - 700
+    note: 2GR-FE(1)位置图标签部分可辨
+  - asset_id: c02sc-F7-4
+    asset_kind: COMPONENT_LOCATION_DIAGRAM
+    asset_status: PARTIAL
+    bbox:
+    - 380
+    - 400
+    - 620
+    - 700
+    note: 2GR-FE(2)位置图标签部分可辨
+  - asset_id: c02sc-F7-5
+    asset_kind: COMPONENT_LOCATION_DIAGRAM
+    asset_status: PARTIAL
+    bbox:
+    - 620
+    - 400
+    - 1000
+    - 700
+    note: 2AZ-FE(2)位置图标签部分可辨
+  evidence_ids:
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e1
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e2
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e3
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e4
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e5
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e6
+  - book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8:ev:p7:e7
+  note: starting/charging circuit + component location diagrams (300dpi tiles)
+- pdf_index: 8
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 9
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 10
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 11
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 12
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 13
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 14
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 15
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 16
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 17
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 18
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 19
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 20
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 21
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 22
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 23
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 24
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 25
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 26
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 27
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 28
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 29
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 30
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 31
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 32
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 33
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 34
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 35
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 36
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 37
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 38
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 39
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 40
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 41
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 42
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 43
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 44
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 45
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 46
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 47
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 48
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 49
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 50
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 51
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'
+- pdf_index: 52
+  page_status: PENDING
+  section_ids: []
+  assets: []
+  evidence_ids: []
+  note: 'Preflight route hint only: VISUAL_REVIEW_NEEDED'

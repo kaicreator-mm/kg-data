@@ -1,0 +1,13 @@
+chapter_id: c02sc
+pdf_pages_range:
+- 6
+- 7
+extractor_model: glm-flash-free
+source_pdf_sha256: 5f937d51a0879d8e98b9a1da2f6cca4ce13c11cb9bd4a7c9e12b68a639f0efc2
+claims: 32
+entities: 28
+edges: 10
+evidence_records: 14
+open_questions: 5
+observations_local_only: true
+status: EXTRACTED_STRUCT_QA_PENDING_REVIEW

@@ -1,0 +1,3 @@
+policy: conflicting values with overlapping applicability are recorded, never majority-overruled
+conflict_sets: []
+note: no value-conflict scan performed this round; pending independent review

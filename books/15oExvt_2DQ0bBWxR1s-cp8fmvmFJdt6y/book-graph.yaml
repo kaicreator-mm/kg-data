@@ -1,0 +1,2293 @@
+book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+schema_version: 1.0.0
+ontology_version: automotive-books-kg-ontology-1.0
+graph_revision: 1
+source:
+  drive_file_id: 15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  title: 汽车简单维修百问百答（第2版）
+  pdf_page_count: 206
+  source_sha256: 986e74c6fe6e58806013f27efe2fa3b39b5d7245c0df67970513210bc6d67d60
+  source_rights_status: UNKNOWN
+  publication_year: null
+  edition: 第2版
+  isbn: null
+entities:
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  label: 起动系统
+  kind: system
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  label: 起动机
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k03
+  label: 起动机继电器
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k04
+  label: 点火开关
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k05
+  label: 蓄电池
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k06
+  label: 发动机飞轮齿圈
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k07
+  label: 吸拉线圈
+  kind: component
+  applicability: null
+  note: 图1-6 图内标注
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k08
+  label: 保持线圈
+  kind: component
+  applicability: null
+  note: 图1-6 图内标注
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k09
+  label: 单向离合器
+  kind: component
+  applicability: null
+  note: 图1-6 图内标注
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k10
+  label: 拨叉
+  kind: component
+  applicability: null
+  note: 图1-6 图内标注
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k11
+  label: 电枢
+  kind: component
+  applicability: null
+  note: 图1-6 图内标注
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k12
+  label: 空档起动开关
+  kind: component
+  applicability: null
+  note: 图1-6 图内标注（MT/AT 触点）
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  label: 点火系统
+  kind: system
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k14
+  label: 点火线圈
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k15
+  label: 火花塞
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k16
+  label: 高压线（点火高压线）
+  kind: component
+  applicability: null
+  note: 正文称高压线，图1-7 编号1 称点火高压线
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k17
+  label: 爆燃传感器
+  kind: component
+  applicability: null
+  note: 图1-7 编号8/10 为爆燃传感器2/1；图1-11 为爆燃传感器I/II
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k18
+  label: 霍尔传感器
+  kind: component
+  applicability: null
+  note: 图1-7 编号14
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k19
+  label: 汽油发动机
+  kind: engine
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  label: 燃油供给系统
+  kind: system
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  label: 电子控制系统
+  kind: system
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k22
+  label: 燃油箱（油箱）
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k23
+  label: 燃油泵（电动燃油泵）
+  kind: component
+  applicability: null
+  note: 图1-8 称电动燃油泵，图1-9 编号14 称燃油泵，图1-11 执行器侧称燃油泵
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k24
+  label: 燃油滤清器
+  kind: component
+  applicability: null
+  note: 图1-8 管路中与图1-9 编号24 各出现一处
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k25
+  label: 燃油分配管
+  kind: component
+  applicability: null
+  note: 图1-8 图内标注
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k26
+  label: 喷油器
+  kind: component
+  applicability: null
+  note: 图1-8 示 4 只；图1-11 执行器侧亦列
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k27
+  label: 油压调节器
+  kind: component
+  applicability: null
+  note: 图1-8 图内标注
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  label: 活性炭罐装置
+  kind: assembly
+  applicability: null
+  note: 图1-10 整套装置
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k29
+  label: 活性炭罐
+  kind: component
+  applicability: null
+  note: 图1-10 编号7
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k30
+  label: 活性炭罐电磁阀（炭罐清污电磁阀）
+  kind: component
+  applicability: null
+  note: 图1-10 编号4 称活性炭罐电磁阀；图1-11 执行器侧称炭罐清污电磁阀
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k31
+  label: 节气门体
+  kind: component
+  applicability: null
+  note: 图1-10 编号6、图1-13 编号18 均出现
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k32
+  label: 重力阀
+  kind: component
+  applicability: null
+  note: 图1-9 编号5；图1-10 编号9 通风管接至该阀
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k33
+  label: 电子控制器（ECU）
+  kind: component
+  applicability: null
+  note: 正文称控制系统的核心部件；图1-11 称发动机电控单元/电控单元
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k34
+  label: 传感器（电控系统组成部分）
+  kind: component_class
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k35
+  label: 执行器（电控系统组成部分）
+  kind: component_class
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k36
+  label: 空气流量计
+  kind: component
+  applicability: null
+  note: 图1-11 传感器侧
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k37
+  label: 曲轴位置传感器
+  kind: component
+  applicability: null
+  note: 图1-11 传感器侧
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k38
+  label: 上止点位置传感器
+  kind: component
+  applicability: null
+  note: 图1-11 传感器侧
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k39
+  label: 节气门组件
+  kind: component
+  applicability: null
+  note: 图1-11 中同时列于传感器侧（含节气门电位计、节气门定位电位计、怠速开关）与执行器侧
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k40
+  label: 进气温度传感器
+  kind: component
+  applicability: null
+  note: 图1-11 传感器侧
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k41
+  label: 冷却液温度传感器
+  kind: component
+  applicability: null
+  note: 图1-11 传感器侧；Q9 正文亦列为冷却系统组成
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k42
+  label: 氧传感器
+  kind: component
+  applicability: null
+  note: 图1-11 传感器侧
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k43
+  label: 氧传感器加热器
+  kind: component
+  applicability: null
+  note: 图1-11 执行器侧
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k44
+  label: 燃油泵继电器
+  kind: component
+  applicability: null
+  note: 图1-11 执行器侧，标注指向燃油泵
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k45
+  label: 点火线圈总成（含点火模块）
+  kind: component
+  applicability: null
+  note: 图1-11 执行器侧；与 k14 点火线圈颗粒度不同
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k46
+  label: 故障检测诊断插座
+  kind: component
+  applicability: null
+  note: 图1-11 中接电控单元
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  label: 润滑系统
+  kind: system
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k48
+  label: 机油
+  kind: fluid
+  applicability: null
+  note: 正文将其列为润滑系统组成（工作介质）
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k49
+  label: 机油滤清器
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k50
+  label: 机油泵
+  kind: component
+  applicability: null
+  note: 图1-12 编号19 称带链轮的机油泵
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k51
+  label: 机油集滤器
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k52
+  label: 主油道
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k53
+  label: 分油道
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k54
+  label: 油底壳
+  kind: component
+  applicability: null
+  note: 图1-12 编号13
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k55
+  label: 机油加油口盖
+  kind: component
+  applicability: null
+  note: 图1-12 编号1
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k56
+  label: 机油标尺
+  kind: component
+  applicability: null
+  note: 图1-12 编号2
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k57
+  label: 放油螺栓
+  kind: component
+  applicability: null
+  note: 图1-12 编号18
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k58
+  label: 机油泵链条
+  kind: component
+  applicability: null
+  note: 图1-12 编号21
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  label: 冷却系统
+  kind: system
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k60
+  label: 水泵
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k61
+  label: 散热器
+  kind: component
+  applicability: null
+  note: 图1-13 编号1
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k62
+  label: 节温器
+  kind: component
+  applicability: null
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k63
+  label: 冷却风扇（风扇）
+  kind: component
+  applicability: null
+  note: 正文称冷却风扇，图1-13 编号11 称风扇
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k64
+  label: 膨胀罐（膨胀箱）
+  kind: component
+  applicability: null
+  note: 正文称膨胀罐，图1-13 编号14 称膨胀箱
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k65
+  label: 暖风系统
+  kind: system
+  applicability: null
+  note: Q9 正文提及冷却系统为其提供热源
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k66
+  label: 热敏开关
+  kind: component
+  applicability: null
+  note: 图1-13 编号6
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k67
+  label: 冷却液上软管
+  kind: component
+  applicability: null
+  note: 图1-13 编号8
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k68
+  label: 冷却液下软管
+  kind: component
+  applicability: null
+  note: 图1-13 编号10
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k69
+  label: 风扇护圈
+  kind: component
+  applicability: null
+  note: 图1-13 编号12
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k70
+  label: 冷却液膨胀箱盖
+  kind: component
+  applicability: null
+  note: 图1-13 编号13
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k71
+  label: 空气导板
+  kind: component
+  applicability: null
+  note: 图1-13 编号4
+claims:
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0001
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  value: null
+  statement: 书中说明起动系统主要由起动机等组成（Q5 正文列出四个主要组成部件之一）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0002
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k03
+  value: null
+  statement: 书中说明起动系统主要由起动机继电器等组成（Q5 正文列出四个主要组成部件之一）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0003
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k04
+  value: null
+  statement: 书中说明起动系统主要由点火开关等组成（Q5 正文列出四个主要组成部件之一）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0004
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k05
+  value: null
+  statement: 书中说明起动系统主要由蓄电池等组成（Q5 正文列出四个主要组成部件之一）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0005
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  predicate: performs_function
+  object_id: null
+  value: 将蓄电池的电能转化成机械能，带动发动机飞轮齿圈运转，使发动机由停止状态进入正常的自行运转状态
+  statement: Q5 正文给出起动系统的功用：把蓄电池电能转化为机械能，经飞轮齿圈带动发动机由静止进入自行运转。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0006
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k07
+  value: null
+  statement: 图1-6 中起动机内部标出吸拉线圈（与保持线圈共同构成电磁开关线圈部分）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0007
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k08
+  value: null
+  statement: 图1-6 中起动机内部标出保持线圈。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0008
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k09
+  value: null
+  statement: 图1-6 中起动机输出侧标出单向离合器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0009
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k10
+  value: null
+  statement: 图1-6 中起动机标出拨叉（经支点拨动单向离合器一侧）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0010
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k11
+  value: null
+  statement: 图1-6 中起动机标出电枢与磁场绕组（电动机本体部分）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0011
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  predicate: realizes_mechanism
+  object_id: null
+  value: 电磁开关经端子50/端子30/端子C 接入由蓄电池(BATT)、点火开关(STA/IG)、起动机继电器、空档起动开关(MT/AT)与7.5A熔丝组成的起动控制回路；吸拉/保持线圈经铁心、回位弹簧、支点推动拨叉，拨叉带动单向离合器
+  statement: 图1-6 示意起动系统的组成及工作原理：控制回路各元件与起动机端子的连接关系，以及电磁开关经拨叉驱动单向离合器的内部传动链。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 图内缩写（BATT/STA/EI/MT/AT、端子50/30/C）仅在图中出现，正文未逐一解释
+  counterexamples: []
+  unknowns:
+  - 图示回路所属车型/机型书未指明
+  - 图1-6 为原理示意，书未给具体导线色号或端子实测定义
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0012
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k12
+  predicate: associated_with
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  value: null
+  statement: 图1-6 起动控制回路中串有空档起动开关（MT/AT 触点），正文的组成文字未单独列出该部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 空档起动开关与自动挡车型（P/N 挡起动）的对应关系书内未说明
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0013
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k19
+  value: null
+  statement: Q6 正文称点火系统是汽油发动机上的重要组成部分。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 仅就汽油发动机而言；书内未提及柴油机点火系统
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0014
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k14
+  value: null
+  statement: Q6 正文列出点火系统主要组成部件之一：点火线圈。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0015
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k15
+  value: null
+  statement: Q6 正文列出点火系统主要组成部件之一：火花塞（图1-7 编号6 亦示出）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0016
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k16
+  value: null
+  statement: Q6 正文列出点火系统主要组成部件之一：高压线；图1-7 编号1 对应部件名为点火高压线。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0017
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k17
+  value: null
+  statement: Q6 正文泛称点火系统含传感器；图1-7 具体示出爆燃传感器1（编号10）与爆燃传感器2（编号8）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0018
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k18
+  value: null
+  statement: 图1-7 编号14 示出点火系统组成中的霍尔传感器（正文仅泛称传感器，未点名霍尔传感器）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 霍尔传感器在点火/电控中的具体功用书内未在本节说明
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0019
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: affects
+  object_id: null
+  value: 工作性能的好坏直接影响发动机的动力性、环保性和经济性
+  statement: Q6 正文给出点火系统工作性能与发动机动力性、环保性、经济性的直接影响关系。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0020
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: realizes_mechanism
+  object_id: null
+  value: 将蓄电池12V低压电经点火线圈转变成15000～30000V高压电，把高压电引入燃烧室，在火花塞两极间产生电火花，按汽油机工作循环和点火顺序依次点燃各缸可燃混合气
+  statement: Q6 正文给出点火系统工作机理：低压12V 升压为15000～30000V、高压电引入燃烧室、火花塞跳火并按工作循环与点火顺序逐缸点燃。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 电压数值为书中给的一般性范围，未标注对应机型或测量条件
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+  - 15000～30000V 未说明是初级还是次级峰值语境
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0021
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  predicate: has_component
+  object_id: null
+  value: 图1-7 编号清单17项：1—点火高压线 2—点火线圈 3、9、13、15—紧固螺栓 4—连接插头(4个极) 5—盖 6—火花塞 7—连接插头(棕色,2孔) 8—爆燃传感器2 10—爆燃传感器1 11—连接插头(黑色,2孔) 12—连接插头(黑色,3孔) 14—霍尔传感器 16—垫片 17—霍尔传感器隔板
+  statement: 图1-7 以编号爆炸图登记点火系统组成部件（含功能件与插头、紧固件、垫片、隔板等安装件）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0022
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: performs_function
+  object_id: null
+  value: 按照发动机的工况将一定比例和一定数量的可燃混合气送入气缸，或直接将清洁汽油或柴油以雾状形式喷入气缸，供发动机燃烧，从而将热能转化成机械能
+  statement: Q7 正文给出燃油供给系统功用：按工况定量供给可燃混合气或雾状燃料，燃烧后把热能转化为机械能；供什么介质随机型而异。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 化油器式或缸外多点顺序喷射汽油机：送入可燃混合气
+  - 多点顺序直接喷射式汽油机：直接喷入清洁汽油
+  - 机械喷射或电子喷射柴油机：以雾状形式喷入柴油
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0023
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k22
+  value: null
+  statement: 图1-8 与图1-9 均示出燃油供给系统中的燃油箱（图1-9 编号19 称油箱）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0024
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k23
+  value: null
+  statement: 图1-8 示出燃油供给系统中的电动燃油泵（置于燃油箱内）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0025
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k24
+  value: null
+  statement: 图1-8 供油管路中示出燃油滤清器（图1-9 编号24 亦列为燃油箱附属件之一）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0026
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k25
+  value: null
+  statement: 图1-8 示出燃油分配管（各缸喷油器装于其上）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0027
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k26
+  value: null
+  statement: 图1-8 示出燃油分配管下方的4只喷油器（雾状喷射部位）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 图1-8 画4只喷油器，对应四缸布置；书未说明缸数适用范围
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0028
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k27
+  value: null
+  statement: 图1-8 示出油压调节器（带回油口）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0029
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: realizes_mechanism
+  object_id: null
+  value: 燃油箱内置电动燃油泵吸油→燃油滤清器过滤→进油口进入燃油分配管→各缸喷油器雾状喷射；油压调节器经回油口回流多余燃油
+  statement: 图1-8 示意燃油供给系统的供油-回油路线：从燃油箱内电动燃油泵到喷油器喷射，油压调节器带回油。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 路线按图1-8 管路走向归纳，书内未附文字说明
+  counterexamples: []
+  unknowns:
+  - 图示流程对应缸外多点顺序喷射（进气道喷射）机型，书未明说
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0030
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k22
+  predicate: has_component
+  object_id: null
+  value: 图1-9 编号清单25项：1—加油口盖 2—弹性挡圈 3—橡胶接头 4—O形圈 5—重力阀 6—通气管 7—接地线 8—通风阀 9—回油管 10—插座 11—锁紧螺母 12—连接法兰 13—密封圈 14—燃油泵 15—燃油表传感器 16—紧固吊带 17—支架 18、25—螺栓 19—油箱 20—弹性夹 21—支架 22—隔离衬套 23—供油管 24—燃油滤清器
+  statement: 图1-9 以编号爆炸图登记燃油箱及其附属件（加油/通气/回油/供油/泵与油量表传感器/安装紧固件等）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0031
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k32
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k22
+  value: null
+  statement: 图1-9 编号5 的重力阀属燃油箱附属件（通气管一侧）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 重力阀的具体功用（防倾洒/通气切断）书内未说明
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0032
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  predicate: has_component
+  object_id: null
+  value: 图1-10 编号清单9项：1—支架 2—锁紧螺母 3—紧固环 4—活性炭罐电磁阀 5—插头 6—节气门体 7—活性炭罐 8—螺栓 9—通风管（接燃油箱重力阀）
+  statement: 图1-10 以编号图登记活性炭罐装置的组成部件（罐体、电磁阀、节气门体接口、通风管与安装件）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0033
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k29
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  value: null
+  statement: 图1-10 编号7 的活性炭罐是活性炭罐装置的主体部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0034
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k30
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  value: null
+  statement: 图1-10 编号4 的活性炭罐电磁阀是活性炭罐装置的组成部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0035
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  predicate: associated_with
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k32
+  value: null
+  statement: 图1-10 编号9 通风管接燃油箱重力阀，把活性炭罐装置与燃油箱通气侧连通。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0036
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  value: null
+  statement: Q7 正文称燃油供给系统（与电子控制系统）的组成如图1-8、图1-9和图1-10所示，活性炭罐装置（图1-10）在该组图之内。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未明说活性炭罐装置属燃油供给系统还是蒸发排放子系统，仅按'组成如图'归入
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0037
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: performs_function
+  object_id: null
+  value: 根据发动机和汽车不同的运行工况，确定并执行发动机最佳的控制方案，保证动力性、经济性和排放性能在各种工况下处于最佳工作状态；同时具有故障自诊断功能
+  statement: Q7 电控释文段给出电子控制系统功用：按工况定最佳控制方案并执行，含故障自诊断。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0038
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k34
+  value: null
+  statement: 正文称电子控制系统都由传感器、电子控制器（ECU）和执行器3部分组成，本条对应传感器部分。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - '''都是由…组成''为书内全称表述，本书未区分车型'
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0039
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k33
+  value: null
+  statement: 正文称电子控制系统都由传感器、电子控制器（ECU）和执行器3部分组成，本条对应电子控制器（ECU）部分。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - '''都是由…组成''为书内全称表述，本书未区分车型'
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0040
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k35
+  value: null
+  statement: 正文称电子控制系统都由传感器、电子控制器（ECU）和执行器3部分组成，本条对应执行器部分。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - '''都是由…组成''为书内全称表述，本书未区分车型'
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0041
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: realizes_mechanism
+  object_id: null
+  value: 是以单片机为中心而组成的微型计算机控制系统，其中电子控制器（ECU）是控制系统的核心部件
+  statement: 正文说明电子控制系统的体系结构（单片机为中心的微型计算机控制系统）与核心部件（ECU）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0042
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: realizes_mechanism
+  object_id: null
+  value: 信号流：传感器（空气流量计、曲轴位置传感器、上止点位置传感器、节气门组件[节气门电位计/节气门定位电位计/怠速开关]、进气温度传感器、冷却液温度传感器、氧传感器、爆燃传感器I/II，附加信号：车速传感器、空调开关）→ 发动机电控单元 → 执行器（燃油泵继电器与燃油泵、喷油器、点火线圈总成[含点火模块]、炭罐清污电磁阀、氧传感器加热器、节气门组件，附加信号：空调需求信号）；电控单元连接故障检测诊断插座
+  statement: 图1-11 示出汽油机电子控制系统的组成和流程：传感器清单、发动机电控单元、执行器清单及诊断插座与附加信号。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示系统所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0043
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k36
+  value: null
+  statement: 图1-11 传感器侧列出空气流量计。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0044
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k37
+  value: null
+  statement: 图1-11 传感器侧列出曲轴位置传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0045
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k38
+  value: null
+  statement: 图1-11 传感器侧列出上止点位置传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0046
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k39
+  value: null
+  statement: 图1-11 中节气门组件同时出现在传感器侧（内含节气门电位计、节气门定位电位计、怠速开关）与执行器侧。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未解释节气门组件为何两侧同列（既反馈又执行）
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0047
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k40
+  value: null
+  statement: 图1-11 传感器侧列出进气温度传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0048
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k41
+  value: null
+  statement: 图1-11 传感器侧列出冷却液温度传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0049
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k42
+  value: null
+  statement: 图1-11 传感器侧列出氧传感器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0050
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k17
+  value: null
+  statement: 图1-11 传感器侧列出爆燃传感器I 与爆燃传感器II（与图1-7 编号8/10 的爆燃传感器2/1 同为爆燃传感器，称谓与编号不同）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图1-7 与图1-11 的爆燃传感器是否同一实物书未说明
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0051
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k44
+  value: null
+  statement: 图1-11 执行器侧列出燃油泵继电器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0052
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k44
+  predicate: associated_with
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k23
+  value: null
+  statement: 图1-11 执行器侧标注'燃油泵继电器'指向'燃油泵'，示意由继电器控制燃油泵。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0053
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k45
+  value: null
+  statement: 图1-11 执行器侧列出点火线圈总成（含点火模块）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 与 Q6 正文所列'点火线圈'的颗粒度关系书未说明
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0054
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k30
+  value: null
+  statement: 图1-11 执行器侧列出炭罐清污电磁阀；图1-10 中对应部件名为活性炭罐电磁阀。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 两图称谓不同（炭罐清污电磁阀/活性炭罐电磁阀），是否同一实物书未说明
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0055
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k43
+  value: null
+  statement: 图1-11 执行器侧列出氧传感器加热器。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0056
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k46
+  value: null
+  statement: 图1-11 中故障检测诊断插座接于电控单元下方，属汽油机电子控制系统的组成环节。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0057
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k26
+  value: null
+  statement: 图1-11 执行器侧列出喷油器（与图1-8 燃油供给系统中的喷油器同名称谓一致）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0058
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k54
+  value: null
+  statement: Q8 正文列出润滑系统组成之一：油底壳（图1-12 编号13 亦示出）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0059
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k48
+  value: null
+  statement: Q8 正文把机油列为润滑系统的组成（作为被循环供给的工作介质）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0060
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k49
+  value: null
+  statement: Q8 正文列出润滑系统组成之一：机油滤清器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0061
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k50
+  value: null
+  statement: Q8 正文列出润滑系统组成之一：机油泵（图1-12 编号19 称带链轮的机油泵）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0062
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k51
+  value: null
+  statement: Q8 正文列出润滑系统组成之一：机油集滤器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0063
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k52
+  value: null
+  statement: Q8 正文列出润滑系统组成之一：主油道。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0064
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k53
+  value: null
+  statement: Q8 正文列出润滑系统组成之一：分油道。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0065
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: null
+  value: 各摩擦表面（发动机所有运动部件的摩擦表面，供油对象）
+  statement: Q8 正文把'各摩擦表面'与油道等并列为润滑系统组成，语义上为机油的供给对象而非独立部件。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 原文'摩擦缘表面'疑为'摩擦表面'排印衍字（150dpi 图与文本层均显示'缘'），未改动原文
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0066
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: performs_function
+  object_id: null
+  value: 将机油不断地供给发动机所有运动部件的摩擦表面，减少零件之间的摩擦和磨损
+  statement: Q8 正文给出润滑系统的核心功用：持续向各运动件摩擦表面供油，减摩耐磨。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0067
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k48
+  predicate: performs_function
+  object_id: null
+  value: 流动的机油可以清除摩擦表面上的磨屑等杂质
+  statement: Q8 正文给出机油的清洗功用：流动机油带走摩擦表面磨屑等杂质。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0068
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k48
+  predicate: performs_function
+  object_id: null
+  value: 流动的机油可以冷却摩擦表面
+  statement: Q8 正文给出机油的冷却功用：流动机油冷却摩擦表面。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0069
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k48
+  predicate: performs_function
+  object_id: null
+  value: 气缸壁与活塞环上的油膜还能提高气缸的密封性
+  statement: Q8 正文给出机油油膜的密封功用：气缸壁与活塞环间油膜提高气缸密封性。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0070
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k48
+  predicate: performs_function
+  object_id: null
+  value: 机油还可以防止零件表面生锈，保护零部件
+  statement: Q8 正文给出机油的防锈防护功用。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0071
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: has_component
+  object_id: null
+  value: 图1-12 编号清单28项：1—机油加油口盖 2—机油标尺 3—导向套 4—导管 5—连接管 6—紧固夹 7—O形环 8—机油滤清器支架 9、14、15—螺栓 10—带阻流挡板的密封垫 11—防溅挡板 12—密封垫 13—油底壳 16—隔套 17、28—密封圈 18—放油螺栓 19—带链轮的机油泵 20—紧配衬套 21—机油泵链条 22—前密封法兰 23—油封 24—中央螺栓 25—曲轴端同步带轮
+    26—链轮 27—带导轨的链条张紧器
+  statement: 图1-12 以编号爆炸图登记润滑系统部件（加油/测量件、油底壳组件、带链轮机油泵及链条传动、前密封法兰与曲轴端同步带轮等）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0072
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k55
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  value: null
+  statement: 图1-12 编号1 的机油加油口盖属润滑系统部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0073
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k56
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  value: null
+  statement: 图1-12 编号2 的机油标尺属润滑系统部件（油面测量件）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0074
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k58
+  predicate: associated_with
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k50
+  value: null
+  statement: 图1-12 中机油泵为'带链轮的机油泵'（编号19），配机油泵链条（编号21）与链条张紧器（编号27）、链轮（编号26），示意链条传动布置。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 传动布置对应图示机型，书未说明是否普适
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0075
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k57
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k54
+  value: null
+  statement: 图1-12 编号18 的放油螺栓装于油底壳（编号13）上。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p21:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0076
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k60
+  value: null
+  statement: Q9 正文列出冷却系统主要组成之一：水泵。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0077
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k61
+  value: null
+  statement: Q9 正文列出冷却系统主要组成之一：散热器（图1-13 编号1 亦示出）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0078
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k62
+  value: null
+  statement: Q9 正文列出冷却系统主要组成之一：节温器。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0079
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k41
+  value: null
+  statement: Q9 正文列出冷却系统主要组成之一：冷却液温度传感器（图1-11 传感器侧亦列有同名部件）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0080
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k63
+  value: null
+  statement: Q9 正文列出冷却系统主要组成之一：冷却风扇（图1-13 编号11 称风扇）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0081
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_component
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k64
+  value: null
+  statement: Q9 正文列出冷却系统主要组成之一：膨胀罐；图1-13 编号14 对应部件名为膨胀箱（另有编号13 冷却液膨胀箱盖）。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 膨胀罐与膨胀箱称谓差异书内未说明，按同件处理
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0082
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: performs_function
+  object_id: null
+  value: 使发动机在任何工况下，都能使高温机件得到适当的冷却，使发动机始终在最适宜的温度范围内工作
+  statement: Q9 正文给出冷却系统的功用：任何工况下对高温机件适当冷却，维持最适宜工作温度范围。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+  - '''最适宜温度范围''的具体区间书内未在本问单独给出（后文仅给工作温度80～120℃参数）'
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0083
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: provides_for
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k65
+  value: null
+  statement: Q9 正文说明冷却系统还为暖风系统提供热源。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0084
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_parameter
+  object_id: null
+  value: 冷却系统正常工作压力 0.13～0.15MPa
+  statement: Q9 正文给出冷却系统正常工作压力数值范围 0.13～0.15MPa。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 书中为一般性给定值，未标注对应机型、测试工况或盖限压阀标称值
+  counterexamples: []
+  unknowns:
+  - 参数适用机型书未指明
+  - 不应当作 OEM 维修规范使用
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0085
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_parameter
+  object_id: null
+  value: 冷却系统工作温度 80～120℃
+  statement: Q9 正文给出冷却系统工作温度数值范围 80～120℃。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 书中为一般性给定值，未标注对应机型或测量位置
+  counterexamples: []
+  unknowns:
+  - 参数适用机型书未指明
+  - 不应当作 OEM 维修规范使用
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0086
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_parameter
+  object_id: null
+  value: 冷却液量约为 6.0L
+  statement: Q9 正文给出冷却液量约 6.0L。
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions:
+  - 数值与图1-13 图示机型对应关系未在书中说明；不同车型冷却液量不同
+  counterexamples: []
+  unknowns:
+  - 参数适用机型书未指明
+  - 不应当作 OEM 加注规范使用
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0087
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: has_component
+  object_id: null
+  value: 图1-13 编号清单18项：1—散热器 2—紧固螺栓 3—支架 4—空气导板 5—O形环 6—热敏开关 7—橡胶垫圈 8—冷却液上软管 9—弹性卡箍 10—冷却液下软管 11—风扇 12—风扇护圈 13—冷却液膨胀箱盖 14—膨胀箱 15—接冷却液管 16—护罩 17—水管 18—节气门体
+  statement: 图1-13 以编号爆炸图登记冷却系统部件（散热器及导板、软管与卡箍、风扇与护圈、膨胀箱及盖、热敏开关等）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 图示总成所属车型/机型书未指明
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0088
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k66
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  value: null
+  statement: 图1-13 编号6 的热敏开关属冷却系统部件（正文的组成文字未单独点名该件）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 热敏开关与冷却风扇/冷却液温度传感器的功能分工书内未说明
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0089
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k67
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  value: null
+  statement: 图1-13 编号8 的冷却液上软管属冷却系统管路部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0090
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k68
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  value: null
+  statement: 图1-13 编号10 的冷却液下软管属冷却系统管路部件。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0091
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k69
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  value: null
+  statement: 图1-13 编号12 的风扇护圈属冷却系统部件（护风罩类安装件）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0092
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k70
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  value: null
+  statement: 图1-13 编号13 的冷却液膨胀箱盖属冷却系统部件（配膨胀箱编号14）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+- id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0093
+  subject_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k71
+  predicate: part_of
+  object_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  value: null
+  statement: 图1-13 编号4 的空气导板属冷却系统部件（散热器周边导流件）。
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability: null
+  conditions: []
+  counterexamples: []
+  unknowns:
+  - 书未指明适用车型
+edges:
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0001
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0001
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0002
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k03
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0002
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0003
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k04
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0003
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0004
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k05
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0004
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0006
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k07
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0006
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0007
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k08
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0007
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0008
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k09
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0008
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0009
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k10
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0009
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0010
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k02
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k11
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0010
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0011
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k12
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k01
+  predicate: associated_with
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0012
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0012
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k19
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0013
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0013
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k14
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0014
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0014
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k15
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0015
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0015
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k16
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0016
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0016
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k17
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0017
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0017
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k13
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k18
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0018
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0018
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k22
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0023
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0019
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k23
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0024
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0020
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k24
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0025
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0021
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k25
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0026
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0022
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k26
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0027
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0023
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k27
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0028
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0024
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k32
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k22
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0031
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0025
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k29
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0033
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0026
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k30
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0034
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0027
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k32
+  predicate: associated_with
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0035
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0028
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k28
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k20
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0036
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0029
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k34
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0038
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0030
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k33
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0039
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0031
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k35
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0040
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0032
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k36
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0043
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0033
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k37
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0044
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0034
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k38
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0045
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0035
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k39
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0046
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0036
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k40
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0047
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0037
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k41
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0048
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0038
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k42
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0049
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0039
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k17
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0050
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0040
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k44
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0051
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0041
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k44
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k23
+  predicate: associated_with
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0052
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0042
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k45
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0053
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0043
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k30
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0054
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0044
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k43
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0055
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0045
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k46
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0056
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0046
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k21
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k26
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0057
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0047
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k54
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0058
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0048
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k48
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0059
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0049
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k49
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0060
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0050
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k50
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0061
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0051
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k51
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0062
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0052
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k52
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0063
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0053
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k53
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0064
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0054
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k55
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0072
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0055
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k56
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k47
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0073
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0056
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k58
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k50
+  predicate: associated_with
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0074
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0057
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k57
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k54
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0075
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0058
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k60
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0076
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0059
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k61
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0077
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0060
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k62
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0078
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0061
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k41
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0079
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0062
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k63
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0080
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0063
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k64
+  predicate: has_component
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0081
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0064
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k65
+  predicate: provides_for
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0083
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0065
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k66
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0088
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0066
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k67
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0089
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0067
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k68
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0090
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0068
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k69
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0091
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0069
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k70
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0092
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:edg:0070
+  from_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k71
+  to_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ent:k59
+  predicate: part_of
+  claim_id: claim:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:c01q0509:0093
+evidence:
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e1
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 16
+  printed_page_label: '6'
+  section_id: c01q0509
+  asset_id: null
+  locator: 正文 Q5 段：'5. 汽车起动系统组成及功用？'标题及释文（'起动系统主要由起动机、起动机继电器、点火开关以及蓄电池等组成……如图1-6所示'）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q5 释文给出起动系统的四个主要组成部件，以及电能转机械能、带动飞轮齿圈使发动机起动的功用表述。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e2
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 16
+  printed_page_label: '6'
+  section_id: c01q0509
+  asset_id: c01q0509-F16-1
+  locator: 图1-6 '起动系统的组成及工作原理'（页面中部整幅；300dpi 裁块 p0016_crop0）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-6 用电路-结构示意图加起动机实物照片展示起动控制回路（点火开关、继电器、空档起动开关、熔丝）与起动机内部部件（吸拉/保持线圈、电枢、单向离合器等）。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p16:e3
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 16
+  printed_page_label: '6'
+  section_id: c01q0509
+  asset_id: null
+  locator: 正文 Q6 段：'6. 汽车点火系统组成及功用？'标题及释文（'点火系统是汽油发动机上的重要组成部分……使发动机正常工作'）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q6 释文给出点火系统组成部件、12V 转 15000～30000V 的升压点火机理，及其对动力性、环保性、经济性的影响。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e1
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 17
+  printed_page_label: '7'
+  section_id: c01q0509
+  asset_id: c01q0509-F17-1
+  locator: 图1-7 '点火系统组成' 及 1—17 部件名录（300dpi 裁块 p0017_crop0）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-7 以编号爆炸图列出点火系统部件：点火高压线、点火线圈、火花塞、爆燃传感器1/2、霍尔传感器及各类插头、紧固件。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p17:e2
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 17
+  printed_page_label: '7'
+  section_id: c01q0509
+  asset_id: null
+  locator: 正文 Q7 段：'7. 燃油供给系统、电子控制系统组成及功用？'标题及释文（'汽车燃油供给系统、电子控制系统的组成如图1-8、图1-9和图1-10所示……从而将热能转化成机械能'）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q7 释文按机型（化油器/缸外喷射汽油机、直喷汽油机、机械或电子喷射柴油机）区分供油方式，并给出供油功用与热能转化表述。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e1
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 18
+  printed_page_label: '8'
+  section_id: c01q0509
+  asset_id: c01q0509-F18-1
+  locator: 图1-8 '燃油供给系统组成'（管路示意图；300dpi 裁块 p0018_crop0）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-8 示意供油路线：燃油箱内电动燃油泵经燃油滤清器到燃油分配管与各缸喷油器，油压调节器带回油口。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p18:e2
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 18
+  printed_page_label: '8'
+  section_id: c01q0509
+  asset_id: c01q0509-F18-2
+  locator: 图1-9 '燃油箱及其附属件' 及 1—25 部件名录（300dpi 裁块 p0018_crop1）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-9 编号拆示燃油箱及加油口盖、重力阀、通气管、通风阀、燃油泵、燃油表传感器、供/回油管、燃油滤清器等附属件。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e1
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 19
+  printed_page_label: '9'
+  section_id: c01q0509
+  asset_id: c01q0509-F19-1
+  locator: 图1-10 '活性炭罐装置' 及 1—9 部件名录（300dpi 裁块 p0019_crop0）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-10 编号拆示活性炭罐装置：活性炭罐、活性炭罐电磁阀、节气门体及接燃油箱重力阀的通风管等。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p19:e2
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 19
+  printed_page_label: '9'
+  section_id: c01q0509
+  asset_id: null
+  locator: 正文段（属 Q7）：'电子控制系统的主要作用是……汽油机电子控制系统的组成和流程如图1-11所示'
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 释文给出电控系统功用（按工况定最佳控制方案、故障自诊断）与传感器/ECU/执行器三段组成，并强调 ECU 为核心部件。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e1
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 20
+  printed_page_label: '10'
+  section_id: c01q0509
+  asset_id: c01q0509-F20-1
+  locator: 图1-11 '汽油机电子控制系统'（传感器→发动机电控单元→执行器信号流框图；300dpi 裁块 p0020_crop0）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-11 框图列示汽油机电控系统的传感器清单、发动机电控单元、执行器清单，以及故障检测诊断插座与车速/空调附加信号。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p20:e2
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 20
+  printed_page_label: '10'
+  section_id: c01q0509
+  asset_id: null
+  locator: 正文 Q8 段：'8. 汽车润滑系统组成及功用？'标题及释文（'润滑系统由油底壳、机油、机油滤清器、机油泵、机油集滤器、主油道、分油道和各摩擦表面等组成……保护零部件'）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q8 释文列出润滑系统组成与五类功用：供油减摩耐磨、清除磨屑、冷却摩擦表面、油膜提高气缸密封性、防锈保护。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p21:e1
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 21
+  printed_page_label: '11'
+  section_id: c01q0509
+  asset_id: c01q0509-F21-1
+  locator: 图1-12 '润滑系统的组成' 及 1—28 部件名录（300dpi 裁块 p0021_crop0）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-12 编号拆示润滑系统部件：机油加油口盖、机油标尺、油底壳、带链轮的机油泵、机油泵链条、放油螺栓、机油滤清器支架等。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e1
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 22
+  printed_page_label: '12'
+  section_id: c01q0509
+  asset_id: null
+  locator: 正文 Q9 段：'9. 汽车冷却系统组成及功用？'标题及释文（'冷却系统主要由水泵、散热器、节温器、冷却液温度传感器、冷却风扇以及膨胀罐等组成……冷却液量约为6.0L'）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: Q9 释文列出冷却系统组成、冷却与为暖风供热的功用，以及压力 0.13～0.15MPa、温度 80～120℃、冷却液量约 6.0L 三个参数。
+  reader_model: glm-flash-free
+- id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y:ev:p22:e2
+  source_book_id: book:15oExvt_2DQ0bBWxR1s-cp8fmvmFJdt6y
+  pdf_page_index: 22
+  printed_page_label: '12'
+  section_id: c01q0509
+  asset_id: c01q0509-F22-1
+  locator: 图1-13 '冷却系统组成' 及 1—18 部件名录（300dpi 裁块 p0022_crop0）
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1-13 编号拆示冷却系统部件：散热器、空气导板、热敏开关、冷却液上/下软管、风扇、风扇护圈、膨胀箱、节气门体等。
+  reader_model: glm-flash-free
+sections:
+- id: c01q0509
+  label: 第一篇 基础知识篇 Q5-Q9（起动/点火/燃油电控/润滑/冷却）
+  start_pdf_page: 16
+  end_pdf_page: 22
+  section_status: EXTRACTED
+coverage_summary:
+  pages_total: 206
+  pages_processed: 8
+  pages_blocked: 198
+  assets_total: 8
+  assets_processed: 8
+  sections_total: 1
+  sections_closed: 1
+review_status: GENERATED_REVIEW_PENDING
+page_ledger_ref: page-ledger.yaml
+generation_receipt:
+  writer: zcode-main-session:book-integrator
+  extractor_model: glm-flash-free
+  generated_utc: '2026-11-19T20:50:25+00:00'
+  source_pdf_sha256: 986e74c6fe6e58806013f27efe2fa3b39b5d7245c0df67970513210bc6d67d60
+  chapters:
+  - c01q0509
+  observations: local-private (not committed); evidence observation_summary in graph
+  rights_note: local processing only; no external API upload performed

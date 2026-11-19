@@ -1,0 +1,32 @@
+book_id: book:144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8
+drive_file_id: 144Tg2v0fgnu-b_n6hAXE8UMVtUUyfif8
+title: 广州丰田凯美瑞彩色电路图集
+edition: 第1版
+isbn: 978-7-5381-5948-6
+publication_year: 2009
+source_sha256: 5f937d51a0879d8e98b9a1da2f6cca4ce13c11cb9bd4a7c9e12b68a639f0efc2
+pdf_page_count: 53
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: circuit-diagram-atlas
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: c02sc
+  label: 二、配电系统：配电/点火系统电路图（printed 3）+ 启动/充电系统电路图（printed 4）
+  pdf_pages_range:
+  - 6
+  - 7
+  printed_pages:
+  - '3'
+  - '4'
+page_offset_printed_minus_pdfindex: -3
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING

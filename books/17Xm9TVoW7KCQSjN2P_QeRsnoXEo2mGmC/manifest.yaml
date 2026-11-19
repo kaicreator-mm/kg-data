@@ -1,0 +1,32 @@
+book_id: book:17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC
+drive_file_id: 17Xm9TVoW7KCQSjN2P_QeRsnoXEo2mGmC
+title: 汽车构造（第2版）
+edition: 第2版
+isbn: null
+publication_year: null
+source_sha256: dcb4645196ba230f157282899851b8c4a5d1de8d11bcbee7e1b67cac5df7c862
+pdf_page_count: 300
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: textbook-structure
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: c07
+  label: 第七章 发动机点火系与起动系
+  pdf_pages_range:
+  - 139
+  - 146
+  printed_pages:
+  - '133'
+  - '140'
+page_offset_printed_minus_pdfindex: 6
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING

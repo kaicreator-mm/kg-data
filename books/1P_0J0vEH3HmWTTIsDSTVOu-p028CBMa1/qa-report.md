@@ -1,0 +1,92 @@
+# QA report — book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1 (revision 1)
+
+- Scope: c04; whole-book status BOOK_IN_PROGRESS (partial, not complete).
+- Pages: 10/109 processed (blocked/pending 99 honestly PENDING in ledger).
+- Assets: 2/2 INTERPRETED_SCOPED.
+- Claims: 28 total = 28 book-direct + 0 model-inference; all EXTRACTED_UNCHECKED (no self-promotion).
+- Evidence records: 21; every direct claim carries matching-kind evidence registered in page ledger.
+- Open questions (unknowns carried, not fabricated): see chapter bundles / graph claims.
+- External API upload: NONE (local processing only). Rights: UNKNOWN, recorded not assumed.
+
+## Normalization notes (single-writer integrator)
+
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0001: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0002: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0003: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0004: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0005: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0006: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0007: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0008: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0009: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0010: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0011: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0012: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0013: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0014: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0015: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0016: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0017: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0017: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0018: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0018: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0020: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0020: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0023: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0023: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0024: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0024: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0025: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0025: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0026: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0026: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0027: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0027: object_value -> value (schema field name)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0028: string applicability moved to conditions (not a vehicle tuple)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0001: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0002: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0003: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0004: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0005: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0006: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0007: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0008: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1'])
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0009: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0010: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0011: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1'])
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0012: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0013: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0014: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0015: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0016: source_kind BOOK_BODY_DIRECT -> BOOK_FIGURE_DIRECT (follows cited evidence)
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6', 'book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1'])
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6', 'book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1'])
+- claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0023: narrowed mixed-kind citations to BOOK_BODY_DIRECT (dropped redundant ['book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6', 'book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1'])
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0017: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0020 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0018: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0019: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0020: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0021: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0024 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0022: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0025 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0023: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0026 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0024: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0025: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0026: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0023 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0027: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0028: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0029: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0030: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021 has no object_id -> edge dropped (claim keeps the statement)
+- edge book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0031: linked claim claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0027 has no object_id -> edge dropped (claim keeps the statement)
+
+## Residual risks / unfinished
+- Remaining pages are PENDING (not silently skipped); completion requires full-page accounting per SKILL section 5.
+- 扫描件视觉识读
+- 教材体例（考点/强化训练）不作为维修知识
+- 实测页码偏移 printed=pdf-5（修正自 pdf-4 估计）
+- 第五章实际起始页待下批核实（pdf42/printed37 仍为第四章强化训练）

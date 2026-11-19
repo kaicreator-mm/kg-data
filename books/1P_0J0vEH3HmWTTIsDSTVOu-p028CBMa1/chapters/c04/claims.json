@@ -1,0 +1,832 @@
+{
+  "book_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1",
+  "chapter_id": "c04",
+  "source_observation_ids": [
+    "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:obs:p36",
+    "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:obs:p37",
+    "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:obs:p38",
+    "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:obs:p39",
+    "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:obs:p40",
+    "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:obs:p41",
+    "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:obs:p42"
+  ],
+  "entities": [
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "label": "冷却系统（发动机冷却系统/水冷却系）",
+      "kind": "system",
+      "applicability": "汽车发动机；本章章题用『冷却系统』，教学目标用『水冷却系』，指同一对象",
+      "source_note": "p37 章题与知识网络顶层节点"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k02",
+      "label": "水泵",
+      "kind": "component",
+      "applicability": "水冷却系冷却装置",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03",
+      "label": "散热器",
+      "kind": "component",
+      "applicability": "水冷却系冷却装置",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k04",
+      "label": "风扇",
+      "kind": "component",
+      "applicability": "水冷却系；知识网络中同时列于冷却装置与冷却强度调节装置",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "label": "节温器",
+      "kind": "component",
+      "applicability": "水冷却系冷却强度调节装置",
+      "source_note": "p37 知识网络、p38 正文"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k06",
+      "label": "百叶窗",
+      "kind": "component",
+      "applicability": "水冷却系冷却强度调节装置",
+      "source_note": "p37 知识网络、p38 方法②"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k07",
+      "label": "离合器（风扇离合器）",
+      "kind": "component",
+      "applicability": "水冷却系冷却强度调节装置（知识网络『离合器』条目，语境为风扇离合器）",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k08",
+      "label": "水温表",
+      "kind": "component",
+      "applicability": "水冷却系水温显示装置",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k09",
+      "label": "水温感应塞",
+      "kind": "component",
+      "applicability": "水冷却系水温显示装置",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k10",
+      "label": "气缸体水套",
+      "kind": "component",
+      "applicability": "发动机水冷却水道（循环回路端点）",
+      "source_note": "p38 大循环/小循环正文"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k11",
+      "label": "气缸盖水套",
+      "kind": "component",
+      "applicability": "发动机水冷却水道（循环回路端点）",
+      "source_note": "p38 小循环正文"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k12",
+      "label": "旁通管",
+      "kind": "component",
+      "applicability": "小循环回路",
+      "source_note": "p38 小循环正文"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "label": "大循环",
+      "kind": "process",
+      "applicability": "水冷却系循环路线之一",
+      "source_note": "p37 知识网络、p38 正文与比较表"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "label": "小循环",
+      "kind": "process",
+      "applicability": "水冷却系循环路线之一",
+      "source_note": "p37 知识网络、p38 正文与比较表"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k15",
+      "label": "混合循环",
+      "kind": "process",
+      "applicability": "水冷却系循环路线之一",
+      "source_note": "p37 知识网络、p38 正文与比较表"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "label": "冷却强度调节装置",
+      "kind": "subsystem",
+      "applicability": "水冷却系组成子系统",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k17",
+      "label": "水温显示装置",
+      "kind": "subsystem",
+      "applicability": "水冷却系组成子系统",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "label": "冷却装置",
+      "kind": "subsystem",
+      "applicability": "水冷却系组成子系统",
+      "source_note": "p37 知识网络"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k19",
+      "label": "膨胀水箱",
+      "kind": "component",
+      "applicability": "水冷却系主要零部件（教学目标列为重点掌握对象）",
+      "source_note": "p37 教学目标第 3 条"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k20",
+      "label": "温控风扇离合器",
+      "kind": "component",
+      "applicability": "冷却强度调节手段之一（改变通过散热器的空气流量）",
+      "source_note": "p38 方法②"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k21",
+      "label": "温控电风扇",
+      "kind": "component",
+      "applicability": "冷却强度调节手段之一（改变通过散热器的空气流量）",
+      "source_note": "p38 方法②"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k22",
+      "label": "散热器盖",
+      "kind": "component",
+      "applicability": "散热器加液口盖（含压力阀组）",
+      "source_note": "p38 强化训练填空题 2 题干"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k23",
+      "label": "蒸气阀",
+      "kind": "component",
+      "applicability": "散热器盖上的压力阀",
+      "source_note": "p38 强化训练填空题 2 题干"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k24",
+      "label": "发动机",
+      "kind": "system",
+      "applicability": "本书研究对象；冷却系统的宿主",
+      "source_note": "p37 章题『发动机冷却系统的构造与维修』"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0001",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "part_of",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k24",
+      "statement": "冷却系统（冷却系）是发动机的组成系统；本书第四章研究对象为『发动机冷却系统的构造与维修』。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "汽车发动机",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0002",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "statement": "冷却系统的组成包括冷却装置（知识网络『组成』分支之一）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0003",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "statement": "冷却系统的组成包括冷却强度调节装置（知识网络『组成』分支之一）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0004",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k17",
+      "statement": "冷却系统的组成包括水温显示装置（知识网络『组成』分支之一）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0005",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k02",
+      "statement": "冷却装置包括水泵（知识网络标注其学习点为作用、工作原理）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0006",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03",
+      "statement": "冷却装置包括散热器（知识网络标注其学习点为作用）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0007",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k04",
+      "statement": "冷却装置包括风扇（知识网络标注其学习点为作用）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0008",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "statement": "冷却强度调节装置包括节温器（知识网络标注其学习点为作用；p38 正文明确『节温器是冷却强度调节装置之一』）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": [
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e2"
+      ],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0009",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k06",
+      "statement": "冷却强度调节装置包括百叶窗。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0010",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k04",
+      "statement": "冷却强度调节装置分支中亦列有风扇（与冷却装置分支重复列出，按知识网络原文登记）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": ["知识网络将风扇同时列于冷却装置与冷却强度调节装置两分支，书中未解释其归位逻辑"]
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0011",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k07",
+      "statement": "冷却强度调节装置包括离合器（知识网络原文条目；结合 p38 方法②语境指风扇离合器类装置）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": [
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e1"
+      ],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0012",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k17",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k08",
+      "statement": "水温显示装置包括水温表。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0013",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k17",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k09",
+      "statement": "水温显示装置包括水温感应塞。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0014",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "has_process",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "statement": "冷却系统（冷却循环路线）包括大循环。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0015",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "has_process",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "statement": "冷却系统（冷却循环路线）包括小循环。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0016",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "has_process",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k15",
+      "statement": "冷却系统（冷却循环路线）包括混合循环。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0017",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "purpose",
+      "object_value": "冷却强度必须随发动机使用条件（转速、负荷、环境气温）经常改变而随之改变，才能保证发动机在有利的温度下工作",
+      "statement": "冷却强度调节的目的：发动机使用条件（转速、负荷、环境气温）经常改变，冷却强度必须随之改变，才能保证发动机在有利的温度下工作。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e4"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "水冷发动机",
+      "conditions": ["『有利的温度』为原书表述，本书本页未给出具体温度数值"],
+      "counterexamples": [],
+      "unknowns": ["具体最有利温度数值未在本页范围出现"]
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0018",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "predicate": "performs_function",
+      "object_value": "根据冷却液的温度变化自动改变冷却水循环路线和流量，实现冷却强度自动调节",
+      "statement": "冷却强度调节方法①：利用节温器根据冷却液的温度变化自动改变冷却水循环路线和流量，实现冷却强度自动调节。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e4"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "装有节温器的水冷发动机",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "mechanism",
+      "object_value": "利用百叶窗、温控风扇离合器、温控电风扇等改变通过散热器的空气流量来调节冷却强度",
+      "statement": "冷却强度调节方法②：利用百叶窗、温控风扇离合器、温控电风扇等改变通过散热器的空气流量来调节（冷却强度）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e1"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "装用百叶窗/风扇离合器/温控电风扇的车辆",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0020",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "predicate": "performs_function",
+      "object_value": "根据冷却系水温度变化控制冷却水的循环路线（大循环、小循环、混合循环）及流量，保证发动机在最适宜温度下工作",
+      "statement": "节温器是冷却强度调节装置之一，主要作用是根据冷却系水温度变化控制冷却水的循环路线（大循环、小循环、混合循环）及流量，保证发动机在最适宜温度下工作。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e2"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "装有节温器的水冷发动机",
+      "conditions": [],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "predicate": "definition",
+      "object_value": "发动机水温高于 80℃ 时节温器主阀门打开、副阀门关闭；冷却水全部由主阀座处进入散热器散热，水温迅速下降后再由水泵送入气缸体水套；这种循环方式叫大循环",
+      "statement": "大循环：当发动机水温高于 80℃ 时，节温器主阀门打开、副阀门关闭，冷却水全部由主阀座处进入散热器散热，水温迅速下降，然后再由水泵送入气缸体水套。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": [
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e3",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"
+      ],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": ["触发条件：发动机水温高于 80℃（原书数值，带条件）"],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "predicate": "definition",
+      "object_value": "发动机水温低于 70℃ 时节温器主阀门关闭、副阀门打开；气缸盖到散热器冷却水道被切断；冷却水由气缸盖水套流出，经节温器副阀座、旁通管进入水泵，并经水泵进入气缸体水套；冷却水不经散热器散热，使发动机温度迅速提高；这种循环方式叫小循环",
+      "statement": "小循环：当发动机水温低于 70℃ 时，节温器主阀门关闭、副阀门打开，气缸盖到散热器冷却水道被切断；冷却水由气缸盖水套流出，经节温器副阀座、旁通管进入水泵，并经水泵进入气缸体水套；因不经散热器散热，发动机温度迅速提高。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": [
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e4",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"
+      ],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": ["触发条件：发动机水温低于 70℃（原书数值，带条件）"],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0023",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k15",
+      "predicate": "definition",
+      "object_value": "水温在 70-80℃ 之间时节温器主、副阀门都处于部分开启状态；此时大、小循环都存在，只有部分冷却水流经散热器进行散热",
+      "statement": "混合循环：当水温在 70-80℃ 之间时，节温器主、副阀门都处于部分开启状态，此时大、小循环都存在，只有部分冷却水流经散热器进行散热。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": [
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e5",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6",
+        "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e1"
+      ],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": ["触发条件：水温在 70-80℃ 之间（原书数值区间，带条件）"],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0024",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "predicate": "controlled_state",
+      "object_value": "控制部件=节温器；控制温度>80℃；节温器工作状态=主阀门打开、副阀门关闭；冷却水循环路线=全部流经散热器",
+      "statement": "大、小、混合循环比较表·大循环行：控制部件为节温器，控制温度 >80℃，节温器主阀门打开副阀门关闭，冷却水全部流经散热器。",
+      "source_kind": "BOOK_TABLE_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": ["控制温度 >80℃（表内原书数值，带条件）"],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0025",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "predicate": "controlled_state",
+      "object_value": "控制部件=节温器；控制温度<70℃；节温器工作状态=主阀门关闭、副阀门打开；冷却水循环路线=不经散热器",
+      "statement": "大、小、混合循环比较表·小循环行：控制部件为节温器，控制温度 <70℃，节温器主阀门关闭副阀门打开，冷却水不经散热器。",
+      "source_kind": "BOOK_TABLE_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": ["控制温度 <70℃（表内原书数值，带条件）"],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0026",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k15",
+      "predicate": "controlled_state",
+      "object_value": "控制部件=节温器；控制温度 70-80℃；节温器工作状态=主、副阀门都处于部分开启；冷却水循环路线=部分冷却水经散热器",
+      "statement": "大、小、混合循环比较表·混合循环行：控制部件为节温器，控制温度 70-80℃，节温器主、副阀门都处于部分开启，部分冷却水经散热器。",
+      "source_kind": "BOOK_TABLE_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e6"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": ["控制温度 70-80℃（表内原书数值区间，带条件）"],
+      "counterexamples": [],
+      "unknowns": []
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0027",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k23",
+      "predicate": "replacement_criterion",
+      "object_value": "开启压力低于 0.126 MPa 时应更换散热器盖",
+      "statement": "散热器盖蒸气阀开启压力低于 0.126 MPa 时，应更换散热器盖（散热器盖上设有蒸气阀，蒸气阀在规定压力时打开）。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p38:e8"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "书中语境为散热器盖蒸气阀开启压力检验判据",
+      "conditions": [
+        "数值 0.126 MPa 为蒸气阀开启压力的下限判据，低于该值时更换散热器盖",
+        "该语句出现于强化训练填空题第 2 题题干（印刷页 33），非正文段落；题干中『蒸气阀应在压力___MPa 时打开』的额定开启压力数值留空，本页范围未给出"
+      ],
+      "counterexamples": [],
+      "unknowns": ["蒸气阀额定开启压力数值（题干留空未给）", "0.126 MPa 判据是否普适于所有车型未在书页说明"]
+    },
+    {
+      "id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0028",
+      "subject_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "predicate": "has_component",
+      "object_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k19",
+      "statement": "水冷却系主要零部件包括膨胀水箱；教学目标要求重点掌握水泵、散热器、膨胀水箱、节温器等构造及工作原理。",
+      "source_kind": "BOOK_BODY_DIRECT",
+      "evidence_ids": ["book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ev:p37:e2"],
+      "qualification_status": "EXTRACTED_UNCHECKED",
+      "applicability": "本书所述水冷却系统",
+      "conditions": ["『主要零部件』身份来自教学目标第 3 条表述（教学体例语境）"],
+      "counterexamples": [],
+      "unknowns": ["膨胀水箱的构造与功用正文未在本页范围出现（教学目标仅列为重点掌握对象）"]
+    }
+  ],
+  "edges": [
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0001",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k24",
+      "predicate": "part_of",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0001"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0002",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0002"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0003",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0003"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0004",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k17",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0004"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0005",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k02",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0005"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0006",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0006"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0007",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k18",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k04",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0007"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0008",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0008"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0009",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k06",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0009"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0010",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k04",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0010"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0011",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k07",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0011"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0012",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k17",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k08",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0012"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0013",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k17",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k09",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0013"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0014",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "predicate": "has_process",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0014"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0015",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "predicate": "has_process",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0015"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0016",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k15",
+      "predicate": "has_process",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0016"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0017",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "predicate": "is_a_component_of",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0020"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0018",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k20",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0019",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k21",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0020",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k16",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03",
+      "predicate": "adjusts_airflow_through",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0019"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0021",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "predicate": "controlled_by",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0024"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0022",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "predicate": "controlled_by",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0025"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0023",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k15",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k05",
+      "predicate": "controlled_by",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0026"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0024",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03",
+      "predicate": "routes_coolant_through",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0025",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03",
+      "predicate": "bypasses",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0026",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k15",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k03",
+      "predicate": "partially_routes_through",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0023"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0027",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k12",
+      "predicate": "passes_through",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0028",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k11",
+      "predicate": "draws_coolant_from",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0029",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k14",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k10",
+      "predicate": "returns_coolant_to",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0022"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0030",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k13",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k10",
+      "predicate": "returns_coolant_to",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0021"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0031",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k23",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k22",
+      "predicate": "part_of",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0027"
+    },
+    {
+      "id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:edg:0032",
+      "from_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k01",
+      "to_id": "book:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:ent:k19",
+      "predicate": "has_component",
+      "claim_id": "claim:1P_0J0vEH3HmWTTIsDSTVOu-p028CBMa1:c04:0028"
+    }
+  ],
+  "open_questions": [
+    "散热器盖上设置的两个部件名称（填空题 2 第 1、2 空）书中本页未给答案；结合上下文其一应为蒸气阀，另一阀名称在本页范围未出现。",
+    "蒸气阀额定开启压力数值（『蒸气阀应在压力___MPa 时打开』）在题干中留空；0.126 MPa 仅为『低于此值应更换散热器盖』的判据，二者不可混用。",
+    "发动机正常工作温度数值（填空题 11）留空未给；选择题 1 给出 90℃/70-80℃/80-90℃/80-100℃ 四个选项但未标答案，不得当结论使用。",
+    "水泵、散热器、节温器、膨胀水箱的构造与工作原理正文未在本页范围（印刷页 32-37）展开，教学目标与简答题仅列为重点；蜡式节温器、硅油风扇离合器、水封、分水管、双散热器等仅在练习题干出现，本范围未抽取其知识。",
+    "印刷页码偏移实测为 printed = pdf_index - 5（p0036 页脚印 31、p0037 页脚印 32），与任务元数据 idx-4 相差 1；据此任务所述『第五章润滑系始于印刷页 39（pdf 43）』按实测偏移 pdf 43 对应印刷页 38，第五章实际起始 pdf 页需在下一批页核实。本范围末页（pdf 42/印刷 37）仍为第四章强化训练，未出现第五章内容。",
+    "p36 与 p42 右缘存在背面透印残影文字，无法辨认；残影非本页正文，未计入 unreadable 正文损失。"
+  ]
+}
