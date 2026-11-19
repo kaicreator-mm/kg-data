@@ -1,5 +1,19 @@
 # 汽修知识生成动态优先级与并行调度 — R1
 
+<!-- R19_MYANMAR_SERIES_FOUR_WRITER_ACTUAL_DELIVERY -->
+## R19 · 缅甸车型优先：四条 Series Discovery 已生成、待分别独审（2026-11-19）
+
+[R17 最新有效准入](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7013561465) 在当前市场计划独审通过后将有效 Task DAG **54→58**。只准入四项缅甸在用旧车候选：Nissan AD Van、Toyota Vitz、Suzuki Swift、Toyota Wish；[本轮实际四篇 Writer RELEASE](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7014021276)。缅甸 2026 全国车系保有量排名依然 UNKNOWN，不用交易/挂牌替代登记及工单分母。
+
+- `SER-DISC-AD-VAN`：[Markdown](./series/myanmar/nissan/ad-van/discovery.md) Blob `88bce8761de3856d716ccf59c0737dd6b7e21465`；日本 Nissan 2006/2013 AD/Expert 与 Wingroad 区分、CVT/4AT 条件分叉。
+- `SER-DISC-VITZ`：[Markdown](./series/myanmar/toyota/vitz/discovery.md) Blob `504a93c3647adbde8562f05c43da779e45708f66`；2005/2010 日本 Vitz 发动机及 CVT/MT、驱动配置，2017 Hybrid 仅用于排除错误外推。
+- `SER-DISC-SWIFT`：[Markdown](./series/myanmar/suzuki/swift/discovery.md) Blob `53d4364bc269c18388827caf653a1dbb9d3078dc`；2007 4AT/CVT/5MT 与 2010 副变速机构 CVT 的日本原厂版本差异。
+- `SER-DISC-WISH`：[Markdown](./series/myanmar/toyota/wish/discovery.md) Blob `683e792aeaf2a8448c9a64fffd76971777a0974f`；Toyota 2003 1ZZ-FE/1AZ-FSE 与 2009 2ZR/3ZR 车型分界。
+
+本轮实际总数 **43 GENERATED / 39 ACCEPT_SCOPED / 4 REVIEW_PENDING**。新增四文档**均只有 Writer RELEASE，未获非 Writer 内容审核**；后续四 Reviewer 以 Exact Blob 独立审原厂与缅甸市场证据范围，才可推进真实车型变体差量。已接受的 39 篇不重新验证。**R16 通用八叶仍 HOLD、BEV 默认扩张继续 HOLD**。旧 R14/R17 历史表仅供追溯。
+<!-- END_R19_MYANMAR_SERIES_FOUR_WRITER_ACTUAL_DELIVERY -->
+
+
 <!-- MYANMAR_FLEET_FIRST_R17_PRIORITY_OVERRIDE -->
 ## R17 最新 Owner 调度纠偏：缅甸在用主流车系优先（2026-11-19）
 
