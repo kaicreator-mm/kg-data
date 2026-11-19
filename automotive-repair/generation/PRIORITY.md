@@ -3,7 +3,25 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
-## R10 最高优先级（2026-11-19，覆盖以下 R9 历史快照）
+## R11 最新执行事实与下一轮快速并行（2026-11-19；覆盖后文 R10 快照）
+
+**已真实新增三个独立广度 Markdown（全部 Writer CLAIM→Commit→Exact Blob 回读→RELEASE）**：
+
+| Task | 文件 | Commit / Blob | 生成阶段状态 |
+|---|---|---|---|
+| `STR-ENG-AIRFUEL` | [汽油机空气/燃油/点火/排放结构](./topics/engine/air-fuel-emissions/structure.md) | `d1a7d8d0b3c304d32eae8ed83df3e541250241d1` / `a0a5dceadb22a1588876d1001e5a0a0451709469` | `GENERATED_REVIEW_PENDING` |
+| `DISC-METHOD` | [跨系统诊断与误修证据方法](./topics/common/diagnostic-methods.md) | `74de9488ff44413a963725c0b4838569d0ad0458` / `b76e6445b21acd936fb7d138692a7a3c48424065` | `GENERATED_REVIEW_PENDING` |
+| `STR-BODY-SAFETY` | [车身电气与 SRS 结构](./topics/body-safety/structure.md) | `932d91f06e7ff888b7a9f575f9bb0e1496d0600e` / `8b9ec87fa448110e449c0b6233b6b812d8e9120a` | `GENERATED_REVIEW_PENDING` |
+
+**总量 27 GENERATED / 21 ACCEPT_SCOPED_GENERATION_ONLY / 6 REVIEW_PENDING**：先前遗留 `STR-DRIVELINE`、`FUN-ENG-LUBE`、`FAIL-ENG-LUBE` 待独审，再加上述三篇。此分母仅代表已经实际提交的 Markdown，**不是全汽修领域完成率**；OEM/VIN/N3=0、缅甸某车型技术规格与故障频率 UNKNOWN。
+
+**当前可真实独立领取的旧主 DAG 任务**：`FUN-HV`（依已审 `STR-HV@472127e80e95f022dc512b0c635b7a63282c94d2`，BEV 非操作功能）和 `FAIL-BRK`（依已审 `FUN-BRK@e5529c11339a5191de1ce46084923c8d38f88d7f`，制动失效的非操作机理）。`REP-ENG-LUBE` 虽在原 DAG，当前功能/失效上游质量独审仍 PENDING，宜先异对话审两篇再做高价值维修鉴别，避免不必要 STALE 返工。
+
+**本轮派发**：六条不同文件的 Source-First 内容审、R9 六节点增量 DAG 独立审核与两条原已审旧 Writer，可并行由不同对话 Claim，统一 [#61 GitHub 评论](https://github.com/kaicreator-mm/parts-system/issues/61) 交互，不需原对话续写；没有实际 Claim/Commit 的 OFFER 不计 RUNNING。
+
+**下一轮 PLAN 拓展（只有旧图来源与生成接受成立后）**：`FUN-ENG-AIRFUEL`、`FUN-BODY-SAFETY` 等是本轮新结构发现的候选，**不得**因为本轮已提交 STR 就自动晋升为 READY；先复用或在已提出的 [R9 DAG_DELTA](./DAG_DELTA_R9.md) 审核收口后再做有明确新增依赖/独占路径的最小计划增量。R9 六条原候选仍 PROPOSED，所有已审通用/Series/Family Blob 不变。
+
+## 历史 R10 最高优先级（2026-11-19；已被 R11 覆盖）
 
 > **第二次真实交付已加入**：[FAIL-ENG-LUBE](./topics/engine/lubrication/failure.md) Commit `b5399838e85c992aba9b1ebbccecb7de56debea8` / Blob `8c2cbbcf9ea262d4945ecbb290874d3e10c86875`，独审待派。**当前 24 GENERATED / 21 SCOPED_ACCEPT / 3 REVIEW_PENDING**；之前 23/21/2 是本轮第一批快照，不再代表最新总数。新增 `FAIL-ENG-LUBE` 的上游 `FUN-ENG-LUBE` 仍待独审，若 REWORK 应按影响标 STALE。独审可将两个不同 Task 分交两个其它对话，避免自审或未经前置确认晋升。
 
