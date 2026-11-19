@@ -8,6 +8,8 @@
 
 > **R10 最新（2026-11-19）**：新增 [FUN-ENG-LUBE](./topics/engine/lubrication/function.md)，Commit `94cac18b283cfa23ee500ce684648a331c3e3d3f`，Exact Blob `1548f1d0d51b840f53e9fd101705d1ad49f0bc33`，Writer RELEASE [#6997064528](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6997064528)；`GENERATED_REVIEW_PENDING`。目前知识 Markdown **23 GENERATE / 21 限定内容质量 ACCEPT / 2 待独审**（新 FUN-ENG-LUBE + 上轮 STR-DRIVELINE），原 R9 栏为历史快照。模型知识第一阶段仍非 OEM/VIN/N3 合格事实；其余知识覆盖缺口真实 OPEN。
 
+> **R10 第二次增量回读**：新增 [FAIL-ENG-LUBE](./topics/engine/lubrication/failure.md) Commit `b5399838e85c992aba9b1ebbccecb7de56debea8`、Blob `8c2cbbcf9ea262d4945ecbb290874d3e10c86875`，单 Writer RELEASE [#6997180423](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6997180423)。当前实际知识文件 **24 GENERATED / 21 独审 ACCEPT / 3 REVIEW_PENDING**（STR-DRIVELINE、FUN-ENG-LUBE、FAIL-ENG-LUBE）；如前置 FUN-ENG-LUBE 日后 REWORK，则 FAIL-ENG-LUBE 受影响部分必须标 STALE；未晋升正式 OEM/VIN/N3。
+
 ## 四视角覆盖状态
 
 `S` = 结构、`F` = 功能原理、`X` = 失效模式、`R` = 诊断维修维护。每个单元只记录实际观察状态：
@@ -20,7 +22,7 @@
 
 | 对象/切片 | S | F | X | R | 下一具体缺口/任务 | 为什么选择或延期 |
 |---|---|---|---|---|---|---|
-| ICE 润滑 | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | OPEN | OPEN | [FUN-ENG-LUBE](./topics/engine/lubrication/function.md) 已提交，异对话独审；`FAIL-ENG-LUBE` 依原 PLAN §4 可继续候选 | 结构 [R2 独审 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6956153492)，功能 Commit `94cac18b283cfa23ee500ce684648a331c3e3d3f` / Blob `1548f1d0d51b840f53e9fd101705d1ad49f0bc33`，上游若 REWORK 下游按影响标 STALE |
+| ICE 润滑 | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | GENERATED_REVIEW_PENDING | OPEN | [FUN-ENG-LUBE](./topics/engine/lubrication/function.md) 与 [FAIL-ENG-LUBE](./topics/engine/lubrication/failure.md) 已交付待异对话独审，`REP-ENG-LUBE` 为已审 PLAN §4 后继候选 | FUN Blob `1548f1d0d51b840f53e9fd101705d1ad49f0bc33`；FAIL Blob `8c2cbbcf9ea262d4945ecbb290874d3e10c86875`，FAIL 依当前待审 FUN，后者 REWORK 时按影响 STALE |
 | ICE 空气/燃油/排放 | OPEN | OPEN | OPEN | OPEN | STR-ENG-AIRFUEL | 待激活广度 |
 | 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | 已完成原定研究级 STR/FUN/FAIL/REP 链；新任务按缺口重新规划 | [REP-AT 独审 ACCEPT P2×1](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518832)，Blob `2948cafc88693aa746520717068239a77d2c5d52`，并非车型级诊断完成 |
 | 传动/差速器 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | [STR-DRIVELINE](./topics/driveline/structure.md) 已提交待独审；FUN 需新 DAG | Commit `f94d9c000049b070cde4c77c8febd7cacc904fa1`，Blob `9f70017bc47e3bc30110dfbc15ad5070c75981e1`；FWD/RWD/AWD、半轴、差速结构 |
