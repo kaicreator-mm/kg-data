@@ -1,0 +1,186 @@
+# QA report — book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY (revision 1)
+
+- Scope: lab11; whole-book status BOOK_IN_PROGRESS (partial, not complete).
+- Pages: 11/404 processed (blocked/pending 393 honestly PENDING in ledger).
+- Assets: 4/4 INTERPRETED_SCOPED.
+- Claims: 168 total = 168 book-direct + 0 model-inference; all EXTRACTED_UNCHECKED (no self-promotion).
+- Evidence records: 60; every direct claim carries matching-kind evidence registered in page ledger.
+- Open questions (unknowns carried, not fabricated): see chapter bundles / graph claims.
+- External API upload: NONE (local processing only). Rights: UNKNOWN, recorded not assumed.
+
+## Normalization notes (single-writer integrator)
+
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0001: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0002: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0003: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0004: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0005: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0006: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0007: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0008: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0009: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0010: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0011: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0012: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0013: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0014: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0015: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0016: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0017: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0018: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0019: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0020: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0021: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0022: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0023: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0024: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0025: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0026: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0027: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0028: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0029: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0030: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0031: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0032: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0033: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0034: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0035: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0036: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0037: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0038: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0039: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0040: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0041: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0042: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0043: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0044: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0045: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0046: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0047: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0048: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0049: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0050: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0051: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0052: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0053: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0054: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0055: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0056: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0057: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0058: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0059: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0060: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0061: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0062: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0063: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0064: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0065: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0066: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0067: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0068: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0069: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0070: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0071: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0072: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0073: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0074: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0075: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0076: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0077: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0078: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0079: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0080: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0081: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0082: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0083: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0084: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0085: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0086: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0087: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0088: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0089: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0090: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0091: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0092: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0093: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0094: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0095: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0096: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0097: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0098: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0099: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0100: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0101: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0102: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0103: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0104: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0105: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0106: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0107: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0108: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0109: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0110: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0111: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0112: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0113: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0114: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0115: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0116: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0117: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0118: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0119: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0120: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0121: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0122: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0123: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0124: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0125: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0126: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0127: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0128: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0129: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0130: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0131: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0132: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0133: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0134: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0135: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0136: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0137: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0138: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0139: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0140: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0141: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0142: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0143: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0144: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0145: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0146: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0147: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0148: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0149: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0150: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0151: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0152: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0153: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0154: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0155: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0156: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0157: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0158: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0159: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0160: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0161: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0162: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0163: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0164: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0165: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0166: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0167: statement missing -> backfilled from value
+- claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0168: statement missing -> backfilled from value
+
+## Residual risks / unfinished
+- Remaining pages are PENDING (not silently skipped); completion requires full-page accounting per SKILL section 5.
+- 实训1.1 总装步骤 (14)5) 分电器安装续至 pdf68+ 未抽取
+- p58 为 1.9.6 尾页（边界登记未抽取）
+- 其余章节 PENDING

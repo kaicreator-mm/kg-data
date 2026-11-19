@@ -1,0 +1,13 @@
+chapter_id: lab11
+pdf_pages_range:
+- 58
+- 67
+extractor_model: glm-flash-free
+source_pdf_sha256: ddaae1ff9acd984d0e0de35e72c501b0c197e9f76bda4f19cc63d34e6e9cbe7c
+claims: 168
+entities: 48
+edges: 85
+evidence_records: 60
+open_questions: 0
+observations_local_only: true
+status: EXTRACTED_STRUCT_QA_PENDING_REVIEW

@@ -1,0 +1,10 @@
+book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+toc_alignment_status: TOC_PARTIAL_ALIGNED（实训部分页段已核，实测偏移 printed=pdf−12）
+toc_source_pages:
+- 4
+printed_to_pdf_offset: 12
+chapters_total: null
+chapters_mapped_here:
+- lab11
+note: Full chapter map extends as future batches process more chapters; TOC evidence
+  is structure-only

@@ -1,0 +1,4451 @@
+book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+schema_version: 1.0.0
+ontology_version: automotive-books-kg-ontology-1.0
+graph_revision: 1
+source:
+  drive_file_id: 1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  title: 汽车发动机构造与维修（王凤军、吴东平主编）
+  pdf_page_count: 404
+  source_sha256: ddaae1ff9acd984d0e0de35e72c501b0c197e9f76bda4f19cc63d34e6e9cbe7c
+  source_rights_status: UNKNOWN
+  publication_year: null
+  edition: null
+  isbn: null
+entities:
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  label: CA6102 型汽油机
+  kind: engine
+  attributes_json: '{"brief": "解放卡车用汽油机，本书第1章实训1.1 的观察、解体与总装对象；直列六缸、前端带风扇皮带轮", "pages": [59, 60, 61, 62, 63, 64, 65, 66, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  label: 实训1.1.2 CA6102 型汽油机的解体
+  kind: procedure
+  attributes_json: '{"brief": "书中示范的整机解体作业流程（附件→配气机构→曲柄连杆机构→曲轴飞轮组→凸轮轴）", "pages": [59, 60, 61, 62]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  label: 实训1.1.3 解放 CA6102 型汽油机的总装
+  kind: procedure
+  attributes_json: '{"brief": "书中示范的整机总装作业流程（气缸体→曲轴→活塞连杆→飞轮→凸轮轴→机油泵→正时齿轮盖→油底壳→挺杆→缸盖→摇臂轴→皮带轮→附件）", "pages": [62, 63, 64, 65, 66, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k04
+  label: 空气压缩机（气泵）
+  kind: component
+  attributes_json: '{"brief": "发动机右侧附件，书中亦称气泵；带支架装于发动机右前侧", "pages": [59, 60, 62, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k05
+  label: 机油标尺（机油尺）
+  kind: component
+  attributes_json: '{"brief": "发动机右侧用于检查机油液面的量尺", "pages": [59, 60]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k06
+  label: 离心式机油（细）滤清器
+  kind: component
+  attributes_json: '{"brief": "发动机右侧的细滤装置，书中亦称离心式转子滤清器，安装方法与粗滤器基本相同", "pages": [59, 60, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k07
+  label: 分电器（含固定底座与传动轴）
+  kind: component
+  attributes_json: '{"brief": "点火系部件：总成、固定底座、传动轴分别拆卸；重装时需先定一缸压缩上止点", "pages": [59, 60, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k08
+  label: 汽油泵
+  kind: component
+  attributes_json: '{"brief": "燃油供给部件，装于发动机右侧，与化油器间有汽油管连接", "pages": [59, 60]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k09
+  label: 曲轴箱通风装置（通风阀、滤清器及连接管）
+  kind: component
+  attributes_json: '{"brief": "曲轴箱通风系统的阀、进气口滤清器及与排气滤清器出口的连接管", "pages": [59, 60, 61, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k10
+  label: 扭振减振器
+  kind: component
+  attributes_json: '{"brief": "曲轴前端减振部件，图1.51 标注7 称『扭转减震器』；拆卸前与皮带轮做安装记号", "pages": [59, 60, 62, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k11
+  label: 水温感应塞
+  kind: component
+  attributes_json: '{"brief": "冷却系感应元件，装于发动机右侧", "pages": [59, 60]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  label: 油底壳
+  kind: component
+  attributes_json: '{"brief": "曲轴箱下部储油壳体，带垫板与密封垫；螺栓从中间向两边轮流拧紧", "pages": [59, 60, 61, 62, 65]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k13
+  label: 飞轮壳
+  kind: component
+  attributes_json: '{"brief": "飞轮外侧壳体，带检视口；与气缸体间靠定位环（空心定位销）定位", "pages": [59, 60, 62, 64]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k14
+  label: 空气滤清器（含安装架与连接管）
+  kind: component
+  attributes_json: '{"brief": "发动机左侧进气装置，与曲轴箱通风装置进气口滤清器有连接管", "pages": [59, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k15
+  label: 化油器（含密封隔热垫）
+  kind: component
+  attributes_json: '{"brief": "燃油供给部件，装于发动机左侧", "pages": [59, 60]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k16
+  label: 发电机
+  kind: component
+  attributes_json: '{"brief": "左侧附件，其调整支架在水泵安装时不得漏装", "pages": [59, 60, 65, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k17
+  label: 起动机
+  kind: component
+  attributes_json: '{"brief": "左侧附件，起动系部件", "pages": [59, 60]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k18
+  label: 机油粗滤器
+  kind: component
+  attributes_json: '{"brief": "装于机体左侧的粗滤总成，密封垫涂黄油或密封胶", "pages": [59, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k19
+  label: 水泵
+  kind: component
+  attributes_json: '{"brief": "冷却系部件，与缸盖出水管、节温器一体拆卸", "pages": [59, 60, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k20
+  label: 硅油风扇离合器（含风扇叶）
+  kind: component
+  attributes_json: '{"brief": "风扇与硅油离合器总成，拆卸时同取风扇皮带、气泵皮带", "pages": [59, 60, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k21
+  label: 火花塞
+  kind: component
+  attributes_json: '{"brief": "点火系部件，分电器安装定位时需卸下一缸火花塞堵孔判缸压", "pages": [59, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k22
+  label: 高压线（分电器—各缸）
+  kind: component
+  attributes_json: '{"brief": "分电器与各缸火花塞间的高压线", "pages": [59]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k23
+  label: 进排气歧管（含垫）
+  kind: component
+  attributes_json: '{"brief": "配气机构拆卸第一步拆下；安装时从中间向两端拧紧", "pages": [59, 61, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k24
+  label: 气缸盖（缸盖）
+  kind: component
+  attributes_json: '{"brief": "抬下需轻击四周平稳取下并注意放置防护；螺栓从中间向两端分次拧紧", "pages": [61, 62, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k25
+  label: 气缸垫（缸垫）
+  kind: component
+  attributes_json: '{"brief": "缸盖与缸体间密封垫，带卷边的卷边应朝上", "pages": [61, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k26
+  label: 摇臂座（摇臂轴）总成
+  kind: component
+  attributes_json: '{"brief": "配气机构上置摇臂组件，拆装均需做标记/靠定位环定位", "pages": [61, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k27
+  label: 推杆
+  kind: component
+  attributes_json: '{"brief": "配气机构传力杆，抽出需标原始位置；安装两端醮机油并落入挺杆球面座", "pages": [61, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k28
+  label: 挺杆导向体与挺杆
+  kind: component
+  attributes_json: '{"brief": "挺杆按顺序做标记；导向体带前后安装记号（如前或1、2 记号）", "pages": [61, 62, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k29
+  label: 气门帽
+  kind: component
+  attributes_json: '{"brief": "气门杆端部件，拆卸需妥善保管防丢失", "pages": [61, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  label: 轴瓦（主轴瓦与连杆瓦片，含瓦盖及螺栓螺母）
+  kind: component
+  attributes_json: '{"brief": "曲轴与连杆轴瓦组件；上下瓦片、各缸之间不得相混；瓦盖有序号与方向要求", "pages": [61, 62, 63, 64]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k31
+  label: 曲轴
+  kind: component
+  attributes_json: '{"brief": "曲柄连杆机构主轴，抬出后垂直或平放于安全位置", "pages": [62, 63]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k32
+  label: 活塞连杆组
+  kind: component
+  attributes_json: '{"brief": "含活塞、活塞环、活塞销、连杆与瓦片；注意缸号、配对记号与安装方向", "pages": [61, 62, 64]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k33
+  label: 飞轮
+  kind: component
+  attributes_json: '{"brief": "采用定位销定位，固定螺栓对角交叉分次拧松/十字交叉拧紧并锁片翻边", "pages": [62, 64]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k34
+  label: 凸轮轴（含止推突缘）
+  kind: component
+  attributes_json: '{"brief": "配气机构驱动轴，抽出/推入需平稳；止推突缘间隙有检查限值", "pages": [62, 64, 65]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k35
+  label: 正时齿轮（含正时记号）
+  kind: component
+  attributes_json: '{"brief": "凸轮轴与曲轴传动齿轮，凹坑记号须重合于两轴中心连线", "pages": [62, 64, 65]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k36
+  label: 机油泵
+  kind: component
+  attributes_json: '{"brief": "润滑系泵，用定位环与机体定位后四螺栓拧紧", "pages": [61, 65]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k37
+  label: 机油集滤器
+  kind: component
+  attributes_json: '{"brief": "机油泵吸油滤网总成，装于油泵且支架固定在第二道轴瓦盖上", "pages": [61, 65]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k38
+  label: 正时齿轮盖（原刊两处排作『正室齿轮盖』）
+  kind: component
+  attributes_json: '{"brief": "发动机前端盖，靠定位环/定位销与垫片密封垫依序装配并保证底平面平齐", "pages": [62, 63, 65, 66]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k39
+  label: 曲轴皮带轮
+  kind: component
+  attributes_json: '{"brief": "曲轴前端皮带轮，配半圆键；与前油封接触面不得刮伤", "pages": [62, 64, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k40
+  label: 起动爪
+  kind: component
+  attributes_json: '{"brief": "曲轴前端紧固件，带锁片；装配最终拧紧扭矩有规定", "pages": [62, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k41
+  label: 离合器总成（含盖、从动盘）
+  kind: component
+  attributes_json: '{"brief": "解体步骤19 拆下的离合器部件，拆卸前检查与飞轮的安装记号", "pages": [60]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k42
+  label: 气门间隙
+  kind: concept
+  attributes_json: '{"brief": "气门与摇臂间的最小间隙；进气0.2mm、排气0.25mm，测量部位见图1.52", "pages": [66, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k43
+  label: 曲轴后油封（含油封挡片）
+  kind: component
+  attributes_json: '{"brief": "规格100×125×12；按外圆材质涂机油或密封胶并用专用工具压入", "pages": [62, 63]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k44
+  label: 发动机前悬置支架
+  kind: component
+  attributes_json: '{"brief": "发动机前端支撑支架，内表面涂黄油套在正时齿轮盖上", "pages": [62, 65, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k45
+  label: 风扇皮带与气泵皮带
+  kind: component
+  attributes_json: '{"brief": "前端传动皮带，风扇皮带两根、气泵带一根；张紧度有检测法", "pages": [60, 67]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k46
+  label: 机油压力感应塞与油压警报感应塞
+  kind: component
+  attributes_json: '{"brief": "润滑系压力监测元件（两个），位于发动机左侧", "pages": [59, 60]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k47
+  label: 汽油管（汽油泵与化油器间）
+  kind: component
+  attributes_json: '{"brief": "燃油输送管路，附件拆卸第一步", "pages": [59]}'
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k48
+  label: 真空感电管（分电器与化油器间）
+  kind: component
+  attributes_json: '{"brief": "分电器真空点火提前装置的连接管路（原书用词）", "pages": [59]}'
+claims:
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0001
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  predicate: component_layout
+  object_id: null
+  value: 观察1)：发动机左侧安装有空气滤清器、化油器、曲轴箱通风装置、进排气总管、发电机、起动机、机油粗滤器、机油压力感应塞、油压警报感应塞、放水开关、水泵、硅油风扇离合器等附件。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.1 CA6102 型汽油机的观察
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e01
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 观察1)：发动机左侧安装有空气滤清器、化油器、曲轴箱通风装置、进排气总管、发电机、起动机、机油粗滤器、机油压力感应塞、油压警报感应塞、放水开关、水泵、硅油风扇离合器等附件。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0002
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  predicate: component_layout
+  object_id: null
+  value: 观察2)：发动机右侧安装有空气压缩机、机油尺、离心式机油（细）滤清器、分电器、汽油泵、曲轴箱通风装置滤清器、水温感应塞、扭振减振器、油底壳、飞轮壳等附件。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.1 CA6102 型汽油机的观察
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e02
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 观察2)：发动机右侧安装有空气压缩机、机油尺、离心式机油（细）滤清器、分电器、汽油泵、曲轴箱通风装置滤清器、水温感应塞、扭振减振器、油底壳、飞轮壳等附件。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0003
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  predicate: internal_structure
+  object_id: null
+  value: 观察3)：发动机内部安装有曲柄连杆机构、配气机构等（书引图1.51，图印于 printed 48）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.1 CA6102 型汽油机的观察
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e03
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 观察3)：发动机内部安装有曲柄连杆机构、配气机构等（书引图1.51，图印于 printed 48）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0004
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  predicate: overall_architecture
+  object_id: null
+  value: 综述：汽油机主要有两个机构——曲柄连杆机构和配气机构；五大系统——润滑系、冷却系、供给系、点火系、起动系。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.1 CA6102 型汽油机的观察
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e04
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 综述：汽油机主要有两个机构——曲柄连杆机构和配气机构；五大系统——润滑系、冷却系、供给系、点火系、起动系。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0005
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: procedure_precondition
+  object_id: null
+  value: 解体前将发动机安置于台架上，必须牢固可靠。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e05
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 解体前将发动机安置于台架上，必须牢固可靠。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0006
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k47
+  value: 步骤1)：选用合适扳手卸下汽油泵与化油器连接的汽油管。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤1)：选用合适扳手卸下汽油泵与化油器连接的汽油管。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0007
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k48
+  value: 步骤2)：卸下分电器与化油器相连接的真空感电管（原书用词）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤2)：卸下分电器与化油器相连接的真空感电管（原书用词）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0008
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k22
+  value: 步骤3)：拔下分电器与各缸连接的高压线。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤3)：拔下分电器与各缸连接的高压线。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0009
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k21
+  value: 步骤3)：卸下火花塞。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤3)：卸下火花塞。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0010
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k07
+  value: 步骤4)：卸下分电器总成和分电器固定底座。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤4)：卸下分电器总成和分电器固定底座。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0011
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: 步骤5)：卸下分电器传动轴的固定螺栓，拔出传动轴。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤5)：卸下分电器传动轴的固定螺栓，拔出传动轴。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0012
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k08
+  value: 步骤6)：卸下汽油泵及垫。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤6)：卸下汽油泵及垫。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0013
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k04
+  value: 步骤7)：卸下气泵（空气压缩机）总成及安装架。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤7)：卸下气泵（空气压缩机）总成及安装架。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0014
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k05
+  value: 步骤8)：拔出油尺（机油标尺）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤8)：拔出油尺（机油标尺）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0015
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k11
+  value: 步骤8)：卸下水温感应塞。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤8)：卸下水温感应塞。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0016
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: 步骤9)：卸下空气滤清器与曲轴箱通风装置进气口滤清器的连接管。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤9)：卸下空气滤清器与曲轴箱通风装置进气口滤清器的连接管。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0017
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k14
+  value: 步骤10)：卸下空气滤清器及安装架。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤10)：卸下空气滤清器及安装架。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0018
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k15
+  value: 步骤11)：卸下化油器和密封隔热垫。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤11)：卸下化油器和密封隔热垫。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0019
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k09
+  value: 步骤12)：卸下曲轴箱通风阀及与排气滤清器出口连接的管。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  pdf_pages:
+  - 59
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤12)：卸下曲轴箱通风阀及与排气滤清器出口连接的管。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0020
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  predicate: figure_annotation_index
+  object_id: null
+  value: 图1.51 标注对照：1.空气压缩机；2.机油标尺；3.离心式机油滤清器；4.分电器；5.汽油泵；6.曲轴箱通风滤清器；7.扭转减震器；8.水温感应塞；9.油底壳；10.飞轮壳。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.1 CA6102 型汽油机的观察
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e01
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 图1.51 标注对照：1.空气压缩机；2.机油标尺；3.离心式机油滤清器；4.分电器；5.汽油泵；6.曲轴箱通风滤清器；7.扭转减震器；8.水温感应塞；9.油底壳；10.飞轮壳。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0021
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k16
+  value: 步骤13)：卸下发电机。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e02
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤13)：卸下发电机。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0022
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k17
+  value: 步骤14)：卸下起动机。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e02
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤14)：卸下起动机。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0023
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k46
+  value: 步骤15)：卸下油压感应塞和油压警报感应塞。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e02
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤15)：卸下油压感应塞和油压警报感应塞。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0024
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k20
+  value: 步骤16)：卸下风扇和硅油风扇离合器总成，并取下风扇皮带、气泵皮带。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e02
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤16)：卸下风扇和硅油风扇离合器总成，并取下风扇皮带、气泵皮带。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0025
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k19
+  value: 步骤17)：卸下水泵及缸盖出水管和节温器。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e02
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤17)：卸下水泵及缸盖出水管和节温器。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0026
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: 步骤18)：卸下气缸左侧面水套室盖及垫。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e02
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤18)：卸下气缸左侧面水套室盖及垫。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0027
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k41
+  value: 步骤19)：卸下离合器总成。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e03
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤19)：卸下离合器总成。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0028
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: marking_principle
+  object_id: null
+  value: 步骤19-①)：先检查离合器盖与飞轮有无安装记号，若无记号应做好安装标记。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e03
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤19-①)：先检查离合器盖与飞轮有无安装记号，若无记号应做好安装标记。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0029
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: loosening_sequence
+  object_id: null
+  value: 步骤19-②)：对称交叉均匀分2～3次拧松离合器固定螺栓至卸下。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e03
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤19-②)：对称交叉均匀分2～3次拧松离合器固定螺栓至卸下。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0030
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: 步骤19-③)：取下离合器盖总成及从动盘总成（原刊此字『盖/盘』形近难辨，按上下文判读为『盖』，详见 unknowns）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e03
+  pdf_pages:
+  - 60
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 步骤19-③)：取下离合器盖总成及从动盘总成（原刊此字『盖/盘』形近难辨，按上下文判读为『盖』，详见 unknowns）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0031
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k23
+  value: (2)步骤1)：卸下进、排气歧管及垫。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤1)：卸下进、排气歧管及垫。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0032
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: (2)步骤2)：卸下前、后气门室罩及通风装置滤清器。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤2)：卸下前、后气门室罩及通风装置滤清器。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0033
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k26
+  value: (2)步骤3)：卸下前后摇臂座、轴总成，并做好前后区分标记（可把前打上标记、后不打等方法）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤3)：卸下前后摇臂座、轴总成，并做好前后区分标记（可把前打上标记、后不打等方法）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0034
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k29
+  value: (2)步骤4)：取下气门帽，并妥善保管防止丢失。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤4)：取下气门帽，并妥善保管防止丢失。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0035
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k27
+  value: (2)步骤5)：抽出推杆，并标出原始位置（如用刮刀在杆上写出顺序号）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e01
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤5)：抽出推杆，并标出原始位置（如用刮刀在杆上写出顺序号）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0036
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: loosening_sequence
+  object_id: null
+  value: (2)步骤6)：缸盖螺栓按照从两边至中间对角交叉、分2～3次均匀拧松，直至卸下。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e02
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤6)：缸盖螺栓按照从两边至中间对角交叉、分2～3次均匀拧松，直至卸下。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0037
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: handling_precaution
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k24
+  value: (2)步骤7)：手锤轻击缸盖四周后平稳抬下，放置于平稳之处并侧置；若平置，缸盖下结合面要用木板垫平，防止磕碰或变形。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e03
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤7)：手锤轻击缸盖四周后平稳抬下，放置于平稳之处并侧置；若平置，缸盖下结合面要用木板垫平，防止磕碰或变形。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0038
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k25
+  value: (2)步骤8)：先仔细观察缸垫的安装方向，再取下缸垫并放置平整处或挂置。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e04
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤8)：先仔细观察缸垫的安装方向，再取下缸垫并放置平整处或挂置。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0039
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: (2)步骤9-①)：卸下挺杆室盖总成。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e05
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤9-①)：卸下挺杆室盖总成。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0040
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: marking_check
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k28
+  value: (2)步骤9-②)：观察核对前后挺杆导向体的安装记号，若无则打上记号（如前或1、2 记号）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e05
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤9-②)：观察核对前后挺杆导向体的安装记号，若无则打上记号（如前或1、2 记号）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0041
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k28
+  value: (2)步骤9-③)：卸下挺杆导向体螺栓，拔出导向体；取下挺杆按顺序做好标记。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e05
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤9-③)：卸下挺杆导向体螺栓，拔出导向体；取下挺杆按顺序做好标记。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0042
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: (3)步骤1)：将机体侧放，并使配气传动组一侧朝上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e06
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤1)：将机体侧放，并使配气传动组一侧朝上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0043
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: loosening_sequence
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  value: (3)步骤2)：油底壳固定螺栓分2～3次对角交叉扭松至卸下。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e06
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤2)：油底壳固定螺栓分2～3次对角交叉扭松至卸下。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0044
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  value: (3)步骤3)：取下油底壳垫板、油底壳及垫。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e06
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤3)：取下油底壳垫板、油底壳及垫。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0045
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k36
+  value: (3)步骤4)：卸下机油集滤器、机油泵及进出油管。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e06
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤4)：卸下机油集滤器、机油泵及进出油管。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0046
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: marking_check
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k32
+  value: (3)步骤5)：检查活塞顶部有无安装序号（缸号），若无，当活塞在上止点时打出相应缸号。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e07
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤5)：检查活塞顶部有无安装序号（缸号），若无，当活塞在上止点时打出相应缸号。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0047
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: marking_check
+  object_id: null
+  value: (3)步骤6)：检查连杆大端或瓦盖有无相应缸号、配对记号是否在同一侧、是否同一标号；若无缸号，要在连杆瓦盖上用钢字打上相应缸号。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e07
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤6)：检查连杆大端或瓦盖有无相应缸号、配对记号是否在同一侧、是否同一标号；若无缸号，要在连杆瓦盖上用钢字打上相应缸号。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0048
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: cleaning_step
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k24
+  value: (3)步骤7)：检查各缸气缸盖上是否有积炭；若有，将活塞摇至接近上止点，用废锯条将积炭清除，然后用抹布擦或用压缩空气吹净。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e07
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤7)：检查各缸气缸盖上是否有积炭；若有，将活塞摇至接近上止点，用废锯条将积炭清除，然后用抹布擦或用压缩空气吹净。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0049
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: (3)步骤8-①)：转动曲轴使任意两缸活塞处于下止点；若连杆螺母用开口销锁定，先拔下该缸连杆螺栓的开口销。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e08
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8-①)：转动曲轴使任意两缸活塞处于下止点；若连杆螺母用开口销锁定，先拔下该缸连杆螺栓的开口销。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0050
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: loosening_sequence
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (3)步骤8-②)：分2～3次交替均匀拧松该缸连杆螺栓的螺母至卸下。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e08
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8-②)：分2～3次交替均匀拧松该缸连杆螺栓的螺母至卸下。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0051
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (3)步骤8-③)：用手锤轻击瓦盖并取下，取下瓦片，在瓦背上做出相应缸号、记号（如用锯条或刮刀写上如『6』下）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e08
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8-③)：用手锤轻击瓦盖并取下，取下瓦片，在瓦背上做出相应缸号、记号（如用锯条或刮刀写上如『6』下）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0052
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: (3)步骤8-④)：转动曲轴至适当位置，用木棒或铜棒将该缸活塞推出，取下上瓦片做出相应缸号标记（如『6』上）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e08
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8-④)：转动曲轴至适当位置，用木棒或铜棒将该缸活塞推出，取下上瓦片做出相应缸号标记（如『6』上）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0053
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: refit_for_safekeeping
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (3)步骤8-⑤)：把瓦盖及瓦片和连杆螺栓按原位置装好。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e08
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8-⑤)：把瓦盖及瓦片和连杆螺栓按原位置装好。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0054
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: handling_precaution
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k32
+  value: (3)步骤8-⑥)：把组装后的活塞连杆总成放置于一平整的台面上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e08
+  pdf_pages:
+  - 61
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8-⑥)：把组装后的活塞连杆总成放置于一平整的台面上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0055
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: (3)步骤8-⑦)：用同样方法卸下其余活塞连杆组。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e01
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8-⑦)：用同样方法卸下其余活塞连杆组。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0056
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: caution
+  object_id: null
+  value: 注意1)：每缸上、下瓦片不能相混，各缸瓦片更不能相混，否则将破坏原来的配合关系。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e01
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 注意1)：每缸上、下瓦片不能相混，各缸瓦片更不能相混，否则将破坏原来的配合关系。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0057
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: caution
+  object_id: null
+  value: 注意2)：拆卸时注意观察活塞连杆组的安装方向。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e01
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 注意2)：拆卸时注意观察活塞连杆组的安装方向。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0058
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k40
+  value: (4)步骤1)：打开起动爪锁片，用扳手拧松起动爪至卸下。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤1)：打开起动爪锁片，用扳手拧松起动爪至卸下。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0059
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k10
+  value: (4)步骤2)：检查或在扭振减振器与曲轴皮带轮上打上安装记号，卸下扭振减振器，用拉出器卸下皮带轮。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤2)：检查或在扭振减振器与曲轴皮带轮上打上安装记号，卸下扭振减振器，用拉出器卸下皮带轮。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0060
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k44
+  value: (4)步骤3)：取下发动机前悬置支架。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤3)：取下发动机前悬置支架。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0061
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k38
+  value: (4)步骤4)：卸下正室齿轮盖（原刊用词，疑为正时齿轮盖），取下曲轴齿轮挡油盘和垫密片。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤4)：卸下正室齿轮盖（原刊用词，疑为正时齿轮盖），取下曲轴齿轮挡油盘和垫密片。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0062
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: marking_check
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k35
+  value: (4)步骤5)：检查校对正时齿轮记号，必要时重新打上记号。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e02
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤5)：检查校对正时齿轮记号，必要时重新打上记号。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0063
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: marking_principle
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (4)步骤6)：检查主轴瓦盖上有无安装序号，若无用钢字打上相应序号（从前至后1～7），同时注意观察瓦盖的安装方向。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e03
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤6)：检查主轴瓦盖上有无安装序号，若无用钢字打上相应序号（从前至后1～7），同时注意观察瓦盖的安装方向。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0064
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: loosening_sequence
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k33
+  value: (4)步骤7)：观察飞轮的定位方式（本机采用定位销定位），用扁铲撬起飞轮固定螺栓锁片，对角交叉分2～3次扭松飞轮螺栓至卸下。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e04
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤7)：观察飞轮的定位方式（本机采用定位销定位），用扁铲撬起飞轮固定螺栓锁片，对角交叉分2～3次扭松飞轮螺栓至卸下。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0065
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k33
+  value: (4)步骤8)：卸下飞轮。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤8)：卸下飞轮。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0066
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k13
+  value: (4)步骤9)：卸下飞轮壳。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤9)：卸下飞轮壳。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0067
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k43
+  value: (4)步骤10)：卸下曲轴后油封挡片。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤10)：卸下曲轴后油封挡片。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0068
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (4)步骤11)：分别均匀拧松每一个瓦盖的螺栓至卸下，逐一取下各道主轴瓦盖，并在主轴瓦背上写相应序号、标明上下，然后按顺序摆放。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤11)：分别均匀拧松每一个瓦盖的螺栓至卸下，逐一取下各道主轴瓦盖，并在主轴瓦背上写相应序号、标明上下，然后按顺序摆放。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0069
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k31
+  value: (4)步骤12)：抬出曲轴，置于一个安全位置垂直或平放。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤12)：抬出曲轴，置于一个安全位置垂直或平放。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0070
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: refit_for_safekeeping
+  object_id: null
+  value: (4)步骤13)：将主轴瓦、主轴瓦盖螺栓按原位置装好。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤13)：将主轴瓦、主轴瓦盖螺栓按原位置装好。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0071
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: observation_directive
+  object_id: null
+  value: 注意：先观察曲轴的构造及支撑方式、曲轴轴向定位和前后密封防漏装置。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 注意：先观察曲轴的构造及支撑方式、曲轴轴向定位和前后密封防漏装置。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0072
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_step
+  object_id: null
+  value: (5)步骤1)：卸下凸轮轴止推凸缘固定螺栓。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e06
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (5)步骤1)：卸下凸轮轴止推凸缘固定螺栓。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0073
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  predicate: disassembly_removes
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k34
+  value: (5)步骤2)：平稳地抽出凸轮轴并妥善摆放。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.2 CA6102 型汽油机的解体
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e06
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (5)步骤2)：平稳地抽出凸轮轴并妥善摆放。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0074
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_requirement
+  object_id: null
+  value: 总装要求1)：装配场地必须清洁无灰尘。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e07
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 总装要求1)：装配场地必须清洁无灰尘。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0075
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_requirement
+  object_id: null
+  value: 总装要求2)：可以边清洗边组装或安装。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e07
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 总装要求2)：可以边清洗边组装或安装。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0076
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_sequence
+  object_id: null
+  value: 总装要求3)：必须按装配顺序进行：气缸体→主轴瓦曲轴→活塞连杆组→飞轮组→正时齿轮→机油泵→正室齿轮盖→油底壳→挺杆→缸盖→推杆摇臂轴总成等→曲轴皮带轮→附件。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e07
+  pdf_pages:
+  - 62
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 总装要求3)：必须按装配顺序进行：气缸体→主轴瓦曲轴→活塞连杆组→飞轮组→正时齿轮→机油泵→正室齿轮盖→油底壳→挺杆→缸盖→推杆摇臂轴总成等→曲轴皮带轮→附件。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0077
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_requirement
+  object_id: null
+  value: 要求4)：各结合面处都要装密封纸垫或胶垫，防止漏油漏气。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e01
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 要求4)：各结合面处都要装密封纸垫或胶垫，防止漏油漏气。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0078
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_requirement
+  object_id: null
+  value: 要求5)：各连接所用螺栓要按原长短选用（不能过长也不能过短），并按规定扭矩拧紧。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e01
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 要求5)：各连接所用螺栓要按原长短选用（不能过长也不能过短），并按规定扭矩拧紧。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0079
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_requirement
+  object_id: null
+  value: 要求6)：各连接螺栓（母）要可靠锁紧（弹簧垫、锁片等），防止松脱。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e01
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 要求6)：各连接螺栓（母）要可靠锁紧（弹簧垫、锁片等），防止松脱。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0080
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_requirement
+  object_id: null
+  value: 要求7)：必须备有清洁的润滑油、机油，各相对运动表面必须进行加油润滑。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e01
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 要求7)：必须备有清洁的润滑油、机油，各相对运动表面必须进行加油润滑。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0081
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_requirement
+  object_id: null
+  value: 要求8)：还需备有密封胶、冲洗油枪。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e01
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 要求8)：还需备有密封胶、冲洗油枪。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0082
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: process_taboo
+  object_id: null
+  value: 要求9)：装配时严禁使用易掉碎沫的抹布，否则易堵机油泵集油滤网和油道。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e01
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 要求9)：装配时严禁使用易掉碎沫的抹布，否则易堵机油泵集油滤网和油道。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0083
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (2)步骤1)：气缸体装配前，对所有油道（孔）、主轴瓦孔、凸轮轴孔、螺纹孔和定位孔用压缩空气吹净，不得有脏物。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e02
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤1)：气缸体装配前，对所有油道（孔）、主轴瓦孔、凸轮轴孔、螺纹孔和定位孔用压缩空气吹净，不得有脏物。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0084
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (2)步骤2)：将机体底面朝上放置。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e02
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤2)：将机体底面朝上放置。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0085
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (2)步骤3)：卸下主轴瓦盖按顺序摆放，并配好弹簧垫和螺栓。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e02
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (2)步骤3)：卸下主轴瓦盖按顺序摆放，并配好弹簧垫和螺栓。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0086
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (3)步骤1)：仔细清理曲轴的润滑油道。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e03
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤1)：仔细清理曲轴的润滑油道。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0087
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (3)步骤2)：将原（或已选配好的）上瓦片置于相应顺序的座孔中。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e03
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤2)：将原（或已选配好的）上瓦片置于相应顺序的座孔中。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0088
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (3)步骤3)：将瓦片内表面涂以机油。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e03
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤3)：将瓦片内表面涂以机油。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0089
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k31
+  value: (3)步骤4)：曲轴轴颈涂上机油，将曲轴抬落在座瓦孔中；注意曲轴上推垫圈（止推片）对正安装位置，以防损坏。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e03
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤4)：曲轴轴颈涂上机油，将曲轴抬落在座瓦孔中；注意曲轴上推垫圈（止推片）对正安装位置，以防损坏。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0090
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (3)步骤5)：主轴瓦盖仔细洗净、装上下瓦片涂机油、分别置于相应序号的座孔；注意主轴瓦盖上的小凸台必须朝前；第七道主轴瓦盖装于机体之前左右两端应涂密封胶。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e04
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤5)：主轴瓦盖仔细洗净、装上下瓦片涂机油、分别置于相应序号的座孔；注意主轴瓦盖上的小凸台必须朝前；第七道主轴瓦盖装于机体之前左右两端应涂密封胶。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0091
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: null
+  value: (3)步骤6)拧紧顺序：主轴瓦螺栓涂上机油拧入螺栓孔，分2～3次均匀拧至规定扭矩，从中间一道主轴瓦盖开始向两端拧紧。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e05
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤6)拧紧顺序：主轴瓦螺栓涂上机油拧入螺栓孔，分2～3次均匀拧至规定扭矩，从中间一道主轴瓦盖开始向两端拧紧。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0092
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: null
+  value: (3)步骤6)扭矩值：主轴瓦螺栓第一、二、三、五、六道为140～160N·m；第四、七道为100～120N·m。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e05
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤6)扭矩值：主轴瓦螺栓第一、二、三、五、六道为140～160N·m；第四、七道为100～120N·m。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0093
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: clearance_spec
+  object_id: null
+  value: (3)步骤7-①)：第一主轴瓦的止推垫圈与曲轴轴颈端面之间的间隙为0.15～0.35mm。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e06
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤7-①)：第一主轴瓦的止推垫圈与曲轴轴颈端面之间的间隙为0.15～0.35mm。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0094
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: clearance_spec
+  object_id: null
+  value: (3)步骤7-②)：其它轴颈端面与主轴瓦盖之间的间隙每边不小于0.75mm；若不符，要仔细检查各主轴瓦盖是否有装错、装偏现象。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e06
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤7-②)：其它轴颈端面与主轴瓦盖之间的间隙每边不小于0.75mm；若不符，要仔细检查各主轴瓦盖是否有装错、装偏现象。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0095
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: check_spec
+  object_id: null
+  value: (3)步骤8)：曲轴转动灵活性检查——用不大于10N·m 的力矩应能匀速转动曲轴；大于此值时卸下瓦盖重新检查（是否轴瓦间隙过小或不干净等），必要时检查曲轴轴线直线度是否大于0.05mm。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e07
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤8)：曲轴转动灵活性检查——用不大于10N·m 的力矩应能匀速转动曲轴；大于此值时卸下瓦盖重新检查（是否轴瓦间隙过小或不干净等），必要时检查曲轴轴线直线度是否大于0.05mm。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0096
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k43
+  value: (3)步骤9)：安装曲轴后油封（100×125×12）——胶质外圆装时涂机油、钢质外圆涂密封胶，唇口均匀涂抹机油或黄油，从曲轴后端套入，再用专用工具装入油封座中，不得歪斜。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e08
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤9)：安装曲轴后油封（100×125×12）——胶质外圆装时涂机油、钢质外圆涂密封胶，唇口均匀涂抹机油或黄油，从曲轴后端套入，再用专用工具装入油封座中，不得歪斜。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0097
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (3)步骤10)：将油封挡片紧固在气缸体上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e08
+  pdf_pages:
+  - 63
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤10)：将油封挡片紧固在气缸体上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0098
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (3)步骤11)：将第七道主轴瓦盖填料（密封条）打入槽内，要打到底，然后将凸出的填料修整到与轴瓦盖齐平。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e01
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (3)步骤11)：将第七道主轴瓦盖填料（密封条）打入槽内，要打到底，然后将凸出的填料修整到与轴瓦盖齐平。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0099
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (4)步骤1)：将机体侧置，并使配气一侧朝上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e02
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤1)：将机体侧置，并使配气一侧朝上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0100
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (4)步骤2)：转动曲轴使某两缸曲轴轴颈处于最下（相对于机体上平面），将其中一个轴颈涂上机油，相应气缸套内也要涂上机油。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e02
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤2)：转动曲轴使某两缸曲轴轴颈处于最下（相对于机体上平面），将其中一个轴颈涂上机油，相应气缸套内也要涂上机油。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0101
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k32
+  value: (4)步骤3)：将相应活塞连杆组的活塞销处、活塞环、连杆上瓦片涂抹机油，使连杆凸台标记朝向发动机前方装入相应气缸套内。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e02
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤3)：将相应活塞连杆组的活塞销处、活塞环、连杆上瓦片涂抹机油，使连杆凸台标记朝向发动机前方装入相应气缸套内。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0102
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (4)步骤4)：使活塞环各环口相互错开180°，并且要避开活塞销孔和侧压力方向。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e02
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤4)：使活塞环各环口相互错开180°，并且要避开活塞销孔和侧压力方向。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0103
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (4)步骤5)：用活塞环卡子和钳子夹紧活塞环，用木棒（或锤把）将其推入气缸套内，使瓦片卡（落）到曲轴的轴颈上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e02
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤5)：用活塞环卡子和钳子夹紧活塞环，用木棒（或锤把）将其推入气缸套内，使瓦片卡（落）到曲轴的轴颈上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0104
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  value: (4)步骤6)：将该缸连杆下瓦片涂上机油并检查瓦片定位凸台与瓦盖凹槽完整无损，然后装瓦盖使配对记号在同一侧，穿上螺栓拧上螺母。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e03
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤6)：将该缸连杆下瓦片涂上机油并检查瓦片定位凸台与瓦盖凹槽完整无损，然后装瓦盖使配对记号在同一侧，穿上螺栓拧上螺母。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0105
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: null
+  value: (4)步骤6)：两个连杆螺母分2～3次均匀拧至100～120N·m；随后摇转曲轴检查是否灵活，否则应检查排除。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e03
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤6)：两个连杆螺母分2～3次均匀拧至100～120N·m；随后摇转曲轴检查是否灵活，否则应检查排除。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0106
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (4)步骤7)：用同样方法装完其余活塞连杆组，并重新检查一遍连杆螺母是否达到规定扭矩。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e04
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤7)：用同样方法装完其余活塞连杆组，并重新检查一遍连杆螺母是否达到规定扭矩。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0107
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: process_taboo
+  object_id: null
+  value: (4)步骤7)：开口销锁紧的连杆螺母达到规定扭矩后，若开槽与连杆螺栓孔对不上，切忌用松或紧螺母的方法解决；可调换螺母或将螺母适当磨削，但一定要磨平。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e04
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤7)：开口销锁紧的连杆螺母达到规定扭矩后，若开槽与连杆螺栓孔对不上，切忌用松或紧螺母的方法解决；可调换螺母或将螺母适当磨削，但一定要磨平。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0108
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: clearance_spec
+  object_id: null
+  value: (4)步骤8-①)：各连杆大端端面与曲轴连杆颈端面之间的间隙为0.17～0.37mm。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e05
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤8-①)：各连杆大端端面与曲轴连杆颈端面之间的间隙为0.17～0.37mm。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0109
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: check_spec
+  object_id: null
+  value: (4)步骤8-②)：用不大于60N·m 的力矩就应能匀速转动曲轴。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e05
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (4)步骤8-②)：用不大于60N·m 的力矩就应能匀速转动曲轴。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0110
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: check_spec
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k13
+  value: (5)步骤1)：检查飞轮壳定位环（空心定位销）是否损坏，损坏后应更换新定位环，以保证飞轮壳与气缸体间的正确安装位置。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e06
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (5)步骤1)：检查飞轮壳定位环（空心定位销）是否损坏，损坏后应更换新定位环，以保证飞轮壳与气缸体间的正确安装位置。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0111
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k13
+  value: (5)步骤2)：飞轮壳螺栓套弹簧垫醮机油拧入各螺栓孔，先将定位环的螺栓拧紧，其余交叉均匀拧到80～100N·m，再将定位环的螺栓拧至80～100N·m。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e06
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (5)步骤2)：飞轮壳螺栓套弹簧垫醮机油拧入各螺栓孔，先将定位环的螺栓拧紧，其余交叉均匀拧到80～100N·m，再将定位环的螺栓拧至80～100N·m。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0112
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k33
+  value: (5)步骤3)：检查飞轮定位销完好（否则修整或更换）；螺栓醮机油并套上锁片拧入螺栓孔，分2～3次按十字交叉方法依次拧到100～120N·m，然后将锁片翻边，翻边应紧贴于螺栓六方的平面上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e06
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (5)步骤3)：检查飞轮定位销完好（否则修整或更换）；螺栓醮机油并套上锁片拧入螺栓孔，分2～3次按十字交叉方法依次拧到100～120N·m，然后将锁片翻边，翻边应紧贴于螺栓六方的平面上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0113
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: clearance_spec
+  object_id: null
+  value: (6)步骤1)：检查止推突缘与凸轮轴第一道轴颈之间的间隙为0.08～0.208mm，否则应修整或更换突缘。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e07
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤1)：检查止推突缘与凸轮轴第一道轴颈之间的间隙为0.08～0.208mm，否则应修整或更换突缘。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0114
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (6)步骤2)：若正时齿轮盖定位环拆（掉）下，应将定位环压入气缸体前端，必须保证定位环完好。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e07
+  pdf_pages:
+  - 64
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤2)：若正时齿轮盖定位环拆（掉）下，应将定位环压入气缸体前端，必须保证定位环完好。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0115
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (6)步骤3)：先后将正时齿轮室垫板的密封垫、正时齿轮盖垫板套在缸体前端的定位环上，并用靠近凸轮轴孔侧的两个螺栓紧固在气缸体上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e01
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤3)：先后将正时齿轮室垫板的密封垫、正时齿轮盖垫板套在缸体前端的定位环上，并用靠近凸轮轴孔侧的两个螺栓紧固在气缸体上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0116
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k34
+  value: (6)步骤4)：将凸轮轴各正时齿轮、支承轴颈、分电器驱动齿轮和凸轮轴衬套涂上机油，把凸轮轴装入衬套内。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e01
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤4)：将凸轮轴各正时齿轮、支承轴颈、分电器驱动齿轮和凸轮轴衬套涂上机油，把凸轮轴装入衬套内。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0117
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: timing_alignment
+  object_id: null
+  value: (6)步骤5)：转动曲轴和凸轮轴，使正时齿轮的正时记号（凹坑）与曲轴齿轮的记号（凹坑）重合在两轴中心的连线上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e02
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤5)：转动曲轴和凸轮轴，使正时齿轮的正时记号（凹坑）与曲轴齿轮的记号（凹坑）重合在两轴中心的连线上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0118
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k34
+  value: (6)步骤6)：把凸轮轴总成推入缸体衬套孔内。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e03
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤6)：把凸轮轴总成推入缸体衬套孔内。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0119
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: marking_check
+  object_id: null
+  value: (6)步骤7)：凸轮轴安装正确性核对——将曲轴一、六道连杆轴颈转至上止点时，一缸两凸轮应呈上『八』字、六缸两凸轮应呈下『八』字；不符则重新安装核对记号，必要时可重新打上记号。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e03
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤7)：凸轮轴安装正确性核对——将曲轴一、六道连杆轴颈转至上止点时，一缸两凸轮应呈上『八』字、六缸两凸轮应呈下『八』字；不符则重新安装核对记号，必要时可重新打上记号。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0120
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: null
+  value: (6)步骤8)：校对记号后，用两螺栓将凸轮轴止推突缘固定在气缸体前端面上，扭矩为20～25N·m。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e04
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (6)步骤8)：校对记号后，用两螺栓将凸轮轴止推突缘固定在气缸体前端面上，扭矩为20～25N·m。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0121
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k36
+  value: (7)步骤1)：用定位环把机油泵和机体定位，用四个螺栓拧紧。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e05
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (7)步骤1)：用定位环把机油泵和机体定位，用四个螺栓拧紧。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0122
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (7)步骤2)：将机油管总成及密封垫用螺栓把油泵与机体相连。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e05
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (7)步骤2)：将机油管总成及密封垫用螺栓把油泵与机体相连。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0123
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k37
+  value: (7)步骤3)：把机油集滤器总成及密封垫装于油泵上，并将支架固定在第二道轴瓦盖上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e05
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (7)步骤3)：把机油集滤器总成及密封垫装于油泵上，并将支架固定在第二道轴瓦盖上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0124
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (8)步骤1)：曲轴齿轮挡油盘从曲轴前端套入（注意方向应使盘口朝向齿轮），把皮带轮的半圆键装在曲轴键槽中。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (8)步骤1)：曲轴齿轮挡油盘从曲轴前端套入（注意方向应使盘口朝向齿轮），把皮带轮的半圆键装在曲轴键槽中。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0125
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (8)步骤2)：检查曲轴前油封，必要时更换，并将油封内孔涂上机油。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (8)步骤2)：检查曲轴前油封，必要时更换，并将油封内孔涂上机油。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0126
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k38
+  value: (8)步骤3)：用定位销把垫片、密封垫、正时齿轮室盖依次装在机体前面的定位环上，务必使垫片、密封垫、机体、正时齿轮盖底平面平齐之后，扭紧正时齿轮室盖上的两个定位孔螺栓。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (8)步骤3)：用定位销把垫片、密封垫、正时齿轮室盖依次装在机体前面的定位环上，务必使垫片、密封垫、机体、正时齿轮盖底平面平齐之后，扭紧正时齿轮室盖上的两个定位孔螺栓。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0127
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k44
+  value: (8)步骤4)：将发动机前悬置支架的内表面涂上黄油，并套在正时齿轮盖上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (8)步骤4)：将发动机前悬置支架的内表面涂上黄油，并套在正时齿轮盖上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0128
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: null
+  value: (8)步骤5)：用紧固螺栓把发电机支架、正时齿轮室盖、密封垫、垫片等同机体紧固在一起，螺栓应分2～3次拧到80～100N·m 的力矩。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e06
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (8)步骤5)：用紧固螺栓把发电机支架、正时齿轮室盖、密封垫、垫片等同机体紧固在一起，螺栓应分2～3次拧到80～100N·m 的力矩。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0129
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (9)步骤1)：涂胶——在气缸体与正时齿轮室盖垫板接口处、第七道主轴内瓦盖与气缸体结合部位涂上密封胶以防漏油。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e07
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (9)步骤1)：涂胶——在气缸体与正时齿轮室盖垫板接口处、第七道主轴内瓦盖与气缸体结合部位涂上密封胶以防漏油。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0130
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  value: (9)步骤2)：仔细放正油底壳密封垫，装上油底壳，放正垫板；垫板接合处（四处）须装平垫，其余只装弹簧垫。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e07
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (9)步骤2)：仔细放正油底壳密封垫，装上油底壳，放正垫板；垫板接合处（四处）须装平垫，其余只装弹簧垫。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0131
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  value: (9)步骤3)：油底壳螺栓从中间开始按左右（上下）轮流依次扭紧至10～15N·m，不得超过此力矩，以防变形而漏油。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e07
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (9)步骤3)：油底壳螺栓从中间开始按左右（上下）轮流依次扭紧至10～15N·m，不得超过此力矩，以防变形而漏油。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0132
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: check_spec
+  object_id: null
+  value: (9)步骤4)：检查密封垫不得有间隙，也不应有明显的挤出现象，否则说明局部过松或过紧。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e07
+  pdf_pages:
+  - 65
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (9)步骤4)：检查密封垫不得有间隙，也不应有明显的挤出现象，否则说明局部过松或过紧。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0133
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k28
+  value: (10)步骤1)：挺杆涂机油放入原挺杆导向体孔内，根据导向体前后记号分别将导向体总成用定位环和螺栓装在缸体相应位置，均匀地扭至70～80N·m。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e01
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (10)步骤1)：挺杆涂机油放入原挺杆导向体孔内，根据导向体前后记号分别将导向体总成用定位环和螺栓装在缸体相应位置，均匀地扭至70～80N·m。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0134
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: check_spec
+  object_id: null
+  value: (10)步骤2)：检查所有挺杆是否能上下移动和灵活转动。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e01
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (10)步骤2)：检查所有挺杆是否能上下移动和灵活转动。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0135
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (10)步骤3)：将挺杆室盖板和密封圈用螺栓及螺栓密封圈总成拧紧在机体上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e01
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (10)步骤3)：将挺杆室盖板和密封圈用螺栓及螺栓密封圈总成拧紧在机体上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0136
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: procedure_precondition
+  object_id: null
+  value: (11)前置：将机体朝上置于台架上，并要牢固可靠。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)前置：将机体朝上置于台架上，并要牢固可靠。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0137
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (11)步骤1)：若缸盖定位销已拆（掉），应将定位销打入气缸体定位销孔中，不得歪斜，否则应修正。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)步骤1)：若缸盖定位销已拆（掉），应将定位销打入气缸体定位销孔中，不得歪斜，否则应修正。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0138
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k25
+  value: (11)步骤2)：将缸垫擦净，以定位销定位于缸体上；若缸垫带卷边的，卷边应朝上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)步骤2)：将缸垫擦净，以定位销定位于缸体上；若缸垫带卷边的，卷边应朝上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0139
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (11)步骤3)：往各缸壁沿圆周均匀地注入20g 机油。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)步骤3)：往各缸壁沿圆周均匀地注入20g 机油。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0140
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k24
+  value: (11)步骤4)：将缸盖吹净，以定位销定位搭放在缸垫上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)步骤4)：将缸盖吹净，以定位销定位搭放在缸垫上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0141
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (11)步骤5)：把缸盖螺栓螺纹部分醮上机油后拧入各螺栓孔中。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e02
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)步骤5)：把缸盖螺栓螺纹部分醮上机油后拧入各螺栓孔中。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0142
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: null
+  value: (11)步骤6)：缸盖螺栓从中间向两端均匀地分2～3次，拧至100～120N·m。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e03
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)步骤6)：缸盖螺栓从中间向两端均匀地分2～3次，拧至100～120N·m。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0143
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k23
+  value: (11)步骤7)：装进、排气歧管垫及歧管，螺栓醮上少许机油，从中间向两端拧至30～40N·m 的力矩。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e04
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (11)步骤7)：装进、排气歧管垫及歧管，螺栓醮上少许机油，从中间向两端拧至30～40N·m 的力矩。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0144
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (12)步骤1)：应将气门调整螺钉退出至最高位置，以免在拧紧摇臂支架螺栓时顶弯推杆。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e05
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤1)：应将气门调整螺钉退出至最高位置，以免在拧紧摇臂支架螺栓时顶弯推杆。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0145
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k27
+  value: (12)步骤2)：推杆两端醮机油后按原位置装进推杆孔，并要保证落到挺杆的球面座内。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e05
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤2)：推杆两端醮机油后按原位置装进推杆孔，并要保证落到挺杆的球面座内。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0146
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k29
+  value: (12)步骤3)：把气门帽装在涂过机油的气门杆端部。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e05
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤3)：把气门帽装在涂过机油的气门杆端部。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0147
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k26
+  value: (12)步骤4)：将摇臂轴总成安装到气缸盖上，由定位环保证其安装位置（原刊『汽气缸盖』，按语义为气缸盖）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e05
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤4)：将摇臂轴总成安装到气缸盖上，由定位环保证其安装位置（原刊『汽气缸盖』，按语义为气缸盖）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0148
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: torque_spec
+  object_id: null
+  value: (12)步骤5)：螺栓螺纹涂机油，先旋入两定位环孔的紧固螺栓，再旋入其余螺栓；M8 螺栓拧至20～30N·m，M10 螺栓拧至30～40N·m 的力矩。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e06
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤5)：螺栓螺纹涂机油，先旋入两定位环孔的紧固螺栓，再旋入其余螺栓；M8 螺栓拧至20～30N·m，M10 螺栓拧至30～40N·m 的力矩。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0149
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: check_spec
+  object_id: null
+  value: (12)步骤6)：同时检查各摇臂应转动灵活，摇臂两端与摇臂轴支座间轴向间隙应小于0.05mm。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e06
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤6)：同时检查各摇臂应转动灵活，摇臂两端与摇臂轴支座间轴向间隙应小于0.05mm。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0150
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: clearance_spec
+  object_id: null
+  value: (12)步骤7)：检查调整气门间隙——进气门间隙0.2mm、排气门0.25mm；气门与摇臂之间的最小间隙即为气门间隙（前提：气缸盖与摇臂轴安装螺栓按扭矩达到标准时进行）；参见书引图1.52。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e07
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤7)：检查调整气门间隙——进气门间隙0.2mm、排气门0.25mm；气门与摇臂之间的最小间隙即为气门间隙（前提：气缸盖与摇臂轴安装螺栓按扭矩达到标准时进行）；参见书引图1.52。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0151
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (12)步骤8)：气门间隙检查调整后，在摇臂轴、调整螺栓及气门帽等处浇上机油。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e07
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤8)：气门间隙检查调整后，在摇臂轴、调整螺栓及气门帽等处浇上机油。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0152
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (12)步骤9)：安装前后气门室罩垫和气门室罩及通风装置滤清器。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e07
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (12)步骤9)：安装前后气门室罩垫和气门室罩及通风装置滤清器。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0153
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (13)步骤1)：将发动机前悬置装于正时齿轮盖的凸缘上。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e08
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (13)步骤1)：将发动机前悬置装于正时齿轮盖的凸缘上。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0154
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k39
+  value: (13)步骤2)：曲轴皮带轮清洗干净后，检查其与前油封接触面有无刮伤或损坏，必要时用砂纸打光。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e08
+  pdf_pages:
+  - 66
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (13)步骤2)：曲轴皮带轮清洗干净后，检查其与前油封接触面有无刮伤或损坏，必要时用砂纸打光。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0155
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k42
+  predicate: measured_at
+  object_id: null
+  value: 气门间隙的测量部位在气门杆端调整螺钉与锁紧螺母处；图1.52 分示(a)顶置式气门与(b)侧置式气门的测量部位（标注1 锁紧螺母、2 调整螺钉）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_FIGURE_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e01
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: 气门间隙的测量部位在气门杆端调整螺钉与锁紧螺母处；图1.52 分示(a)顶置式气门与(b)侧置式气门的测量部位（标注1 锁紧螺母、2 调整螺钉）。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0156
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k39
+  value: (13)步骤3)：曲轴皮带轮装于发动机之前，与油封接触面应涂上机油，之后轻轻推入。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e02
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (13)步骤3)：曲轴皮带轮装于发动机之前，与油封接触面应涂上机油，之后轻轻推入。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0157
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k10
+  value: (13)步骤4)：把扭振减振器按原位置用螺栓固定。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e02
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (13)步骤4)：把扭振减振器按原位置用螺栓固定。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0158
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k40
+  value: (13)步骤5)：起动爪螺纹醮机油拧入曲轴前端螺孔中，最后拧至245～295N·m 的力矩。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e02
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (13)步骤5)：起动爪螺纹醮机油拧入曲轴前端螺孔中，最后拧至245～295N·m 的力矩。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0159
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k19
+  value: (14)步骤1-①)：将完好的水泵总成及垫装于机体水套处，将螺栓醮机油拧入孔中并扭紧；注意不要漏装发电机调整支架。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤1-①)：将完好的水泵总成及垫装于机体水套处，将螺栓醮机油拧入孔中并扭紧；注意不要漏装发电机调整支架。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0160
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k45
+  value: (14)步骤1-②)：装气泵带，两根风扇皮带。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤1-②)：装气泵带，两根风扇皮带。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0161
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k20
+  value: (14)步骤1-③)：装上风扇叶及硅油离合器。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e03
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤1-③)：装上风扇叶及硅油离合器。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0162
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k18
+  value: (14)步骤2)：机油粗滤器总成（已清洗或更换新滤芯）用紧固螺栓及密封垫固定在机体左侧；垫要涂上黄油或密封胶。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e04
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤2)：机油粗滤器总成（已清洗或更换新滤芯）用紧固螺栓及密封垫固定在机体左侧；垫要涂上黄油或密封胶。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0163
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k06
+  value: (14)步骤3)：安装离心式转子滤清器总成，方法同粗滤器基本相同。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e04
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤3)：安装离心式转子滤清器总成，方法同粗滤器基本相同。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0164
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k04
+  value: (14)步骤4-①)：先安装气泵支架于发动机右前侧。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e05
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤4-①)：先安装气泵支架于发动机右前侧。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0165
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_installs
+  object_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k04
+  value: (14)步骤4-②)：将气泵装于支架上并套上气泵带。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e05
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤4-②)：将气泵装于支架上并套上气泵带。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0166
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: tension_spec
+  object_id: null
+  value: (14)步骤4-③)：调整气泵皮带张紧度——皮带挠度在12.5mm 时的作用力应在25～45N 范围内，然后将气泵底座固定螺栓扭紧。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e05
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤4-③)：调整气泵皮带张紧度——皮带挠度在12.5mm 时的作用力应在25～45N 范围内，然后将气泵底座固定螺栓扭紧。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0167
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_step
+  object_id: null
+  value: (14)步骤4-④)：连接气泵润滑油管。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e05
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤4-④)：连接气泵润滑油管。
+- id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0168
+  subject_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  predicate: assembly_prep
+  object_id: null
+  value: (14)步骤5-①)：分电器安装前先定一缸压缩上止点——卸下一缸火花塞，用手指堵住火花塞孔转动曲轴，当从火花塞孔有气体冲出后继续转动曲轴，同时从飞轮壳检视口观察，使飞轮上的标记与飞轮壳上的刻线重合（本步骤在本批次末页未完，续 pdf68+）。
+  conditions:
+  - 教材示范作业
+  - 实训1.1.3 解放 CA6102 型汽油机的总装
+  source_kind: BOOK_BODY_DIRECT
+  evidence_ids:
+  - book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e06
+  pdf_pages:
+  - 67
+  qualification_status: EXTRACTED_UNCHECKED
+  applicability:
+    make: 一汽解放
+    model: CA6102 汽油机
+    note: 实训教材示范对象
+  statement: (14)步骤5-①)：分电器安装前先定一缸压缩上止点——卸下一缸火花塞，用手指堵住火花塞孔转动曲轴，当从火花塞孔有气体冲出后继续转动曲轴，同时从飞轮壳检视口观察，使飞轮上的标记与飞轮壳上的刻线重合（本步骤在本批次末页未完，续 pdf68+）。
+edges:
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0001
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  predicate: procedure_targets
+  claim_id: null
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0002
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k01
+  predicate: procedure_targets
+  claim_id: null
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0003
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k47
+  predicate: disassembly_step
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0006
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0004
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k48
+  predicate: disassembly_step
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0007
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0005
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k22
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0008
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0006
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k21
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0009
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0007
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k07
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0010
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0008
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k08
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0012
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0009
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k04
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0013
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0010
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k05
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0014
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0011
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k11
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0015
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0012
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k14
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0017
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0013
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k15
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0018
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0014
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k09
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0019
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0015
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k16
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0021
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0016
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k17
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0022
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0017
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k46
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0023
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0018
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k20
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0024
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0019
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k19
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0025
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0020
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k41
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0027
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0021
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k23
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0031
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0022
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k26
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0033
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0023
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k29
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0034
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0024
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k27
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0035
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0025
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k24
+  predicate: handling_precaution
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0037
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0026
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k25
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0038
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0027
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k28
+  predicate: marking_check
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0040
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0028
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k28
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0041
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0029
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  predicate: loosening_sequence
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0043
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0030
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0044
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0031
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k36
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0045
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0032
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k32
+  predicate: marking_check
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0046
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0033
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k24
+  predicate: cleaning_step
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0048
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0034
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: loosening_sequence
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0050
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0035
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: disassembly_step
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0051
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0036
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: refit_for_safekeeping
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0053
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0037
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k32
+  predicate: handling_precaution
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0054
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0038
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k40
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0058
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0039
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k10
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0059
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0040
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k44
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0060
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0041
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k38
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0061
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0042
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k35
+  predicate: marking_check
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0062
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0043
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: marking_principle
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0063
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0044
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k33
+  predicate: loosening_sequence
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0064
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0045
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k33
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0065
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0046
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k13
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0066
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0047
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k43
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0067
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0048
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0068
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0049
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k31
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0069
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0050
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k02
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k34
+  predicate: disassembly_removes
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0073
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0051
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: assembly_prep
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0085
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0052
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k31
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0089
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0053
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0090
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0054
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k43
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0096
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0055
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k32
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0101
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0056
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k30
+  predicate: assembly_step
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0104
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0057
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k13
+  predicate: check_spec
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0110
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0058
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k13
+  predicate: torque_spec
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0111
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0059
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k33
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0112
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0060
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k34
+  predicate: assembly_prep
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0116
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0061
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k34
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0118
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0062
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k36
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0121
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0063
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k37
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0123
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0064
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k38
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0126
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0065
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k44
+  predicate: assembly_prep
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0127
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0066
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0130
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0067
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k12
+  predicate: torque_spec
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0131
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0068
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k28
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0133
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0069
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k25
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0138
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0070
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k24
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0140
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0071
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k23
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0143
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0072
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k27
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0145
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0073
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k29
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0146
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0074
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k26
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0147
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0075
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k39
+  predicate: assembly_prep
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0154
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0076
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k39
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0156
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0077
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k10
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0157
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0078
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k40
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0158
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0079
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k19
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0159
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0080
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k45
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0160
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0081
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k20
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0161
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0082
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k18
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0162
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0083
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k06
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0163
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0084
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k04
+  predicate: assembly_prep
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0164
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:edg:0085
+  from_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k03
+  to_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ent:k04
+  predicate: assembly_installs
+  claim_id: claim:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:lab11:0165
+evidence:
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 59
+  printed_page_label: '47'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0059_150dpi.png + pilot-crops-300dpi/p0059_crop0_300dpi.png#实训1.1.1 观察1)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 观察第1项：发动机左侧布置有空气滤清器、化油器、曲轴箱通风装置、进排气总管、发电机、起动机、机油粗滤器、机油压力与油压警报感应塞、放水开关、水泵、硅油风扇离合器等。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 59
+  printed_page_label: '47'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0059_150dpi.png + pilot-crops-300dpi/p0059_crop0_300dpi.png#实训1.1.1 观察2)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 观察第2项：发动机右侧布置有空气压缩机、机油尺、离心式机油细滤清器、分电器、汽油泵、通风装置滤清器、水温感应塞、扭振减振器、油底壳、飞轮壳等。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 59
+  printed_page_label: '47'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0059_150dpi.png + pilot-crops-300dpi/p0059_crop0_300dpi.png#实训1.1.1 观察3)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 观察第3项：发动机内部装有曲柄连杆机构与配气机构等，并引注图1.51。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 59
+  printed_page_label: '47'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0059_150dpi.png + pilot-crops-300dpi/p0059_crop0_300dpi.png#实训1.1.1 综述段
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 小结：汽油机由两大机构（曲柄连杆、配气）与五大系统（润滑、冷却、供给、点火、起动）组成。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 59
+  printed_page_label: '47'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0059_150dpi.png + pilot-crops-300dpi/p0059_crop0_300dpi.png#实训1.1.2 解体前置句
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 解体前要求把发动机固定在台架上并保证牢固可靠。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0059:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 59
+  printed_page_label: '47'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0059_150dpi.png + pilot-crops-300dpi/p0059_crop0_300dpi.png#实训1.1.2 (1)拆卸各附件总成 步骤1)-12)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 附件拆卸阶段第1至12步：从汽油管、真空管、高压线与火花塞开始，依次拆分电器（总成、底座、传动轴）、汽油泵、气泵、油尺与水温感应塞、空滤连接管与空滤、化油器、通风阀等。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 60
+  printed_page_label: '48'
+  section_id: lab11
+  asset_id: lab11-F60-1
+  locator: pilot-crops-300dpi/p0060_crop0_300dpi.png#图1.51 及图注
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1.51 为 CA6102 发动机总图，标注1-10 依次对应空气压缩机、机油标尺、离心式机油滤清器、分电器、汽油泵、曲轴箱通风滤清器、扭转减震器、水温感应塞、油底壳、飞轮壳。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 60
+  printed_page_label: '48'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0060_150dpi.png + pilot-crops-300dpi/p0060_crop0_300dpi.png#实训1.1.2 (1) 步骤13)-18)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 附件拆卸阶段第13至18步：卸发电机、起动机、油压与油压警报感应塞、风扇及硅油离合器总成并取下风扇/气泵皮带、水泵与缸盖出水管和节温器、气缸左侧水套室盖及垫。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0060:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 60
+  printed_page_label: '48'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0060_150dpi.png + pilot-crops-300dpi/p0060_crop0_300dpi.png#实训1.1.2 (1) 步骤19)①-③
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 第19步拆离合器总成：先查离合器盖与飞轮的安装记号（无则补做），对角交叉分2～3次拧松固定螺栓，最后取下盖/盘总成与从动盘总成。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (2)1)-5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 配气机构拆卸前五步：拆进排气歧管及垫、前后气门室罩与通风滤清器、摇臂座轴总成（做前后区分标记）、气门帽（妥善保管）、抽出推杆并标原始位置。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (2)6)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 缸盖螺栓须从两边向中间对角交叉、分2～3次均匀拧松直至卸下。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (2)7)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 用手锤轻击缸盖四周后平稳抬下，放置平稳处并侧置；若平置须用木板垫平缸盖下结合面，防止磕碰变形。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (2)8)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 先看清缸垫安装方向，再取下缸垫平放或挂置保存。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (2)9)①-③
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 挺杆导向体拆卸三小步：卸挺杆室盖总成、核对/补打前后导向体安装记号、卸螺栓拔出导向体并按顺序给挺杆做标记。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (3)1)-4)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 曲柄连杆机构拆卸前四步：机体侧放（配气传动组一侧朝上）、油底壳螺栓分2～3次对角交叉扭松、取下油底壳垫板/油底壳及垫、卸机油集滤器与机油泵及进出油管。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e07
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (3)5)-7)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 标记与清洁检查：查活塞顶缸号（无则在上止点时打号）、查连杆大端/瓦盖缸号与配对记号（无则用钢字打号）、用废锯条清除缸盖积炭后擦净或吹净。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0061:e08
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 61
+  printed_page_label: '49'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0061_150dpi.png + pilot-crops-300dpi/p0061_crop0_300dpi.png#实训1.1.2 (3)8)①-⑥
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 活塞连杆组拆卸：转曲轴使两缸活塞在下止点，先拔开口销、分2～3次交替拧松连杆螺母、轻击取下瓦盖瓦片并在瓦背做缸号记号、用木/铜棒推出活塞取上瓦片做标记，最后瓦盖瓦片螺栓按原位装回、活塞连杆总成放置平整台面。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 62
+  printed_page_label: '50'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0062_150dpi.png + pilot-crops-300dpi/p0062_crop0_300dpi.png#实训1.1.2 (3)⑦+注意
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 其余活塞连杆组按同法拆卸；注意每缸上下瓦片及各缸瓦片不得相混（否则破坏配合关系），并留意活塞连杆组安装方向。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 62
+  printed_page_label: '50'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0062_150dpi.png + pilot-crops-300dpi/p0062_crop0_300dpi.png#实训1.1.2 (4)1)-5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 曲轴飞轮组拆卸前五步：撬开锁片拧下起动爪、给扭振减振器与皮带轮做记号后用拉出器拆卸、取前悬置支架、卸正室齿轮盖取挡油盘与垫密片、校对正时齿轮记号。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 62
+  printed_page_label: '50'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0062_150dpi.png + pilot-crops-300dpi/p0062_crop0_300dpi.png#实训1.1.2 (4)6)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 主轴瓦盖若无安装序号，用钢字从前至后打1～7序号，并注意观察瓦盖安装方向。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 62
+  printed_page_label: '50'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0062_150dpi.png + pilot-crops-300dpi/p0062_crop0_300dpi.png#实训1.1.2 (4)7)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 本机飞轮用定位销定位；用扁铲撬起飞轮固定螺栓锁片后，对角交叉分2～3次扭松飞轮螺栓。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 62
+  printed_page_label: '50'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0062_150dpi.png + pilot-crops-300dpi/p0062_crop0_300dpi.png#实训1.1.2 (4)8)-13)+注意
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 卸下飞轮、飞轮壳、曲轴后油封挡片；逐一取下各道主轴瓦盖并在瓦背写序号标明上下按顺序摆放；抬出曲轴垂直或平放于安全位置；主轴瓦与瓦盖螺栓按原位装回；注意先观察曲轴构造、支撑方式、轴向定位与前后密封防漏装置。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 62
+  printed_page_label: '50'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0062_150dpi.png + pilot-crops-300dpi/p0062_crop0_300dpi.png#实训1.1.2 (5)1)-2)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 凸轮轴拆卸：卸止推凸缘固定螺栓后平稳抽出凸轮轴并妥善摆放。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0062:e07
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 62
+  printed_page_label: '50'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0062_150dpi.png + pilot-crops-300dpi/p0062_crop0_300dpi.png#实训1.1.3 (1)1)-3)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 总装三项要求：场地清洁无灰尘、可边清洗边组装、必须按给定装配顺序（气缸体→主轴瓦曲轴→活塞连杆组→飞轮组→正时齿轮→机油泵→正室齿轮盖→油底壳→挺杆→缸盖→推杆摇臂轴总成→曲轴皮带轮→附件）。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (1)4)-9)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 总装通用要求：结合面装密封纸垫/胶垫防漏、螺栓按原长短并按规定扭矩拧紧、螺栓（母）用弹簧垫锁片可靠锁紧、相对运动表面加注清洁机油润滑、备密封胶与冲洗油枪、严禁用易掉碎沫的抹布以防堵塞机油泵滤网油道。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (2)1)-3)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 气缸体组装：油道油孔、主轴瓦孔、凸轮轴孔、螺纹孔与定位孔先用压缩空气吹净；机体底面朝上放置；取下主轴瓦盖按顺序摆放并配好弹簧垫与螺栓。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (3)1)-4)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 曲轴装配前四步：清理曲轴润滑油道、按序放入（选配好的）上瓦片、瓦片内表面涂机油、曲轴轴颈涂机油后抬落座孔并注意止推片对正安装位置以防损坏。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (3)5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 主轴瓦盖洗净装下瓦片涂机油按序号入座；瓦盖小凸台必须朝前；第七道主轴瓦盖装机前左右两端涂密封胶。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (3)6)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 主轴瓦螺栓涂机油拧入，分2～3次均匀拧至规定扭矩，从中间一道瓦盖开始向两端拧紧；一、二、三、五、六道扭矩140～160N·m，四、七道100～120N·m。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (3)7)①②
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 曲轴轴向间隙检查：第一主轴瓦止推垫圈与曲轴轴颈端面间隙0.15～0.35mm；其余轴颈端面与主轴瓦盖间隙每边不小于0.75mm，不符时检查瓦盖是否装错装偏。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e07
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (3)8)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 曲轴转动灵活性检查：用不大于10N·m的力矩应能匀速转动曲轴，否则卸瓦盖检查轴瓦间隙或清洁度，必要时查曲轴轴线直线度是否大于0.05mm。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0063:e08
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 63
+  printed_page_label: '51'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0063_150dpi.png + pilot-crops-300dpi/p0063_crop0_300dpi.png#实训1.1.3 (3)9)-10)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 曲轴后油封（100×125×12）装配：胶质外圆涂机油、钢质外圆涂密封胶、唇口涂机油或黄油，从曲轴后端套入并用专用工具压入油封座不得歪斜；随后将油封挡片紧固在气缸体上。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 64
+  printed_page_label: '52'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0064_150dpi.png + pilot-crops-300dpi/p0064_crop0_300dpi.png#实训1.1.3 (3)11)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 第七道主轴瓦盖填料（密封条）打入槽内要打到底，凸出部分修整到与瓦盖齐平。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 64
+  printed_page_label: '52'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0064_150dpi.png + pilot-crops-300dpi/p0064_crop0_300dpi.png#实训1.1.3 (4)1)-5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 活塞连杆组安装前五步：机体侧置配气侧朝上、待装轴颈与缸套涂机油、活塞销/活塞环/上瓦片涂油并使连杆凸台标记朝前装入、活塞环环口相互错开180°且避开活塞销孔与侧压力方向、用活塞环卡子与钳子夹环后以木棒推入缸套使瓦片落到轴颈。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 64
+  printed_page_label: '52'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0064_150dpi.png + pilot-crops-300dpi/p0064_crop0_300dpi.png#实训1.1.3 (4)6)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 连杆下瓦片涂油并查定位凸台与瓦盖凹槽完好，瓦盖配对记号装于同侧，两螺母分2～3次均匀拧至100～120N·m，随后摇转曲轴验证灵活否则排除故障。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 64
+  printed_page_label: '52'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0064_150dpi.png + pilot-crops-300dpi/p0064_crop0_300dpi.png#实训1.1.3 (4)7)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 其余活塞连杆组同法装完后复查连杆螺母扭矩；开口销锁定式螺母若开槽对不上螺栓孔，严禁用松/紧螺母凑对，应调换螺母或适当磨削并磨平。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 64
+  printed_page_label: '52'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0064_150dpi.png + pilot-crops-300dpi/p0064_crop0_300dpi.png#实训1.1.3 (4)8)①②
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 安装后检查：连杆大端端面与连杆颈端面间隙0.17～0.37mm；用不大于60N·m的力矩应能匀速转动曲轴。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 64
+  printed_page_label: '52'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0064_150dpi.png + pilot-crops-300dpi/p0064_crop0_300dpi.png#实训1.1.3 (5)1)-3)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 飞轮壳与飞轮安装：检查/更换飞轮壳定位环保证安装位置；飞轮壳螺栓套弹簧垫醮机油，先拧定位环螺栓、其余交叉均匀拧到80～100N·m后再补足定位环螺栓；飞轮螺栓醮机油套锁片分2～3次十字交叉拧到100～120N·m并将锁片翻边紧贴螺栓六方平面。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0064:e07
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 64
+  printed_page_label: '52'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0064_150dpi.png + pilot-crops-300dpi/p0064_crop0_300dpi.png#实训1.1.3 (6)1)-2)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 凸轮轴安装前查：止推突缘与第一道轴颈间隙应为0.08～0.208mm否则修整更换突缘；正时齿轮盖定位环若拆（掉）下须压入缸体前端并保证完好。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 65
+  printed_page_label: '53'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0065_150dpi.png + pilot-crops-300dpi/p0065_crop0_300dpi.png#实训1.1.3 (6)3)-4)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 先套正时齿轮室垫板密封垫与盖垫板于缸体前端定位环上，用靠近凸轮轴孔侧的两个螺栓紧固；凸轮轴各正时齿轮、支承轴颈、分电器驱动齿轮和衬套涂机油后装入衬套。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 65
+  printed_page_label: '53'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0065_150dpi.png + pilot-crops-300dpi/p0065_crop0_300dpi.png#实训1.1.3 (6)5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 转动曲轴与凸轮轴，使凸轮轴正时齿轮凹坑记号与曲轴齿轮凹坑记号对齐并重合在两轴中心连线上。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 65
+  printed_page_label: '53'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0065_150dpi.png + pilot-crops-300dpi/p0065_crop0_300dpi.png#实训1.1.3 (6)6)-7)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 凸轮轴总成推入缸体衬套孔；正确性核对法：曲轴一、六道连杆轴颈在上止点时，一缸两凸轮应呈上『八』字、六缸两凸轮应呈下『八』字，不符则重装核对，必要时重打记号。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 65
+  printed_page_label: '53'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0065_150dpi.png + pilot-crops-300dpi/p0065_crop0_300dpi.png#实训1.1.3 (6)8)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 校对记号后用两颗螺栓把凸轮轴止推突缘固定在气缸体前端面，扭矩20～25N·m。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 65
+  printed_page_label: '53'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0065_150dpi.png + pilot-crops-300dpi/p0065_crop0_300dpi.png#实训1.1.3 (7)1)-3)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 机油泵安装：用定位环与机体定位并以四颗螺栓拧紧、经机油管总成及密封垫与机体相连、集滤器总成及密封垫装于油泵且支架固定在第二道轴瓦盖上。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 65
+  printed_page_label: '53'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0065_150dpi.png + pilot-crops-300dpi/p0065_crop0_300dpi.png#实训1.1.3 (8)1)-5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 正时齿轮盖安装：挡油盘盘口朝向齿轮套入并装半圆键、检查曲轴前油封（内孔涂机油）、用定位销按垫片-密封垫-室盖次序装配并保证底平面平齐后扭紧两定位孔螺栓、前悬置支架内涂黄油套在齿轮盖上、发电机支架与室盖等紧固螺栓分2～3次拧到80～100N·m。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0065:e07
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 65
+  printed_page_label: '53'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0065_150dpi.png + pilot-crops-300dpi/p0065_crop0_300dpi.png#实训1.1.3 (9)1)-4)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 油底壳安装：在缸体与正时齿轮室盖垫板接口及第七道主轴瓦盖结合部位涂密封胶防漏；放正密封垫与垫板（垫板接合处四处装平垫其余装弹簧垫）；螺栓从中间起按左右（上下）轮流拧至10～15N·m且不得超过以防变形漏油；检查密封垫无间隙且无明显挤出。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (10)1)-3)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 挺杆涂机油放入原导向体孔，按导向体前后记号以定位环和螺栓装回缸体并均匀扭至70～80N·m；检查全部挺杆可上下移动且转动灵活；挺杆室盖板与密封圈用螺栓及密封圈总成拧紧。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (11)前置+1)-5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 气缸盖安装准备：机体朝上固定在台架；补打缸盖定位销（不得歪斜）；缸垫擦净按定位销定位且卷边朝上；各缸壁沿圆周注入20g机油；缸盖吹净后按定位销搭放在缸垫上；缸盖螺栓螺纹醮机油拧入螺栓孔。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (11)6)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 缸盖螺栓从中间向两端均匀地分2～3次拧至100～120N·m。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (11)7)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 装进排气歧管垫及歧管，螺栓醮少许机油从中间向两端拧至30～40N·m。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (12)1)-4)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 摇臂轴总成安装前四步：气门调整螺钉先退到最高位以免拧紧支架螺栓时顶弯推杆；推杆两端醮机油按原位装进并落入挺杆球面座；气门帽装到涂过机油的气门杆端；摇臂轴总成装上气缸盖并由定位环保证位置。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (12)5)-6)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 螺栓涂机油先旋两定位环孔紧固螺栓再旋其余：M8 拧至20～30N·m，M10 拧至30～40N·m；各摇臂应转动灵活，摇臂两端与摇臂轴支座间轴向间隙小于0.05mm。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e07
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (12)7)-9)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 气门间隙检查调整：进气门0.2mm、排气门0.25mm，气门与摇臂间最小间隙即为气门间隙（前提是缸盖与摇臂轴安装螺栓扭矩已达标准；参见图1.52）；调整后在摇臂轴、调整螺栓、气门帽处浇机油；装前后气门室罩垫、气门室罩及通风装置滤清器。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0066:e08
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 66
+  printed_page_label: '54'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0066_150dpi.png + pilot-crops-300dpi/p0066_crop0_300dpi.png#实训1.1.3 (13)1)-2)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 曲轴皮带轮安装起始：前悬置装到正时齿轮盖凸缘上；曲轴皮带轮清洗干净并检查与前油封接触面有无刮伤损坏，必要时砂纸打光。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e01
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 67
+  printed_page_label: '55'
+  section_id: lab11
+  asset_id: lab11-F67-1
+  locator: pilot-crops-300dpi/p0067_crop0_300dpi.png#图1.52 (a)(b)
+  source_kind: BOOK_FIGURE_DIRECT
+  observation_summary: 图1.52 以顶置式与侧置式两个剖面示意气门间隙的测量部位在气门杆端处，标注1 为锁紧螺母、2 为调整螺钉。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e02
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 67
+  printed_page_label: '55'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0067_150dpi.png + pilot-crops-300dpi/p0067_crop0_300dpi.png#实训1.1.3 (13)3)-5)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 皮带轮与油封接触面涂机油后轻轻推入；扭振减振器按原位置用螺栓固定；起动爪螺纹醮机油拧入曲轴前端螺孔，最终拧至245～295N·m。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e03
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 67
+  printed_page_label: '55'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0067_150dpi.png + pilot-crops-300dpi/p0067_crop0_300dpi.png#实训1.1.3 (14)1)①-③
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 风扇硅油离合器与水泵安装：水泵总成及垫装到机体水套处并将醮机油的螺栓拧紧（勿漏装发电机调整支架）、装气泵带与两根风扇皮带、装风扇叶及硅油离合器。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e04
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 67
+  printed_page_label: '55'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0067_150dpi.png + pilot-crops-300dpi/p0067_crop0_300dpi.png#实训1.1.3 (14)2)-3)
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 机油粗滤器总成（清洗或换新滤芯）用紧固螺栓及密封垫固定在机体左侧且垫上涂黄油或密封胶；离心式转子滤清器总成安装方法与粗滤器基本相同。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e05
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 67
+  printed_page_label: '55'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0067_150dpi.png + pilot-crops-300dpi/p0067_crop0_300dpi.png#实训1.1.3 (14)4)①-④
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 气泵总成安装：支架先装在发动机右前侧、气泵装上支架并套带、张紧度按皮带挠度12.5mm 时作用力25～45N 调整后拧紧底座螺栓、连接气泵润滑油管。
+  reader_model: ''
+- id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY:ev:p0067:e06
+  source_book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+  pdf_page_index: 67
+  printed_page_label: '55'
+  section_id: lab11
+  asset_id: null
+  locator: pilot-150dpi/p0067_150dpi.png + pilot-crops-300dpi/p0067_crop0_300dpi.png#实训1.1.3 (14)5)①（本页未完）
+  source_kind: BOOK_BODY_DIRECT
+  observation_summary: 分电器安装前先定一缸压缩上止点：卸一缸火花塞用手指堵孔转曲轴，感觉气体冲出后继续转动，并从飞轮壳检视口核对飞轮标记与飞轮壳刻线重合；句子在本页末中断，后续在 pdf68+。
+  reader_model: ''
+sections:
+- id: lab11
+  label: 实训1.1 CA6102 型汽油机观察与拆装（含 p58 前章尾边界登记）
+  start_pdf_page: 58
+  end_pdf_page: 67
+  section_status: EXTRACTED
+coverage_summary:
+  pages_total: 404
+  pages_processed: 11
+  pages_blocked: 393
+  assets_total: 4
+  assets_processed: 4
+  sections_total: 1
+  sections_closed: 1
+review_status: GENERATED_REVIEW_PENDING
+page_ledger_ref: page-ledger.yaml
+generation_receipt:
+  writer: zcode-main-session:book-integrator
+  extractor_model: glm-flash-free
+  generated_utc: '2026-11-19T22:55:45+00:00'
+  source_pdf_sha256: ddaae1ff9acd984d0e0de35e72c501b0c197e9f76bda4f19cc63d34e6e9cbe7c
+  chapters:
+  - lab11
+  observations: local-private (not committed); evidence observation_summary in graph
+  rights_note: local processing only; no external API upload performed

@@ -1,0 +1,32 @@
+book_id: book:1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+drive_file_id: 1yarCr2eoTyjTUYIXzN3z2zZpGCxMnlTY
+title: 汽车发动机构造与维修（王凤军、吴东平主编）
+edition: null
+isbn: null
+publication_year: null
+source_sha256: ddaae1ff9acd984d0e0de35e72c501b0c197e9f76bda4f19cc63d34e6e9cbe7c
+pdf_page_count: 404
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: vocational-engine-textbook-scanned
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: lab11
+  label: 实训1.1 CA6102 型汽油机观察与拆装（含 p58 前章尾边界登记）
+  pdf_pages_range:
+  - 58
+  - 67
+  printed_pages:
+  - '46'
+  - '55'
+page_offset_printed_minus_pdfindex: 12
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING
