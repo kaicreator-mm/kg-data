@@ -1,5 +1,17 @@
 # 汽修知识生成覆盖账本 — v0.4.1
 
+<!-- R19_MYANMAR_SERIES_FOUR_NEW_CONTENT_COVERAGE -->
+## R19 · 车型系列发现内容生成与覆盖不足（2026-11-19）
+
+四个 R17 新车型发现节点经 [独立计划审核](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7013143644) 和 [Integrator 准入](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7013561465)，现均已生成唯一 Markdown：
+`SER-DISC-AD-VAN` → [Nissan AD](./series/myanmar/nissan/ad-van/discovery.md)、`SER-DISC-VITZ` → [Toyota Vitz](./series/myanmar/toyota/vitz/discovery.md)、`SER-DISC-SWIFT` → [Suzuki Swift](./series/myanmar/suzuki/swift/discovery.md)、`SER-DISC-WISH` → [Toyota Wish](./series/myanmar/toyota/wish/discovery.md)。
+
+**当前覆盖计数是 43 实际生成 / 39 已独立限定接受 / 4 待内容独审**；生效 DAG 58，仍远非主流车型全部适用系统/失效/维修的覆盖完成。四篇是 `MODEL_SERIES_DISCOVERY_GENERATED_UNVERIFIED`，不能把“有型号/结构候选”算作已完成车型专业事实或实际维修闭环。直接不足仍是：缅甸个体车架/制造期/发动机/变速器/驱动配置的可信对应、车型实装电气/底盘/制动结构、实际维修业务故障频率及 OEM 服务技术资料，均维持 `UNKNOWN` / `OPEN`。
+
+后续优先按本地实车证据与 OEM 版本识别**差异才派发车型级 STR/FUN/FAIL/REP**，不能按年款固定篇数，也不因通用 BEV 知识尚不完整自动增加新任务。四篇需其它会话独立审核；39 篇既有接受不重审。
+<!-- END_R19_MYANMAR_SERIES_FOUR_NEW_CONTENT_COVERAGE -->
+
+
 <!-- MYANMAR_FLEET_FIRST_R17_COVERAGE_OVERRIDE -->
 ## R17 车型存量优先：覆盖的正确分母与 OPEN（2026-11-19）
 
