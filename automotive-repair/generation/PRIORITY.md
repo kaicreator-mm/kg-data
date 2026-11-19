@@ -3,7 +3,15 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
-## 最新 R9 派发优先级（2026-11-19；下文 R8 仅保留历史）
+## R10 最高优先级（2026-11-19，覆盖以下 R9 历史快照）
+
+- **真正新增**：`FUN-ENG-LUBE` [Markdown](./topics/engine/lubrication/function.md) Commit `94cac18b283cfa23ee500ce684648a331c3e3d3f` / Blob `1548f1d0d51b840f53e9fd101705d1ad49f0bc33` / [Writer RELEASE](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6997064528)；待另一对话独立内容质量审核。旧 `STR-ENG-LUBE@ff103f...` 审核可复用。
+- **当轮总进度**：真实知识 `23 GENERATED / 21 SCOPED_ACCEPT / 2 REVIEW_PENDING`；另 6 个 [R9 新 DAG 候选](./DAG_DELTA_R9.md) 仍是 `PROPOSED__REVIEW_PENDING`，并非已准入/生成；OEM/VIN/N3=0。
+- **旧 DAG 可立即再派**：`STR-ENG-AIRFUEL`、`STR-BODY-SAFETY`、`DISC-METHOD`、`FUN-HV`、`FAIL-BRK`（均旧 PLAN §4/§5）；另可在功能稿回读并确认 `MODEL_GENERATED_UNVERIFIED` 条件下滚动领 `FAIL-ENG-LUBE`（原 PLAN §4），若上游后续 REWORK 则标相应 `STALE` 并最小修复。
+- **独立审**：优先 `STR-DRIVELINE@9f70017...` 与 `FUN-ENG-LUBE@1548f1d...` 两条不同 Reviewer 工作集，再审 `DAG_DELTA_R9@96bcd828...` 的六节点增量门禁；三条可由不同其它对话并行。所有审核**待真实领取**，上轮只是发 OFFER，不能算 RUNNING。
+- **广度优先保障**：至少一个未覆盖整车系统结构节点（例如 `STR-ENG-AIRFUEL` 或 `STR-BODY-SAFETY`）并行于润滑/制动深度，不对缅甸 VIN/失效率/危险维修步骤作无来源外推。
+
+## 历史 R9 派发优先级（2026-11-19；已被 R10 覆盖）
 
 1. **R8 的三个独立质量审核已完成**：[REP-AT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518832)、[STR-THERMAL](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518885)、[FUN-BRK](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996547593) 均 ACCEPT_SCOPED_GENERATION_ONLY，P0/P1=0；不重做旧来源核对。
 2. **真实广度生成+待独审**：[STR-DRIVELINE](./topics/driveline/structure.md) Commit `f94d9c000049b070cde4c77c8febd7cacc904fa1` / Blob `9f70017bc47e3bc30110dfbc15ad5070c75981e1`；只由其它对话独审，不由原 Writer 自审。
