@@ -3,7 +3,7 @@
 > TASK_ID: FAIL-HEV-FAMILY · OUTPUT_LABEL: PARTS_AUTOREPAIR_V053_FAIL_HEV_FAMILY_W1  
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) · 阶段：第一阶段研究级 Markdown 知识生成。  
 > 唯一直接前置：[FUN-HEV-FAMILY](./function.md)，**Exact Blob** `f625c181d59471bfff80724583127099430c400c`，独立限定审核 [#61/6995879183](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995879183)。  
-> R9 计划：[DAG_DELTA_R9.md](../../DAG_DELTA_R9.md) Blob `96bcd828aa18770b78ba9d27d9dea08a0576cfb1`；[独立计划接受](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7002477265)、[C-R9-DISPATCH=ADMITTED](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7003606901)。  
+> R9 计划：[DAG_DELTA_R9.md](../../../DAG_DELTA_R9.md) Blob `96bcd828aa18770b78ba9d27d9dea08a0576cfb1`；[独立计划接受](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7002477265)、[C-R9-DISPATCH=ADMITTED](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7003606901)。  
 > **状态：MODEL_GENERATED_UNVERIFIED / GENERATED_REVIEW_PENDING**。以下“失效”都是附条件、待区分的研究假设，不是某辆缅甸 Honda 的实测故障、频率、DTC 对照、维修参数或安全许可。待其他对话独立 Source-First 内容审核后才可改变内容审核状态；OEM/VIN/N3 始终未授予。
 
 ## 1. 先分清实际机械与电能架构
@@ -111,7 +111,7 @@ Honda 2020 日本 Fit e:HEV 与官方双电机说明确认牵引电机、发电�
 
 ## 8. 缅甸存量车型、来源版本与特殊案例范围
 
-- **市场归属**：Honda 在日本 2010/2013/2020 的 Fit Hybrid、e:HEV 公告，只能证明相应技术家族在指定日本市场/时期真实存在；不能据此确认缅甸某辆 Fit/Jazz 的 GD/GE/GK/GR、底盘号、发动机、变速器、地区认证、实际 ECU 软件或牵引电池类型。参见 [Honda Fit 缅甸车型发现稿](../../series/myanmar/honda/fit/discovery.md)。
+- **市场归属**：Honda 在日本 2010/2013/2020 的 Fit Hybrid、e:HEV 公告，只能证明相应技术家族在指定日本市场/时期真实存在；不能据此确认缅甸某辆 Fit/Jazz 的 GD/GE/GK/GR、底盘号、发动机、变速器、地区认证、实际 ECU 软件或牵引电池类型。参见 [Honda Fit 缅甸车型发现稿](../../../series/myanmar/honda/fit/discovery.md)。
 - **权利与适用资料缺口**：真实 VIN、制造期、零件及软件版本、维修/召回适用列表、发动机起动路径、离合结构、BMS/PCU 许可表、DTC/冻结帧定义、温控限值、驱动与制动实际反馈与完成维修资格均为 **UNKNOWN**。
 - **历史召回不等于普遍发生率**：Honda 2014 日本公告所涉及日期、国家和具体受影响批次，与任意 2026 缅甸进口旧车的实际 VIN 身份是两个事实。它只能作为“真实软件问题会表现为起步/传动症状”的机制反例，不能把个案数量解释为车系故障率、当前车辆需召回或应执行软件刷新。
 - **版本迁移限制**：Honda 2024 及以后 e:HEV 下一代技术发布不能逆向代表 2020 Fit 已安装相同部件或控制策略；其它厂商的 PHEV、BEV、传统 AT、DCT、机械 CVT 不因名称相似而共享故障链。
