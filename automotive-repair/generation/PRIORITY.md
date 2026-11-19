@@ -3,6 +3,14 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
+## 最新 R7 优先队列（2026-11-19；覆盖后文旧 R6 快照）
+
+- **三项可并发异对话审核**：`FUN-HEV-FAMILY` R2 Blob `f625c181d59471bfff80724583127099430c400c` 仅独审 i-DCD §2.2 的 P1 修复及必要影响；`FAIL-AT` Blob `042c8d6bb21c53b877a6cd36238d854044759307` 新源来源/因果机制内容审；`STR-STEER-SUSP` Blob `1c84e3329bfcb40bcc2a01dac1b6af15ef5bfb40` 广度内容审。必须有各自独立 Claim，避免同 Writer 自审。
+- **已独立通过的三篇 FUN 不再重复**：[FUN-AT-PATH](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6989359346)、[FUN-AT-HYD](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6989338636)、[FUN-CVT-FAMILY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6989372961)；无 P0/P1，原样 Blob 复用限定质量资格，不赋予 OEM 资格。
+- **已提交并回读新 FAIL-AT**：[传统行星 AT 失效机制](./topics/transmission/automatic/failure.md) Commit `09a1babede4cde0e55747cd714f677dd20d38262`、Blob `042c8d6bb21c53b877a6cd36238d854044759307`；单症状保留机械/液压/控制/外部竞争解释，**REP-AT 暂不启动**直到本 FAIL 独审并满足专业资料限制。
+- **新广度**：[STR-STEER-SUSP](./topics/steering-suspension/structure.md) Commit `4be9513c711b1afd6e2d52517e1750aa57b214e9`、Blob `1c84e3329bfcb40bcc2a01dac1b6af15ef5bfb40`；其它原有独立 `STR-THERMAL` 和 `FUN-BRK/FUN-HV` 仍可认领，不因 HEV 修复等待。
+- **统计**：18 篇 Markdown 生成，15 篇限定独立内容质量 ACCEPT，3 篇待/重审，全部 OEM/VIN/N3 正式事实资格 0。通用/系列/共用家族三份已审 DAG 原 Blob 不修改，车型变型来源不足时保持 UNKNOWN。
+
 ## 最新优先队列（R6 / 2026-11-19；以下覆盖历史 R5 快照）
 
 - **新共用家族结构已通过**：`STR-CVT-FAMILY@19201970...` 经 [独立 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988497818)；`STR-HEV-FAMILY@23baed76...` 经 [独立 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988518984)。原样 Blob 不重审。其各自的 `FUN-CVT-FAMILY@368e0e8f...`、`FUN-HEV-FAMILY@2196e745...` 已实际生成但质量待独审。
