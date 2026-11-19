@@ -1,0 +1,13 @@
+chapter_id: u01s1
+pdf_pages_range:
+- 9
+- 14
+extractor_model: glm-flash-free
+source_pdf_sha256: 28c3d68ff9834dd8ca1aaaa08fae18f9f92db1af02fe28f47d4cb6e0c99e3a5e
+claims: 156
+entities: 94
+edges: 106
+evidence_records: 44
+open_questions: 7
+observations_local_only: true
+status: EXTRACTED_STRUCT_QA_PENDING_REVIEW

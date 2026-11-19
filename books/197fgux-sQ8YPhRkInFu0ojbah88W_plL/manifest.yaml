@@ -1,0 +1,32 @@
+book_id: book:197fgux-sQ8YPhRkInFu0ojbah88W_plL
+drive_file_id: 197fgux-sQ8YPhRkInFu0ojbah88W_plL
+title: 汽车发动机构造与维修（汤定国主编）
+edition: null
+isbn: null
+publication_year: 2005
+source_sha256: 28c3d68ff9834dd8ca1aaaa08fae18f9f92db1af02fe28f47d4cb6e0c99e3a5e
+pdf_page_count: 329
+rights:
+  source_access_basis: authorized Drive OAuth listing + local download
+  processing_allowed: LOCAL_ONLY_CONFIRMED
+  external_api_allowed: false
+  redistribution_allowed: UNKNOWN
+  rights_status: UNKNOWN
+  rights_evidence: no formal rights review yet; mirror-name markers checked where
+    present
+genre_route: vocational-engine-textbook-scanned
+book_status: BOOK_IN_PROGRESS
+book_completed: false
+pilot_scope:
+- chapter_id: u01s1
+  label: 单元一 第1节 发动机作用和基本工作原理
+  pdf_pages_range:
+  - 9
+  - 14
+  printed_pages:
+  - '3'
+  - '8'
+page_offset_printed_minus_pdfindex: 6
+historical_artifacts: null
+graph_revision: 1
+review_status: GENERATED_REVIEW_PENDING
