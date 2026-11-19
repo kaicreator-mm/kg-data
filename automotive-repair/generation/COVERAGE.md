@@ -3,6 +3,9 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | CONTROL: `C-COVERAGE` | STATUS: `DRAFT_INITIALIZED__REVIEW_PENDING`。
 > **这里的 OPEN 是缺口，不代表知识已生成。** 初始仅限 [SCOPE.md](./SCOPE.md) 规定的两个通用架构研究切片，非全部 OEM 车型/全部汽修。
 
+> **R9 当前快照（2026-11-19）**：[REP-AT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518832)、[STR-THERMAL](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518885)、[FUN-BRK](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996547593) 三项新内容均经异对话限定 ACCEPT，P0/P1=0。
+> 新增 [STR-DRIVELINE](./topics/driveline/structure.md) Commit `f94d9c000049b070cde4c77c8febd7cacc904fa1`、Blob `9f70017bc47e3bc30110dfbc15ad5070c75981e1`，仍待内容独审。**合计 22 已生成 / 21 限定审核通过 / 1 待审；OEM/VIN/N3 事实资格 0**。后文旧章节保留历史快照，动态以最新 #61 和 Git Blob 为准。
+
 ## 四视角覆盖状态
 
 `S` = 结构、`F` = 功能原理、`X` = 失效模式、`R` = 诊断维修维护。每个单元只记录实际观察状态：
@@ -17,12 +20,12 @@
 |---|---|---|---|---|---|---|
 | ICE 润滑 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-ENG-LUBE | [STR-ENG-LUBE R2 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6956153492)，另有非阻断 P2 ISO 草案来源时效问题 |
 | ICE 空气/燃油/排放 | OPEN | OPEN | OPEN | OPEN | STR-ENG-AIRFUEL | 待激活广度 |
-| 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | [REP-AT](./topics/transmission/automatic/diagnostic-repair.md) 研究级证据决策稿已生成，待非 Writer 内容审核 | [FAIL-AT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995905451) 独立限定 ACCEPT，Blob `042c8d6bb21c53b877a6cd36238d854044759307`；新 REP Blob `2948cafc88693aa746520717068239a77d2c5d52`，非实车修理 |
-| 传动/差速器 | OPEN | OPEN | OPEN | OPEN | STR-DRIVELINE | 待激活广度 |
-| 制动 / ABS/ESC | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | OPEN | OPEN | [FUN-BRK](./topics/braking/function.md) 实际生成，待非 Writer 内容审核 | 原 STR-BRK [独立限定 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955581575)；新增 FUN Blob `e5529c11339a5191de1ce46084923c8d38f88d7f`，严格不提供制动维修实操 |
+| 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | 已完成原定研究级 STR/FUN/FAIL/REP 链；新任务按缺口重新规划 | [REP-AT 独审 ACCEPT P2×1](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518832)，Blob `2948cafc88693aa746520717068239a77d2c5d52`，并非车型级诊断完成 |
+| 传动/差速器 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | [STR-DRIVELINE](./topics/driveline/structure.md) 已提交待独审；FUN 需新 DAG | Commit `f94d9c000049b070cde4c77c8febd7cacc904fa1`，Blob `9f70017bc47e3bc30110dfbc15ad5070c75981e1`；FWD/RWD/AWD、半轴、差速结构 |
+| 制动 / ABS/ESC | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | `FAIL-BRK` 在已审 PLAN §4 中已存在，现直接 READY | [FUN-BRK 独审 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996547593)，Blob `e5529c11339a5191de1ce46084923c8d38f88d7f` |
 | 转向悬架/轮胎 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | STR-STEER-SUSP 已独立限定质量接受，未来 FUN 需额外新 DAG 准入 | [审核 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995919397)，Blob `1c84e3329bfcb40bcc2a01dac1b6af15ef5bfb40`；未授予某车型零件适配 |
 | 低压电气/网络 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | 后续 FUN-LOWV 需单独新受审 DAG | [STR-LOWV 限定质量 ACCEPT（P2×1）](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984507844)，ICE/BEV 起动、供电与 CAN/LIN；非具体车型 OEM 事实 |
-| 空调/热管理 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | [STR-THERMAL](./topics/thermal/structure.md) 真实生成，等待非 Writer 内容审核 | Blob `377ee9339949f39d916591f2ada300a59e3c72f7`，ICE/BEV 换热/热泵多温区和 UNKNOWN；后继 FUN 尚未通过 DAG 准入 |
+| 空调/热管理 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | `FUN-THERMAL` 需经新增量 DAG 审核后派发 | [STR-THERMAL 独审 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518885)，Blob `377ee9339949f39d916591f2ada300a59e3c72f7f` |
 | 车身/被动安全 | OPEN | OPEN | OPEN | OPEN | STR-BODY-SAFETY | 待激活广度，高风险操作边界 |
 | BEV 高压/电驱/充电 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-HV | [STR-HV 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；仅非操作性结构知识 |
 | 跨系统诊断/维护通用技术 | OPEN | OPEN | OPEN | OPEN | DISC-METHOD | 先定义跨系统共享原则 |
