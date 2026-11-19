@@ -3,6 +3,18 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
+## R13 真正的审核阻塞收口（2026-11-19，最新）
+
+**已修复**：`FUN-HV` 中一处 `PLAN.md` 相对链接错误，Writer 新 Commit `bb6e35959a054cc9edbbfe9cfb6f72c65c7841b9`，当前 Blob `65b24f1324a62ce0fc16dd2a969e963a6819582c`，原 `0412b3da...` 仅历史生成快照，新 Reviewer 必须针对新 Blob。差量仅一条链接，不重做正文验证。
+
+**真实 R9 DAG 入场预检**：六上游 Blob 均匹配、六输出路径仍空、48→54 是新增六条无环叶边，独立写集无冲突；但此为同对话 Integrator 预检，不能代替原要求的不同对话独审 `ACCEPT_SCOPED_DELTA_PLAN_READY`。新六叶仍 `PROPOSED`，`FUN-DRIVELINE` 额外等待 STR-DRIVELINE 内容独审。
+
+**集中审核单入口**：[R13 一个独立新对话负责 8 篇知识 + 1 个 DAG 增量](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7002234207)，逐 Task 独立 Verdict/P0/P1/P2/Exact Blob 与 GitHub RELEASE，一次领取即可依序完成，已完成一项即回写，不需要另开九个对话。若 P1 才由对应 Writer 最小修复和增量复审；21 个旧 ACCEPT 不重审。
+
+**未虚报结束**：`29 GENERATED / 21 SCOPED_ACCEPT / 8 CONTENT_REVIEW_PENDING`；R9 `6 PROPOSED_NOT_ADMITTED`；OEM/VIN/N3=0。没有其它对话提交审核结论之前，内容质量和新 DAG 准入的正式阻塞仍在，不能以本次预检或派发冒充解除。
+
+## 历史 R12 快照
+
 ## R12 当轮最高优先级（2026-11-19，覆盖下文历史快照）
 
 **真实知识新增两篇（R12）**：
