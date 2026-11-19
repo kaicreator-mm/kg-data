@@ -5,10 +5,13 @@
 
 ## R10 最高优先级（2026-11-19，覆盖以下 R9 历史快照）
 
+> **第二次真实交付已加入**：[FAIL-ENG-LUBE](./topics/engine/lubrication/failure.md) Commit `b5399838e85c992aba9b1ebbccecb7de56debea8` / Blob `8c2cbbcf9ea262d4945ecbb290874d3e10c86875`，独审待派。**当前 24 GENERATED / 21 SCOPED_ACCEPT / 3 REVIEW_PENDING**；之前 23/21/2 是本轮第一批快照，不再代表最新总数。新增 `FAIL-ENG-LUBE` 的上游 `FUN-ENG-LUBE` 仍待独审，若 REWORK 应按影响标 STALE。独审可将两个不同 Task 分交两个其它对话，避免自审或未经前置确认晋升。
+
+
 - **真正新增**：`FUN-ENG-LUBE` [Markdown](./topics/engine/lubrication/function.md) Commit `94cac18b283cfa23ee500ce684648a331c3e3d3f` / Blob `1548f1d0d51b840f53e9fd101705d1ad49f0bc33` / [Writer RELEASE](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6997064528)；待另一对话独立内容质量审核。旧 `STR-ENG-LUBE@ff103f...` 审核可复用。
-- **当轮总进度**：真实知识 `23 GENERATED / 21 SCOPED_ACCEPT / 2 REVIEW_PENDING`；另 6 个 [R9 新 DAG 候选](./DAG_DELTA_R9.md) 仍是 `PROPOSED__REVIEW_PENDING`，并非已准入/生成；OEM/VIN/N3=0。
-- **旧 DAG 可立即再派**：`STR-ENG-AIRFUEL`、`STR-BODY-SAFETY`、`DISC-METHOD`、`FUN-HV`、`FAIL-BRK`（均旧 PLAN §4/§5）；另可在功能稿回读并确认 `MODEL_GENERATED_UNVERIFIED` 条件下滚动领 `FAIL-ENG-LUBE`（原 PLAN §4），若上游后续 REWORK 则标相应 `STALE` 并最小修复。
-- **独立审**：优先 `STR-DRIVELINE@9f70017...` 与 `FUN-ENG-LUBE@1548f1d...` 两条不同 Reviewer 工作集，再审 `DAG_DELTA_R9@96bcd828...` 的六节点增量门禁；三条可由不同其它对话并行。所有审核**待真实领取**，上轮只是发 OFFER，不能算 RUNNING。
+- **当轮总进度**：真实知识 `24 GENERATED / 21 SCOPED_ACCEPT / 3 REVIEW_PENDING`；另 6 个 [R9 新 DAG 候选](./DAG_DELTA_R9.md) 仍是 `PROPOSED__REVIEW_PENDING`，并非已准入/生成；OEM/VIN/N3=0。
+- **旧 DAG 可立即再派**：`STR-ENG-AIRFUEL`、`STR-BODY-SAFETY`、`DISC-METHOD`、`FUN-HV`、`FAIL-BRK`（均旧 PLAN §4/§5）；`FAIL-ENG-LUBE` 已真实提交、待独审；后继 `REP-ENG-LUBE`（原 PLAN §4）须以已生成 FAIL 为前置且保持安全/来源限定，可滚动研究，遇上游 REWORK 则按影响标 `STALE` 并最小修复。
+- **独立审**：优先 `STR-DRIVELINE@9f70017...`、`FUN-ENG-LUBE@1548f1d...`、`FAIL-ENG-LUBE@8c2cbbcf...` 三条不同 Reviewer 工作集，再审 `DAG_DELTA_R9@96bcd828...` 的六节点增量门禁；三条可由不同其它对话并行。所有审核**待真实领取**，上轮只是发 OFFER，不能算 RUNNING。
 - **广度优先保障**：至少一个未覆盖整车系统结构节点（例如 `STR-ENG-AIRFUEL` 或 `STR-BODY-SAFETY`）并行于润滑/制动深度，不对缅甸 VIN/失效率/危险维修步骤作无来源外推。
 
 ## 历史 R9 派发优先级（2026-11-19；已被 R10 覆盖）
