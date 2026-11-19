@@ -10,6 +10,8 @@
 
 > **R10 第二次增量回读**：新增 [FAIL-ENG-LUBE](./topics/engine/lubrication/failure.md) Commit `b5399838e85c992aba9b1ebbccecb7de56debea8`、Blob `8c2cbbcf9ea262d4945ecbb290874d3e10c86875`，单 Writer RELEASE [#6997180423](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6997180423)。当前实际知识文件 **24 GENERATED / 21 独审 ACCEPT / 3 REVIEW_PENDING**（STR-DRIVELINE、FUN-ENG-LUBE、FAIL-ENG-LUBE）；如前置 FUN-ENG-LUBE 日后 REWORK，则 FAIL-ENG-LUBE 受影响部分必须标 STALE；未晋升正式 OEM/VIN/N3。
 
+> **R11 最新快照（2026-11-19）**：新生成 [STR-ENG-AIRFUEL](./topics/engine/air-fuel-emissions/structure.md) Blob `a0a5dceadb22a1588876d1001e5a0a0451709469`、[DISC-METHOD](./topics/common/diagnostic-methods.md) Blob `b76e6445b21acd936fb7d138692a7a3c48424065`、[STR-BODY-SAFETY](./topics/body-safety/structure.md) Blob `8b9ec87fa448110e449c0b6233b6b812d8e9120a`，三个 Writer 均已 RELEASE，**全部仍待异对话内容质量审**。现有累计 **27 实际知识 Markdown / 21 限定质量 ACCEPT / 6 REVIEW_PENDING**。此前 R9/R10 数字是历史快照，不是当前完成数。专属缅甸 VIN、OEM/N3 事实资格依然 0；未覆盖与来源不足保持 OPEN/UNKNOWN。
+
 ## 四视角覆盖状态
 
 `S` = 结构、`F` = 功能原理、`X` = 失效模式、`R` = 诊断维修维护。每个单元只记录实际观察状态：
@@ -23,16 +25,16 @@
 | 对象/切片 | S | F | X | R | 下一具体缺口/任务 | 为什么选择或延期 |
 |---|---|---|---|---|---|---|
 | ICE 润滑 | ACCEPT_SCOPED_GENERATION_ONLY | GENERATED_REVIEW_PENDING | GENERATED_REVIEW_PENDING | OPEN | [FUN-ENG-LUBE](./topics/engine/lubrication/function.md) 与 [FAIL-ENG-LUBE](./topics/engine/lubrication/failure.md) 已交付待异对话独审，`REP-ENG-LUBE` 为已审 PLAN §4 后继候选 | FUN Blob `1548f1d0d51b840f53e9fd101705d1ad49f0bc33`；FAIL Blob `8c2cbbcf9ea262d4945ecbb290874d3e10c86875`，FAIL 依当前待审 FUN，后者 REWORK 时按影响 STALE |
-| ICE 空气/燃油/排放 | OPEN | OPEN | OPEN | OPEN | STR-ENG-AIRFUEL | 待激活广度 |
+| ICE 空气/燃油/排放 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | [STR-ENG-AIRFUEL](./topics/engine/air-fuel-emissions/structure.md) 已生成待独审；FUN 后继需新增量 DAG 准入 | Commit `d1a7d8d0b3c304d32eae8ed83df3e541250241d1` / Blob `a0a5dceadb22a1588876d1001e5a0a0451709469`，PFI/GDI、进气/点火/ECU/排放结构，缅甸发动机版本 UNKNOWN |
 | 传统液力行星 AT | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | 已完成原定研究级 STR/FUN/FAIL/REP 链；新任务按缺口重新规划 | [REP-AT 独审 ACCEPT P2×1](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518832)，Blob `2948cafc88693aa746520717068239a77d2c5d52`，并非车型级诊断完成 |
 | 传动/差速器 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | [STR-DRIVELINE](./topics/driveline/structure.md) 已提交待独审；FUN 需新 DAG | Commit `f94d9c000049b070cde4c77c8febd7cacc904fa1`，Blob `9f70017bc47e3bc30110dfbc15ad5070c75981e1`；FWD/RWD/AWD、半轴、差速结构 |
 | 制动 / ABS/ESC | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | `FAIL-BRK` 在已审 PLAN §4 中已存在，现直接 READY | [FUN-BRK 独审 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996547593)，Blob `e5529c11339a5191de1ce46084923c8d38f88d7f` |
 | 转向悬架/轮胎 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | STR-STEER-SUSP 已独立限定质量接受，未来 FUN 需额外新 DAG 准入 | [审核 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995919397)，Blob `1c84e3329bfcb40bcc2a01dac1b6af15ef5bfb40`；未授予某车型零件适配 |
 | 低压电气/网络 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | 后续 FUN-LOWV 需单独新受审 DAG | [STR-LOWV 限定质量 ACCEPT（P2×1）](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6984507844)，ICE/BEV 起动、供电与 CAN/LIN；非具体车型 OEM 事实 |
 | 空调/热管理 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | `FUN-THERMAL` 需经新增量 DAG 审核后派发 | [STR-THERMAL 独审 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6996518885)，Blob `377ee9339949f39d916591f2ada300a59e3c72f7f` |
-| 车身/被动安全 | OPEN | OPEN | OPEN | OPEN | STR-BODY-SAFETY | 待激活广度，高风险操作边界 |
+| 车身/被动安全 | GENERATED_REVIEW_PENDING | OPEN | OPEN | OPEN | [STR-BODY-SAFETY](./topics/body-safety/structure.md) 已生成待独审；后继功能需增量 DAG | Commit `932d91f06e7ff888b7a9f575f9bb0e1496d0600e` / Blob `8b9ec87fa448110e449c0b6233b6b812d8e9120a`，SRS 仅非操作性结构，OEM/VIN 未明 |
 | BEV 高压/电驱/充电 | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | OPEN | FUN-HV | [STR-HV 独立质量 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6955609189)；仅非操作性结构知识 |
-| 跨系统诊断/维护通用技术 | OPEN | OPEN | OPEN | OPEN | DISC-METHOD | 先定义跨系统共享原则 |
+| 跨系统诊断/维护通用技术 | OPEN | OPEN | OPEN | GENERATED_REVIEW_PENDING | [DISC-METHOD](./topics/common/diagnostic-methods.md) 已生成跨系统证据分析知识待独审；此 R 仅指通用诊断方法，不代表任何系统实际维修完成 | Commit `74de9488ff44413a963725c0b4838569d0ad0458` / Blob `b76e6445b21acd936fb7d138692a7a3c48424065`，DTC、Readiness、测量误差、竞争根因、UNKNOWN |
 | 机械式 CVT 共用家族（增量 R1） | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | 仅当新 DAG 审核后才可新增 FAIL/REP-CVT | [STR-CVT 独立 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6988497818)；[FUN-CVT 独立 ACCEPT P2×2](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6989372961)，Blob `368e0e8fb644674df5262a3bad8f394a810db164`；OEM/VIN 事实 0 |
 | HEV 共用家族 IMA/i-DCD/e:HEV（增量 R1） | ACCEPT_SCOPED_GENERATION_ONLY | ACCEPT_SCOPED_GENERATION_ONLY | OPEN | OPEN | FUN-HEV R2 已独立增量质量 ACCEPT；新 FAIL/REP-HEV 仍需增量计划 | [R2 新 Blob `f625c181d59471bfff80724583127099430c400c` 独立 ACCEPT](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6995879183) P0/P1=0；保留旧 R1 P1 REWORK 记录，不代签 OEM |
 | 柴油/独立 DCT/PHEV/其它电驱/重型等尚未研究切片 | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | OUT_OF_INITIAL_SLICE | ARCH-EXPAND | 家族增量仅覆盖明确 CVT 与 HEV，不能把未覆盖系统误标完成或不适用 |
