@@ -1,5 +1,23 @@
 # 汽修知识生成动态优先级与并行调度 — R1
 
+<!-- MYANMAR_FLEET_FIRST_R17_PRIORITY_OVERRIDE -->
+## R17 最新 Owner 调度纠偏：缅甸在用主流车系优先（2026-11-19）
+
+**当前最高优先规则：** [#61 Owner 范围变更](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7010490802)，[完整市场证据与车型队列](./MYANMAR_FLEET_PRIORITY_R1.md)。**不再以 ICE/HEV/BEV 技术类别广度调度新 Task，而以缅甸实际在用候选车系→实装代际、动力、传动/底盘→可复用结构/正常机理→失效→诊断维修的价值闭环调度。** 原下方 R14/R13 等为历史快照，不具有覆盖新 Owner 优先级的效力。
+
+- **M1 近期主线**：Probox 与 Succeed 分开、Honda Fit/Jazz；继续以本地市场与实际装配证据优先发现 Nissan AD Van/Wingroad、Toyota Vitz/Yaris。只生成已有知识尚不能回答的车系差量和维修问题。
+- **M2 次级候选**：Suzuki Swift、Toyota Wish、Nissan March；商用 Hilux/Hiace、Suzuki Carry 等，需按本地使用/维修与厂商车型证据逐步确认，不用车系全国虚构排名。
+- **共用知识优先**：汽油/柴油（后者需实际商用车型证据）、MT/AT/CVT、冷却/空调、制动、转向悬架、低压等与上述候选车型相符的机理；每篇通用知识只做一次、车系仅做差量。
+- **HEV 条件启动**：Honda Fit/其他本地有证据的 HEV 代际对应架构才允许推进车型差量；不得默认每辆 Fit 使用 e:HEV/i-DCD。R16 的 `REP-HEV-FAMILY` **HOLD_LOCAL_VARIANT_EVIDENCE**。
+- **BEV 专项暂缓**：已经真实生成的 `STR-HV/FUN-HV/FAIL-HV` 等保留既有限定审核，不删除不复审；**不再默认派发新的 BEV 专属失效/维修/充电知识**，除非后续确切本地存量、车型或维修工单证据满足同一市场准入规则。新车/进口增长不得替代存量证据。
+- **R16**：其八叶 Exact Blob 的独立 DAG 拓扑 ACCEPT 不等于按新 Owner 市场范围的自动调度资格；**`C-R16-DISPATCH` 在车型映射复核前 HOLD**。七条可用于 ICE/旧车的候选只需最小市场适用调整后可个别放行，不需重审无变化的源内容。
+- **下一批新 Task**：[R17 四条 Series Discovery](./MYANMAR_FLEET_PRIORITY_R1.md#4-r17-建议四条独立-series-discovery-任务均待最小计划审核与准入)为 PROPOSED，需异对话计划审与合法 Integrator 准入；不要把文件创建当 Writer 启动。
+
+**证据界限**：2026 全国分车系存量权威排名缺失 = `UNKNOWN`；2022 市场报道/2026 挂牌仅作相关性候选，注册量、销量、进口、挂牌、维修工单分账。**优先级=相关性与维修价值，并不是按固定文章数。**
+
+<!-- END_MYANMAR_FLEET_FIRST_R17_PRIORITY_OVERRIDE -->
+
+
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
