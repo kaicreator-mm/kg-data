@@ -3,7 +3,19 @@
 > MAIN: [parts-system #61](https://github.com/kaicreator-mm/parts-system/issues/61) | PLAN: [v0.4.1](./PLAN.md) | 状态: `C-PRIORITY_DRAFT_R1`
 > 计划入场：独立审核 [ACCEPT_SCOPED_PLAN_READY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954464408)，按 Blob `1df1f116a9f4e1effc46840aa4ec57be1289b6cf` 限定。详见 [C-DISPATCH Admission](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-6954548597)。
 
-## R13 真正的审核阻塞收口（2026-11-19，最新）
+## R14 已完成的独立审核、入场与新生成（2026-11-19，最新）
+
+**独立审已解除旧阻塞**：[R13 Batch RELEASE #7002592956](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7002592956) 证实旧 8 篇全部 `ACCEPT_SCOPED_GENERATION_ONLY`（P0/P1/P2=0），R9 六叶 DAG 增量计划 `ACCEPT_SCOPED_DELTA_PLAN_READY`（#7002477265），原 21 篇已审核证据复用，**无需重复复审**。
+
+**R9 六叶真正入场**：[C-R9-DISPATCH=ADMITTED #7003606901](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7003606901) 已核验六上游 Exact Blob、全部独占输出路径和 STR-DRIVELINE 最新独审；任务数为 `48+6=54`，不能将此计为内容完成率。
+
+**本轮两篇真正生成**：
+- `FUN-LOWV` [Markdown](./topics/electrical-low-voltage/function.md)，Commit `d02fe13e85b38a0cd4d6aab03dc140fab8d17891`，Blob `8d9f33e77445cc84f1e0952ff547da87a51341a2`，Writer [RELEASE #7003689613](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7003689613)，待异对话质量独审。
+- `FUN-STEER-SUSP` [Markdown](./topics/steering-suspension/function.md)，Commit `2a7ea12dab0e612d1ac37c3da8fc6b459ad9893e`，Blob `3975342848e3f0883289dbfb73c81be50f331d5c`，Writer [RELEASE #7003782574](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7003782574)，待异对话质量独审。
+
+**最新精确总数**：`31 GENERATED / 29 SCOPED_ACCEPT / 2 REVIEW_PENDING`；正式 OEM/VIN/N3=0。**四条可马上在不同 Writer 对话领取**：`FUN-THERMAL`、`FUN-DRIVELINE`、`FAIL-CVT-FAMILY`、`FAIL-HEV-FAMILY`（[完整分别限定的触发词](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7003606901)）。所有 Writer 需最新 GitHub Claim→二次仲裁→创建原生 Markdown→Exact Blob 回读→RELEASE，并各由另一非 Writer 对话独审；发 OFFER 不是自动运行。下一轮优先保留四条跨系统广度，不重复已通过知识，不增加不必要治理与 CI。
+
+## 历史 R13 真正的审核阻塞收口（2026-11-19，已被 R14 覆盖）
 
 **已修复**：`FUN-HV` 中一处 `PLAN.md` 相对链接错误，Writer 新 Commit `bb6e35959a054cc9edbbfe9cfb6f72c65c7841b9`，当前 Blob `65b24f1324a62ce0fc16dd2a969e963a6819582c`，原 `0412b3da...` 仅历史生成快照，新 Reviewer 必须针对新 Blob。差量仅一条链接，不重做正文验证。
 
