@@ -1,5 +1,19 @@
 # 汽修知识生成覆盖账本 — v0.4.1
 
+<!-- R20_PROBOX_REPAIR_COVERAGE -->
+## R20 · Probox/Succeed 维修知识覆盖优先（2026-11-20）
+
+**车型优先度：Probox 下一轮主线第一优先**；详见 [专项增量 Task DAG](./DAG_DELTA_R20_PROBOX.md)。已真实生成且独立接受的 [Probox 车型发现](./series/myanmar/toyota/probox/discovery.md) 与 [传动差量](./series/myanmar/toyota/probox/transmission-applicability-delta.md) 不重审、不重建。仍需按已核实发动机/变速器和商用配置继续补 **结构→功能→失效→竞争诊断/维修**，而非扩大通用 BEV 目录。
+
+- **已接受覆盖**：2002 日本来源 2NZ-FE、1NZ-FE、1ND-TV 家族与 2014 部分 Probox 1NR-FE/1NZ-FE、早期有级 4AT/5MT 和新 Toyota Super CVT-i 的**车型家族与时间范围区别**。这不是缅甸特定 VIN 适配。
+- **未完成的关键维修知识**：Probox 车型实际发动机装配/燃油与润滑差异（旧 `SER-DELTA-PROBOX-LUBE` 仍为 CONDITIONAL）；实装制动/轮胎/底盘载荷与 ABS；低压起动充电/空调车型差异；真实故障因果与维修证据。没有原始硬件差异证据则 `UNKNOWN` 或 `NO_MATERIAL_DELTA_YET`。
+- **新 R20 状态**：三个拟新增任务 `SER-DELTA-PROBOX-ENGINE`、`SER-DELTA-PROBOX-BRK-SUSP`、`SER-DELTA-PROBOX-LOWV-HVAC` 为 `PROPOSED_NOT_ADMITTED`。有效 DAG 仍 **58**；独立计划审并由 Integrator 逐项准入后才能增加。
+- **其它车系最新独审**：AD Van 和 Swift 已 Scoped ACCEPT；Vitz/Wish 在首轮 REWORK，需各自原 Writer 最小修复、异对话只审差量。未见新交付前历史生成总量仍 **43 篇**，其中 **41 篇限定接受、2 篇 REWORK**；不是已达 43/43。
+- **当前未获得**：缅甸全国 2026 年分车型存量/故障率、VIN 的 Toyota 型号与维修件互换、实车修复资格，全部保持 `UNKNOWN`/未授权。
+
+<!-- END_R20_PROBOX_REPAIR_COVERAGE -->
+
+
 <!-- R19_MYANMAR_SERIES_FOUR_NEW_CONTENT_COVERAGE -->
 ## R19 · 车型系列发现内容生成与覆盖不足（2026-11-19）
 
