@@ -1,5 +1,5 @@
 policy: equal normalized label+kind across books -> SAME_AS_CANDIDATE only; no auto same_as_verified; vehicle/transmission-variant merging forbidden without review
-candidates_total: 27
+candidates_total: 29
 candidates:
 - label_normalized: 传统点火系统
   kind: system
@@ -158,6 +158,13 @@ candidates:
   - book:1A0TcG3A9Z2Uq8wPTTJz6v1pqaQufcf_B:ent:k18
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
+- label_normalized: 电磁阀
+  kind: component
+  candidate_entity_ids:
+  - book:16c55BhyeXgeO0vl-E4D6gJDEpP43VA96:ent:k12
+  - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k04
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
 - label_normalized: 蓄电池
   kind: component
   candidate_entity_ids:
@@ -197,6 +204,13 @@ candidates:
   candidate_entity_ids:
   - book:1E6xA3XFUnSpJjULUyabJ-dFF57buxZ-v:ent:k01
   - book:1jDTXgUQ5NSX-YyBkMFuKnrwmhec4F84E:ent:k07
+  status: PENDING_SOURCE_VERSION_REVIEW
+  message: Equal label/kind does not prove identity
+- label_normalized: 防抱死制动系统（abs）
+  kind: system
+  candidate_entity_ids:
+  - book:16c55BhyeXgeO0vl-E4D6gJDEpP43VA96:ent:k10
+  - book:1wtxnL2CnwTklePxerazLQICo9-lrxzj3:ent:k25
   status: PENDING_SOURCE_VERSION_REVIEW
   message: Equal label/kind does not prove identity
 - label_normalized: 飞轮
