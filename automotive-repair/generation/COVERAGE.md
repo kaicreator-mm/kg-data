@@ -1,3 +1,12 @@
+<!-- PARTS_AUTOREPAIR_R23_SIX_WRITERS_COVERAGE_UPDATE -->
+## R23 · 六系统 R 叶落地，REP-CVT 覆盖推进（2026-11-20）
+
+- **覆盖推进**：R22 准入的六条通用/跨车系叶子全部真实写稿并 RELEASE（见 [PRIORITY.md R23 块](./PRIORITY.md) 收据表）：`FUN-ENG-AIRFUEL`（空气/燃油/排放 F 列 OPEN→GENERATED_REVIEW_PENDING）、`FAIL-LOWV`（低压电气 X 列）、`FAIL-STEER-SUSP`（转向悬架/轮胎 X 列）、`FAIL-DRIVELINE`（传动/差速器 X 列）、`FAIL-THERMAL`（空调/热管理 X 列）、`FUN-BODY-SAFETY`（车身/被动安全 F 列，较低优先）。四视角主表的逐格变更以上述正文实际 Blob 独审后结算，本轮仅记交付。
+- **机械 CVT 家族 R 列**：[REP-CVT-FAMILY](./topics/transmission/cvt/diagnostic-repair.md) 获 [独立审核 ACCEPT_SCOPED_GENERATION_ONLY](https://github.com/kaicreator-mm/parts-system/issues/61#issuecomment-7026283052)（P0=0 P1=0 P2=0），Blob `7ca8717c02f81220ec58fb1c57116a19984cc2a7`；该家族 S/F/X/R 四列全部处于限定接受态（X 列 FAIL 早已接受）。
+- **当前计数：53 GENERATED / 45 ACCEPT_SCOPED / 6 REVIEW_PENDING（六 R23 新稿）/ 2 REWORK(Vitz/Wish)**；生效 DAG 68 不变，无新增节点、无 BEV/HEV 扩张。
+- 六篇新稿共同边界：缅甸具体车 VIN/装配、OEM 服务参数、DTC 阈值、真实故障率与修复成效全部 `UNKNOWN`；制冷剂/SRS/路试/液压压测等危险操作零授权；全部等待非 Writer 独立审核 Exact Blob。
+<!-- END_PARTS_AUTOREPAIR_R23_SIX_WRITERS_COVERAGE_UPDATE -->
+
 <!-- PARTS_AUTOREPAIR_R22_ICE_SEVEN_ADMISSION_LEDGER -->
 ## R22 · 缅甸 ICE 结构→功能→失效→诊断维修补全（2026-11-20）
 
